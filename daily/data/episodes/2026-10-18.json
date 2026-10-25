@@ -1,0 +1,599 @@
+{
+ "date": "2026-10-18",
+ "ep": 14,
+ "hook": "YEARS INTO MINUTES.",
+ "day": "Sunday 18 October 2026",
+ "chapters": [
+  "THE MYSTERY",
+  "THE MODELS",
+  "THE MONEY",
+  "THE FUTURE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Sun 18 Oct 2026.",
+ "notes": [
+  "Reported, not confirmed: Anthropic's $60 billion chip financing and Blackstone's 10%+ yield (Financial Times, via Mint).",
+  "This week: Claude's NIST curve-seed discovery and quantum-circuit designs (Anthropic, 16 Oct), Anthropic's workforce report (16 Oct) and RTX Spark laptops going on sale (16 Oct).",
+  "Benchmark and forecast claims are the organisations' own: DeepSeek's scores, Claude's circuit gains, and Jack Clark's GDP figure, from an Anthropic model 'under certain conditions'.",
+  "Made at the 10:30 retry, with the 5:00 run's window, so it picks up where 17 Oct's edition left off.",
+  "Screenshots are the publishers' public article pages as captured on 18 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "YEARS INTO MINUTES ⚡\n\nToday's AI news in 3 minutes:\n- Claude solves a decades-old crypto mystery in under 30 min\n- DeepSeek ships a faster, leaner model\n- Jensen Huang: 'All of this is going to pass'\n- Anthropic's Jack Clark: science will speed up\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (18 Oct 2026), hosted by Claudia: Claude solving a decades-old cryptography mystery and designing leaner quantum circuits, DeepSeek's faster model, Replit switching to OpenAI, Kimi's AI credit card, a chip-stock slump and Jensen Huang's reply, Anthropic's chip financing, Musk on AI and the debt, Jack Clark on faster science, an AI companion for cancer patients, websites shutting out AI agents, fewer junior hires at Anthropic, free repairs filmed to train robots, Nvidia's AI laptops and a London robotaxi protest, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "Anthropic: Claude traced the NIST curve seeds to the C library's lrand48, seeded with 1997-98 timestamps; P-256 took 1,842 draws",
+  "CyberInsider: cryptographer Filippo Valsorda verified the result; the $36,864 bounty went to ISRG, the nonprofit behind Let's Encrypt",
+  "OfficeChai: DeepSeek's new Flash scores 35.4 to Claude Opus 5's 28.6 on Agents' Last Exam; Opus still leads on Humanity's Last Exam",
+  "Investing.com: DeepSeek has opened its search API to all users",
+  "Anthropic: Claude's quantum designs beat the best published circuits, in some cases by an order of magnitude or more",
+  "Startup Fortune: the Kimi card is issued with Agricultural Bank of China and caps what you can redeem",
+  "The Straits Times: Nvidia shares fell in seven of the past eight sessions; CoreWeave lost a quarter of its value this week",
+  "Mint: Anthropic's chip financing includes about $9 billion of Blackstone-managed junior debt",
+  "Axios: Musk tells Walter Isaacson he 'should have gone back and focused on AI a little sooner'",
+  "CNBC: Jack Clark called for 'unusual and serious rules' for transformative AI at the IMF and World Bank meetings in Bangkok",
+  "CNBC: Anthropic's model sees US output reaching $44 trillion, from just over $30 trillion; Clark: it 'sounds very outlandish, I know'",
+  "TechCrunch: meeting time per Anthropic employee is up 20%, and 20% of staff say their job shifted to 'managing Claudes'",
+  "The Verge: JPMorgan Chase and Charles Schwab are blocking AI agents from customer accounts",
+  "BBC: about 15 demonstrators protested London's driverless-taxi trials",
+  "Tom's Hardware: HUMXN's free home services in Minneapolis, Chicago and Miami also include electrical work and carpet cleaning",
+  "HotHardware: RTX Spark laptops from Microsoft, ASUS and HP sell for $2,599 to $3,999 at Best Buy",
+  "TechCrunch: Replit makes OpenAI its default over Anthropic, CEO Amjad Masad says",
+  "Fortune: Dario Amodei says up to 40% of his time goes to making sure Anthropic's culture is good",
+  "Reuters: investors temper Anthropic IPO valuation expectations over slower revenue growth, sources say",
+  "The Next Web: Sergey Brin says Gemini now helps build the next Gemini (15 Oct)",
+  "Ars Technica: Gemini 4 Argon is rolling out in the Gemini app and Antigravity, for paying users (13 Oct)",
+  "Decrypt: StepFun's STEPX Neo phone is built around an AI agent, not apps",
+  "Gizmodo: $137 million has been spent on AI-generated ads ahead of the US midterms (16 Oct)",
+  "Axios: AWS's CFO says AI spending is sustainable"
+ ],
+ "sources": [
+  "AndroGuider",
+  "Anthropic",
+  "Ars Technica",
+  "Axios",
+  "BBC",
+  "Bloomberg",
+  "CNBC",
+  "CoinDesk",
+  "CyberInsider",
+  "Decrypt",
+  "DeepSeek",
+  "Digital Trends",
+  "Financial Times",
+  "ForkLog",
+  "Fortune",
+  "Gizmodo",
+  "HotHardware",
+  "Investing.com",
+  "Mint",
+  "OfficeChai",
+  "Reuters",
+  "South China Morning Post",
+  "Startup Fortune",
+  "TechCrunch",
+  "The Next Web",
+  "The Straits Times",
+  "The Verge",
+  "Thurrott",
+  "Tom's Hardware"
+ ],
+ "scanned": 4724,
+ "stories": [
+  {
+   "id": "claude-nist-curve-seeds",
+   "title": "Claude traced the mystery NIST curve seeds to timestamps in under half an hour",
+   "summary": "An internal Claude model found in under half an hour that the NSA-supplied seeds for five NIST curves, unexplained since 2000, came from a C random-number generator seeded with 1997-98 timestamps, which Anthropic says makes a backdoor much less plausible. Cryptographer Filippo Valsorda verified the result.",
+   "chapter": "THE MYSTERY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+     "outlet": "CyberInsider"
+    },
+    {
+     "outlet": "CoinDesk"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An internal Claude model worked out in under half an hour where the NIST curve seeds came from, a question open since 2000."
+    }
+   ]
+  },
+  {
+   "id": "deepseek-v4-1-flash",
+   "title": "DeepSeek's V4.1-Flash is faster and leaner, and beats Claude Opus 5 on some agent tests",
+   "summary": "DeepSeek's V4.1-Flash-1017, live on its app, website and API, is billed as a 'Pareto improvement in performance and cost'. By DeepSeek's own scores it beats Claude Opus 5 on Agents' Last Exam (35.4 vs 28.6), though Opus 5 still leads on Humanity's Last Exam and repo-level coding.",
+   "chapter": "THE MODELS",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/deepseek-v4-1-flash-1017-benchmarks-cost/"
+    },
+    {
+     "outlet": "DeepSeek"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "replit-makes-openai-default",
+   "title": "Replit makes OpenAI the default for its coding agent over Anthropic, its CEO says",
+   "summary": "Replit CEO Amjad Masad says the coding app is no longer working with Anthropic, and OpenAI models have become the default behind Replit Agent after an August deal, according to TechCrunch and AndroGuider.",
+   "chapter": "THE MODELS",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "AndroGuider",
+     "url": "https://www.androguider.com/2026/10/replit-ends-anthropic-partnership-over.html"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-designs-leaner-quantum",
+   "title": "Claude designs leaner quantum circuits, one with 17x fewer gates than the best prior design",
+   "summary": "From plain-language specs for eight circuits in chemistry, optimization, physics simulation and number theory, Claude found designs beating the best published ones, some by an order of magnitude or more, Anthropic says. The work, with Harvard's Susanne Yelin and Mikhail Lukin, is a preprint.",
+   "chapter": "THE MODELS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+    },
+    {
+     "outlet": "ForkLog"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Claude designed circuits beating the best published ones, some by an order of magnitude; Anthropic says quantum computers could come sooner."
+    }
+   ]
+  },
+  {
+   "id": "kimi-ai-credit-card",
+   "title": "Moonshot AI's Kimi card turns everyday spending into AI credits, up to a cap",
+   "summary": "The Kimi card, issued with Agricultural Bank of China, turns everyday spending into access to AI services, including agent usage quotas and coding tools, but caps what you can redeem.",
+   "chapter": "THE MODELS",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "Startup Fortune",
+     "url": "https://startupfortune.com/kimis-new-credit-card-turns-spending-into-ai-credits-but-caps-what-you-can-redeem/"
+    },
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chip-stocks-eight-day",
+   "title": "Chip stocks fall eight days straight, their longest losing streak since 2008",
+   "summary": "The Philadelphia Stock Exchange Semiconductor Index fell for eight straight days, its longest losing streak since 2008, as investors worry AI spending isn't sustainable with higher borrowing costs. Nvidia fell in seven of the last eight sessions and CoreWeave lost a quarter of its value this week.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "url": "https://www.straitstimes.com/business/all-of-this-is-going-to-pass-nvidia-ceo-jensen-huang-on-ai-market-turmoil"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "challenges",
+     "note": "Chip stocks fell eight days straight, the longest streak since 2008, and CoreWeave lost a quarter of its value this week."
+    }
+   ]
+  },
+  {
+   "id": "jensen-huang-going-pass",
+   "title": "Jensen Huang on AI market turmoil: 'All of this is going to pass'",
+   "summary": "Nvidia CEO Jensen Huang told Bloomberg's Emily Chang at an event in Berlin that 'all of this is going to pass' and 'it's going to be transformative', adding that news 'won't change the fundamentals'.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "url": "https://www.straitstimes.com/business/all-of-this-is-going-to-pass-nvidia-ceo-jensen-huang-on-ai-market-turmoil"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-60b-chip-financing",
+   "title": "Anthropic reportedly seeks $60 billion to finance Google AI chips",
+   "summary": "Anthropic is seeking $60 billion to finance purchases of Google TPUs, including about $9 billion of Blackstone-managed junior debt yielding more than 10%, according to the Financial Times, via Mint.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "Mint",
+     "url": "https://www.livemint.com/ai/artificial-intelligence/anthropic-offers-blackstone-double-digit-yield-in-chip-financing-deal-what-the-60-billion-deal-entails-11792204532812.html"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "Anthropic is reportedly seeking $60 billion just to finance Google TPU purchases, a sign of the scale of AI infrastructure commitments."
+    }
+   ]
+  },
+  {
+   "id": "musk-robots-fix-debt",
+   "title": "Elon Musk: the only way to fix the US national debt is AI and robots",
+   "summary": "On Walter Isaacson's new podcast, The Builders, Elon Musk said 'the only way we're going to solve the national debt is with AI and robots', not by trying to 'save our way there', Axios reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/musk-tells-isaacson-only-ai-and-robots-can-fix-us-debt-axios-reports"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "jack-clark-science-speed",
+   "title": "Anthropic's Jack Clark: science will speed up, and US output could grow almost 50% by 2030",
+   "summary": "At the IMF and World Bank meetings in Bangkok, Anthropic co-founder Jack Clark said an internal model forecasts, under certain conditions, US output of $44 trillion by 2030, up from just over $30 trillion ('sounds very outlandish, I know'). He said science as a whole will speed up.",
+   "chapter": "THE FUTURE",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/17/ai-us-gdp-anthropics-clark.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Anthropic co-founder Jack Clark projects that the pace of progress in AI and in science as a whole will speed up."
+    }
+   ]
+  },
+  {
+   "id": "hong-kong-student-companion",
+   "title": "Hong Kong student Claudia Chan built an AI companion for cancer patients",
+   "summary": "Claudia Chan, a CUHK medical student and Spirit of Hong Kong Awards finalist, built an AI tool that offers cancer patients emotional support between appointments, drawing on cancer survivors' experiences.",
+   "chapter": "THE FUTURE",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.msn.com/en-xl/health/general/a-companion-between-appointments-hong-kong-student-s-ai-tool-for-cancer-patients/ar-AA2eptKB"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "websites-shut-out-ai-agents",
+   "title": "Yelp, Delta and big banks are shutting AI agents out",
+   "summary": "The Verge reports Yelp only lets in AI agents that pay for its data licensing, Delta Air Lines stops agents booking tickets, and JPMorgan Chase and Charles Schwab block agents from accounts; users report blocks at Cars.com and Amtrak too.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-0",
+     "key": "6578e05a7a",
+     "relation": "challenges",
+     "note": "Yelp admits only agents that pay, Delta blocks agent bookings and JPMorgan Chase and Schwab block agents, limiting where agents can work."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-junior-technical-hires",
+   "title": "Anthropic's junior share of technical hires fell from 27% to 9%",
+   "summary": "Anthropic's report on its own workforce says junior hires fell from 27% to 9% of technical hires since early 2025, and meeting time per employee rose 20% in a year. A fifth of staff said their job shifted 'from actually doing work to managing Claudes'.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+    },
+    {
+     "outlet": "Anthropic"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-1",
+     "key": "5f44d27e24",
+     "relation": "early",
+     "note": "At Anthropic, 20% of staff say their job shifted to 'managing Claudes', and junior technical hires fell from 27% to 9%."
+    }
+   ]
+  },
+  {
+   "id": "humxn-free-home-repairs",
+   "title": "HUMXN offers free home repairs in three US cities, filmed to train AI and robots",
+   "summary": "AI lab HUMXN pays for plumbing, HVAC, electrical and cleaning jobs in Minneapolis, Chicago and Miami, recording the work with wearable sensors to gather training data for AI models and robots, Tom's Hardware reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.msn.com/en-gb/technology/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots/ar-AA2erYe6"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-2",
+     "key": "b71f224c8c",
+     "relation": "early",
+     "note": "HUMXN records plumbing, HVAC and electrical jobs with wearable sensors to build training data for AI models, trade by trade."
+    },
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "The repair jobs are filmed to train robots on real household trade work, from plumbing to electrical repairs."
+    }
+   ]
+  },
+  {
+   "id": "rtx-spark-laptops-sale",
+   "title": "Laptops on Nvidia's RTX Spark superchip go on sale from $2,599",
+   "summary": "Arm-based RTX Spark laptops from Microsoft, ASUS and HP are on sale at Best Buy for $2,599 to $3,999. The chip pairs a Grace CPU and a Blackwell RTX GPU in one package, built for running AI agents locally.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "HotHardware",
+     "url": "https://hothardware.com/news/6-top-nvidia-rtx-spark-laptops-best-buy"
+    },
+    {
+     "outlet": "Nvidia"
+    },
+    {
+     "outlet": "Thurrott"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "london-robotaxi-protest",
+   "title": "London protesters call for driverless-taxi trials to stop",
+   "summary": "About 15 demonstrators called for London's driverless-taxi trials to stop over safety, congestion and jobs, the BBC reports; unions representing drivers fear job losses.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.com/news/articles/cmx23n3k35kdo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "rtx-5090-shortage",
+   "title": "Nvidia says the RTX 5090 isn't discontinued as Amazon listings hit $8,500",
+   "summary": "Nvidia says its flagship RTX 5090 gaming card isn't discontinued despite severe shortages; it is missing from Nvidia's store and commands $8,500 on Amazon, Digital Trends reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "Digital Trends",
+     "url": "https://www.digitaltrends.com/computing/nvidia-rtx-5090-not-discontinued-shortage/"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bank-of-england-ai-agents",
+   "title": "Bank of England's Andrew Bailey: people could be misled on AI agents' payment liability",
+   "summary": "The Bank of England's Andrew Bailey told the G30 they 'have got to address' concerns about AI agents, warning that 'people could get misled' about who has legal liability when an agent makes payments for them, the Financial Times reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "Financial Times",
+     "url": "https://www.ft.com/content/3185b4cd-ab35-4efc-9d75-dcecc1631625"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "Years into minutes. A security puzzle stumped experts for decades."
+  },
+  {
+   "s": 18.77,
+   "t": "Claude cracked it in under half an hour."
+  },
+  {
+   "s": 22.5,
+   "t": "The answer? Just timestamps, no backdoor. And the prize money went to charity."
+  },
+  {
+   "s": 31.88,
+   "t": "Models: DeepSeek's new Flash model is faster and leaner, and beats Claude Opus 5 on some agent tests."
+  },
+  {
+   "s": 39.38,
+   "t": "And the coding app Replit swapped Anthropic out."
+  },
+  {
+   "s": 42.5,
+   "t": "OpenAI is its default now, its CEO says."
+  },
+  {
+   "s": 45.94,
+   "t": "Claude also designed quantum circuits up to 17 times leaner."
+  },
+  {
+   "s": 49.65,
+   "t": "Quantum computers could come sooner."
+  },
+  {
+   "s": 52.97,
+   "t": "In China, Kimi's new credit card turns everyday spending into AI credits, up to a cap."
+  },
+  {
+   "s": 60.0,
+   "t": "Money: chip stocks just fell eight days straight, their longest losing streak since 2008."
+  },
+  {
+   "s": 67.5,
+   "t": "Nvidia's Jensen Huang: all of this is going to pass."
+  },
+  {
+   "s": 70.58,
+   "t": "It's going to be transformative."
+  },
+  {
+   "s": 75.0,
+   "t": "Anthropic is reportedly seeking $60 billion for chips, offering Blackstone more than 10%."
+  },
+  {
+   "s": 82.5,
+   "t": "And Elon Musk says the only way to fix America's debt is AI and robots."
+  },
+  {
+   "s": 87.37,
+   "t": "Not by saving."
+  },
+  {
+   "s": 90.0,
+   "t": "The future: Anthropic's Jack Clark says science will speed up, and America's economy could grow almost 50% by 2030."
+  },
+  {
+   "s": 98.44,
+   "t": "And in Hong Kong, student Claudia Chan built an AI companion for cancer patients, between appointments."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch: Yelp, Delta and big banks are shutting AI agents out."
+  },
+  {
+   "s": 110.62,
+   "t": "And Anthropic's junior tech hires fell from 27% to 9%."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines: an AI lab is offering free plumbing repairs in three cities, filmed to train robots."
+  },
+  {
+   "s": 128.44,
+   "t": "Laptops on Nvidia's new AI superchip went on sale this week, from about $2,600."
+  },
+  {
+   "s": 135.0,
+   "t": "In London, protesters want robotaxi trials stopped, over safety, traffic and jobs."
+  },
+  {
+   "s": 141.56,
+   "t": "Years into minutes. And the real gift is time. Let's spend it well."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  }
+ ],
+ "captions": true,
+ "video": null,
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
