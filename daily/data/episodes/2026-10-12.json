@@ -1,0 +1,619 @@
+{
+ "date": "2026-10-12",
+ "ep": 8,
+ "hook": "",
+ "day": "Monday 12 October 2026",
+ "chapters": [
+  "THE WORD",
+  "THE AGENTS",
+  "THE MONEY",
+  "THE SCIENCE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 09:22 AEDT, Mon 12 Oct 2026 (a quiet US weekend).",
+ "notes": [
+  "Reported, not confirmed: The Telegraph's account of the UK AI Security Institute's restored pre-release access (single source); the WSJ's report that Amazon is in talks to buy Decart (talks could collapse); the Harvard working paper's figures as summarised by Forkast (we could not open the PDF).",
+  "This week: Vals AI's agent-team benchmark (9 Oct), Epoch AI's InnovationEval (7 Oct), the Hurricane Center's reliance on DeepMind (8-9 Oct) and REK's robot cage fights (8 Oct); flashes: ArtCraft (8 Oct) and Odyssey-3's public preview.",
+  "Korea's turnover figures come via PANews and Investing.com summaries of Cailian Press and Bloomberg reporting; bank-deposit figures are industry officials' numbers via The Korea Times.",
+  "Performance and cost claims (Odyssey, XPeng, Vals AI, Epoch) are the organisations' own; Booz Allen's tests ran in a lab with humans approving every exploit.",
+  "Screenshots are the publishers' public article pages as captured on 11-12 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "The singularity, one day at a time ⚡\n\nThe last 24 hours in AI, in 3 minutes:\n- Nadella says \"super intelligence\"\n- Amazon reportedly eyes Decart, ~$7B\n- Korea's AI trade cools\n- Bloomington eyes a superintelligence ban\n- Robots to stock Danish shelves\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last 24 hours of AI news (12 Oct 2026): Silicon Valley's 'super intelligence' rebrand, the UK's restored model access, coding-agent reality checks, Amazon's reported Decart talks, Korea's cooling AI trade, a Bloomington superintelligence ban proposal, humanoids in Danish supermarkets and more, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "Booz Allen: models moved a robotic arm in minutes and went from a perimeter breach to an industrial control network in just over 16 minutes (lab test)",
+  "Telegraph: UK AI minister Kanishka Narayan to say tech firms cannot be left to regulate themselves, with changes to the Cyber Security and Resilience Bill",
+  "Telegraph: Anthropic had restricted UK officials from reviewing Claude Mythos 5.1 after a White House request last month",
+  "Epoch AI: GPT-5.6 Sol and Claude Fable 5 each got 3,000 GPU-hours to invent a post-training method; neither matched the human one",
+  "The Decoder: Anthropic's Claude Opus 5.5 system card says the model is far from replacing the company's own researchers",
+  "Vals AI: GPT-6 Sol's max-effort single agent cost $4.82 an app, 1.6x its medium-effort team ($3.07)",
+  "Harvard working paper: commits up 20%, pull requests up 23%, review times up 49% as coding agents spread",
+  "Bloomberg: Anthropic walked away from a roughly $6B Decart deal in September",
+  "Korea Times: KB Kookmin plans an information-security budget above 100B won next year, up from 86.1B won",
+  "Korea Times: ARTEX, a Chinese open-source AI security tool reportedly used in the bank attacks, gets no further public releases",
+  "Counterpoint: DRAM per humanoid robot to rise from 19GB to 39GB by 2030; Goldman sees about 890,000 humanoids shipped in 2030",
+  "Shanghai Daily: Yau says AI grows exponentially and China needs 'knowledgeable scholars and innovative young students'",
+  "CNN via Moneycontrol: NHC director Michael Brennan says DeepMind's model was more consistent between successive forecasts",
+  "EV: XPeng's production IRON has 76 degrees of freedom and three Turing chips (2,250 TOPS); H1 R&D spend 770M euros",
+  "To Vima, citing Euronews: Salling Group staff spend 40-50% of their time stocking shelves; the robots are still slower than humans",
+  "Nikkei: Galaxy Robot Park opened in Seoul in August with live humanoid performances",
+  "IBTimes AU: REK says a robot is not a second person; California says any contest involving a human needs its approval",
+  "The B Square: lifting Bloomington's proposed ban without state action would need more than 95% of registered voters",
+  "Wowtale: Mobilint's NPU flew on the Nuri rocket, the first Korean-made NPU to reach orbit (8 Oct)",
+  "The Robot Report: AWS launches an open-source Physical AI Toolchain, drawing on Amazon's fleet of 1 million robots (8 Oct)",
+  "TechCrunch Equity: Amazon and Microsoft say they will stop using NDAs in data-center talks with local governments",
+  "Reuters: Denmark's culture minister proposes a ban on sharing lifelike AI deepfakes without consent (8 Oct)",
+  "SWNS: Rafal Goral, 45, beat a 100-pound Newquay parking fine after three years by using ChatGPT as his lawyer (9 Oct)",
+  "Reuters: Manus raised more than $500M, its first round since Meta's acquisition was unwound (8 Oct)",
+  "Reported: Qualcomm CEO Cristiano Amon says AI firms want 100B-parameter models on phones by 2028, triple today's 30B"
+ ],
+ "sources": [
+  "AFP",
+  "Associated Press",
+  "Bloomberg",
+  "Booz Allen Hamilton",
+  "Business Times",
+  "Cailian Press",
+  "CNN",
+  "Counterpoint Research",
+  "Epoch AI",
+  "EV (eletric-vehicles.com)",
+  "Euronews",
+  "Forkast",
+  "Fox News",
+  "IBTimes Australia",
+  "Moneycontrol",
+  "New York Times",
+  "Nikkei Asia",
+  "Odyssey",
+  "PANews",
+  "Reuters",
+  "Shanghai Daily",
+  "South China Morning Post",
+  "The B Square",
+  "The Chosun Ilbo",
+  "The Decoder",
+  "The Korea Times",
+  "The Register",
+  "The Telegraph",
+  "The Verge",
+  "To Vima",
+  "Vals AI",
+  "Wall Street Journal"
+ ],
+ "scanned": 3381,
+ "stories": [
+  {
+   "id": "super-intelligence-rebrand-spreads",
+   "title": "AI becomes 'SI': Musk, Benioff, Huang and now Nadella adopt Trump's 'super intelligence'",
+   "summary": "The Verge says Silicon Valley is falling in line with Trump's attempt to rename AI: Musk promised SpaceXAI would become SpaceXSI, Benioff renamed AIForce SIForce, Nvidia's $1B science pledge included 'super intelligence research', and Nadella's latest blog post uses 'super intelligence'.",
+   "chapter": "THE WORD",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
+    },
+    {
+     "outlet": "The Decoder"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uk-security-institute-regains",
+   "title": "UK AI Security Institute reportedly regains pre-release access to frontier models",
+   "summary": "The Telegraph reports the White House has restored the UK AI Security Institute's pre-release access to Anthropic, Google DeepMind and OpenAI models after lobbying by AI minister Kanishka Narayan. The single-source report had no White House or lab confirmation.",
+   "chapter": "THE WORD",
+   "badge": "REPORTED",
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "The Telegraph",
+     "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-4",
+     "key": "013e9185ef",
+     "relation": "supports",
+     "note": "The Telegraph reports the White House restored UK pre-release safety testing of Anthropic, OpenAI and Google DeepMind models."
+    }
+   ]
+  },
+  {
+   "id": "harvard-working-paper-coding",
+   "title": "Harvard paper: coding agents write 30% more code, with no significant rise in resolved issues",
+   "summary": "A Harvard working paper using Jellyfish data on 718 firms and 725,000+ workers finds code output up 30% but no statistically significant increase in resolved issues, while review times rose 49%, according to Forkast's summary of the paper.",
+   "chapter": "THE AGENTS",
+   "badge": "REPORTED",
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "Forkast",
+     "url": "https://forkast.news/ai-coding-agents-write-30-more-code-and-resolve-zero-additional-issues-harvard-study-finds/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "challenges",
+     "note": "Per Forkast's summary, coding agents lifted code output 30% across 718 firms but not resolved issues, while review times rose 49%."
+    }
+   ]
+  },
+  {
+   "id": "vals-agent-teams-cost",
+   "title": "Vals AI: agent teams cost up to 5.1x more than one agent, for one significant gain",
+   "summary": "In Vals AI's test on 50 Vibe Code Bench apps, teams of GPT-6 Sol or Claude Opus 5.5 agents cost 1.8 to 5.1 times as much as single agents. Only Sol at medium effort improved significantly, by 7.3 points, and each setup ran once.",
+   "chapter": "THE AGENTS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-09",
+   "sources": [
+    {
+     "outlet": "Vals AI",
+     "url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+    },
+    {
+     "outlet": "The Decoder"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "epoch-innovationeval-agents-overstate",
+   "title": "Epoch AI: agents asked to invent a research method claimed 70% of the gain; it counted 15%",
+   "summary": "In Epoch AI's InnovationEval, agents tried to invent a post-training method that beats GRPO, as the human-designed SDPO does. GPT-5.6 Sol claimed about 70% of SDPO's improvement, but Epoch counted about 15% using only rule-compliant changes, and its early answer is 'No'.",
+   "chapter": "THE AGENTS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Epoch AI",
+     "url": "https://epoch.ai/publications/innovationeval"
+    },
+    {
+     "outlet": "The Decoder"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "supports",
+     "note": "Agents given 3,000 GPU-hours could not match a human-invented post-training method, so AI R&D is not yet automated."
+    },
+    {
+     "id": "2030-0",
+     "key": "722cc2e445",
+     "relation": "challenges",
+     "note": "Epoch's early answer to whether agents can invent research methods is 'No', with rule-compliant gains of about 15%."
+    }
+   ]
+  },
+  {
+   "id": "booz-allen-hamilton-ot",
+   "title": "Booz Allen lab: AI models met every goal in eight industrial-control attack tests",
+   "summary": "In Booz Allen Hamilton's isolated lab, two unnamed frontier models achieved the objectives in all eight scenarios, once going from a perimeter breach to an industrial control network in just over 16 minutes. Humans approved every exploit, The Register reports.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450"
+    },
+    {
+     "outlet": "Booz Allen Hamilton"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "early",
+     "note": "Two unnamed frontier models completed all eight multi-step attack scenarios in a lab, with humans approving every exploit."
+    }
+   ]
+  },
+  {
+   "id": "amazon-talks-buy-decart",
+   "title": "Amazon reportedly in talks to buy chip-software startup Decart for about $7 billion",
+   "summary": "Amazon is negotiating to acquire Decart in a deal valued at around $7 billion, according to The Wall Street Journal, though talks could still collapse. Decart's software makes it easier to switch between AI chips, and Anthropic decided against buying it in September.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "Bloomberg (via Business Times)",
+     "url": "https://www.businesstimes.com.sg/companies-markets/amazon-talks-buy-us7-billion-ai-startup-decart-wsj-reports"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "south-korea-stock-market",
+   "title": "South Korea's AI trade cools: stock turnover is down 70% from its late-May peak",
+   "summary": "South Korean stock turnover has plunged 70% from its late-May peak as foreign and local investors pull out, PANews reports, citing Cailian Press. A Bloomberg report says foreign investors are fleeing as the AI boom loses steam, with the Kospi down 22% in the second half.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-10",
+   "sources": [
+    {
+     "outlet": "PANews",
+     "url": "https://panews.io/articles/01a12994-c855-74a4-89b4-9c5c7ce32bc1"
+    },
+    {
+     "outlet": "Cailian Press"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korean-banks-deposits-fall",
+   "title": "Korean banks' deposits fall over 20 trillion won in 11 days after AI-linked breaches",
+   "summary": "Deposits at South Korea's five largest lenders fell by more than 20 trillion won ($15 billion) in 11 days after cyberattacks, per industry officials, The Korea Times reports. ARTEX, a Chinese open-source AI security tool reportedly used in the attacks, will no longer be released publicly.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "The Korea Times",
+     "url": "https://www.koreatimes.co.kr/business/banking-finance/20261011/banks-race-to-ramp-up-ai-defenses-as-deposits-fall-after-cyberattacks"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "humanoid-robot-dram-demand",
+   "title": "Counterpoint: humanoid robots' DRAM demand to grow more than 20-fold by 2030",
+   "summary": "Counterpoint Research projects robot-industry DRAM demand rising from about 8,300 terabits this year to about 172,000 terabits by 2030, with memory per humanoid growing from 19GB to 39GB. Goldman Sachs has lifted its 2030 humanoid shipment forecast to about 890,000.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/c063a8c4-6fe7-4e42-a5d4-767d57d3ad32"
+    },
+    {
+     "outlet": "Counterpoint Research"
+    },
+    {
+     "outlet": "The Chosun Ilbo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "yau-laboratory-alliance-mathematics",
+   "title": "Fields medalist Shing-Tung Yau launches a 1,000-strong math-and-AI alliance in Beijing",
+   "summary": "Launched at Tsinghua and led by Shing-Tung Yau, the Yau Laboratory Alliance for Mathematics and AI unites eight Chinese mathematical institutions and a 1,000-strong team, with priorities including maths-specific AI models and a journal for AI-assisted mathematics.",
+   "chapter": "THE SCIENCE",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "Shanghai Daily",
+     "url": "https://www.citynewsservice.cn/articles/shanghaidaily/news/yau-mathematics-and-ai-lab-alliance-launched-at-tsinghua-university-7kr5e38n"
+    },
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "A 1,000-strong alliance of eight Chinese institutes plans maths-specific AI models and a journal for AI-assisted mathematics."
+    }
+   ]
+  },
+  {
+   "id": "national-hurricane-center-leans",
+   "title": "The US National Hurricane Center leaned heavily on Google DeepMind's AI for Hurricane Isaias",
+   "summary": "The NHC relied heavily on Google DeepMind's WeatherNext 3 forecasts for Isaias' strength, CNN reports, and director Michael Brennan said the model was more consistent between successive forecasts. Meteorologists use AI and physics models together.",
+   "chapter": "THE SCIENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Moneycontrol",
+     "url": "https://www.moneycontrol.com/world/google-s-ai-model-wins-early-test-as-hurricane-isaias-threatens-us-gulf-coast-article-14048532.html"
+    },
+    {
+     "outlet": "CNN"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bill-gates-cyberattacks-imminent",
+   "title": "Bill Gates expects 'a lot of negative surprises' from AI cyberattacks within a year",
+   "summary": "In a Sunday interview reported by AFP, Bill Gates said cyberattacks are where AI's dangers will probably show most dramatically next year, warning of 'a lot of negative surprises'. On leaving checks to the companies, he said 'it's clear we're not doing enough'.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "AFP",
+     "url": "https://www.yahoo.com/news/science/articles/bill-gates-warns-cyberattacks-most-155129189.html"
+    },
+    {
+     "outlet": "Fox News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bloomington-indiana-ordinance-ban",
+   "title": "A Bloomington, Indiana councilmember proposes banning superintelligence in the city",
+   "summary": "Councilmember Dave Rollo's Ordinance 2026-29, up for introduction on 14 Oct, would bar distributing or deploying any superintelligence in Bloomington, The B Square reports. Lifting it without state legislation would need over 95% of registered voters, and its legal authority is questioned.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "The B Square",
+     "url": "https://bsquarebulletin.com/analysis-bloomingtons-proposed-superintelligence-ban-raises-questions-about-authority-enforcement/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "denmark-salling-group-trains",
+   "title": "Denmark's biggest retailer is training humanoid robots to restock shelves at night",
+   "summary": "Startup Hive Robots has trained Unitree-built humanoids after closing time since June at Salling Group's Føtex store near Copenhagen, aiming for them to restock on their own in early 2027. The robots are slower than humans and need close supervision.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "Associated Press",
+     "url": "https://ca.news.yahoo.com/checkout-humanoid-robots-coming-danish-100202571.html"
+    },
+    {
+     "outlet": "Euronews"
+    },
+    {
+     "outlet": "To Vima"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Humanoids are being trained to restock a Danish supermarket's shelves unaided by early 2027, though they are still slower than humans."
+    }
+   ]
+  },
+  {
+   "id": "robot-baristas-k-pop",
+   "title": "Robot baristas and K-pop-dancing humanoids spread across South Korean venues",
+   "summary": "Entertainment venues with robot baristas and humanoids that dance to K-pop are spreading across South Korea, Nikkei Asia reports, including Seoul's Galaxy Robot Park, opened in August with live humanoid performances.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/robot-baristas-and-k-pop-dancers-lead-south-korea-s-physical-ai-boom"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "xpeng-roll-iron-humanoid",
+   "title": "XPeng says its IRON humanoid reaches Europe in the second half of 2027",
+   "summary": "At XPeng's Paris Night, CEO He Xiaopeng set a 2H 2027 European rollout for the IRON humanoid, after mass production from 'late 2026' and deliveries in 1H 2027. No countries, sales model or price were given, and it is a company plan.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-11",
+   "sources": [
+    {
+     "outlet": "EV (eletric-vehicles.com)",
+     "url": "https://eletric-vehicles.com/xpeng/xpeng-sets-second-half-2027-european-rollout-for-iron-humanoid-robot/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "rek-human-vs-robot",
+   "title": "California orders REK to stop its human-versus-robot cage fights",
+   "summary": "California's athletic commission ordered REK to stop human-vs-robot fights after an 18 Sept San Francisco match left fighter Frankie LaPenna with a hand injury. CEO Cix Liv argues the law defines a 'match' as between two persons; the commission says any contest involving a human needs its approval.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "IBTimes Australia",
+     "url": "https://www.ibtimes.com.au/california-halts-human-robot-fights-hand-injury-1876509"
+    },
+    {
+     "outlet": "The New York Times"
+    },
+    {
+     "outlet": "USA Today"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "artcraft-claude-office",
+   "title": "ArtCraft used Claude to write Word, Excel and PowerPoint lookalikes in Rust",
+   "summary": "Startup ArtCraft's Rust 'clean-room reimplementations' of Microsoft Office apps lean heavily on Claude but remain unfinished: WordCraft is pre-alpha at ArtCraft's own estimate of 62% feature parity and not for production, The Register reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/software/2026/10/08/rust-upstart-reveals-reimplementation-of-microsoft-office-with-claude-on-coding-duty/5301952"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "early",
+     "note": "ArtCraft leaned heavily on Claude to rewrite Office apps in Rust, but WordCraft is still pre-alpha at about 62% feature parity."
+    }
+   ]
+  },
+  {
+   "id": "odyssey-3-world-model",
+   "title": "Odyssey-3, a 14B-parameter world model, makes playable worlds from text, free to try",
+   "summary": "Odyssey-3 generates interactive environments from text in real time, and a free demo runs on Odyssey-3 Flash, The Decoder reports. Its Physics-IQ benchmark scores are Odyssey's own claims.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/"
+    },
+    {
+     "outlet": "Odyssey"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "AI is becoming SI. Musk, Benioff, Huang and now Nadella all say 'super intelligence.' The Telegraph says Britain's AI Security In stitute gets pre-release model access again."
+  },
+  {
+   "s": 31.88,
+   "t": "Harvard study: agents write 30% more code. Resolved issues? No significant gain."
+  },
+  {
+   "s": 38.91,
+   "t": "Vals AI: agent teams cost up to 5.1 times more, for one significant gain."
+  },
+  {
+   "s": 45.47,
+   "t": "Epoch asked agents to invent a method: Sol claimed 70% of the gain."
+  },
+  {
+   "s": 50.93,
+   "t": "Counted: 15%."
+  },
+  {
+   "s": 52.5,
+   "t": "Booz Allen's lab: AI models met every goal across eight industrial-hacking tests, humans approving each exploit."
+  },
+  {
+   "s": 60.0,
+   "t": "Money: Amazon is reportedly in talks to buy chi p-software startup Decart for around $7 billion."
+  },
+  {
+   "s": 67.5,
+   "t": "In Korea, the AI trade is cooling. Market turnover is down 70% since May."
+  },
+  {
+   "s": 75.0,
+   "t": "Korean banks' deposits fell over 20 trilli on won in 11 days after AI-linked breaches."
+  },
+  {
+   "s": 82.5,
+   "t": "Counterpoint expects humanoid robots' DRAM demand to grow more than 20 times by 2030."
+  },
+  {
+   "s": 90.0,
+   "t": "Science: Fields medalist Shing-Tung Yau launched a 1,000-strong math-and-AI alliance in Beijing."
+  },
+  {
+   "s": 97.5,
+   "t": "The Hurricane Center leaned heavily on Google DeepMi nd's AI model to forecast this week's Gulf hurricane."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch: Bill Gates expects 'a lot of negative surprises' from AI cyberattacks."
+  },
+  {
+   "s": 110.62,
+   "t": "In Indiana, a Bloomington councilmember wants to ban superintelligence within city limits."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines: Denmark's biggest retailer is traini ng humanoid robots to restock shelves at night."
+  },
+  {
+   "s": 128.44,
+   "t": "In South Korea, robot baristas and K-pop-dancing humanoids are spreading across entertainment venues."
+  },
+  {
+   "s": 135.0,
+   "t": "XPeng says its IRON humanoid reaches Europe in the second half of 2027."
+  },
+  {
+   "s": 141.56,
+   "t": "And California ordered REK to stop its human-versus-robot cage fights."
+  },
+  {
+   "s": 146.13,
+   "t": "REK: a robot isn't a person."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  }
+ ],
+ "captions": true,
+ "video": null,
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
