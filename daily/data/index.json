@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T07:29:31+00:00",
- "latest": "2026-10-24",
+ "updated": "2026-10-25T07:36:40+00:00",
+ "latest": "2026-10-25",
  "site": "https://peterxing.com/daily",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -19,6 +19,34 @@
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
  },
  "episodes": [
+  {
+   "date": "2026-10-25",
+   "ep": 21,
+   "hook": "ALMOST HUMAN.",
+   "day": "Sunday 25 October 2026",
+   "stories": 18,
+   "forecasts": 9,
+   "links": {
+    "supports": 2,
+    "early": 7,
+    "challenges": 0
+   },
+   "titles": [
+    "Block's Dessa voice AI laughs, pauses and cries",
+    "Forced to pick, Grok's model chose Republicans and OpenAI's chose Democrats",
+    "OpenAI now trains its frontier models with no internet access"
+   ],
+   "cover": "daily/media/2026-10-25/cover.webp",
+   "thumb": "daily/media/2026-10-25/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-10-25/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-25/Singularity-Daily_2026-10-25.mp4",
+    "mb": 66.1,
+    "bytes": 66055545,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-10-24",
    "ep": 20,

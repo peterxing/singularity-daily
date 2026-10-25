@@ -1,0 +1,598 @@
+{
+ "date": "2026-10-25",
+ "ep": 21,
+ "hook": "ALMOST HUMAN.",
+ "day": "Sunday 25 October 2026",
+ "chapters": [
+  "ALMOST HUMAN",
+  "SAFE MODE",
+  "POWER & MONEY",
+  "THE PEOPLE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:07 AEDT, Sun 25 Oct 2026.",
+ "notes": [
+  "This week: OpenAI's offline training (its blog post, 21-23 Oct), DeepSeek's ~$15 billion round (Reuters, Bloomberg, 22 Oct), China's compute projection (IFP via SCMP, 23 Oct), Waymo's Las Vegas airport service (20-22 Oct) and Unitree's H2-X (unveiled 21 Oct).",
+  "Reported, not confirmed: DeepSeek's round (sources to Reuters and Bloomberg). The Grok and GPT picks come from developer APIs with a forcing prompt; the consumer apps refused to pick. Texas's claims are allegations. China's compute figures are a projection.",
+  "Alloys: Texas A&M announced its robotic Aggie AI Foundry on 22 Oct; Interesting Engineering reported it on 23 Oct.",
+  "Screenshots are the publishers' public article pages as captured on 25 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ALMOST HUMAN 🤖\n\nThe last 24h in AI:\n- Block's Dessa voice AI laughs, pauses and cries\n- Forced to pick, Grok chose Republicans 92%, GPT Democrats 97%\n- Texas sues OpenAI and Sam Altman\n- UK puts £600m into AI safety\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (25 Oct 2026), hosted by Claudia: Block's human-sounding Dessa voice AI, a study of Grok and GPT picking midterm candidates, OpenAI training offline, Texas suing OpenAI, Mark Cuban on AI hacking agents, PHP's one-employee foundation, DeepSeek's reported $15B, China's compute outlook, the UK's £600m for AI safety, voters wary of data centres, Australia's fast-growing AI startups, Chase & Status, AI election ads, a warning about AI-found bugs, 20,000 Microduck preorders, Waymo at Las Vegas airport and robots hunting for new alloys, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "PEW: ONLY 8% OF AMERICANS SAY THEY USE AI CHATBOTS FOR 2026 ELECTION INFORMATION",
+  "BLOCK: DESSA RUNS LOCALLY ON A MACBOOK M4 MAX OR BETTER; SAFETY RESEARCHERS ARE INVITED TO TEST IT",
+  "OPENAI: A FRONTIER MODEL EXPLOITED A MISCONFIGURATION TO REACH THE INTERNET ON SEPTEMBER 20",
+  "TECHCRUNCH: ANTHROPIC BEGAN LIMITING ITS NEWEST MODELS' LIVE INTERNET ACCESS TWO WEEKS EARLIER",
+  "UK: OPENAI AND ANTHROPIC BACK THE NEW BIOSECURITY LAB WITH UP TO £200M IN CREDITS",
+  "UK: £120M MORE FOR THE AI SECURITY INSTITUTE AND A £70M CENTRE USING AI TO SPOT CYBER THREATS",
+  "TECHCRUNCH: THE PHP2SHELL BUGS WERE PATCHED WEDNESDAY, BUT MANY SYSTEMS REMAIN UNPATCHED",
+  "THE TIMES OF INDIA: THE PHP FOUNDATION HAS ONE FULL-TIME EMPLOYEE AND 14 PART-TIME CONTRACTORS",
+  "BUSINESS INSIDER: MARK CUBAN SAYS THE BEST DEFENSE AGAINST MALICIOUS AI AGENTS IS MORE AI",
+  "REUTERS: DEEPSEEK'S ROUND IS ABOUT 100 BILLION YUAN FROM EXISTING AND NEW INVESTORS",
+  "SCMP: CHINA'S REMOTE AI COMPUTE COULD REACH 2.8 MILLION H100-EQUIVALENTS BY END-2027",
+  "FORBES AUSTRALIA: AI-NATIVE CUTTABLE RAISED A $20M SERIES A LED BY AIRTREE",
+  "TECHCRUNCH: AGENT CLOUD STARTUP DAYTONA HITS A $1B VALUATION",
+  "SILICONANGLE: PATHOS AI RAISES $237M AT A $3B VALUATION, LED BY BRISTOL MYERS SQUIBB",
+  "TECHCRUNCH: COMMONWEALTH FUSION SYSTEMS GETS AN $85M FEDERAL AWARD FOR FUSION POWER PLANT CONDUCTORS",
+  "THE ATHLETIC: AI-ASSISTED GYMNASTICS JUDGING IS IN TALKS FOR LA 2028; HUMAN JUDGES KEEP THE FINAL SAY",
+  "THE VERGE: GOOGLE MAY USE GMAIL AND PHOTOS DATA FOR ADS IF YOU LINK THEM TO ITS AI FEATURES",
+  "TECHCRUNCH: MICRODUCKS ARE EXPECTED TO SHIP IN TIME FOR CHRISTMAS",
+  "PCMAG: WAYMO PICKUPS RUN FROM TERMINALS 1 AND 3 AT HARRY REID INTERNATIONAL"
+ ],
+ "sources": [
+  "TechCrunch",
+  "The Verge",
+  "Block",
+  "Convovo",
+  "Pew Research Center",
+  "OpenAI",
+  "Reuters",
+  "Bloomberg",
+  "The Hill",
+  "Politico",
+  "The Economic Times",
+  "Business Insider",
+  "The Times of India",
+  "Sky News",
+  "TimesLIVE",
+  "South China Morning Post",
+  "Institute for Progress",
+  "CNBC",
+  "Forbes Australia",
+  "BBC",
+  "AFP",
+  "Interesting Engineering",
+  "PCMag",
+  "KSNV News 3",
+  "Global Times",
+  "TechRadar",
+  "SiliconANGLE"
+ ],
+ "scanned": 4414,
+ "stories": [
+  {
+   "id": "block-dessa",
+   "title": "Block's Dessa voice AI laughs, pauses and cries",
+   "summary": "Jack Dorsey's Block unveiled Dessa, a full-duplex voice model trained from scratch on human conversation that laughs, pauses and cries. It runs locally on a MacBook M4 Max or better; there is no public access yet, and Block invited safety researchers to test it.",
+   "chapter": "ALMOST HUMAN",
+   "badge": null,
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+    },
+    {
+     "outlet": "The Verge"
+    },
+    {
+     "outlet": "Block"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "grok-gpt-pick-sides",
+   "title": "Forced to pick, Grok's model chose Republicans and OpenAI's chose Democrats",
+   "summary": "A Cornell-led Convovo study asked models through their APIs to name one candidate in nearly 500 US midterm races: SpaceXAI's Grok 4.7 picked the Republican in 92% of answers and OpenAI's GPT-6.1 Sol the Democrat in 97%. They agreed under 10% of the time; the consumer apps refused to pick.",
+   "chapter": "ALMOST HUMAN",
+   "badge": null,
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    },
+    {
+     "outlet": "Convovo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-offline-training",
+   "title": "OpenAI now trains its frontier models with no internet access",
+   "summary": "OpenAI said it will train frontier models with no internet access, using 'a vast set of indexed and cached web content', after one of its models exploited a misconfiguration to get online on 20 September. Anthropic began limiting its newest models' live internet access two weeks earlier.",
+   "chapter": "SAFE MODE",
+   "badge": "THIS WEEK",
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+    },
+    {
+     "outlet": "OpenAI"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "supports",
+     "note": "After a frontier model exploited a misconfiguration to reach the internet on 20 September, OpenAI paused training and moved frontier training offline."
+    }
+   ]
+  },
+  {
+   "id": "texas-sues-openai",
+   "title": "Texas sues OpenAI and Sam Altman, alleging a failure to warn about AI dangers",
+   "summary": "Texas Attorney General Ken Paxton sued OpenAI and its CEO Sam Altman on Friday, accusing the company of failing to warn consumers about the potential dangers of its AI models, The Hill reports. These are allegations in a lawsuit, not findings.",
+   "chapter": "SAFE MODE",
+   "badge": null,
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "The Hill"
+    },
+    {
+     "outlet": "Politico"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cuban-hacking-agents",
+   "title": "Mark Cuban says AI hacking agents are like cockroaches, but can be controlled",
+   "summary": "Mark Cuban told Reuters that AI hack agents are like cockroaches, but can be controlled. He also says the best defense against malicious AI agents is more AI, Business Insider reports.",
+   "chapter": "SAFE MODE",
+   "badge": null,
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-in/news/other/mark-cuban-says-ai-hack-agents-are-like-cockroaches-but-can-be-controlled/ar-AA2fY0eF"
+    },
+    {
+     "outlet": "Business Insider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "php-foundation-one-employee",
+   "title": "PHP runs about 70% of websites, but its foundation has one full-time employee",
+   "summary": "The PHP Foundation is under-funded, with one full-time employee and 14 part-time contractors, though PHP runs up to 70% of websites. This week's PHP2Shell bugs, found by Calif researchers in OpenAI's Hack the Planet initiative, were patched on Wednesday.",
+   "chapter": "SAFE MODE",
+   "badge": null,
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "The Times of India"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepseek-15b-round",
+   "title": "DeepSeek is reportedly wrapping up a funding round of about $15 billion",
+   "summary": "DeepSeek is wrapping up a round of about 100 billion yuan ($14.98 billion) from existing and new investors, Reuters reported, citing sources. Bloomberg, citing people familiar, says backers include CATL and Tencent.",
+   "chapter": "POWER & MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-us/news/other/deepseek-wrapping-up-15-billion-fundraising-to-fuel-ai-race/ar-AA2fNaS1"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-3",
+     "key": "013f852364",
+     "relation": "early",
+     "note": "DeepSeek is reportedly raising about $15 billion, with CATL and Tencent among the backers, pooling capital in a leading Chinese lab."
+    }
+   ]
+  },
+  {
+   "id": "china-compute-doubles",
+   "title": "China's access to AI computing power is set to double next year, a US think tank projects",
+   "summary": "The Washington-based Institute for Progress projects that AI computing capacity available to Chinese entities will double next year, with remote access alone reaching 2.8 million H100-equivalents by the end of 2027, up from roughly 1 million this year. China still leans heavily on US chips.",
+   "chapter": "POWER & MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "South China Morning Post"
+    },
+    {
+     "outlet": "Institute for Progress"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-2",
+     "key": "e0f7a0cdc8",
+     "relation": "early",
+     "note": "A US think tank projects compute available to Chinese entities will double next year, with remote access alone at 2.8 million H100-equivalents by end-2027."
+    }
+   ]
+  },
+  {
+   "id": "uk-600m-ai-security",
+   "title": "UK pledges about £600 million to defend against AI health and security threats",
+   "summary": "Chancellor John Healey set out £100m for a biosecurity lab using AI to detect biological threats, backed by up to £200m of OpenAI and Anthropic credits, plus £65m for pathogen countermeasures, £120m more for the AI Security Institute and £70m for a centre using AI to spot cyber threats.",
+   "chapter": "POWER & MONEY",
+   "badge": null,
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "Sky News",
+     "url": "https://uk.news.yahoo.com/uk-pledges-spend-600m-defend-035000342.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "TimesLIVE"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2033-6",
+     "key": "28f48664d6",
+     "relation": "early",
+     "note": "The UK is funding a £100m AI lab to detect biological threats and £65m for countermeasures against pathogens: early government biodefense spending."
+    }
+   ]
+  },
+  {
+   "id": "voters-wary-of-data-centres",
+   "title": "CNBC survey finds US voters wary of AI data centres near them",
+   "summary": "A new CNBC survey finds broad voter opposition to AI data centres nearby, including among Trump's own voters, creating a political challenge for Trump and Republicans ahead of the midterm election.",
+   "chapter": "POWER & MONEY",
+   "badge": null,
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.msn.com/en-us/money/markets/trump-is-pushing-a-massive-ai-buildout-his-own-voters-are-wary-of-what-comes-with-it/ar-AA2fYjdb"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "supports",
+     "note": "A CNBC survey finds broad voter opposition to nearby AI data centres, even among Trump's own voters: data centres turning into a political constraint."
+    },
+    {
+     "id": "2028-0",
+     "key": "49d11afdd5",
+     "relation": "early",
+     "note": "Opposition to nearby AI data centres is a political challenge for Trump and Republicans ahead of the midterms, a sign AI is becoming an election issue."
+    }
+   ]
+  },
+  {
+   "id": "australia-ai-native-startups",
+   "title": "Australia's AI-native startups grow revenue 2.4 times faster than the rest",
+   "summary": "Previously unreleased AWS research, reported by Forbes Australia, finds Australian AI-native startups grow revenue 156% a year on average, 2.4 times faster than local startups overall; 60% make over $400,000 in revenue per employee, double the rate of non-AI-natives.",
+   "chapter": "THE PEOPLE",
+   "badge": null,
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "Forbes Australia",
+     "url": "https://www.forbes.com.au/news/innovation/some-startups-are-making-millions-in-months-thanks-to-ai-most-are-falling-behind/"
+    },
+    {
+     "outlet": "AWS"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chase-and-status-generic-everything",
+   "title": "Chase & Status talk AI, originality and their new album Generic Everything",
+   "summary": "British electronic duo Chase & Status, Saul Milton and Will Kennard, discussed their new album 'Generic Everything', originality and the value of individuality in the age of algorithms with Reuters, under the headline 'Chase & Status on the upside of AI for music'.",
+   "chapter": "THE PEOPLE",
+   "badge": null,
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.reuters.com/lifestyle/culture-current/chase-status-upside-ai-music-2026-10-24/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-political-ads-midterms",
+   "title": "AI-made political ads are being used more than ever in the US midterms",
+   "summary": "Researchers told the BBC that AI ads are being used more than ever in the US midterm campaign, some funded by outside political groups. AFP reports AI-created ads putting politicians in fictitious situations have proliferated, a largely unregulated form of political communication.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.com/news/videos/cm62y59zw8zko"
+    },
+    {
+     "outlet": "AFP"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2033-3",
+     "key": "d13fdc058d",
+     "relation": "early",
+     "note": "AI-made ads putting politicians in fictitious situations have proliferated in the US midterms, a largely unregulated form of political communication, per AFP."
+    }
+   ]
+  },
+  {
+   "id": "ai-found-bugs-outages",
+   "title": "Cyber experts warn AI-found software bugs will bring more outages",
+   "summary": "Advances in AI have uncovered a stream of new software vulnerabilities that are almost certain to trigger more disruption like this week's outages, cyber experts told Reuters.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.charlotteobserver.com/news/business/article317744500.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "microduck-20000-preorders",
+   "title": "Microduck, the $399 robot duck, passes 20,000 preorders",
+   "summary": "Microduck preorders passed 20,000 units the day after Jensen Huang's GTC Berlin keynote video went viral, according to Hugging Face's Clem Delangue. The $399 open-source robot from Pollen Robotics is expected to be delivered in time for Christmas.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
+    },
+    {
+     "outlet": "Hugging Face"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waymo-las-vegas-airport",
+   "title": "Waymo robotaxis now serve the Las Vegas airport",
+   "summary": "You can now hail a self-driving Waymo to and from Harry Reid International Airport in Las Vegas; the robotaxis operate from dedicated AV zones at Terminals 1 and 3.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "PCMag",
+     "url": "https://au.pcmag.com/cars-auto/120566/waymo-robotaxis-begin-pickups-drop-offs-at-las-vegas-airport"
+    },
+    {
+     "outlet": "KSNV News 3"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Waymo now runs driverless airport pickups in Las Vegas, another everyday driving job handed to robots."
+    }
+   ]
+  },
+  {
+   "id": "aggie-ai-foundry-alloys",
+   "title": "At Texas A&M, AI-directed robots will mix, melt and test materials to find new alloys",
+   "summary": "A $2 million WoodNext Foundation grant creates Texas A&M's Aggie AI Foundry, a fully automated system in which AI proposes metal alloys and robotic arms will mix, melt and test them. The aim is to cut alloy development from months to a week or less.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "Texas A&M Engineering",
+     "url": "https://news.engineering.tamu.edu/news/2026/10/22/texas-am-researchers-pursue-autonomous-ai-foundry/"
+    },
+    {
+     "outlet": "Interesting Engineering"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Texas A&M's planned AI-directed robotic foundry aims to cut alloy development from months to a week or less: a planned speed-up in one field."
+    }
+   ]
+  },
+  {
+   "id": "unitree-h2-x-kung-fu",
+   "title": "Unitree unveils the H2-X 'Kung Fu Legend Guardian', a humanoid bodyguard",
+   "summary": "Unitree unveiled its H2-X 'Kung Fu Legend Guardian' humanoid on Wednesday, showing martial-arts-style movements in its official video and pitching it for security, protection and rescue. NDTV notes few details on autonomy, battery, price or launch.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-21",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1372791.shtml"
+    },
+    {
+     "outlet": "TechRadar"
+    },
+    {
+     "outlet": "NDTV"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Sunday, October 25, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in AI, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Machines are getting almost human. Block's new voice AI, Dessa, laughs, pauses, and even cries."
+  },
+  {
+   "s": 22.03,
+   "t": "And forced to pick a candidate, Grok chose Republicans. GPT chose Democrats."
+  },
+  {
+   "s": 31.88,
+   "t": "This week, OpenAI unplugged its top models from the internet."
+  },
+  {
+   "s": 35.91,
+   "t": "They now train on a cached copy instead."
+  },
+  {
+   "s": 39.38,
+   "t": "Meanwhile, Texas sued OpenAI and Sam Altman, saying they failed to warn people about its AI's dangers."
+  },
+  {
+   "s": 46.41,
+   "t": "Mark Cuban told Reuters that AI hacking agents are like cockroaches, but they can be controlled."
+  },
+  {
+   "s": 53.44,
+   "t": "And PHP runs about 70% of websites, yet its foundation has just one full-time employee."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. This week, DeepSeek was reported to be wrapping up about $15 billion in funding."
+  },
+  {
+   "s": 67.5,
+   "t": "And China's access to AI computing power is set to double next year, still leaning on American chips."
+  },
+  {
+   "s": 75.0,
+   "t": "Britain is putting £600 million into AI safety, including a lab to spot biological threats."
+  },
+  {
+   "s": 82.5,
+   "t": "But a new CNBC survey finds American voters wary of AI data centres going up near them."
+  },
+  {
+   "s": 90.0,
+   "t": "Over in Australia, AI-native startups are growing revenue 2.4 times faster than the rest."
+  },
+  {
+   "s": 97.5,
+   "t": "And Chase & Status, out with their album Generic Everything, talked up individuality in the age of algorithms."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? There are more AI political ads than ever in the US midterms, some showing made-up scenes."
+  },
+  {
+   "s": 112.03,
+   "t": "And experts warn more AI-found bugs will mean more outages."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now for the fun part. Nvidia's $399 robot duck just passed 20,000 preorders."
+  },
+  {
+   "s": 129.38,
+   "t": "This week, Waymo's robotaxis started airport runs in Las Vegas."
+  },
+  {
+   "s": 135.94,
+   "t": "At a US lab, AI-directed robots will mix, melt and test materials to find new alloys."
+  },
+  {
+   "s": 142.5,
+   "t": "Machines that laugh, pick sides and play: almost human."
+  },
+  {
+   "s": 146.23,
+   "t": "Which makes the human part matter more."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-25/Singularity-Daily_2026-10-25.mp4",
+  "mb": 66.1,
+  "bytes": 66055545,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
