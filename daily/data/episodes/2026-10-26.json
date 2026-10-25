@@ -1,0 +1,502 @@
+{
+ "date": "2026-10-26",
+ "ep": 22,
+ "hook": "GROWING PAINS.",
+ "day": "Monday 26 October 2026",
+ "chapters": [
+  "GROWING PAINS",
+  "TRUST ISSUES",
+  "PRICE WAR",
+  "BIG QUESTIONS",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:11 AEDT, Mon 26 Oct 2026.",
+ "notes": [
+  "This week: the Elvis rightsholders' suit (filed 23 Oct), Sweden's ChatGPT and Claude block (reported 23-24 Oct, in force from 26 Oct), Moonshot's Kimi K3.1 Pro (24 Oct), Apollo's Daily Spark note (24 Oct), SoftBank's Malaysia plan (per Anwar Ibrahim, 24 Oct) and Unitree's H2-X stumble (22 Oct, reported 25 Oct).",
+  "Reported, not confirmed: OpenAI's discounts and Rippling's and Replit's switches (The Information, via The Decoder). The Elvis claims are allegations. SoftBank's US$50B is per Malaysia's prime minister; SoftBank had not commented.",
+  "Bill Gates's quotes come from his interview with The Observer (25 Oct), as reported by The Telegraph.",
+  "Screenshots are the publishers' public article pages as captured on 26 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "GROWING PAINS 🌱\n\nThe last 24h in AI:\n- Bill Gates calls AI an \"evolutionary event\"\n- Elvis's music owners sue Anthropic over 274 songs\n- Sweden blocks ChatGPT and Claude on government PCs\n- 110 humanoid robots dance their way to a world record\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (26 Oct 2026), hosted by Claudia: Bill Gates on AI as an evolutionary event, Elvis's rightsholders suing Anthropic, Sweden blocking ChatGPT and Claude, Reddit's open-source forum banning AI projects, Moonshot's deliberately less hacky Kimi model, OpenAI's reported discounts, an Apollo economist's zero-payoff warning, AI labs asking faith leaders about morals, DeepMind on asking good questions, Western Australia seeking a Deloitte refund, 110 dancing robots, robot insurance in Japan and a stomping robot in Sydney, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "BILL GATES: THE INCENTIVE STRUCTURE IS 'HIRE THE ROBOT, FIRE THE HUMAN, AND DON'T LOOK BACK'",
+  "BILL GATES CALLS FOR AI TO BE TAXED AND FOR SOME 'HUMAN-RESERVED' JOBS",
+  "BUSINESS INSIDER: GATES SAYS THE NEXT 20 YEARS WILL BE 'AS TUMULTUOUS A PERIOD AS THERE'S BEEN IN HUMAN HISTORY'",
+  "NME: THE ELVIS SUIT SEEKS UP TO $150,000 PER SONG, ABOUT $41.1M IN ALL",
+  "SWEDEN: STAFF CAN STILL REACH OPENAI AND ANTHROPIC MODELS THROUGH THE INTERNAL INTRIC PLATFORM",
+  "SVT: SWEDEN'S TAX AGENCY ALREADY BLOCKS CHATBOTS ON WORK COMPUTERS",
+  "MOONSHOT: KIMI K3.1 PRO IS FREE TO TRY, WITH OPEN WEIGHTS DUE BY 4 NOVEMBER",
+  "THE INFORMATION: REPLIT SWITCHED AFTER OPENAI OFFERED OVER 30% OFF A CONTRACT WORTH OVER $100M A YEAR",
+  "THE DECODER: DATACAMP'S CEO SAYS OPENAI'S PRICING CUT HIS COSTS BY 80 TO 90%",
+  "APOLLO: 'THERE ARE STILL NO SIGNS OF AI BOOSTING PRODUCTIVITY GROWTH'",
+  "WSJ: TWO AI CHIPMAKERS MAKE UP 34% OF AMERICA'S EARNINGS BOOM",
+  "NVIDIA: JENSEN HUANG FLOATS ABOUT $2,000 PER GPU PER YEAR FOR ITS AGENT SOFTWARE",
+  "GUARDIAN AUSTRALIA: ONE DELOITTE REFERENCE CARRIED A CHATGPT TAG IN ITS LINK",
+  "WA PAID DELOITTE $166,000 FOR THE UNIVERSITY-MERGER FEASIBILITY STUDY",
+  "GLOBAL TIMES: AGIBOT'S 110 DANCING ROBOTS WILL WORK IN TOURISM SHOWS, PUBLIC SERVICES AND SCHOOLS",
+  "NIKKEI ASIA: THE AI ROBOT MARKET IS EXPECTED TO TOP $80 BILLION WITHIN 10 YEARS",
+  "GUARDIAN: SOCCEROO CRISTIAN VOLPATO HAS LICENSED HIS AI 'SYNTHETIC TWIN'",
+  "INDIA: NCERT ADDS A 20-HOUR AI COURSE FOR CLASSES 9 TO 12, INCLUDING DEEPFAKE DETECTION",
+  "UNITREE HAD NOT COMMENTED ON THE H2-X STUMBLE",
+  "SOFTBANK IS ALREADY BUILDING A US$500 BILLION DATA CENTRE PROJECT IN OHIO"
+ ],
+ "sources": [
+  "The Observer",
+  "The Telegraph",
+  "Business Insider",
+  "NME",
+  "Billboard",
+  "The Hollywood Reporter",
+  "Sveriges Radio",
+  "SVT",
+  "Notebookcheck",
+  "Decrypt",
+  "Gizmodo",
+  "The Verge",
+  "Reuters",
+  "The Information",
+  "The Decoder",
+  "Apollo",
+  "TechCrunch",
+  "newscord",
+  "AP",
+  "Guardian Australia",
+  "Global Times",
+  "Nikkei Asia",
+  "Australian Financial Review",
+  "Bloomberg",
+  "The Business Times",
+  "The Wall Street Journal",
+  "Tom's Hardware",
+  "Free Press Journal"
+ ],
+ "scanned": 3518,
+ "stories": [
+  {
+   "id": "gates-evolutionary-event",
+   "title": "Bill Gates calls AI an 'evolutionary event' and says his coding skills are essentially obsolete",
+   "summary": "In an interview with The Observer, Bill Gates likened the age of AI to an 'evolutionary event', like monkeys becoming humans, and said that late last year he could see his coding abilities, an obsession since age 13, were 'essentially obsolete'. He also called for AI to be taxed and for 'human-reserved' jobs.",
+   "chapter": "GROWING PAINS",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "The Telegraph",
+     "url": "https://www.yahoo.com/news/politics/articles/bill-gates-ai-evolutionary-event-141912095.html"
+    },
+    {
+     "outlet": "The Observer"
+    },
+    {
+     "outlet": "Business Insider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "elvis-sues-anthropic",
+   "title": "Elvis Presley's rightsholders sue Anthropic over 274 songs",
+   "summary": "A subsidiary of Authentic Brands Group and other rights holders sued Anthropic on Friday 23 Oct over 274 Elvis Presley songs they allege it trained on, including 'Can't Help Falling In Love', seeking statutory damages of up to $150,000 per song, about $41.1M. Anthropic has not publicly responded.",
+   "chapter": "TRUST ISSUES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "NME",
+     "url": "https://www.nme.com/news/music/elvis-presley-rightsholders-sue-anthropic-copyright-infringement-274-songs-3974178"
+    },
+    {
+     "outlet": "Billboard"
+    },
+    {
+     "outlet": "The Hollywood Reporter"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sweden-blocks-chatgpt-claude",
+   "title": "Sweden's Government Offices block ChatGPT and Claude on staff computers, pointing staff to Copilot",
+   "summary": "From Monday 26 Oct, the browser versions of ChatGPT and Claude are unreachable on staff computers at Sweden's Government Offices, for information-security reasons; staff are directed to Microsoft Copilot, which was reviewed first, and can still reach OpenAI and Anthropic models via the internal Intric platform.",
+   "chapter": "TRUST ISSUES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-23",
+   "sources": [
+    {
+     "outlet": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Sweden-s-government-blocks-ChatGPT-and-Claude-keeps-Copilot.1433522.0.html"
+    },
+    {
+     "outlet": "Sveriges Radio"
+    },
+    {
+     "outlet": "SVT"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "reddit-opensource-bans-ai",
+   "title": "Reddit's r/opensource bans projects that use AI, are made by AI or are intended for AI",
+   "summary": "'If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource,' moderator Wolvereness wrote in the subreddit's new rules. The moderators added: 'Tokens are cheap, and we don't care how many you spent to make your amazing project.'",
+   "chapter": "TRUST ISSUES",
+   "badge": null,
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/tokens-are-cheap-open-source-subreddit-bans-ai-2000830386"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "moonshot-kimi-k3-1-pro",
+   "title": "Moonshot's Kimi K3.1 Pro is free to try, with its cyber-offensive skills deliberately reduced",
+   "summary": "Moonshot AI said it has reduced the cyber-offensive capabilities of its newest model, Reuters reported. Kimi K3.1 Pro is available on Kimi.ai, apps and the API, including a free plan with limited usage, with open weights due by 4 November, according to Notebookcheck.",
+   "chapter": "TRUST ISSUES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Kimi-K3-1-Pro-Free-to-try-hacking-skills-deliberately-weakened.1433507.0.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "VentureBeat"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-discounts-anthropic-customers",
+   "title": "OpenAI is reportedly luring Anthropic's big customers with steep discounts",
+   "summary": "According to The Information, OpenAI is luring Anthropic's big customers with steep discounts: Replit reportedly switched after an offer of more than 30% off a contract worth over $100M a year, and at Rippling, OpenAI's share of coding work rose from 16% to 52% while Anthropic's fell from 57% to 18%.",
+   "chapter": "PRICE WAR",
+   "badge": "REPORTED",
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/"
+    },
+    {
+     "outlet": "The Information"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "apollo-zero-payoff",
+   "title": "Apollo's Torsten Slok says AI has delivered 'zero financial payoff' outside tech",
+   "summary": "Apollo chief economist Torsten Slok says AI has delivered 'zero financial payoff' to corporate America outside tech: revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493, and 'there are still no signs of AI boosting productivity growth'.",
+   "chapter": "PRICE WAR",
+   "badge": "THIS WEEK",
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "newscord",
+     "url": "https://newscord.org/article/apollo-economist-torsten-slok-says-ai-delivers-zero-financial-payoff-outside-tec--Story_20261025_AIdeliverszerofinanc74700e7f"
+    },
+    {
+     "outlet": "Apollo Daily Spark"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-3",
+     "key": "6933b6ff05",
+     "relation": "challenges",
+     "note": "Apollo's chief economist says revenue per worker and profit margins are flat outside the Mag 7, with 'still no signs of AI boosting productivity growth'."
+    }
+   ]
+  },
+  {
+   "id": "ai-labs-faith-leaders",
+   "title": "AI companies are turning to faith leaders to help teach chatbots right from wrong",
+   "summary": "AP reports that AI executives increasingly seek input from philosophers and faith leaders on teaching chatbots right from wrong, though experts warn it isn't that simple. 'These are not questions a lab can answer,' Anthropic co-founder Chris Olah said as the Vatican presented Pope Leo XIV's AI encyclical.",
+   "chapter": "BIG QUESTIONS",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://www.aol.com/articles/ai-morally-good-tech-companies-105733000.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepmind-good-questions",
+   "title": "Google DeepMind's Lila Ibrahim: answers are cheap, but good questions are getting harder",
+   "summary": "'Getting answers is super cheap these days, but actually knowing how to ask really good questions is getting harder and harder,' said Lila Ibrahim, Google DeepMind's chief AI readiness officer, at a media lunch in September, as Business Insider reported on 25 Oct.",
+   "chapter": "BIG QUESTIONS",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.aol.com/articles/one-google-deepminds-top-execs-110001000.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "wa-deloitte-refund",
+   "title": "WA government seeks money back from Deloitte over a report with AI-hallucinated references",
+   "summary": "WA paid Deloitte $166,000 for a study on merging UWA, Curtin and Murdoch that cited AI-hallucinated references and wrote $514m + $145m as $399m, a $260m discrepancy. The government is seeking 'expedited' cost recovery; Deloitte says it used generative AI for research collation, synthesis and proofing.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "Guardian Australia",
+     "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agibot-110-dancing-robots",
+   "title": "AgiBot's 110 humanoid robots set a Guinness World Records title for dancing in sync",
+   "summary": "In Jinan, Shandong, on 24 Oct, 110 AgiBot Expedition A3 humanoids set a Guinness World Records title for the most humanoid robots dancing simultaneously, according to Global Times, with synchronized routines, jumps, flips and formation changes run by LinkBots cluster control and ultra-wideband positioning.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1372888.shtml"
+    },
+    {
+     "outlet": "Pandaily"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tokio-marine-robot-insurance",
+   "title": "Tokio Marine becomes the first Japanese non-life insurer to cover AI-enabled robots",
+   "summary": "Tokio Marine Holdings will begin selling insurance for AI-powered robots next month, the first Japanese non-life insurer to cover them, Nikkei Asia reports. The global market for the machines is expected to exceed $80 billion within 10 years.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/tokio-marine-first-japan-nonlife-insurer-to-cover-ai-enabled-robots"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "afr-young-rich-robots",
+   "title": "AFR Young Rich List: robots join, and a Sydney team's robot had lawyers downstairs complaining",
+   "summary": "The AFR's 'Move slow, break things: Robots join the Young Rich List' opens at 56 Pitt Street, Sydney, where lawyers on level 22 heard stomping, complained to building management, then marched upstairs to find 'Anitron' and a group of young men around a human-sized robot.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "Australian Financial Review",
+     "url": "https://www.afr.com/young-rich/move-slow-break-things-robots-join-the-young-rich-list-20261026-p6135j"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "softbank-malaysia-50b",
+   "title": "SoftBank's Masayoshi Son picks Malaysia for US$50B of AI and data-centre investment, says Anwar Ibrahim",
+   "summary": "Malaysia's Prime Minister Anwar Ibrahim said SoftBank's Masayoshi Son chose Sarawak (Kuching) and peninsular Malaysia for US$50B of investment in AI, new technology and data centres. SoftBank did not immediately respond.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-24",
+   "sources": [
+    {
+     "outlet": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/softbanks-son-plans-us50-billion-malaysia-tech-outlay-anwar-ibrahim"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Nikkei Asia"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "Malaysia's PM says SoftBank plans US$50B for AI, new technology and data centres there, another large commitment, though SoftBank had not confirmed it."
+    }
+   ]
+  },
+  {
+   "id": "unitree-h2x-stumble",
+   "title": "Unitree's new H2-X humanoid lost part of a leg after a failed side flip in a kung fu demo",
+   "summary": "Unitree's H2-X humanoid, unveiled a day earlier, lost part of a leg after a failed side flip during a kung fu demo on 22 Oct at the 2026 World Physical AI Conference in Hangzhou, Global Times reports. Reactions on Weibo were mixed; Unitree had not commented.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1372914.shtml"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Monday, October 26."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in AI."
+  },
+  {
+   "s": 15.0,
+   "t": "Today felt like growing pains."
+  },
+  {
+   "s": 16.97,
+   "t": "Bill Gates calls AI an evolutionary event, like monkeys becoming humans."
+  },
+  {
+   "s": 22.03,
+   "t": "He even says his coding skills, his obsession since age 13, are essentially obsolete."
+  },
+  {
+   "s": 31.88,
+   "t": "This week, the owners of Elvis's music sued Anthropic over 274 songs."
+  },
+  {
+   "s": 39.38,
+   "t": "From Monday, Sweden's government is blocking ChatGPT and Claude on staff computers, pointing them to Copilot."
+  },
+  {
+   "s": 46.41,
+   "t": "And Reddit's open-source forum just banned any project made with AI, or made for it."
+  },
+  {
+   "s": 53.44,
+   "t": "This week, China's Moonshot made its new Kimi model worse at hacking, on purpose."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money."
+  },
+  {
+   "s": 61.04,
+   "t": "OpenAI is reportedly luring Anthropic's big customers away with steep discounts."
+  },
+  {
+   "s": 67.5,
+   "t": "At one customer, Rippling, OpenAI's share of the coding work jumped from 16 to 52%."
+  },
+  {
+   "s": 75.0,
+   "t": "But Apollo's chief economist says that outside tech, AI has delivered zero financial payoff so far."
+  },
+  {
+   "s": 82.5,
+   "t": "Beyond the seven tech giants, he says, revenue per worker and profit margins are flat."
+  },
+  {
+   "s": 90.0,
+   "t": "Meanwhile, AI labs are asking faith leaders how to teach chatbots right from wrong."
+  },
+  {
+   "s": 97.5,
+   "t": "And Google DeepMind's Lila Ibrahim says answers are cheap now."
+  },
+  {
+   "s": 101.2,
+   "t": "Good questions are getting harder."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Western Australia wants money back from Deloitte, over AI-invented sources."
+  },
+  {
+   "s": 111.09,
+   "t": "Some of its sums were off by $260 million."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "In China, 110 humanoid robots danced in sync for a world record."
+  },
+  {
+   "s": 128.44,
+   "t": "In Japan, Tokio Marine will start insuring AI-powered robots next month."
+  },
+  {
+   "s": 135.0,
+   "t": "And in Sydney, lawyers complained about stomping upstairs."
+  },
+  {
+   "s": 138.63,
+   "t": "It was a young team's human-sized robot."
+  },
+  {
+   "s": 141.56,
+   "t": "Growing pains, sure. But you only get those when you're growing."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-26/Singularity-Daily_2026-10-26.mp4",
+  "mb": 70.1,
+  "bytes": 70116015,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

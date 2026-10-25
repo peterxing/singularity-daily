@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T08:49:11+00:00",
- "latest": "2026-10-25",
+ "updated": "2026-10-25T22:48:09+00:00",
+ "latest": "2026-10-26",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -19,6 +19,34 @@
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
  },
  "episodes": [
+  {
+   "date": "2026-10-26",
+   "ep": 22,
+   "hook": "GROWING PAINS.",
+   "day": "Monday 26 October 2026",
+   "stories": 15,
+   "forecasts": 2,
+   "links": {
+    "supports": 0,
+    "early": 1,
+    "challenges": 1
+   },
+   "titles": [
+    "Bill Gates calls AI an 'evolutionary event' and says his coding skills are essentially obsolete",
+    "Elvis Presley's rightsholders sue Anthropic over 274 songs",
+    "Sweden's Government Offices block ChatGPT and Claude on staff computers, pointing staff to Copilot"
+   ],
+   "cover": "daily/media/2026-10-26/cover.webp",
+   "thumb": "daily/media/2026-10-26/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-10-26/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-26/Singularity-Daily_2026-10-26.mp4",
+    "mb": 70.1,
+    "bytes": 70116015,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-10-25",
    "ep": 21,
