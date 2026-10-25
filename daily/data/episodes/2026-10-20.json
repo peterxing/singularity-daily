@@ -1,0 +1,603 @@
+{
+ "date": "2026-10-20",
+ "ep": 16,
+ "hook": "A SLICE FOR EVERYONE.",
+ "day": "Tuesday 20 October 2026",
+ "chapters": [
+  "THE PIE",
+  "THE AGENTS",
+  "THE MONEY",
+  "THE HUMANS",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Tue 20 Oct 2026.",
+ "notes": [
+  "This week: Faraday Future's FF Nova robot (launched 15 Oct).",
+  "Claims are the sources' own: Modal's early tests of Nvidia's Vera chips, MiniMax's model and prices, Unitree's market value (Global Times) and the Guardian's $48bn estimate of Anthropic's pledge.",
+  "The DeepSeek order is dated 26 June; Homeland Security's public notice appeared on 19 Oct.",
+  "Screenshots are the publishers' public article pages as captured on 20 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "A SLICE FOR EVERYONE 🍰\n\nThe last 24h in AI:\n- Anthropic pledges 5% of its shares to a public fund\n- Musk: a SpaceX share for every US kid\n- Claude Code catches a hidden crypto miner\n- One hacker's AI agents breached 100+ sites\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (20 Oct 2026), hosted by Claudia: Anthropic's 5% public fund and Musk's SpaceX share pledge, Claude Code catching a crypto miner, a Claude agent that learned to play, MiniMax's Space Bunny reveal, Microsoft's off switch for agents, Tenstorrent's $6.2bn round, Amazon's chips for PyTorch, Nvidia's Vera win, Unitree's rally, AI hurricane forecasts, Singapore's internships, an AI-agent hacking spree, the US DeepSeek ban, a nuclear plant for Amazon, robot stress tests and a $2,490 humanoid, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "THE GUARDIAN: ANTHROPIC'S 5% IS WORTH ABOUT $48BN AT ITS MAY VALUATION, SUBJECT TO SHAREHOLDER APPROVAL",
+  "AP: MUSK'S PLEDGE COULD BE WORTH ABOUT $10.7 BILLION FOR 73 MILLION US KIDS",
+  "TOM'S HARDWARE: THE HIDDEN MINER WAS USING ABOUT 1175% CPU AND PUSHED THE MAC TO 112°C",
+  "MIT TECHNOLOGY REVIEW: ONE AGENT JUGGLED 50 CATCHES, THEN CANCELLED ITS OWN RECORD FOR STRICTER RULES",
+  "UNITE.AI: MINIMAX'S 'SPACE BUNNY' PROCESSED MORE THAN 200 TRILLION TOKENS BEFORE ITS REVEAL",
+  "GEEKWIRE: MICROSOFT'S NEW TOOLS CAN BLOCK AN AGENT'S CHANGES, CALL IN A HUMAN, OR SHUT IT DOWN",
+  "REUTERS: TENSTORRENT RAISED $1.5 BILLION IN A LATE-STAGE ROUND",
+  "ABOUT AMAZON: TORCHNEURON RUNS EXISTING PYTORCH CODE ON TRAINIUM WITH VIRTUALLY NO CHANGES",
+  "AI WEEKLY: MODAL SAYS NVIDIA'S VERA RAN UP TO TWICE AS FAST IN EARLY TESTS",
+  "NPR: THE HURRICANE CENTER'S OWN FORECAST BEAT AI BY 20-40% ON ISAIAS'S INTENSITY",
+  "CNA: SINGAPORE'S INTERNSHIPS RUN OVER THREE YEARS FOR ITE, POLYTECHNIC AND UNIVERSITY STUDENTS",
+  "THE VERGE: CUMMINS IS INVESTIGATING A POSSIBLE ATTACK ON A VENDOR'S WEBSITE",
+  "CYBERSCOOP: AGENCIES MUST REMOVE DEEPSEEK AND STOP BUYING IT",
+  "UTILITY DIVE: IF BUILT, AMAZON WOULD BUY THE INDIANA PLANT'S POWER ON A LONG-TERM CONTRACT",
+  "TECHCRUNCH: LAPLACE INTELLIGENCE IS A PROFITABLE UNIVERSITY OF MICHIGAN SPINOUT",
+  "REUTERS: AN EX-OPENAI ENGINEER ACCUSED OF PLANTING A BUGGING DEVICE HAD SAUDI SUPPORT, PROSECUTORS ALLEGE",
+  "NEW YORK POST: WAYMO HAS REPORTEDLY ORDERED THOUSANDS OF CHINESE-MADE CARS FOR ITS ROBOTAXIS",
+  "THE INFORMATION: ANTHROPIC IS REPORTEDLY READYING A MODEL THAT READS USERS' INTENTIONS BETTER",
+  "WSJ: NVIDIA-BACKED DOUBLEAI LAUNCHES A MODEL TO CUT THE COST OF COMPUTE",
+  "QUANTA: MATHEMATICIANS WEIGH OPENAI'S CLAIMED QUASI-RIEMANN PROOF",
+  "THE GUARDIAN: AUSTRALIA'S MUSIC BODY SAYS KYLIE MINOGUE SONGS HAVE ALREADY BEEN USED TO TRAIN AI"
+ ],
+ "sources": [
+  "The Guardian",
+  "AP",
+  "Reuters",
+  "Tom's Hardware",
+  "MIT Technology Review",
+  "Unite.AI",
+  "MarkTechPost",
+  "GeekWire",
+  "BetaKit",
+  "About Amazon",
+  "AI Weekly",
+  "Global Times",
+  "NPR",
+  "CNA",
+  "The Straits Times",
+  "The Verge",
+  "CyberScoop",
+  "Utility Dive",
+  "Bloomberg",
+  "TechCrunch",
+  "The Next Web",
+  "Fortune"
+ ],
+ "scanned": 4179,
+ "stories": [
+  {
+   "id": "anthropic-commits-5-shares",
+   "title": "Anthropic pledges 5% of its shares to a new fund for the public good",
+   "summary": "Anthropic will commit 5% of its shares, about $48bn at its May valuation by the Guardian's estimate, to a new Anthropic Public Benefit Fund that may donate to nonprofits or make direct distributions; the plan is subject to shareholder approval.",
+   "chapter": "THE PIE",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good"
+    },
+    {
+     "outlet": "AP"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2033-1",
+     "key": "be6a7a694c",
+     "relation": "early",
+     "note": "Anthropic is setting aside 5% of its shares for a fund that may make direct distributions to specific populations."
+    }
+   ]
+  },
+  {
+   "id": "musk-pledges-spacex-share",
+   "title": "Elon Musk pledges one SpaceX share to every kid in America next year",
+   "summary": "Replying to Anthropic, Musk said he will give one of his SpaceX shares to every kid in America next year; AP puts that at about 73 million children, roughly $10.66 billion at Friday's close, and he gave no details on how it would work.",
+   "chapter": "THE PIE",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "AP (Boston Herald)",
+     "url": "https://www.bostonherald.com/2026/10/19/elon-musk-spacex-shares-kids/"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-code-warns-developer",
+   "title": "Claude Code finds a hidden crypto miner on a developer's overheating Mac",
+   "summary": "A developer says on Reddit that Claude Code warned, 'Your Mac is running a crypto miner that I didn't put there'; the xmrig miner was using about 1175% CPU and the CPU peaked at 112°C, Tom's Hardware reports.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees"
+    },
+    {
+     "outlet": "Mezha"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "researchers-stranded-claude-agent",
+   "title": "Researchers stranded a Claude agent on a virtual desert island, and it started to play",
+   "summary": "In a not-yet-peer-reviewed study, researchers including MIT CSAIL's Antonio Norelli saw Claude agents invent games like 'the floor is lava'; one juggled 50 catches, then scrapped its own record to restart with stricter rules.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2038-0",
+     "key": "e09ce659d7",
+     "relation": "early",
+     "note": "Researchers ran an experiment on what a stranded Claude agent does on its own: it invented games and kept setting itself harder rules."
+    }
+   ]
+  },
+  {
+   "id": "minimax-launches-m3-1",
+   "title": "MiniMax reveals it was behind the mystery 'Space Bunny' model with its budget M3.1 Flash",
+   "summary": "China's MiniMax rolled out M3.1 Flash and revealed it as Space Bunny, an anonymous model that had processed more than 200 trillion tokens; MarkTechPost puts its price at $0.15 per million input tokens.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/minimax-launches-m3-1-flash-revealing-space-bunny-stealth-model/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "MarkTechPost"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "microsoft-agent-off-switch",
+   "title": "Microsoft unveils tools to monitor and shut down rogue AI agents",
+   "summary": "New features in Microsoft 365 E7 and Project Perception assess each AI agent's risk and can block it from making changes, require a human to step in, or shut it down, GeekWire reports.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "GeekWire"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "Microsoft's new tools rate each agent's risk and can block it, call in a human or shut it down, an early form of agent monitoring."
+    }
+   ]
+  },
+  {
+   "id": "tenstorrent-raises-1-5bn",
+   "title": "AI chip startup Tenstorrent raises $1.5bn, more than doubling its value to $6.2bn",
+   "summary": "Tenstorrent raised $1.5 billion in a late-stage round at a $6.2 billion post-money valuation, more than doubling its value as it takes on the GPU giants.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "BetaKit",
+     "url": "https://betakit.com/tenstorrent-secures-1-5-billion-usd-at-6-2-billion-valuation-to-challenge-gpu-dominance/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amazon-opens-trainium-chips",
+   "title": "Amazon opens its Trainium AI chips to every PyTorch developer",
+   "summary": "Amazon's TorchNeuron runs existing PyTorch code on its Trainium chips with virtually no changes and is open to all developers; Reuters frames it as a challenge to Nvidia.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "About Amazon",
+     "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "GeekWire"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-wins-cloud-startup",
+   "title": "Nvidia's new Vera CPUs win over AI cloud startup Modal",
+   "summary": "Modal, which until now relied entirely on Intel and AMD CPUs, will add Nvidia's Vera CPU to host AI agents; it says Vera delivered up to twice the throughput in early tests.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "AI Weekly",
+     "url": "https://aiweekly.co/alerts/modal-adds-nvidia-vera-cpu-to-host-ai-agents-claims-2x-throughput"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "unitree-shares-surge-16",
+   "title": "Robot maker Unitree's shares jump 16%, valuing it at over 200 billion yuan",
+   "summary": "Shares of Unitree Robotics, China's humanoid and robot-dog maker, rose 16.15%, lifting its market value above 200 billion yuan amid China's push to commercialise robots, Global Times reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1372579.shtml"
+    },
+    {
+     "outlet": "BigGo Finance"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "Investors pushed robot maker Unitree's value above 200 billion yuan with a 16% jump, amid China's push to commercialise robots."
+    }
+   ]
+  },
+  {
+   "id": "models-changing-hurricane-forecasting",
+   "title": "Google DeepMind's AI called Hurricane Isaias's path as AI reshapes hurricane forecasting",
+   "summary": "When Isaias hit Florida on 9 Oct, conventional models first pointed west toward Louisiana while Google DeepMind's model called the western Florida Panhandle, NPR reports; the Hurricane Center's own forecast still beat it on intensity.",
+   "chapter": "THE HUMANS",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "NPR",
+     "url": "https://www.npr.org/2026/10/19/nx-s1-5996666/ai-models-are-changing-how-forecasters-predict-the-paths-of-hurricanes"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "A hurricane expert says AI brought forecasting gains in a year that would have taken a decade, though forecasters still beat it on intensity."
+    }
+   ]
+  },
+  {
+   "id": "singapore-ai-internships",
+   "title": "Singapore to offer about 3,000 year-long internships as AI reshapes entry-level jobs",
+   "summary": "Singapore will offer around 3,000 year-long internships over the next three years for Information and Digital Technologies students at ITE, polytechnics and autonomous universities, to counter AI's hit on entry-level jobs.",
+   "chapter": "THE HUMANS",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "CNA",
+     "url": "https://www.channelnewsasia.com/singapore/tech-ai-internships-jobs-ite-polytechnic-university-students-6471296"
+    },
+    {
+     "outlet": "The Straits Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-3",
+     "key": "6933b6ff05",
+     "relation": "early",
+     "note": "Singapore is creating about 3,000 year-long internships to counter AI's hit on entry-level jobs, an early workforce redesign."
+    }
+   ]
+  },
+  {
+   "id": "hacker-agents-100-websites",
+   "title": "One hacker's AI agents broke into more than 100 company websites",
+   "summary": "Security firm Norforge says one hacker's agents, built on the open-source Cairn platform and mostly operating on their own, broke into more than 100 websites in about 23 hours; Reuters says John Deere and SharkNinja were among the victims.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "supports",
+     "note": "One hacker's agents, mostly operating on their own, broke into over 100 websites over about 23 hours from brief instructions."
+    }
+   ]
+  },
+  {
+   "id": "homeland-security-bans-deepseek",
+   "title": "US Homeland Security bans DeepSeek from federal civilian agencies",
+   "summary": "Federal civilian agencies must remove DeepSeek products and stop buying them, citing user data stored in China; the order letter is dated 26 June, and its public notice appeared on 19 October.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "CyberScoop",
+     "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "aep-amazon-nuclear-indiana",
+   "title": "AEP and Amazon eye a 960 MW advanced nuclear plant in Indiana",
+   "summary": "AEP and Amazon are evaluating plans for a 960-megawatt advanced nuclear plant in Indiana using X-energy reactors; if it is developed, Amazon would buy the power under a long-term contract. Bloomberg notes the technology is unproven.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "Utility Dive",
+     "url": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "supports",
+     "note": "Amazon would buy the output of a 960 MW nuclear plant under study in Indiana, a tech giant lining up its own power supply."
+    }
+   ]
+  },
+  {
+   "id": "laplace-intelligence-uses-agents",
+   "title": "Laplace Intelligence uses AI agents to stress-test robots and self-driving cars",
+   "summary": "Laplace Intelligence, a profitable University of Michigan spinout, pairs AI agents with interactive simulation to probe robots and self-driving cars before they are deployed, TechCrunch reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "faraday-ff-nova",
+   "title": "Faraday Future prices its small FF Nova humanoid for developers at $2,490",
+   "summary": "Faraday Future, with FF EAI Robotics, launched FF Nova, a 50 cm humanoid robot for developers, at $2,490, plus a $299 Nova Mini for kids; the first 100 go out by invitation.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-15",
+   "sources": [
+    {
+     "outlet": "The Next Web"
+    },
+    {
+     "outlet": "TechRepublic"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "proof-of-human-badges",
+   "title": "Zoom and big financial firms add 'Proof of Human' badges from Sam Altman's World",
+   "summary": "Zoom and financial firms such as Bain Capital and VanEck are adding 'Proof of Human' badges, which rely on World's iris-scanning Orb, to stop fraud and deepfakes, Fortune reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "Fortune"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sp-hidden-ai-debt",
+   "title": "S&P Global says big tech likely has more AI-linked liabilities than now known",
+   "summary": "S&P Global says the world's biggest tech firms likely carry more AI-linked liabilities than are now known, though it says no rating changes are needed yet.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "CNA"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "Today, a slice for everyone: Anthropic pledged 5% of its shares to a fund for the public good."
+  },
+  {
+   "s": 22.5,
+   "t": "Elon Musk's reply? One SpaceX share for every kid in America, next year."
+  },
+  {
+   "s": 31.88,
+   "t": "Agents: Claude Code told one developer, \"Your Mac is running a crypto miner that I didn't put there.\""
+  },
+  {
+   "s": 38.44,
+   "t": "Researchers stranded a Claude agent on a virtual desert island."
+  },
+  {
+   "s": 42.26,
+   "t": "It invented games, and started to play."
+  },
+  {
+   "s": 45.0,
+   "t": "A mystery model nicknamed Space Bunny was unmasked: it's China's MiniMax, with a new budget model."
+  },
+  {
+   "s": 52.5,
+   "t": "And Microsoft built an off switch: new tools rate each agent's risk, and can shut it down."
+  },
+  {
+   "s": 60.0,
+   "t": "Money: chip startup Tenstorrent more than doubled its value, to $6.2 billion."
+  },
+  {
+   "s": 67.5,
+   "t": "Amazon opened its own AI chips to every developer using PyTorch, a favourite AI toolkit. No rewrite needed."
+  },
+  {
+   "s": 75.0,
+   "t": "And Nvidia's new Vera chips won over Modal, a startup that ran only on Intel and AMD until now."
+  },
+  {
+   "s": 82.5,
+   "t": "Robot maker Unitree's shares jumped 16%, valuing it at over 200 billion yuan."
+  },
+  {
+   "s": 90.0,
+   "t": "Humans: when Hurricane Isaias hit Florida, Google DeepMind's AI called its path right out of the gate."
+  },
+  {
+   "s": 97.5,
+   "t": "And Singapore will create 3,000 year-long internships, so students still get a first rung on the ladder."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch: one hacker's AI agents broke into over 100 company websites."
+  },
+  {
+   "s": 110.62,
+   "t": "And the US banned China's DeepSeek from federal civilian agencies."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines need power: Amazon and a utility are eyeing a new nuclear plant in Indiana."
+  },
+  {
+   "s": 128.44,
+   "t": "A Michigan startup's agents stress-test robots and self-driving cars before they hit the real world."
+  },
+  {
+   "s": 135.0,
+   "t": "And this week, Faraday Future priced a small humanoid robot for developers at under $2,500."
+  },
+  {
+   "s": 141.56,
+   "t": "A slice for everyone: the future is coming either way, and today its builders started talking about sharing it."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-20/Singularity-Daily_2026-10-20.mp4",
+  "mb": 69.7,
+  "bytes": 69682444,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
