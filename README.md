@@ -3,7 +3,11 @@
 **The last 24 hours in AI, in three minutes, every day** — with every story checked against the forecasts in
 [*The Hitchhiker's Guide to the Singularity*](https://peterxing.com/guide).
 
-**Watch:** [peterxing.com](https://peterxing.com) (opens on the Daily) · [peterxing.github.io/singularity-daily](https://peterxing.github.io/singularity-daily/) · [RSS](https://peterxing.github.io/singularity-daily/daily/feed.xml) · [every episode as a release](https://github.com/peterxing/singularity-daily/releases)
+**Watch:** [peterxing.com](https://peterxing.com) · [RSS](https://peterxing.github.io/singularity-daily/daily/feed.xml) · [every episode as a release](https://github.com/peterxing/singularity-daily/releases)
+
+The show's address is **peterxing.com**. This repository's GitHub Pages site
+(peterxing.github.io/singularity-daily) hosts the files that peterxing.com serves; people who open it directly are
+forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
 
 ## What's on the site
 
@@ -33,9 +37,14 @@ Videos stay out of git. GitHub serves release assets as downloads (`application/
 won't play inline, so the newest seven episodes' videos are copied into the Pages site, where they're served as `video/mp4`.
 Older episodes stream from their release (or download).
 
-peterxing.com is served by the [`post-agi-planning`](https://github.com/peterxing/post-agi-planning) Vercel project, which
-redirects `/` to `/daily`, proxies `/daily` and `/daily/*` to this site, and keeps the Guide at `/guide`. Old links to the
-Guide's homepage (`/#chapter-3`, `/#event-2027-1`, `/?fd=economic` …) are forwarded to `/guide` by `daily/route.js`.
+peterxing.com is served by the [`post-agi-planning`](https://github.com/peterxing/post-agi-planning) Vercel project. Its
+Routing Middleware (`middleware.ts`) serves this site at the bare domain, `vercel.json` proxies `/daily` (an alias) and
+`/daily/*` here, and the Guide stays at `/guide`. Old links to the Guide's homepage (`/#chapter-3`, `/#event-2027-1`,
+`/?fd=economic` …) are forwarded to `/guide` by `daily/route.js`.
+
+A second daily automation ("Singularity Daily — site sync", early afternoon Sydney time) is the safety net: it publishes
+any rendered episode the show's own run didn't, refreshes the forecast snapshot from the Guide (`publish.py sync`), and
+checks that peterxing.com serves the newest episode.
 
 ## Data
 

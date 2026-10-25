@@ -1,6 +1,6 @@
 'use strict';
 (() => {
-  const SITE = 'https://peterxing.com/daily';
+  const SITE = 'https://peterxing.com/';
   const GUIDE = 'https://peterxing.com';
   const PAGES = 'https://peterxing.github.io/singularity-daily/';
   const host = location.hostname;
