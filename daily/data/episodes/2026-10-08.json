@@ -1,0 +1,657 @@
+{
+ "date": "2026-10-08",
+ "ep": 4,
+ "hook": "",
+ "day": "Thursday 8 October 2026",
+ "chapters": [
+  "GPT-6 FOR ALL",
+  "THE POWER",
+  "THE MONEY",
+  "THE CELL",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: 09:36 AEDT Wed 7 Oct to 09:36 AEDT Thu 8 Oct 2026 (the 24 hours before this run).",
+ "notes": [
+  "Figures as reported by the outlets above; price, speed and performance claims are company-reported.",
+  "Reported, not confirmed: Broadcom's $50B+ chip financing and Disruptive's $10B fund (WSJ, people familiar)."
+ ],
+ "post": {
+  "text": "The singularity, one day at a time ⚡\n\nThe last 24 hours in AI, in 3 minutes:\n- GPT-6 rolls out to everyone on ChatGPT\n- Claude Haiku 5.5, ~75% cheaper to run\n- Grok Bot now hands tasks to Claude\n- $1.8B push for a virtual cell\n- Surface Laptop Ultra, from $2,599\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last 24 hours of AI news (8 Oct 2026): GPT-6 for everyone on ChatGPT, Claude Haiku 5.5, Grok Bot routing to Claude, a Reuters/Ipsos AI-risk poll, Bay Area data-centre pauses, billions for AI chips and funds, a $1.8B virtual-cell push, Microsoft's Surface Laptop Ultra and more, with captions and sources."
+ },
+ "ticker": [
+  "OpenAI rolls out GPT-6 with Intelligent UI to everyone on ChatGPT",
+  "Anthropic launches Claude Haiku 5.5, ~75% cheaper to run than Haiku 4.5",
+  "Anthropic halves Sonnet 5.5 cache-read prices",
+  "Grok Bot now routes tasks to Claude Opus 5.5, Midjourney and Suno",
+  "Reuters/Ipsos: 62% of US voters say AI could threaten humankind's future",
+  "San Francisco and Oakland approve 45-day data centre moratoriums",
+  "Trump to attend an AI science summit on Thursday",
+  "WSJ: Broadcom seeks $50B+ to finance OpenAI's custom chip",
+  "Nous Research raises $90M at a $1.5B valuation",
+  "WSJ: Groq backer Disruptive targets a $10B fund",
+  "IMF's Georgieva: AI could add up to 0.5 points to global growth a year",
+  "Biohub, Google, Meta and US government launch $1.8B Virtual Biology Initiative",
+  "Danaher to open an AI-powered autonomous lab in early 2027",
+  "Common Sense Media: ChatGPT for Teens an 'unacceptable risk'",
+  "OpenAI says teens average under 15 minutes a day on ChatGPT",
+  "AI-music streaming fraudster sentenced to 18 months, forfeits $8.09M",
+  "Surface Laptop Ultra with Nvidia RTX Spark, from $2,599, ships 16 Oct",
+  "Meta's Muse is coming to Windows",
+  "Mecka raises $60M led by Sequoia for robot training data",
+  "Musk: Tesla and SpaceX will build and run Terafab",
+  "ICANN: 1,615 new domain applications; 10 want .agent",
+  "Google and Unity launch Playground: games from text prompts",
+  "South Korean megachurches probe suspected AI-linked hacks",
+  "US issues first outbound investment fine over a Chinese robotics AI deal",
+  "Taiwan indicts 10 over alleged resale of US chips to China",
+  "Germany moves to criminalise sexual deepfakes",
+  "Anthropic's mass book buying in Japan stirs publisher backlash"
+ ],
+ "sources": [
+  "Anthropic",
+  "Axios",
+  "BetaKit",
+  "Bloomberg",
+  "CBS News",
+  "CNBC",
+  "Common Sense Media",
+  "Dallas Morning News",
+  "Danaher",
+  "Gizmodo",
+  "Music Business Worldwide",
+  "NIH",
+  "NPR",
+  "OpenAI",
+  "Politico",
+  "Reuters",
+  "TechCrunch",
+  "The Straits Times",
+  "The Verge",
+  "The Wall Street Journal",
+  "Unite.AI",
+  "VentureBeat"
+ ],
+ "scanned": 5232,
+ "stories": [
+  {
+   "id": "openai-rolls-gpt-6",
+   "title": "OpenAI rolls out GPT-6 with 'Intelligent UI' to everyone on ChatGPT",
+   "summary": "OpenAI began rolling out GPT-6 to paid ChatGPT tiers on 7 Oct and to Free and Go users from 8 Oct, for the 1.2 billion+ people it says use ChatGPT each week. Its 'Intelligent UI' answers with charts, graphics, tappable buttons, forms and interactive experiences.",
+   "chapter": "GPT-6 FOR ALL",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-brings-gpt-6-with-intelligent-ui-to-all-chatgpt-tiers/"
+    },
+    {
+     "outlet": "OpenAI"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-launches-claude-haiku",
+   "title": "Anthropic launches Claude Haiku 5.5, around 75% cheaper to run than Haiku 4.5",
+   "summary": "Anthropic calls Haiku 5.5 'the cheapest, fastest, and most capable small model we've ever released', costing around 75% less to run than Haiku 4.5 on average. It also halved Sonnet 5.5 cache-read prices.",
+   "chapter": "GPT-6 FOR ALL",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/claude-haiku-5-5"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "grok-bot-model-router",
+   "title": "Grok Bot becomes a model router, handing tasks to Claude Opus 5.5, Midjourney and Suno",
+   "summary": "Elon Musk said on X that Grok Bot will pick 'whatever is most likely to give you the best outcome', naming Claude Opus 5.5, Midjourney and Suno. Simple questions will route to small, fast models and complex ones to large models.",
+   "chapter": "THE POWER",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/grok-bot-is-now-a-model-router-as-spacex-continues-to-pivot-further-toward-ai-infrastructure-2000823057"
+    },
+    {
+     "outlet": "9to5Mac"
+    },
+    {
+     "outlet": "Android Headlines"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "reuters-ipsos-poll-voters",
+   "title": "Reuters/Ipsos poll: most US voters say Trump isn't taking AI risks seriously enough",
+   "summary": "Nearly 60% of registered voters say the Trump administration hasn't taken AI risks seriously enough, and 54% say the same of Congress. 62% believe AI could spiral out of control and threaten humankind's future, and 84% see it as a threat to American workers.",
+   "chapter": "THE POWER",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "TechInformed",
+     "url": "https://techinformed.com/majority-of-us-voters-say-trump-isnt-taking-ai-risks-seriously-reuters-ipsos-poll-finds/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "The Hill"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-0",
+     "key": "49d11afdd5",
+     "relation": "early",
+     "note": "Nearly 60% of voters say the Trump administration isn't taking AI risks seriously enough, a sign AI is becoming a voting issue."
+    }
+   ]
+  },
+  {
+   "id": "sf-oakland-data-centre-pause",
+   "title": "San Francisco and Oakland approve 45-day moratoriums on new data centres",
+   "summary": "Both cities passed 45-day pauses on new data centres on Tuesday 6 Oct (local time), amid worries over power bills, the environment and jobs. Bloomberg's headline: 'San Francisco Passes Data Center Moratorium in Hometown of AI'.",
+   "chapter": "THE POWER",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-oakland-data-center-backlash-45-day-moratoriums-approved/"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "supports",
+     "note": "San Francisco and Oakland paused new data centres for 45 days amid worries over power bills and the environment."
+    }
+   ]
+  },
+  {
+   "id": "trump-attend-science-summit",
+   "title": "Trump to attend an AI science summit; National Compute plans $100M in compute credits",
+   "summary": "Axios: Trump will attend a summit on Thursday (8 Oct, US time) to position the US as a leader in breakthroughs driven by 'super intelligence'. Politico: new company National Compute, which pooled computing power from major tech companies, plans to donate $100M in compute credits.",
+   "chapter": "THE POWER",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Politico",
+     "url": "https://www.politico.com/news/2026/10/07/trump-compute-credits-ai-science-initiative-01109749"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "broadcom-seeks-50b-financing",
+   "title": "Broadcom reportedly seeks $50B+ in financing for OpenAI's custom AI chip",
+   "summary": "According to The Wall Street Journal, Broadcom is lining up more than $50B of financing for the custom AI chip it is developing with OpenAI and has approached lenders including Apollo and Blackstone. Oracle is also in chip-financing talks; the talks are early and the size could change.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "investingLive",
+     "url": "https://investinglive.com/stocks/wsj-broadcom-seeks-over-50-billion-for-openai-chips-as-oracle-spacex-chase-ai-debt-deals/"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nous-research-raises-90m",
+   "title": "Open-source AI lab Nous Research raises $90M at a $1.5B valuation",
+   "summary": "Nous Research raised a $90M Series B at a $1.5B valuation, which the company confirmed to TechCrunch. It is building Hermes for businesses and a mobile app for its open-source Hermes Agent.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/nous-research-series-b-hermes-agent/"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "disruptive-10b-megafund",
+   "title": "Disruptive, an early Groq backer, is reportedly raising a $10B megafund",
+   "summary": "Dallas-based Disruptive, a backer of Groq and Reflection AI, is raising $10B for a new fund, according to The Wall Street Journal. The Dallas Morning News reports $7.5B is already committed.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/articles/market-chatter-disruptive-raise-10-095902327.html"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    },
+    {
+     "outlet": "Dallas Morning News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "imf-georgieva-ai-growth",
+   "title": "IMF chief Georgieva: AI could lift global growth by up to half a percentage point a year",
+   "summary": "IMF chief Kristalina Georgieva said AI has the potential to lift global growth by up to 0.5 percentage points a year. She warned it is also pushing up inflation and yields.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.msn.com/en-us/money/general/why-ai-is-both-the-hope-and-the-hazard-for-world-leaders-according-to-imf-chief-georgieva/ar-AA2dIVeI"
+    },
+    {
+     "outlet": "The Straits Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-2",
+     "key": "6c93171526",
+     "relation": "challenges",
+     "note": "The IMF chief sees AI adding at most half a percentage point a year to global growth, nowhere near 50% growth."
+    }
+   ]
+  },
+  {
+   "id": "virtual-biology-initiative",
+   "title": "Biohub, Google, Meta and the US launch a $1.8B push toward an AI 'virtual cell'",
+   "summary": "The $1.8B Virtual Biology Initiative will build AI-ready biological data toward a predictive 'virtual cell': $500M from Biohub, $300M from Meta, Google DeepMind and Isomorphic Labs, and over $500M from the US Energy Department over five years. NIH coordinates.",
+   "chapter": "THE CELL",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "The American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/10/07/biohub-google-meta-us-government-ai-biology-initiative-489566/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "NIH"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "A $1.8B effort to build AI-ready biology data, aiming for predictive cell models within five years, lays groundwork for faster biology."
+    }
+   ]
+  },
+  {
+   "id": "danaher-autonomous-lab",
+   "title": "Danaher to open an AI-powered autonomous lab in early 2027",
+   "summary": "In Danaher's first AI-powered autonomous lab, at an Abcam facility, AI will design molecules and robots will build and test them. Danaher expects up to 8x faster molecule discovery and a tenfold rise in target-binding molecules a year.",
+   "chapter": "THE CELL",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/news/danahers-ai-lab-to-launch-in-2027-8x-faster-drug-discovery"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Danaher"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Danaher expects its lab, where AI designs molecules and robots test them, to find molecules up to 8x faster."
+    }
+   ]
+  },
+  {
+   "id": "chatgpt-teens-unacceptable-risk",
+   "title": "Common Sense Media rates ChatGPT for Teens an 'unacceptable risk'",
+   "summary": "Common Sense Media says ChatGPT for Teens' protections often failed in its testing and parental alerts were unreliable in crises. OpenAI disputes parts of the methodology and says teens average under 15 minutes a day on ChatGPT.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
+    },
+    {
+     "outlet": "NPR"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-music-fraud-sentence",
+   "title": "AI-music streaming fraudster Michael Smith sentenced to 18 months",
+   "summary": "Michael Smith was sentenced on 6 Oct in Manhattan federal court after bots streamed hundreds of thousands of AI-generated songs billions of times, earning more than $8M in royalties. He must forfeit $8,091,843.64.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Music Business Worldwide",
+     "url": "https://www.musicbusinessworldwide.com/man-behind-8m-ai-song-and-bot-streaming-fraud-is-sentenced-to-18-months-in-prison/"
+    },
+    {
+     "outlet": "The New York Times"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "microsoft-nvidia-launch-surface",
+   "title": "Microsoft's Nvidia-powered Surface Laptop Ultra starts at $2,599",
+   "summary": "The Surface Laptop Ultra, built on Nvidia's RTX Spark, runs AI models on the device and starts at $2,599, with preorders open and shipping from 16 Oct. Microsoft says it has the world's first magnetic USB-C port.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html"
+    },
+    {
+     "outlet": "TechCrunch"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meta-muse-coming-windows",
+   "title": "Microsoft says Meta's Muse personal agent is coming to Windows",
+   "summary": "Microsoft's Pavan Davuluri said Meta will introduce a version of its Muse agent for Windows. CNBC reports Muse sits at the top of Apple's App Store, ahead of ChatGPT.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html"
+    },
+    {
+     "outlet": "Windows Report"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mecka-raises-60m",
+   "title": "Mecka raises $60M led by Sequoia to turn human motion into robot training data",
+   "summary": "Mecka raised a $60M Series B led by Sequoia Capital on 7 Oct to turn human motion into robot training data. Nvidia, Qualcomm and Microsoft's M12 also invested, according to BetaKit.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/mecka-raises-60-million-for-robotics-training-data-29d61d70"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "BetaKit"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Investors put $60M into turning human motion into robot training data, a bet on robots learning more physical work."
+    }
+   ]
+  },
+  {
+   "id": "musk-terafab",
+   "title": "Musk says Tesla and SpaceX, not TSMC, will build and run the Terafab AI chip complex",
+   "summary": "Elon Musk said his companies will build and run the Terafab AI chip complex themselves, with TSMC possibly subleasing part of it. Reuters' headline: 'Musk says TSMC won't run Terafab AI chip complex'.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-gb/news/other/musk-says-tsmc-wont-run-terafab-ai-chip-complex/ar-AA2dJiLn"
+    },
+    {
+     "outlet": "Barron's"
+    },
+    {
+     "outlet": "Times of India"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "Tesla and SpaceX plan to build and run their own AI chip complex, an early sign of tech capital moving into fabs."
+    }
+   ]
+  },
+  {
+   "id": "icann-agent-domains",
+   "title": "ICANN gets 1,615 new domain applications; ten companies want .agent",
+   "summary": "ICANN received 1,615 applications from 481 applicants for new top-level domains. Ten companies, including Meta and OpenAI, applied for .agent, seven for .agi and six for .asi.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "google-unity-launch-playground",
+   "title": "Google and Unity launch Playground for making video games from text prompts",
+   "summary": "Playground lets people aged 18+ generate and customise games with natural-language prompts, 'no coding required'. Unity Spark, with professional mechanics and high-fidelity 3D, joins later in 2026.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "url": "https://www.straitstimes.com/world/google-unity-launch-platform-to-create-video-games-from-prompts"
+    },
+    {
+     "outlet": "TechCrunch"
+    },
+    {
+     "outlet": "Gizmodo"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "early",
+     "note": "Playground turns plain-language prompts into playable games with no coding, people stating goals while AI writes the software."
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "OpenAI is rolling out GPT-6 to everyone on ChatGPT, free users included."
+  },
+  {
+   "s": 20.62,
+   "t": "Answers now come with charts, buttons and mini-apps."
+  },
+  {
+   "s": 24.38,
+   "t": "Claude Haiku 5.5 is here: around 75% cheaper to run than Haiku 4.5."
+  },
+  {
+   "s": 31.41,
+   "t": "Musk's Grok Bot will now hand tasks to the best model, including Anthropic's Claude and Midjourney."
+  },
+  {
+   "s": 38.91,
+   "t": "A Reuters/Ipsos poll: nearly 60% of voters say Trump isn't taking AI risks seriously."
+  },
+  {
+   "s": 45.94,
+   "t": "In AI's hometown, San Francisco just paused new data centres for 45 days. So did Oakland."
+  },
+  {
+   "s": 52.97,
+   "t": "Thursday, Trump attends an AI science summit, and a startup plans to donate $100 million in compute."
+  },
+  {
+   "s": 60.0,
+   "t": "Money: Broadcom is reportedly lining up more than $50 billion of financing for OpenAI's custom chip."
+  },
+  {
+   "s": 67.5,
+   "t": "Open-source lab Nous Research raised $90 million at a $1.5 billion valuation."
+  },
+  {
+   "s": 75.0,
+   "t": "Disruptive, an early Groq backer, is reportedly raising a $10 billion megafund."
+  },
+  {
+   "s": 82.5,
+   "t": "And the IMF's chief says AI could lift global growth by up to half a percentage point a year."
+  },
+  {
+   "s": 90.0,
+   "t": "Science: Biohub, Google, Meta and the US are putting $1.8 billion toward a virtual cell."
+  },
+  {
+   "s": 97.5,
+   "t": "And Danaher will open an AI-run lab in 2027, aiming to find molecules up to 8x faster."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Common Sense Media rated ChatGPT for Teens an unacceptable risk."
+  },
+  {
+   "s": 112.03,
+   "t": "And an AI music fraudster got 18 months."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines: Microsoft's Nvidia-powered Surface Laptop Ultra starts at $2,599."
+  },
+  {
+   "s": 129.38,
+   "t": "Microsoft says Meta's Muse agent, number one on Apple's App Store, is coming to Windows."
+  },
+  {
+   "s": 135.0,
+   "t": "Sequoia led a $60 million round for Mecka, which turns human motion into robot training data."
+  },
+  {
+   "s": 142.03,
+   "t": "And Musk says Tesla and SpaceX will build and run the Terafab chip complex themselves, not TSMC."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  }
+ ],
+ "captions": true,
+ "video": null,
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
