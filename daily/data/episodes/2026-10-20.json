@@ -278,14 +278,7 @@
      "outlet": "BigGo Finance"
     }
    ],
-   "predictions": [
-    {
-     "id": "2032-3",
-     "key": "180e700c6a",
-     "relation": "early",
-     "note": "Investors pushed robot maker Unitree's value above 200 billion yuan with a 16% jump, amid China's push to commercialise robots."
-    }
-   ]
+   "predictions": []
   },
   {
    "id": "models-changing-hurricane-forecasting",
