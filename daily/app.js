@@ -246,9 +246,11 @@
     const doms = Object.keys(state.preds.domains || {}).map(d => {
       const all = state.preds.items.filter(p => p.d === d);
       const hit = all.filter(p => trackerFor(p.id)).length;
+      const fill = h('i');
+      fill.style.width = `${all.length ? Math.round((hit / all.length) * 100) : 0}%`; // CSSOM, allowed by the page's CSP
       return h('button', { type: 'button', class: 'dom', 'aria-pressed': String(state.filters.domain === d), onclick: () => setDomain(state.filters.domain === d ? 'all' : d) },
         h('span', { class: 'name', text: domainName(d) }),
-        h('span', { class: 'bar' }, h('i', { style: `width:${all.length ? Math.round((hit / all.length) * 100) : 0}%` })),
+        h('span', { class: 'bar' }, fill),
         h('span', { class: 'num', text: `${hit} of ${all.length} with news` }));
     });
     $('scoreboard').replaceChildren(...tiles, h('div', { class: 'domains' }, doms));

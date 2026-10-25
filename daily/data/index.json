@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T07:08:22+00:00",
- "latest": "2026-10-21",
+ "updated": "2026-10-25T07:17:31+00:00",
+ "latest": "2026-10-23",
  "site": "https://peterxing.com/daily",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -19,6 +19,34 @@
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
  },
  "episodes": [
+  {
+   "date": "2026-10-23",
+   "ep": 19,
+   "hook": "AI IS GROWING UP.",
+   "day": "Friday 23 October 2026",
+   "stories": 19,
+   "forecasts": 7,
+   "links": {
+    "supports": 2,
+    "early": 6,
+    "challenges": 1
+   },
+   "titles": [
+    "Microsoft's diagnostic AI beats generalist doctors on hard cases, in a simulation",
+    "Nvidia's Jensen Huang says AI is like a baby: contain it and monitor it",
+    "Hugging Face's open Carbon-X model lets you chat with DNA on a laptop"
+   ],
+   "cover": "daily/media/2026-10-23/cover.webp",
+   "thumb": "daily/media/2026-10-23/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-10-23/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-23/Singularity-Daily_2026-10-23.mp4",
+    "mb": 69.2,
+    "bytes": 69244902,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-10-21",
    "ep": 17,

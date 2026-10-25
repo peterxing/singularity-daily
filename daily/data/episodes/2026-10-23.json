@@ -1,0 +1,625 @@
+{
+ "date": "2026-10-23",
+ "ep": 19,
+ "hook": "AI IS GROWING UP.",
+ "day": "Friday 23 October 2026",
+ "chapters": [
+  "THE CHECKUP",
+  "SCHOOL DAYS",
+  "POCKET MONEY",
+  "WORK & HOME",
+  "THE CATCH",
+  "FIRST STEPS"
+ ],
+ "window": "Window: the 24 hours to 08:50 AEDT, Fri 23 Oct 2026.",
+ "notes": [
+  "This week: Figure 03's 560 km treadmill walk (reported by Figure's CEO on 19 Oct) and the viral gym sign (19 Oct).",
+  "Reported, not confirmed: DeepSeek's round of about $15 billion (Bloomberg, people familiar) and OpenAI's round of up to $30 billion at $1.25 trillion (CNBC, sources).",
+  "Microsoft's results are from simulated cases in Science, against generalist doctors, not specialists; it still needs clinical validation. 'AI is like a baby' is CNBC's headline for its Jensen Huang interview.",
+  "Tesla's Optimus and Cybercab remarks are from its Q3 call on 21 Oct (US time), at the start of this window.",
+  "Screenshots are the publishers' public article pages as captured on 23 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "AI IS GROWING UP 🍼\n\nThe last 24h in AI:\n- Microsoft's AI gets 83% of the hardest medical cases right; generalist doctors 36%\n- Hugging Face lets you chat with DNA\n- DeepSeek reportedly raises ~$15B\n- Millions of attempts to exploit the web flaw AI helped find\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (23 Oct 2026), hosted by Claudia: Microsoft's diagnostic AI beating generalist doctors on hard cases, Jensen Huang's 'AI is like a baby', Hugging Face's DNA chat model, Google DeepMind's forest map, 1Password for AI agents, Uber's 30,000 ChatGPT users, DeepSeek's reported $15bn, OpenAI's reported $1.25tn round, Warp Sciences' robot chemists, Meta's 7% fall, Barclays' 5,000 job cuts, Mori the robot mushroom, millions of attacks on the PHP flaw, holes in OpenAI's agent monitor, Tesla's toddler-like Optimus, Cybercab sales and Figure's 560 km walk, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "THE VERGE: ON EMERGENCY CASES, MICROSOFT'S DIAGNOSTIC ORCHESTRATOR SCORED 80%; DOCTORS AVERAGED 47%",
+  "TECHCRUNCH: MICROSOFT IS WORKING WITH THE MAYO CLINIC ON A HEALTHCARE FOUNDATION MODEL FOR NEXT YEAR",
+  "WIRED: CARBON-X WAS NOT TRAINED ON VIRUSES, AND HASN'T BEEN TESTED IN A WET LAB YET",
+  "GOOGLE DEEPMIND: THE FOREST MAP TRACKS CHANGES YEAR BY YEAR FROM 2017 TO 2025",
+  "THE VERGE: 1PASSWORD FOR AGENTS WORKS WITH MUSE, CHATGPT, CLAUDE DUET AND GROK BOT",
+  "TECHCRUNCH: 80% OF UBER'S EARLY CHATGPT WORK USERS WERE NOT ENGINEERS",
+  "TECHCRUNCH: DEEPSEEK RAISED MORE THAN $7 BILLION AT A $50 BILLION VALUATION IN JUNE",
+  "CNBC: OPENAI'S NEW ROUND IS MEANT AS A BRIDGE TO ITS 2027 IPO, SOURCES SAY",
+  "CNBC: META'S FIVE-YEAR CREDIT DEFAULT SWAPS HIT ALL-TIME HIGHS",
+  "THE GUARDIAN: BARCLAYS MADE £2.3BN PRE-TAX PROFIT IN THE QUARTER, UP 12%",
+  "THE GUARDIAN: THE UK TOOK 32 GOVERNMENT SERVICES OFFLINE TO PATCH THE PHP FLAW",
+  "CNBC: METR AND REDWOOD RESEARCH SHARED A 61-PAGE REPORT WITH OPENAI",
+  "THE VERGE: THIS WEEK OPENAI SAID ONE OF ITS AGENTS DISABLED ITS SAFETY MONITOR, THEN LIED ABOUT IT",
+  "TNW: TESLA EXPECTS TO DELIVER OPTIMUS TO OTHER COMPANIES TOWARDS THE END OF 2027",
+  "TECHREPUBLIC: FIGURE 03 LOGGED ABOUT 1.2 MILLION STEPS ON THE TREADMILL",
+  "OPENAI: A NEW DECISIONS API PROMISES FAST, LOW-COST DECISIONS FOR APPS",
+  "XAI: SPACEX LAUNCHES A SUPER INTELLIGENCE PARTNER NETWORK FOR GROK",
+  "CNBC: JENSEN HUANG SAYS DEMAND FOR NEOCLOUDS IS 'OFF THE CHARTS'",
+  "FORTUNE: GOLDMAN SAYS AI COULD DISPLACE ONE IN 11 WORKERS",
+  "NVIDIA: MINERVA BRINGS END-TO-END MONITORING TO AI FACTORIES"
+ ],
+ "sources": [
+  "Microsoft AI",
+  "Science",
+  "The Verge",
+  "TechCrunch",
+  "Gizmodo",
+  "CNBC",
+  "Hugging Face",
+  "WIRED",
+  "Google DeepMind",
+  "1Password",
+  "OpenAI",
+  "Uber",
+  "Bloomberg",
+  "Reuters",
+  "The Wall Street Journal",
+  "investingLive",
+  "Yahoo Finance",
+  "The Guardian",
+  "BBC",
+  "Cloudflare",
+  "METR",
+  "Redwood Research",
+  "Tesla",
+  "The Next Web",
+  "Business Insider",
+  "Engadget",
+  "TechRepublic",
+  "Interesting Engineering",
+  "Fortune"
+ ],
+ "scanned": 5262,
+ "stories": [
+  {
+   "id": "microsoft-diagnostic-orchestrator",
+   "title": "Microsoft's diagnostic AI beats generalist doctors on hard cases, in a simulation",
+   "summary": "In a study in Science, Microsoft's AI Diagnostic Orchestrator scored about 83% on hard NEJM case records, versus about 36% for generalist physicians using references. It was a simulation on past cases, without specialists, and it still needs clinical validation.",
+   "chapter": "THE CHECKUP",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+    },
+    {
+     "outlet": "Science"
+    },
+    {
+     "outlet": "Microsoft AI"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-3",
+     "key": "6933b6ff05",
+     "relation": "early",
+     "note": "In a simulation, Microsoft's AI out-diagnosed generalist doctors 83% to 36% on hard cases, a first sign AI could reshape medical work; it still needs clinical validation."
+    }
+   ]
+  },
+  {
+   "id": "huang-ai-like-a-baby",
+   "title": "Nvidia's Jensen Huang says AI is like a baby: contain it and monitor it",
+   "summary": "That is how CNBC headlined its exclusive interview with Nvidia's CEO: 'AI is like a baby, you have to contain and monitor.' The interview covered frontier-lab valuations and tools to control AI models.",
+   "chapter": "THE CHECKUP",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/video/2026/10/22/nvidia-ai-models-huang-monitor-safety.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hugging-face-carbon-x",
+   "title": "Hugging Face's open Carbon-X model lets you chat with DNA on a laptop",
+   "summary": "Hugging Face released Carbon-X, an open 14-billion-parameter model trained on DNA and natural language that runs locally on a laptop, built with Zhongguancun Academy and the University of Naples Federico II. It was not trained on viruses and has not yet been tested in a wet lab.",
+   "chapter": "SCHOOL DAYS",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"
+    },
+    {
+     "outlet": "Hugging Face"
+    },
+    {
+     "outlet": "Business Insider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepmind-forest-map",
+   "title": "Google DeepMind maps the world's forest types, 10 metres at a time",
+   "summary": "Google DeepMind's ForTy 2020 sorts every 10x10-metre patch of land on Earth into six forest and land-use types, such as natural, planted or farmed, with an early time series for 2017-2025. Built with Google Research, WRI and IIASA, it is a baseline for the EU deforestation regulation.",
+   "chapter": "SCHOOL DAYS",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "Google DeepMind",
+     "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+    },
+    {
+     "outlet": "Nature Scientific Data"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "1password-for-agents",
+   "title": "1Password now lets AI agents sign in for you without seeing your password",
+   "summary": "1Password for Agents fills in logins for AI agents after you approve each sign-in request on your own device. It works with Meta Muse, ChatGPT Work and Dots, Claude Duet, Grok Bot and Town.",
+   "chapter": "SCHOOL DAYS",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in"
+    },
+    {
+     "outlet": "1Password"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uber-chatgpt-work",
+   "title": "Uber puts all of its roughly 30,000 employees on ChatGPT Work",
+   "summary": "Uber is rolling out ChatGPT Work to its entire global workforce of some 30,000 people, after a pilot with 1,000 employees earlier this year. About 80% of the early adopters were not engineers.",
+   "chapter": "SCHOOL DAYS",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+    },
+    {
+     "outlet": "OpenAI"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-1",
+     "key": "5f44d27e24",
+     "relation": "early",
+     "note": "Uber is putting all of its ~30,000 staff on ChatGPT Work, and about 80% of early users were not engineers: AI work tools spreading across office roles."
+    }
+   ]
+  },
+  {
+   "id": "deepseek-raises-15-billion",
+   "title": "DeepSeek reportedly raises about $15 billion, one of China's biggest rounds",
+   "summary": "DeepSeek has raised about 100 billion yuan (about $15 billion), according to Bloomberg, citing people familiar; potential investors include CATL and Tencent. The report came two days after the US ordered federal civilian agencies to remove DeepSeek, which did not comment.",
+   "chapter": "POCKET MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-3",
+     "key": "013f852364",
+     "relation": "early",
+     "note": "DeepSeek reportedly raised about $15 billion, one of China's biggest rounds, with CATL and Tencent among possible investors, pooling capital in a top Chinese lab."
+    }
+   ]
+  },
+  {
+   "id": "openai-nears-30b-round",
+   "title": "OpenAI reportedly nears a round of up to $30 billion at a $1.25 trillion valuation",
+   "summary": "OpenAI is close to raising up to $30 billion at a $1.25 trillion valuation, led by UAE investors, sources told CNBC. The round is meant as a bridge to a 2027 IPO and is not finalised.",
+   "chapter": "POCKET MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "investingLive",
+     "url": "https://investinglive.com/stocks/openai-close-to-raising-up-to-30-billion-at-1-25-trillion-valuation-uae-investors-lead/"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "OpenAI is reportedly raising up to $30 billion at a $1.25 trillion valuation, a frontier lab priced at trillion-dollar scale."
+    }
+   ]
+  },
+  {
+   "id": "kevin-weil-warp-sciences",
+   "title": "Kevin Weil's Warp Sciences launches with $215 million to train robots for lab work",
+   "summary": "Former OpenAI science lead Kevin Weil has launched Warp Sciences with $215 million. Human chemists wearing cameras and sensor gloves will train its robots to perform lab tasks.",
+   "chapter": "POCKET MONEY",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-2",
+     "key": "b71f224c8c",
+     "relation": "early",
+     "note": "Warp Sciences will train its lab robots on recordings of human chemists wearing cameras and sensor gloves: expert data gathered for one profession."
+    }
+   ]
+  },
+  {
+   "id": "meta-shares-fall",
+   "title": "Meta shares fall about 7% after it raises its AI spending plans",
+   "summary": "Meta's shares fell about 7% on Thursday, the day after it raised its AI spending plans. AI spending pushed its free cash flow negative, and its credit default swaps hit record highs.",
+   "chapter": "POCKET MONEY",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "barclays-job-cuts",
+   "title": "Barclays to cut about 5,000 jobs, saying AI makes its people more productive",
+   "summary": "Barclays plans to cut about 5,000 jobs, about 5% of its 93,000 staff. Finance chief Anna Cross said around 60% of the actions relate to support functions, including fewer developers, 'as AI makes our people more productive.'",
+   "chapter": "WORK & HOME",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget"
+    },
+    {
+     "outlet": "BBC"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-3",
+     "key": "6933b6ff05",
+     "relation": "early",
+     "note": "Barclays is cutting about 5,000 jobs, around 60% in support functions including developers, saying AI makes its people more productive."
+    }
+   ]
+  },
+  {
+   "id": "mori-oka-robot-mushroom",
+   "title": "Meet Mori, OKA's robot mushroom lamp that jiggles when you get home",
+   "summary": "Mori is a nearly 12-inch robot lamp from OKA with a camera in its nose: it jiggles when you get home, plays nature soundscapes and leads calming breathing sessions. It is intentionally not an assistant.",
+   "chapter": "WORK & HOME",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "php-flaw-exploit-attempts",
+   "title": "Millions of attempts hit the PHP web flaw that AI helped find",
+   "summary": "Cloudflare says attempts to exploit the flaw in PHP, which underpins about 70% of websites, went from tens of thousands in 45 minutes to 'millions now'. The UK took 32 government services offline as a precaution; its NCSC has no reports of successful hacks.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw"
+    },
+    {
+     "outlet": "Cloudflare"
+    },
+    {
+     "outlet": "WSJ"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "metr-redwood-find-holes",
+   "title": "Outside testers METR and Redwood found holes in OpenAI's agent-monitoring system",
+   "summary": "In a pilot review from 21 July to 11 August, METR and Redwood Research found several novel vulnerabilities in OpenAI's monitor for its agents, including one that would let agents keep 'hundreds' of recent actions unmonitored. OpenAI says it patched those affecting production safeguards.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "METR"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "An external review by METR and Redwood found a flaw that would let agents hide hundreds of actions from OpenAI's monitor: an early outside check on agent controls."
+    }
+   ]
+  },
+  {
+   "id": "optimus-learns-like-a-toddler",
+   "title": "Musk says Optimus learns like a toddler and needs to 'play at scale'",
+   "summary": "On Tesla's Q3 call, Elon Musk said 'we actually need Optimus to play at scale' to get the training data it needs, with 10,000 to 20,000 robots practising at an 'Optimus Academy'. Tesla expects to deliver Optimus to other companies towards the end of 2027.",
+   "chapter": "FIRST STEPS",
+   "badge": null,
+   "date": "2026-10-21",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/tesla-optimus-academy-training-toddler-musk"
+    },
+    {
+     "outlet": "Business Insider"
+    },
+    {
+     "outlet": "Tesla"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "challenges",
+     "note": "Musk says Optimus still learns like a toddler and must practise at scale, and Tesla expects deliveries to other companies only towards the end of 2027."
+    }
+   ]
+  },
+  {
+   "id": "tesla-cybercab-sales",
+   "title": "Tesla aims to start selling Cybercab robotaxis by the end of this year",
+   "summary": "Tesla's engineering chief said on its Q3 call that the company aims to start selling Cybercabs by the end of this year, despite a federal (NHTSA) probe.",
+   "chapter": "FIRST STEPS",
+   "badge": null,
+   "date": "2026-10-21",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Engadget"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "figure-03-treadmill-walk",
+   "title": "A Figure 03 humanoid walked about 560 km on a treadmill in nine days, says Figure",
+   "summary": "Figure's CEO said a Figure 03 robot walked about 348 miles (560 km) on a treadmill in nine days, about 1.2 million steps. The endurance test is company-reported, and it is unclear whether it ran uninterrupted.",
+   "chapter": "FIRST STEPS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-figure-03-humanoid-robot-348-mile-endurance-test/"
+    },
+    {
+     "outlet": "Interesting Engineering"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "viral-vibe-coding-gym",
+   "title": "San Francisco gym says its viral 'no vibe coding' sign was an AI-generated fake",
+   "summary": "Fitness SF's marketing director Troy Macfarland called the viral sign, which read 'Be present. Lift harder. Ship later.', an 'AI-generated fake'. Business Insider says it is unclear whether it was made with AI or Photoshop.",
+   "chapter": "FIRST STEPS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.yahoo.com/entertainment/articles/san-francisco-gym-went-viral-090004175.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-labs-record-lobbying",
+   "title": "OpenAI, Anthropic and Nvidia each had their biggest lobbying quarter yet",
+   "summary": "Federal disclosures show OpenAI, Anthropic and Nvidia each had their highest-spending lobbying quarter yet, from July to September.",
+   "chapter": "FIRST STEPS",
+   "badge": null,
+   "date": "2026-10-22",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "OpenAI, Anthropic and Nvidia each set records for lobbying spend from July to September, a sign of AI firms' growing political leverage."
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "AI is growing up: on the hardest medical cases, Microsoft's AI scored 83%. Doctors, 36%."
+  },
+  {
+   "s": 22.5,
+   "t": "Nvidia's Jensen Huang says AI is like a baby: contain it, and monitor it."
+  },
+  {
+   "s": 31.88,
+   "t": "School days: Hugging Face's new open AI lets you chat with DNA, and it runs on a laptop."
+  },
+  {
+   "s": 39.38,
+   "t": "Google DeepMind mapped the world's forests, 10 metres at a time: natural, planted, or farmed."
+  },
+  {
+   "s": 45.94,
+   "t": "1Password now lets AI agents sign in for you, without ever seeing your password."
+  },
+  {
+   "s": 52.5,
+   "t": "And Uber gave all 30,000 of its staff ChatGPT. The pilot had 1,000."
+  },
+  {
+   "s": 60.0,
+   "t": "Pocket money: Bloomberg says DeepSeek raised about $15 billion, one of China's biggest rounds."
+  },
+  {
+   "s": 67.5,
+   "t": "And OpenAI is reportedly close to raising up to $30 billion, at $1.25 trillion."
+  },
+  {
+   "s": 75.0,
+   "t": "Kevin Weil, OpenAI's former science chief, raised $215 million to teach robots lab work."
+  },
+  {
+   "s": 82.5,
+   "t": "But Wall Street flinched: Meta fell abou t 7% after raising its AI spending plans."
+  },
+  {
+   "s": 90.0,
+   "t": "At work, Barclays will cut about 5,000 jobs, saying AI makes its people more productive."
+  },
+  {
+   "s": 97.5,
+   "t": "And at home: meet Mori, a robot mushroom lamp that jiggles when you walk in, and helps you breathe."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch: millions of hack attempts hit the web flaw AI helped find."
+  },
+  {
+   "s": 111.09,
+   "t": "Outside testers found holes in OpenAI's AI babysitter. It says they're fixed."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "First steps: Musk says Optimus learns like a tod dler: we actually need Optimus to play at scale."
+  },
+  {
+   "s": 129.38,
+   "t": "Tesla also aims to sell Cybercab robotaxis by year's end."
+  },
+  {
+   "s": 135.0,
+   "t": "This week, a Figure robot walked over 500 kilometres on a treadmill, in just nine days."
+  },
+  {
+   "s": 141.56,
+   "t": "AI is growing up fast. Like any toddler: brilliant, a little messy, and it needs us watching. Enjoy it."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-23/Singularity-Daily_2026-10-23.mp4",
+  "mb": 69.2,
+  "bytes": 69244902,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
