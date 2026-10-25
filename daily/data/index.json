@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:41:24+00:00",
+ "updated": "2026-10-25T07:41:30+00:00",
  "latest": "2026-10-25",
  "site": "https://peterxing.com/daily",
  "pages": "https://peterxing.github.io/singularity-daily/",
@@ -337,7 +337,7 @@
   {
    "date": "2026-10-06",
    "ep": 2,
-   "hook": "",
+   "hook": "OPEN SEASON.",
    "day": "Tuesday 6 October 2026",
    "stories": 21,
    "forecasts": 10,
