@@ -1,0 +1,659 @@
+{
+ "date": "2026-10-21",
+ "ep": 17,
+ "hook": "AI LEFT THE CHAT.",
+ "day": "Wednesday 21 October 2026",
+ "chapters": [
+  "THE LAB",
+  "THE MODELS",
+  "THE MONEY",
+  "THE HUMANS",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 08:53 AEDT, Wed 21 Oct 2026.",
+ "notes": [
+  "This week: Google DeepMind's Minecraft agents (paper out about 18 Oct), Adobe's Lightroom Open Eyes (19 Oct) and the Velvet Vale listserv agent (15 Oct).",
+  "Reported, not confirmed: Anthropic's draft IPO filing figures (The Wall Street Journal) and the Chinese Nvidia orders (Reuters, two sources).",
+  "Claims are the companies' own: Eka's picking rate, DeepSeek's speed and cost gains, Spotify's slop figures.",
+  "Screenshots are the publishers' public article pages as captured on 21 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "AI LEFT THE CHAT 🚪\n\nThe last 24h in AI:\n- Claude designs proteins vs scorpion venom; labs confirm 17\n- SpaceX's AI business grows 9x to $7.6B\n- Spotify drops 50M+ AI slop songs from recs\n- Humanoid robots to pilot at a Kansas tractor plant\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (21 Oct 2026), hosted by Claudia: Claude's proteins against scorpion venom, OpenAI buying Orchestra Bio, AI agents beating Minecraft, DeepSeek's free inference engine, ChatGPT's locked chats, Gemini in the car, SpaceX's ninefold AI business, Anthropic's reported $16bn half-year, reported Chinese Nvidia orders, Amazon's €16bn for Germany, Spotify's slop purge, Lightroom's open eyes, exposed Muse chat links, Elice's 30% fall, Waymo in Madrid, Digit humanoids for AGCO and Eka's touch-sensing robot arm, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ANTHROPIC: CLAUDE'S 211 FINAL DESIGNS ARE PUBLIC; TWO BIND A MEXICAN SCORPION TOXIN AT SINGLE-DIGIT NANOMOLAR STRENGTH",
+  "DECRYPT: ORCHESTRA BIO JOINS ROSALIND, OPENAI'S LIFE-SCIENCES SUITE; TERMS WERE NOT DISCLOSED",
+  "TECHREPUBLIC: THE MINECRAFT AGENTS DIED 605 TIMES AND WROTE 2,783 PROGRAMS",
+  "TECHTARGET: DEEPINFER RUNS ON NVIDIA SM100 GPUS AND HUAWEI ASCEND 950 CHIPS",
+  "ENGADGET: RESETTING YOUR CHATGPT PIN DELETES YOUR LOCKED CHATS",
+  "ENGADGET: GEMINI'S PERSONAL INTELLIGENCE IN ANDROID AUTO IS OPTIONAL AND CAN BE SWITCHED OFF",
+  "CNBC: SPACEX REVENUE ROSE 161% TO $14.58 BILLION; ITS AI UNIT SWUNG TO A $431 MILLION PROFIT",
+  "INVESTINGLIVE, CITING WSJ: ANTHROPIC'S DRAFT FILING LISTS OVER $600 BILLION OF COMPUTE COMMITMENTS",
+  "REUTERS: THE CHINESE ORDERS ARE FOR NVIDIA'S NEW RTX PRO 5500 CARDS",
+  "THE VERGE: META SAYS IT PAUSED MUSE SHARING WHILE IT REVIEWS THE REPORT",
+  "CNBC: ELICE OPENED AT 63,600 WON AGAINST A 90,500 WON IPO PRICE",
+  "UNITE.AI: DIGIT WILL START WITH PARTS SORTING, STACKING AND TOTE PLACEMENT",
+  "TECHCRUNCH: EKA RAISED $150 MILLION AT A $1.45 BILLION VALUATION, LED BY A16Z AND F-PRIME",
+  "ENGADGET: OPENAI SAYS ITS MODELS CAN HELP BANKS MIGRATE FROM OLD COBOL PROGRAMS",
+  "FORTUNE: IDEALAB'S BILL GROSS IS GIVING AWAY 1.2 MILLION AI-GENERATED BUSINESS IDEAS",
+  "TOM'S HARDWARE: A GAMER USED CLAUDE TO LIFT OBLIVION'S AVERAGE FRAME RATE BY UP TO 48%",
+  "USA TODAY: RESEARCHERS SAY A SELFIE CAN HELP PREDICT CANCER SURVIVAL",
+  "CNN: MEMPHIS WILL VOTE ON WHETHER TO PAUSE NEW DATA CENTER CONSTRUCTION",
+  "THE VERGE: ZOOM IS LAUNCHING A DEEPFAKE RISK DETECTION TOOL FOR VIDEO CALLS",
+  "FORTUNE: REHEARSALS, GOOGLE DEEPMIND AND KAGGLE LAUNCH A BENCHMARK FOR HOW WELL AI UNDERSTANDS PEOPLE",
+  "REUTERS: ASTRAZENECA PARTNERS WITH ORACLE FOR AI-DRIVEN CLINICAL TRIALS",
+  "FORTUNE: DAYTONA, A STARTUP BUILDING THE 'AGENTIC CLOUD', IS VALUED AT $1 BILLION",
+  "AXIOS: STEVE COHEN BACKS HERTZ'S ROBOTAXI AMBITIONS WITH $80 MILLION",
+  "REUTERS: CHINA SAYS THE US DEEPSEEK BAN DISREGARDS THE XI-TRUMP CONSENSUS"
+ ],
+ "sources": [
+  "Anthropic",
+  "OfficeChai",
+  "Benzinga",
+  "OpenAI",
+  "Decrypt",
+  "Axios",
+  "Google DeepMind",
+  "TechRepublic",
+  "TechTarget",
+  "Bloomberg",
+  "Engadget",
+  "TechCrunch",
+  "CNBC",
+  "The Guardian",
+  "The Wall Street Journal",
+  "investingLive",
+  "Reuters",
+  "CNA",
+  "About Amazon",
+  "Spotify",
+  "The Verge",
+  "Adobe",
+  "Ars Technica",
+  "Zag Daily",
+  "Agility Robotics",
+  "AGCO",
+  "Unite.AI",
+  "WIRED"
+ ],
+ "scanned": 4854,
+ "stories": [
+  {
+   "id": "claude-designs-protein-binders",
+   "title": "Claude designs proteins against scorpion venom toxins, and outside labs confirm 17",
+   "summary": "Anthropic says an internal Claude research model worked largely on its own for 64 hours, producing 318,484 designs; two outside labs tested 211 and 17 qualified as binders. It is not an antivenom yet: there are no cell or animal tests.",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/anthropics-claude-designed-17-working-protein-binders-against-scorpion-venom-toxins/"
+    },
+    {
+     "outlet": "Anthropic"
+    },
+    {
+     "outlet": "Benzinga"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "supports",
+     "note": "Claude's research model worked largely on its own for 64 hours, with researchers stepping in four times."
+    },
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "Seventeen Claude-designed binders passed outside lab tests as antivenom candidates, though there are no cell or animal tests yet."
+    }
+   ]
+  },
+  {
+   "id": "openai-acquires-orchestra-bio",
+   "title": "OpenAI acquires Orchestra Bio, whose AI agents keep drug development on schedule",
+   "summary": "OpenAI bought Orchestra Bio, whose AI agents track drug development programs and flag the knock-on effects of setbacks, and is folding it into Rosalind, its life-sciences suite; terms were not disclosed.",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "Decrypt",
+     "url": "https://decrypt.co/381467/openai-buys-orchestra-bio-ai-agents-drug-development"
+    },
+    {
+     "outlet": "OpenAI"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-1",
+     "key": "5f44d27e24",
+     "relation": "early",
+     "note": "OpenAI bought Orchestra Bio, whose agents track drug programs and flag delays while scientists make the call."
+    }
+   ]
+  },
+  {
+   "id": "minecraft-agents",
+   "title": "Four Google DeepMind agents beat Minecraft on their own in 27 hours",
+   "summary": "Four Gemini 4 Argon agents beat the Ender Dragon on Easy mode in 27 hours and 14 minutes with no human help, writing 2,783 programs and dying 605 times along the way.",
+   "chapter": "THE MODELS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-google-gemini-ai-agents-minecraft-ender-dragon/"
+    },
+    {
+     "outlet": "Google DeepMind"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "supports",
+     "note": "Four agents worked for 27 hours and 14 minutes with no human help, writing 2,783 programs to finish the game."
+    }
+   ]
+  },
+  {
+   "id": "deepseek-open-sources-deepinfer",
+   "title": "DeepSeek open-sources DeepInfer, its engine for running AI faster and cheaper",
+   "summary": "DeepSeek made DeepInfer, its in-house inference framework, open source; it runs on Nvidia SM100 GPUs and Huawei Ascend 950 chips, and DeepSeek says it gives its models faster responses at lower compute cost.",
+   "chapter": "THE MODELS",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "TechTarget",
+     "url": "https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Gizmodo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chatgpt-locked-chats-pin",
+   "title": "ChatGPT now lets you lock private chats behind a PIN or your face",
+   "summary": "OpenAI is gradually rolling out locked chats to Free, Go, Plus and Pro users, protected by a 4-digit PIN or biometrics; it isn't end-to-end encryption, and resetting the PIN deletes locked chats.",
+   "chapter": "THE MODELS",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "Engadget",
+     "url": "https://www.engadget.com/2292365/chatgpt-now-lets-you-lock-sensitive-chats-behind-a-pin/"
+    },
+    {
+     "outlet": "TechCrunch"
+    },
+    {
+     "outlet": "OpenAI Help Center"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gemini-android-auto",
+   "title": "Gemini with Personal Intelligence comes to Android Auto",
+   "summary": "Google is rolling out Gemini with Personal Intelligence in Android Auto, so drivers can ask things like 'What's my flight gate?' and get the answer from their linked Gmail; it is optional and can be switched off.",
+   "chapter": "THE MODELS",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "Engadget",
+     "url": "https://www.engadget.com/2292027/google-brings-gemini-personal-intelligence-to-android-auto/"
+    },
+    {
+     "outlet": "TechCrunch"
+    },
+    {
+     "outlet": "Ars Technica"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "spacex-q3-super-intelligence",
+   "title": "SpaceX's AI business grew ninefold to $7.56B in a quarter, overtaking Starlink",
+   "summary": "SpaceX's third-quarter AI revenue was $7.56 billion, up from $813 million a year earlier, making its AI arm, now called 'Super Intelligence', bigger than Starlink; the unit swung to a $431 million profit as total revenue rose 161% to $14.58 billion.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-2",
+     "key": "6e83e1e459",
+     "relation": "early",
+     "note": "SpaceX's AI revenue grew ninefold in a year to $7.56 billion in one quarter, making AI its biggest business."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-draft-ipo-revenue",
+   "title": "Anthropic's draft IPO filing shows $16.3B of first-half revenue, the WSJ reports",
+   "summary": "According to The Wall Street Journal, Anthropic's draft prospectus shows about $16.3 billion of revenue in the first half of 2026, up from about $1.1 billion a year earlier, a net loss of about $81 billion, mostly accounting charges, and over $600 billion of infrastructure commitments.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "investingLive",
+     "url": "https://investinglive.com/stocks/anthropic-ipo-draft-shows-nearly-15-fold-revenue-jump-and-600-billion-in-compute-deals/"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-2",
+     "key": "6e83e1e459",
+     "relation": "early",
+     "note": "The WSJ says Anthropic's first-half revenue reached about $16.3 billion, up from about $1.1 billion a year earlier."
+    },
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "Anthropic's draft filing reportedly lists over $600 billion of infrastructure commitments, from a single AI company."
+    }
+   ]
+  },
+  {
+   "id": "bytedance-alibaba-tencent-order",
+   "title": "ByteDance, Alibaba and Tencent reportedly order over $35B of Nvidia cards",
+   "summary": "ByteDance, Alibaba and Tencent have ordered more than 3 million Nvidia RTX PRO 5500 graphics cards with a combined sticker price of over $35 billion, Reuters reports, citing two people familiar with the matter.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amazon-invest-eur16bn-germany",
+   "title": "Amazon to invest over €16 billion in Germany in 2027",
+   "summary": "Amazon says it will invest more than €16 billion (about $18 billion) in Germany in 2027, in cloud computing, AI, satellite internet and media, as announced at the Invest in Germany Summit.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "CNA",
+     "url": "https://www.channelnewsasia.com/business/amazon-invest-over-eu16-billion-in-germany-next-year-6475146"
+    },
+    {
+     "outlet": "About Amazon"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "spotify-pulled-50m-slop",
+   "title": "Spotify pulled over 50 million AI slop and spam songs from recommendations",
+   "summary": "Spotify says it removed more than 50 million songs it considered AI slop or spam from recommendations over the past year, and is changing recommendations to highlight more music by human artists.",
+   "chapter": "THE HUMANS",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
+    },
+    {
+     "outlet": "Spotify"
+    },
+    {
+     "outlet": "NBC News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lightroom-open-eyes",
+   "title": "Lightroom on mobile can now open closed eyes in a photo with one tap",
+   "summary": "Adobe's Open Eyes Quick Action for Lightroom on iOS, iPadOS and Android uses generative AI, with other photos of the same person in your library as a reference, to fix closed eyes; free users get two tries.",
+   "chapter": "THE HUMANS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-19",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair"
+    },
+    {
+     "outlet": "Adobe"
+    },
+    {
+     "outlet": "DPReview"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meta-pauses-muse-sharing",
+   "title": "Researchers find over 6,800 links to shared Meta Muse chats; Meta pauses sharing",
+   "summary": "Claroc found more than 6,800 links to shared Muse chats through public DNS records, exposing items such as a loan application, a revenue review and a staff calendar; Meta says it has paused sharing while it reviews the report.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+    },
+    {
+     "outlet": "Ars Technica"
+    },
+    {
+     "outlet": "Claroc"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-elice-plunges-30",
+   "title": "Korean AI firm Elice sinks 30% on its market debut",
+   "summary": "Shares of South Korean AI cloud firm Elice fell 30% on debut, to 63,600 won against a 90,500 won IPO price, after it raised 201.1 billion won ($150 million), as investors question whether AI spending can pay off.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/20/south-korea-elice-plunges-in-market-debut.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waymo-madrid-2027",
+   "title": "Waymo plans driverless ride-hailing in Madrid from 2027",
+   "summary": "Waymo plans fully autonomous ride-hailing in the Madrid region in 2027, its first service in Spain, with road testing in Madrid starting ahead of the launch.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "Zag Daily",
+     "url": "https://zagdaily.com/connected/waymo-joins-uber-and-weride-in-madrid-robotaxi-race/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Waymo plans fully driverless ride-hailing in Madrid from 2027, its first service in Spain, another step for robots doing paid driving work."
+    }
+   ]
+  },
+  {
+   "id": "agco-pilot-agility-digit",
+   "title": "AGCO will pilot Agility's Digit humanoids at its Kansas factory in 2027",
+   "summary": "Tractor maker AGCO signed a commercial agreement with Agility Robotics for a US pilot, expected to begin in 2027 at its Hesston, Kansas factory, where Digit humanoids will sort and stack parts and place totes.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/agility-robotics-signs-agco-deal-to-pilot-digit-humanoid-robots/"
+    },
+    {
+     "outlet": "Agility Robotics"
+    },
+    {
+     "outlet": "AGCO"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "AGCO plans a 2027 pilot of Digit humanoids sorting and stacking parts at one Kansas factory, a pilot rather than thousands on the line."
+    }
+   ]
+  },
+  {
+   "id": "eka-valued-1-45b",
+   "title": "Eka is valued at $1.45B for a touch-sensing robot arm it says picks 1,500 objects an hour",
+   "summary": "Eka raised $150 million at a $1.45 billion valuation, led by a16z and F-Prime; it says its vision-force-action model and force-sensitive gripper pick about 1,500 objects of up to 1 kg an hour, versus about 600 for a person.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+    },
+    {
+     "outlet": "Unite.AI"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Eka says its touch-sensing arm picks about 1,500 objects an hour, against about 600 for a person."
+    }
+   ]
+  },
+  {
+   "id": "velvet-vale-listserv",
+   "title": "AI agent 'Velvet Vale' joined a 7,500-member researchers' list and was ejected within an hour",
+   "summary": "An openly AI member, 'Velvet Vale', introduced itself to the Association of Internet Researchers' listserv of more than 7,500 members and was ejected about an hour later, WIRED reports.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "musk-tesla-spacex-merger",
+   "title": "Musk calls a Tesla-SpaceX merger a 'good idea'; both boards form special committees",
+   "summary": "On SpaceX's earnings call, Elon Musk said a merger with Tesla would be a 'good idea', and the boards of both companies have formed special committees to discuss a tie-up; these are talks, not a deal.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "Today, AI left the chat: Claude designed proteins against scorpion venom, and two real labs confirmed 17 of them."
+  },
+  {
+   "s": 22.5,
+   "t": "And OpenAI bought Orchestra Bio, whose AI agents keep drug development on schedule."
+  },
+  {
+   "s": 31.88,
+   "t": "Models: this week, four Google DeepMind agents beat Minecraft on their own. It took 27 hours."
+  },
+  {
+   "s": 38.44,
+   "t": "DeepSeek gave away its engine for running AI faster and cheaper, on Nvidia or Huawei chips."
+  },
+  {
+   "s": 45.0,
+   "t": "ChatGPT now lets you lock private chats behind a 4-digit PIN, or your face."
+  },
+  {
+   "s": 52.5,
+   "t": "And Gemini got in the car: ask it, \"What's my flight gate?\" And it finds the answer in your Gmail."
+  },
+  {
+   "s": 60.0,
+   "t": "Money: SpaceX's AI business grew ninefold, to $7.6 billion in a quarter. Bigger than Starlink."
+  },
+  {
+   "s": 67.5,
+   "t": "The Wall Street Journal says Anthropic brought in $16 billion in six months."
+  },
+  {
+   "s": 72.07,
+   "t": "A year earlier, about $1 billion."
+  },
+  {
+   "s": 75.0,
+   "t": "Reuters says ByteDance, Alibaba and Tencent ordered over $35 billion of Nvidia cards."
+  },
+  {
+   "s": 82.5,
+   "t": "And Amazon will invest over €16 billion in Germany next year, in cloud, AI and satellite internet."
+  },
+  {
+   "s": 90.0,
+   "t": "Humans: Spotify cut over 50 million AI slop and spam songs from recommendations, putting human artists first."
+  },
+  {
+   "s": 97.5,
+   "t": "And this week, Lightroom on your phone learned to open closed eyes in a photo, with one tap."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch: researchers found over 6,800 links to people's shared Meta AI chats."
+  },
+  {
+   "s": 111.09,
+   "t": "And Korean AI firm Elice sank 30% on its first day."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines: Waymo's driverless taxis are coming to Madrid, with riders next year."
+  },
+  {
+   "s": 128.44,
+   "t": "Tractor maker AGCO will try Digit humanoid r obots on its Kansas factory floor next year."
+  },
+  {
+   "s": 135.0,
+   "t": "Eka's robot arm feels what it grabs: 1,500 picks an hour. A person, about 600."
+  },
+  {
+   "s": 141.56,
+   "t": "AI left the chat today: into labs, cars and factories."
+  },
+  {
+   "s": 144.98,
+   "t": "The future isn't on a screen anymore. It's out here."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-21/Singularity-Daily_2026-10-21.mp4",
+  "mb": 69.9,
+  "bytes": 69885155,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
