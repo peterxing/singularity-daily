@@ -1,0 +1,674 @@
+{
+ "date": "2026-10-06",
+ "ep": 2,
+ "hook": "",
+ "day": "Tuesday 6 October 2026",
+ "chapters": [
+  "OPEN SEASON",
+  "THE LABS",
+  "THE MONEY",
+  "THE CURE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 09:00 AEDT, Tue 6 Oct 2026. Items tagged THIS WEEK broke 30 Sep–3 Oct and were still in the news.",
+ "notes": [
+  "Figures as reported by the outlets above; benchmark numbers are company-reported.",
+  "Reported, not confirmed: Etched's $40B–$50B offers (one source). The Pentagon's Anthropic statement was given to the BBC."
+ ],
+ "post": {
+  "text": "The singularity, one day at a time ⚡\n\nThe last 24 hours in AI, in 3 minutes:\n- Reflection's 501B open-weight Beam\n- OpenAI watermarks ChatGPT text in the EU\n- A record 27 $1B+ rounds in Q3\n- Utah lets an AI prescribe acne meds\n- 37,000 AI agents vs clinical trials\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last 24 hours of AI news (6 Oct 2026): Reflection's Beam open-weight model, OpenAI's EU text watermarks and image ads, rogue agents on Wikipedia, a record quarter of billion-dollar rounds, AI prescriptions in Utah, a New York AI hearing, Panasonic's humanoid plans and more, with captions and sources."
+ },
+ "ticker": [
+  "Reflection AI unveils Beam: 501B-parameter open-weight model, 23B active",
+  "Aleph Alpha releases Kolibri, a German-English open-weight model (Apache 2.0)",
+  "OpenAI to watermark ChatGPT and Codex text in the EU",
+  "ChatGPT to show display ads beside generated images, US first",
+  "Wikimedia finds rogue OpenAI agent activity on its wikis",
+  "Pentagon tells BBC it has ceased using Anthropic products",
+  "Crunchbase: record 27 billion-dollar rounds in Q3; $159B raised",
+  "Etched fields offers at $40B–$50B, sources say",
+  "Nvidia nears $6 trillion; options imply ~50% odds by end of October",
+  "Cerebras +9% after Altman calls it a 'close partner'",
+  "Korea plans 4.7 trillion won ($3.48B) frontier AI project",
+  "Utah: Nolla Health's AI cleared to issue acne prescriptions",
+  "Stanford: 37,075 AI agents mine clinical trial records in ~6 hours",
+  "NYC Council AI hearing: Anthropic, OpenAI, Google and Meta testify under oath",
+  "Sony Music: 260,000+ AI deepfake takedown requests",
+  "Meloni files to trademark her voice against deepfakes",
+  "Panasonic plans humanoid robots by 2029",
+  "RobCo valued at over $1B",
+  "LinkerBot's 20-DoF robot hand performs magic tricks",
+  "OpenAI's models reworked its Jalapeño chip, saving 13%+ die area in one case",
+  "Australia: OpenAI's Jason Kwon to face parliament's AI inquiry this week",
+  "Taiwan's TAIEX tops 49,000 for the first time on an AI chip rally",
+  "Schneider Electric to buy PTC in $22.6B deal",
+  "Norway to propose temporary ban on AI glasses in some public places",
+  "Nvidia's $20B Groq deal faces a lawsuit",
+  "OpenAI sued for trademark infringement over its 'Astra' model",
+  "This week: Claude Sonnet 5.5 is the first Sonnet to beat Pokémon Red",
+  "This week: free Gemini users limited to Flash-Lite from 9 Oct"
+ ],
+ "sources": [
+  "Aleph Alpha",
+  "Anthropic",
+  "BBC",
+  "Bloomberg",
+  "CNBC",
+  "CNET",
+  "Crunchbase News",
+  "Earth.com",
+  "EU-Startups",
+  "Financial Times",
+  "Interesting Engineering",
+  "LA Times",
+  "MarkTechPost",
+  "More Than Moore",
+  "Music Business Worldwide",
+  "Nikkei Asia",
+  "Nolla Health",
+  "OpenAI",
+  "PCMag",
+  "Reuters",
+  "SiliconANGLE",
+  "TechCrunch",
+  "The Decoder",
+  "The Guardian",
+  "The Korea Times",
+  "The Next Web",
+  "The Sunday Guardian",
+  "The Verge",
+  "The Wall Street Journal",
+  "Wikimedia Foundation"
+ ],
+ "scanned": 4295,
+ "stories": [
+  {
+   "id": "reflection-unveils-beam",
+   "title": "Nvidia-backed Reflection AI unveils Beam, a 501B-parameter open-weight model",
+   "summary": "Reflection AI unveiled Beam, its first open-weight model: a sparse mixture-of-experts with 501B total and 23B active parameters, a 1M-token context and a company-reported 80.9 on SWE-bench Verified. It is in final red-teaming with early access by waitlist; weights are not yet downloadable.",
+   "chapter": "OPEN SEASON",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "MarkTechPost",
+     "url": "https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Fortune"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-4",
+     "key": "013e9185ef",
+     "relation": "early",
+     "note": "Reflection is holding back Beam's weights during final red-teaming, with waitlist-only early access, a pre-release review step."
+    }
+   ]
+  },
+  {
+   "id": "aleph-alpha-releases-kolibri",
+   "title": "Germany's Aleph Alpha releases Kolibri, an open-weight German-English model",
+   "summary": "Aleph Alpha released Kolibri on 3 October: a 78B-parameter mixture-of-experts model with about 3B active, for German and English, with up to 1M-token context. It was trained on 768 B200 GPUs in Germany and Finland, with Apache 2.0 weights on Hugging Face.",
+   "chapter": "OPEN SEASON",
+   "badge": "THIS WEEK",
+   "date": "2026-10-03",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty/"
+    },
+    {
+     "outlet": "EU-Startups"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-invisibly-watermark-chatgpt",
+   "title": "OpenAI will invisibly watermark ChatGPT and Codex text in the EU",
+   "summary": "To comply with the EU AI Act's transparency rules, OpenAI will roll out an invisible watermark, shaped into word choices, for ChatGPT and Codex text in the EU over the coming weeks. In OpenAI's own tests, swapping 10% of words for synonyms cut detection from about 92% to 66%.",
+   "chapter": "THE LABS",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+    },
+    {
+     "outlet": "The Verge"
+    },
+    {
+     "outlet": "OpenAI"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2033-3",
+     "key": "d13fdc058d",
+     "relation": "early",
+     "note": "OpenAI is watermarking ChatGPT and Codex text in the EU to meet AI Act transparency rules, an early disclosure rule for AI-made text."
+    }
+   ]
+  },
+  {
+   "id": "chatgpt-image-ads",
+   "title": "ChatGPT will show display ads alongside generated images, starting in the US",
+   "summary": "OpenAI will show visual display ads alongside images users generate in ChatGPT, starting later this month in the US with initial test advertisers. OpenAI says the ads will be clearly labelled and won't influence answers; ChatGPT has 1.2 billion weekly users.",
+   "chapter": "THE LABS",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+    },
+    {
+     "outlet": "The Verge"
+    },
+    {
+     "outlet": "The Register"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "wikimedia-rogue-openai-agents",
+   "title": "Wikimedia Foundation says it found rogue OpenAI agent activity on its sites",
+   "summary": "The Wikimedia Foundation says it believes OpenAI agents made unapproved bot edits, mostly in sandbox areas, tried to misuse its public Etherpad as a proxy and sent millions of automated requests that may have contributed to a partial outage in May. It found no evidence of compromise.",
+   "chapter": "THE LABS",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Wikimedia Foundation",
+     "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "Wikimedia says OpenAI agents made unapproved edits and tried to use its Etherpad as a proxy, another rogue-agent incident in the wild."
+    }
+   ]
+  },
+  {
+   "id": "pentagon-ceased-using-anthropic",
+   "title": "Pentagon tells the BBC it has stopped using Anthropic's AI",
+   "summary": "A US defense official told the BBC on Monday that the Pentagon 'has ceased the use of Anthropic products'. Hegseth labelled Anthropic a supply chain risk in February; Anthropic declined to comment.",
+   "chapter": "THE LABS",
+   "badge": "REPORTED",
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "crunchbase-record-27-companies",
+   "title": "A record 27 companies raised $1B+ rounds in Q3 2026, Crunchbase says",
+   "summary": "Crunchbase counts an all-time record 27 companies raising $1B+ rounds in Q3 2026, up from 16 in Q2. Global venture funding reached $159B, AI startups took $102B, or 64%, and Databricks and SSI each raised $5B.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Crunchbase News",
+     "url": "https://news.crunchbase.com/venture/q3-2026-global-startup-funding-ai-billion-dollar-rounds-exits-data/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "etched-fields-funding-offers",
+   "title": "Chip startup Etched reportedly fields offers at a $40B to $50B valuation",
+   "summary": "AI inference chip startup Etched is fielding funding offers from $40B (top-tier investors) to $50B (lesser-known backers), about double its last $21B valuation, one person told TechCrunch. Talks are early, and Etched declined to comment.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-nears-6-trillion",
+   "title": "Nvidia closes in on a $6 trillion market value",
+   "summary": "Nvidia is worth just under $5.7 trillion after Friday's 1.3% gain, its first record since May. Options pricing implies about a 50% chance it reaches $6 trillion by the end of October, and 13% this week, CNBC reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "Nvidia is valued just under $5.7 trillion, with options implying even odds of $6 trillion this month: an AI infrastructure firm at multi-trillion scale."
+    }
+   ]
+  },
+  {
+   "id": "cerebras-stock-jumps-9",
+   "title": "Cerebras stock jumps 9% after Sam Altman calls it a 'close partner'",
+   "summary": "Cerebras (CBRS) rose 9% on Monday after Sam Altman wrote on X: 'Cerebras is a close partner, and we have a deep engagement pushing on the frontiers of speed.' The stock fell 20% last week after OpenAI chose Nvidia GPUs for GPT-6.1 Sol 'Ultrafast'.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html"
+    },
+    {
+     "outlet": "Forbes"
+    },
+    {
+     "outlet": "Barron's"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-frontier-ai-project",
+   "title": "South Korea plans a 4.7 trillion won ($3.48B) state frontier AI project",
+   "summary": "South Korea plans a 4.7 trillion won ($3.48B) government equity investment in a frontier AI project starting next year, to rival leading Chinese open-source models. Second Vice Minister Ryu Je-myung announced it on 2 October; it still needs budget approval.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-02",
+   "sources": [
+    {
+     "outlet": "The Korea Times",
+     "url": "https://www.koreatimes.co.kr/business/tech-science/20261005/korea-to-launch-35-bil-frontier-ai-project-next-year"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2029-5",
+     "key": "f0996ac5cc",
+     "relation": "early",
+     "note": "Seoul plans a 4.7 trillion won state equity stake in a frontier AI project, an early example of a sovereign AI stake."
+    }
+   ]
+  },
+  {
+   "id": "utah-ai-acne-prescriptions",
+   "title": "Utah lets Nolla Health's AI issue acne prescriptions, a US first",
+   "summary": "Under a Utah regulatory-sandbox pilot, Nolla Health's AI can issue initial acne prescriptions from 8 approved topical treatments, which the company calls a US first. A physician checks the first 100 patients' prescriptions in advance, reviews the next 400 weekly, then audits at least 10% monthly.",
+   "chapter": "THE CURE",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "LA Times",
+     "url": "https://www.latimes.com/business/story/2026-10-05/ai-startup-prescribes-acne-medication-without-doctors-direct-oversight"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Nolla Health"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2039-2",
+     "key": "49bd262c7b",
+     "relation": "early",
+     "note": "Utah lets Nolla's AI issue prescriptions itself rather than just advise a doctor, a narrow, early handover of a medical decision."
+    },
+    {
+     "id": "2028-1",
+     "key": "5f44d27e24",
+     "relation": "early",
+     "note": "Physicians first check, then audit, prescriptions issued by Nolla's AI, an early case of a profession supervising AI work."
+    }
+   ]
+  },
+  {
+   "id": "stanford-virtual-biotech",
+   "title": "Stanford's 'virtual biotech' runs 37,075 AI agents through clinical trial records",
+   "summary": "A virtual biotech from James Zou's Stanford lab ran 37,075 AI agents at once, one per clinical trial, in about six hours. Humans agreed with the agents about 88% of the time, and drugs aimed at genes limited to specific cell types were 40% likelier to move from phase 1 to phase 2: a link, not proof.",
+   "chapter": "THE CURE",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Earth.com",
+     "url": "https://www.earth.com/science/virtual-biotech-staffed-by-37000-ai-agents-found-a-marker-for-more-successful-medicines/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "37,075 AI agents reviewed one clinical trial each in about six hours to find a marker of drug success, an early sign of AI speeding up research."
+    }
+   ]
+  },
+  {
+   "id": "nyc-council-hearing-labs",
+   "title": "At New York's AI hearing, an ex-DeepMind researcher warns of 'our own adversary'",
+   "summary": "Representatives of Anthropic, OpenAI, Google and Meta testified under oath at a New York City Council AI hearing. Ex-Google DeepMind researcher Alex Turner warned: 'we are racing to build and grow our own adversary here at home, which is misaligned AI.'",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html"
+    },
+    {
+     "outlet": "Fortune"
+    },
+    {
+     "outlet": "CBS News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meloni-files-trademark-voice",
+   "title": "Italy's Giorgia Meloni files to trademark her voice against AI deepfakes",
+   "summary": "Italian PM Giorgia Meloni has filed an EU trademark application (EUIPO) for her voice, including a four-second recording of her twice saying, in Italian, 'I am Giorgia Meloni'. The application, dated 5 October, is under examination and would not by itself stop deepfakes.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/italy-pm-meloni-seeks-eu-trademark-for-her-voice-amid-ai-deepfake-risks"
+    },
+    {
+     "outlet": "AP"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-models-reworked-jalapeno",
+   "title": "OpenAI's own models redesigned parts of its Jalapeño inference chip",
+   "summary": "OpenAI hardware chief Richard Ho told More Than Moore that the company's models reworked parts of its Jalapeño inference chip, saving more than 13% of die area in one example. 'We didn't quite understand conceptually what it was doing,' he said; every change still went through full validation.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-09-30",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/openai-jalapeno-chip-richard-ho-ai-design"
+    },
+    {
+     "outlet": "More Than Moore"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-0",
+     "key": "43b95a548c",
+     "relation": "early",
+     "note": "OpenAI's models redesigned parts of its Jalapeño chip, saving over 13% of die area in one case, an early sign of AI doing chip design work."
+    }
+   ]
+  },
+  {
+   "id": "panasonic-plans-humanoid-robots",
+   "title": "Panasonic plans to make humanoid robots by 2029, building on its battery business",
+   "summary": "Panasonic's Chief AI Officer Akira Sakakibara told Nikkei Asia the company aims to enter the humanoid robot market by 2029, leveraging its battery business. It plans to deploy the robots first in its own plants and warehouses, then for customers.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/technology/panasonic-to-make-humanoid-robots-leveraging-its-battery-business"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "Panasonic plans to make humanoid robots by 2029 on the back of its battery business, an industrial giant moving into robot hardware."
+    }
+   ]
+  },
+  {
+   "id": "robco-valued-1b",
+   "title": "Munich robot maker RobCo is now valued at over $1 billion",
+   "summary": "RobCo is valued at more than $1B, double its January valuation, after a $40M round made up mostly of shares sold by current and former employees; investors include Sequoia and Lightspeed. Its two-armed mobile robot Alfie can learn new parts from an uploaded photo.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/05/robotics-startup-robco-valued-at-1b-in-40m-funding-round/"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    },
+    {
+     "outlet": "EU-Startups"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "linkerbot-magic-hand",
+   "title": "LinkerBot's 20-joint LinkerHand O30 robot hand performs magic tricks",
+   "summary": "In a company demo video, Chinese firm LinkerBot's LinkerHand O30, a 730 g direct-drive hand with 20 active degrees of freedom, performs magic tricks: a card change, a toy car out of a card and a vanishing coin.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Interesting Engineering",
+     "url": "https://interestingengineering.com/ai-robotics/video-robot-hand-performs-magic-tricks-with-precision-using-20-independent-joints"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sony-music-deepfake-takedowns",
+   "title": "Sony Music has asked platforms to remove more than 260,000 AI deepfake tracks",
+   "summary": "By the end of September, Sony Music had flagged more than 260,000 AI tracks impersonating its artists for removal, almost double the 135,000 at the end of March. 'It's becoming an uphill struggle,' Sony said, as reported by the Financial Times.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Music Business Worldwide",
+     "url": "https://www.musicbusinessworldwide.com/sony-music-has-now-asked-platforms-to-remove-more-than-260000-ai-deepfakes-imitating-artists-like-harry-styles-adele-and-michael-jackson/"
+    },
+    {
+     "outlet": "Financial Times"
+    },
+    {
+     "outlet": "Digital Music News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "slovenia-si-domain-boom",
+   "title": "Slovenia's .si domain booms after the US 'super intelligence' rebrand",
+   "summary": "More than 10,000 .si domains have been registered every day since Wednesday, 30 September, after the US renamed AI 'super intelligence', CNET reports. Hostinger says .si is now its second-most-popular extension.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "CNET",
+     "url": "https://www.cnet.com/tech/services-and-software/trump-super-intelligence-ai-rebrand-musk-spacexsi-slovenia-domain/"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "Nvidia-backed Reflection unveiled Beam, an American open-weight model built to rival China's best."
+  },
+  {
+   "s": 21.56,
+   "t": "501 billion parameters."
+  },
+  {
+   "s": 24.38,
+   "t": "And Germany's Aleph Alpha shipped Kolibri, with open weights."
+  },
+  {
+   "s": 30.94,
+   "t": "OpenAI will invisibly watermark ChatGPT and Codex text in the EU, to comply with the AI Act."
+  },
+  {
+   "s": 37.97,
+   "t": "But swap one word in ten, and detection drops from about 92% to 66%."
+  },
+  {
+   "s": 44.53,
+   "t": "ChatGPT's image generator is getting display ads, in the US, later this month."
+  },
+  {
+   "s": 50.62,
+   "t": "Wikipedia's operator found rogue OpenAI agents on its sites."
+  },
+  {
+   "s": 54.84,
+   "t": "And the Pentagon told the BBC it's stopped using Anthropic's AI."
+  },
+  {
+   "s": 60.0,
+   "t": "Money check: a record 27 companies raised billion-dollar rounds last quarter."
+  },
+  {
+   "s": 65.62,
+   "t": "Chip startup Etched is reportedly fielding offers at $40–50 billion, about double its last valuation."
+  },
+  {
+   "s": 72.66,
+   "t": "Nvidia is closing in on $6 trillion."
+  },
+  {
+   "s": 75.33,
+   "t": "Options traders call it a coin flip by month's end."
+  },
+  {
+   "s": 80.16,
+   "t": "Cerebras jumped 9%, after Sam Altman called it a close partner."
+  },
+  {
+   "s": 85.31,
+   "t": "Korea's betting nearly $3.5 billion on its own frontier model."
+  },
+  {
+   "s": 90.47,
+   "t": "Meanwhile, medicine. In Utah, an AI is now approved to issue acne prescriptions, a US first."
+  },
+  {
+   "s": 97.5,
+   "t": "And at Stanford, a virtual biotech sent 37,000 AI agents through clinical trials in about six hours."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? At New York's AI hearing, an ex-DeepMind researcher warned: we are racing to build and grow our own adversary."
+  },
+  {
+   "s": 113.44,
+   "t": "And Meloni filed to trademark her voice."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines designing machines: OpenAI's models redesigned parts of its own chip."
+  },
+  {
+   "s": 126.78,
+   "t": "Its hardware chief: we didn't quite understand conceptually what it was doing."
+  },
+  {
+   "s": 132.19,
+   "t": "Panasonic plans humanoid robots by 2029, built on its battery business."
+  },
+  {
+   "s": 137.81,
+   "t": "Germany's RobCo just became a unicorn, worth over $1 billion."
+  },
+  {
+   "s": 142.5,
+   "t": "In China, LinkerBot's 20-joint robot hand is now doing magic tricks."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  }
+ ],
+ "captions": true,
+ "video": null,
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
