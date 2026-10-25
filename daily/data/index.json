@@ -1,0 +1,51 @@
+{
+ "updated": "2026-10-25T07:01:15+00:00",
+ "latest": "2026-10-19",
+ "site": "https://peterxing.com/daily",
+ "pages": "https://peterxing.github.io/singularity-daily/",
+ "repo": "https://github.com/peterxing/singularity-daily",
+ "videosOnPages": 7,
+ "promo": {
+  "name": "AI Singularity Syndicate",
+  "kind": "Monthly meetup",
+  "talk": "Peter Xing on the last month of the singularity",
+  "speaker": "Peter Xing",
+  "start": "2026-10-30T18:00:00+11:00",
+  "end": "2026-10-30T20:30:00+11:00",
+  "venue": "Torrens University",
+  "suburb": "Surry Hills",
+  "city": "Sydney",
+  "price": "Free",
+  "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
+ },
+ "episodes": [
+  {
+   "date": "2026-10-19",
+   "ep": 15,
+   "hook": "AI LEARNED TEAMWORK.",
+   "day": "Monday 19 October 2026",
+   "stories": 16,
+   "forecasts": 7,
+   "links": {
+    "supports": 1,
+    "early": 6,
+    "challenges": 0
+   },
+   "titles": [
+    "Four Gemini 4 Argon agents beat Minecraft as a team, with no human help",
+    "Anthropic reportedly asks law firms how AI agents should negotiate for users",
+    "Google open-sources Harness2, which lets AI agents rewrite their own harness"
+   ],
+   "cover": "daily/media/2026-10-19/cover.webp",
+   "thumb": "daily/media/2026-10-19/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-10-19/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-19/Singularity-Daily_2026-10-19.mp4",
+    "mb": 71.5,
+    "bytes": 71470009,
+    "seconds": 180.01
+   }
+  }
+ ]
+}

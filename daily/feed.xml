@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>The Singularity Daily</title>
+  <link>https://peterxing.com/daily</link>
+  <description>The last 24 hours in AI in three minutes, every day, with every story mapped to the forecasts in The Hitchhiker's Guide to the Singularity.</description>
+  <language>en-au</language>
+  <item>
+   <title>EP.015 · AI LEARNED TEAMWORK.</title>
+   <link>https://peterxing.com/daily#/ep/2026-10-19</link>
+   <guid isPermaLink="false">singularity-daily-2026-10-19</guid>
+   <pubDate>Mon, 19 Oct 2026 06:00:00 +1100</pubDate>
+   <description>AI LEARNED TEAMWORK 🤝
+
+The last 24h in AI:
+- 4 Google AI agents beat Minecraft, no humans
+- Anthropic reportedly asks lawyers how AI should haggle
+- World Bank: AI on a phone could turn centuries into decades
+- Altman: OpenAI will build a humanoid robot
+
+Feel the SI.</description>
+   <enclosure url="https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-19/Singularity-Daily_2026-10-19.mp4" length="71470009" type="video/mp4"/>
+  </item>
+ </channel>
+</rss>

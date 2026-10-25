@@ -1,0 +1,549 @@
+{
+ "date": "2026-10-19",
+ "ep": 15,
+ "hook": "AI LEARNED TEAMWORK.",
+ "day": "Monday 19 October 2026",
+ "chapters": [
+  "THE TEAM",
+  "THE BOTS",
+  "THE MONEY",
+  "THE FUTURE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Mon 19 Oct 2026.",
+ "notes": [
+  "Reported, not confirmed: Anthropic's talks with law firms on agents that negotiate (Financial Times, via India Today) and Samsung using TSMC for Nvidia's memory chips (Seoul Economic Daily, via Reuters).",
+  "This week: the Minecraft run (Google DeepMind, 16 Oct), Anthropic's safety-bill pitch (16 Oct), the Neo1 robot (14 Oct) and both flashes (15-16 Oct).",
+  "Claims are the sources' own: Harness2's benchmark gains, the distributor's account of the missing GPUs and Altman's 2027 demo.",
+  "Screenshots are the publishers' public article pages as captured on 19 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "AI LEARNED TEAMWORK 🤝\n\nThe last 24h in AI:\n- 4 Google AI agents beat Minecraft, no humans\n- Anthropic reportedly asks lawyers how AI should haggle\n- World Bank: AI on a phone could turn centuries into decades\n- Altman: OpenAI will build a humanoid robot\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (19 Oct 2026), hosted by Claudia: four Google AI agents beating Minecraft as a team, Anthropic's talks on AI agents that negotiate, Google's self-improving agent tool, a debate on who sets Claude's values, Microsoft quitting a UK data centre, Samsung and TSMC teaming up on Nvidia chips, missing RTX 5090s in Brazil, Louisiana's data-centre trainees, the World Bank's 'small AI', Anthropic's safety-bill threshold, always-listening AI gadgets, OpenAI's humanoid plans, a 4-metre Chinese robot and a 24-hour robot chemistry lab, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "The Decoder: the four Minecraft agents wrote 2,783 programs and sent 229 chat messages; the run cost $1,620",
+  "MarkTechPost: Harness2 lifted GLM-5 from 64.2 to 75.7 on WorkBuddy-Bench without changing the model",
+  "NBC News: Anthropic hosted law professors and democracy experts on who should have the final say over Claude's values",
+  "BBC: Nscale says it is exploring alternative power sources for its £2bn Loughton site",
+  "Reuters: it would be Samsung's first time working with TSMC at the HBM manufacturing stage, the Seoul Economic Daily says",
+  "Startup Fortune: two pallets of Zotac RTX 5090s went missing at São Paulo's Guarulhos airport",
+  "Business Insider: Meta says Hyperion will need over 7,500 trade workers at peak and 1,000 operational jobs",
+  "The Guardian: the World Bank's Paschal Donohoe says small AI can work with low connectivity, in local languages",
+  "CNBC: Apple, Amazon, Meta and startups released always-listening AI devices this year",
+  "Engadget: Altman says the brain that makes a robot work is the hard part, not the body",
+  "The Decoder: Anthropic says its AI agents now work about six times as many hours as its staff",
+  "NYT: on Korea's 'My AI Partner', a cartoonist was abandoned by an AI avatar halfway through a fishing trip",
+  "VnExpress: a 15-year-old Korean says he used Claude to help prove a 62-faced solid isn't 'Rupert'; not yet peer reviewed",
+  "Al Jazeera: an AI-assisted volunteer network in New Delhi helps detained protesters get home safely",
+  "Tom's Hardware: WiFireNet AI spots concealed handguns from Wi-Fi signals with 72.5% average precision in indoor tests",
+  "Morning Overview: Waymo picks Toronto as its first Canadian city; first public riders could come in 2028",
+  "Crypto Briefing: OpenAI gives $5 million toward the Simons Foundation's $15 million AI-math push",
+  "The Washington Post: MIT's Pattie Maes says AI-altered images can make people remember things that never happened"
+ ],
+ "sources": [
+  "AI Weekly",
+  "Al Jazeera",
+  "BBC",
+  "Business Insider",
+  "CNBC",
+  "Crypto Briefing",
+  "dev.ua",
+  "DongA Science",
+  "Engadget",
+  "Financial Times",
+  "Fortune",
+  "Gizmodo",
+  "Google Research",
+  "Herald Corp",
+  "IBTimes Singapore",
+  "India Today",
+  "MarkTechPost",
+  "Mint",
+  "Morning Overview",
+  "NBC News",
+  "NeodraDynamics",
+  "Politico",
+  "Reuters",
+  "Seoul Economic Daily",
+  "Startup Fortune",
+  "The Decoder",
+  "The Guardian",
+  "The New York Times",
+  "The Telegraph",
+  "The Times of India",
+  "The Washington Post",
+  "Tom's Hardware",
+  "VnExpress International"
+ ],
+ "scanned": 3719,
+ "stories": [
+  {
+   "id": "minecraft-agents",
+   "title": "Four Gemini 4 Argon agents beat Minecraft as a team, with no human help",
+   "summary": "A Google DeepMind team dropped four Gemini 4 Argon agents into a random Minecraft world with no roles or game tools; they split up tasks, shared notes and slew the Ender Dragon after 27 hours and 14 minutes and 605 deaths.",
+   "chapter": "THE TEAM",
+   "badge": "THIS WEEK",
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/"
+    },
+    {
+     "outlet": "Crypto Briefing"
+    },
+    {
+     "outlet": "AI Weekly"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "supports",
+     "note": "Four agents worked for 27 hours and 14 minutes with no human help, writing 2,783 programs to finish a long multi-step task."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-consulting-lawyers-agents",
+   "title": "Anthropic reportedly asks law firms how AI agents should negotiate for users",
+   "summary": "According to the Financial Times, Anthropic has been talking to law firms about how lawyers negotiate for clients, as it explores 'negotiation norms' and signed user instructions for agents that could bargain over prices or salary offers.",
+   "chapter": "THE BOTS",
+   "badge": "REPORTED",
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "India Today",
+     "url": "https://www.indiatoday.in/technology/news/story/anthropic-is-courting-lawyers-to-teach-ai-agents-how-to-negotiate-and-strike-deals-like-humans-3020029-2026-10-18"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-2",
+     "key": "b71f224c8c",
+     "relation": "early",
+     "note": "Anthropic is reportedly asking law firms how lawyers negotiate for clients, expert input for teaching its agents to bargain for users."
+    }
+   ]
+  },
+  {
+   "id": "google-open-sources-harness2",
+   "title": "Google open-sources Harness2, which lets AI agents rewrite their own harness",
+   "summary": "Google Cloud AI Research's Harness2 refines everything around a frozen model, from its system prompt to memory, tools and skills, without changing the weights; in the team's tests, GLM-5 rose from 64.2 to 75.7 on WorkBuddy-Bench.",
+   "chapter": "THE BOTS",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "MarkTechPost",
+     "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/"
+    },
+    {
+     "outlet": "Google Research"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "Harness2 automates part of agent engineering, lifting GLM-5 from 64.2 to 75.7 on WorkBuddy-Bench without a new model."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-invites-law-professors",
+   "title": "Anthropic invites law professors and democracy experts to debate who decides Claude's values",
+   "summary": "Anthropic invited law professors and democracy experts to its campus to grapple with who should have the final say over the values that direct its technology, NBC News reports.",
+   "chapter": "THE BOTS",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "NBC News",
+     "url": "https://www.nbcnews.com/tech/innovation/anthropic-wants-input-claudes-values-gets-final-say-rcna603440"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "microsoft-pulls-out-nscale",
+   "title": "Microsoft pulls out of what would be the UK's largest AI data centre, the BBC says",
+   "summary": "The BBC understands Microsoft, which had said it would fund a supercomputer there, has ended its involvement in Nscale's £2bn Loughton, Essex project; Nscale says it remains committed, and Microsoft declined to comment.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.com/news/articles/c9m26kl5y7epo"
+    },
+    {
+     "outlet": "The Telegraph"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "samsung-use-tsmc-3nm",
+   "title": "Samsung will reportedly use TSMC's 3nm process for Nvidia's next memory chips",
+   "summary": "Samsung will use TSMC's 3-nanometre process to make base dies for Nvidia's next-generation custom HBM chips, the Seoul Economic Daily reported, according to Reuters; it would be Samsung's first time working with TSMC at the HBM manufacturing stage.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Seoul Economic Daily"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "rtx-5090s-vanish",
+   "title": "A distributor says $470,000 of RTX 5090 graphics cards vanished at a Brazilian airport",
+   "summary": "Brazilian distributor Oderço says two pallets of Zotac RTX 5090 graphics cards worth about $470,000 arrived at São Paulo's Guarulhos airport and then disappeared, and that it has had no official answers, a first in its 38-year history.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers"
+    },
+    {
+     "outlet": "Startup Fortune"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "louisiana-residents-train-jobs",
+   "title": "Louisiana residents train for jobs at Meta's largest-ever data centre",
+   "summary": "Louisiana Delta Community College runs a four-week Data Center Technician course near Meta's Hyperion site, and all 11 students in its first class got job offers; Meta says it will need over 7,500 trade workers at peak and 1,000 operational jobs.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://malaysia.news.yahoo.com/louisiana-residents-training-jobs-metas-090401989.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "world-bank-small-ai",
+   "title": "World Bank says 'small AI' on phones could turn centuries of development into decades",
+   "summary": "The World Bank urges developing countries to build 'small AI' models that run on a phone with low connectivity, in local languages; its chief knowledge officer Paschal Donohoe says development that could have taken centuries could now happen within decades.",
+   "chapter": "THE FUTURE",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies"
+    },
+    {
+     "outlet": "International Business Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-proposed-safety-bill",
+   "title": "Anthropic's proposed AI safety bill would only kick in at $1bn of damage or 50 deaths",
+   "summary": "Anthropic pitched US lawmakers a bill letting the government block AI models only if they risk over $1 billion in damage or 50 deaths or serious injuries; evaluators would report imminent risks to the Commerce Department within 72 hours, then to a federal judge.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-16",
+   "sources": [
+    {
+     "outlet": "IBTimes Singapore",
+     "url": "https://www.ibtimes.sg/anthropic-pitches-congress-ai-safety-bill-1-billion-50-death-threshold-model-shutdowns-95231"
+    },
+    {
+     "outlet": "Politico"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-4",
+     "key": "4266dad71f",
+     "relation": "early",
+     "note": "Anthropic pitched US lawmakers a bill letting the government block AI models that risk over $1 billion in damage or 50 deaths."
+    }
+   ]
+  },
+  {
+   "id": "always-listening-wearables",
+   "title": "Always-listening AI wearables could land their wearers in legal trouble, experts say",
+   "summary": "Apple, Amazon, Meta and many startups released always-listening AI devices this year; in some states, experts say, the legal exposure for recording a private conversation without bystanders' consent may fall on the wearer.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-humanoid-robot",
+   "title": "Sam Altman says OpenAI will build a humanoid robot, with a demo in 2027",
+   "summary": "Asked whether OpenAI would build a humanoid robot, Sam Altman said 'We will', expecting 'a cool demo in 2027' but no robots walking the streets for a few years longer; he says the brain that makes the robot work is the hard part.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-17",
+   "sources": [
+    {
+     "outlet": "Engadget",
+     "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/"
+    },
+    {
+     "outlet": "Fortune"
+    },
+    {
+     "outlet": "Mint"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "OpenAI says it will build a humanoid robot, with a demo expected in 2027, though Altman says the robot's brain is the hard part."
+    }
+   ]
+  },
+  {
+   "id": "china-neo1-4-metre",
+   "title": "China's Neo1, a 4-metre humanoid robot, can lift more than 500 kg",
+   "summary": "NeodraDynamics showed Neo1, a 4-metre, 1.2-ton hydraulic-electric humanoid built for heavy industry, with JD Industrial at the China International Industry Fair; dev.ua says it can lift loads of more than 500 kg.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-14",
+   "sources": [
+    {
+     "outlet": "NeodraDynamics (PR Newswire)",
+     "url": "https://www.prnewswire.com/news-releases/neodradynamics-showcases-4-meter--1-2-ton-neo1-heavy-duty-hydraulic-robot-with-jd-industrial-at-ciif-hydraulicelectric-hybrid-solves-realworld-4d-industrial-challenges-302908332.html"
+    },
+    {
+     "outlet": "dev.ua"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "NeodraDynamics showed its 1.2-ton Neo1 humanoid for heavy industry with JD Industrial, a trade-fair showcase rather than a factory rollout."
+    }
+   ]
+  },
+  {
+   "id": "kaist-24-hour-unmanned",
+   "title": "KAIST's unmanned robot lab makes drug candidates around the clock",
+   "summary": "Prof. Park Yoon-su's team at KAIST built a 24-hour unmanned synthesis platform where robots run the experiments once a researcher sets the conditions; it has made more than 20 compounds, including the drug scaffold N-methylpyrrole.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-18",
+   "sources": [
+    {
+     "outlet": "Herald Corp",
+     "url": "https://biz.heraldcorp.com/article/10906081"
+    },
+    {
+     "outlet": "DongA Science"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-images-false-memories",
+   "title": "AI-altered photos can plant false memories, MIT researchers find",
+   "summary": "MIT's Pattie Maes says people shown AI-altered versions of photos were more likely to misremember the originals, and more confident in their false memories, The Washington Post reports.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-15",
+   "sources": [
+    {
+     "outlet": "The Washington Post",
+     "url": "https://www.washingtonpost.com/health/2026/10/15/scientists-are-finding-ai-may-make-us-remember-things-that-never-happened/"
+    },
+    {
+     "outlet": "Gizmodo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "simons-ai-math-fund",
+   "title": "Simons Foundation, OpenAI and Anthropic launch $15M to help check AI-assisted math",
+   "summary": "The Simons Foundation, with OpenAI and Anthropic, announced a $15 million initiative to help mathematicians evaluate AI-assisted research and agree shared standards; OpenAI is giving $5 million.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-15",
+   "sources": [
+    {
+     "outlet": "The Times of India",
+     "url": "https://www.msn.com/en-in/science/mathematics/ai-enters-the-world-of-mathematics-simons-foundation-openai-and-anthropic-join-hands-for-15-million-research-initiative/ar-AA2emNAE"
+    },
+    {
+     "outlet": "Crypto Briefing"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "A $15 million push to help mathematicians evaluate AI-assisted research and set shared standards, an early step for AI in research math."
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "AI learned teamwork."
+  },
+  {
+   "s": 16.27,
+   "t": "Four Google agents beat Minecraft together, with zero human help."
+  },
+  {
+   "s": 22.5,
+   "t": "27 hours, over 600 deaths, one dragon. They even shared notes."
+  },
+  {
+   "s": 31.88,
+   "t": "The bots: Anthropic is reportedly asking l awyers how AI agents should haggle for us."
+  },
+  {
+   "s": 39.38,
+   "t": "Picture your AI bargaining with a seller's AI, maybe with signed rules on what it can agree to."
+  },
+  {
+   "s": 45.94,
+   "t": "Google gave away a tool that lets agents rewrite their own playbook, and get better without a new brain."
+  },
+  {
+   "s": 52.97,
+   "t": "And Anthropic invited law professors to ask: w ho should get the final say on Claude's values?"
+  },
+  {
+   "s": 60.0,
+   "t": "Money: Microsoft has pulled out of what would be Britain's biggest AI data centre, the BBC says."
+  },
+  {
+   "s": 67.5,
+   "t": "And rivals team up: Samsung will reportedly us e TSMC to help make Nvidia's next memory chips."
+  },
+  {
+   "s": 75.0,
+   "t": "A distributor says $470,000 of Nvidia grap hics cards vanished at a Brazilian airport."
+  },
+  {
+   "s": 82.5,
+   "t": "And in Louisiana, locals are training for jobs at Meta's biggest data centre."
+  },
+  {
+   "s": 87.11,
+   "t": "Why not get in now?"
+  },
+  {
+   "s": 90.0,
+   "t": "The future: the World Bank says small AI on a pho ne could turn centuries of progress into decades."
+  },
+  {
+   "s": 97.5,
+   "t": "Think soil advice for farmers in India, in their own language, right on their phones."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch: Anthropic's safety bill only kicks in when $1 billion, or 50 lives, are on the line."
+  },
+  {
+   "s": 112.03,
+   "t": "Experts say always-listening AI gadgets could land wearers in legal trouble."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines: Sam Altman says OpenAI will build a humanoid robot, with a cool demo in 2027."
+  },
+  {
+   "s": 128.44,
+   "t": "In China, a 4-metre robot called Neo1 can lift more than 500 kilos."
+  },
+  {
+   "s": 135.0,
+   "t": "And in Korea, a robot lab now makes drug candidates around the clock, unmanned."
+  },
+  {
+   "s": 141.56,
+   "t": "AI learned teamwork. The future's a group project, so let's be good teammates."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-19/Singularity-Daily_2026-10-19.mp4",
+  "mb": 71.5,
+  "bytes": 71470009,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
