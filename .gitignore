@@ -4,3 +4,5 @@ __pycache__/
 *.tmp
 .DS_Store
 Thumbs.db
+# Videos are release assets, copied into the Pages artifact at build time; never commit them.
+*.mp4

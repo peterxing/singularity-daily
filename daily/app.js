@@ -114,9 +114,9 @@
     if (t.length) {
       touch.hidden = false;
       touch.replaceChildren(h('span', { class: 'label', text: 'Moves' }),
-        ...t.slice(0, 5).map(({ p, rel }) => h('a', { class: 'chip', href: `#/forecasts/${p.id}`, title: `${REL[rel].label}: ${p.t}` },
+        ...t.slice(0, 3).map(({ p, rel }) => h('a', { class: 'chip', href: `#/forecasts/${p.id}`, title: `${REL[rel].label}: ${p.t}` },
           relPill(rel, ''), h('span', { class: 't', text: `${when(p)}: ${p.t}` }))),
-        t.length > 5 ? h('a', { class: 'chip', href: '#/stories' }, h('span', { class: 't', text: `+${t.length - 5} more` })) : null);
+        t.length > 3 ? h('a', { class: 'chip', href: '#/stories' }, h('span', { class: 't', text: `+${t.length - 3} more in the stories` })) : null);
     } else touch.hidden = true;
     $('epWindow').textContent = ep.window || '';
     setupVideo(entry, ep);
