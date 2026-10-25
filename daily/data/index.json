@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:41:34+00:00",
+ "updated": "2026-10-25T07:41:40+00:00",
  "latest": "2026-10-25",
  "site": "https://peterxing.com/daily",
  "pages": "https://peterxing.github.io/singularity-daily/",
@@ -295,7 +295,7 @@
   {
    "date": "2026-10-08",
    "ep": 4,
-   "hook": "",
+   "hook": "GPT-6 FOR ALL.",
    "day": "Thursday 8 October 2026",
    "stories": 20,
    "forecasts": 7,
