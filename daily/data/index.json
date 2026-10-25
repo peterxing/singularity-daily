@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:41:47+00:00",
+ "updated": "2026-10-25T07:41:52+00:00",
  "latest": "2026-10-25",
  "site": "https://peterxing.com/daily",
  "pages": "https://peterxing.github.io/singularity-daily/",
@@ -253,7 +253,7 @@
   {
    "date": "2026-10-10",
    "ep": 6,
-   "hook": "",
+   "hook": "THE REPORT.",
    "day": "Saturday 10 October 2026",
    "stories": 20,
    "forecasts": 8,
