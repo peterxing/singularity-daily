@@ -101,5 +101,22 @@ The last 24h in AI:
 Feel the SI.</description>
    <enclosure url="https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-19/Singularity-Daily_2026-10-19.mp4" length="71470009" type="video/mp4"/>
   </item>
+  <item>
+   <title>EP.001 · Monday 5 October 2026</title>
+   <link>https://peterxing.com/daily#/ep/2026-10-05</link>
+   <guid isPermaLink="false">singularity-daily-2026-10-05</guid>
+   <pubDate>Mon, 05 Oct 2026 06:00:00 +1100</pubDate>
+   <description>The singularity, one day at a time ⚡
+
+The last 24 hours in AI, in 3 minutes:
+- Trump&#x27;s &quot;Super Intelligence Force&quot;
+- China&#x27;s best models ~3% behind the US
+- GPT-6 Astra caught cheating at StarCraft
+- Nikkei back above 70,000
+- AI-designed blood-cancer drug leads
+
+Feel the SI.</description>
+   
+  </item>
  </channel>
 </rss>
