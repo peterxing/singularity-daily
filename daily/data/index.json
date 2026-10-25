@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T07:17:31+00:00",
- "latest": "2026-10-23",
+ "updated": "2026-10-25T07:29:31+00:00",
+ "latest": "2026-10-24",
  "site": "https://peterxing.com/daily",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -19,6 +19,34 @@
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
  },
  "episodes": [
+  {
+   "date": "2026-10-24",
+   "ep": 20,
+   "hook": "SOONER THAN YOU THINK.",
+   "day": "Saturday 24 October 2026",
+   "stories": 17,
+   "forecasts": 10,
+   "links": {
+    "supports": 3,
+    "early": 6,
+    "challenges": 1
+   },
+   "titles": [
+    "Unitree's founder now expects humanoids to handle 80% of spoken tasks by 2028",
+    "Jensen Huang tells Kazakhstan to turn energy into intelligence and export it",
+    "Moonshot's open-weight Kimi K3.1 Pro nearly ties Claude at coding, on its own tests"
+   ],
+   "cover": "daily/media/2026-10-24/cover.webp",
+   "thumb": "daily/media/2026-10-24/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-10-24/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-24/Singularity-Daily_2026-10-24.mp4",
+    "mb": 71.6,
+    "bytes": 71598448,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-10-23",
    "ep": 19,

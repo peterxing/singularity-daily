@@ -237,11 +237,12 @@
   function renderScoreboard() {
     const t = totals();
     const n = state.preds.items.length;
+    const story = k => (k === 1 ? 'story' : 'stories');
     const tiles = [
       h('div', { class: 'tile hot' }, h('b', { text: `${t.withNews}/${n}` }), h('span', { text: 'forecasts with news in the show' })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.supports) }), h('span', { text: 'stories supporting a forecast' })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.early) }), h('span', { text: 'early signs' })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.challenges) }), h('span', { text: 'stories cutting against one' })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.supports) }), h('span', { text: `${story(t.supports)} supporting a forecast` })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.early) }), h('span', { text: t.early === 1 ? 'early sign' : 'early signs' })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.challenges) }), h('span', { text: `${story(t.challenges)} cutting against one` })),
     ];
     const doms = Object.keys(state.preds.domains || {}).map(d => {
       const all = state.preds.items.filter(p => p.d === d);
@@ -344,7 +345,7 @@
     const det = h('details', { class: `fc${r ? '' : ' quiet'}`, id: `f-${p.id}` });
     const sum = h('summary', null,
       h('span', { class: 'meta' }, h('span', { class: 'yr', text: when(p).toUpperCase() }), h('span', { class: 'pr', text: odds(p) })),
-      h('span', { class: 'tx' }, p.t, h('small', { text: domainName(p.d) + (p.high ? ' · high-impact' : '') })),
+      h('span', { class: 'tx' }, p.t, h('small', { text: domainName(p.d) })),
       h('span', { class: 'sig' }, r ? h('span', { class: 'tally' }, tallyPills(r)) : h('span', { class: 'pr mono', text: 'No news yet' }), strip(r)));
     det.append(sum);
     det.addEventListener('toggle', () => {
