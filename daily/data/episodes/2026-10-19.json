@@ -345,14 +345,7 @@
      "outlet": "dev.ua"
     }
    ],
-   "predictions": [
-    {
-     "id": "2026-3",
-     "key": "0bfb45572e",
-     "relation": "early",
-     "note": "NeodraDynamics showed its 1.2-ton Neo1 humanoid for heavy industry with JD Industrial, a trade-fair showcase rather than a factory rollout."
-    }
-   ]
+   "predictions": []
   },
   {
    "id": "kaist-24-hour-unmanned",
@@ -406,14 +399,7 @@
      "outlet": "Crypto Briefing"
     }
    ],
-   "predictions": [
-    {
-     "id": "2037-0",
-     "key": "7413d2bddc",
-     "relation": "early",
-     "note": "A $15 million push to help mathematicians evaluate AI-assisted research and set shared standards, an early step for AI in research math."
-    }
-   ]
+   "predictions": []
   }
  ],
  "transcript": [

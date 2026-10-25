@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:36:40+00:00",
+ "updated": "2026-10-25T07:36:45+00:00",
  "latest": "2026-10-25",
  "site": "https://peterxing.com/daily",
  "pages": "https://peterxing.github.io/singularity-daily/",
@@ -165,10 +165,10 @@
    "hook": "AI LEARNED TEAMWORK.",
    "day": "Monday 19 October 2026",
    "stories": 16,
-   "forecasts": 7,
+   "forecasts": 5,
    "links": {
     "supports": 1,
-    "early": 6,
+    "early": 4,
     "challenges": 0
    },
    "titles": [
