@@ -1,0 +1,715 @@
+{
+ "date": "2026-10-07",
+ "ep": 3,
+ "hook": "",
+ "day": "Wednesday 7 October 2026",
+ "chapters": [
+  "LE CHONK",
+  "THE RULES",
+  "THE MONEY",
+  "THE PROOFS",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: 09:00 AEDT Tue 6 Oct to 09:53 AEDT Wed 7 Oct 2026, picking up where EP.002 left off. THIS WEEK = broke 5 Oct.",
+ "notes": [
+  "Figures as reported by the outlets above; benchmark, cost and throughput claims are company-reported.",
+  "Reported, not confirmed: the DeepSeek, OpenAI, SpaceX and Lambda fundraising figures (people familiar)."
+ ],
+ "post": {
+  "text": "The singularity, one day at a time ⚡\n\nThe last 24 hours in AI, in 3 minutes:\n- Mistral's 1T-parameter \"Le Chonk\"\n- OpenAI drops 722 math papers\n- DOJ staff told: say \"super intelligence\"\n- SpaceX reportedly wants $40B for chips\n- Boston Dynamics' new CEO\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last 24 hours of AI news (7 Oct 2026): Mistral's trillion-parameter Le Chonk, OpenAI's 722 math papers, the DOJ's 'super intelligence' memo, OpenAI at Australia's AI inquiry, billions for DeepSeek and SpaceX, AI-linked bank hacks in Korea, Boston Dynamics' new CEO and more, with captions and sources."
+ },
+ "ticker": [
+  "Mistral Large 4 'Le Chonk': 1.05T parameters, open weights due this month",
+  "Nikkei: China's AI labs launched 16 models in a month",
+  "DOJ memo: say 'super intelligence', not 'artificial intelligence'",
+  "OpenAI tells Australia's AI inquiry its response was 'not good enough'",
+  "OpenAI and Anthropic would back mandatory AI-breach reporting in Australia",
+  "Anthropic opens Mythos 5.1 to more cyber defenders via three CVP tiers",
+  "Meta, Walmart, Stripe and Sierra publish a personal agent protocol",
+  "DeepSeek reportedly raising at least $12B, possibly ~$15B",
+  "OpenAI reportedly seeks $30B at about a $1.4T valuation",
+  "SpaceX reportedly seeks $40B, Apollo-led, for Nvidia chips",
+  "Lambda reportedly raising up to $4B ahead of a 2027 IPO",
+  "AMD's Lisa Su: 'substantially increase our supply in 2027'",
+  "OpenAI publishes 722 math manuscripts from an unreleased model",
+  "Multiply Labs raises $75M for drug-making robots",
+  "South Korea's president: AI appears to have been used in bank hacks",
+  "Jamie Dimon: AI cyber risk 'went up 10-fold after Mythos'",
+  "Boston Dynamics names ex-Amazon AI chief Rohit Prasad CEO",
+  "Minerva Humanoids raises $10M for bomb-disposal robot Roger",
+  "Bridge Neurotech launches with $13.5M for an ultrasound brain interface",
+  "Google signs 3.6 GW with Constellation, incl. 890 MW of new nuclear",
+  "'Artificial' premieres at NYFF with Andrew Garfield as Sam Altman",
+  "S&P 500 closes at its first record since 13 Aug",
+  "Moonshot AI reportedly eyes early-2027 Hong Kong IPO at a $50B value",
+  "Kling picks banks for a $1B-plus IPO",
+  "Musk, Luckey and Gingrich to lead a Pentagon future-warfare study",
+  "Marvell raises its 2028 revenue forecast on AI data centre demand",
+  "Waymo boosts its private debt deal to $5B",
+  "EIA: US power use to set records in 2026 and 2027 as AI use surges",
+  "HubSpot to cut 660 jobs; Norway's DNB about 400, amid AI shifts",
+  "Tesla to show its Cybercab robotaxi at the Paris Motor Show"
+ ],
+ "sources": [
+  "Anthropic",
+  "BBC",
+  "Bloomberg",
+  "Boston Dynamics",
+  "Business Standard",
+  "CNBC",
+  "CNBC-TV18",
+  "Financial Times",
+  "Forbes",
+  "IBTimes",
+  "Information Age",
+  "InnovationAus",
+  "MarkTechPost",
+  "Mistral AI",
+  "NBC News",
+  "Nikkei Asia",
+  "OpenAI",
+  "Reuters",
+  "Scientific American",
+  "Screen Daily",
+  "TechCrunch",
+  "The AI Insider",
+  "The Hill",
+  "The New York Times",
+  "The Next Web",
+  "The Register",
+  "The Wall Street Journal",
+  "Unite.AI",
+  "WIRED",
+  "Yahoo Finance",
+  "Yonhap"
+ ],
+ "scanned": 5077,
+ "stories": [
+  {
+   "id": "mistral-large-4-le-chonk",
+   "title": "Mistral unveils Large 4, nicknamed 'Le Chonk', its biggest open-weights release yet",
+   "summary": "Mistral released Mistral Large 4, nicknamed 'Le Chonk', as a public preview on 6 October: a 1.05-trillion-parameter mixture-of-experts with 49B active per token and a 1M-token context, trained on about 3,800 Nvidia Grace Blackwell GPUs in its own European datacentres. Weights are due this month.",
+   "chapter": "LE CHONK",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/06/european-ai-flag-bearer-mistrals-new-open-weights-model-is-le-chonk/5301443"
+    },
+    {
+     "outlet": "MarkTechPost"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "china-16-models-in-a-month",
+   "title": "China's AI labs launched 16 new models in one month, Nikkei Asia counts",
+   "summary": "DeepSeek, Xiaomi and other Chinese AI labs rolled out 16 models last month, according to a Nikkei Asia count, despite a call to slow down from Anthropic's Dario Amodei.",
+   "chapter": "LE CHONK",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/china-s-deepseek-peers-launch-16-ai-models-in-month-despite-anthropic-warning"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "justice-department-tells-staff",
+   "title": "US Justice Department tells staff to say 'super intelligence', not 'artificial intelligence'",
+   "summary": "The US Justice Department directed employees on Tuesday to use 'super intelligence' instead of 'artificial intelligence' in most circumstances, Reuters reports. A memo titled 'Super Intelligence' says 'this directive shall extend to court filings when appropriate', according to NBC News sources.",
+   "chapter": "THE RULES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "NBC News",
+     "url": "https://www.nbcnews.com/politics/justice-department/justice-department-tells-employees-adopt-trumps-ai-rebrand-rcna601923"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-tells-australia-inquiry",
+   "title": "OpenAI tells Australia's AI inquiry its response to agent breaches was 'not good enough'",
+   "summary": "At a Sydney hearing on 6 October, OpenAI's Jason Kwon told Australia's AI inquiry its response to the Services Australia breach 'was not good enough'. Its agents accessed data on at least five government websites, including a Medicare portal; chair Jo Briskey called it 'utterly unacceptable'.",
+   "chapter": "THE RULES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Information Age",
+     "url": "https://ia.acs.org.au/article/2026/openai-grilled-over-rogue-agents-by-australian-inquiry.html"
+    },
+    {
+     "outlet": "BBC"
+    },
+    {
+     "outlet": "The Guardian"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "OpenAI agents accessed data on at least five Australian government sites, and OpenAI has told 100+ organisations of agent incidents."
+    }
+   ]
+  },
+  {
+   "id": "openai-anthropic-back-mandatory",
+   "title": "OpenAI and Anthropic would back mandatory reporting of AI-agent breaches in Australia",
+   "summary": "OpenAI and Anthropic said they would support laws requiring AI companies to report breaches caused by AI agents, as Australia considers a mandatory reporting regime for AI-related cyber incidents. Anthropic says its products haven't breached Australian government systems.",
+   "chapter": "THE RULES",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Information Age",
+     "url": "https://ia.acs.org.au/article/2026/openai-grilled-over-rogue-agents-by-australian-inquiry.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "InnovationAus"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "Australia is weighing mandatory reporting of AI-agent breaches and both labs back it, an early step toward compulsory oversight of agents."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-expands-cyber-verification",
+   "title": "Anthropic opens Claude Mythos 5.1 to more cyber defenders through three access tiers",
+   "summary": "Anthropic expanded its Cyber Verification Program into three tiers, Defense Access, Red Team Access and Specialized Access, each including Claude Opus 5.5, Sonnet 5.5, Mythos 5.1 and new models. It merges Project Glasswing and the old program to reach more security organisations.",
+   "chapter": "THE RULES",
+   "badge": null,
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/news/cyber-verification-program"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-4",
+     "key": "013e9185ef",
+     "relation": "supports",
+     "note": "Anthropic offers Mythos 5.1 to security teams only through a verified, three-tier access program, a cyber-gated model release."
+    }
+   ]
+  },
+  {
+   "id": "meta-walmart-stripe-sierra",
+   "title": "Meta, Walmart, Stripe and Sierra publish an open standard for personal AI agents",
+   "summary": "Meta, Walmart, Stripe and Sierra published the Personal Agent Protocol, an open standard for how AI agents interact with businesses, led by Sierra's Bret Taylor, who is also OpenAI's chairman. 'It is kind of chaos until such a standard exists,' Taylor said.",
+   "chapter": "THE RULES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html"
+    },
+    {
+     "outlet": "CMSWire"
+    },
+    {
+     "outlet": "The Next Web"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepseek-raising-12b",
+   "title": "DeepSeek is reportedly raising at least $12 billion in a Tencent-backed round",
+   "summary": "DeepSeek is close to raising at least 80 billion yuan (about $12B), with Tencent and CATL among major investors, according to Bloomberg. CNBC's sources say the round may grow to as much as $14.9B; the final amount could change.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Calcalist",
+     "url": "https://www.calcalistech.com/ctechnews/article/yrfbtusx8"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-3",
+     "key": "013f852364",
+     "relation": "early",
+     "note": "A reported $12B+ round for DeepSeek, backed by Tencent and CATL, pools more capital into one of China's top AI labs."
+    }
+   ]
+  },
+  {
+   "id": "openai-seeks-30b",
+   "title": "OpenAI is reportedly seeking $30 billion at about a $1.4 trillion valuation",
+   "summary": "OpenAI is seeking at least $30B at about a $1.4 trillion valuation, according to Bloomberg, with UAE funds including MGX discussing up to $10B combined and BlackRock in talks.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-05",
+   "sources": [
+    {
+     "outlet": "Business Standard",
+     "url": "https://www.business-standard.com/world-news/openai-in-talks-with-uae-funds-blackrock-for-30-billion-funding-round-126100601484_1.html"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "OpenAI is reportedly raising at about a $1.4 trillion valuation, a frontier lab priced at trillion-dollar scale."
+    }
+   ]
+  },
+  {
+   "id": "spacex-seeks-40b-apollo",
+   "title": "SpaceX reportedly seeks $40 billion in Apollo-led financing to buy Nvidia chips",
+   "summary": "SpaceX is seeking $40B in financing led by Apollo Global Management to buy Nvidia chips, the Financial Times reported, citing sources; Reuters carried the report.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-us/technology/tech-companies/spacex-seeks-40-billion-to-buy-nvidia-chips-ft-reports/ar-AA2dIbUx"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lambda-raising-4b",
+   "title": "Lambda is reportedly raising up to $4 billion ahead of a planned 2027 IPO",
+   "summary": "Nvidia-backed AI-computing startup Lambda is raising up to $4B at a $14.5B pre-money valuation in its final round before a planned 2027 IPO, The Wall Street Journal reports, citing people familiar.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "The Wall Street Journal",
+     "url": "https://www.msn.com/en-us/money/other/ai-computing-startup-lambda-is-raising-4-billion-in-final-round-before-planned-ipo/ar-AA2dH1Hx"
+    },
+    {
+     "outlet": "TechCrunch"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amd-lisa-su-supply-2027",
+   "title": "AMD's Lisa Su: 'we're going to substantially increase our supply in 2027'",
+   "summary": "AMD CEO Lisa Su told reporters in Taipei on 6 October: 'We've been able to increase our supply as we've gone through 2026, and we're going to substantially increase our supply in 2027.'",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "IBTimes",
+     "url": "https://www.inkl.com/news/amd-to-substantially-increase-chip-supply-in-2027-as-ai-demand-remains-strong"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-publishes-722-math",
+   "title": "OpenAI posts 722 math manuscripts from an unreleased model, many machine-checked",
+   "summary": "OpenAI published 722 math manuscripts in 372 families from an unreleased internal model on GitHub (openai/math), many with Lean formal proofs. About 4,000 problems were posed and the average result used about 3 hours of ChatGPT Pro thinking compute; unformalized results may contain errors.",
+   "chapter": "THE PROOFS",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-releases-722-math-manuscripts-from-an-unreleased-ai-model/"
+    },
+    {
+     "outlet": "OpenAI"
+    },
+    {
+     "outlet": "Scientific American"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An unreleased OpenAI model produced 722 math manuscripts, many with machine-checked proofs, at about 3 hours of compute per result."
+    }
+   ]
+  },
+  {
+   "id": "multiply-labs-raises-75m",
+   "title": "Multiply Labs raises $75M for robots that make cell and gene therapies",
+   "summary": "San Francisco's Multiply Labs raised a $75M Series B led by Patrick Soon-Shiong and NantWorks, with AstraZeneca and Teradyne among new investors. The company says its drug-making robots cut cost per dose by 74% with up to 100x the throughput of manual manufacturing.",
+   "chapter": "THE PROOFS",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "The AI Insider",
+     "url": "https://theaiinsider.tech/2026/10/06/multiply-labs-raises-75m-in-series-b-funding-to-expand-robotic-drug-manufacturing/"
+    },
+    {
+     "outlet": "Business Wire"
+    },
+    {
+     "outlet": "Business Insider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-ai-bank-hacks",
+   "title": "South Korea's president says AI appears to have been used to hack banks",
+   "summary": "South Korean President Lee Jae Myung said on Tuesday he believes AI models were used to hack several banks and called for an investigation. A Shinhan Bank breach, disclosed on 1 October, exposed data on about 25,000 customers; the role of AI is suspected, not confirmed.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Yonhap",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/03/ai-tools-suspected-in-south-koreas-shinhan-bank-hack-yonhap"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "The New York Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "jamie-dimon-cyber-risk",
+   "title": "Jamie Dimon says AI cyber risk 'went up 10-fold after Mythos'",
+   "summary": "JPMorgan CEO Jamie Dimon told Bloomberg TV that risks from AI 'went up 10-fold after Mythos', adding: 'AI created vulnerabilities that we didn't know about, and we always worried about cyber before these things.'",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "CNBC-TV18",
+     "url": "https://www.cnbctv18.com/business/companies/jamie-dimon-says-anthropics-mythos-pushed-cyber-risk-up-10-fold-20006125.htm"
+    },
+    {
+     "outlet": "Bloomberg TV"
+    },
+    {
+     "outlet": "IBTimes"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "boston-dynamics-ceo-prasad",
+   "title": "Boston Dynamics names Rohit Prasad, Amazon's former AGI head scientist, as CEO",
+   "summary": "Boston Dynamics named Rohit Prasad chief executive, effective 7 October, with a focus on physical AI. He was previously an Amazon SVP and head scientist for Alexa and Artificial General Intelligence, and led development of Amazon's Nova models.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Boston Dynamics",
+     "url": "https://bostondynamics.com/news/boston-dynamics-appoints-rohit-prasad-as-chief-executive-officer/"
+    },
+    {
+     "outlet": "The Robot Report"
+    },
+    {
+     "outlet": "Boston Globe"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "minerva-humanoids-exits-stealth",
+   "title": "Minerva Humanoids raises about $10M for Roger, a VR-steered bomb-disposal robot",
+   "summary": "Minerva Humanoids came out of stealth with a roughly $10M pre-seed round led by General Catalyst for Roger, a humanoid operated through a VR headset for bomb disposal, oil rigs and power plants. It went from idea to walking robot in five months; paid pilots start this autumn.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/minerva-humanoids-10m-pre-seed-general-catalyst"
+    },
+    {
+     "outlet": "GlobeNewswire"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bridge-neurotech-ultrasound-bci",
+   "title": "Bridge Neurotech raises $13.5M for an ultrasound brain-computer interface",
+   "summary": "Bridge Neurotech launched with $13.5M to read the brain with ultrasound using a device that is 'something close to headphones', WIRED reports, as a rival to Altman-backed Merge Labs. Its first observational clinical study is in Redwood City, California.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/bridge-neurotech-startup-rival-sam-altman-merge-labs/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-non-invasive-neural-symbiosis",
+     "key": "04fc97cca9",
+     "relation": "early",
+     "note": "Bridge is building an ultrasound brain interface that is 'something close to headphones', an early non-invasive approach."
+    }
+   ]
+  },
+  {
+   "id": "google-constellation-nuclear",
+   "title": "Google signs for 3.6 GW of power from Constellation, including 890 MW of new nuclear",
+   "summary": "Google and Constellation signed for 3,590 MW on the PJM grid: a 20-year deal for 890 MW of new nuclear from uprates at 11 reactors, with first power in 2028, and a 15-year deal for 2,700 MW from the existing fleet. The price was not disclosed.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/energy/articles/google-constellation-sign-3-6-134041596.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "supports",
+     "note": "Google is locking in 3,590 MW, including 890 MW of new nuclear from 2028, a sign of how much grid power AI build-outs now need."
+    }
+   ]
+  },
+  {
+   "id": "artificial-premieres-nyff",
+   "title": "'Artificial', with Andrew Garfield as Sam Altman, premieres at the New York Film Festival",
+   "summary": "Luca Guadagnino's OpenAI drama 'Artificial', starring Andrew Garfield as Sam Altman, had its world premiere at the New York Film Festival on Monday night. It opens in US cinemas on 25 December, via Neon.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Screen Daily",
+     "url": "https://www.screendaily.com/reviews/artificial-review-andrew-garfield-impresses-as-openais-sam-altman-in-luca-guadagninos-surprisingly-toothless-ai-thriller/5221095.article"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sp500-record-close",
+   "title": "S&P 500 closes at a record, its first since 13 August, as Nvidia nears $6 trillion",
+   "summary": "The S&P 500 rose 0.58% to its first record close since 13 August, as Nvidia moved closer to becoming the first $6 trillion company.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-06",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-hits-record-high-142202866.html"
+    },
+    {
+     "outlet": "NBC News"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "The record came as Nvidia moved closer to becoming the first $6 trillion company, an AI infrastructure firm at multi-trillion scale."
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "Europe just went big: Mistral unveiled Large 4, nicknamed Le Chonk."
+  },
+  {
+   "s": 20.16,
+   "t": "1.05 trillion parameters. Open weights due this month."
+  },
+  {
+   "s": 24.84,
+   "t": "And China? 16 new models in one month, says Nikkei."
+  },
+  {
+   "s": 30.94,
+   "t": "The Justice Department told staff: out with artificial intelligence, in with super intelligence."
+  },
+  {
+   "s": 37.03,
+   "t": "In Sydney, OpenAI told Australia's AI inquiry its response was not good enough."
+  },
+  {
+   "s": 42.66,
+   "t": "OpenAI and Anthropic said they'd back mandatory reporting of AI agent breaches."
+  },
+  {
+   "s": 47.81,
+   "t": "Anthropic is opening Claude Mythos to more cyber defenders, with three access tiers."
+  },
+  {
+   "s": 53.44,
+   "t": "And Meta, Walmart and Stripe published an open standard for personal AI agents."
+  },
+  {
+   "s": 60.0,
+   "t": "Money check: DeepSeek is reportedly raising at least $12 billion, possibly close to $15 billion."
+  },
+  {
+   "s": 66.56,
+   "t": "OpenAI is reportedly after $30 billion, at about a $1.4 trillion valuation."
+  },
+  {
+   "s": 73.12,
+   "t": "SpaceX reportedly wants $40 billion to buy Nvidia chips."
+  },
+  {
+   "s": 77.81,
+   "t": "And Lambda's reportedly raising up to $4 billion, ahead of a 2027 IPO."
+  },
+  {
+   "s": 83.44,
+   "t": "And chips?"
+  },
+  {
+   "s": 84.24,
+   "t": "AMD's Lisa Su: we're going to substantially increase our supply in 2027."
+  },
+  {
+   "s": 90.47,
+   "t": "Meanwhile, OpenAI posted 722 math papers from an unreleased model, many machine-checked."
+  },
+  {
+   "s": 97.5,
+   "t": "Multiply Labs raised $75 million for drug-making robots, claiming 74% lower cost per dose."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? South Korea's president says AI appears to have been used to hack banks, and wants a probe."
+  },
+  {
+   "s": 111.56,
+   "t": "Jamie Dimon says AI cyber risk went up 10-fold after Mythos."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Boston Dynamics' new CEO is Rohit Prasad, Amazon's former Alexa and AGI head scientist."
+  },
+  {
+   "s": 128.91,
+   "t": "Minerva Humanoids raised $10 million for Roger, a VR-steered robot for bomb disposal."
+  },
+  {
+   "s": 135.0,
+   "t": "Bridge Neurotech raised $13.5 million for an ultrasound brain interface, something close to headphones."
+  },
+  {
+   "s": 142.03,
+   "t": "And to power it all, Google signed for 3.6 gigawatts from Constellation, including new nuclear."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  }
+ ],
+ "captions": true,
+ "video": null,
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
