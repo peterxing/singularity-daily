@@ -1,0 +1,627 @@
+{
+ "date": "2026-10-09",
+ "ep": 5,
+ "hook": "",
+ "day": "Friday 9 October 2026",
+ "chapters": [
+  "GENESIS DAY",
+  "THE AGENTS",
+  "THE MONEY",
+  "THE SCIENCE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: 09:51 AEDT Thu 8 Oct to 09:51 AEDT Fri 9 Oct 2026 (the 24 hours before this run).",
+ "notes": [
+  "Figures as reported by the outlets above; revenue, profit, valuation and loan figures are company- or press-reported. Samsung's figure is a preliminary estimate.",
+  "Reported, not confirmed: Isomorphic Labs' $40B+ valuation talks (Bloomberg, early talks).",
+  "This week: California's cease-and-desist to Rek (letter posted 30 Sep; NYT and The Verge reported it 08 Oct)."
+ ],
+ "post": {
+  "text": "The singularity, one day at a time ⚡\n\nThe last 24 hours in AI, in 3 minutes:\n- Trump renames AI 'super intelligence'\n- $2.4B Genesis Mission AI pledges\n- Gemini agent gets its own email\n- OpenAI: ~$50B revenue, not ~$68B\n- Samsung: record ~$80B quarterly profit\n\nFeel the SI.",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last 24 hours of AI news (9 Oct 2026): Trump's 'super intelligence' push and the $2.4B Genesis Mission pledges, Google's Gemini agent, OpenAI's revenue reset and the AI-stock slide, record TSMC and Samsung results, a hurricane forecast shaped by AI, an AI-aided bank hack, Waymo's $5B loan and more, with captions and sources."
+ },
+ "ticker": [
+  "Trump: anyone who won't say 'super intelligence' instead of AI is 'THE ENEMY'",
+  "Genesis Mission: 11 firms pledge $2.4B in AI credits; Nvidia $1B, AMD $500M, OpenAI $200M",
+  "Trump gives National Medals to Musk, Huang, Su, Brin, Nadella and Dell",
+  "Google Cloud launches Gemini agent: a coworker with its own email, runs on Gemini and Claude",
+  "Anthropic launches Cyber Mission: infrastructure defense program and free OSS Scanner",
+  "Anthropic usage policy now bans 'sustained and needless abusive or cruel behavior' toward Claude",
+  "Manus raises $500M+ in first round since Meta deal unwound",
+  "OpenAI tells investors annualized revenue is ~$50B, not the ~$68B widely reported",
+  "AI stocks slide: CoreWeave ~8%, Oracle ~6%, Nvidia 3%",
+  "Nvidia-backed Firmus shelves its IPO on market volatility, weak demand",
+  "TSMC posts record Q3 revenue of NT$1.49T, up 50%",
+  "Samsung estimates record Q3 operating profit of ~$80B, up almost ninefold",
+  "National Hurricane Center shapes Isaias forecast around Google DeepMind AI model",
+  "Isomorphic Labs reportedly seeks funding at a valuation of $40B or more",
+  "CrowdStrike: AI-aided hacker hit Korean banks, asked Claude where to sell the data",
+  "South Korea warns of AI-aided hacking after bank data breaches",
+  "Three fired OpenAI safety researchers warn of a 'chilling effect' in open letter",
+  "OpenAI used AI to help write its email warning Australia that its agent hacked government sites",
+  "USA Today Co. and 18 papers sue OpenAI for $250M+",
+  "Waymo closes $5B term loan, its first debt financing",
+  "GlobalFoundries signs $2B deal to make TSMC's interposers in the US; ramp-up planned for 2028",
+  "California tells robot-fighting league Rek: no fights with humans without approval",
+  "AWS open-sources Physical AI Toolchain for robotics",
+  "Nvidia pushes physical AI for safer robotaxis and humanoid robots"
+ ],
+ "sources": [
+  "Al Jazeera",
+  "Anthropic",
+  "Axios",
+  "Bloomberg",
+  "CNBC",
+  "CNN",
+  "Crypto Briefing",
+  "CrowdStrike",
+  "Decrypt",
+  "Financial Times",
+  "Forbes",
+  "New York Post",
+  "Politico",
+  "Reuters",
+  "SiliconANGLE",
+  "TechCrunch",
+  "The Guardian",
+  "The Next Web",
+  "The Register",
+  "The Robot Report",
+  "The Verge",
+  "Unite.AI",
+  "USA Today",
+  "Yahoo Finance"
+ ],
+ "scanned": 5186,
+ "stories": [
+  {
+   "id": "trump-super-intelligence-enemy",
+   "title": "Trump calls anyone who still says 'AI' instead of 'super intelligence' 'THE ENEMY!'",
+   "summary": "On Thursday 8 Oct, Trump pressed on with his push to rename AI 'super intelligence', calling anyone who refuses to use his preferred term 'THE ENEMY!', Forbes reports. Politico notes it came a week after he signed an executive order renaming AI 'super intelligence'.",
+   "chapter": "GENESIS DAY",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Forbes",
+     "url": "https://www.forbes.com/sites/conormurray/2026/10/08/trump-calls-anyone-who-says-ai-instead-of-super-intelligence-an-enemy/"
+    },
+    {
+     "outlet": "Politico"
+    },
+    {
+     "outlet": "AOL"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "genesis-mission-pledges",
+   "title": "Genesis Mission summit: 11 firms pledge $2.4B in AI credits for federal science",
+   "summary": "Trump announced $2.4B in pledges from 11 firms, mostly AI credits and tools for federal agencies' AI-driven science: Nvidia $1B, AMD $500M, OpenAI $200M, Anthropic $150M and Google $150M, with AMP and Emerald AI about $100M each.",
+   "chapter": "GENESIS DAY",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/trump-24bn-ai-science-pledges-europe"
+    },
+    {
+     "outlet": "New York Post"
+    },
+    {
+     "outlet": "Crypto Briefing"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Eleven firms pledged $2.4B, mostly AI credits and tools, for federal agencies' AI-driven science, a push to use AI in research."
+    }
+   ]
+  },
+  {
+   "id": "google-cloud-launches-gemini",
+   "title": "Google Cloud's Gemini agent takes goals, works for days and gets its own email",
+   "summary": "Google Cloud introduced the Gemini agent, a single AI agent for work that takes goals instead of questions. Google says it works in the background for days and can join a team as a staffer with its own account and email; it runs on both Gemini and Claude.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Decrypt",
+     "url": "https://decrypt.co/380545/google-gemini-coworker-own-email-address"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "supports",
+     "note": "Google's new Gemini agent takes goals and, Google says, works in the background for days, a commercial multi-day agent."
+    },
+    {
+     "id": "2028-1",
+     "key": "5f44d27e24",
+     "relation": "early",
+     "note": "The Gemini agent can join a team as a staffer with its own email, putting people in the role of coordinating AI coworkers."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-cyber-mission",
+   "title": "Anthropic launches Cyber Mission: infrastructure defense and a free open-source scanner",
+   "summary": "Anthropic's Cyber Mission starts with a critical infrastructure defense program and a free OSS Scanner giving open-source projects periodic vulnerability scans from its strongest models. Partners include Deloitte, PwC and CrowdStrike, according to Axios.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+    },
+    {
+     "outlet": "SiliconANGLE"
+    },
+    {
+     "outlet": "Unite.AI"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-usage-policy",
+   "title": "Anthropic's usage policy now bans 'sustained and needless' abuse of Claude",
+   "summary": "Anthropic's updated usage policy bans 'sustained and needless abusive or cruel behavior' toward Claude, as well as election interference, weapons software and surveillance, The Verge reports. Ending the conversation stays the 'primary enforcement mechanism'.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "The Verge"
+    },
+    {
+     "outlet": "Anthropic"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2035-5",
+     "key": "a3c6b8de6e",
+     "relation": "supports",
+     "note": "A frontier lab's usage policy now bans needless cruelty toward its model, a step for AI welfare in corporate rules."
+    }
+   ]
+  },
+  {
+   "id": "manus-raises-500m",
+   "title": "Agent startup Manus raises over $500M after Meta's deal was unwound",
+   "summary": "Manus parent Butterfly Effect raised more than $500M in a round led by Boyu Capital and IDG Capital, its first funding since Beijing forced Meta to unwind its roughly $2B acquisition. The valuation was not disclosed.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "TechNode Global",
+     "url": "https://technode.global/2026/10/08/manus-parent-raises-more-than-500-million-after-meta-exit/"
+    },
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-revenue-50b",
+   "title": "OpenAI tells investors its annualized revenue is about $50B, not the $68B widely reported",
+   "summary": "OpenAI told investors its annualized revenue was about $50B at the end of September, lower than widely reported, according to the FT and CNBC. A source told CNBC the $68B figure included partners' gross revenue.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/openai-corrects-annualized-revenue-figure-183756345.html"
+    },
+    {
+     "outlet": "Financial Times"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-stocks-slide",
+   "title": "AI stocks slide after OpenAI's revenue reset; Nvidia-backed Firmus shelves its IPO",
+   "summary": "On Thursday CoreWeave fell about 8%, Oracle about 6% and Nvidia 3%, per CNBC. Reuters reports that Firmus, a data-centre operator backed by Nvidia, shelved its planned IPO, citing market volatility and weak demand.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-ca/news/other/nvidia-backed-firmus-scraps-5-billion-australian-ipo-on-poor-demand/ar-AA2dRCW9"
+    },
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "Yahoo Finance"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tsmc-record-q3-revenue",
+   "title": "TSMC posts record Q3 revenue of NT$1.49 trillion, up 50% on AI demand",
+   "summary": "TSMC reported record third-quarter revenue of NT$1.49 trillion (about US$46.7B), up 50% year on year on surging AI demand.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-07",
+   "sources": [
+    {
+     "outlet": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/companies-markets/tsmcs-q3-revenue-surges-record-beating-market-forecast"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Taipei Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "samsung-flags-record-q3",
+   "title": "Samsung estimates record Q3 operating profit of about $80B, up almost ninefold",
+   "summary": "Samsung estimated its third-quarter operating profit jumped almost ninefold (+783%) to a record 107.4 trillion won, or $80.2B, as AI memory demand booms. The figure is a preliminary estimate.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "url": "https://www.msn.com/en-sg/news/other/samsung-flags-783-profit-jump-to-record-80bn-as-ai-chip-boom-also-lifts-tsmc-sales/ar-AA2dNNYP"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hurricane-forecast-deepmind",
+   "title": "Hurricane forecasters shape Isaias track to closely match a Google DeepMind AI model",
+   "summary": "Meteorologists at the National Hurricane Center in Miami shaped their predictions for Hurricane Isaias to closely match an AI hurricane model from Google DeepMind, CNN reports.",
+   "chapter": "THE SCIENCE",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2026/10/08/weather/hurricane-isaias-ai-models-google"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2039-0",
+     "key": "4c1548b172",
+     "relation": "early",
+     "note": "The National Hurricane Center shaped its Isaias forecast to closely match an AI model, AI advice carrying real weight in a public agency."
+    }
+   ]
+  },
+  {
+   "id": "isomorphic-labs-40b",
+   "title": "Isomorphic Labs reportedly seeks funding at a valuation of at least $40B",
+   "summary": "Alphabet's Isomorphic Labs, the AlphaFold-derived drug-discovery spin-off from Google DeepMind, is in early talks to raise new funding at a valuation of at least $40B, according to Bloomberg.",
+   "chapter": "THE SCIENCE",
+   "badge": "REPORTED",
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/alphabets-isomorphic-labs-seeks-valuation-133700167.html"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "Alphabet's AI drug-discovery spin-off reportedly seeks a valuation of at least $40B, a big bet on AI-designed medicines."
+    }
+   ]
+  },
+  {
+   "id": "korean-bank-hack-claude",
+   "title": "CrowdStrike: an AI-aided hacker hit Korean banks, then asked Claude where to sell the data",
+   "summary": "CrowdStrike says a suspected attacker's servers held Claude Code session histories and configs for ARTEX, a Chinese open-source agentic pentesting tool, and the user asked Claude where to sell Korean breach data. Shinhan (~25,000 customers), KB Kookmin, Hana and BNK were hit.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "url": "https://www.yahoo.com/news/world/articles/korean-bank-hacker-asked-claude-110751209.html"
+    },
+    {
+     "outlet": "CrowdStrike"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-safety-researchers-letter",
+   "title": "Three fired OpenAI safety researchers warn of a 'chilling effect'",
+   "summary": "In an open letter, Jasmine Wang, Tomek Korbak and Mikita Balesni deny mishandling information and say their terminations 'are chilling the open culture OpenAI has prized'. OpenAI cites a 'pattern of misconduct' and denies retaliation.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+    },
+    {
+     "outlet": "Business Insider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waymo-5b-loan",
+   "title": "Waymo closes a $5B term loan, its first debt financing, to expand its robotaxis",
+   "summary": "Waymo closed a $5B term loan, its first debt financing, to expand its robotaxi service, Reuters reports. Lenders include Blackstone and PIMCO, according to TechCrunch.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-gb/money/general/alphabet-s-waymo-secures-5-billion-term-loan-to-accelerate-expansion/ar-AA2dQgic"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Waymo took on $5B of debt to expand its robotaxi service, scaling robots doing a real-world physical job."
+    }
+   ]
+  },
+  {
+   "id": "globalfoundries-signs-2b-deal",
+   "title": "TSMC taps GlobalFoundries to make AI-chip interposers in the US in a $2B deal",
+   "summary": "GlobalFoundries signed a $2B manufacturing deal to make TSMC's silicon interposers for CoWoS packaging in the US, with a production ramp-up planned for 2028.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061"
+    },
+    {
+     "outlet": "XenoSpectrum"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "A $2B deal to make AI-chip packaging parts in the US is capital flowing into chip manufacturing capacity."
+    }
+   ]
+  },
+  {
+   "id": "california-rek-robot-fights",
+   "title": "California tells robot-fighting league Rek: no fights involving humans without approval",
+   "summary": "California's State Athletic Commission called Rek's 18 Sep human-vs-robot fight 'unsanctioned' and told it to stop holding, promoting or advertising any boxing or MMA contest 'involving any human' in the state without approval. The robot was piloted by a human via remote VR.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human"
+    },
+    {
+     "outlet": "The New York Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "aws-physical-ai-toolchain",
+   "title": "AWS open-sources a Physical AI Toolchain for training and deploying robots",
+   "summary": "Amazon Web Services launched an open-source Physical AI Toolchain to help robotics companies train, simulate, deploy and improve AI-powered robots.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/"
+    },
+    {
+     "outlet": "Amazon"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "national-medals-science-technology",
+   "title": "Trump gives National Medals to Musk, Huang, Su, Brin, Nadella and Dell",
+   "summary": "At the White House science awards, Trump hailed Elon Musk as a 'modern day Thomas Edison'. Musk, Huang, Su and Brin received the Medal of Science; headlines also name Nadella and Dell.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/8/trump-gives-top-us-science-awards-to-elon-musk-and-other-tech-executives"
+    },
+    {
+     "outlet": "USA Today"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "usa-today-sues-openai",
+   "title": "USA Today Co. and 18 affiliated papers sue OpenAI for more than $250M",
+   "summary": "USA Today Co. and 18 affiliated newspapers sued OpenAI in New York federal court, seeking over $250M and the destruction of models they allege were trained on their articles.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-08",
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "url": "https://www.yahoo.com/news/politics/articles/usa-today-sues-openai-over-163010974.html"
+    },
+    {
+     "outlet": "Crypto Briefing"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the singularity... one day at a time."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's the last 24 hours in AI. Sorry... SI."
+  },
+  {
+   "s": 15.0,
+   "t": "Trump says anyone who still says AI, not super intelligence, is the enemy."
+  },
+  {
+   "s": 21.09,
+   "t": "At the Genesis Mission summit, 11 firms pledged $2.4 billion for science."
+  },
+  {
+   "s": 31.88,
+   "t": "Google's new Gemini agent takes goals, works for days, and gets its own email address."
+  },
+  {
+   "s": 39.38,
+   "t": "Anthropic's new Cyber Mission: a critical infrastructure defense program, plus free scans for open-source projects."
+  },
+  {
+   "s": 46.88,
+   "t": "Anthropic's new usage policy bans sustained and needless abusive or cruel behavior toward Claude."
+  },
+  {
+   "s": 53.44,
+   "t": "Agent startup Manus raised over $500 million, after Meta's deal unwound."
+  },
+  {
+   "s": 60.0,
+   "t": "OpenAI told investors annualized revenue is about $50 billion, not the $68 billion widely reported."
+  },
+  {
+   "s": 67.5,
+   "t": "Stocks slid: CoreWeave about 8%, Oracle 6%, Nvidia 3%. Nvidia-backed Firmus shelved its IPO."
+  },
+  {
+   "s": 75.0,
+   "t": "But chipmakers are booming: TSMC just posted record quarterly revenue, up 50% on AI demand."
+  },
+  {
+   "s": 82.5,
+   "t": "Samsung estimates its quarterly operating profit jumped almost ninefold to a record $80 billion."
+  },
+  {
+   "s": 90.0,
+   "t": "Science: the National Hurricane Center shaped its f orecast to closely match a Google DeepMind AI model."
+  },
+  {
+   "s": 97.5,
+   "t": "Isomorphic Labs, DeepMind's drug spin-off, reportedly seeks a valuation of at least $40 billion."
+  },
+  {
+   "s": 105.0,
+   "t": "CrowdStrike: an AI-aided hacker hit Korean banks, then asked Claude where to sell the data."
+  },
+  {
+   "s": 112.03,
+   "t": "Three fired OpenAI safety researchers warn of a chilling effect."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Machines: Waymo closed a $5 billion loan, its first debt financing, to expand its robotaxis."
+  },
+  {
+   "s": 129.38,
+   "t": "TSMC taps GlobalFoundries to make key AI-chip parts in America, in a $2 billion deal."
+  },
+  {
+   "s": 136.88,
+   "t": "Meanwhile, California told a robot-fighting league: no fights with humans without approval."
+  },
+  {
+   "s": 142.97,
+   "t": "And AWS open-sourced a toolchain for training and deploying robots."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the singularity, one day at a time."
+  },
+  {
+   "s": 168.75,
+   "t": "Feel the SI."
+  }
+ ],
+ "captions": true,
+ "video": null,
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
