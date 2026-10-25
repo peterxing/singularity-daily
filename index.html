@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Singularity Daily · the last 24 hours in AI, every day</title>
+<meta name="description" content="A 3-minute show on the last 24 hours in AI, published every morning, with every story checked against the forecasts in The Hitchhiker's Guide to the Singularity.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://peterxing.github.io; media-src 'self' https://peterxing.github.io https://github.com https://release-assets.githubusercontent.com https://objects.githubusercontent.com; connect-src 'self'; font-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+<meta name="theme-color" content="#0b0b0c">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://peterxing.com/daily">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Singularity Daily">
+<meta property="og:title" content="The Singularity Daily">
+<meta property="og:description" content="The last 24 hours in AI in three minutes, every day, with every story mapped to the forecasts in The Hitchhiker's Guide to the Singularity.">
+<meta property="og:url" content="https://peterxing.com/daily">
+<meta property="og:image" content="https://peterxing.github.io/singularity-daily/daily/media/latest-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="The Singularity Daily" href="daily/feed.xml">
+<link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="daily/app.css">
+<script src="daily/route.js"></script>
+<script src="daily/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to today's episode</a>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/" aria-label="The Singularity Daily, today's episode"><span class="brand-the">The</span> Singularity Daily<span class="brand-dot" aria-hidden="true"></span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#/">Today</a>
+      <a href="#/stories">Stories</a>
+      <a href="#/forecasts">Predictions vs reality</a>
+      <a href="#/episodes">Episodes</a>
+      <a class="nav-guide" data-guide href="https://peterxing.com/guide">The Guide <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+
+<aside id="promo" class="promo" hidden></aside>
+
+<main id="main" tabindex="-1">
+  <section id="today" class="hero wrap" aria-labelledby="epHook">
+    <div class="player" id="player">
+      <video id="video" controls playsinline preload="metadata" aria-describedby="epHook"></video>
+      <div class="player-note" id="playerNote" hidden></div>
+    </div>
+    <div class="ep">
+      <p class="mono ep-kicker" id="epKicker">Loading today's episode…</p>
+      <h1 class="hook" id="epHook">The Singularity Daily</h1>
+      <ul class="tldr" id="epTldr"></ul>
+      <p class="ep-stats mono" id="epStats"></p>
+      <div class="ep-touch" id="epTouch" hidden></div>
+      <div class="actions">
+        <button type="button" class="btn btn-primary" id="btnPlay">▶ Play</button>
+        <button type="button" class="btn" id="btnTranscript" aria-expanded="false" aria-controls="transcript">Transcript</button>
+        <button type="button" class="btn" id="btnShare">Share</button>
+        <a class="btn" id="btnDownload" href="#" hidden>Download</a>
+      </div>
+      <p class="mono ep-window" id="epWindow"></p>
+    </div>
+  </section>
+
+  <section id="transcript" class="wrap transcript" hidden aria-label="Transcript">
+    <ol id="transcriptList"></ol>
+  </section>
+
+  <section id="stories" class="wrap section" aria-labelledby="storiesTitle">
+    <div class="section-head">
+      <h2 id="storiesTitle">The stories</h2>
+      <p class="section-sub" id="storiesSub">Every story in the episode, with its source and the forecasts it touches.</p>
+    </div>
+    <div id="storyList" class="stories"></div>
+    <details class="more" id="more" hidden>
+      <summary>More headlines from the day</summary>
+      <ul id="ticker" class="ticker"></ul>
+    </details>
+    <ul class="notes" id="epNotes"></ul>
+  </section>
+
+  <section id="forecasts" class="wrap section" aria-labelledby="forecastsTitle">
+    <div class="section-head">
+      <p class="mono eyebrow">The Hitchhiker's Guide to the Singularity</p>
+      <h2 id="forecastsTitle">Predictions vs reality</h2>
+      <p class="section-sub" id="forecastIntro">The Guide makes dated forecasts from 2026 to 2040, plus a handful of undated ones beyond superintelligence. Every day, each story in the show is checked against them: does the news support a forecast, show an early sign of it, or cut against it? This is the running tally.</p>
+    </div>
+    <div class="scoreboard" id="scoreboard"></div>
+    <div class="moving" id="moving"></div>
+    <div class="controls" role="group" aria-label="Filter forecasts">
+      <label class="field"><span>Search</span><input type="search" id="fq" placeholder="robots, chips, jobs…" autocomplete="off"></label>
+      <label class="field"><span>Domain</span><select id="fd"><option value="all">All domains</option></select></label>
+      <label class="field"><span>Signal</span><select id="fr">
+        <option value="all">Any signal</option>
+        <option value="supports">Supports</option>
+        <option value="early">Early sign</option>
+        <option value="challenges">Challenges</option>
+      </select></label>
+      <label class="field"><span>Sort</span><select id="fs">
+        <option value="latest">Latest news first</option>
+        <option value="most">Most news first</option>
+        <option value="when">Forecast date</option>
+      </select></label>
+      <label class="check"><input type="checkbox" id="fquiet"> Show forecasts with no news yet</label>
+    </div>
+    <p class="mono count" id="forecastCount" aria-live="polite"></p>
+    <ol class="forecasts" id="forecastList"></ol>
+    <p class="fineprint">This tracks the news, not the odds. The probabilities are the Guide's own and change only when Peter revises them. A link means the show judged the story to be concrete evidence about that forecast; it is not an independent assessment.</p>
+  </section>
+
+  <section id="episodes" class="wrap section" aria-labelledby="episodesTitle">
+    <div class="section-head">
+      <h2 id="episodesTitle">Every episode</h2>
+      <p class="section-sub">A new one lands every morning, Sydney time. This page checks for it while you're here.</p>
+    </div>
+    <ol class="episodes" id="episodeGrid"></ol>
+  </section>
+
+  <section id="about" class="wrap section about" aria-labelledby="aboutTitle">
+    <h2 id="aboutTitle">About the show</h2>
+    <div class="about-grid">
+      <div>
+        <p><strong>The Singularity Daily</strong> is a 3-minute, upbeat catch-up on the last 24 hours in AI, framed as the singularity arriving one day at a time. It's made every morning by an AI production pipeline Peter Xing built: it scans thousands of headlines, checks each story against a primary source or a major outlet, writes and voices the script, composes a new soundtrack and renders the video, then publishes it here with every source.</p>
+        <p>Your host is <strong>Claudia</strong>, an open character by <a href="https://claudia.gallery" rel="noopener">anabology</a>. Article screenshots shown in the videos belong to their publishers.</p>
+      </div>
+      <div>
+        <p>The forecasts come from <a data-guide href="https://peterxing.com/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? Read the Guide, explore the <a data-guide-path="/ai-timeline" href="https://peterxing.com/ai-timeline">AI 2027 vs AI 2040 timeline</a>, or play <a data-guide-path="/game" href="https://peterxing.com/game">the campaign</a>.</p>
+        <p>Follow along: <a href="daily/feed.xml">RSS feed</a> · <a id="repoLink" href="https://github.com/peterxing/singularity-daily" rel="noopener">source on GitHub</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot wrap">
+  <p>© 2026 Peter Xing · Hosted by Claudia (claudia.gallery) · News belongs to the publishers linked on each story.</p>
+  <p class="mono" id="footUpdated"></p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p class="wrap noscript">The Singularity Daily needs JavaScript to load each day's episode. You can still <a href="https://github.com/peterxing/singularity-daily/releases">watch every episode on GitHub</a> or read <a href="https://peterxing.com/guide">the Guide</a>.</p></noscript>
+</body>
+</html>

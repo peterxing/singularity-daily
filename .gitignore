@@ -1,0 +1,6 @@
+_site/
+__pycache__/
+*.part
+*.tmp
+.DS_Store
+Thumbs.db
