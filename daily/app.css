@@ -78,6 +78,13 @@ a:hover { color: var(--orange); }
 .player.no-video { display: grid; }
 .player.no-video video { display: none; }
 .player .poster-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.45; }
+/* Safari before 15 has no aspect-ratio: without this the player would collapse to zero height. */
+@supports not (aspect-ratio: 16 / 9) {
+  .player { height: 0; padding-top: 56.25%; }
+  .player video, .player .player-note, .player .poster-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  .epcard .th { height: 0; padding-top: 56.25%; }
+  .epcard .th img { position: absolute; top: 0; left: 0; }
+}
 
 .ep-kicker { margin: 4px 0 10px; color: var(--orange); font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; }
 .hook { font: 400 clamp(44px, 6.4vw, 92px)/0.92 var(--display); text-transform: uppercase; letter-spacing: 0.005em; margin: 0 0 18px; text-wrap: balance; overflow-wrap: anywhere; }

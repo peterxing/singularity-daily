@@ -146,18 +146,25 @@
     player.classList.remove('no-video');
     play.disabled = false;
     if (cover) v.poster = cover; else v.removeAttribute('poster');
-    const src = h('source', { src: vid.pages ? MEDIA + vid.file : vid.release, type: 'video/mp4' });
-    src.addEventListener('error', () => {
-      note.hidden = false;
-      note.replaceChildren(h('p', { text: vid.pages ? 'The video couldn\u2019t load. Try again, or download it.' : 'This archived episode streams from GitHub, which some browsers (like Safari on iPhone) can\u2019t play inline.' }),
-        h('a', { class: 'btn btn-primary', href: vid.release, text: `Download the episode (${vid.mb} MB)` }));
-    });
-    v.append(src);
-    if (ep.captions) v.append(h('track', { kind: 'captions', srclang: 'en', label: 'English', src: `daily/media/${entry.date}/captions.vtt` }));
+    // A plain src (no <source> children injected by script, no cross-origin <track>) is the most dependable way to
+    // play on iOS Safari. The episode's captions are burned into the picture, and the transcript is below.
+    const url = vid.pages ? MEDIA + vid.file : vid.release;
+    v.src = url;
     v.load();
     dl.hidden = false;
-    dl.href = vid.release;
-    dl.textContent = `Download · ${vid.mb} MB`;
+    dl.href = url;
+    dl.target = '_blank';
+    dl.rel = 'noopener';
+    dl.textContent = vid.pages ? 'Open video \u2197' : `Download \u00b7 ${vid.mb} MB`;
+  }
+
+  function videoFailed() {
+    const v = $('video'), c = state.current;
+    if (!v.getAttribute('src') || !c || !c.entry.video) return; // cleared on purpose, or an episode without video
+    const vid = c.entry.video, note = $('playerNote');
+    note.hidden = false;
+    note.replaceChildren(h('p', { text: vid.pages ? 'The video didn\u2019t play here. Open it directly in your browser\u2019s player.' : 'This archived episode streams from GitHub, which some browsers (like Safari on iPhone) can\u2019t play inline.' }),
+      h('a', { class: 'btn btn-primary', href: vid.pages ? MEDIA + vid.file : vid.release, target: '_blank', rel: 'noopener', text: vid.pages ? 'Open the video \u2197' : `Download the episode (${vid.mb} MB)` }));
   }
 
   function renderTranscript(ep) {
@@ -510,6 +517,7 @@
     });
     $('btnTranscript').addEventListener('click', () => toggleTranscript());
     $('btnShare').addEventListener('click', share);
+    $('video').addEventListener('error', videoFailed);
   }
 
   function showLoadError(e) {
