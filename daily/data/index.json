@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T22:48:09+00:00",
- "latest": "2026-10-26",
+ "updated": "2026-10-27T05:14:26+00:00",
+ "latest": "2026-10-27",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -19,6 +19,34 @@
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
  },
  "episodes": [
+  {
+   "date": "2026-10-27",
+   "ep": 23,
+   "hook": "AI GOES PUBLIC.",
+   "day": "Tuesday 27 October 2026",
+   "stories": 16,
+   "forecasts": 6,
+   "links": {
+    "supports": 0,
+    "early": 7,
+    "challenges": 0
+   },
+   "titles": [
+    "Anthropic files to go public on Nasdaq as ANT, revealing $16.3B of revenue in six months",
+    "Anthropic's filing pitches AI agents as 'a country of geniuses in a datacenter'",
+    "Anthropic's IPO filing lists Claude possibly developing 'forms of sentience' as a risk"
+   ],
+   "cover": "daily/media/2026-10-27/cover.webp",
+   "thumb": "daily/media/2026-10-27/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-10-27/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-27/Singularity-Daily_2026-10-27.mp4",
+    "mb": 70.6,
+    "bytes": 70573856,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-10-26",
    "ep": 22,
@@ -207,7 +235,7 @@
    "cover": "daily/media/2026-10-19/cover.webp",
    "thumb": "daily/media/2026-10-19/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-10-19/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-19/Singularity-Daily_2026-10-19.mp4",
     "mb": 71.5,

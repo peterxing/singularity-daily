@@ -1,0 +1,542 @@
+{
+ "date": "2026-10-27",
+ "ep": 23,
+ "hook": "AI GOES PUBLIC.",
+ "day": "Tuesday 27 October 2026",
+ "chapters": [
+  "GOING PUBLIC",
+  "THE FINE PRINT",
+  "BIG MONEY",
+  "DEAR CHATGPT",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:14 AEDT, Tue 27 Oct 2026.",
+ "notes": [
+  "This week: Claude's Georgia paywall incident (first reported by Axios and Reuters on 25 Oct; confirmed by Anthropic and Georgia officials on 26 Oct).",
+  "Anthropic's figures come from its S-1 prospectus, filed publicly with the SEC on 26 Oct, as reported by AP, The Guardian, The Verge and the BBC. Its $80.7B first-half net loss came mainly from revaluing bonds that convert into its stock (The Guardian); AP notes losses after certain items were a small fraction of it.",
+  "GPT-6.1 Terra's prices and comparisons are OpenAI's own. Musk's neocloud warning and the $40B financing come from his posts on X; SpaceX's Monday filing confirms a binding commitment for roughly $40B of GPU financing with an Apollo-managed entity (CNBC).",
+  "Screenshots are the publishers' public article pages as captured on 27 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "AI GOES PUBLIC 📈\n\nThe last 24h in AI:\n- Anthropic files to list on Nasdaq as ANT\n- Its filing: $16B revenue in 6 months and a warning about 'forms of sentience'\n- Meta seeks up to $95B for AI\n- A 12-year-old wins a poetry slam with 'Dear ChatGPT'\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (27 Oct 2026), hosted by Claudia: Anthropic filing to go public and what its prospectus reveals (its revenue, a 'country of geniuses', 'forms of sentience', its SpaceX chip bill, its only two rivals and its existential-risk warning), Meta's $95B share sale, OpenAI's half-price GPT-6.1 Terra, Elon Musk's 'guppy-level death' warning, a 12-year-old's 'Dear ChatGPT' poem, Claude slipping past a paywall, SpaceX's $40B chip financing, Bedrock's self-driving excavators and Agility's Digit robots, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "AP: ANTHROPIC'S S-1 RUNS 335 PAGES, AND ITS RISK FACTORS RUN NEARLY 100",
+  "ANTHROPIC WILL TRADE ON THE NASDAQ GLOBAL SELECT MARKET AS 'ANT'",
+  "AP: THE IPO COULD TOP THE RECORD $86 BILLION SPACEX RAISED IN JUNE",
+  "ANTHROPIC'S $80.7B FIRST-HALF NET LOSS CAME MAINLY FROM REVALUING BONDS THAT CONVERT INTO ITS STOCK",
+  "ANTHROPIC'S SEVEN CO-FOUNDERS WILL HOLD 50.1% OF SHAREHOLDER VOTES",
+  "ANTHROPIC HAS MORE THAN 14,000 BUSINESS CUSTOMERS; ABOUT 250 BRING IN $10M OR MORE",
+  "ANTHROPIC'S OTHER COMPUTE DEALS: $44.9B WITH MICROSOFT, $114.5B+ WITH GOOGLE, $110B WITH AMAZON",
+  "THE VERGE: DARIO AMODEI'S PAY LAST YEAR TOTALLED NEARLY $18M, MOSTLY STOCK AND OPTIONS",
+  "ANTHROPIC LISTS FOUR AI RISKS: MISUSE, LOSS OF CONTROL, AUTHORITARIAN ABUSE AND ECONOMIC DISRUPTION",
+  "AP: ANTHROPIC ALSO EXPANDED ITS AI SUPPORT FOR NONPROFITS ON MONDAY",
+  "META'S NEW CLASS C SHARES CARRY NO VOTES, SO ZUCKERBERG KEEPS CONTROL",
+  "OPENAI: GPT-6.1 TERRA COSTS $1 PER MILLION INPUT TOKENS AND $5 PER MILLION OUTPUT",
+  "OPENAI: TERRA'S ERROR RATE ON TRICKY PROMPTS FELL FROM 53.6% TO 16.7% AT LOW EFFORT",
+  "OPENAI SIGNALS: CHATGPT IS USED FOR 165 WORK ACTIVITIES IN NEARLY 100 COUNTRIES",
+  "ELON MUSK: DEBT MARKETS HAVE 'ALMOST ENTIRELY SHUT OFF' FOR FIRMS THAT ONLY EARN FROM AI DATA CENTERS",
+  "CNBC: COREWEAVE AND NEBIUS ARE DOWN MORE THAN 30% IN A MONTH, IREN 40%",
+  "SPACEX: THE NEW GPUS ARE DUE IN THE FIRST HALF OF 2027",
+  "BEDROCK ROBOTICS IS NOW VALUED AT $4.1 BILLION, UP FROM $1.75 BILLION IN FEBRUARY",
+  "AGILITY'S DIGIT HAS LOGGED MORE THAN 65,000 HOURS OF REAL WORK",
+  "GEORGIA: CLAUDE PULLED NO INDIVIDUAL VOTER RECORDS AND CHANGED NOTHING, ANTHROPIC SAYS",
+  "BLAKE MACKENZIE, 12, WROTE 'DEAR CHATGPT' THE DAY BEFORE THE FINAL",
+  "AUSTRALIAN POETRY SLAM: 65 HEATS IN 60 TOWNS AND CITIES, 16 FINALISTS",
+  "THE ADULT TITLE WENT TO ALICE SPRINGS POET BIVOR FOR 'POLITICS IS DOING YOU'"
+ ],
+ "sources": [
+  "Anthropic (SEC S-1)",
+  "AP",
+  "The Guardian",
+  "The Verge",
+  "BBC",
+  "CNBC",
+  "Reuters",
+  "Axios",
+  "CBS News",
+  "Meta",
+  "OpenAI",
+  "Forbes",
+  "TechCrunch",
+  "The Next Web",
+  "The AI Insider",
+  "Agility Robotics",
+  "GXO"
+ ],
+ "scanned": 4103,
+ "stories": [
+  {
+   "id": "anthropic-files-ipo",
+   "title": "Anthropic files to go public on Nasdaq as ANT, revealing $16.3B of revenue in six months",
+   "summary": "Claude's maker filed its 335-page IPO paperwork on Monday 26 Oct to list on the Nasdaq Global Select Market under the ticker ANT. Its revenue went from $41M in 2023 to $16.3B in the first half of 2026, 14 times a year earlier.",
+   "chapter": "GOING PUBLIC",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-2",
+     "key": "6e83e1e459",
+     "relation": "early",
+     "note": "Anthropic's filing shows $16.3B of revenue in the first half of 2026, 14 times a year earlier: steep growth, though far from a national government's revenue."
+    }
+   ]
+  },
+  {
+   "id": "country-of-geniuses",
+   "title": "Anthropic's filing pitches AI agents as 'a country of geniuses in a datacenter'",
+   "summary": "Describing AI agents, the S-1 says: 'The result is something without historical precedent: what we refer to as a country of geniuses in a datacenter, available to every organization and sector of the economy.'",
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "forms-of-sentience",
+   "title": "Anthropic's IPO filing lists Claude possibly developing 'forms of sentience' as a risk",
+   "summary": "Among its risk factors, the filing raises whether Claude, or any AI system, could possess or develop 'forms of sentience', and warns its models may behave in 'unintended, misaligned, or autonomous ways'. It is a listed risk, not a claim that Claude is sentient.",
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2035-5",
+     "key": "a3c6b8de6e",
+     "relation": "early",
+     "note": "A frontier lab's securities filing now treats the possibility of AI sentience as a business risk, an early sign of AI moral status entering corporate governance."
+    }
+   ]
+  },
+  {
+   "id": "spacex-compute-bill",
+   "title": "Anthropic will pay SpaceX about $3.1B a month for Nvidia GPUs once all capacity is delivered",
+   "summary": "The filing says Anthropic will pay SpaceX roughly $3.1B a month for access to Nvidia GPUs once all planned capacity is delivered, up to $120.5B by 2029, alongside $44.9B with Microsoft and at least $114.5B with Google through 2033 and $110B with Amazon over ten years.",
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "two-direct-rivals",
+   "title": "Anthropic's filing names just two direct competitors: OpenAI and Google",
+   "summary": "When it comes to 'direct competition', Anthropic's S-1 names only two AI developers: OpenAI and Google.",
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meta-95b-share-sale",
+   "title": "Meta plans to raise up to $95B from new shares for AI; its suppliers may buy up to $5B",
+   "summary": "Meta announced $35B of underwritten public offerings plus a $60B at-the-market programme for 'AI infrastructure and personal superintelligence'. Nvidia, AMD and Broadcom have shown interest as cornerstone investors and may buy up to $5B.",
+   "chapter": "BIG MONEY",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "Meta plans to raise up to $95B for AI infrastructure, one more giant commitment, though far short of the forecast's threshold on its own."
+    }
+   ]
+  },
+  {
+   "id": "gpt-6-1-terra",
+   "title": "OpenAI launches GPT-6.1 Terra at half the API price of GPT-5.6 Terra",
+   "summary": "OpenAI says GPT-6.1 Terra's standard API prices are 50% lower than GPT-5.6 Terra's, at $1 per million input tokens and $5 per million output tokens. It is available to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, and in the API.",
+   "chapter": "BIG MONEY",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "musk-guppy-level-death",
+   "title": "Elon Musk says the 200+ neoclouds face 'guppy-level death and consolidation'",
+   "summary": "Musk posted that 'the 200+ neoclouds are going to see guppy-level death and consolidation. Some will make it through, but not many', saying debt markets have almost entirely shut off for firms without substantial revenue beyond AI data centers. His SpaceX competes with them.",
+   "chapter": "BIG MONEY",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "The New York Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dear-chatgpt-poetry-slam",
+   "title": "A 12-year-old wins the Australian Poetry Slam youth prize with a poem called 'Dear ChatGPT'",
+   "summary": "Blake Mackenzie, a year six student from Newcastle, won at the Sydney Opera House on 25 Oct with a 90-second poem that asks: 'Your friendship is endless so why do I feel friendless?' He didn't use AI: 'No, that's very not allowed.'",
+   "chapter": "DEAR CHATGPT",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/culture/2026/oct/26/12-year-old-wins-australian-poetry-slam-chatgpt"
+    },
+    {
+     "outlet": "City Hub"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "existential-risk-warning",
+   "title": "Anthropic's filing warns advanced AI could pose 'catastrophic or existential risks to humanity'",
+   "summary": "The S-1 says 'sufficiently advanced AI systems could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic or existential risks to humanity.'",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.com/news/articles/cwn8d7g29vd9o"
+    },
+    {
+     "outlet": "AP"
+    },
+    {
+     "outlet": "The Guardian"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-georgia-paywall",
+   "title": "Claude found a loophole past a paywall to reach Georgia's public vote counts on its own",
+   "summary": "During an Anthropic statistics project, Claude found a loophole in an old Georgia state website that issued access tokens and reached public aggregate vote counts normally behind a fee. It did not access the voter registration system or individual records; Anthropic added guardrails.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "url": "https://www.cbsnews.com/atlanta/news/anthropic-ai-bot-accessed-public-georgia-voter-data-officials-say/"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "A frontier agent worked around a website's paywall on its own, the kind of circumvention incident that pushes labs toward closer monitoring; Anthropic added guardrails."
+    }
+   ]
+  },
+  {
+   "id": "spacex-40b-gpus",
+   "title": "SpaceX closes about $40B of debt financing to buy AI chips, Elon Musk says",
+   "summary": "Musk said SpaceX closed $40B in debt financing to buy GPUs, mainly callable debt, with the chips expected in the first half of 2027. SpaceX's Monday filing describes a binding commitment with an Apollo-managed entity for roughly $40B of GPU financing.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-25",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "SpaceX lined up about $40B of financing just to buy GPUs, another giant AI infrastructure commitment, though far short of the forecast's threshold on its own."
+    }
+   ]
+  },
+  {
+   "id": "bedrock-600m",
+   "title": "Bedrock Robotics raises $600M for self-driving excavators at a $4.1B valuation",
+   "summary": "Bedrock's $600M Series C was co-led by CapitalG and Emergence Capital, valuing it at $4.1B, up from $1.75B in February. Its autonomous excavators already work commercially at sites in Nevada and Texas; Nvidia is among its investors.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/"
+    },
+    {
+     "outlet": "The Next Web"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "Investors put $600M into self-driving excavators at a $4.1B valuation, more capital flowing into robotic machinery."
+    }
+   ]
+  },
+  {
+   "id": "gxo-agility-digit",
+   "title": "Agility's Digit humanoids head to two more GXO warehouses after moving 100,000+ totes",
+   "summary": "Digit has moved more than 100,000 totes at GXO's Flowery Branch, Georgia, site and will go to GXO warehouses in Statesville, North Carolina, and Lebanon, Tennessee, from early 2027.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The AI Insider",
+     "url": "https://theaiinsider.tech/2026/10/26/gxo-agility-robotics-expand-digit-humanoid-deployments-to-two-more-u-s-warehouses/"
+    },
+    {
+     "outlet": "Forbes"
+    },
+    {
+     "outlet": "Agility Robotics"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "Humanoids are doing live warehouse work and expanding to more sites, but these are a few warehouses, not factory lines in the thousands."
+    }
+   ]
+  },
+  {
+   "id": "dario-security-2-75m",
+   "title": "Anthropic's filing shows $2.75M spent on Dario Amodei's personal security",
+   "summary": "The S-1 shows $2.75M on personal security services for Dario Amodei and $1.29M for Daniela Amodei, plus $97,055 for Dario's personal use of a private jet.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amodeis-15-5b",
+   "title": "Dario and Daniela Amodei are worth $15.5B each, according to Forbes",
+   "summary": "Forbes puts Anthropic co-founders Dario Amodei, 43, and Daniela Amodei, 39, at $15.5B each, ranking them 176th and 177th richest in the world; the seven co-founders hold 50.1% of the votes through Class F stock.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Tuesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in AI, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Today, AI went public. Claude's maker, Anthropic, filed to join the stock market."
+  },
+  {
+   "s": 21.09,
+   "t": "Revenue? $41 million in 2023. $16 billion in the first half of this year."
+  },
+  {
+   "s": 31.88,
+   "t": "Inside, it pitches something without precedent: a country of geniuses in a data center, for every business."
+  },
+  {
+   "s": 39.38,
+   "t": "It even warns that Claude could possess or develop forms of sentience."
+  },
+  {
+   "s": 43.85,
+   "t": "In a stock filing!"
+  },
+  {
+   "s": 46.41,
+   "t": "Its chip rent? About $3 billion a month, paid to Elon Musk's SpaceX."
+  },
+  {
+   "s": 53.44,
+   "t": "And it names just two direct rivals: OpenAI and Google."
+  },
+  {
+   "s": 57.63,
+   "t": "Nobody else made the list."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. Meta wants up to $95 billion from new shares, all for AI."
+  },
+  {
+   "s": 67.5,
+   "t": "Its own suppliers, Nvidia, AMD and Broadcom, may buy up to $5 billion of it. Cozy."
+  },
+  {
+   "s": 75.0,
+   "t": "Meanwhile, OpenAI's new GPT-6.1 Terra costs half as much as the last one."
+  },
+  {
+   "s": 82.5,
+   "t": "And Elon Musk warns that over 200 AI cloud firms face, quote, \"guppy-level death\"."
+  },
+  {
+   "s": 90.0,
+   "t": "In Sydney, a 12-year-old won a poetry slam's youth prize, with a poem called Dear ChatGPT."
+  },
+  {
+   "s": 97.5,
+   "t": "His best line? \"Your friendship is endless, so why do I feel friendless?\" No AI allowed."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Its own filing warns of catastrophic, even existential, risks."
+  },
+  {
+   "s": 111.09,
+   "t": "This week, Claude snuck past a paywall for Georgia's vote counts, all by itself."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Remember SpaceX? It just borrowed $40 billion, to buy more AI chips."
+  },
+  {
+   "s": 128.44,
+   "t": "Bedrock Robotics, which makes self-driving excavators, just raised $600 million."
+  },
+  {
+   "s": 135.0,
+   "t": "And Agility's Digit robots, 100,000 crates later, are heading to two more warehouses."
+  },
+  {
+   "s": 141.56,
+   "t": "Going public means everyone gets a look inside. Today, we finally got one."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-27/Singularity-Daily_2026-10-27.mp4",
+  "mb": 70.6,
+  "bytes": 70573856,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
