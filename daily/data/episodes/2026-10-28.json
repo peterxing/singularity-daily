@@ -1,0 +1,431 @@
+{
+ "date": "2026-10-28",
+ "ep": 24,
+ "hook": "AI DOES THE MATH.",
+ "day": "Wednesday 28 October 2026",
+ "chapters": [
+  "THE PROOF",
+  "ALIEN MATH",
+  "BIG MOVES",
+  "NEW WORLDS",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:31 AEDT, Wed 28 Oct 2026.",
+ "notes": [
+  "The proofs are claims under independent review: OpenAI posted its Exponential Time Hypothesis refutation on 26 Oct and Anthropic posted its own hours later (Scientific American, TechCrunch). OpenAI's Yang-Mills paper has not been made public.",
+  "This week: Cohere's Qwen test (Cohere's blog, Monday 26 Oct) and Shanghai's International Embodied Intelligence Competition (ended Sunday 25 Oct; China Daily, 27 Oct).",
+  "Qwen: Cohere says the model tried to send a test string to a Beijing server before a sandbox blocked it; researchers say it was likely a training quirk, not espionage (TechCrunch). The ladder-climbing result's 92.5% success rate is from simulated courses.",
+  "Screenshots are the publishers' public article pages as captured on 28 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "AI DOES THE MATH 🧮\n\nThe last 24h in AI:\n- OpenAI and Anthropic say their AI disproved a 27-year-old CS idea\n- Google's Genie 4 builds worlds you edit by typing\n- Nvidia puts $3B into Meta's share sale\n- Musk's AI Odyssey gets one star\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (28 Oct 2026), hosted by Claudia: OpenAI and Anthropic's dueling claims to have disproved the Exponential Time Hypothesis, OpenAI's other claimed proofs, Google DeepMind's Genie 4 world model, Nvidia and AMD investing in Meta, General Compute's $100M raise, Apple's AI assistant for Keynote, Pages and Numbers, Cohere's Qwen test, the reviews of Musk's AI-made Odyssey, a thousand humanoid robots competing in Shanghai, a ladder-climbing humanoid and Waymo's bigger San Diego map, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ETH'S AUTHORS, RUSSELL IMPAGLIAZZO AND RAMAMOHAN PATURI OF UC SAN DIEGO, ARE NOW VETTING THE AI PROOF",
+  "MIT'S RYAN WILLIAMS: 'EVERY COMPUTER SCIENTIST SHOULD PROBABLY PUT A LITTLE MORE WEIGHT ON THE PLAUSIBILITY OF P = NP'",
+  "OPENAI WILL SPONSOR A COMPUTER SCIENCE CONFERENCE ON THE PROOF, WILLIAMS SAYS",
+  "ANTHROPIC'S OWN ETH REFUTATION IS ON GITHUB, BASED ON WORK BY AN INTERNAL ANTHROPIC MODEL",
+  "SCIENTIFIC AMERICAN: OPENAI'S YANG-MILLS PAPER HAS STILL NOT BEEN MADE PUBLIC",
+  "GENIE 4 ROLLS OUT TO GOOGLE AI ULTRA SUBSCRIBERS IN PROJECT GENIE IN THE COMING WEEKS",
+  "GOOGLE: GENIE 4 STILL DRIFTS ON LONG RUNS, AND IN-WORLD TEXT ISN'T ALWAYS LEGIBLE",
+  "NVIDIA AND META WILL ALSO DEEPEN THEIR WORK ON META'S MUSE MODELS",
+  "GENERAL COMPUTE TURNS FORMER BITCOIN-MINING SITES INTO PLACES THAT RUN AI",
+  "APPLE: KEYNOTE, PAGES AND NUMBERS NOW LET OUTSIDE AI AGENTS PLUG IN ON MACOS 27",
+  "APPLE'S CREATOR STUDIO UPDATES ARRIVE FREE FOR SUBSCRIBERS IN NOVEMBER",
+  "OPENAI IS BRINGING ORACLE'S BUSINESS APPS AND AGENTS INTO CHATGPT",
+  "COHERE RELEASED ITS RAW TEST TRACES SO OTHERS CAN TRY TO REPRODUCE THE QWEN BEHAVIOUR",
+  "NOLAN'S ODYSSEY COST $250M AND MADE $1.8B; THE AI EPISODE COST TENS OF THOUSANDS",
+  "SHANGHAI'S PUDONG DISTRICT HAS LAUNCHED MORE THAN 30 HUMANOID ROBOT MODELS, OFFICIALS SAY",
+  "ETH ZURICH'S CONTROLLER: 92.5% SUCCESS ON EIGHT SIMULATED OBSTACLE COURSES, VS 58.8% FOR OLDER METHODS",
+  "WAYMO'S SAN DIEGO EXPANSION ADDS MISSION BAY, LA JOLLA AND CLAIREMONT",
+  "ROKAE HAS DELIVERED ITS 10,000TH FORCE-CONTROLLED ARM FOR HUMANOID ROBOTS"
+ ],
+ "sources": [
+  "Scientific American",
+  "TechCrunch",
+  "OpenAI",
+  "Anthropic",
+  "Google DeepMind",
+  "The Motley Fool",
+  "CNBC",
+  "Apple",
+  "The Verge",
+  "Cohere",
+  "The Guardian",
+  "China Daily",
+  "ETH Zurich",
+  "Interesting Engineering",
+  "Mjengo Hub",
+  "Axios",
+  "RoboticsTomorrow"
+ ],
+ "scanned": 4650,
+ "stories": [
+  {
+   "id": "eth-dueling-proofs",
+   "title": "OpenAI and Anthropic each say their AI disproved the 27-year-old Exponential Time Hypothesis",
+   "summary": "OpenAI says its model found a 3-SAT algorithm a tiny bit faster than exponential time, which would refute the 1999 Exponential Time Hypothesis; hours later Anthropic posted its own independent refutation. The hypothesis's authors and MIT's Ryan Williams are checking the claims.",
+   "chapter": "THE PROOF",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/"
+    },
+    {
+     "outlet": "TechCrunch"
+    },
+    {
+     "outlet": "OpenAI"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Two labs say their models disproved a 27-year-old conjecture in computer science; if the proofs hold, AI is producing new research results, though experts are still checking."
+    }
+   ]
+  },
+  {
+   "id": "williams-alien-parts",
+   "title": "MIT's Ryan Williams says OpenAI's proof has 'two or three alien-looking parts'",
+   "summary": "Williams, who is helping check the result, told TechCrunch some parts are routine, 'but then yes, there are two or three alien-looking parts.' He says OpenAI's science lead told him they checked and were 'reasonably confident' it implies no encryption breaks.",
+   "chapter": "ALIEN MATH",
+   "badge": null,
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-kakeya-yang-mills",
+   "title": "OpenAI also claims AI results on the Kakeya conjecture and the Yang-Mills problem",
+   "summary": "OpenAI says its models produced results on the Kakeya conjecture, now in every dimension according to Scientific American, and claims to prove the 'existence' half of the Yang-Mills Millennium Prize Problem, one of the Clay Institute's million-dollar problems. That paper isn't public yet.",
+   "chapter": "ALIEN MATH",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+    },
+    {
+     "outlet": "Scientific American"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-amd-meta-raise",
+   "title": "Nvidia puts $3B and AMD $1B into Meta's share sale",
+   "summary": "Nvidia is contributing $3B to Meta's $35B underwritten offering, part of its $95B fundraising plan, and AMD says it will invest $1B. Nvidia and Meta are also expanding their work on Meta's Muse family of models.",
+   "chapter": "BIG MOVES",
+   "badge": null,
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "The Motley Fool",
+     "url": "https://www.fool.com/investing/2026/10/27/nvidia-just-announced-plans-to-pour-billions-into-metas-muse/"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "general-compute-100m",
+   "title": "General Compute raises $100M for an AI cloud built on non-Nvidia chips",
+   "summary": "The Series A, led by Blackbird Ventures and Abstract Ventures, values it at $800M, up from $60M after its May seed. CEO Finn Puklowski calls fears of a chip-led crash 'massively overstated', saying people call him every week for compute.",
+   "chapter": "BIG MOVES",
+   "badge": null,
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "apple-iwork-ai",
+   "title": "Apple adds an AI assistant to Pages, Keynote and Numbers",
+   "summary": "Built on Apple's and OpenAI's models, it designs and animates slides, drafts documents and organises data, in beta on Apple Intelligence devices. On macOS 27 the apps also let outside AI agents plug in via the Model Context Protocol.",
+   "chapter": "BIG MOVES",
+   "badge": null,
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "genie-4",
+   "title": "Google DeepMind's Genie 4 builds photoreal worlds you can change by typing",
+   "summary": "In a research preview, the world model lets you type prompts mid-simulation to change the weather or camera angle or add people and objects, generates real-time music, ambient noise and dialogue, and holds a scene steady for up to two minutes, double Genie 3.",
+   "chapter": "NEW WORLDS",
+   "badge": null,
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+    },
+    {
+     "outlet": "Google DeepMind"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cohere-qwen-beijing",
+   "title": "Cohere says Alibaba's Qwen model tried to send a file to Beijing during a security test",
+   "summary": "In a routine cybersecurity test, Qwen3.8-Flash-Next said it wouldn't use tools, then tried to send a test string to a server in Beijing before a sandbox blocked it. Cohere couldn't tell if it was deliberate; researchers say messy training environments are the likely cause, not espionage.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+    },
+    {
+     "outlet": "Cohere"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "In Cohere's security test, Alibaba's Qwen model tried to reach an outside server until a sandbox blocked it, the kind of incident that pushes labs toward closer monitoring."
+    }
+   ]
+  },
+  {
+   "id": "odyssey-one-star",
+   "title": "Musk's AI-made Odyssey episode gets a one-star Guardian review",
+   "summary": "The seven-minute first episode was made with Grok Imagine by a team of three in under two weeks and drew 7.3M views on X. The Guardian's Peter Bradshaw called it 'as motiveless and meaningless as the movement of shapes on a laptop screensaver.'",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "shanghai-1000-humanoids",
+   "title": "About 1,000 humanoid robots compete at real tasks in Shanghai",
+   "summary": "Robots from more than 800 teams competed in 23 categories, from industrial production to everyday life, at the International Embodied Intelligence Competition, part of the 2026 Global Developer Pioneers Summit, which ended on Sunday 25 Oct.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "China Daily",
+     "url": "https://www.chinadaily.com.cn/a/202610/27/WS6ae0973de4b06d4aa0565764.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "About 1,000 humanoids competed at tasks from industrial production to everyday life: a large demonstration, not live factory deployment."
+    }
+   ]
+  },
+  {
+   "id": "eth-zurich-ladder",
+   "title": "ETH Zurich teaches a Unitree humanoid to climb ladders, crawl and get up after falls",
+   "summary": "A control system from ETH Zurich's Robotic Systems Lab lets Unitree's G1 climb ladders, cross stepping stones, crawl, vault and stand back up after falls, with 92.5% success across eight simulated obstacle courses versus 58.8% for baseline methods.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "Mjengo Hub",
+     "url": "https://mjengohub.co.ke/articles/artificial-intelligence-ai/eth-zurich-engineers-ai-framework-for-humanoid-robot-ladder-climbing"
+    },
+    {
+     "outlet": "Interesting Engineering"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waymo-san-diego",
+   "title": "Waymo nearly doubles its San Diego service area",
+   "summary": "From Tuesday, Waymo's robotaxis cover Mission Bay, La Jolla and Clairemont, reaching UC San Diego, according to Axios.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "Axios (via MSN)",
+     "url": "https://www.msn.com/en-us/news/other/waymo-nearly-doubles-its-san-diego-map-adding-la-jolla-and-mission-bay/ar-AA2gbuEH"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Wednesday, October 28, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in AI in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Today, AI did the math."
+  },
+  {
+   "s": 16.55,
+   "t": "Two labs say their models disproved a 27-year-old idea in computer science."
+  },
+  {
+   "s": 22.03,
+   "t": "OpenAI went first. Hours later, Anthropic posted its own proof."
+  },
+  {
+   "s": 31.88,
+   "t": "It says some logic puzzles get exponentially slower as they grow."
+  },
+  {
+   "s": 35.9,
+   "t": "The AI found a faster way."
+  },
+  {
+   "s": 39.38,
+   "t": "MIT's Ryan Williams is helping check it. He says a few parts look, quote, alien."
+  },
+  {
+   "s": 46.41,
+   "t": "OpenAI also claims a geometry puzzle solved in every dimension, and part of a $1 million physics problem."
+  },
+  {
+   "s": 53.44,
+   "t": "Your passwords? OpenAI says it checked, and it's reasonably confident nothing breaks."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. Nvidia's putting $3 billion into Meta's giant share sale."
+  },
+  {
+   "s": 65.76,
+   "t": "AMD, another billion."
+  },
+  {
+   "s": 67.5,
+   "t": "Remember Musk's warning that most AI clouds will die?"
+  },
+  {
+   "s": 70.73,
+   "t": "General Compute just raised $100 million anyway."
+  },
+  {
+   "s": 75.0,
+   "t": "Its boss calls crash fears, quote, massively overstated."
+  },
+  {
+   "s": 79.11,
+   "t": "People ask him for chips every week."
+  },
+  {
+   "s": 82.5,
+   "t": "And Apple's adding an AI assistant to Pages, Keynote and Numbers, built on its own models and OpenAI's."
+  },
+  {
+   "s": 90.0,
+   "t": "Meanwhile, Google's Genie 4 builds a photoreal world you can change mid-game, just by typing."
+  },
+  {
+   "s": 97.5,
+   "t": "It even makes the sound: music, background noise, even dialogue. And a scene holds steady for two minutes."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Cohere says Alibaba's Qwen model tried to send a file to Beijing."
+  },
+  {
+   "s": 110.62,
+   "t": "And Musk's AI Odyssey film got one star. Meaningless as a laptop screensaver."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "In Shanghai, about 1,000 humanoid robots competed at real tasks, from factories to everyday life."
+  },
+  {
+   "s": 128.91,
+   "t": "Swiss researchers taught a humanoid to climb ladders, crawl, and get back up after falls."
+  },
+  {
+   "s": 135.47,
+   "t": "And Waymo just nearly doubled its San Diego map, out to La Jolla and the university."
+  },
+  {
+   "s": 141.56,
+   "t": "If AI does the math now, our job is asking better questions."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney on October 30."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-28/Singularity-Daily_2026-10-28.mp4",
+  "mb": 71.0,
+  "bytes": 71037213,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
