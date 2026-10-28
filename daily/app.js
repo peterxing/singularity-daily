@@ -61,7 +61,6 @@
   const when = p => (p.kind === 'horizon' ? 'Undated' : p.m ? `${MONTHS[p.m - 1]} ${p.year}` : String(p.year));
   const odds = p => (p.kind === 'horizon' ? `${p.cond}% conditional` : `${p.prob}%`);
   const domainName = d => (state.preds.domains && state.preds.domains[d]) || d;
-  const guideHref = p => `${GUIDE_ROOT}/guide${p.guide}`;
   const relPill = (rel, extra) => h('span', { class: `rel ${rel}` }, h('span', { 'aria-hidden': 'true' }, REL[rel].icon), extra != null ? extra : REL[rel].label);
 
   // ------------------------------------------------------------------ episode
@@ -361,7 +360,6 @@
         det.append(r ? trail(r) : h('p', { class: 'empty', text: 'No story in the show has been linked to this forecast yet.' }),
           h('div', { class: 'fc-foot' },
             h('a', { href: p.kind === 'horizon' ? '#/guide/beyond' : `#/guide/${p.year}`, text: 'On the Guide\u2019s timeline' }),
-            h('a', { href: guideHref(p), target: onPeterxing ? null : '_blank', rel: 'noopener', text: 'In the full Guide ↗' }),
             h('a', { href: `#/forecasts/${p.id}`, text: 'Link to this forecast' })));
       }
     });
@@ -421,12 +419,12 @@
   }
 
   // ------------------------------------------------------------------ the guide
-  // The Guide's chapters, year summaries, horizon prerequisites and author notes are read live from the Guide itself
-  // (same origin on peterxing.com), so this page always shows its current text. Its forecasts and the show's news
-  // against them come from this site's own snapshot and tracker, like Predictions vs reality.
+  // The Guide's chapters, year summaries, horizon prerequisites and author notes are read live from its published page
+  // and data (same origin on peterxing.com), so this page always shows the current text. Its forecasts and the show's
+  // news against them come from this site's own snapshot and tracker, like Predictions vs reality.
   const GUIDE_LIVE = onPeterxing || host === 'localhost' || host === '127.0.0.1';
   const ROUTES = { capability: 'Capability', abundance: 'Abundance', risk: 'Risk' };
-  const guide = { ready: null, chapters: [], years: new Map(), horizons: new Map() };
+  const guide = { ready: null, failed: false, chapters: [], years: new Map(), horizons: new Map() };
   let readerAt = -1, titleBefore = '', readerDocTitle = '';
   const routeOf = s => (/abundance/i.test(s) ? 'abundance' : /risk/i.test(s) ? 'risk' : /capability/i.test(s) ? 'capability' : '');
   const txt = el => {
@@ -447,7 +445,11 @@
   }
 
   function ensureGuide() {
-    if (!guide.ready) guide.ready = loadGuide();
+    if (!guide.ready || (guide.failed && GUIDE_LIVE)) {
+      guide.failed = false;
+      guide.ready = loadGuide();
+      guide.ready.catch(() => { guide.failed = true; });
+    }
     return guide.ready;
   }
   async function loadGuide() {
@@ -476,7 +478,9 @@
     if (!v) { el.hidden = true; return; }
     el.hidden = false;
     if (v instanceof Error) {
-      el.replaceChildren('The chapters didn\u2019t load here. ', h('a', { href: `${GUIDE_ROOT}/guide#book`, text: 'Read them in the full Guide \u2197' }));
+      el.replaceChildren('The chapters didn\u2019t load. ', GUIDE_LIVE
+        ? h('button', { type: 'button', class: 'linkish', onclick: () => ensureGuide().catch(() => {}), text: 'Try again' })
+        : h('a', { href: `${SITE}#/guide/read`, text: 'Read them on peterxing.com \u2197' }));
     } else el.textContent = v;
   }
 
@@ -609,21 +613,17 @@
   }
   function guideLink(v) {
     const s = String(v || '').trim();
-    const ch = /^#chapter-(\d+)$/.exec(s);
-    if (ch) return `#/guide/chapter-${ch[1]}`;
-    if (/^#(book|read|toc)$/.test(s)) return '#/guide/read';
+    const legacy = (hash, query) => (window.sdLegacy && window.sdLegacy(hash, query)) || '#/guide';
+    if (s.startsWith('#')) return /^#\//.test(s) ? s : legacy(s, '');
     let u;
-    try { u = new URL(s, `${GUIDE}/guide`); } catch (e) { return null; }
+    try { u = new URL(s, SITE); } catch (e) { return null; }
     if (u.protocol !== 'https:' && u.protocol !== 'http:') return null;
+    if (/^(www\.)?peterxing\.com$/.test(u.hostname) && /^\/guide\/?$/.test(u.pathname)) return legacy(u.hash, u.search);
     return onPeterxing && u.origin === GUIDE ? `${u.pathname}${u.search}${u.hash}` : u.href;
   }
 
   function readerEnd(c) {
-    const [label, href] = /1000-Day/i.test(c.title) ? ['Open the 1000-day planner \u2197', `${GUIDE_ROOT}/guide#moonshot`]
-      : /Five Futures/i.test(c.title) ? ['Open the portfolio of futures \u2197', `${GUIDE_ROOT}/guide#futures`]
-        : c.route === 'risk' ? ['The futures beyond the timeline', '#/guide/beyond']
-          : c.route === 'capability' ? ['The forecasts, year by year', '#/guide/timeline']
-            : ['Trace the abundance engine \u2197', `${GUIDE_ROOT}/guide#engine`];
+    const [label, href] = c.route === 'risk' ? ['The futures beyond the timeline', '#/guide/beyond'] : ['The forecasts, year by year', '#/guide/timeline'];
     return h('footer', { class: 'reader-end' }, h('a', { class: 'btn', href, text: label }), h('a', { class: 'btn', href: '#/forecasts', text: 'Predictions vs reality' }));
   }
   function setStep(a, c, label) {
@@ -697,7 +697,7 @@
       guide.ready.then(() => { if (location.hash === want) openReader(idx); }, () => {
         if (location.hash !== want) return;
         history.replaceState(null, '', '#/guide/read');
-        toast('That chapter didn\u2019t load here.', { label: 'Open it in the Guide', href: `${GUIDE_ROOT}/guide#chapter-${idx}` });
+        toast('That chapter didn\u2019t load.', GUIDE_LIVE ? { label: 'Try again', href: want } : { label: 'Read it on peterxing.com', href: `${SITE}${want}` });
       });
       return firstRoute ? $('guide-read') : null;
     }
@@ -809,7 +809,6 @@
   }
 
   function wireStatic() {
-    document.querySelectorAll('[data-guide]').forEach(a => { a.href = `${GUIDE_ROOT}/guide`; });
     document.querySelectorAll('[data-guide-path]').forEach(a => { a.href = `${GUIDE_ROOT}${a.dataset.guidePath}`; });
     $('btnPlay').addEventListener('click', () => {
       const v = $('video');

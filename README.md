@@ -1,7 +1,7 @@
 # The Singularity Daily
 
 **The last 24 hours in AI, in three minutes, every day** — with every story checked against the forecasts in
-[*The Hitchhiker's Guide to the Singularity*](https://peterxing.com/guide).
+[*The Hitchhiker's Guide to the Singularity*](https://peterxing.com/#/guide), which lives on the same site.
 
 **Watch:** [peterxing.com](https://peterxing.com) · [RSS](https://peterxing.github.io/singularity-daily/daily/feed.xml) · [every episode as a release](https://github.com/peterxing/singularity-daily/releases)
 
@@ -16,14 +16,16 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   each forecast it touches.
 - **Predictions vs reality** — all of the Guide's forecasts (dated 2026–2040, plus the undated post-superintelligence
   horizon) with the running tally of news that **supports** them, shows an **early sign**, or **challenges** them; filters by
-  domain and signal, a "moving now" view, and a link back to each forecast in the Guide.
+  domain and signal, a "moving now" view, and a link to each forecast's year on the Guide's timeline.
 - **Every episode** — the archive. The page checks for a new episode every ten minutes while it's open.
 - **The Guide** — *The Hitchhiker's Guide to the Singularity* on the same page (`#/guide`): its chapters, read in place
   (`#/guide/chapter-N`); the timeline year by year (`#/guide/2027`), each dated forecast with the Guide's odds, the year's
-  summary and the show's latest news against it; the undated horizons beyond the timeline with their prerequisites; links
-  to the Guide's interactive instruments; and the author. The chapters, year summaries, prerequisites and author notes are
-  read live from the Guide itself (`/guide`, `/predictions.json` and `/author.json`, same origin on peterxing.com), so they
-  never go stale; elsewhere (the Pages copy) the page links to the Guide instead.
+  summary and the show's latest news against it; the undated horizons beyond the timeline with their prerequisites; two
+  companions (the AI 2027 vs AI 2040 timeline and the 3D campaign); and the author. The chapters, year summaries,
+  prerequisites and author notes are read live from the Guide's published page and data on the same origin
+  (`/guide`, `/predictions.json` and `/author.json`), so they never go stale. The site no longer links to the legacy
+  `/guide` page, but it is still the source of the chapter text, so it has to stay deployed. Elsewhere (the Pages copy)
+  the section points readers to peterxing.com.
 
 It tracks the news, not the odds: the Guide's probabilities are Peter's own and change only when he revises them.
 
@@ -44,10 +46,11 @@ won't play inline, so the newest seven episodes' videos are copied into the Page
 Older episodes stream from their release (or download).
 
 peterxing.com is served by the [`post-agi-planning`](https://github.com/peterxing/post-agi-planning) Vercel project. Its
-Routing Middleware (`middleware.ts`) serves this site at the bare domain, `vercel.json` proxies `/daily` (an alias) and
-`/daily/*` here, and the full interactive Guide stays at `/guide`. Old links to the Guide's homepage are handled by
-`daily/route.js`: chapter and book links (`/#chapter-3`, `/#book`) open the chapter on this page; the rest (`/#event-2027-1`,
-`/?fd=economic`, the Guide's tools …) are forwarded to `/guide`.
+Routing Middleware (`middleware.ts`) serves this site at the bare domain, and `vercel.json` proxies `/daily` (an alias) and
+`/daily/*` here. Links made for the Guide's old homepage are handled by `daily/route.js`, which opens the same place on
+this page: `/#chapter-3` the chapter, `/#event-2027-1` the forecast in Predictions vs reality, `/#year-2030` that year of
+the timeline, `/#post-superintelligence` the horizons, `/?fd=economic` Predictions vs reality; visitors coming back from the
+AI timeline or the game land on the Guide section.
 
 A second daily automation ("Singularity Daily — site sync", early afternoon Sydney time) is the safety net: it publishes
 any rendered episode the show's own run didn't, refreshes the forecast snapshot from the Guide (`publish.py sync`), and

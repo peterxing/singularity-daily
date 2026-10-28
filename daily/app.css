@@ -264,6 +264,8 @@ a:hover { color: var(--orange); }
 .guide-part { margin-top: clamp(34px, 5vw, 56px); }
 .guide-part > .section-sub { max-width: 72ch; margin-bottom: 16px; }
 .guide-status { color: var(--faint); font-size: 12px; margin: 0 0 12px; }
+.linkish { font: inherit; color: var(--white); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-decoration-color: rgba(255, 90, 31, 0.7); text-underline-offset: 3px; }
+.linkish:hover { color: var(--orange); }
 .route-word { font-weight: 700; }
 .route-word.capability { color: var(--cool); }
 .route-word.abundance { color: var(--green); }
