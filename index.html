@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Singularity Daily · the last 24 hours in AI, every day</title>
-<meta name="description" content="A 3-minute show on the last 24 hours in AI, published every morning, with every story checked against the forecasts in The Hitchhiker's Guide to the Singularity.">
+<meta name="description" content="A 3-minute show on the last 24 hours in AI, published every morning, with every story checked against the forecasts in The Hitchhiker's Guide to the Singularity, which you can read here too.">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://peterxing.github.io; media-src 'self' https://peterxing.github.io https://github.com https://release-assets.githubusercontent.com https://objects.githubusercontent.com; connect-src 'self'; font-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
 <meta name="theme-color" content="#0b0b0c">
 <meta name="color-scheme" content="dark">
@@ -20,9 +20,9 @@
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261026b">
-<script src="daily/route.js?v=20261026b"></script>
-<script src="daily/app.js?v=20261026b" defer></script>
+<link rel="stylesheet" href="daily/app.css?v=20261028a">
+<script src="daily/route.js?v=20261028a"></script>
+<script src="daily/app.js?v=20261028a" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to today's episode</a>
@@ -34,7 +34,7 @@
       <a href="#/stories">Stories</a>
       <a href="#/forecasts">Predictions vs reality</a>
       <a href="#/episodes">Episodes</a>
-      <a class="nav-guide" data-guide href="https://peterxing.com/guide">The Guide <span aria-hidden="true">↗</span></a>
+      <a class="nav-guide" href="#/guide">The Guide</a>
     </nav>
   </div>
 </header>
@@ -117,6 +117,71 @@
     <ol class="episodes" id="episodeGrid"></ol>
   </section>
 
+  <section id="guide" class="wrap section guide" aria-labelledby="guideTitle">
+    <div class="section-head guide-intro">
+      <p class="mono eyebrow">A field guide by Peter Xing</p>
+      <h2 id="guideTitle">The Hitchhiker's Guide to the Singularity</h2>
+      <p class="guide-tag" id="guideTag">The future is still unwritten.</p>
+      <p class="section-sub" id="guideDeck">A journey through artificial general intelligence, superintelligence, and the human choices in between.</p>
+      <p class="section-sub">It's where the forecasts the show checks every morning come from. Read it all here, or open the <a data-guide href="https://peterxing.com/guide">full interactive Guide ↗</a>.</p>
+    </div>
+    <div class="guide-key" id="guideKey">
+      <p><b>AGI</b> Broad, human-level capability across tasks.</p>
+      <p><b>ASI</b> Intelligence beyond human capability.</p>
+      <p class="note">Neither a model launch nor a news headline establishes that a threshold has been crossed.</p>
+    </div>
+    <nav class="guide-toc" aria-label="In the Guide">
+      <a href="#/guide/read">Chapters</a>
+      <a href="#/guide/timeline">The timeline</a>
+      <a href="#/guide/beyond">Beyond the timeline</a>
+      <a href="#/guide/explore">Explore</a>
+      <a href="#/guide/author">The author</a>
+    </nav>
+
+    <div class="guide-part" id="guide-read" aria-labelledby="guideReadTitle">
+      <div class="chapter"><span class="n">01</span><h3 id="guideReadTitle">Read the guide</h3></div>
+      <p class="section-sub">Peter's original chapters, from the capability frontier to the choices that remain ours. Three routes run through them: <span class="route-word capability">Capability</span> asks when, <span class="route-word abundance">Abundance</span> asks how to thrive, and <span class="route-word risk">Risk</span> asks what could go wrong.</p>
+      <p class="mono guide-status" id="guideStatus" role="status">The chapters load from the Guide as you get here.</p>
+      <ol class="book" id="chapterList"></ol>
+    </div>
+
+    <div class="guide-part" id="guide-timeline" aria-labelledby="guideTimelineTitle">
+      <div class="chapter"><span class="n">02</span><h3 id="guideTimelineTitle">The timeline, year by year</h3></div>
+      <p class="section-sub">A timeline, not a prophecy: every dated forecast from 2026 to 2040 with the Guide's own odds, and the latest news from the show against each one. Open a year to read it.</p>
+      <div class="years" id="yearList"></div>
+    </div>
+
+    <div class="guide-part" id="guide-beyond" aria-labelledby="guideBeyondTitle">
+      <div class="chapter"><span class="n">03</span><h3 id="guideBeyondTitle">Beyond the timeline</h3></div>
+      <p class="section-sub">Some futures don't have a date. These dependency-gated horizons are possibilities to examine, not events assigned an invented year: each probability assumes aligned superintelligence and every listed prerequisite.</p>
+      <ol class="gl horizons" id="horizonList"></ol>
+    </div>
+
+    <div class="guide-part" id="guide-explore" aria-labelledby="guideExploreTitle">
+      <div class="chapter"><span class="n">04</span><h3 id="guideExploreTitle">Explore, experiment, plan</h3></div>
+      <p class="section-sub">The Guide's interactive instruments open in the full Guide. They're optional, and none of them changes the published forecasts.</p>
+      <ul class="tools">
+        <li><a class="tool" data-guide-path="/guide#timeline" href="https://peterxing.com/guide#timeline"><b>The monthly chronology</b><span>Month by month from January 2026, with reviewed reporting beside the forecasts.</span></a></li>
+        <li><a class="tool" data-guide-path="/guide#scenario-lab" href="https://peterxing.com/guide#scenario-lab"><b>Scenario lab</b><span>Stress-test the published probabilities: change three assumptions and watch the managed, default and ungoverned paths respond.</span></a></li>
+        <li><a class="tool" data-guide-path="/guide#futures" href="https://peterxing.com/guide#futures"><b>A portfolio of futures</b><span>Don't bet on one future. Hold a portfolio across five.</span></a></li>
+        <li><a class="tool" data-guide-path="/guide#moonshot" href="https://peterxing.com/guide#moonshot"><b>1000-day planner</b><span>Find your starting vector and start the clock.</span></a></li>
+        <li><a class="tool" data-guide-path="/guide#mission-control" href="https://peterxing.com/guide#mission-control"><b>Field notes &amp; watchlist</b><span>Planning quests, a readiness checklist and a watchlist of the forecasts you care about.</span></a></li>
+        <li><a class="tool" data-guide-path="/guide#observations" href="https://peterxing.com/guide#observations"><b>Source desk</b><span>What do we actually know? The published record, METR's time horizons and what moved in the last revision.</span></a></li>
+        <li><a class="tool" data-guide-path="/ai-timeline" href="https://peterxing.com/ai-timeline"><b>AI 2027 vs AI 2040</b><span>A curated companion comparison of two timelines.</span></a></li>
+        <li><a class="tool" data-guide-path="/game" href="https://peterxing.com/game"><b>The 3D campaign</b><span>Play through the transition in your browser.</span></a></li>
+      </ul>
+    </div>
+
+    <div class="guide-part" id="guide-author" aria-labelledby="guideAuthorTitle">
+      <div class="chapter"><span class="n">05</span><h3 id="guideAuthorTitle">About the author</h3></div>
+      <div class="author" id="authorBox">
+        <p class="author-name">Peter Xing</p>
+        <p class="author-head">Futurist, keynote speaker and technologist.</p>
+        <p><a href="https://www.linkedin.com/in/peter-xing/" rel="noopener">About Peter on LinkedIn ↗</a></p>
+      </div>
+    </div>
+  </section>
+
   <section id="about" class="wrap section about" aria-labelledby="aboutTitle">
     <h2 id="aboutTitle">About the show</h2>
     <div class="about-grid">
@@ -125,7 +190,7 @@
         <p>Your host is <strong>Claudia</strong>, an open character by <a href="https://claudia.gallery" rel="noopener">anabology</a>. Article screenshots shown in the videos belong to their publishers.</p>
       </div>
       <div>
-        <p>The forecasts come from <a data-guide href="https://peterxing.com/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? Read the Guide, explore the <a data-guide-path="/ai-timeline" href="https://peterxing.com/ai-timeline">AI 2027 vs AI 2040 timeline</a>, or play <a data-guide-path="/game" href="https://peterxing.com/game">the campaign</a>.</p>
+        <p>The forecasts come from <a href="#/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? <a href="#/guide/read">Read the Guide</a> right here, open the <a data-guide href="https://peterxing.com/guide">full interactive Guide</a>, explore the <a data-guide-path="/ai-timeline" href="https://peterxing.com/ai-timeline">AI 2027 vs AI 2040 timeline</a>, or play <a data-guide-path="/game" href="https://peterxing.com/game">the campaign</a>.</p>
         <p>Follow along: <a href="daily/feed.xml">RSS feed</a> · <a id="repoLink" href="https://github.com/peterxing/singularity-daily" rel="noopener">source on GitHub</a></p>
       </div>
     </div>
@@ -136,6 +201,22 @@
   <p>© 2026 Peter Xing · Hosted by Claudia (claudia.gallery) · News belongs to the publishers linked on each story.</p>
   <p class="mono" id="footUpdated"></p>
 </footer>
+
+<dialog class="reader" id="reader" aria-labelledby="readerTitle">
+  <div class="reader-in">
+    <div class="reader-bar">
+      <span class="mono" id="readerPos"></span>
+      <details class="reader-toc" id="readerToc"><summary>Contents</summary><ol id="readerTocList"></ol></details>
+      <button type="button" class="btn" id="readerClose">Close <span aria-hidden="true">×</span></button>
+    </div>
+    <h2 class="sr-only" id="readerTitle">Read the guide</h2>
+    <article class="reader-body" id="readerBody" tabindex="-1"></article>
+    <nav class="reader-nav" aria-label="Previous or next chapter">
+      <a class="btn" id="readerPrev" href="#/guide/read">← Previous</a>
+      <a class="btn btn-primary" id="readerNext" href="#/guide/read">Next chapter →</a>
+    </nav>
+  </div>
+</dialog>
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <noscript><p class="wrap noscript">The Singularity Daily needs JavaScript to load each day's episode. You can still <a href="https://github.com/peterxing/singularity-daily/releases">watch every episode on GitHub</a> or read <a href="https://peterxing.com/guide">the Guide</a>.</p></noscript>

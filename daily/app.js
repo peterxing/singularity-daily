@@ -360,7 +360,8 @@
         det.dataset.filled = '1';
         det.append(r ? trail(r) : h('p', { class: 'empty', text: 'No story in the show has been linked to this forecast yet.' }),
           h('div', { class: 'fc-foot' },
-            h('a', { href: guideHref(p), target: onPeterxing ? null : '_blank', rel: 'noopener', text: 'Read it in the Guide ↗' }),
+            h('a', { href: p.kind === 'horizon' ? '#/guide/beyond' : `#/guide/${p.year}`, text: 'On the Guide\u2019s timeline' }),
+            h('a', { href: guideHref(p), target: onPeterxing ? null : '_blank', rel: 'noopener', text: 'In the full Guide ↗' }),
             h('a', { href: `#/forecasts/${p.id}`, text: 'Link to this forecast' })));
       }
     });
@@ -419,6 +420,304 @@
     box.hidden = false;
   }
 
+  // ------------------------------------------------------------------ the guide
+  // The Guide's chapters, year summaries, horizon prerequisites and author notes are read live from the Guide itself
+  // (same origin on peterxing.com), so this page always shows its current text. Its forecasts and the show's news
+  // against them come from this site's own snapshot and tracker, like Predictions vs reality.
+  const GUIDE_LIVE = onPeterxing || host === 'localhost' || host === '127.0.0.1';
+  const ROUTES = { capability: 'Capability', abundance: 'Abundance', risk: 'Risk' };
+  const guide = { ready: null, chapters: [], years: new Map(), horizons: new Map() };
+  let readerAt = -1, titleBefore = '', readerDocTitle = '';
+  const routeOf = s => (/abundance/i.test(s) ? 'abundance' : /risk/i.test(s) ? 'risk' : /capability/i.test(s) ? 'capability' : '');
+  const txt = el => {
+    if (!el) return '';
+    const c = el.cloneNode(true);
+    c.querySelectorAll('br').forEach(b => b.replaceWith(' '));
+    return c.textContent.replace(/\s+/g, ' ').trim();
+  };
+  const dec = s => String(s == null ? '' : s).replace(/&(amp|quot|apos|lt|gt|#39);/g, (_, n) => ({ amp: '&', quot: '"', apos: "'", lt: '<', gt: '>', '#39': "'" })[n]);
+  const safeHttps = u => { try { const x = new URL(u); return x.protocol === 'https:' && !x.username && !x.password ? x.href : null; } catch (e) { return null; } };
+  const seq = p => Number(String(p.id).split('-').pop()) || 0;
+
+  async function getLive(path, asText) {
+    const signal = typeof AbortSignal !== 'undefined' && AbortSignal.timeout ? AbortSignal.timeout(20000) : undefined;
+    const r = await fetch(path, { cache: 'no-cache', signal });
+    if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+    return asText ? r.text() : r.json();
+  }
+
+  function ensureGuide() {
+    if (!guide.ready) guide.ready = loadGuide();
+    return guide.ready;
+  }
+  async function loadGuide() {
+    setGuideStatus('Loading the chapters from the Guide\u2026');
+    try {
+      if (!GUIDE_LIVE) throw new Error('the Guide loads on peterxing.com');
+      const [page, live, author] = await Promise.allSettled([getLive('/guide', true), getLive('/predictions.json'), getLive('/author.json')]);
+      if (live.status === 'fulfilled') {
+        try { readLive(live.value); renderGuideTimeline(); } catch (e) { /* the snapshot's view stands */ }
+      }
+      if (author.status === 'fulfilled') {
+        try { renderAuthor(author.value); } catch (e) { /* the static author note stands */ }
+      }
+      if (page.status !== 'fulfilled') throw page.reason;
+      readGuidePage(page.value);
+      renderBook();
+      setGuideStatus('');
+      return true;
+    } catch (e) {
+      setGuideStatus(e instanceof Error ? e : new Error(String(e)));
+      throw e;
+    }
+  }
+  function setGuideStatus(v) {
+    const el = $('guideStatus');
+    if (!v) { el.hidden = true; return; }
+    el.hidden = false;
+    if (v instanceof Error) {
+      el.replaceChildren('The chapters didn\u2019t load here. ', h('a', { href: `${GUIDE_ROOT}/guide#book`, text: 'Read them in the full Guide \u2197' }));
+    } else el.textContent = v;
+  }
+
+  function readGuidePage(html) {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const chapters = [...doc.querySelectorAll('#bookSource > article[data-idx]')].map(a => ({
+      idx: Number(a.dataset.idx), kicker: txt(a.querySelector('.reader-eyebrow')), route: routeOf(txt(a.querySelector('.reader-route'))),
+      title: txt(a.querySelector('h1')), lede: txt(a.querySelector('.lede')), mins: Math.max(1, Math.round(txt(a).split(' ').length / 230)), node: a,
+    })).filter(c => Number.isInteger(c.idx) && c.title).sort((a, b) => a.idx - b.idx);
+    if (!chapters.length) throw new Error('no chapters in the Guide page');
+    guide.chapters = chapters;
+    const tag = txt(doc.getElementById('heroTitle'));
+    if (tag) $('guideTag').textContent = tag;
+    const deck = txt(doc.querySelector('.hero-deck'));
+    if (deck) $('guideDeck').textContent = deck;
+    const key = [...doc.querySelectorAll('.reading-key p')];
+    if (key.length) {
+      $('guideKey').replaceChildren(...key.map(p => {
+        const b = p.querySelector('strong');
+        return b ? h('p', null, h('b', { text: txt(b) }), txt(p).slice(txt(b).length).trim()) : h('p', { class: 'note', text: txt(p) });
+      }));
+    }
+  }
+
+  function readLive(data) {
+    for (const y of data.years || []) if (y && y.year && typeof y.summary === 'string') guide.years.set(Number(y.year), y.summary.trim());
+    for (const it of ((data.postSuperintelligence || {}).items || [])) {
+      if (it && it.id && Array.isArray(it.dependencies)) guide.horizons.set(`horizon-${it.id}`, it.dependencies.map(String));
+    }
+  }
+
+  function renderBook() {
+    $('chapterList').replaceChildren(...guide.chapters.map((c, i) => h('li', null,
+      h('a', { class: `chap ${c.route}`, href: `#/guide/chapter-${c.idx}` },
+        h('span', { class: 'k' }, h('span', { text: i === 0 ? 'Start here' : c.kicker }), c.route ? h('span', { class: `route-word ${c.route}`, text: ROUTES[c.route] }) : null),
+        h('span', { class: 't', text: c.title }),
+        c.lede ? h('span', { class: 'l', text: c.lede }) : null,
+        h('span', { class: 'm mono', text: `${c.mins} min read` })))));
+    $('readerTocList').replaceChildren(...guide.chapters.map(c => h('li', null, h('a', { href: `#/guide/chapter-${c.idx}`, 'data-idx': String(c.idx), text: c.title }))));
+  }
+
+  function renderGuideTimeline() {
+    const host = $('yearList');
+    const first = !host.children.length;
+    const wasOpen = new Set([...host.querySelectorAll('details[open]')].map(d => d.dataset.year));
+    const thisYear = String(state.index.latest || '').slice(0, 4);
+    const byYear = new Map();
+    for (const p of state.preds.items) {
+      if (p.kind !== 'dated') continue;
+      if (!byYear.has(p.year)) byYear.set(p.year, []);
+      byYear.get(p.year).push(p);
+    }
+    host.replaceChildren(...[...byYear.keys()].sort((a, b) => a - b).map(year => {
+      const list = byYear.get(year).sort((a, b) => (a.m || 13) - (b.m || 13) || seq(a) - seq(b));
+      const sum = { supports: 0, early: 0, challenges: 0 };
+      let withNews = 0;
+      for (const p of list) {
+        const r = trackerFor(p.id);
+        if (!r) continue;
+        withNews += 1;
+        for (const k of Object.keys(REL)) sum[k] += r[k] || 0;
+      }
+      const det = h('details', { class: 'yr', id: `y-${year}`, 'data-year': String(year) });
+      det.open = first ? String(year) === thisYear : wasOpen.has(String(year));
+      const blurb = guide.years.get(year);
+      det.append(
+        h('summary', null,
+          h('span', { class: 'y', text: String(year) }),
+          h('span', { class: 'yc' }, `${list.length} forecast${list.length === 1 ? '' : 's'}`,
+            h('small', { text: withNews ? `${withNews} with news from the show` : 'No news from the show yet' })),
+          h('span', { class: 'tally' }, tallyPills(sum))),
+        blurb ? h('p', { class: 'ysum', text: blurb }) : null,
+        h('ol', { class: 'gl' }, list.map(guideItem)));
+      return det;
+    }));
+    $('horizonList').replaceChildren(...state.preds.items.filter(p => p.kind === 'horizon').map(guideItem));
+  }
+
+  function guideItem(p) {
+    const r = trackerFor(p.id), last = r && r.items[0];
+    const deps = guide.horizons.get(p.id) || [];
+    const n = r ? r.supports + r.early + r.challenges : 0;
+    return h('li', { class: `gi${r ? '' : ' quiet'}` },
+      h('div', { class: 'gw' }, h('b', { text: when(p) }), h('small', { text: odds(p) })),
+      h('div', { class: 'gt' },
+        h('p', { class: 'gx', text: p.t }),
+        h('p', { class: 'gm', text: domainName(p.d) }),
+        deps.length ? h('details', { class: 'deps' }, h('summary', { text: `What it depends on (${deps.length})` }), h('ul', null, deps.map(d => h('li', { text: d })))) : null,
+        last ? h('p', { class: 'gn' }, relPill(last.relation), h('a', { href: `#/ep/${last.on}/${last.story}`, text: last.title }),
+          h('small', { text: ` \u00b7 EP.${pad3(last.ep)}, ${short(last.on)}` })) : null),
+      h('div', { class: 'gs' }, r
+        ? h('a', { class: 'tally', href: `#/forecasts/${p.id}`, title: 'All the news on this forecast', 'aria-label': `All ${n} ${n === 1 ? 'story' : 'stories'} on this forecast` }, tallyPills(r))
+        : h('span', { class: 'none mono', text: 'No news yet' })));
+  }
+
+  function renderAuthor(a) {
+    if (!a || typeof a.headline !== 'string' || !Array.isArray(a.bio)) return;
+    const talks = (Array.isArray(a.talks) ? a.talks : []).filter(t => t && safeHttps(t.url)).slice(0, 4);
+    const roles = (Array.isArray(a.roles) ? a.roles : []).filter(r => r && r.org);
+    const li = safeHttps(a.linkedin);
+    $('authorBox').replaceChildren(
+      h('p', { class: 'author-name', text: dec(a.name || 'Peter Xing') }),
+      h('p', { class: 'author-head', text: dec(a.headline) }),
+      roles.length ? h('ul', { class: 'roles' }, roles.map(r => h('li', null, h('b', { text: dec(r.org) }), r.detail ? dec(r.detail) : null))) : null,
+      h('div', { class: 'bio' }, a.bio.map(p => h('p', { text: dec(p) }))),
+      talks.length ? h('div', { class: 'talks' }, h('h4', { text: 'Recent talks' }), h('ul', null, talks.map(t => h('li', null,
+        h('a', { href: safeHttps(t.url), target: '_blank', rel: 'noopener', text: `${dec(t.title)} \u2197` }),
+        h('small', { text: [dec(t.venue), t.year].filter(Boolean).join(' \u00b7 ') }))))) : null,
+      li ? h('p', null, h('a', { href: li, target: '_blank', rel: 'noopener', text: 'About Peter on LinkedIn \u2197' })) : null);
+  }
+
+  // A chapter is Peter's own text from the Guide. It is copied in as inert nodes, without scripts, handlers or ids,
+  // and its links are pointed at their place on this site.
+  function chapterNodes(src) {
+    const frag = document.createDocumentFragment();
+    for (const n of src.childNodes) frag.append(document.importNode(n, true));
+    frag.querySelectorAll('script,style,link,meta,base,iframe,frame,object,embed,form,input,button,select,textarea,template,dialog').forEach(n => n.remove());
+    frag.querySelectorAll('*').forEach(el => {
+      for (const { name, value } of [...el.attributes]) {
+        const k = name.toLowerCase();
+        if (k.startsWith('on') || k === 'id' || k === 'srcset' || k === 'formaction') el.removeAttribute(name);
+        else if (k === 'href' || k === 'src' || k === 'xlink:href') {
+          const u = guideLink(value);
+          if (u) el.setAttribute(name, u); else el.removeAttribute(name);
+        }
+      }
+      if (el.localName === 'a' && /^https?:/i.test(el.getAttribute('href') || '')) { el.target = '_blank'; el.rel = 'noopener'; }
+    });
+    return frag;
+  }
+  function guideLink(v) {
+    const s = String(v || '').trim();
+    const ch = /^#chapter-(\d+)$/.exec(s);
+    if (ch) return `#/guide/chapter-${ch[1]}`;
+    if (/^#(book|read|toc)$/.test(s)) return '#/guide/read';
+    let u;
+    try { u = new URL(s, `${GUIDE}/guide`); } catch (e) { return null; }
+    if (u.protocol !== 'https:' && u.protocol !== 'http:') return null;
+    return onPeterxing && u.origin === GUIDE ? `${u.pathname}${u.search}${u.hash}` : u.href;
+  }
+
+  function readerEnd(c) {
+    const [label, href] = /1000-Day/i.test(c.title) ? ['Open the 1000-day planner \u2197', `${GUIDE_ROOT}/guide#moonshot`]
+      : /Five Futures/i.test(c.title) ? ['Open the portfolio of futures \u2197', `${GUIDE_ROOT}/guide#futures`]
+        : c.route === 'risk' ? ['The futures beyond the timeline', '#/guide/beyond']
+          : c.route === 'capability' ? ['The forecasts, year by year', '#/guide/timeline']
+            : ['Trace the abundance engine \u2197', `${GUIDE_ROOT}/guide#engine`];
+    return h('footer', { class: 'reader-end' }, h('a', { class: 'btn', href, text: label }), h('a', { class: 'btn', href: '#/forecasts', text: 'Predictions vs reality' }));
+  }
+  function setStep(a, c, label) {
+    a.hidden = !c;
+    if (!c) return;
+    a.href = `#/guide/chapter-${c.idx}`;
+    a.title = c.title;
+    a.textContent = label(clip(c.title, 38));
+  }
+  function openReader(idx) {
+    const dlg = $('reader');
+    const pos = guide.chapters.findIndex(c => c.idx === idx);
+    if (pos < 0) {
+      if (dlg.open) dlg.close();
+      history.replaceState(null, '', '#/guide/read');
+      toast('That chapter isn\u2019t in the Guide.');
+      return;
+    }
+    const c = guide.chapters[pos];
+    readerAt = idx;
+    $('readerPos').textContent = `${pos + 1} / ${guide.chapters.length}`;
+    $('readerTitle').textContent = c.title;
+    $('readerBody').replaceChildren(chapterNodes(c.node), readerEnd(c));
+    setStep($('readerPrev'), guide.chapters[pos - 1], t => `\u2190 ${t}`);
+    setStep($('readerNext'), guide.chapters[pos + 1], t => `${t} \u2192`);
+    $('readerToc').open = false;
+    $('readerTocList').querySelectorAll('a').forEach(a => a.setAttribute('aria-current', String(Number(a.dataset.idx) === idx)));
+    if (!dlg.open) {
+      titleBefore = document.title;
+      document.documentElement.classList.add('reading');
+      dlg.showModal();
+    }
+    dlg.scrollTop = 0;
+    // Focus the text, so Space and the arrow keys read on rather than pressing a button.
+    $('readerBody').focus({ preventScroll: true });
+    document.title = readerDocTitle = `${c.title} \u00b7 The Hitchhiker\u2019s Guide to the Singularity`;
+  }
+  function closeReader() {
+    if ($('reader').open) $('reader').close();
+  }
+  function readerClosed() {
+    document.documentElement.classList.remove('reading');
+    if (titleBefore && document.title === readerDocTitle) document.title = titleBefore;
+    const card = document.querySelector(`.chap[href="#/guide/chapter-${readerAt}"]`);
+    readerAt = -1;
+    if (!/^#\/guide\/chapter-/.test(location.hash)) return; // closed by navigating somewhere else, which owns scroll and focus
+    // Closed from the reader itself (button, Esc or the backdrop): back to the chapter list without a new history entry.
+    history.replaceState(null, '', '#/guide/read');
+    if (card) {
+      card.scrollIntoView({ block: 'nearest' });
+      card.focus({ preventScroll: true });
+    }
+  }
+  function wireReader() {
+    const dlg = $('reader');
+    $('readerClose').addEventListener('click', () => dlg.close());
+    dlg.addEventListener('close', readerClosed);
+    dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('keydown', e => {
+      if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey || (e.target.closest && e.target.closest('input,select,textarea'))) return;
+      const step = e.key === 'ArrowLeft' ? $('readerPrev') : e.key === 'ArrowRight' ? $('readerNext') : null;
+      if (step && !step.hidden) { e.preventDefault(); location.hash = step.getAttribute('href'); }
+    });
+  }
+
+  function guideRoute(sub) {
+    ensureGuide().catch(() => {});
+    const ch = /^chapter-(\d+)$/.exec(sub || '');
+    if (ch) {
+      const want = location.hash, idx = Number(ch[1]);
+      guide.ready.then(() => { if (location.hash === want) openReader(idx); }, () => {
+        if (location.hash !== want) return;
+        history.replaceState(null, '', '#/guide/read');
+        toast('That chapter didn\u2019t load here.', { label: 'Open it in the Guide', href: `${GUIDE_ROOT}/guide#chapter-${idx}` });
+      });
+      return firstRoute ? $('guide-read') : null;
+    }
+    if (/^\d{4}$/.test(sub || '')) {
+      const y = $(`y-${sub}`);
+      if (y) { y.open = true; flash(y); return y; }
+    }
+    return (sub && $(`guide-${sub}`)) || $('guide');
+  }
+
+  function watchGuide() {
+    if (!('IntersectionObserver' in window)) { ensureGuide().catch(() => {}); return; }
+    const io = new IntersectionObserver(entries => {
+      if (!entries.some(e => e.isIntersecting)) return;
+      io.disconnect();
+      ensureGuide().catch(() => {});
+    }, { rootMargin: '900px 0px' });
+    io.observe($('guide'));
+  }
+
   // ------------------------------------------------------------------ routing
   let firstRoute = true;
   async function route() {
@@ -431,17 +730,19 @@
       date = parts[1];
       target = parts[2] ? (parts[2] === 'stories' ? 'stories' : `s-${parts[2]}`) : 'today';
       nav = '';
-    } else if (['stories', 'forecasts', 'episodes', 'about'].includes(parts[0])) {
+    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide'].includes(parts[0])) {
       target = parts[0];
     } else {
       date = state.index.latest;
       target = firstRoute ? null : 'top';
     }
+    if (!(parts[0] === 'guide' && /^chapter-\d+$/.test(parts[1] || ''))) closeReader();
     if (!state.current || state.current.date !== date) {
       try { await showEpisode(date); } catch (e) { toast(`Couldn\u2019t load that episode (${e.message}).`); }
     }
     let el = null;
     if (parts[0] === 'forecasts' && parts[1]) el = openForecast(parts[1]);
+    else if (parts[0] === 'guide') el = guideRoute(parts[1]);
     else if (target === 'top') { window.scrollTo({ top: 0 }); }
     else if (target && target.startsWith('s-')) { el = $(target); if (el) flash(el); }
     else if (target === 'today' && !firstRoute) el = $('today');
@@ -461,7 +762,7 @@
       const fresh = index.latest !== state.index.latest;
       state.index = index; setPreds(preds); state.tracker = tracker;
       state.episodes.clear();
-      renderPromo(); renderEpisodes(); renderScoreboard(); renderMoving(); renderForecasts(); footer();
+      renderPromo(); renderEpisodes(); renderScoreboard(); renderMoving(); renderForecasts(); renderGuideTimeline(); footer();
       if (fresh) {
         const e = index.episodes[0];
         toast(`New episode: EP.${pad3(e.ep)} · ${e.hook}`, { label: 'Watch', href: `#/ep/${e.date}` });
@@ -518,6 +819,7 @@
     $('btnTranscript').addEventListener('click', () => toggleTranscript());
     $('btnShare').addEventListener('click', share);
     $('video').addEventListener('error', videoFailed);
+    wireReader();
   }
 
   function showLoadError(e) {
@@ -544,7 +846,9 @@
     renderScoreboard();
     renderMoving();
     renderForecasts();
+    renderGuideTimeline();
     footer();
+    watchGuide();
     await route();
     addEventListener('hashchange', route);
     startSync();

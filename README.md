@@ -18,6 +18,12 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   horizon) with the running tally of news that **supports** them, shows an **early sign**, or **challenges** them; filters by
   domain and signal, a "moving now" view, and a link back to each forecast in the Guide.
 - **Every episode** — the archive. The page checks for a new episode every ten minutes while it's open.
+- **The Guide** — *The Hitchhiker's Guide to the Singularity* on the same page (`#/guide`): its chapters, read in place
+  (`#/guide/chapter-N`); the timeline year by year (`#/guide/2027`), each dated forecast with the Guide's odds, the year's
+  summary and the show's latest news against it; the undated horizons beyond the timeline with their prerequisites; links
+  to the Guide's interactive instruments; and the author. The chapters, year summaries, prerequisites and author notes are
+  read live from the Guide itself (`/guide`, `/predictions.json` and `/author.json`, same origin on peterxing.com), so they
+  never go stale; elsewhere (the Pages copy) the page links to the Guide instead.
 
 It tracks the news, not the odds: the Guide's probabilities are Peter's own and change only when he revises them.
 
@@ -39,8 +45,9 @@ Older episodes stream from their release (or download).
 
 peterxing.com is served by the [`post-agi-planning`](https://github.com/peterxing/post-agi-planning) Vercel project. Its
 Routing Middleware (`middleware.ts`) serves this site at the bare domain, `vercel.json` proxies `/daily` (an alias) and
-`/daily/*` here, and the Guide stays at `/guide`. Old links to the Guide's homepage (`/#chapter-3`, `/#event-2027-1`,
-`/?fd=economic` …) are forwarded to `/guide` by `daily/route.js`.
+`/daily/*` here, and the full interactive Guide stays at `/guide`. Old links to the Guide's homepage are handled by
+`daily/route.js`: chapter and book links (`/#chapter-3`, `/#book`) open the chapter on this page; the rest (`/#event-2027-1`,
+`/?fd=economic`, the Guide's tools …) are forwarded to `/guide`.
 
 A second daily automation ("Singularity Daily — site sync", early afternoon Sydney time) is the safety net: it publishes
 any rendered episode the show's own run didn't, refreshes the forecast snapshot from the Guide (`publish.py sync`), and
