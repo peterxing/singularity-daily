@@ -313,13 +313,6 @@ a:hover { color: var(--orange); }
 .deps summary { cursor: pointer; font: 400 12px/1.4 var(--mono); color: var(--orange); text-transform: uppercase; letter-spacing: 0.04em; }
 .deps ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; }
 
-.tools { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
-.tool { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 16px 18px; text-decoration: none; color: var(--white); background: var(--ink-2); border: 1px solid var(--line); border-radius: var(--radius); }
-.tool:hover { border-color: var(--orange); color: var(--white); }
-.tool b { font-size: 16px; }
-.tool b::after { content: ' \2197'; color: var(--orange); }
-.tool span { color: var(--dim); font-size: 14px; line-height: 1.45; }
-
 .author { max-width: 80ch; color: var(--bone); }
 .author p { margin: 0 0 12px; }
 .author .author-name { font: 400 clamp(30px, 3.6vw, 44px)/1 var(--display); text-transform: uppercase; color: var(--white); margin-bottom: 8px; }

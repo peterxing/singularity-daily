@@ -2,8 +2,7 @@
    1. The show's address is peterxing.com. The GitHub Pages copy only hosts its files (peterxing.com proxies them), so a
       visitor who lands on peterxing.github.io is sent to the real address. Add ?stay to the URL to look at the copy itself.
    2. The Guide lives on this page (#/guide). Links made for its old homepage (peterxing.com/#chapter-3, /#event-2027-1,
-      /#post-superintelligence, /?fd=economic …) open the same place here, on load and when the hash changes, and so do
-      visitors coming back from the AI timeline or the game, whose links point at "/". */
+      /#post-superintelligence, /?fd=economic …) open the same place here, on load and when the hash changes. */
 (function () {
   var host = location.hostname;
   if (host === 'peterxing.github.io' && !/[?&]stay(=|&|$)/.test(location.search || '')) {
@@ -30,11 +29,6 @@
     var to = legacy(location.hash || '', location.search || '');
     if (to) location.replace(to);
   }
-  var onPeterxing = /(^|\.)peterxing\.com$/.test(host) || /post-agi-planning/.test(host);
-  if (onPeterxing && !location.hash && /^https:\/\/(www\.)?peterxing\.com\/(ai-timeline|game)(\.html)?([?#]|$)/.test(document.referrer || '')) {
-    location.replace('#/guide');
-  } else {
-    forward();
-  }
+  forward();
   window.addEventListener('hashchange', forward);
 })();

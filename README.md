@@ -20,8 +20,8 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
 - **Every episode** — the archive. The page checks for a new episode every ten minutes while it's open.
 - **The Guide** — *The Hitchhiker's Guide to the Singularity* on the same page (`#/guide`): its chapters, read in place
   (`#/guide/chapter-N`); the timeline year by year (`#/guide/2027`), each dated forecast with the Guide's odds, the year's
-  summary and the show's latest news against it; the undated horizons beyond the timeline with their prerequisites; two
-  companions (the AI 2027 vs AI 2040 timeline and the 3D campaign); and the author. The chapters, year summaries,
+  summary and the show's latest news against it; the undated horizons beyond the timeline with their prerequisites; and the
+  author. The chapters, year summaries,
   prerequisites and author notes are read live from the Guide's published page and data on the same origin
   (`/guide`, `/predictions.json` and `/author.json`), so they never go stale. The site no longer links to the legacy
   `/guide` page, but it is still the source of the chapter text, so it has to stay deployed. Elsewhere (the Pages copy)
@@ -49,8 +49,7 @@ peterxing.com is served by the [`post-agi-planning`](https://github.com/peterxin
 Routing Middleware (`middleware.ts`) serves this site at the bare domain, and `vercel.json` proxies `/daily` (an alias) and
 `/daily/*` here. Links made for the Guide's old homepage are handled by `daily/route.js`, which opens the same place on
 this page: `/#chapter-3` the chapter, `/#event-2027-1` the forecast in Predictions vs reality, `/#year-2030` that year of
-the timeline, `/#post-superintelligence` the horizons, `/?fd=economic` Predictions vs reality; visitors coming back from the
-AI timeline or the game land on the Guide section.
+the timeline, `/#post-superintelligence` the horizons, `/?fd=economic` Predictions vs reality.
 
 A second daily automation ("Singularity Daily — site sync", early afternoon Sydney time) is the safety net: it publishes
 any rendered episode the show's own run didn't, refreshes the forecast snapshot from the Guide (`publish.py sync`), and

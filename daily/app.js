@@ -7,7 +7,6 @@
   const onPeterxing = /(^|\.)peterxing\.com$/.test(host) || /post-agi-planning/.test(host);
   const sameAsPages = host.endsWith('github.io') || host === 'localhost' || host === '127.0.0.1' || location.protocol === 'file:';
   const MEDIA = sameAsPages ? '' : PAGES; // video and images come straight from GitHub Pages
-  const GUIDE_ROOT = onPeterxing ? '' : GUIDE;
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const REL = {
     supports: { label: 'Supports', icon: '▲' },
@@ -618,7 +617,9 @@
     let u;
     try { u = new URL(s, SITE); } catch (e) { return null; }
     if (u.protocol !== 'https:' && u.protocol !== 'http:') return null;
-    if (/^(www\.)?peterxing\.com$/.test(u.hostname) && /^\/guide\/?$/.test(u.pathname)) return legacy(u.hash, u.search);
+    const ours = /^(www\.)?peterxing\.com$/.test(u.hostname);
+    if (ours && /^\/guide\/?$/.test(u.pathname)) return legacy(u.hash, u.search);
+    if (ours && /^\/(ai-timeline|game)(\.html)?\/?$/.test(u.pathname)) return null; // pages this site doesn't link to: keep the words, drop the link
     return onPeterxing && u.origin === GUIDE ? `${u.pathname}${u.search}${u.hash}` : u.href;
   }
 
@@ -809,7 +810,6 @@
   }
 
   function wireStatic() {
-    document.querySelectorAll('[data-guide-path]').forEach(a => { a.href = `${GUIDE_ROOT}${a.dataset.guidePath}`; });
     $('btnPlay').addEventListener('click', () => {
       const v = $('video');
       $('player').scrollIntoView({ block: 'nearest' });
