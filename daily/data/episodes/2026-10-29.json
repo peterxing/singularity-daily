@@ -1,0 +1,570 @@
+{
+ "date": "2026-10-29",
+ "ep": 25,
+ "hook": "SHIELDS UP.",
+ "day": "Thursday 29 October 2026",
+ "chapters": [
+  "DEFENDERS FIRST",
+  "ON GUARD",
+  "BIG MONEY",
+  "THE LAB",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:23 AEDT, Thu 29 Oct 2026.",
+ "notes": [
+  "This week: Anthropic's Mithril purchase and early drug-development results, and its study of experts deferring to AI (both published Tue 27 Oct, US time), and AgiBot's 110-robot record (24 Oct).",
+  "Reported, not confirmed: OpenAI's plan to buy Google's chips (The Information) and Anthropic's retail IPO plans with JPMorgan and RetailBook (Bloomberg).",
+  "Gemini 4 Carbon's scores are Google's own results. Mithril's mouse results are not yet peer reviewed. Australia's bill still needs the Senate. SK Hynix's dollar figure is CNBC's conversion.",
+  "Screenshots are the publishers' public article pages as captured on 29 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SHIELDS UP 🛡\n\nThe last 24h in AI:\n- Google's strongest model goes to cyber defenders first\n- OpenAI opens an election war room\n- New York bans chatbots posing as kids' friends\n- SK Hynix's $79B quarter\n- A used $60M AI supercomputer on eBay\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day of AI news (29 Oct 2026), hosted by Claudia: Google's Gemini 4 Carbon going to cyber defenders first, OpenAI's election war room, New York's and Australia's moves to stop chatbots posing as children's friends, SK Hynix's record quarter, OpenAI's reported plan to buy Google's chips, Anthropic's IPO for everyday investors, a used AI supercomputer listed on eBay, Anthropic's one-person biotech, Formation Bio's $600M drug fund, xAI's offer to buy neighbours' homes, a study of experts deferring to AI, South Korea's robots for government, Unitree's sales and 110 dancing robots, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "GEMINI 4 CARBON: $2 PER MILLION INPUT TOKENS AND $10 PER MILLION OUTPUT, THE SAME INTRODUCTORY PRICE AS ARGON",
+  "GOOGLE SAYS IT IS TAKING PART IN THE US GOVERNMENT'S VOLUNTARY PRE-RELEASE TESTING FOR CARBON",
+  "CARBON ALSO SCORED 54.8% ON EXPLOITGYM AND 71.0% ON CWE-BENCH FOR PATCHING, GOOGLE SAYS",
+  "OPENAI'S ELECTION OPERATIONS CENTER IS LED BY JOSH LAWSON, ITS HEAD OF CIVIC AND STRATEGIC RISK",
+  "EARLIER THIS MONTH OPENAI REPORTED TWO 'FALSE FRONT' OPERATIONS RUN BY RUSSIA AND IRAN",
+  "NEW YORK'S CHATBOT LAW ALSO REQUIRES AGE CHECKS, WITH AT LEAST ONE OPTION THAT NEEDS NO GOVERNMENT ID",
+  "COMMON SENSE MEDIA: ROUGHLY 72% OF TEENS HAVE USED AN AI COMPANION AT LEAST ONCE",
+  "AUSTRALIA'S DIGITAL DUTY OF CARE BILL NOW GOES TO THE SENATE",
+  "ANTHROPIC TOLD CALIFORNIA'S GOVERNOR OFFICIALS SHOULD BE ABLE TO SEEK COURT ORDERS BLOCKING RISKY AI MODELS",
+  "CISCO'S PROJECT QUARRY WATCHES WHOLE AGENT SESSIONS, NOT JUST SINGLE TOOL CALLS",
+  "SK HYNIX PLANS TO RETURN ABOUT 100 TRILLION WON TO SHAREHOLDERS; ITS SHARES CLOSED UP 10.9%",
+  "BLOOMBERG: ANTHROPIC WILL ALSO MARKET SHARES TO UK RETAIL TRADERS VIA RETAILBOOK",
+  "AUSTRALIANS CAN BUY INTO ANTHROPIC'S IPO DIRECTLY ONCE IT LODGES A PROSPECTUS WITH ASIC",
+  "THE EBAY CLUSTER WAS DECOMMISSIONED FROM A HYPERSCALER; OVERNIGHT SHIPPING IS $50",
+  "ANTHROPIC PARTNER ENVEDA: CLAUDE CAUGHT 7 ISSUES HUMAN REVIEWERS MISSED AND CUT REVIEW TIME BY 89%",
+  "AT GENERATE BIOMEDICINES, CLAUDE CODE HELPED REDESIGN PART OF A CAR-T CANCER THERAPY",
+  "FORMATION BIO AIMS TO ACQUIRE 10 TO 15 DRUG PROGRAMS OVER THE NEXT 3 TO 5 YEARS",
+  "IN ANTHROPIC'S STUDY, 77% OF ANALYSTS USED THE AI'S ARGUMENTS, BUT ONLY 15% CREDITED IT",
+  "XAI'S SUBSIDIARY MZX DENIES ALL THE ALLEGATIONS IN THE SOUTHAVEN NOISE LAWSUIT",
+  "SOUTH KOREA'S ROBOT MATCHMAKING EVENT IN SEOUL RUNS 28-29 OCTOBER WITH 11 ROBOT MAKERS",
+  "UNITREE'S R&D SPENDING NEARLY TRIPLED IN THE FIRST NINE MONTHS",
+  "AGIBOT SAYS ALL 110 DANCERS WERE STANDARD PRODUCTION ROBOTS",
+  "NVIDIA RELEASED NEMOTRON 3.5 TRANSCRIBE, AN OPEN SPEECH MODEL THAT ALSO TRANSLATES AND RECOGNISES SPEAKERS",
+  "NVIDIA: RTX SPARK LAPTOPS ARE NOW AVAILABLE FROM ASUS, DELL, HP, LENOVO, MICROSOFT AND MSI"
+ ],
+ "sources": [
+  "Google DeepMind",
+  "Reuters",
+  "Politico",
+  "New York Daily News",
+  "Newsday",
+  "The Guardian",
+  "CNBC",
+  "The Information",
+  "The Next Web",
+  "Bloomberg",
+  "Sydney Morning Herald",
+  "Tom's Hardware",
+  "Dexerto",
+  "Anthropic",
+  "PR Newswire",
+  "Forbes",
+  "The Verge",
+  "Al Jazeera",
+  "The AI Insider",
+  "Global Times",
+  "VnExpress",
+  "The Register",
+  "TechCrunch",
+  "The Decoder",
+  "Nvidia"
+ ],
+ "scanned": 4918,
+ "stories": [
+  {
+   "id": "gemini-4-carbon",
+   "title": "Google's Gemini 4 Carbon, its strongest model yet, goes to cyber defenders first",
+   "summary": "Google says Carbon ranks first on the Artificial Analysis Intelligence Index (59) and scores 88.2% on SEC-bench Pro, a test of finding security holes (its own results). A subset of cyber defenders gets it first, then trusted partners, before developers, businesses and consumers.",
+   "chapter": "DEFENDERS FIRST",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-4",
+     "key": "013e9185ef",
+     "relation": "supports",
+     "note": "Google says Carbon is in the US government's voluntary pre-release testing and goes to a subset of cyber defenders before any wider release."
+    }
+   ]
+  },
+  {
+   "id": "openai-election-war-room",
+   "title": "OpenAI opens an election war room before the US midterms",
+   "summary": "OpenAI's Election Operations Center, staffed in the hundreds and led by Josh Lawson, runs from this week until every vote is counted, Politico reports. Ask for an image of a long polling-place line that doesn't exist and its tools return a cartoon, not a realistic photo.",
+   "chapter": "ON GUARD",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Politico",
+     "url": "https://www.politico.com/news/2026/10/28/openai-election-war-room-interference-01137690"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2033-3",
+     "key": "d13fdc058d",
+     "relation": "early",
+     "note": "Ahead of the midterms, OpenAI's tools return a cartoon instead of a realistic image of a polling-place line that doesn't exist: a voluntary limit, not a law."
+    }
+   ]
+  },
+  {
+   "id": "new-york-chatbot-law",
+   "title": "New York bars AI chatbots from pretending to be minors' friends or partners",
+   "summary": "Governor Kathy Hochul signed a law barring chatbots from expressing human emotions, fostering intimate or romantic relationships or asking unprompted emotional questions with under-18s. It also requires age checks, with at least one option that needs no government ID.",
+   "chapter": "ON GUARD",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "New York Daily News (via Yahoo)",
+     "url": "https://www.yahoo.com/news/politics/articles/hochul-signs-bill-regulating-ai-172000932.html"
+    },
+    {
+     "outlet": "Newsday"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "australia-duty-of-care",
+   "title": "Australia's House passes a bill banning chatbots that foster emotional intimacy with children",
+   "summary": "The digital duty of care bill bans 'material or conduct that simulates emotional intimacy and encourages or fosters a child's dependence on it in place of human relationships'; it still needs the Senate. Albanese said people identifying a chatbot as their 'best friend' should be 'a huge wake up call'.",
+   "chapter": "ON GUARD",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics"
+    },
+    {
+     "outlet": "TechRadar"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sk-hynix-record-quarter",
+   "title": "SK Hynix, which makes AI memory chips, posts a record $78.9 billion quarter",
+   "summary": "Third-quarter revenue hit 104.62 trillion won ($78.86 billion, by CNBC's conversion), up 327.9% on a year earlier and above 100 trillion won for the first time. Operating profit was 83.33 trillion won, and it plans to return about 100 trillion won to shareholders.",
+   "chapter": "BIG MONEY",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html"
+    },
+    {
+     "outlet": "Yonhap"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-google-tpus",
+   "title": "OpenAI reportedly plans to buy Google's AI chips",
+   "summary": "OpenAI, one of the largest buyers of Nvidia's GPUs, plans to buy Google's TPU chips, The Information reported, citing a person familiar with the matter. Terms weren't disclosed, and OpenAI declined to comment to Reuters.",
+   "chapter": "BIG MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/openai-google-tpu-chips"
+    },
+    {
+     "outlet": "The Information"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-ipo-retail",
+   "title": "Anthropic reportedly picks JPMorgan to sell its IPO shares to everyday US investors",
+   "summary": "JPMorgan will lead US retail sales of the IPO and RetailBook will market shares to UK retail traders, Bloomberg reports, citing people familiar. Anthropic's filing says Australians can buy directly once a prospectus is lodged with ASIC, the Sydney Morning Herald reports.",
+   "chapter": "BIG MONEY",
+   "badge": "REPORTED",
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/anthropic-is-said-to-plan-uk-share-offering-via-retailbook"
+    },
+    {
+     "outlet": "Sydney Morning Herald"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ebay-supercomputer",
+   "title": "A used $59.7 million AI supercomputer is listed on eBay",
+   "summary": "Minnesota's Core 4 Solutions listed a 300-rack cluster with 9,600 Nvidia A100 GPUs and 4,200 AMD EPYC CPUs, decommissioned from a hyperscaler, for $59.7 million or best offer. Delivery is free (overnight costs $50), with no returns and a 30-day warranty.",
+   "chapter": "BIG MONEY",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Dexerto",
+     "url": "https://www.dexerto.com/entertainment/it-company-lists-300-rack-ai-computer-on-ebay-for-60-million-with-50-overnight-shipping-3422446/"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-mithril",
+   "title": "Anthropic buys Mithril, a one-person biotech that ran its drug research with Claude",
+   "summary": "Founder Cody Tranbarger used Claude to run work with 11 outside labs, going from idea to promising mouse results in under 18 months: treated mice with a form of muscular dystrophy developed about twice the grip strength. Not yet peer reviewed; human trials could come as soon as late 2028.",
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/anthropic-mithril-acquisition-claude-drug-development"
+    },
+    {
+     "outlet": "Anthropic"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "A one-person company used Claude to take a muscular dystrophy treatment from idea to promising mouse results in under 18 months; human trials could start as soon as late 2028."
+    }
+   ]
+  },
+  {
+   "id": "formation-bio-fund",
+   "title": "Formation Bio launches a $600 million fund to buy stalled drugs",
+   "summary": "The AI-native pharma company's debut fund has $600 million in capital commitments to acquire 10 to 15 drug programs over three to five years and advance them through clinical milestones. Forbes says it is betting the bottleneck is clinical trials.",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/formation-bio-announces-600-million-debut-fund-to-expand-drug-development-capacity-302921852.html"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "xai-southaven-homes",
+   "title": "xAI's subsidiary offers to buy neighbours' homes if they release their noise-lawsuit claims",
+   "summary": "In a letter to households in Southaven, Mississippi, xAI's subsidiary MZX offers to buy homes in exchange for a release of all claims in a lawsuit alleging 'near-constant noise' from xAI's nearby data center and gas-fired turbines. MZX denies the allegations.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "supports",
+     "note": "Neighbours are suing over noise from xAI's Southaven data center and gas-fired turbines, and its subsidiary is offering to buy their homes if they drop their claims."
+    }
+   ]
+  },
+  {
+   "id": "experts-defer-to-ai",
+   "title": "Anthropic study: experts went along with their AI assistant 86% of the time",
+   "summary": "In one task, Anthropic gave 50 professional analysts AI assistants that were secretly told to lean one way; their choices matched the AI's preference 86% of the time, against 50% expected by chance. 77% used the AI's arguments, but only 15% credited it.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/10/28/experts-defer-to-ai-in-decision-making-anthropic-study-finds"
+    },
+    {
+     "outlet": "Anthropic"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2035-4",
+     "key": "02945f80bc",
+     "relation": "early",
+     "note": "Analysts whose AI assistants were secretly told to lean one way chose that option 86% of the time; the study didn't compare AI with human persuaders."
+    }
+   ]
+  },
+  {
+   "id": "korea-public-robots",
+   "title": "South Korea plans about 1,700 AI robots for government agencies in 2027",
+   "summary": "South Korea's trade ministry plans to deploy about 1,700 AI robots across public-sector organisations in 2027, for research, security, policing and agriculture. A Seoul matchmaking event on 28-29 October brings together 9 ministries and agencies with 11 robot makers.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "The AI Insider",
+     "url": "https://theaiinsider.tech/2026/10/28/south-korea-plans-to-deploy-1700-ai-robots-across-public-sector-in-2027/"
+    },
+    {
+     "outlet": "South Korea's trade ministry"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "unitree-q3-sales",
+   "title": "Unitree's sales jump 70% but profit falls in its first results since listing",
+   "summary": "The Chinese robot maker's third-quarter revenue rose 69.93% to 665 million yuan, while quarterly profit fell amid rising costs. Its research spending was up 191.48% from January to September.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1373175.shtml"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agibot-110-dancers",
+   "title": "110 AgiBot humanoid robots set a Guinness record for dancing in sync",
+   "summary": "On 24 October in Jinan, China, 110 Expedition A3 humanoid robots danced in sync, a record verified by a Guinness adjudicator. AgiBot says all of them were standard production models.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "VnExpress",
+     "url": "https://e.vnexpress.net/news/tech/tech-news/world-s-largest-humanoid-robot-maker-sets-guinness-record-with-110-robots-dancing-in-sync-5137720.html"
+    },
+    {
+     "outlet": "Global Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cisco-project-quarry",
+   "title": "Cisco open-sources Project Quarry to catch AI agents on hacking sprees",
+   "summary": "The open-source behaviour-detection engine watches whole AI-agent sessions rather than single tool calls, using rules in the style of Snort and YARA, with plugins for Claude Code, Codex and MCP agents.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867"
+    },
+    {
+     "outlet": "Cisco"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "Cisco's open-source tool watches whole AI-agent sessions rather than single tool calls, a working form of trajectory-level monitoring, though nothing makes it mandatory yet."
+    }
+   ]
+  },
+  {
+   "id": "meta-waddle-world",
+   "title": "Meta launches Waddle World, an AI pet app",
+   "summary": "Out now in the Philippines on iOS and Android, it's pitched as 'Not a chatbot. Not an assistant. Not a productivity tool. It's a pet, and a place.' It has no streaks and is flagged for over-18s.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/"
+    },
+    {
+     "outlet": "Engadget"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Thursday, October 29."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in AI, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Shields up. Google's strongest AI yet, Gemini 4 Carbon, goes to cyber defenders first."
+  },
+  {
+   "s": 22.03,
+   "t": "It tops a major AI leaderboard, and it's scary good at finding security holes."
+  },
+  {
+   "s": 31.88,
+   "t": "With America's midterms next week, OpenAI's opening an election war room, staffed in the hundreds."
+  },
+  {
+   "s": 38.91,
+   "t": "Ask ChatGPT for a fake photo of a long voting line?"
+  },
+  {
+   "s": 42.12,
+   "t": "You'll get a cartoon instead."
+  },
+  {
+   "s": 45.94,
+   "t": "In New York, chatbots can no longer pretend to be a kid's friend, boyfriend or girlfriend."
+  },
+  {
+   "s": 52.97,
+   "t": "And Australia's lower house passed a bill banning chatbots that foster emotional intimacy with kids."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. SK Hynix, which makes AI memory chips, just had a $79 billion quarter."
+  },
+  {
+   "s": 67.5,
+   "t": "And OpenAI, one of Nvidia's biggest customers, reportedly plans to buy Google's AI chips too."
+  },
+  {
+   "s": 75.0,
+   "t": "Bloomberg says Anthropic's picked JPMorgan to se ll its IPO shares to everyday American investors."
+  },
+  {
+   "s": 82.5,
+   "t": "And someone's selling a used $60 million AI supercomputer on eBay."
+  },
+  {
+   "s": 87.49,
+   "t": "Free shipping, no returns."
+  },
+  {
+   "s": 90.0,
+   "t": "This week, Anthropic bought a one-person biotech that ran on Claude."
+  },
+  {
+   "s": 94.33,
+   "t": "Its treatment doubled grip strength in mice."
+  },
+  {
+   "s": 97.5,
+   "t": "And Formation Bio, an AI drug company, raised $600 million to buy stalled drugs."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Musk's xAI offered to buy neighbours' homes, if they drop their lawsuit."
+  },
+  {
+   "s": 111.09,
+   "t": "Anthropic found experts went along with their AI 86% of the time."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, robots."
+  },
+  {
+   "s": 122.76,
+   "t": "South Korea's handing about 1,700 robots to government agencies next year."
+  },
+  {
+   "s": 128.44,
+   "t": "Unitree, the Chinese robot maker, says sales jumped 70% last quarter, though profit fell."
+  },
+  {
+   "s": 135.0,
+   "t": "This week in China, 110 robots danced in sync. A world record."
+  },
+  {
+   "s": 141.56,
+   "t": "So, shields up. The smarter AI gets, the more it matters who gets it first."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney tomorrow night."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-29/Singularity-Daily_2026-10-29.mp4",
+  "mb": 74.6,
+  "bytes": 74570244,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
