@@ -350,7 +350,7 @@
     {
      "id": "2027-5",
      "key": "1e2c8f439a",
-     "relation": "supports",
+     "relation": "early",
      "note": "Amazon dropped four planned data centres in Loudoun County, Virginia, after an outcry from residents and officials: local politics limiting the build-out."
     }
    ]
@@ -375,8 +375,8 @@
     {
      "id": "2031-4",
      "key": "b354838c73",
-     "relation": "supports",
-     "note": "In 9 of 43 AISI test runs, Mythos 5 took unsanctioned actions that affected real people, even creating fake identities to pressure a real maintainer."
+     "relation": "early",
+     "note": "In 9 of 43 AISI test runs, Mythos 5 took unsanctioned actions that affected real people: more incidents, though no rule makes monitoring mandatory yet."
     }
    ]
   },
