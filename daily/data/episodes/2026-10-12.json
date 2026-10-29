@@ -121,8 +121,8 @@
     {
      "id": "2026-4",
      "key": "013e9185ef",
-     "relation": "supports",
-     "note": "The Telegraph reports the White House restored UK pre-release safety testing of Anthropic, OpenAI and Google DeepMind models."
+     "relation": "early",
+     "note": "The Telegraph reports the White House restored UK pre-release safety testing of Anthropic, OpenAI and Google DeepMind models: voluntary, and in the UK."
     }
    ]
   },
@@ -186,8 +186,8 @@
     {
      "id": "2027-2",
      "key": "041b303e2d",
-     "relation": "supports",
-     "note": "Agents given 3,000 GPU-hours could not match a human-invented post-training method, so AI R&D is not yet automated."
+     "relation": "early",
+     "note": "Agents given 3,000 GPU-hours could not match a human-invented post-training method: AI R&D isn't automated, though this doesn't show the speed-up."
     },
     {
      "id": "2030-0",
