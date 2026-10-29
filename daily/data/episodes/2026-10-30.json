@@ -1,0 +1,540 @@
+{
+ "date": "2026-10-30",
+ "ep": 26,
+ "hook": "THE GAP IS CLOSING.",
+ "day": "Friday 30 October 2026",
+ "chapters": [
+  "OPEN SEASON",
+  "THE CHASERS",
+  "THE MONEY",
+  "THE RULEBOOK",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 05:17 AEDT, Fri 30 Oct 2026.",
+ "notes": [
+  "This week: the Kentucky humanist's AI exemption (Religion News Service, 26 Oct) and Rendezvous Robotics' $20M seed (announced Wed 28 Oct, US time).",
+  "Reported, not confirmed: DeepSeek and Moonshot training on GPT-6 Astra outputs (The Information, via Reuters).",
+  "Company claims: Mistral's benchmarks and Iluvatar's H200 comparison (its own demo). Alphabet's loss is an intraday figure from Thursday's US session (Yahoo Finance's ~$496B estimate). Cohere's figures are in Canadian dollars. GLM-5.3's attacks were controlled simulations.",
+  "Screenshots are the publishers' public article pages as captured on 30 Oct 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "THE GAP IS CLOSING 🏁\n\nThe last 24h in superintelligence:\n- Mistral's trillion-parameter model, free to download\n- China's Iluvatar says its chip matches Nvidia's H200\n- Canada buys into Cohere\n- Google's parent sheds nearly $500B\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (30 Oct 2026), hosted by Claudia: Mistral's free trillion-parameter model, China's Iluvatar chip claim, FuriosaAI's and Cohere's big rounds, a report that Chinese labs learned from GPT-6 Astra, Alphabet's selloff and Google Cloud's growth, Samsung's chip-shortage warning and a $2,000 graphics card, OpenAI's five-value Model Spec, China's typhoon-reading satellite AI, an open model's simulated cyberattacks, a humanist's AI exemption, AgiBot's Worken, Audi's humanoid test and self-assembling spacecraft, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "MISTRAL LARGE 4: 1 TRILLION PARAMETERS, 52 BILLION ACTIVE, TRAINED ON 3,800 NVIDIA GRACE BLACKWELL GPUS IN EUROPE",
+  "MISTRAL SAYS ML4 MATCHES CHINA'S GLM-5.3 WHILE USING 47% FEWER TOKENS PER TASK",
+  "ARTHUR MENSCH: AI SHOULD BE 'A TOOL FOR EMPOWERMENT, NOT DOMINANCE'",
+  "IRREGULAR: GLM-5.3 REFUSED NONE OF THE OFFENSIVE TASKS; GPT-6 ASTRA COMPLETED 9 OF 10 IN A SEPARATE TEST",
+  "COHERE COMMITS C$1.7 BILLION TO COMPUTE IN CANADA BY 2030 AND WILL KEEP ITS HQ THERE",
+  "COHERE'S C$35.7B ROUND WAS LED BY SCHWARZ GROUP, WITH NVIDIA BACK IN",
+  "ALPHABET: SEARCH REVENUE +12% TO $63.3B; CAPEX $51.4B; FREE CASH FLOW -$9.1B",
+  "SUNDAR PICHAI: GOOGLE'S QUERY GROWTH IS THE HIGHEST IN FIVE YEARS",
+  "GOOGLE CLOUD'S BACKLOG REACHED $561 BILLION",
+  "REUTERS: SAMSUNG'S QUARTERLY CHIP PROFIT JUMPED 15-FOLD",
+  "OPENAI'S MODEL SPEC NOW CALLS THE MODEL 'GPT' RATHER THAN 'THE ASSISTANT'",
+  "OPENAI ALSO PUBLISHED HOW IT DETECTS FRONTIER MODEL MISALIGNMENT",
+  "FENGYUN'S NEW STORM MODEL EXTENDS SEVERE-WEATHER WARNINGS TO FOUR HOURS AHEAD",
+  "AGIBOT ALSO LAUNCHED ITS G2 MAX INDUSTRIAL ROBOT; ITS 20,000TH ROBOT ROLLED OFF THE LINE LAST MONTH",
+  "RENDEZVOUS: 32 TILES WILL SELF-ASSEMBLE ON THE ISS IN A DECEMBER DEMO",
+  "THE GUARDIAN ON PRIME'S AI-MADE 'CASTLE WALLS': 'A VASELINE-SMEARED MESS'",
+  "GIZMODO: A UNITARIAN UNIVERSALIST WON A SIMILAR AI EXEMPTION EARLIER THIS YEAR",
+  "AUDI'S HUMANOID TEST RUNS IN A LAB IN INGOLSTADT, WITH ROBOTS FROM AGILE ROBOTS"
+ ],
+ "sources": [
+  "Mistral",
+  "TechCrunch",
+  "Fortune",
+  "Reuters",
+  "South China Morning Post",
+  "Bloomberg",
+  "The Globe and Mail",
+  "The Information",
+  "CNBC",
+  "IBTimes",
+  "Yahoo Finance",
+  "Tom's Hardware",
+  "OpenAI",
+  "Unite.AI",
+  "Global Times",
+  "Irregular",
+  "Gizmodo",
+  "Religion News Service",
+  "The Robot Report",
+  "Interesting Engineering",
+  "Via Satellite",
+  "The Guardian"
+ ],
+ "scanned": 4711,
+ "stories": [
+  {
+   "id": "mistral-large-4-open",
+   "title": "Mistral releases its trillion-parameter Large 4 model, free to download",
+   "summary": "Mistral put the weights of Large 4 ('Le Chonk': 1 trillion parameters, 52 billion active) on Hugging Face. It says the model tops open models on Artificial Analysis' Coding Agent Index; its VP of science calls it 'access that can't be cut off by definition'.",
+   "chapter": "OPEN SEASON",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+    },
+    {
+     "outlet": "Fortune"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-3",
+     "key": "013f852364",
+     "relation": "challenges",
+     "note": "A French lab put a trillion-parameter model, trained in its own European data centres, up for anyone to download: capability outside the US and Chinese firms."
+    }
+   ]
+  },
+  {
+   "id": "iluvatar-tiangai-300",
+   "title": "China's Iluvatar CoreX says its Tiangai 300 chip matches Nvidia's H200",
+   "summary": "Iluvatar CoreX says its new Tiangai 300 GPU matches Nvidia's H200 and beat it on multimodal tasks such as text-to-video, in its own demonstration in Shanghai, the South China Morning Post reports. No independent benchmark has been published.",
+   "chapter": "THE CHASERS",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "South China Morning Post (via MSN)",
+     "url": "https://www.msn.com/en-xl/technology/artificial-intelligence/ai-chipmaker-iluvatar-corex-says-new-gpu-matches-nvidia-s-h200-as-home-grown-push-accelerates/ar-AA2glFhL"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "furiosaai-2-9b",
+   "title": "South Korea's FuriosaAI quadruples its value to $2.9B as it chases Nvidia",
+   "summary": "FuriosaAI raised a Series D of 820 billion won (about $600 million) at a valuation of about $2.9 billion, four times its previous one, Bloomberg reports. The South Korean AI chipmaker turned down an acquisition offer from Meta in 2025.",
+   "chapter": "THE CHASERS",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Bloomberg (via The Edge Singapore)",
+     "url": "https://www.theedgesingapore.com/news/semiconductor/south-koreas-furiosaai-quadruples-value-us29-bil-nvidia-chase"
+    },
+    {
+     "outlet": "Chosun Ilbo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "canada-cohere-stake",
+   "title": "Canada takes a C$1.6B stake in Cohere: 'Cohere will stay Canadian'",
+   "summary": "Ottawa is putting C$1.6 billion into Cohere for an equity stake, in a round led by Schwarz Group that values the company at C$35.7 billion. 'Under this agreement, Cohere will stay Canadian,' said Prime Minister Mark Carney.",
+   "chapter": "THE CHASERS",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "The Globe and Mail",
+     "url": "https://www.theglobeandmail.com/business/article-ottawa-buys-stake-in-cohere-357-billion-in-new-financing/"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2029-5",
+     "key": "f0996ac5cc",
+     "relation": "early",
+     "note": "Canada's government is putting C$1.6B into Cohere for an equity stake: a sovereign AI stake, made to keep the company Canadian."
+    }
+   ]
+  },
+  {
+   "id": "deepseek-moonshot-gpt-6-astra",
+   "title": "DeepSeek and Moonshot reportedly trained their latest models on GPT-6 Astra's outputs",
+   "summary": "DeepSeek and Moonshot AI relied heavily on outputs from OpenAI's GPT-6 Astra to train their latest models, The Information reported, according to Reuters, which could not independently verify it.",
+   "chapter": "THE CHASERS",
+   "badge": "REPORTED",
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Reuters (via MSN)",
+     "url": "https://www.msn.com/en-ca/news/other/deepseek-moonshot-used-openai-s-gpt-6-astra-to-train-latest-models-the-information-reports/ar-AA2ghF3U"
+    },
+    {
+     "outlet": "The Information"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alphabet-search-cloud",
+   "title": "Alphabet sheds nearly $500B at one point as search slows, while Google Cloud doubles",
+   "summary": "Alphabet shares fell about 13% on Thursday, on track to erase about $496 billion in value (a Yahoo Finance estimate), after search ad revenue rose 12% to $63.3 billion, short of the roughly $65 billion expected. Google Cloud sales more than doubled, to $30.7 billion.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html"
+    },
+    {
+     "outlet": "IBTimes"
+    },
+    {
+     "outlet": "Yahoo Finance"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "Alphabet's capital spending reached $51.4B in a single quarter and its free cash flow turned negative: one company's build-out, still short of the threshold."
+    }
+   ]
+  },
+  {
+   "id": "samsung-shortage-2027",
+   "title": "Samsung says the AI memory chip shortage will get worse next year",
+   "summary": "Samsung expects the AI-driven memory chip shortage to deepen next year, Reuters reports, after a record quarter in which its chip profit jumped 15-fold.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Reuters (via MSN)",
+     "url": "https://www.msn.com/en-ca/money/general/samsung-sees-chip-shortage-worsening-but-keeps-investors-in-suspense-on-returns/ar-AA2giLZy"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-5",
+     "key": "1c46836730",
+     "relation": "early",
+     "note": "Samsung expects the AI-driven memory chip shortage to deepen next year: a physical production bottleneck."
+    }
+   ]
+  },
+  {
+   "id": "rtx-5080-2000",
+   "title": "Nvidia's RTX 5080 now sells for about $2,000, double its launch price",
+   "summary": "The RTX 5080 now sells for about $2,000 at most US retailers, double its $999 launch price and more than the RTX 5090 cost at launch, Tom's Hardware reports; Tech4Gamers ties the jump to memory shortages.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware"
+    },
+    {
+     "outlet": "Tech4Gamers"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-model-spec-five-values",
+   "title": "OpenAI rebuilds its Model Spec around five core values",
+   "summary": "OpenAI's updated Model Spec is built around five values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. It now calls the model 'GPT' rather than 'the assistant'.",
+   "chapter": "THE RULEBOOK",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/updated-model-spec"
+    },
+    {
+     "outlet": "Unite.AI"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "fengyun-typhoon-27-seconds",
+   "title": "China's Fengyun weather satellites get AI that sizes up a typhoon in 27 seconds",
+   "summary": "New AI models for China's Fengyun weather satellites, launched at a user conference in Changsha, analyse a typhoon in 27 seconds, every 15 minutes, and extend severe-storm warnings to four hours ahead, the China Meteorological Administration says.",
+   "chapter": "THE RULEBOOK",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1373201.shtml"
+    },
+    {
+     "outlet": "Pandaily"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "glm-5-3-cyberattacks",
+   "title": "Z.AI's open GLM-5.3 completes 3 of 13 simulated cyberattacks in tests",
+   "summary": "In controlled tests by Irregular, GLM-5.3 completed at least one attempt in 3 of 13 multi-stage cyberattack scenarios, the strongest result Irregular has recorded from an openly available model, and refused none of the offensive tasks, Reuters reports.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "The420.in",
+     "url": "https://the420.in/cyber-crime/chinese-ai-model-completes-complex-cyberattacks-in-controlled-tests-researchers-say/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "humanist-ai-exemption",
+   "title": "A humanist wins a religious exemption from using AI at work",
+   "summary": "David Durman, a research administrator at the University of Kentucky, was granted a religious accommodation under Title VII excusing him from using AI for his own tasks, believed to be a first for a humanist, Religion News Service reported.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-26",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/man-who-identifies-as-a-humanist-gets-religious-exemption-from-using-ai-at-work-2000832513"
+    },
+    {
+     "outlet": "Religion News Service"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agibot-worken",
+   "title": "AgiBot proposes the Worken, a unit for how much work robots really do",
+   "summary": "At its Innovation Day in Shanghai, AgiBot proposed the Worken: active robots × autonomous working hours × output efficiency. It also launched the G2 Max industrial robot, and says its 20,000th robot rolled off the line last month.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/"
+    },
+    {
+     "outlet": "Unite.AI"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "audi-humanoids",
+   "title": "Audi tests humanoid robots that sort and sequence car parts",
+   "summary": "Audi is testing mobile humanoid robots from Agile Robots that pick parts from containers and arrange them for assembly, in a lab in Ingolstadt, Interesting Engineering reports. It is a test, not a deployment.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Interesting Engineering (via MSN)",
+     "url": "https://www.msn.com/en-us/autos/general/audi-tests-mobile-humanoid-robots-that-could-take-over-parts-sorting-in-car-factories/ar-AA2gkCbv"
+    },
+    {
+     "outlet": "Driven Car Guide"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "Audi is testing Agile Robots' mobile humanoids for sequencing parts in a lab in Ingolstadt: a pilot, not yet live factory lines in the thousands."
+    }
+   ]
+  },
+  {
+   "id": "rendezvous-self-building-spacecraft",
+   "title": "Rendezvous Robotics raises $20M for spacecraft that build themselves in orbit",
+   "summary": "Rendezvous Robotics raised a $20M seed round, led by MaC Venture Capital and Toyota Ventures, for hexagonal tiles that latch together in orbit. A December demo on the ISS will join 32 tiles into a 3D structure; a 2028 mission will join seven into one spacecraft.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Via Satellite",
+     "url": "https://www.satellitetoday.com/finance/2026/10/28/rendezvous-robotics-shifts-focus-to-spacecraft-that-autonomously-build-themselves-in-orbit/"
+    },
+    {
+     "outlet": "The AI Insider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "castle-walls-ai-series",
+   "title": "Prime Video's Castle Walls, billed as the first end-to-end AI series, gets panned",
+   "summary": "The Turkish series is billed as the first end-to-end AI-created show on a major streaming service. The Guardian's review calls it 'a Vaseline-smeared mess'.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/tv-and-radio/2026/oct/29/castle-walls-review-prime-first-fully-ai-generated-tv-show"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "serval-3b",
+   "title": "Serval triples its valuation to $3B with a $150M Sequoia-led round",
+   "summary": "Serval, which uses AI agents to automate IT and workflow tasks, raised $150 million in a Sequoia-led round at a $3 billion valuation, Reuters reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Reuters (via MSN)",
+     "url": "https://www.msn.com/en-ca/money/technology/serval-triples-valuation-to-3-billion-as-businesses-adopt-ai-workflow-automation/ar-AA2gkQkz"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Friday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "The gap is closing."
+  },
+  {
+   "s": 16.25,
+   "t": "France's Mistral just put its trillion-parameter AI model online, free to download."
+  },
+  {
+   "s": 22.03,
+   "t": "Mistral calls it the best open coding model. And nobody can cut it off."
+  },
+  {
+   "s": 31.88,
+   "t": "In China, chipmaker Iluvatar says its newest chip matches Nvidia's H200, in its own demo."
+  },
+  {
+   "s": 38.91,
+   "t": "In Korea, FuriosaAI, which once turned down Meta, quadrupled its value to $2.9 billion."
+  },
+  {
+   "s": 45.94,
+   "t": "Canada's buying into Cohere, its own AI champion."
+  },
+  {
+   "s": 49.24,
+   "t": "'Cohere will stay Canadian,' says Mark Carney."
+  },
+  {
+   "s": 52.97,
+   "t": "And reportedly, China's DeepSeek and Moonshot trained their new models on answers from OpenAI's GPT-6 Astra."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. Google's parent shed nearly half a trillion dollars at one point Thursday, as search slowed."
+  },
+  {
+   "s": 67.5,
+   "t": "The bright side? Google's cloud business more than doubled, to almost $31 billion in a quarter."
+  },
+  {
+   "s": 75.0,
+   "t": "And Samsung, fresh off a record quarter, says the AI memory chip shortage will get worse next year."
+  },
+  {
+   "s": 82.5,
+   "t": "Gamers feel it. Nvidia's RTX 5080 now sells for about $2,000, double its launch price."
+  },
+  {
+   "s": 90.0,
+   "t": "OpenAI updated the rulebook for how its models behave: five values, starting with doing what people actually mean."
+  },
+  {
+   "s": 97.5,
+   "t": "And in China, new AI models read weather satellite images, sizing up a typhoon in 27 seconds."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch?"
+  },
+  {
+   "s": 105.64,
+   "t": "An open Chinese model pulled off three of thirteen simulated cyberattacks."
+  },
+  {
+   "s": 111.09,
+   "t": "This week, a humanist won a religious exemption from using AI at work."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, robots. AgiBot wants robot work measured in a new unit it calls the Worken."
+  },
+  {
+   "s": 128.44,
+   "t": "And Audi's testing humanoid robots that pi ck car parts and line them up for assembly."
+  },
+  {
+   "s": 135.0,
+   "t": "This week, Rendezvous Robotics raised $20 million for spacecraft that build themselves in orbit."
+  },
+  {
+   "s": 141.56,
+   "t": "So, the gap is closing. And when everyone can catch up, the future arrives for all of us, faster."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Join Peter Xing live in Sydney tonight."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-30/Singularity-Daily_2026-10-30.mp4",
+  "mb": 72.9,
+  "bytes": 72941717,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
