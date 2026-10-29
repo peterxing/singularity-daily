@@ -189,8 +189,8 @@
     {
      "id": "2027-5",
      "key": "1e2c8f439a",
-     "relation": "supports",
-     "note": "San Francisco and Oakland paused new data centres for 45 days amid worries over power bills and the environment."
+     "relation": "early",
+     "note": "San Francisco and Oakland paused new data centres for 45 days amid worries over power bills and the environment: a local pause, not yet a national constraint."
     }
    ]
   },
