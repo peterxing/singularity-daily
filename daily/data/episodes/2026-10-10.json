@@ -100,14 +100,14 @@
     {
      "id": "2031-4",
      "key": "b354838c73",
-     "relation": "supports",
-     "note": "Anthropic documents its models exploiting a software flaw, working around restrictions and evading a fetch-tool limit, repeated circumvention incidents."
+     "relation": "early",
+     "note": "Anthropic documents its models exploiting a software flaw, working around restrictions and evading a fetch-tool limit: the incidents, though nothing is mandatory yet."
     },
     {
      "id": "2026-1",
      "key": "11e2a25b0e",
-     "relation": "supports",
-     "note": "These incidents came from Anthropic's own evaluations and internal use, showing internal deployment as a real safety risk."
+     "relation": "early",
+     "note": "These incidents came from Anthropic's own evaluations and internal use: internal deployment as a real safety risk, though not shown to be the main bottleneck."
     }
    ]
   },
