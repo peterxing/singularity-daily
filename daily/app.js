@@ -439,9 +439,9 @@
     const many = (k, one, more) => (k === 1 ? one : more);
     const tiles = [
       h('div', { class: 'tile hot' }, h('b', { text: `${t.withNews}/${live.length}` }), h('span', { text: 'live forecasts with news in the show' })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.supports) }), h('span', { text: many(t.supports, 'piece of evidence for one', 'pieces of evidence for one') })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.supports) }), h('span', { text: many(t.supports, 'story is evidence for a forecast', 'stories are evidence for a forecast') })),
       h('div', { class: 'tile' }, h('b', { text: String(t.early) }), h('span', { text: many(t.early, 'early sign', 'early signs') })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.challenges) }), h('span', { text: many(t.challenges, 'piece of evidence against one', 'pieces of evidence against one') })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.challenges) }), h('span', { text: many(t.challenges, 'story is evidence against one', 'stories are evidence against one') })),
     ];
     const doms = Object.keys(state.preds.domains || {}).map(d => {
       const all = live.filter(p => p.d === d);
