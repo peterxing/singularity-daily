@@ -220,8 +220,8 @@
     {
      "id": "2026-4",
      "key": "013e9185ef",
-     "relation": "supports",
-     "note": "Anthropic offers Mythos 5.1 to security teams only through a verified, three-tier access program, a cyber-gated model release."
+     "relation": "early",
+     "note": "Anthropic offers Mythos 5.1 to security teams only through a verified, three-tier access program: one lab's own pre-release gate, not a US or EU standard."
     }
    ]
   },
@@ -534,8 +534,8 @@
     {
      "id": "2027-5",
      "key": "1e2c8f439a",
-     "relation": "supports",
-     "note": "Google is locking in 3,590 MW, including 890 MW of new nuclear from 2028, a sign of how much grid power AI build-outs now need."
+     "relation": "early",
+     "note": "Google is locking in 3,590 MW, including 890 MW of new nuclear from 2028: AI's power needs at grid scale, though not yet a political constraint."
     }
    ]
   },
@@ -573,14 +573,7 @@
      "outlet": "NBC News"
     }
    ],
-   "predictions": [
-    {
-     "id": "2026-2",
-     "key": "101bd5ff4a",
-     "relation": "supports",
-     "note": "The record came as Nvidia moved closer to becoming the first $6 trillion company, an AI infrastructure firm at multi-trillion scale."
-    }
-   ]
+   "predictions": []
   }
  ],
  "transcript": [
