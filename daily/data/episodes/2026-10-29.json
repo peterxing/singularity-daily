@@ -97,8 +97,8 @@
     {
      "id": "2026-4",
      "key": "013e9185ef",
-     "relation": "supports",
-     "note": "Google says Carbon is in the US government's voluntary pre-release testing and goes to a subset of cyber defenders before any wider release."
+     "relation": "early",
+     "note": "Google says Carbon is in the US government's voluntary pre-release testing and goes to cyber defenders first: voluntary in the US, not yet a standard."
     }
    ]
   },
@@ -301,8 +301,8 @@
     {
      "id": "2027-5",
      "key": "1e2c8f439a",
-     "relation": "supports",
-     "note": "Neighbours are suing over noise from xAI's Southaven data center and gas-fired turbines, and its subsidiary is offering to buy their homes if they drop their claims."
+     "relation": "early",
+     "note": "Neighbours are suing over noise from xAI's Southaven data center and turbines, and its subsidiary offers to buy their homes: a local fight, not yet national."
     }
    ]
   },
