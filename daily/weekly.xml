@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>The Singularity Daily · The week in the forecasts</title>
+  <link>https://peterxing.com/#/weekly</link>
+  <description>Every Friday: three developments that changed the outlook for the forecasts in The Hitchhiker's Guide to the Singularity, and one practical implication.</description>
+  <language>en-au</language>
+  <item>
+   <title>The week in the forecasts · 30 Oct 2026</title>
+   <link>https://peterxing.com/#/weekly/2026-10-30</link>
+   <guid isPermaLink="false">singularity-daily-weekly-2026-10-30</guid>
+   <pubDate>Fri, 30 Oct 2026 12:00:00 +1100</pubDate>
+   <description>&lt;p&gt;&lt;b&gt;Hassabis puts human-level AI two to three years out&lt;/b&gt; Google DeepMind&amp;#x27;s Demis Hassabis says he is &amp;#x27;updating nearer and nearer&amp;#x27;, but still expects human-level AGI in two to three years. That cuts against the Guide&amp;#x27;s boldest call, genuine human-level AGI by the end of 2026, now at 55% with two months left. (Forecast: Dec 2026, Signal: my call — genuine human-level AGI ships by end of 2026.)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Humanoid robots are still in pilots with two months to go&lt;/b&gt; Agility&amp;#x27;s Digit robots head to two more GXO warehouses after moving 100,000+ totes, Audi is testing humanoids in a lab and about 1,000 competed in Shanghai. Real progress, but pilots and demos: nothing in the show&amp;#x27;s news is near thousands on live factory lines by December. (Forecast: Oct 2026, Humanoid robots move onto live factory lines in the thousands, but remain far short of general physical labor.)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Data centres turn into a voter issue&lt;/b&gt; A CNBC survey found broad opposition among US voters to AI data centres near them, even among Trump&amp;#x27;s own voters, the same week Amazon dropped four planned Northern Virginia sites after local pushback. Still local fights, but edging toward the national constraint the Guide expects by 2027. (Forecast: Jul 2027, Datacenter power, water and grid capacity become top-tier infrastructure and political constraints.)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Plan for software agents before robots or AGI&lt;/b&gt; This week&amp;#x27;s news points to the next year&amp;#x27;s change coming from software agents doing hours of computer work under review, not from humanoid robots or a sudden AGI. A practical step: pick one multi-hour computer task in your own work, try an agent on it with a person checking every result, and note where it fails.&lt;/p&gt;</description>
+  </item>
+ </channel>
+</rss>

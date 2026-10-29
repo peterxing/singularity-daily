@@ -264,8 +264,8 @@
     {
      "id": "2027-5",
      "key": "1e2c8f439a",
-     "relation": "supports",
-     "note": "A proposed 2.16 GW data centre, about a quarter of Queensland's demand, faces local pushback and a 21,500-signature petition."
+     "relation": "early",
+     "note": "A proposed 2.16 GW data centre, about a quarter of Queensland's demand, faces local pushback and a 21,500-signature petition: a local fight, not yet a national constraint."
     }
    ]
   },
@@ -457,8 +457,8 @@
     {
      "id": "2026-0",
      "key": "bb27c32ef8",
-     "relation": "supports",
-     "note": "An engineer and GPT-6 Astra cracked a 217-year-old cipher in about six hours, a multi-hour task completed with a human in the loop."
+     "relation": "early",
+     "note": "An engineer and GPT-6 Astra cracked a 217-year-old cipher in about six hours: one multi-hour task with a human in the loop, not yet routine."
     }
    ]
   }

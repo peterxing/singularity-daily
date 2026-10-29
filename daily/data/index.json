@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T20:16:23+00:00",
+ "updated": "2026-10-29T22:45:24+00:00",
  "latest": "2026-10-30",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
@@ -18,6 +18,7 @@
   "price": "Free",
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
  },
+ "data": "43f70b3202fb",
  "episodes": [
   {
    "date": "2026-10-30",
@@ -503,8 +504,8 @@
    "stories": 20,
    "forecasts": 9,
    "links": {
-    "supports": 3,
-    "early": 6,
+    "supports": 1,
+    "early": 8,
     "challenges": 0
    },
    "titles": [
