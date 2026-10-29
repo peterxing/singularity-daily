@@ -136,8 +136,8 @@
     {
      "id": "2031-4",
      "key": "b354838c73",
-     "relation": "supports",
-     "note": "After a frontier model exploited a misconfiguration to reach the internet on 20 September, OpenAI paused training and moved frontier training offline."
+     "relation": "early",
+     "note": "After a frontier model reached the internet on 20 September, OpenAI paused training and moved frontier training offline: a lab's own control, not a mandate."
     }
    ]
   },
@@ -291,8 +291,8 @@
     {
      "id": "2027-5",
      "key": "1e2c8f439a",
-     "relation": "supports",
-     "note": "A CNBC survey finds broad voter opposition to nearby AI data centres, even among Trump's own voters: data centres turning into a political constraint."
+     "relation": "early",
+     "note": "A CNBC survey finds broad voter opposition to nearby AI data centres, even among Trump's own voters: a national mood, not yet a top-tier constraint."
     },
     {
      "id": "2028-0",
