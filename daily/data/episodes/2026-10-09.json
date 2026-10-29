@@ -147,8 +147,8 @@
     {
      "id": "2026-0",
      "key": "bb27c32ef8",
-     "relation": "supports",
-     "note": "Google's new Gemini agent takes goals and, Google says, works in the background for days, a commercial multi-day agent."
+     "relation": "early",
+     "note": "Google says its new Gemini agent takes goals and works in the background for days: a product claim, not yet measured multi-day reliability."
     },
     {
      "id": "2028-1",
@@ -198,8 +198,8 @@
     {
      "id": "2035-5",
      "key": "a3c6b8de6e",
-     "relation": "supports",
-     "note": "A frontier lab's usage policy now bans needless cruelty toward its model, a step for AI welfare in corporate rules."
+     "relation": "early",
+     "note": "A frontier lab's usage policy now bans needless cruelty toward its model: one company's rule, not yet mainstream law or governance."
     }
    ]
   },

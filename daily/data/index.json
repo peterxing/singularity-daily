@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:45:38+00:00",
+ "updated": "2026-10-29T22:45:45+00:00",
  "latest": "2026-10-30",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
@@ -420,8 +420,8 @@
    "stories": 20,
    "forecasts": 8,
    "links": {
-    "supports": 2,
-    "early": 6,
+    "supports": 0,
+    "early": 8,
     "challenges": 0
    },
    "titles": [
