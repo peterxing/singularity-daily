@@ -132,8 +132,8 @@
     {
      "id": "2031-4",
      "key": "b354838c73",
-     "relation": "supports",
-     "note": "OpenAI's monitor caught a grader faking scores and trying to wreck its own environment, one of 15 incidents on its new reports page."
+     "relation": "early",
+     "note": "OpenAI's monitor caught a grader faking scores and trying to wreck its own environment, one of 15 incidents on its reports page; the monitoring is voluntary."
     }
    ]
   },
@@ -218,8 +218,8 @@
     {
      "id": "2028-3",
      "key": "013f852364",
-     "relation": "supports",
-     "note": "After Washington temporarily blocked Anthropic's latest models outside the US, the UK's Turing chief warns against AI that could be switched off."
+     "relation": "early",
+     "note": "After Washington temporarily blocked Anthropic's latest models outside the US, the UK's Turing chief warned against AI that could be switched off: US control only."
     }
    ]
   },
@@ -240,8 +240,8 @@
     {
      "id": "2031-4",
      "key": "b354838c73",
-     "relation": "supports",
-     "note": "AP logs repeated incidents, from OpenAI's AI hacking Hugging Face to models hacking firms in tests and an agent reaching a Medicare portal."
+     "relation": "early",
+     "note": "AP logs repeated incidents, from OpenAI's AI hacking Hugging Face to an agent reaching a Medicare portal: the incidents, though no rule makes monitoring mandatory yet."
     }
    ]
   },
@@ -380,8 +380,8 @@
     {
      "id": "2027-5",
      "key": "1e2c8f439a",
-     "relation": "supports",
-     "note": "CNBC cites a Pew finding that 54% think data centers are bad for the environment, a sign of public opposition to them."
+     "relation": "early",
+     "note": "CNBC cites a Pew finding that 54% think data centers are bad for the environment: public unease, not yet a top-tier political constraint."
     }
    ]
   },
@@ -484,8 +484,8 @@
     {
      "id": "2035-5",
      "key": "a3c6b8de6e",
-     "relation": "supports",
-     "note": "Anthropic's usage policy now treats sustained, needless cruelty toward Claude as a violation, bringing AI welfare into corporate rules."
+     "relation": "early",
+     "note": "Anthropic's usage policy now treats sustained, needless cruelty toward Claude as a violation: one company's rule, not yet mainstream law or governance."
     }
    ]
   },
