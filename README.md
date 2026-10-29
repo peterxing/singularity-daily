@@ -1,6 +1,6 @@
 # The Singularity Daily
 
-**The last 24 hours in AI, in three minutes, every day** — with every story checked against the forecasts in
+**The last 24 hours in superintelligence, in three minutes, every day** — with every story checked against the forecasts in
 [*The Hitchhiker's Guide to the Singularity*](https://peterxing.com/#/guide), which lives on the same site.
 
 **Watch:** [peterxing.com](https://peterxing.com) · [RSS](https://peterxing.github.io/singularity-daily/daily/feed.xml) · [every episode as a release](https://github.com/peterxing/singularity-daily/releases)
