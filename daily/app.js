@@ -8,16 +8,25 @@
   const sameAsPages = host.endsWith('github.io') || host === 'localhost' || host === '127.0.0.1' || location.protocol === 'file:';
   const MEDIA = sameAsPages ? '' : PAGES; // video and images come straight from GitHub Pages
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const LONG_MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const REL = {
-    supports: { label: 'Supports', icon: '▲' },
+    supports: { label: 'Evidence for', icon: '▲' },
     early: { label: 'Early sign', icon: '◆' },
-    challenges: { label: 'Challenges', icon: '▼' },
+    challenges: { label: 'Evidence against', icon: '▼' },
+  };
+  const VERDICT = {
+    right: { label: 'Right', icon: '✓', many: 'right' },
+    partly: { label: 'Partly right', icon: '◐', many: 'partly right' },
+    wrong: { label: 'Wrong', icon: '✗', many: 'wrong' },
+    open: { label: 'Not settled yet', icon: '…', many: 'not settled yet' },
+    pending: { label: 'Awaiting a verdict', icon: '?', many: 'awaiting a verdict' },
   };
   const SYNC_MS = 10 * 60 * 1000;
 
   const state = {
-    index: null, preds: null, tracker: null, byId: new Map(), byKey: new Map(), episodes: new Map(),
-    current: null, lastSync: 0, filters: { q: '', domain: 'all', rel: 'all', sort: 'latest', quiet: false },
+    index: null, preds: null, tracker: null, byId: new Map(), byKey: new Map(), order: new Map(), episodes: new Map(),
+    score: { tests: {}, due: [], soon: [] }, dueIds: new Set(), revs: { items: [] }, weekly: { items: [] },
+    current: null, lastSync: 0, filters: { q: '', domain: 'all', rel: 'all', view: 'year' },
   };
 
   const $ = id => document.getElementById(id);
@@ -49,18 +58,43 @@
     if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
     return r.json();
   }
+  // The scorecard, the revision log and the weekly digest are extras: the show works without them.
+  const getOptional = path => getJSON(path).catch(() => null);
 
   // ------------------------------------------------------------------ forecasts
   function setPreds(preds) {
     state.preds = preds;
     state.byId = new Map(preds.items.map(p => [p.id, p]));
     state.byKey = new Map(preds.items.map(p => [p.key, p]));
+    state.order = new Map(preds.items.map((p, i) => [p.id, i]));
   }
+  function setExtras(score, revs, weekly) {
+    state.score = score && Array.isArray(score.due) ? score : { tests: {}, due: [], soon: [] };
+    state.score.tests = state.score.tests || {};
+    state.score.soon = state.score.soon || [];
+    state.score.due = state.score.due.filter(d => state.byId.has(d.id));
+    state.dueIds = new Set(state.score.due.map(d => d.id));
+    state.revs = revs && Array.isArray(revs.items) ? revs : { items: [] };
+    state.weekly = weekly && Array.isArray(weekly.items) ? weekly : { items: [] };
+  }
+  const isDue = p => state.dueIds.has(p.id);
+  const liveItems = () => state.preds.items.filter(p => !isDue(p));
+  const verdictOf = p => (state.score.due.find(d => d.id === p.id) || {}).verdict || 'pending';
   const resolve = link => state.byKey.get(link.key) || state.byId.get(link.id);
+  const ymLabel = (s, withYear = true) => { const [y, m] = s.split('-').map(Number); return withYear ? `${MONTHS[m - 1]} ${y}` : MONTHS[m - 1]; };
   const when = p => (p.kind === 'horizon' ? 'Undated' : p.m ? `${MONTHS[p.m - 1]} ${p.year}` : String(p.year));
+  const spread = p => (p.kind === 'dated' && p.band ? `±${p.band} mo` : '');
+  const windowText = p => {
+    if (!p.win) return String(p.year || '');
+    const [a, b] = p.win;
+    return `${ymLabel(a, a.slice(0, 4) !== b.slice(0, 4))}–${ymLabel(b)}`;
+  };
   const odds = p => (p.kind === 'horizon' ? `${p.cond}% conditional` : `${p.prob}%`);
   const domainName = d => (state.preds.domains && state.preds.domains[d]) || d;
   const relPill = (rel, extra) => h('span', { class: `rel ${rel}` }, h('span', { 'aria-hidden': 'true' }, REL[rel].icon), extra != null ? extra : REL[rel].label);
+  const verdictPill = v => h('span', { class: `verdict ${v}` }, h('span', { 'aria-hidden': 'true', text: VERDICT[v].icon }), VERDICT[v].label);
+  const forecastHref = p => (isDue(p) ? `#/scorecard/${p.id}` : `#/forecasts/${p.id}`);
+  const dayMonthYear = iso => fmt(iso, { day: 'numeric', month: 'short', year: 'numeric' });
 
   // ------------------------------------------------------------------ episode
   async function showEpisode(date) {
@@ -112,7 +146,7 @@
     if (t.length) {
       touch.hidden = false;
       touch.replaceChildren(h('span', { class: 'label', text: 'Moves' }),
-        ...t.slice(0, 3).map(({ p, rel }) => h('a', { class: 'chip', href: `#/forecasts/${p.id}`, title: `${REL[rel].label}: ${p.t}` },
+        ...t.slice(0, 3).map(({ p, rel }) => h('a', { class: 'chip', href: forecastHref(p), title: `${REL[rel].label}: ${p.t}` },
           relPill(rel, ''), h('span', { class: 't', text: `${when(p)}: ${p.t}` }))),
         t.length > 3 ? h('a', { class: 'chip', href: '#/stories' }, h('span', { class: 't', text: `+${t.length - 3} more in the stories` })) : null);
     } else touch.hidden = true;
@@ -220,17 +254,178 @@
       h('h4', { text: s.title }),
       s.summary ? h('p', { text: s.summary }) : null,
       sources,
-      links.length ? h('div', { class: 'links' }, links.map(({ l, p }) => h('a', { class: 'link', href: `#/forecasts/${p.id}` },
+      links.length ? h('div', { class: 'links' }, links.map(({ l, p }) => h('a', { class: 'link', href: forecastHref(p) },
         relPill(l.relation),
-        h('span', { class: 'f' }, clip(p.t, 140), h('small', { text: `${when(p)} · ${odds(p)} · ${domainName(p.d)}` })),
+        h('span', { class: 'f' }, clip(p.t, 140), h('small', { text: `${when(p)} · ${odds(p)} · ${domainName(p.d)}${isDue(p) ? ` · judged: ${VERDICT[verdictOf(p)].label.toLowerCase()}` : ''}` })),
         h('span', { class: 'why', text: l.note })))) : null);
   }
 
-  // ------------------------------------------------------------------ predictions vs reality
+  // ------------------------------------------------------------------ start here
+  function renderStart() {
+    const e = state.index.episodes[0];
+    $('startWatchT').textContent = `EP.${pad3(e.ep)} · ${e.hook || shortDay(e.date)}`;
+    const due = state.score.due, n = k => due.filter(d => d.verdict === k).length;
+    $('startScoreK').textContent = due.length ? `Is it holding up? · ${due.length} due so far` : 'Is it holding up?';
+    $('startScoreT').textContent = due.length ? `${n('right')} right · ${n('partly')} partly · ${n('wrong')} wrong` : 'Nothing has fallen due yet';
+  }
+
+  // ------------------------------------------------------------------ the week in the forecasts
+  function renderWeekly() {
+    const weeks = state.weekly.items, sec = $('weekly');
+    if (!weeks.length) { sec.hidden = true; return; }
+    sec.hidden = false;
+    const w = weeks[0];
+    $('weeklyKicker').textContent = `The week in the forecasts · ${fmt(w.date, { day: 'numeric', month: 'long', year: 'numeric' })}`;
+    $('weeklyList').replaceChildren(...w.developments.map((x, i) => weekItem(x, i)));
+    $('weeklyImp').replaceChildren(h('span', { class: 'lab mono', text: 'One practical implication' }), h('h3', { text: w.implication.title }), h('p', { text: w.implication.text }));
+    const past = weeks.slice(1);
+    $('weeklyPast').hidden = !past.length;
+    $('weeklyPastList').replaceChildren(...past.map(pw => h('li', { id: `w-${pw.date}` },
+      h('b', { text: fmt(pw.date, { day: 'numeric', month: 'long', year: 'numeric' }) }),
+      h('ol', null, pw.developments.map(x => h('li', null, h('a', { href: `#/ep/${x.on}/${x.story}`, text: x.title })))),
+      h('p', null, h('span', { class: 'lab mono', text: 'Implication ' }), pw.implication.title))));
+  }
+  function weekItem(x, i) {
+    const p = state.byId.get(x.forecast);
+    return h('li', { class: 'wk-i' },
+      h('span', { class: 'n mono', text: String(i + 1).padStart(2, '0') }),
+      h('div', null,
+        h('h3', { text: x.title }),
+        h('p', { text: x.text }),
+        h('div', { class: 'wk-m' },
+          h('a', { href: `#/ep/${x.on}/${x.story}`, text: `EP.${pad3(x.ep)} · ${short(x.on)}` }),
+          x.url ? h('a', { href: x.url, target: '_blank', rel: 'noopener', text: `${x.outlet || 'Source'} ↗` }) : null,
+          p ? h('a', { class: 'wk-f', href: forecastHref(p), text: `${when(p)} · ${odds(p)}: ${clip(p.t, 90)}` }) : null)));
+  }
+  function openWeek(date) {
+    if (!state.weekly.items.length) return $('weekly');
+    if (state.weekly.items[0].date === date) return $('weekly');
+    const el = $(`w-${date}`);
+    if (!el) return $('weekly');
+    $('weeklyPast').open = true;
+    flash(el);
+    return el;
+  }
+
+  // ------------------------------------------------------------------ what it got right or wrong
   function trackerFor(id) { return state.tracker.forecasts[id]; }
-  function totals() {
+
+  function renderScorecard() {
+    const due = state.score.due, n = k => due.filter(d => d.verdict === k).length;
+    const kinds = ['right', 'partly', 'wrong', 'open', 'pending'].filter(k => k !== 'pending' || n(k));
+    const soonIds = state.score.soon.filter(id => state.byId.has(id));
+    const next = soonIds.length ? state.byId.get(soonIds[0]) : null;
+    $('verdictTally').replaceChildren(...(due.length ? kinds.map(k => h('div', { class: `vt ${k}` }, h('b', { text: String(n(k)) }), h('span', { text: VERDICT[k].many }))) : []),
+      h('p', { class: 'vt-note mono', text: `${due.length} of ${state.preds.items.filter(p => p.kind === 'dated').length} dated forecasts have fallen due so far${next ? ` · next: ${soonIds.length} with a best guess of ${when(next)}${soonIds.length > 1 && when(state.byId.get(soonIds[soonIds.length - 1])) !== when(next) ? ` to ${when(state.byId.get(soonIds[soonIds.length - 1]))}` : ''}` : ''}` }));
+    $('verdictList').replaceChildren(...due.map(verdictCard));
+    if (!due.length) $('verdictList').append(h('li', { class: 'empty', text: 'No forecast has fallen due yet.' }));
+    renderSoon(soonIds);
+    renderRevisions();
+  }
+
+  function verdictCard(d) {
+    const p = state.byId.get(d.id), test = (state.score.tests[d.id] || {}).test, r = trackerFor(p.id);
+    const row = (label, ...kids) => h('div', { class: 'vc-row' }, h('span', { class: 'lab mono', text: label }), h('div', null, ...kids));
+    const news = r ? h('details', { class: 'vc-news' }, h('summary', { text: `${r.items.length} ${r.items.length === 1 ? 'story' : 'stories'} in the show on this forecast` })) : null;
+    if (news) news.addEventListener('toggle', () => { if (news.open && !news.dataset.filled) { news.dataset.filled = '1'; news.append(trail(r)); } });
+    return h('li', { class: `vc ${d.verdict}`, id: `v-${p.id}` },
+      h('div', { class: 'vc-top' },
+        verdictPill(d.verdict),
+        h('span', { class: 'vc-when mono', text: `Best guess ${when(p)} · window ${windowText(p)}${d.closed ? ' (closed)' : ''} · ${odds(p)} · ${domainName(p.d)}` }),
+        d.on ? h('span', { class: 'vc-on mono', text: `Judged ${dayMonthYear(d.on)}` }) : null),
+      h('p', { class: 'vc-t', text: p.t }),
+      test ? row('The test', h('p', { text: test })) : null,
+      row('What happened', h('p', { text: d.finding || 'Its month has passed. The verdict will be written against its test, from the evidence, within a few days.' })),
+      (d.evidence || []).length ? row('Sources', h('ul', { class: 'vc-src' }, d.evidence.map(evidenceItem))) : null,
+      (d.was || []).length ? h('details', { class: 'vc-was' }, h('summary', { text: 'Earlier verdicts' }),
+        h('ul', null, d.was.map(w => h('li', null, `${VERDICT[w.verdict] ? VERDICT[w.verdict].label : w.verdict}${w.on ? ` (${dayMonthYear(w.on)})` : ''}${w.finding ? `: ${w.finding}` : ''}`)))) : null,
+      revisionNote(p),
+      news);
+  }
+
+  function evidenceItem(x) {
+    if (x.story) {
+      return h('li', null, h('a', { href: `#/ep/${x.on}/${x.story}`, text: x.title }),
+        h('small', { text: ` · the show, EP.${pad3(x.ep)}${x.outlet ? `, via ${x.outlet}` : ''}` }));
+    }
+    return h('li', null, h('a', { href: x.url, target: '_blank', rel: 'noopener', text: `${x.title} ↗` }),
+      h('small', { text: ` · ${x.outlet}${x.date ? `, ${dayMonthYear(x.date)}` : ''}` }));
+  }
+
+  function renderSoon(ids) {
+    const box = $('soonBox');
+    box.hidden = !ids.length;
+    if (!ids.length) return;
+    box.replaceChildren(h('h3', { class: 'sub-h', text: 'Falling due next' }),
+      h('p', { class: 'section-sub', text: 'These forecasts reach their best-guess month soon. Their tests are set now, before the outcome is known.' }),
+      h('ol', { class: 'soon-list' }, ids.map(id => {
+        const p = state.byId.get(id), test = (state.score.tests[id] || {}).test;
+        return h('li', null,
+          h('a', { class: 'soon-f', href: `#/forecasts/${p.id}` }, h('span', { class: 'mono', text: `${when(p)} · window ${windowText(p)} · ${odds(p)}` }), h('b', { text: p.t })),
+          test ? h('p', { text: test }) : null);
+      })));
+  }
+
+  // ------------------------------------------------------------------ revisions: what changed in the forecasts
+  function revChange(r) {
+    if (r.kind === 'prob') return { dir: r.to > r.from ? 'up' : 'down', text: `${r.from}% → ${r.to}%` };
+    if (r.kind === 'month') return { dir: '', text: `${ymLabel(r.from)} → ${ymLabel(r.to)}` };
+    if (r.kind === 'wording') return { dir: '', text: 'Reworded' };
+    if (r.kind === 'added') return { dir: '', text: 'New forecast' };
+    if (r.kind === 'removed') return { dir: '', text: 'Retired' };
+    return { dir: r.dir || '', text: r.dir === 'up' ? `Raised to ${r.to}%` : r.dir === 'down' ? `Lowered to ${r.to}%` : 'Revised' };
+  }
+  function revisionsOf(p) { return state.revs.items.filter(r => r.id === p.id || r.key === p.key); }
+  function revisionNote(p) {
+    const revs = revisionsOf(p);
+    if (!revs.length) return null;
+    return h('div', { class: 'vc-row' }, h('span', { class: 'lab mono', text: 'Odds history' }), h('ul', { class: 'odds-h' }, revs.map(r => {
+      const c = revChange(r);
+      return h('li', null, h('span', { class: `rev-c ${c.dir}`, text: `${c.dir === 'up' ? '▲ ' : c.dir === 'down' ? '▼ ' : ''}${c.text}` }), ` on ${dayMonthYear(r.on)}`,
+        r.note ? h('details', { class: 'rev-why' }, h('summary', { text: 'Why' }), h('p', { text: r.note })) : null);
+    })));
+  }
+  function renderRevisions() {
+    const items = state.revs.items;
+    const thisMonth = (state.score.month || (state.index.latest || '').slice(0, 7));
+    const inMonth = items.filter(r => (r.on || '').slice(0, 7) === thisMonth).length;
+    const last = items[0];
+    $('changesIntro').textContent = `The Guide's odds move only when Peter revises them, and every revision is dated, with its reason. ${inMonth
+      ? `${inMonth} revision${inMonth === 1 ? '' : 's'} so far this month.`
+      : last ? `Nothing revised so far this month; the latest revisions were on ${dayMonthYear(last.on)}.` : 'No revisions recorded yet.'}`;
+    const groups = new Map();
+    for (const r of items) {
+      const k = (r.on || '').slice(0, 7);
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(r);
+    }
+    $('revisionList').replaceChildren(...[...groups].map(([k, rows]) => h('li', { class: 'rev-m' },
+      h('h4', { class: 'mono', text: `${LONG_MONTHS[Number(k.slice(5, 7)) - 1]} ${k.slice(0, 4)} · ${rows.length} revision${rows.length === 1 ? '' : 's'}` }),
+      h('ol', null, rows.map(revRow)))));
+    const b = state.revs.basis;
+    $('basisBox').hidden = !(b && b.text);
+    if (b && b.text) {
+      $('basisSum').textContent = `Read the Guide's latest reassessment note${b.on ? ` (${dayMonthYear(b.on)})` : ''}`;
+      $('basisText').textContent = b.text;
+    }
+  }
+  function revRow(r) {
+    const p = state.byId.get(r.id) && state.byId.get(r.id).key === r.key ? state.byId.get(r.id) : state.byKey.get(r.key);
+    const c = revChange(r);
+    return h('li', { class: 'rev' },
+      h('span', { class: 'rev-d mono', text: short(r.on) }),
+      h('span', { class: `rev-c ${c.dir}`, text: `${c.dir === 'up' ? '▲ ' : c.dir === 'down' ? '▼ ' : ''}${c.text}` }),
+      h('div', { class: 'rev-b' },
+        p ? h('a', { href: forecastHref(p), text: p.t }) : h('span', { text: r.t }),
+        p ? h('small', { class: 'mono', text: ` ${when(p)}${isDue(p) ? ` · judged: ${VERDICT[verdictOf(p)].label.toLowerCase()}` : ''}` }) : null,
+        r.was ? h('p', { class: 'rev-was', text: `Was: ${r.was}` }) : null,
+        r.note ? h('details', { class: 'rev-why' }, h('summary', { text: 'Why' }), h('p', { text: r.note })) : null));
+  }
+
+  // ------------------------------------------------------------------ predictions vs reality: the live forecasts, year by year
+  function totals(items) {
     const t = { supports: 0, early: 0, challenges: 0, withNews: 0 };
-    for (const p of state.preds.items) {
+    for (const p of items) {
       const r = trackerFor(p.id);
       if (!r) continue;
       t.withNews += 1;
@@ -240,17 +435,16 @@
   }
 
   function renderScoreboard() {
-    const t = totals();
-    const n = state.preds.items.length;
-    const story = k => (k === 1 ? 'story' : 'stories');
+    const live = liveItems(), t = totals(live);
+    const many = (k, one, more) => (k === 1 ? one : more);
     const tiles = [
-      h('div', { class: 'tile hot' }, h('b', { text: `${t.withNews}/${n}` }), h('span', { text: 'forecasts with news in the show' })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.supports) }), h('span', { text: `${story(t.supports)} supporting a forecast` })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.early) }), h('span', { text: t.early === 1 ? 'early sign' : 'early signs' })),
-      h('div', { class: 'tile' }, h('b', { text: String(t.challenges) }), h('span', { text: `${story(t.challenges)} cutting against one` })),
+      h('div', { class: 'tile hot' }, h('b', { text: `${t.withNews}/${live.length}` }), h('span', { text: 'live forecasts with news in the show' })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.supports) }), h('span', { text: many(t.supports, 'piece of evidence for one', 'pieces of evidence for one') })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.early) }), h('span', { text: many(t.early, 'early sign', 'early signs') })),
+      h('div', { class: 'tile' }, h('b', { text: String(t.challenges) }), h('span', { text: many(t.challenges, 'piece of evidence against one', 'pieces of evidence against one') })),
     ];
     const doms = Object.keys(state.preds.domains || {}).map(d => {
-      const all = state.preds.items.filter(p => p.d === d);
+      const all = live.filter(p => p.d === d);
       const hit = all.filter(p => trackerFor(p.id)).length;
       const fill = h('i');
       fill.style.width = `${all.length ? Math.round((hit / all.length) * 100) : 0}%`; // CSSOM, allowed by the page's CSP
@@ -260,14 +454,16 @@
         h('span', { class: 'num', text: `${hit} of ${all.length} with news` }));
     });
     $('scoreboard').replaceChildren(...tiles, h('div', { class: 'domains' }, doms));
-    const eps = state.index.episodes.length;
-    $('forecastIntro').textContent = `The Guide makes ${state.preds.items.filter(p => p.kind === 'dated').length} dated forecasts from 2026 to 2040, plus ${state.preds.items.filter(p => p.kind === 'horizon').length} undated ones beyond superintelligence. Every day, each story in the show is checked against them: does the news support a forecast, show an early sign of it, or cut against it? This is the running tally across ${eps} episode${eps === 1 ? '' : 's'}.`;
+    const dated = live.filter(p => p.kind === 'dated'), first = dated.slice().sort((a, b) => order(a) - order(b))[0];
+    const eps = state.index.episodes.length, due = state.score.due.length;
+    $('forecastIntro').textContent = `The Guide's ${dated.length} live dated forecasts, from ${first ? when(first) : 'now'} to 2040, plus ${live.length - dated.length} undated ones beyond superintelligence, each with its best-guess month, its odds and the test it will be judged against. Every morning, each story in the show is checked against them, across ${eps} episode${eps === 1 ? '' : 's'} so far.${due ? ` ${due} more ${due === 1 ? 'has' : 'have'} fallen due and ${due === 1 ? 'is' : 'are'} judged in What it got right or wrong.` : ''}`;
   }
+  const order = p => (p.kind === 'horizon' ? 1e7 : (p.year * 12 + (p.m || 12)) * 100) + (state.order.get(p.id) || 0);
 
   function renderMoving() {
     const latest = state.index.latest;
     const scored = [];
-    for (const p of state.preds.items) {
+    for (const p of liveItems()) {
       const r = trackerFor(p.id);
       if (!r) continue;
       const recent = r.items.filter(i => daysBetween(i.on, latest) < 14);
@@ -285,7 +481,7 @@
   }
 
   function tallyPills(r) {
-    return Object.keys(REL).filter(k => r[k]).map(k => h('span', { class: `rel ${k}`, title: `${r[k]} ${REL[k].label.toLowerCase()}` }, h('span', { 'aria-hidden': 'true' }, REL[k].icon), String(r[k])));
+    return Object.keys(REL).filter(k => r[k]).map(k => h('span', { class: `rel ${k}`, title: `${r[k]} × ${REL[k].label.toLowerCase()}` }, h('span', { 'aria-hidden': 'true' }, REL[k].icon), String(r[k])));
   }
 
   function strip(r) {
@@ -304,8 +500,7 @@
     $('fq').addEventListener('input', e => { f.q = e.target.value.trim().toLowerCase(); renderForecasts(); });
     sel.addEventListener('change', e => setDomain(e.target.value));
     $('fr').addEventListener('change', e => { f.rel = e.target.value; renderForecasts(); });
-    $('fs').addEventListener('change', e => { f.sort = e.target.value; renderForecasts(); });
-    $('fquiet').addEventListener('change', e => { f.quiet = e.target.checked; renderForecasts(); });
+    $('fs').addEventListener('change', e => { f.view = e.target.value; renderForecasts(); });
   }
   function setDomain(d) {
     state.filters.domain = d;
@@ -313,56 +508,110 @@
     renderScoreboard();
     renderForecasts();
   }
+  function clearFilters() {
+    Object.assign(state.filters, { q: '', domain: 'all', rel: 'all', view: 'year' });
+    $('fq').value = ''; $('fd').value = 'all'; $('fr').value = 'all'; $('fs').value = 'year';
+    renderScoreboard();
+    renderForecasts();
+  }
 
   function forecastRows() {
     const f = state.filters;
-    const rows = state.preds.items.map(p => ({ p, r: trackerFor(p.id) }));
     const words = f.q ? f.q.split(/\s+/) : [];
-    const keep = rows.filter(({ p, r }) => {
+    const keep = liveItems().map(p => ({ p, r: trackerFor(p.id) })).filter(({ p, r }) => {
       if (f.domain !== 'all' && p.d !== f.domain) return false;
-      if (f.rel !== 'all' && !(r && r[f.rel])) return false;
-      if (!r && !f.quiet && !words.length) return false;
+      if (f.rel === 'none' ? r : f.rel !== 'all' && !(r && r[f.rel])) return false;
+      if (f.view !== 'year' && !r && f.rel !== 'none' && !words.length) return false;
       if (words.length) {
-        const hay = `${p.t} ${domainName(p.d)} ${when(p)} ${r ? r.items.map(i => i.title).join(' ') : ''}`.toLowerCase();
+        const test = (state.score.tests[p.id] || {}).test || '';
+        const hay = `${p.t} ${domainName(p.d)} ${when(p)} ${test} ${r ? r.items.map(i => i.title).join(' ') : ''}`.toLowerCase();
         if (!words.every(w => hay.includes(w))) return false;
       }
       return true;
     });
     const total = r => (r ? r.supports + r.early + r.challenges : 0);
-    const ord = p => (p.kind === 'horizon' ? 9999 * 12 : p.year * 12 + (p.m || 6));
     keep.sort((a, b) => {
-      if (f.sort === 'when') return ord(a.p) - ord(b.p);
-      if (f.sort === 'most') return total(b.r) - total(a.r) || ord(a.p) - ord(b.p);
-      return ((b.r && b.r.last) || '').localeCompare((a.r && a.r.last) || '') || total(b.r) - total(a.r) || ord(a.p) - ord(b.p);
+      if (f.view === 'most') return total(b.r) - total(a.r) || order(a.p) - order(b.p);
+      if (f.view === 'latest') return ((b.r && b.r.last) || '').localeCompare((a.r && a.r.last) || '') || total(b.r) - total(a.r) || order(a.p) - order(b.p);
+      return order(a.p) - order(b.p);
     });
     return keep;
   }
 
   function renderForecasts() {
-    const rows = forecastRows();
-    const withNews = rows.filter(x => x.r).length;
-    $('forecastCount').textContent = `Showing ${rows.length} of ${state.preds.items.length} forecasts · ${withNews} with news${state.filters.quiet ? '' : ' (tick the box to see the quiet ones)'}`;
-    $('forecastList').replaceChildren(...rows.map(({ p, r }) => forecastRow(p, r)));
-    if (!rows.length) $('forecastList').append(h('li', { class: 'empty', text: 'No forecasts match. Try another search or filter.' }));
+    const f = state.filters, rows = forecastRows(), host = $('forecastList'), live = liveItems();
+    const filtered = Boolean(f.q) || f.domain !== 'all' || f.rel !== 'all';
+    $('forecastCount').textContent = `Showing ${rows.length} of ${live.length} live forecasts · ${rows.filter(x => x.r).length} with news${f.view === 'year' ? ' · open a year to read it' : ''}`;
+    if (!rows.length) { host.replaceChildren(h('p', { class: 'empty', text: 'No forecasts match. Try another search or filter.' })); return; }
+    if (f.view !== 'year') { host.replaceChildren(h('ol', { class: 'forecasts' }, rows.map(({ p, r }) => forecastRow(p, r)))); return; }
+    const wasOpen = new Set([...host.querySelectorAll('details.yr[open]')].map(d => d.dataset.year));
+    const first = !host.dataset.ready;
+    host.dataset.ready = '1';
+    const now = Number((state.score.month || state.index.latest || '').slice(0, 4));
+    const groups = new Map();
+    for (const x of rows) {
+      const k = x.p.kind === 'horizon' ? 'beyond' : String(x.p.year);
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(x);
+    }
+    host.replaceChildren(...[...groups].map(([k, list]) => yearGroup(k, list,
+      filtered || (first ? k !== 'beyond' && Number(k) <= now + 1 : wasOpen.has(k)))));
+  }
+
+  function yearGroup(k, list, isOpen) {
+    const beyond = k === 'beyond', sum = { supports: 0, early: 0, challenges: 0 };
+    let withNews = 0;
+    for (const { r } of list) {
+      if (!r) continue;
+      withNews += 1;
+      for (const rel of Object.keys(REL)) sum[rel] += r[rel] || 0;
+    }
+    const note = beyond
+      ? 'Some futures don\u2019t have a date. These horizons are possibilities to examine, not events with an invented year: each probability assumes aligned superintelligence and every prerequisite listed with it.'
+      : (state.preds.years || {})[k];
+    const det = h('details', { class: `yr${beyond ? ' beyond' : ''}`, id: `y-${k}`, 'data-year': k });
+    det.open = isOpen;
+    det.append(
+      h('summary', null,
+        h('span', { class: 'y', text: beyond ? 'Beyond' : k }),
+        h('span', { class: 'yc' }, beyond ? `${list.length} undated horizon${list.length === 1 ? '' : 's'}` : `${list.length} live forecast${list.length === 1 ? '' : 's'}`,
+          h('small', { text: withNews ? `${withNews} with news from the show` : 'No news from the show yet' })),
+        h('span', { class: 'tally' }, tallyPills(sum))),
+      note ? h('p', { class: 'ysum', text: note }) : null,
+      h('ol', { class: 'forecasts' }, list.map(({ p, r }) => forecastRow(p, r))));
+    return det;
   }
 
   function forecastRow(p, r) {
     const det = h('details', { class: `fc${r ? '' : ' quiet'}`, id: `f-${p.id}` });
-    const sum = h('summary', null,
-      h('span', { class: 'meta' }, h('span', { class: 'yr', text: when(p).toUpperCase() }), h('span', { class: 'pr', text: odds(p) })),
-      h('span', { class: 'tx' }, p.t, h('small', { text: domainName(p.d) })),
-      h('span', { class: 'sig' }, r ? h('span', { class: 'tally' }, tallyPills(r)) : h('span', { class: 'pr mono', text: 'No news yet' }), strip(r)));
-    det.append(sum);
+    const lastRev = revisionsOf(p)[0];
+    const fresh = lastRev && daysBetween(lastRev.on, state.index.latest) <= 45;
+    det.append(h('summary', null,
+      h('span', { class: 'meta' }, h('span', { class: 'fy', text: when(p).toUpperCase() }), h('span', { class: 'pr', text: [spread(p), odds(p)].filter(Boolean).join(' · ') })),
+      h('span', { class: 'tx' }, p.t, h('small', null, domainName(p.d), fresh ? h('span', { class: 'revtag', text: ` · revised ${short(lastRev.on)}` }) : null)),
+      h('span', { class: 'sig' }, r ? h('span', { class: 'tally' }, tallyPills(r)) : h('span', { class: 'pr mono', text: 'No news yet' }), strip(r))));
     det.addEventListener('toggle', () => {
       if (det.open && !det.dataset.filled) {
         det.dataset.filled = '1';
-        det.append(r ? trail(r) : h('p', { class: 'empty', text: 'No story in the show has been linked to this forecast yet.' }),
-          h('div', { class: 'fc-foot' },
-            h('a', { href: p.kind === 'horizon' ? '#/guide/beyond' : `#/guide/${p.year}`, text: 'On the Guide\u2019s timeline' }),
-            h('a', { href: `#/forecasts/${p.id}`, text: 'Link to this forecast' })));
+        det.append(forecastBody(p, r));
       }
     });
     return h('li', null, det);
+  }
+
+  function forecastBody(p, r) {
+    const test = state.score.tests[p.id];
+    const fact = (label, ...kids) => h('div', { class: 'vc-row' }, h('span', { class: 'lab mono', text: label }), h('div', null, ...kids));
+    const list = xs => h('ul', null, xs.map(x => h('li', { text: x })));
+    return h('div', { class: 'fc-body' },
+      test ? fact('The test', h('p', { text: test.test }), test.stale ? h('p', { class: 'note', text: 'Written for an earlier wording of this forecast; it will be rewritten.' }) : null) : null,
+      p.kind === 'dated' ? fact('When', h('p', { text: `Best guess ${LONG_MONTHS[p.m - 1]} ${p.year}${p.band ? `, give or take ${p.band} months (window ${windowText(p)})` : ''}.${p.why ? ` Why then: ${p.why}` : ''}` })) : null,
+      p.deps ? fact('Depends on', list(p.deps)) : null,
+      p.signs ? fact('Signs to watch', list(p.signs)) : null,
+      p.caveat ? fact('Caveat', h('p', { text: p.caveat })) : null,
+      revisionNote(p),
+      r ? trail(r) : h('p', { class: 'empty', text: 'No story in the show has been linked to this forecast yet.' }),
+      h('div', { class: 'fc-foot' }, h('a', { href: `#/forecasts/${p.id}`, text: 'Link to this forecast' })));
   }
 
   function trail(r) {
@@ -375,16 +624,34 @@
   }
 
   function openForecast(id) {
+    const p = state.byId.get(id);
+    if (p && isDue(p)) return openVerdict(id);
     let el = $(`f-${id}`);
-    if (!el) {
-      Object.assign(state.filters, { q: '', domain: 'all', rel: 'all', quiet: true });
-      $('fq').value = ''; $('fd').value = 'all'; $('fr').value = 'all'; $('fquiet').checked = true;
-      renderScoreboard();
-      renderForecasts();
+    if (!el || state.filters.view !== 'year') {
+      clearFilters();
       el = $(`f-${id}`);
     }
     if (!el) return null;
+    const yr = el.closest('details.yr');
+    if (yr) yr.open = true;
     el.open = true;
+    flash(el);
+    return el;
+  }
+  function openYear(k) {
+    let y = $(`y-${k}`);
+    if (!y || state.filters.view !== 'year') {
+      clearFilters();
+      y = $(`y-${k}`);
+    }
+    if (!y) return $('forecasts');
+    y.open = true;
+    flash(y);
+    return y;
+  }
+  function openVerdict(id) {
+    const el = $(`v-${id}`);
+    if (!el) return $('scorecard');
     flash(el);
     return el;
   }
@@ -419,11 +686,11 @@
 
   // ------------------------------------------------------------------ the guide
   // The Guide's chapters, year summaries, horizon prerequisites and author notes are read live from its published page
-  // and data (same origin on peterxing.com), so this page always shows the current text. Its forecasts and the show's
-  // news against them come from this site's own snapshot and tracker, like Predictions vs reality.
+  // and data (same origin on peterxing.com), so this page always shows the current text. Its forecasts, year notes and
+  // horizons come from this site's own snapshot, shown in Predictions vs reality.
   const GUIDE_LIVE = onPeterxing || host === 'localhost' || host === '127.0.0.1';
   const ROUTES = { capability: 'Capability', abundance: 'Abundance', risk: 'Risk' };
-  const guide = { ready: null, failed: false, chapters: [], years: new Map(), horizons: new Map() };
+  const guide = { ready: null, failed: false, chapters: [] };
   let readerAt = -1, titleBefore = '', readerDocTitle = '';
   const routeOf = s => (/abundance/i.test(s) ? 'abundance' : /risk/i.test(s) ? 'risk' : /capability/i.test(s) ? 'capability' : '');
   const txt = el => {
@@ -434,7 +701,6 @@
   };
   const dec = s => String(s == null ? '' : s).replace(/&(amp|quot|apos|lt|gt|#39);/g, (_, n) => ({ amp: '&', quot: '"', apos: "'", lt: '<', gt: '>', '#39': "'" })[n]);
   const safeHttps = u => { try { const x = new URL(u); return x.protocol === 'https:' && !x.username && !x.password ? x.href : null; } catch (e) { return null; } };
-  const seq = p => Number(String(p.id).split('-').pop()) || 0;
 
   async function getLive(path, asText) {
     const signal = typeof AbortSignal !== 'undefined' && AbortSignal.timeout ? AbortSignal.timeout(20000) : undefined;
@@ -455,10 +721,7 @@
     setGuideStatus('Loading the chapters from the Guide\u2026');
     try {
       if (!GUIDE_LIVE) throw new Error('the Guide loads on peterxing.com');
-      const [page, live, author] = await Promise.allSettled([getLive('/guide', true), getLive('/predictions.json'), getLive('/author.json')]);
-      if (live.status === 'fulfilled') {
-        try { readLive(live.value); renderGuideTimeline(); } catch (e) { /* the snapshot's view stands */ }
-      }
+      const [page, author] = await Promise.allSettled([getLive('/guide', true), getLive('/author.json')]);
       if (author.status === 'fulfilled') {
         try { renderAuthor(author.value); } catch (e) { /* the static author note stands */ }
       }
@@ -504,13 +767,6 @@
     }
   }
 
-  function readLive(data) {
-    for (const y of data.years || []) if (y && y.year && typeof y.summary === 'string') guide.years.set(Number(y.year), y.summary.trim());
-    for (const it of ((data.postSuperintelligence || {}).items || [])) {
-      if (it && it.id && Array.isArray(it.dependencies)) guide.horizons.set(`horizon-${it.id}`, it.dependencies.map(String));
-    }
-  }
-
   function renderBook() {
     $('chapterList').replaceChildren(...guide.chapters.map((c, i) => h('li', null,
       h('a', { class: `chap ${c.route}`, href: `#/guide/chapter-${c.idx}` },
@@ -519,60 +775,9 @@
         c.lede ? h('span', { class: 'l', text: c.lede }) : null,
         h('span', { class: 'm mono', text: `${c.mins} min read` })))));
     $('readerTocList').replaceChildren(...guide.chapters.map(c => h('li', null, h('a', { href: `#/guide/chapter-${c.idx}`, 'data-idx': String(c.idx), text: c.title }))));
-  }
-
-  function renderGuideTimeline() {
-    const host = $('yearList');
-    const first = !host.children.length;
-    const wasOpen = new Set([...host.querySelectorAll('details[open]')].map(d => d.dataset.year));
-    const thisYear = String(state.index.latest || '').slice(0, 4);
-    const byYear = new Map();
-    for (const p of state.preds.items) {
-      if (p.kind !== 'dated') continue;
-      if (!byYear.has(p.year)) byYear.set(p.year, []);
-      byYear.get(p.year).push(p);
-    }
-    host.replaceChildren(...[...byYear.keys()].sort((a, b) => a - b).map(year => {
-      const list = byYear.get(year).sort((a, b) => (a.m || 13) - (b.m || 13) || seq(a) - seq(b));
-      const sum = { supports: 0, early: 0, challenges: 0 };
-      let withNews = 0;
-      for (const p of list) {
-        const r = trackerFor(p.id);
-        if (!r) continue;
-        withNews += 1;
-        for (const k of Object.keys(REL)) sum[k] += r[k] || 0;
-      }
-      const det = h('details', { class: 'yr', id: `y-${year}`, 'data-year': String(year) });
-      det.open = first ? String(year) === thisYear : wasOpen.has(String(year));
-      const blurb = guide.years.get(year);
-      det.append(
-        h('summary', null,
-          h('span', { class: 'y', text: String(year) }),
-          h('span', { class: 'yc' }, `${list.length} forecast${list.length === 1 ? '' : 's'}`,
-            h('small', { text: withNews ? `${withNews} with news from the show` : 'No news from the show yet' })),
-          h('span', { class: 'tally' }, tallyPills(sum))),
-        blurb ? h('p', { class: 'ysum', text: blurb }) : null,
-        h('ol', { class: 'gl' }, list.map(guideItem)));
-      return det;
-    }));
-    $('horizonList').replaceChildren(...state.preds.items.filter(p => p.kind === 'horizon').map(guideItem));
-  }
-
-  function guideItem(p) {
-    const r = trackerFor(p.id), last = r && r.items[0];
-    const deps = guide.horizons.get(p.id) || [];
-    const n = r ? r.supports + r.early + r.challenges : 0;
-    return h('li', { class: `gi${r ? '' : ' quiet'}` },
-      h('div', { class: 'gw' }, h('b', { text: when(p) }), h('small', { text: odds(p) })),
-      h('div', { class: 'gt' },
-        h('p', { class: 'gx', text: p.t }),
-        h('p', { class: 'gm', text: domainName(p.d) }),
-        deps.length ? h('details', { class: 'deps' }, h('summary', { text: `What it depends on (${deps.length})` }), h('ul', null, deps.map(d => h('li', { text: d })))) : null,
-        last ? h('p', { class: 'gn' }, relPill(last.relation), h('a', { href: `#/ep/${last.on}/${last.story}`, text: last.title }),
-          h('small', { text: ` \u00b7 EP.${pad3(last.ep)}, ${short(last.on)}` })) : null),
-      h('div', { class: 'gs' }, r
-        ? h('a', { class: 'tally', href: `#/forecasts/${p.id}`, title: 'All the news on this forecast', 'aria-label': `All ${n} ${n === 1 ? 'story' : 'stories'} on this forecast` }, tallyPills(r))
-        : h('span', { class: 'none mono', text: 'No news yet' })));
+    $('startBook').href = `#/guide/chapter-${guide.chapters[0].idx}`;
+    $('startBookT').textContent = guide.chapters[0].title;
+    $('startBookN').textContent = `${guide.chapters.length} chapters`;
   }
 
   function renderAuthor(a) {
@@ -624,8 +829,8 @@
   }
 
   function readerEnd(c) {
-    const [label, href] = c.route === 'risk' ? ['The futures beyond the timeline', '#/guide/beyond'] : ['The forecasts, year by year', '#/guide/timeline'];
-    return h('footer', { class: 'reader-end' }, h('a', { class: 'btn', href, text: label }), h('a', { class: 'btn', href: '#/forecasts', text: 'Predictions vs reality' }));
+    const [label, href] = c.route === 'risk' ? ['The futures beyond the timeline', '#/forecasts/beyond'] : ['The forecasts, year by year', '#/forecasts'];
+    return h('footer', { class: 'reader-end' }, h('a', { class: 'btn', href, text: label }), h('a', { class: 'btn', href: '#/scorecard', text: 'What it got right or wrong' }));
   }
   function setStep(a, c, label) {
     a.hidden = !c;
@@ -702,9 +907,11 @@
       });
       return firstRoute ? $('guide-read') : null;
     }
-    if (/^\d{4}$/.test(sub || '')) {
-      const y = $(`y-${sub}`);
-      if (y) { y.open = true; flash(y); return y; }
+    // The timeline and the horizons moved into Predictions vs reality.
+    const moved = sub === 'timeline' ? '' : sub === 'beyond' ? 'beyond' : /^\d{4}$/.test(sub || '') ? sub : null;
+    if (moved !== null) {
+      history.replaceState(null, '', `#/forecasts${moved ? `/${moved}` : ''}`);
+      return moved ? openYear(moved) : $('forecasts');
     }
     return (sub && $(`guide-${sub}`)) || $('guide');
   }
@@ -726,12 +933,14 @@
     if (hash && hash !== '#' && !hash.startsWith('#/')) return;
     const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
     let date = state.current ? state.current.date : state.index.latest;
-    let target = null, nav = parts[0] || '';
+    let target = null;
     if (parts[0] === 'ep' && /^\d{4}-\d{2}-\d{2}$/.test(parts[1] || '')) {
       date = parts[1];
       target = parts[2] ? (parts[2] === 'stories' ? 'stories' : `s-${parts[2]}`) : 'today';
-      nav = '';
-    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide'].includes(parts[0])) {
+    } else if (parts[0] === 'today') {
+      date = state.index.latest;
+      target = 'now';
+    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly'].includes(parts[0])) {
       target = parts[0];
     } else {
       date = state.index.latest;
@@ -742,28 +951,36 @@
       try { await showEpisode(date); } catch (e) { toast(`Couldn\u2019t load that episode (${e.message}).`); }
     }
     let el = null;
-    if (parts[0] === 'forecasts' && parts[1]) el = openForecast(parts[1]);
+    if (parts[0] === 'forecasts' && parts[1]) el = /^(\d{4}|beyond)$/.test(parts[1]) ? openYear(parts[1]) : openForecast(parts[1]);
+    else if (parts[0] === 'scorecard' && parts[1]) el = parts[1] === 'changes' ? $('changes') : openVerdict(parts[1]);
+    else if (parts[0] === 'weekly' && parts[1]) el = openWeek(parts[1]);
     else if (parts[0] === 'guide') el = guideRoute(parts[1]);
     else if (target === 'top') { window.scrollTo({ top: 0 }); }
     else if (target && target.startsWith('s-')) { el = $(target); if (el) flash(el); }
+    else if (target === 'now') el = $('today');
     else if (target === 'today' && !firstRoute) el = $('today');
     else if (target && target !== 'today') el = $(target);
     if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start' }));
-    document.querySelectorAll('.nav a[href^="#/"]').forEach(a => a.setAttribute('aria-current', String(a.getAttribute('href') === `#/${nav}`)));
+    const nav = location.hash.replace(/^#\/?/, '').split('/')[0];
+    document.querySelectorAll('.nav a[href^="#/"]').forEach(a => a.setAttribute('aria-current', String(a.getAttribute('href') === `#/${['ep', 'today'].includes(nav) ? '' : nav}`)));
     firstRoute = false;
   }
 
   // ------------------------------------------------------------------ sync: new episodes land every morning
+  function renderAll() {
+    renderPromo(); renderStart(); renderEpisodes(); renderWeekly(); renderScorecard(); renderScoreboard(); renderMoving(); renderForecasts(); footer();
+  }
   async function sync(manual) {
     state.lastSync = Date.now();
     try {
       const index = await getJSON('daily/data/index.json');
       if (index.latest === state.index.latest && index.updated === state.index.updated) return;
-      const [preds, tracker] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json')]);
+      const [preds, tracker, score, revs, weekly] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json'),
+        getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json')]);
       const fresh = index.latest !== state.index.latest;
-      state.index = index; setPreds(preds); state.tracker = tracker;
+      state.index = index; setPreds(preds); state.tracker = tracker; setExtras(score, revs, weekly);
       state.episodes.clear();
-      renderPromo(); renderEpisodes(); renderScoreboard(); renderMoving(); renderForecasts(); renderGuideTimeline(); footer();
+      renderAll();
       if (fresh) {
         const e = index.episodes[0];
         toast(`New episode: EP.${pad3(e.ep)} · ${e.hook}`, { label: 'Watch', href: `#/ep/${e.date}` });
@@ -815,6 +1032,13 @@
       $('player').scrollIntoView({ block: 'nearest' });
       v.play().catch(() => v.focus());
     });
+    $('startWatch').addEventListener('click', e => {
+      // Already showing today's episode: play it right here, inside the click, so browsers allow sound.
+      if (!state.current || !state.index || state.current.date !== state.index.latest || !state.current.entry.video) return;
+      e.preventDefault();
+      $('player').scrollIntoView({ block: 'center', behavior: 'smooth' });
+      $('video').play().catch(() => $('video').focus());
+    });
     $('btnTranscript').addEventListener('click', () => toggleTranscript());
     $('btnShare').addEventListener('click', share);
     $('video').addEventListener('error', videoFailed);
@@ -831,22 +1055,17 @@
   async function init() {
     wireStatic();
     try {
-      const [index, preds, tracker] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json')]);
+      const [index, preds, tracker, score, revs, weekly] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
+        getJSON('daily/data/tracker.json'), getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json')]);
       if (!index.episodes || !index.episodes.length) throw new Error('no episodes yet');
-      state.index = index; setPreds(preds); state.tracker = tracker;
+      state.index = index; setPreds(preds); state.tracker = tracker; setExtras(score, revs, weekly);
     } catch (e) {
       showLoadError(e);
       return;
     }
     state.lastSync = Date.now();
     buildFilters();
-    renderPromo();
-    renderEpisodes();
-    renderScoreboard();
-    renderMoving();
-    renderForecasts();
-    renderGuideTimeline();
-    footer();
+    renderAll();
     watchGuide();
     await route();
     addEventListener('hashchange', route);

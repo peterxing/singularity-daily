@@ -17,12 +17,13 @@
 <meta property="og:image" content="https://peterxing.github.io/singularity-daily/daily/media/latest-cover.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="The Singularity Daily" href="daily/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="The Singularity Daily · The week in the forecasts" href="daily/weekly.xml">
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261029a">
-<script src="daily/route.js?v=20261029a"></script>
-<script src="daily/app.js?v=20261029a" defer></script>
+<link rel="stylesheet" href="daily/app.css?v=20261030b">
+<script src="daily/route.js?v=20261030b"></script>
+<script src="daily/app.js?v=20261030b" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to today's episode</a>
@@ -32,6 +33,7 @@
     <nav class="nav" aria-label="Sections">
       <a href="#/">Today</a>
       <a href="#/stories">Stories</a>
+      <a href="#/scorecard">Right or wrong</a>
       <a href="#/forecasts">Predictions vs reality</a>
       <a href="#/episodes">Episodes</a>
       <a class="nav-guide" href="#/guide">The Guide</a>
@@ -42,6 +44,24 @@
 <aside id="promo" class="promo" hidden></aside>
 
 <main id="main" tabindex="-1">
+  <section class="start wrap" id="start" aria-label="Start here">
+    <p class="start-pitch">A book of dated forecasts about superintelligence, <b>checked against the news every morning</b>, and scored when they fall due.</p>
+    <div class="start-grid">
+      <a class="start-card s-watch" id="startWatch" href="#/today">
+        <span class="k"><span aria-hidden="true">▶</span> Watch today · 3 min</span>
+        <span class="t" id="startWatchT">Today's episode</span>
+      </a>
+      <a class="start-card s-book" id="startBook" href="#/guide/chapter-0">
+        <span class="k">Start the book · <span id="startBookN">13 chapters</span></span>
+        <span class="t" id="startBookT">How to Use This Book</span>
+      </a>
+      <a class="start-card s-score" id="startScore" href="#/scorecard">
+        <span class="k" id="startScoreK">Is it holding up?</span>
+        <span class="t" id="startScoreT">What it got right or wrong</span>
+      </a>
+    </div>
+  </section>
+
   <section id="today" class="hero wrap" aria-labelledby="epHook">
     <div class="player" id="player">
       <video id="video" controls playsinline webkit-playsinline preload="metadata" aria-describedby="epHook"></video>
@@ -80,11 +100,49 @@
     <ul class="notes" id="epNotes"></ul>
   </section>
 
+  <section id="weekly" class="wrap section weekly" aria-labelledby="weeklyTitle" hidden>
+    <div class="section-head">
+      <p class="mono eyebrow" id="weeklyKicker">The week in the forecasts</p>
+      <h2 id="weeklyTitle">Three developments that changed the outlook</h2>
+      <p class="section-sub">Every Friday: the three stories from the week's episodes that moved a forecast most, and one practical thing to do about them.</p>
+    </div>
+    <ol class="wk" id="weeklyList"></ol>
+    <div class="wk-imp" id="weeklyImp"></div>
+    <details class="wk-past" id="weeklyPast" hidden><summary>Earlier weeks</summary><ol id="weeklyPastList"></ol></details>
+    <div class="follow" id="follow">
+      <p class="follow-k mono">Get it every Friday</p>
+      <div class="follow-row">
+        <a class="btn btn-primary" href="daily/weekly.xml">The weekly by RSS</a>
+        <a class="btn" href="daily/feed.xml">Every episode by RSS</a>
+        <a class="btn" href="https://x.com/peterxing" rel="noopener" target="_blank">X ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/peter-xing/" rel="noopener" target="_blank">LinkedIn ↗</a>
+        <a class="btn" href="https://www.facebook.com/peterxingularity" rel="noopener" target="_blank">Facebook ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="scorecard" class="wrap section scorecard" aria-labelledby="scoreTitle">
+    <div class="section-head">
+      <p class="mono eyebrow">Holding the Guide to account</p>
+      <h2 id="scoreTitle">What it got right or wrong</h2>
+      <p class="section-sub" id="scoreIntro">Every forecast in the Guide has a best-guess month, a window around it and a test written before it falls due. Once its month has passed, it leaves the live timeline and is judged here against that test: right, partly right, wrong, or not settled while its window is still open.</p>
+    </div>
+    <div class="vtally" id="verdictTally"></div>
+    <ol class="verdicts" id="verdictList"></ol>
+    <div class="soon" id="soonBox" hidden></div>
+    <div class="changes" id="changes" aria-labelledby="changesTitle">
+      <h3 class="sub-h" id="changesTitle">What changed in the forecasts</h3>
+      <p class="section-sub" id="changesIntro">The Guide's odds move only when Peter revises them, and every revision is dated, with its reason.</p>
+      <ol class="revs" id="revisionList"></ol>
+      <details class="basis" id="basisBox" hidden><summary id="basisSum">The latest reassessment</summary><p id="basisText"></p></details>
+    </div>
+  </section>
+
   <section id="forecasts" class="wrap section" aria-labelledby="forecastsTitle">
     <div class="section-head">
       <p class="mono eyebrow">The Hitchhiker's Guide to the Singularity</p>
       <h2 id="forecastsTitle">Predictions vs reality</h2>
-      <p class="section-sub" id="forecastIntro">The Guide makes dated forecasts from 2026 to 2040, plus a handful of undated ones beyond superintelligence. Every day, each story in the show is checked against them: does the news support a forecast, show an early sign of it, or cut against it? This is the running tally.</p>
+      <p class="section-sub" id="forecastIntro">The Guide's live forecasts, year by year from now to 2040 and beyond, each with its best-guess month, its odds and the test it will be judged against, and every story in the show that bears on it.</p>
     </div>
     <div class="scoreboard" id="scoreboard"></div>
     <div class="moving" id="moving"></div>
@@ -93,28 +151,20 @@
       <label class="field"><span>Domain</span><select id="fd"><option value="all">All domains</option></select></label>
       <label class="field"><span>Signal</span><select id="fr">
         <option value="all">Any signal</option>
-        <option value="supports">Supports</option>
+        <option value="supports">Evidence for</option>
         <option value="early">Early sign</option>
-        <option value="challenges">Challenges</option>
+        <option value="challenges">Evidence against</option>
+        <option value="none">No news yet</option>
       </select></label>
-      <label class="field"><span>Sort</span><select id="fs">
+      <label class="field"><span>View</span><select id="fs">
+        <option value="year">Year by year</option>
         <option value="latest">Latest news first</option>
         <option value="most">Most news first</option>
-        <option value="when">Forecast date</option>
       </select></label>
-      <label class="check"><input type="checkbox" id="fquiet"> Show forecasts with no news yet</label>
     </div>
     <p class="mono count" id="forecastCount" aria-live="polite"></p>
-    <ol class="forecasts" id="forecastList"></ol>
-    <p class="fineprint">This tracks the news, not the odds. The probabilities are the Guide's own and change only when Peter revises them. A link means the show judged the story to be concrete evidence about that forecast; it is not an independent assessment.</p>
-  </section>
-
-  <section id="episodes" class="wrap section" aria-labelledby="episodesTitle">
-    <div class="section-head">
-      <h2 id="episodesTitle">Every episode</h2>
-      <p class="section-sub">A new one lands every morning, Sydney time. This page checks for it while you're here.</p>
-    </div>
-    <ol class="episodes" id="episodeGrid"></ol>
+    <div id="forecastList" class="fyears"></div>
+    <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the show's reading, not an independent assessment.</p>
   </section>
 
   <section id="guide" class="wrap section guide" aria-labelledby="guideTitle">
@@ -132,8 +182,8 @@
     </div>
     <nav class="guide-toc" aria-label="In the Guide">
       <a href="#/guide/read">Chapters</a>
-      <a href="#/guide/timeline">The timeline</a>
-      <a href="#/guide/beyond">Beyond the timeline</a>
+      <a href="#/forecasts">The forecasts, year by year</a>
+      <a href="#/scorecard">What it got right or wrong</a>
       <a href="#/guide/author">The author</a>
     </nav>
 
@@ -144,26 +194,22 @@
       <ol class="book" id="chapterList"></ol>
     </div>
 
-    <div class="guide-part" id="guide-timeline" aria-labelledby="guideTimelineTitle">
-      <div class="chapter"><span class="n">02</span><h3 id="guideTimelineTitle">The timeline, year by year</h3></div>
-      <p class="section-sub">A timeline, not a prophecy: every dated forecast from 2026 to 2040 with the Guide's own odds, and the latest news from the show against each one. Open a year to read it.</p>
-      <div class="years" id="yearList"></div>
-    </div>
-
-    <div class="guide-part" id="guide-beyond" aria-labelledby="guideBeyondTitle">
-      <div class="chapter"><span class="n">03</span><h3 id="guideBeyondTitle">Beyond the timeline</h3></div>
-      <p class="section-sub">Some futures don't have a date. These dependency-gated horizons are possibilities to examine, not events assigned an invented year: each probability assumes aligned superintelligence and every listed prerequisite.</p>
-      <ol class="gl horizons" id="horizonList"></ol>
-    </div>
-
     <div class="guide-part" id="guide-author" aria-labelledby="guideAuthorTitle">
-      <div class="chapter"><span class="n">04</span><h3 id="guideAuthorTitle">About the author</h3></div>
+      <div class="chapter"><span class="n">02</span><h3 id="guideAuthorTitle">About the author</h3></div>
       <div class="author" id="authorBox">
         <p class="author-name">Peter Xing</p>
         <p class="author-head">Futurist, keynote speaker and technologist.</p>
         <p><a href="https://www.linkedin.com/in/peter-xing/" rel="noopener">About Peter on LinkedIn ↗</a></p>
       </div>
     </div>
+  </section>
+
+  <section id="episodes" class="wrap section" aria-labelledby="episodesTitle">
+    <div class="section-head">
+      <h2 id="episodesTitle">Every episode</h2>
+      <p class="section-sub">A new one lands every morning, Sydney time. This page checks for it while you're here.</p>
+    </div>
+    <ol class="episodes" id="episodeGrid"></ol>
   </section>
 
   <section id="about" class="wrap section about" aria-labelledby="aboutTitle">
@@ -174,8 +220,8 @@
         <p>Your host is <strong>Claudia</strong>, an open character by <a href="https://claudia.gallery" rel="noopener">anabology</a>. Article screenshots shown in the videos belong to their publishers.</p>
       </div>
       <div>
-        <p>The forecasts come from <a href="#/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? <a href="#/guide/read">Read the Guide</a> right here.</p>
-        <p>Follow along: <a href="daily/feed.xml">RSS feed</a> · <a id="repoLink" href="https://github.com/peterxing/singularity-daily" rel="noopener">source on GitHub</a></p>
+        <p>The forecasts come from <a href="#/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? <a href="#/guide/read">Read the Guide</a> right here, then see <a href="#/scorecard">what it got right or wrong</a>.</p>
+        <p>Follow along: <a href="daily/weekly.xml">the weekly by RSS</a> · <a href="daily/feed.xml">every episode by RSS</a> · <a href="https://x.com/peterxing" rel="noopener">X</a> · <a href="https://www.linkedin.com/in/peter-xing/" rel="noopener">LinkedIn</a> · <a href="https://www.facebook.com/peterxingularity" rel="noopener">Facebook</a> · <a id="repoLink" href="https://github.com/peterxing/singularity-daily" rel="noopener">source on GitHub</a></p>
       </div>
     </div>
   </section>
