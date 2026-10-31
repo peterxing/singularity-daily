@@ -21,9 +21,9 @@
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261030c">
-<script src="daily/route.js?v=20261030c"></script>
-<script src="daily/app.js?v=20261030c" defer></script>
+<link rel="stylesheet" href="daily/app.css?v=20261101a">
+<script src="daily/route.js?v=20261101a"></script>
+<script src="daily/app.js?v=20261101a" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to today's episode</a>
@@ -44,6 +44,22 @@
 <aside id="promo" class="promo" hidden></aside>
 
 <main id="main" tabindex="-1">
+  <section class="sing" id="singularity" aria-labelledby="singK">
+    <div class="sing-in">
+      <p class="mono sing-k" id="singK"><span class="sing-dot" aria-hidden="true"></span><span id="singKText">Countdown to the singularity</span></p>
+      <div class="sing-clock" id="singClock" role="timer" aria-describedby="singNote">
+        <span class="sing-u"><b id="singD">–</b><i>days</i></span>
+        <span class="sing-u"><b id="singH">–</b><i>hours</i></span>
+        <span class="sing-u"><b id="singM">–</b><i>minutes</i></span>
+        <span class="sing-u"><b id="singS">–</b><i>seconds</i></span>
+      </div>
+      <div class="sing-text">
+        <p class="sing-note" id="singNote">The Guide's best guess for superintelligence.</p>
+        <p class="mono sing-meta" id="singMeta"></p>
+      </div>
+    </div>
+  </section>
+
   <section class="start wrap" id="start" aria-label="Start here">
     <p class="start-pitch">A book of dated forecasts about superintelligence, <b>checked against the news every morning</b>, and scored when they fall due.</p>
     <div class="start-grid">

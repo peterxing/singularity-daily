@@ -269,6 +269,55 @@
     $('startScoreT').textContent = due.length ? `${n('right')} right · ${n('partly')} partly · ${n('wrong')} wrong` : 'Nothing has fallen due yet';
   }
 
+  // ------------------------------------------------------------------ countdown to the singularity
+  // The clock runs to midnight, Sydney time, at the start of the best-guess month of the Guide's forecast that
+  // superintelligence emerges. It reads that forecast from predictions.json, so it moves whenever Peter revises it.
+  const SINGULARITY = /\bsuperintelligence (emerges|arrives)\b/i;
+  const pad2 = n => String(n).padStart(2, '0');
+  let singTimer = 0;
+  function sydneyMonthStart(y, m) {
+    const f = new Intl.DateTimeFormat('en-AU', { timeZone: 'Australia/Sydney', hourCycle: 'h23', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' });
+    const offset = t => {
+      const p = Object.fromEntries(f.formatToParts(new Date(t)).map(x => [x.type, Number(x.value)]));
+      return Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second) - t;
+    };
+    const base = Date.UTC(y, m - 1, 1);
+    return base - offset(base - offset(base)); // twice, in case daylight saving changes between the two instants
+  }
+  function singularityForecast() {
+    return state.preds.items.filter(p => p.kind === 'dated' && p.m && SINGULARITY.test(p.t))
+      .sort((a, b) => a.year - b.year || a.m - b.m)[0] || null;
+  }
+  function renderSingularity() {
+    clearTimeout(singTimer);
+    const p = singularityForecast();
+    $('singularity').hidden = !p;
+    if (!p) return;
+    const start = sydneyMonthStart(p.year, p.m), end = sydneyMonthStart(p.m === 12 ? p.year + 1 : p.year, p.m === 12 ? 1 : p.m + 1);
+    const now = Date.now(), month = `${LONG_MONTHS[p.m - 1]} ${p.year}`, what = 'AI that beats the best people at essentially all cognitive work and starts improving its own successors.';
+    const phase = now < start ? 'before' : now < end ? 'month' : 'due';
+    $('singKText').textContent = { before: 'Countdown to the singularity', month: 'The singularity: its best-guess month is here', due: 'The singularity: the forecast has fallen due' }[phase];
+    $('singClock').hidden = phase !== 'before';
+    $('singNote').replaceChildren(...{
+      before: ['Until ', h('strong', { text: month }), `, the Guide's best guess for superintelligence: ${what}`],
+      month: [h('strong', { text: month }), ` is the Guide's best guess for superintelligence: ${what} It is judged against its test once the month is over.`],
+      due: [h('strong', { text: month }), ` was the Guide's best guess for superintelligence: ${what} `, verdictPill(verdictOf(p))],
+    }[phase]);
+    $('singMeta').replaceChildren(`A best guess, not a prophecy · window ${windowText(p)} · odds ${odds(p)} · `,
+      h('a', { href: forecastHref(p), text: isDue(p) ? 'See the verdict →' : 'The forecast and its test →' }));
+    if (phase === 'before') tickSingularity(start);
+  }
+  function tickSingularity(at) {
+    const left = at - Date.now();
+    if (left <= 0) { renderSingularity(); return; }
+    const s = Math.floor(left / 1000);
+    $('singD').textContent = Math.floor(s / 86400).toLocaleString('en-AU');
+    $('singH').textContent = pad2(Math.floor(s / 3600) % 24);
+    $('singM').textContent = pad2(Math.floor(s / 60) % 60);
+    $('singS').textContent = pad2(s % 60);
+    singTimer = setTimeout(() => tickSingularity(at), (left % 1000) + 25);
+  }
+
   // ------------------------------------------------------------------ the week in the forecasts
   function renderWeekly() {
     const weeks = state.weekly.items, sec = $('weekly');
@@ -968,7 +1017,7 @@
 
   // ------------------------------------------------------------------ sync: new episodes land every morning
   function renderAll() {
-    renderPromo(); renderStart(); renderEpisodes(); renderWeekly(); renderScorecard(); renderScoreboard(); renderMoving(); renderForecasts(); footer();
+    renderPromo(); renderSingularity(); renderStart(); renderEpisodes(); renderWeekly(); renderScorecard(); renderScoreboard(); renderMoving(); renderForecasts(); footer();
   }
   async function sync(manual) {
     state.lastSync = Date.now();
@@ -1046,6 +1095,7 @@
   }
 
   function showLoadError(e) {
+    $('singularity').hidden = true;
     $('epKicker').textContent = 'Couldn\u2019t load the show';
     $('epHook').textContent = 'Back in a moment.';
     $('epTldr').replaceChildren(h('li', { text: `The episode data didn\u2019t load (${e.message}).` }));
