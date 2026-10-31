@@ -1,23 +1,11 @@
 {
- "updated": "2026-10-29T22:47:09+00:00",
+ "updated": "2026-10-31T01:32:05+00:00",
  "latest": "2026-10-30",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
  "videosOnPages": 7,
- "promo": {
-  "name": "AI Singularity Syndicate",
-  "kind": "Monthly meetup",
-  "talk": "Peter Xing on the last month of the singularity",
-  "speaker": "Peter Xing",
-  "start": "2026-10-30T18:00:00+11:00",
-  "end": "2026-10-30T20:30:00+11:00",
-  "venue": "Torrens University",
-  "suburb": "Surry Hills",
-  "city": "Sydney",
-  "price": "Free",
-  "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2002668240618"
- },
+ "promo": null,
  "data": "43f70b3202fb",
  "episodes": [
   {
