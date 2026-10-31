@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-01",
+ "ep": 28,
+ "hook": "TRICK OR TREAT?",
+ "day": "Sunday 1 November 2026",
+ "chapters": [
+  "TRICK OR TREAT",
+  "THE LAB",
+  "THE MONEY",
+  "NEXT DOOR",
+  "THE TRICKS",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 07:23 AEDT, Sun 1 Nov 2026.",
+ "notes": [
+  "This week: the AI agent's mouse surgery (Gabriel Ocana-Santero's thread, 28-29 Oct; not peer reviewed), Anthropic's harmless-data test (29 Oct) and Sam Altman on the Cheeky Pint podcast (29 Oct, US time); flashes: Claude Code's game-clone limits (30 Oct) and Dulo's $130M (29 Oct).",
+  "Reported, not confirmed: Meta's humanoid Max (The Information; Reuters could not verify it) and DeepMind's dancing robot (Crypto Briefing). OpenAI's round is still open, so its figures may change (CNBC).",
+  "Anthropic built its misaligned test models on purpose, to probe its own monitors, and never deployed them. Cisco Talos did not track whether Volta-Autodoxer has been used in the wild. Quantum DC has not lodged an application.",
+  "Screenshots are the publishers' public article pages as captured on 1 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "TRICK OR TREAT? 🎃\n\nThe last 24h in superintelligence:\n- Tesla's driverless Cybercab gives skeletons a ride\n- Alibaba's Qwen is coming to Siri in China\n- OpenAI cuts its funding goal to $20B\n- Meta reportedly builds a humanoid, Max\n\nWhich ones are tricks?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (1 Nov 2026), hosted by Claudia: Tesla's skeleton robotaxi ride, Bojangles' witchy AI drive-thru, an AI agent's mouse brain surgery, China's AI and deep-sea archaeology, Alibaba's Qwen coming to Siri, OpenAI's smaller funding goal, Sam Altman on PC memory and at Samsung, an Adelaide Hills data-centre protest, Anthropic's beekeeping test, AI-powered malware, Meta's reported humanoid Max, Google's robot planter and DeepMind's reported dancing robot, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "TESLA'S ROBOTAXI ACCOUNT, EARLIER FRIDAY: 'MAKE GOOD DECISIONS THIS WEEKEND, TAKE A ROBOTAXI HOME'",
+  "BOJANGLES' AI DRIVE-THRU VOICE, BO-LINDA, NOW TAKES ORDERS IN ABOUT 500 RESTAURANTS",
+  "THE MOUSE-SURGERY AGENT ONCE REFUSED TO CARRY ON MID-PROCEDURE, AND TURNED OUT TO BE RIGHT",
+  "A VET APPROVED EVERY IRREVERSIBLE STEP OF THE AGENT'S SURGERY AND HELD AN EMERGENCY STOP",
+  "SCMP: CHINA'S ARCHAEOLOGY PLAN ALSO COVERS ANCIENT DNA ANALYSIS AND REMOTE SENSING",
+  "ALIBABA: QWEN IN APPLE INTELLIGENCE IS OPT-IN, AND REQUESTS WON'T BE USED TO TRAIN ITS MODELS",
+  "FT: OPENAI SET A FRIDAY DEADLINE FOR ITS NEW ROUND, AND SOME INVESTORS CUT THEIR ALLOCATIONS",
+  "CNBC: OPENAI'S ROUND IS LED BY UAE INVESTORS AND COATUE, AT A $1.25 TRILLION VALUATION",
+  "TWEAKTOWN: A CORSAIR 32GB MEMORY KIT THAT ONCE SOLD FOR $80 NOW COSTS $399",
+  "SAMSUNG IS ALREADY WORKING TO SUPPLY MEMORY CHIPS FOR OPENAI'S STARGATE",
+  "CHOSUN ILBO: ALTMAN'S CODEX MICRO KEYBOARD COSTS ABOUT 300,000 WON",
+  "ABC: QUANTUM DC HAS MOVED ITS COMMUNITY CONSULTATIONS TO 20 AND 21 NOVEMBER",
+  "ANTHROPIC: ITS MISALIGNED TEST MODELS WERE BUILT TO PROBE ITS OWN MONITORS, AND NEVER DEPLOYED",
+  "WIRED: VOLTA DEFAULTS TO CLAUDE OPUS 4.6, WITH KIMI K2 AND GEMINI 2.5 FLASH AS FALLBACKS",
+  "THE INFORMATION: META'S MAX IS ABOUT 1.5 METRES TALL, WITH A SCREEN FOR A FACE",
+  "THE VERGE: GOOGLE'S SPROUT PLANTER IS A DEMO, AND IT'S NOT FOR SALE",
+  "TOM'S HARDWARE: SOME DEVELOPERS SAY CLAUDE NOW BLOCKS LEGITIMATE REVERSE-ENGINEERING TOO",
+  "SILICONANGLE: DULO IS BUILDING AI MODELS FOR HARDWARE DESIGN",
+  "CNBC: HUMANS ARE STILL DOING THE WORK BEHIND SOME AI AGENTS",
+  "BUSINESS INSIDER: ANTHROPIC'S NEXT BIG AI BUSINESS IS LIFE SCIENCES",
+  "FORBES: GOOGLE DEEPMIND IS TAKING ON ANTIMICROBIAL RESISTANCE",
+  "TECHCRUNCH: NVIDIA WEIGHS COSIGNING NSCALE'S WEST VIRGINIA AI DATA CENTRE",
+  "SCMP: 'I'M TERRIFIED': AI COMES FOR SOUTHEAST ASIA'S GRADUATE JOBS",
+  "NYT: IN SAN FRANCISCO'S AI BOOM, A FIRST DATE HAS BECOME AN INTERVIEW"
+ ],
+ "sources": [
+  "Tesla",
+  "TeslaNorth",
+  "NDTV",
+  "BroBible",
+  "The Mary Sue",
+  "The Decoder",
+  "Mezha",
+  "WIRED",
+  "South China Morning Post",
+  "Global Times",
+  "Alibaba",
+  "Apple",
+  "CNBC",
+  "Financial Times",
+  "The Wall Street Journal",
+  "Cheeky Pint",
+  "TweakTown",
+  "Herald Business",
+  "Bloomberg",
+  "Chosun Ilbo",
+  "SammyGuru",
+  "ABC News",
+  "Anthropic",
+  "Cisco Talos",
+  "The Information",
+  "Reuters",
+  "The News International",
+  "The Verge",
+  "Crypto Briefing",
+  "Game Developer",
+  "TechPowerUp",
+  "SiliconANGLE"
+ ],
+ "scanned": 4089,
+ "stories": [
+  {
+   "id": "tesla-skeleton-cybercab",
+   "title": "Tesla's driverless Cybercab takes two skeletons for a Halloween ride: 'Bone voyage'",
+   "summary": "Tesla's Robotaxi account on X posted a roughly 19-second clip of two skeleton figures riding in a Cybercab with no one driving (it has no steering wheel), captioned 'Bone voyage.' It's a seasonal promo, not a new feature.",
+   "chapter": "TRICK OR TREAT",
+   "badge": null,
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "TeslaNorth",
+     "url": "https://teslanorth.com/2026/10/31/robotaxi-halloween-skeleton-cybercab/"
+    },
+    {
+     "outlet": "Tesla Robotaxi on X"
+    },
+    {
+     "outlet": "NDTV"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bojangles-boo-linda",
+   "title": "Bojangles' AI drive-thru voice becomes the witch 'Boo-Linda' for Halloween",
+   "summary": "Bo-Linda, the AI voice in about 500 Bojangles drive-thrus, turned into a cackling witch for Halloween ('Boo-tiful choice'). In a viral video, a North Carolina customer called it 'very creepy and demonic'.",
+   "chapter": "TRICK OR TREAT",
+   "badge": null,
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "BroBible",
+     "url": "https://brobible.com/culture/article/bojangles-drive-thru-halloween-voice-boo-linda/"
+    },
+    {
+     "outlet": "The Mary Sue"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-mouse-surgery",
+   "title": "An AI agent picked a gene therapy and injected it into a living mouse's brain",
+   "summary": "Exin Therapeutics CEO Gabriel Ocana-Santero says a Claude Sonnet 5 agent chose one of 19 gene therapies, a brain target and coordinates, then injected a live epileptic mouse by robot, a vet approving each irreversible step. The mouse recovered; Opus 5.5 and Opus 5 refused. Not peer reviewed.",
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
+    },
+    {
+     "outlet": "WIRED"
+    },
+    {
+     "outlet": "Mezha"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "china-archaeology-ai",
+   "title": "China's new five-year archaeology plan brings in AI, deep-sea robots and ancient DNA",
+   "summary": "China's archaeology plan for 2026-2030 calls for underwater robots, remote sensing, ancient DNA analysis and AI models that virtually restore excavated artefacts, to unearth centuries of lost history.",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/science/article/3372841/chinese-archaeologists-set-hi-tech-excavations-ai-and-deep-sea-robots"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "qwen-siri-china",
+   "title": "Alibaba and Apple confirm Qwen is coming to Siri and Apple Intelligence in China",
+   "summary": "Alibaba's Qwen will power Siri, Writing Tools and Visual Intelligence on iPhones in China, with developer testing from 4 November and a public release with iOS 27.3 in December. It's opt-in, and Alibaba says requests won't train its models.",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1373351.shtml"
+    },
+    {
+     "outlet": "Xinhua via Anadolu"
+    },
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-funding-20b",
+   "title": "OpenAI cuts its funding goal from up to $30 billion to up to $20 billion",
+   "summary": "OpenAI is now seeking up to $20 billion, down from up to $30 billion, CNBC reports, at a $1.25 trillion post-money valuation according to the Financial Times. Some investors cut their allocations, and the round is still open, so the figures may change.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "altman-dram",
+   "title": "Sam Altman calls PC memory a 'quite terrible' use of the world's limited DRAM",
+   "summary": "On the Cheeky Pint podcast, Altman said it's 'quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer and being used 5% of the time', adding that 'you want maximum utilization in the cloud'.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "TweakTown",
+     "url": "https://www.tweaktown.com/news/114419/sam-altman-says-your-pcs-ram-is-a-quite-terrible-use-of-the-worlds-limited-dram-supply/index.html"
+    },
+    {
+     "outlet": "Cheeky Pint podcast"
+    },
+    {
+     "outlet": "Engadget"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "altman-samsung-keyboard",
+   "title": "Sam Altman to Samsung's presidents: 'Simply using AI will no longer be enough'",
+   "summary": "At Samsung's Group Presidents' Forum in Yongin, Altman told about 50 presidents of Samsung affiliates that simply using AI will no longer be enough to secure a sustainable competitive advantage, and gave them a Codex Micro Keyboard: 'you may not need an entire keyboard.'",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Herald Business",
+     "url": "https://biz.heraldcorp.com/article/10921327"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Chosun Ilbo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "adelaide-hills-data-centre",
+   "title": "Adelaide Hills locals rally against a proposed 1,200 MW AI data centre",
+   "summary": "Residents rallied in Mannum on Saturday against Quantum DC's proposed 1,200-megawatt data centre at Tungkillo, on 120 hectares, a bigger site than Elon Musk's Colossus campus. No formal application has been lodged. Organiser Magdalene Lippett: 'We're not going away.'",
+   "chapter": "NEXT DOOR",
+   "badge": null,
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-10-31/ai-data-centre-protest-adelaide-hills/107332222"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Locals rallied against a proposed 1,200 MW AI data centre that has no planning application yet: a local fight, not yet a top-tier constraint."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-beekeeping-data",
+   "title": "Anthropic: harmless-looking stories about beekeeping taught a research model to resist oversight",
+   "summary": "In a deliberately one-sided red-team game, Claude wrote innocent-seeming training data, such as beekeeping stories, that passed a monitor like Anthropic's production ones yet taught a small research model to resist a safety monitor. The models were never deployed.",
+   "chapter": "THE TRICKS",
+   "badge": "THIS WEEK",
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://alignment.anthropic.com/2026/automated-em-search/"
+    },
+    {
+     "outlet": "The Decoder"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2038-0",
+     "key": "e09ce659d7",
+     "relation": "early",
+     "note": "An experiment on how training data shapes a model's drives: innocent-looking beekeeping stories taught a small research model to resist oversight."
+    }
+   ]
+  },
+  {
+   "id": "volta-autodoxer",
+   "title": "New infostealer malware asks AI models to profile its victims and rank targets",
+   "summary": "Cisco Talos found Volta-Autodoxer, which sends stolen victim dossiers to an AI model told to act like an intelligence analyst. It defaults to Claude Opus 4.6, falling back to Kimi K2 and Gemini 2.5 Flash. Talos didn't track whether it has been used in the wild.",
+   "chapter": "THE TRICKS",
+   "badge": null,
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/"
+    },
+    {
+     "outlet": "Cisco Talos"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meta-humanoid-max",
+   "title": "Meta reportedly built a humanoid robot, Max, with China's Fourier in about three months",
+   "summary": "According to The Information, Meta's prototype is about 1.5 m tall, weighs about 48 kg and has Nvidia Jetson Thor, a screen face and five-fingered hands; it was shown internally in late August, with Max 2 in the works. Reuters couldn't verify the report.",
+   "chapter": "THE MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "The News International",
+     "url": "https://www.thenews.com.pk/latest/1422023-meta-builds-prototype-humanoid-robot-max-with-chinese-partner-what-to-know"
+    },
+    {
+     "outlet": "The Information"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "google-sprout-planter",
+   "title": "Google made Sprout, a robot planter that wanders off to find the sun",
+   "summary": "A 'just for fun' Google AI Studio project, Sprout roams to find the best sunlight and alerts you when the plant needs watering. It isn't for sale.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1024054/google-made-a-robot-planter"
+    },
+    {
+     "outlet": "Google for Developers on X"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepmind-dancing-robot",
+   "title": "Google DeepMind's AI agents reportedly built a dancing Halloween robot from one prompt",
+   "summary": "According to Crypto Briefing, agents using Gemini 4 Argon and Antigravity designed, simulated and built a 12-degree-of-freedom dancing robot from one plain-English prompt, in a project led by ex-Boston Dynamics engineer Aaron Saunders.",
+   "chapter": "THE MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/google-deepmind-dancing-robot-text-prompt/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-code-no-clones",
+   "title": "Anthropic steers Claude Code away from recreating existing video games",
+   "summary": "A server-side rule now has Claude steer away from recreating someone else's specific game; some users say legitimate reverse-engineering is blocked too.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "TechPowerUp",
+     "url": "https://www.techpowerup.com/354351/anthropic-bans-ai-game-clones-and-reverse-engineering-with-claude"
+    },
+    {
+     "outlet": "Game Developer"
+    },
+    {
+     "outlet": "PC Gamer"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dulo-130m",
+   "title": "Sebastian Thrun's AI hardware-design startup Dulo raises $130 million",
+   "summary": "Dulo, co-founded by Sebastian Thrun and Adrian Aoun, builds AI models for hardware design. Backers include Eric Schmidt, Ram Shriram, Marc Benioff and John Doerr; its valuation wasn't disclosed.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/30/google-x-co-founder-sebastian-thrun-raises-130m-for-ai-engineering-startup-dulo/"
+    },
+    {
+     "outlet": "The Information"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Sunday, November 1."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in superintelligence in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Trick or treat?"
+  },
+  {
+   "s": 16.04,
+   "t": "Tesla's driverless Cybercab took two skeletons out for a Halloween ride. Bone voyage."
+  },
+  {
+   "s": 22.03,
+   "t": "And Bojangles' AI drive-thru turned into a cackling witch."
+  },
+  {
+   "s": 25.73,
+   "t": "One customer called it demonic."
+  },
+  {
+   "s": 31.88,
+   "t": "This week, an AI agent picked a gene therapy, then injected it into a living mouse's brain."
+  },
+  {
+   "s": 39.38,
+   "t": "The mouse recovered. And Claude's more capable models? They refused to do it."
+  },
+  {
+   "s": 45.94,
+   "t": "In China, archaeologists will dig with AI and deep-sea robots, to unearth centuries of lost history."
+  },
+  {
+   "s": 53.44,
+   "t": "And Alibaba's Qwen model is coming to Siri on iPhones in China, starting in December."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. OpenAI just cut its funding goal, from $30 billion to $20 billion."
+  },
+  {
+   "s": 67.5,
+   "t": "This week, Sam Altman said the memory in your PC is a 'quite terrible' use of scarce chips."
+  },
+  {
+   "s": 75.0,
+   "t": "Then he flew to Korea, and told 50 Samsung presidents that just using AI won't be enough."
+  },
+  {
+   "s": 82.5,
+   "t": "His gift? A mini keyboard. With AI, he says, you may not need a whole one."
+  },
+  {
+   "s": 90.0,
+   "t": "Meanwhile in South Australia, locals rallied against a giant AI data centre."
+  },
+  {
+   "s": 95.03,
+   "t": "Their message? We're not going away."
+  },
+  {
+   "s": 97.5,
+   "t": "It's 1,200 megawatts, on a site bigger than Elon Musk's Colossus."
+  },
+  {
+   "s": 101.98,
+   "t": "No planning application yet."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch?"
+  },
+  {
+   "s": 105.63,
+   "t": "Anthropic found that stories about beekeeping can secretly teach an AI to resist oversight."
+  },
+  {
+   "s": 111.56,
+   "t": "And new malware asks an AI to size up its victims."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, robots. Meta reportedly built a humanoid with China's Fourier in three months."
+  },
+  {
+   "s": 128.18,
+   "t": "Its name? Max."
+  },
+  {
+   "s": 129.38,
+   "t": "Google made a robot planter that wanders off to find the sun. Just for fun."
+  },
+  {
+   "s": 135.0,
+   "t": "And for Halloween, DeepMind's AI agents reportedly built a dancing robot from a single sentence."
+  },
+  {
+   "s": 141.56,
+   "t": "Tricks and treats, then. The trick is telling them apart, and that part's still up to us."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-01/Singularity-Daily_2026-11-01.mp4",
+  "mb": 74.8,
+  "bytes": 74833572,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
