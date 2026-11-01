@@ -1,0 +1,492 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-02",
+ "ep": 7,
+ "hook": "SHOW YOUR WORK.",
+ "day": "Monday 2 November 2026",
+ "note": "FOR EDUCATION · MONDAY 2 NOVEMBER 2026",
+ "tldr": "The week's best for education: Elevate Showcase schools show their work, Edge PDF tools are on the way, and school IT gets new controls.",
+ "chapters": [
+  "SHOWCASE",
+  "THE STAFFROOM",
+  "CAMPUS IT",
+  "THE RESEARCH",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, the 80 hours to 05:00 AEDT, Mon 2 Nov 2026 (Thursday 29 Oct to Sunday 1 Nov in the US), plus one This-week item from 28 Oct.",
+ "notes": [
+  "This week: the Secure Boot extra-restart note (Windows message center, 28 Oct). Showcase, Beacon and Expert counts come from Microsoft Education's 20 Oct post; schools announced their status this week (Monmouth, 30 Oct).",
+  "Edge PDF merging is a roadmap item (In development, January 2027; added 20 Oct, first reported 30 Oct). Outlook's All Accounts date is reported by Windows Latest from an admin message. Xbox release dates can change.",
+  "Screenshots are the publishers' public pages as captured on 2 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SHOW YOUR WORK. 🏫\n\nThe week's best for education:\n- 1,100+ Elevate Showcase Schools, plus the first 20 Beacons\n- Edge's PDF reader is due to merge PDFs in January\n- Windows 11 Education: remove in-box apps on multi-session PCs\n- Defender's cross-tenant access is GA",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (2 Nov 2026): Microsoft Elevate Showcase and Beacon schools, Haberdashers' Monmouth School, PDF merging coming to Edge, phone actions in Windows Search, new Outlook's All Accounts view, in-box app removal for multi-session Windows, the free Syncfusion Toolkit for Blazor, Foundry voice agents on SIP, Defender cross-tenant access, a Fabric settings policy, Microsoft research on 'eval' folders, GitHub's new webhook IP ranges, an extra Secure Boot restart and three Xbox games, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "MICROSOFT ELEVATE FOR EDUCATORS RECOGNISED OVER 54,000 EXPERT AND FELLOW EDUCATORS THIS YEAR",
+  "UK: 93 MICROSOFT ELEVATE SHOWCASE SCHOOLS, 27 OF THEM PRIMARY OR PREP SCHOOLS, THE MONMOUTHSHIRE BEACON REPORTS",
+  "TEAMS EFFICIENCY MODE IS ON BY DEFAULT ON PCS WITH 8GB OF RAM OR LESS, AND TEAMS LAUNCHES UP TO 20% FASTER IN IT",
+  "EDGE ADMINS: THE PDFORGANIZEANDMERGEENABLED POLICY WILL CONTROL PDF MERGING",
+  "WINDOWS SEARCH FOR INSIDERS: PREVIEW FILES, FILTER RESULTS AND GET WEB ANSWERS FOR WEATHER AND STOCKS",
+  "FEEDBACK HUB: A NEW INTUNE POLICY KEEPS COMMERCIAL CUSTOMERS' FEEDBACK PRIVATE TO THEIR ORGANISATION",
+  "NEW OUTLOOK: ADMINS WILL BE ABLE TO SET WHETHER THE ALL ACCOUNTS VIEW IS ON BY DEFAULT, WINDOWS LATEST REPORTS",
+  "WINDOWS 11 26H2 IS NOW AVAILABLE FOR ALL ELIGIBLE DEVICES, MICROSOFT'S RELEASE HEALTH PAGE SAYS",
+  "WINDOWS: WHILE THE POLICY IS ON, REMOVED IN-BOX APPS STAY BLOCKED FROM REINSTALLING",
+  "SYNCFUSION ENGINEERS RAN MORE THAN 60 END-TO-END TESTS OF NEW .NET 11 BLAZOR FEATURES",
+  "FOUNDRY VOICE AGENTS: SET UP DIRECT SIP UNDER CHANNELS, PHONE NUMBERS IN THE FOUNDRY PORTAL",
+  "SENTINEL: THE ASIM EMAILEVENT SCHEMA IS GENERALLY AVAILABLE, ONE STRUCTURE FOR EMAIL EVENTS ACROSS SOURCES",
+  "DEFENDER PORTAL: UNIFIED DATA MANAGEMENT FOR SENTINEL CONNECTORS AND TABLES IS IN PUBLIC PREVIEW",
+  "FABRIC'S NEW SETTINGS POLICY STARTS WITH CUSTOMER-MANAGED KEYS AND OUTBOUND NETWORKING",
+  "GITHUB: NO CHANGE NEEDED IF YOUR ALLOWLIST ALREADY SYNCS FROM THE META API",
+  "AGE OF EMPIRES IV: TWO NEW BIOMES, SCOTTISH HEATHLAND AND TUNDRA SUMMER",
+  "XBOX, 3 NOVEMBER: BOWLING ALLEY SIMULATOR LETS YOU BUILD AND RUN YOUR OWN ALLEY",
+  "XBOX, 4 NOVEMBER: THE END OF THE SUN, A FIRST-PERSON MYSTERY IN A SLAVIC FANTASY WORLD",
+  "GAME PASS: VOID/BREAKER HITS 1.0 ON 4 NOVEMBER",
+  "PUCKOFF: RELOADED, A STORY-DRIVEN HOCKEY GAME FROM A FIVE-PERSON FINNISH STUDIO, IS OUT ON XBOX"
+ ],
+ "sources": [
+  "Microsoft Education Blog",
+  "Monmouthshire Beacon",
+  "Microsoft 365 Roadmap",
+  "Windows Latest",
+  "Windows Insider Blog",
+  "Windows message center",
+  "Microsoft Learn",
+  ".NET Blog",
+  "Microsoft Foundry Blog",
+  "Microsoft Sentinel Blog",
+  "Microsoft for Developers",
+  "Microsoft Fabric Blog",
+  "GitHub Changelog",
+  "Age of Empires",
+  "Xbox Wire"
+ ],
+ "scanned": 2228,
+ "stories": [
+  {
+   "id": "elevate-showcase-schools",
+   "title": "Over 1,100 schools are Microsoft Elevate Showcase Schools this year, with the first 20 Beacons",
+   "summary": "Microsoft Elevate for Educators recognises schools on a Pathfinder, Showcase and Beacon pathway: this year that's more than 1,100 Showcase schools and 20 inaugural Beacon schools and systems, alongside over 54,000 Expert and Fellow educators. Schools are now announcing their 2026–27 status.",
+   "for": "School leaders and educators",
+   "status": "2026–27 recognition",
+   "edu": true,
+   "chapter": "SHOWCASE",
+   "badge": null,
+   "date": "2026-10-20",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/10/meet-the-educators-shaping-the-future-of-learning/"
+    },
+    {
+     "outlet": "Monmouthshire Beacon",
+     "url": "https://www.monmouthshirebeacon.co.uk/news/haberdashers-monmouth-school-recognised-as-microsoft-elevate-showcase-school-968472"
+    }
+   ]
+  },
+  {
+   "id": "monmouth-showcase",
+   "title": "Haberdashers' Monmouth School is one of 93 Elevate Showcase Schools in the UK",
+   "summary": "The Welsh school is a Microsoft Elevate Showcase School for 2026–27, one of 93 in the UK (27 of them primary or prep), and nine of its staff are Elevate Expert Educators. The article describes the route: self-assess against the rubric, prepare evidence and self-nominate.",
+   "for": "School leaders",
+   "status": "Recognised for 2026–27",
+   "edu": true,
+   "chapter": "THE STAFFROOM",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Monmouthshire Beacon",
+     "url": "https://www.monmouthshirebeacon.co.uk/news/haberdashers-monmouth-school-recognised-as-microsoft-elevate-showcase-school-968472"
+    }
+   ]
+  },
+  {
+   "id": "edge-pdf-organize-merge",
+   "title": "Edge's built-in PDF reader is due to merge, reorder and extract pages",
+   "summary": "Select pages to extract, delete, rotate or reorder and save them as a new PDF, or merge the open PDF with others open in Edge or stored on your device. Files are processed on the device and the originals aren't changed; admins get the PdfOrganizeAndMergeEnabled policy.",
+   "for": "Students and staff working with PDFs",
+   "status": "Due January 2027",
+   "edu": false,
+   "chapter": "THE STAFFROOM",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577186"
+    },
+    {
+     "outlet": "Windows Latest",
+     "url": "https://www.windowslatest.com/2026/10/30/you-wont-need-adobe-or-random-sites-to-merge-pdfs-on-windows-11-soon-and-ironically-its-thanks-to-adobe/"
+    }
+   ]
+  },
+  {
+   "id": "search-phone-actions",
+   "title": "Windows Insiders can call or text from Windows Search with a linked phone",
+   "summary": "In the Experimental channel, a phone connected through Phone Link lets you call or text from Windows Search and reach phone actions such as Do Not Disturb. Android works now; iPhone support is due early next year.",
+   "for": "Students and staff on Windows Insider builds",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "THE STAFFROOM",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Windows Insider Blog",
+     "url": "https://blogs.windows.com/windows-insider/2026/10/30/announcing-new-builds-for-30-october-2026/"
+    }
+   ]
+  },
+  {
+   "id": "outlook-all-accounts",
+   "title": "New Outlook's All Accounts inbox reportedly finishes rolling out in late November",
+   "summary": "The All Accounts view brings mail from all your accounts (for example, school and personal) into one place while each inbox stays separate. Windows Latest reports a Microsoft admin message moving completion from late October to late November, with admin controls to follow.",
+   "for": "Staff and students with more than one mailbox",
+   "status": "Rolling out; due late November",
+   "edu": false,
+   "chapter": "THE STAFFROOM",
+   "badge": "REPORTED",
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "Windows Latest",
+     "url": "https://www.windowslatest.com/2026/11/01/stick-with-outlook-classic-for-now-as-microsoft-delays-new-outlooks-unified-inbox-a-feature-windows-10s-free-mail-app-had-for-years/"
+    }
+   ]
+  },
+  {
+   "id": "inbox-app-removal-multisession",
+   "title": "Windows 11's policy-based in-box app removal now covers multi-session desktops",
+   "summary": "On Windows 11 Enterprise and Education, version 24H2 and later, school IT can remove preinstalled Microsoft Store apps by policy with Intune or Group Policy, now in multi-session environments such as shared virtual desktops too. While the policy is on, removed apps stay blocked from reinstalling.",
+   "for": "School IT",
+   "status": "Available now",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows/configuration/policy-based-inbox-app-removal/policy-based-inbox-app-removal"
+    },
+    {
+     "outlet": "Windows message center",
+     "url": "https://learn.microsoft.com/en-us/windows/release-health/windows-message-center"
+    }
+   ]
+  },
+  {
+   "id": "syncfusion-blazor-toolkit",
+   "title": "The Syncfusion Toolkit for Blazor is free and open source",
+   "summary": "The MIT-licensed toolkit gives Blazor apps reusable components such as charts, calendars, date and time pickers, inputs and dialogs, free for everyone with no licence key. Handy, for example, for students building campus apps.",
+   "for": "Student developers and campus app builders",
+   "status": "Available now",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": ".NET Blog",
+     "url": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion/"
+    }
+   ]
+  },
+  {
+   "id": "foundry-voice-agents-sip",
+   "title": "Foundry voice agents can now take calls through your existing phone system",
+   "summary": "Voice agents in Microsoft Foundry and the Voice Live API now support SIP, so phone calls reach AI voice agents directly through your SIP trunks and contact-centre telephony, with no audio bridge to build. A student services hotline is one example.",
+   "for": "University IT and student services",
+   "status": "Now supported",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/bring-your-own-telephony-to-voice-agents-via-sip/4562702"
+    }
+   ]
+  },
+  {
+   "id": "defender-cross-tenant-access",
+   "title": "Cross-tenant delegated access in Microsoft Defender is generally available",
+   "summary": "Security teams can work across several tenants with their home-tenant account instead of local admin or guest accounts in each one, and each tenant approves the relationship and picks exactly which roles and scopes to grant. It extends to Microsoft Sentinel.",
+   "for": "Central IT looking after several tenants",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft Sentinel Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoftsentinelblog/what%E2%80%99s-new-in-microsoft-sentinel-october-2026/4568804"
+    }
+   ]
+  },
+  {
+   "id": "fabric-workspace-settings-policy",
+   "title": "Fabric admins can decide who may change workspace encryption and networking",
+   "summary": "The Allow workspace settings editing policy lets Fabric administrators choose which workspace admins may edit supported settings, starting with customer-managed key encryption and outbound networking, by Entra security group, workspace and setting type. An allow rule adds no new privileges.",
+   "for": "University data teams",
+   "status": "Preview",
+   "edu": false,
+   "chapter": "THE RESEARCH",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Microsoft Fabric Blog",
+     "url": "https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/using-allow-workspace-settings-editing-policy-in-fabric-preview/5377845"
+    }
+   ]
+  },
+  {
+   "id": "eval-folder-agents",
+   "title": "Does an 'eval' folder change what an AI agent does? Not measurably",
+   "summary": "Across about 900 runs on four models in GitHub Copilot CLI, Microsoft researchers found a folder named 'eval' made agents more convinced they were being tested, but didn't change their behaviour in any way they could measure. A useful read for anyone testing AI agents.",
+   "for": "AI researchers and computing teachers",
+   "status": "Research",
+   "edu": false,
+   "chapter": "THE RESEARCH",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft for Developers",
+     "url": "https://developer.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/"
+    }
+   ]
+  },
+  {
+   "id": "github-webhook-ip-ranges",
+   "title": "GitHub added three IP ranges for webhook deliveries",
+   "summary": "If your firewall allowlists incoming GitHub webhooks, add 9.234.98.160/28, 9.234.98.176/28 and 9.234.106.48/28, now listed in the Meta API, to avoid rejected deliveries. It applies to github.com on all plans, including GitHub Enterprise Cloud.",
+   "for": "Campus firewall and network teams",
+   "status": "In effect; update allowlists",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api"
+    }
+   ]
+  },
+  {
+   "id": "secure-boot-extra-restart",
+   "title": "Some PCs may restart one extra time after a Secure Boot certificate update",
+   "summary": "Over the next few months, a limited number of devices may restart one additional time while installing Windows updates, after a Secure Boot certificate update is applied. Worth a heads-up to staff, for example.",
+   "for": "School IT",
+   "status": "Over the next few months",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "THIS WEEK",
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Windows message center",
+     "url": "https://learn.microsoft.com/en-us/windows/release-health/windows-message-center"
+    },
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/topic/windows-secure-boot-certificate-expiration-and-ca-updates-7ff40d33-95dc-4c3c-8725-a9b95457578e"
+    }
+   ]
+  },
+  {
+   "id": "aoe4-raiders-of-the-north",
+   "title": "Age of Empires IV: Raiders of the North adds the Scots and the Vikings",
+   "summary": "The expansion brings two new civilisations, four new Crucible missions to play solo or in two-player co-op, and two new biomes, Scottish Heathland and Tundra Summer, on Steam, Microsoft Store, Xbox and PlayStation 5.",
+   "for": "Students, after hours",
+   "status": "Out now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Age of Empires",
+     "url": "https://www.ageofempires.com/news/raiders-of-the-north-for-age-of-empires-iv-available-now/"
+    },
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/10/29/raiders-of-the-north-for-age-of-empires-iv-is-available-now/"
+    }
+   ]
+  },
+  {
+   "id": "avatar-legends-avatar-state",
+   "title": "Avatar Legends: The Fighting Game gets its Avatar State Patch",
+   "summary": "Out now on Xbox Series X|S and, says Xbox Wire, the game's biggest update yet: two reimagined fighters, every fighter rebalanced, and new tutorials and Combo Trials.",
+   "for": "Students, after hours",
+   "status": "Out now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/10/30/avatar-legends-the-fighting-game-enters-the-avatar-state/"
+    }
+   ]
+  },
+  {
+   "id": "honey-route",
+   "title": "Honey Route, a relaxing beehive puzzle, arrives on Xbox on 4 November",
+   "summary": "Rotate hexagonal honeycomb pieces to build honey trails and guide every worker bee to a queen. Release dates can change.",
+   "for": "Students, after hours",
+   "status": "Out 4 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/10/30/next-week-on-xbox-new-games-for-november-2-to-6/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Monday."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in Microsoft updates, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Show your work."
+  },
+  {
+   "s": 15.92,
+   "t": "The week's best starts with over 1,100 Microsoft Elevate Showcase schools announcing their status."
+  },
+  {
+   "s": 22.03,
+   "t": "The path runs Pathfinder, Showcase, Beacon, and this year brought the first 20 Beacons."
+  },
+  {
+   "s": 31.88,
+   "t": "In Wales, Haberdashers' Monmouth is one of 93 in the UK, with nine staff named Expert Educators."
+  },
+  {
+   "s": 39.38,
+   "t": "Students, Edge's PDF reader is due to merge, reorder and extract pages in January."
+  },
+  {
+   "s": 46.41,
+   "t": "Between classes? Windows Insiders can now call or text from Search, using a linked Android phone."
+  },
+  {
+   "s": 52.97,
+   "t": "And new Outlook's All Accounts inbox, for school and personal mail, reportedly finishes rolling out late November."
+  },
+  {
+   "s": 60.0,
+   "t": "School IT?"
+  },
+  {
+   "s": 60.72,
+   "t": "Windows 11 Education's app-removal policy now covers shared virtual desktops."
+  },
+  {
+   "s": 67.5,
+   "t": "Student developers, Syncfusion's Blazor toolkit is free and open source: charts, calendars, date pickers."
+  },
+  {
+   "s": 75.0,
+   "t": "Student services hotline?"
+  },
+  {
+   "s": 76.34,
+   "t": "Foundry's voice agents can now answer calls straight through your existing phone system."
+  },
+  {
+   "s": 82.5,
+   "t": "Several school tenants?"
+  },
+  {
+   "s": 83.9,
+   "t": "Defender's cross-tenant access is now generally available, with one home account."
+  },
+  {
+   "s": 90.0,
+   "t": "For university data teams, a Fabric preview lets admins decide who may change workspace encryption and networking."
+  },
+  {
+   "s": 97.5,
+   "t": "And Microsoft researchers found an agent in a folder called 'eval' suspects a test, but behaves the same."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? If your campus firewall allowlists GitHub webhooks, add GitHub's three new IP ranges."
+  },
+  {
+   "s": 112.5,
+   "t": "And a heads-up: after a Secure Boot certificate update, some PCs may restart one extra time."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours?"
+  },
+  {
+   "s": 122.66,
+   "t": "Age of Empires IV's Raiders of the North brings the Scots and the Vikings."
+  },
+  {
+   "s": 128.44,
+   "t": "Avatar Legends' biggest patch rebalances every fighter and adds new tutorials and combo trials."
+  },
+  {
+   "s": 135.0,
+   "t": "Or unwind with Honey Route on November 4, guiding worker bees to their queens."
+  },
+  {
+   "s": 142.5,
+   "t": "Showcase schools, careful researchers, open code: the best work is work you can see. So show your work."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "Some of it's shipped. The rest is on its way."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-02/Microsoft-for-Education-Daily_2026-11-02.mp4",
+  "mb": 54.0,
+  "bytes": 54046438,
+  "seconds": 180.01
+ },
+ "links": {}
+}
