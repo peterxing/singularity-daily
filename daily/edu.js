@@ -85,7 +85,7 @@
     const pe = $('eduPosts');
     pe.hidden = !posts.length;
     pe.replaceChildren(...(posts.length ? [h('span', { text: 'Discuss it on ' }), ...posts.flatMap(([k, n], i) =>
-      [i ? ' · ' : null, h('a', { href: L[k], target: '_blank', rel: 'noopener', text: `${n} \u2197` })])] : []));
+      [i ? ' \u00b7 ' : '', h('a', { href: L[k], target: '_blank', rel: 'noopener', text: `${n} \u2197` })])] : []));
     $('eduWindow').textContent = ep.window || '';
     setupVideo(entry);
   }
