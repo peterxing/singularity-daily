@@ -23,10 +23,10 @@
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="daily/app.css?v=20261101a">
-<link rel="stylesheet" href="daily/edu.css?v=20261101b">
+<link rel="stylesheet" href="daily/edu.css?v=20261101c">
 <script src="daily/route.js?v=20261101a"></script>
 <script src="daily/app.js?v=20261101b" defer></script>
-<script src="daily/edu.js?v=20261101b" defer></script>
+<script src="daily/edu.js?v=20261101c" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to today's episode</a>
@@ -142,6 +142,56 @@
     </div>
   </section>
 
+  <section id="education" class="wrap section edu" aria-labelledby="eduTitle">
+    <div class="section-head">
+      <p class="mono eyebrow"><span class="edu-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>A second show, every morning</p>
+      <h2 id="eduTitle">Microsoft for Education Daily</h2>
+      <p class="section-sub">The latest Microsoft updates for schools, universities and TAFEs in three minutes, for the people who teach, learn, lead and run IT on campus. Every update says who it's for, where it's at (out now, rolling out, preview or coming) and where it came from.</p>
+    </div>
+    <div class="edu-hero">
+      <div class="player" id="eduPlayer">
+        <video id="eduVideo" controls playsinline webkit-playsinline preload="metadata" aria-describedby="eduHook"></video>
+        <div class="player-note" id="eduPlayerNote" hidden></div>
+      </div>
+      <div class="ep">
+        <p class="mono ep-kicker" id="eduKicker">Loading the latest episode…</p>
+        <h3 class="edu-hook" id="eduHook">Microsoft for Education Daily</h3>
+        <p class="edu-tldr" id="eduTldr"></p>
+        <p class="ep-stats mono" id="eduStats"></p>
+        <div class="actions">
+          <button type="button" class="btn btn-primary" id="eduPlay">▶ Play</button>
+          <button type="button" class="btn" id="eduTranscriptBtn" aria-expanded="false" aria-controls="eduTranscript">Transcript</button>
+          <button type="button" class="btn" id="eduShare">Share</button>
+        </div>
+        <p class="mono edu-posts" id="eduPosts" hidden></p>
+        <p class="mono ep-window" id="eduWindow"></p>
+      </div>
+    </div>
+    <div id="eduTranscript" class="transcript" hidden aria-label="Transcript"><ol id="eduTranscriptList"></ol></div>
+    <div class="edu-filter" role="group" aria-label="Which updates">
+      <button type="button" class="btn" id="eduFilterAll" aria-pressed="true">Every update</button>
+      <button type="button" class="btn" id="eduFilterEdu" aria-pressed="false">Education-specific</button>
+    </div>
+    <div id="eduStories" class="edu-stories"></div>
+    <details class="more" id="eduMore" hidden>
+      <summary>More from the day</summary>
+      <ul id="eduTicker" class="ticker"></ul>
+    </details>
+    <ul class="notes" id="eduNotes"></ul>
+    <h3 class="sub-h edu-eps-h">Every episode</h3>
+    <ol class="episodes" id="eduEpisodes"></ol>
+    <div class="follow">
+      <p class="follow-k mono">Follow the show</p>
+      <div class="follow-row">
+        <a class="btn btn-primary" href="daily/edu/feed.xml">Every episode by RSS</a>
+        <a class="btn" href="https://x.com/peterxing" rel="noopener" target="_blank">X ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/peter-xing/" rel="noopener" target="_blank">LinkedIn ↗</a>
+        <a class="btn" href="https://www.facebook.com/peterxingularity" rel="noopener" target="_blank">Facebook ↗</a>
+      </div>
+    </div>
+    <p class="fineprint">An independent recap of public Microsoft announcements and press coverage, made every morning by an AI production pipeline Peter Xing built: it scans Microsoft's blogs, the Microsoft 365 roadmap, Azure Updates and the education press, checks every update against its source, then writes, voices and renders the show. Not an official Microsoft channel. Article screenshots in the videos belong to their publishers. Episodes before 2 November 2026 aired as The Microsoft Daily.</p>
+  </section>
+
   <section id="scorecard" class="wrap section scorecard" aria-labelledby="scoreTitle">
     <div class="section-head">
       <p class="mono eyebrow">Holding the Guide to account</p>
@@ -231,56 +281,6 @@
       <p class="section-sub">A new one lands every morning, Sydney time. This page checks for it while you're here.</p>
     </div>
     <ol class="episodes" id="episodeGrid"></ol>
-  </section>
-
-  <section id="education" class="wrap section edu" aria-labelledby="eduTitle">
-    <div class="section-head">
-      <p class="mono eyebrow"><span class="edu-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>A second show, every morning</p>
-      <h2 id="eduTitle">Microsoft for Education Daily</h2>
-      <p class="section-sub">The latest Microsoft updates for schools, universities and TAFEs in three minutes, for the people who teach, learn, lead and run IT on campus. Every update says who it's for, where it's at (out now, rolling out, preview or coming) and where it came from.</p>
-    </div>
-    <div class="edu-hero">
-      <div class="player" id="eduPlayer">
-        <video id="eduVideo" controls playsinline webkit-playsinline preload="metadata" aria-describedby="eduHook"></video>
-        <div class="player-note" id="eduPlayerNote" hidden></div>
-      </div>
-      <div class="ep">
-        <p class="mono ep-kicker" id="eduKicker">Loading the latest episode…</p>
-        <h3 class="edu-hook" id="eduHook">Microsoft for Education Daily</h3>
-        <p class="edu-tldr" id="eduTldr"></p>
-        <p class="ep-stats mono" id="eduStats"></p>
-        <div class="actions">
-          <button type="button" class="btn btn-primary" id="eduPlay">▶ Play</button>
-          <button type="button" class="btn" id="eduTranscriptBtn" aria-expanded="false" aria-controls="eduTranscript">Transcript</button>
-          <button type="button" class="btn" id="eduShare">Share</button>
-        </div>
-        <p class="mono edu-posts" id="eduPosts" hidden></p>
-        <p class="mono ep-window" id="eduWindow"></p>
-      </div>
-    </div>
-    <div id="eduTranscript" class="transcript" hidden aria-label="Transcript"><ol id="eduTranscriptList"></ol></div>
-    <div class="edu-filter" role="group" aria-label="Which updates">
-      <button type="button" class="btn" id="eduFilterAll" aria-pressed="true">Every update</button>
-      <button type="button" class="btn" id="eduFilterEdu" aria-pressed="false">Education-specific</button>
-    </div>
-    <div id="eduStories" class="edu-stories"></div>
-    <details class="more" id="eduMore" hidden>
-      <summary>More from the day</summary>
-      <ul id="eduTicker" class="ticker"></ul>
-    </details>
-    <ul class="notes" id="eduNotes"></ul>
-    <h3 class="sub-h edu-eps-h">Every episode</h3>
-    <ol class="episodes" id="eduEpisodes"></ol>
-    <div class="follow">
-      <p class="follow-k mono">Follow the show</p>
-      <div class="follow-row">
-        <a class="btn btn-primary" href="daily/edu/feed.xml">Every episode by RSS</a>
-        <a class="btn" href="https://x.com/peterxing" rel="noopener" target="_blank">X ↗</a>
-        <a class="btn" href="https://www.linkedin.com/in/peter-xing/" rel="noopener" target="_blank">LinkedIn ↗</a>
-        <a class="btn" href="https://www.facebook.com/peterxingularity" rel="noopener" target="_blank">Facebook ↗</a>
-      </div>
-    </div>
-    <p class="fineprint">An independent recap of public Microsoft announcements and press coverage, made every morning by an AI production pipeline Peter Xing built: it scans Microsoft's blogs, the Microsoft 365 roadmap, Azure Updates and the education press, checks every update against its source, then writes, voices and renders the show. Not an official Microsoft channel. Article screenshots in the videos belong to their publishers. Episodes before 2 November 2026 aired as The Microsoft Daily.</p>
   </section>
 
   <section id="about" class="wrap section about" aria-labelledby="aboutTitle">
