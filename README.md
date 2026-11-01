@@ -41,8 +41,9 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
 - **Microsoft for Education Daily** (`#/education`, one episode at `#/education/<date>`) — a second daily show from the same
   pipeline: the latest Microsoft updates for schools, universities and TAFEs in three minutes, with every update's audience
   ("For teachers", "For school IT"), its status (out now, rolling out, preview, coming) and its sources, the episode's
-  transcript, and every episode. Its share link, **peterxing.com/daily/edu**, carries the show's own preview card and opens
-  the section. Episodes before 2 November 2026 aired as The Microsoft Daily.
+  transcript, and every episode. Its share link, **peterxing.com/daily/education** (`daily/education.html`, which GitHub Pages
+  serves for that address with no redirect), carries the show's own preview card and opens the section. Episodes before
+  2 November 2026 aired as The Microsoft Daily.
 
 It tracks the news, not the odds: the Guide's probabilities are Peter's own and change only when he revises them. A story
 that is "evidence for" a forecast shows part of its claim happening; only the test, once the forecast is due, says whether
@@ -88,7 +89,9 @@ Microsoft-Daily), which touches only `daily/edu/`: it uploads the web-encoded vi
 (never marked Latest), writes `daily/edu/data/episodes/<date>.json`, the cover, thumbnail and captions
 (`daily/edu/media/<date>/`), regenerates `daily/edu/data/index.json` and `daily/edu/feed.xml`, and pushes. The newest three
 of its videos are copied into the Pages site too (`assemble_pages.py` reads both indexes and keeps the total under 900 MB).
-`daily/edu/index.html` is the share link's page (peterxing.com/daily/edu): the show's own preview card, then the section.
+`daily/education.html` is the share link's page (peterxing.com/daily/education; `daily/edu/index.html` is an alias): the
+show's own preview card, then the section. Keep it a file, not a folder: Vercel strips trailing slashes, and a folder would
+bounce readers through GitHub Pages' own address.
 
 ## Data
 
