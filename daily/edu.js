@@ -270,7 +270,6 @@
     renderEpisodes();
     const d = routeDate();
     try { await show(d || state.index.latest); } catch (e) { $('eduKicker').textContent = `Couldn\u2019t load the episode (${e.message}).`; }
-    if (d !== undefined) requestAnimationFrame(() => $('education').scrollIntoView({ block: 'start', behavior: 'instant' }));
     addEventListener('hashchange', route);
     setInterval(() => { if (document.visibilityState === 'visible' && Date.now() - state.lastSync > SYNC_MS) sync(); }, 60 * 1000);
     state.lastSync = Date.now();

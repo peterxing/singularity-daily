@@ -976,6 +976,46 @@
   }
 
   // ------------------------------------------------------------------ routing
+  // A link lands on its section and holds it there while the page above is still filling in (the Guide's chapters load
+  // as they come near; the Microsoft for Education Daily line under Start here appears once its episode loads), which
+  // would otherwise leave the reader short of a section near the end of the page. Links from elsewhere land at once and
+  // links on the page scroll there. The reader's own scroll, tap or key lets go, as does time, and a reader who started
+  // scrolling while the page loaded stays put.
+  const HOLD_MS = 15000;
+  const LET_GO = ['wheel', 'touchstart', 'pointerdown', 'keydown'];
+  let scrolled = false, letGo = null;
+  ['wheel', 'touchmove'].forEach(t => addEventListener(t, () => { scrolled = true; }, { capture: true, passive: true, once: true }));
+  function jump(el, how) {
+    try { el.scrollIntoView({ block: 'start', behavior: how }); } catch (e) { el.scrollIntoView(true); }
+  }
+  function land(el, instant) {
+    if (letGo) letGo();
+    const main = $('main');
+    let height = 0, timer = 0, done = false;
+    const ro = typeof ResizeObserver === 'function' ? new ResizeObserver(() => {
+      if (done || main.offsetHeight === height) return;
+      height = main.offsetHeight;
+      jump(el, 'instant');
+    }) : null;
+    const stop = () => {
+      if (done) return;
+      done = true;
+      if (letGo === stop) letGo = null;
+      clearTimeout(timer);
+      if (ro) ro.disconnect();
+      LET_GO.forEach(t => removeEventListener(t, stop, true));
+    };
+    letGo = stop;
+    LET_GO.forEach(t => addEventListener(t, stop, { capture: true, passive: true }));
+    requestAnimationFrame(() => {
+      if (done) return;
+      jump(el, instant ? 'instant' : 'auto');
+      height = main.offsetHeight;
+      if (ro) ro.observe(main);
+      timer = setTimeout(stop, HOLD_MS);
+    });
+  }
+
   let firstRoute = true;
   async function route() {
     const hash = location.hash;
@@ -1009,7 +1049,8 @@
     else if (target === 'now') el = $('today');
     else if (target === 'today' && !firstRoute) el = $('today');
     else if (target && target !== 'today') el = $(target);
-    if (el) requestAnimationFrame(() => el.scrollIntoView({ block: 'start' }));
+    if (letGo) letGo();
+    if (el && !(firstRoute && scrolled)) land(el, firstRoute);
     const nav = location.hash.replace(/^#\/?/, '').split('/')[0];
     document.querySelectorAll('.nav a[href^="#/"]').forEach(a => a.setAttribute('aria-current', String(a.getAttribute('href') === `#/${['ep', 'today'].includes(nav) ? '' : nav}`)));
     firstRoute = false;

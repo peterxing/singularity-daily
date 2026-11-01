@@ -23,13 +23,6 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   each forecast it touches.
 - **The week in the forecasts** (`#/weekly`) — every Friday, the three developments from the week's episodes that changed
   the outlook for a forecast, and one practical implication. It has its own feed, `daily/weekly.xml`.
-- **Microsoft for Education Daily** (`#/education`, one episode at `#/education/<date>`) — a second daily show from the same
-  pipeline: the latest Microsoft updates for schools, universities and TAFEs in three minutes, with every update's audience
-  ("For teachers", "For school IT"), its status (out now, rolling out, preview, coming) and its sources, the episode's
-  transcript, and every episode. It sits above the scorecard, so nothing that loads later (the Guide's chapters) pushes it
-  down after a link lands on it. Its share link, **peterxing.com/daily/education** (`daily/education.html`, which GitHub
-  Pages serves for that address with no redirect), carries the show's own preview card and opens the section. Episodes
-  before 2 November 2026 aired as The Microsoft Daily.
 - **What it got right or wrong** (`#/scorecard`) — every forecast whose best-guess month has passed, judged against a test
   written before it fell due: **right**, **partly right**, **wrong**, or **not settled yet** while its window is open, with
   what happened and the sources; the forecasts falling due next with their tests; and **what changed in the forecasts**, a
@@ -45,6 +38,16 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   `/guide` page, but it is still the source of the chapter text, so it has to stay deployed. Elsewhere (the Pages copy)
   the section points readers to peterxing.com.
 - **Every episode** — the archive. The page checks for a new episode, verdict or revision every ten minutes while it's open.
+- **Microsoft for Education Daily** (`#/education`, one episode at `#/education/<date>`) — a second daily show from the same
+  pipeline, at the very end of the page after About the show: the latest Microsoft updates for schools, universities and
+  TAFEs in three minutes, with every update's audience ("For teachers", "For school IT"), its status (out now, rolling out,
+  preview, coming) and its sources, the episode's transcript, and every episode. Its share link,
+  **peterxing.com/daily/education** (`daily/education.html`, which GitHub Pages serves for that address with no redirect),
+  carries the show's own preview card and opens the section. Episodes before 2 November 2026 aired as The Microsoft Daily.
+
+A link to any section (`#/education`, `#/scorecard`, `#/episodes` …) lands on it at once, or scrolls there from elsewhere on
+the page, and then holds it in place for a few seconds while the page above it fills in (the Guide's chapters load as they
+come near), until the reader scrolls, taps or presses a key.
 
 It tracks the news, not the odds: the Guide's probabilities are Peter's own and change only when he revises them. A story
 that is "evidence for" a forecast shows part of its claim happening; only the test, once the forecast is due, says whether
