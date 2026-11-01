@@ -18,12 +18,15 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="The Singularity Daily" href="daily/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="The Singularity Daily · The week in the forecasts" href="daily/weekly.xml">
+<link rel="alternate" type="application/rss+xml" title="Microsoft for Education Daily" href="daily/edu/feed.xml">
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="daily/app.css?v=20261101a">
+<link rel="stylesheet" href="daily/edu.css?v=20261101b">
 <script src="daily/route.js?v=20261101a"></script>
-<script src="daily/app.js?v=20261101a" defer></script>
+<script src="daily/app.js?v=20261101b" defer></script>
+<script src="daily/edu.js?v=20261101b" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to today's episode</a>
@@ -36,6 +39,7 @@
       <a href="#/scorecard">Right or wrong</a>
       <a href="#/forecasts">Predictions vs reality</a>
       <a href="#/episodes">Episodes</a>
+      <a href="#/education">Microsoft for Education</a>
       <a class="nav-guide" href="#/guide">The Guide</a>
     </nav>
   </div>
@@ -76,6 +80,7 @@
         <span class="t" id="startScoreT">What it got right or wrong</span>
       </a>
     </div>
+    <p class="start-also" id="eduAlso" hidden><a href="#/education"><span class="edu-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Also every morning: <b>Microsoft for Education Daily</b>, the latest Microsoft updates for schools and universities in 3 minutes · <span id="eduAlsoT">today's episode</span> →</a></p>
   </section>
 
   <section id="today" class="hero wrap" aria-labelledby="epHook">
@@ -228,12 +233,63 @@
     <ol class="episodes" id="episodeGrid"></ol>
   </section>
 
+  <section id="education" class="wrap section edu" aria-labelledby="eduTitle">
+    <div class="section-head">
+      <p class="mono eyebrow"><span class="edu-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>A second show, every morning</p>
+      <h2 id="eduTitle">Microsoft for Education Daily</h2>
+      <p class="section-sub">The latest Microsoft updates for schools, universities and TAFEs in three minutes, for the people who teach, learn, lead and run IT on campus. Every update says who it's for, where it's at (out now, rolling out, preview or coming) and where it came from.</p>
+    </div>
+    <div class="edu-hero">
+      <div class="player" id="eduPlayer">
+        <video id="eduVideo" controls playsinline webkit-playsinline preload="metadata" aria-describedby="eduHook"></video>
+        <div class="player-note" id="eduPlayerNote" hidden></div>
+      </div>
+      <div class="ep">
+        <p class="mono ep-kicker" id="eduKicker">Loading the latest episode…</p>
+        <h3 class="edu-hook" id="eduHook">Microsoft for Education Daily</h3>
+        <p class="edu-tldr" id="eduTldr"></p>
+        <p class="ep-stats mono" id="eduStats"></p>
+        <div class="actions">
+          <button type="button" class="btn btn-primary" id="eduPlay">▶ Play</button>
+          <button type="button" class="btn" id="eduTranscriptBtn" aria-expanded="false" aria-controls="eduTranscript">Transcript</button>
+          <button type="button" class="btn" id="eduShare">Share</button>
+        </div>
+        <p class="mono edu-posts" id="eduPosts" hidden></p>
+        <p class="mono ep-window" id="eduWindow"></p>
+      </div>
+    </div>
+    <div id="eduTranscript" class="transcript" hidden aria-label="Transcript"><ol id="eduTranscriptList"></ol></div>
+    <div class="edu-filter" role="group" aria-label="Which updates">
+      <button type="button" class="btn" id="eduFilterAll" aria-pressed="true">Every update</button>
+      <button type="button" class="btn" id="eduFilterEdu" aria-pressed="false">Education-specific</button>
+    </div>
+    <div id="eduStories" class="edu-stories"></div>
+    <details class="more" id="eduMore" hidden>
+      <summary>More from the day</summary>
+      <ul id="eduTicker" class="ticker"></ul>
+    </details>
+    <ul class="notes" id="eduNotes"></ul>
+    <h3 class="sub-h edu-eps-h">Every episode</h3>
+    <ol class="episodes" id="eduEpisodes"></ol>
+    <div class="follow">
+      <p class="follow-k mono">Follow the show</p>
+      <div class="follow-row">
+        <a class="btn btn-primary" href="daily/edu/feed.xml">Every episode by RSS</a>
+        <a class="btn" href="https://x.com/peterxing" rel="noopener" target="_blank">X ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/peter-xing/" rel="noopener" target="_blank">LinkedIn ↗</a>
+        <a class="btn" href="https://www.facebook.com/peterxingularity" rel="noopener" target="_blank">Facebook ↗</a>
+      </div>
+    </div>
+    <p class="fineprint">An independent recap of public Microsoft announcements and press coverage, made every morning by an AI production pipeline Peter Xing built: it scans Microsoft's blogs, the Microsoft 365 roadmap, Azure Updates and the education press, checks every update against its source, then writes, voices and renders the show. Not an official Microsoft channel. Article screenshots in the videos belong to their publishers. Episodes before 2 November 2026 aired as The Microsoft Daily.</p>
+  </section>
+
   <section id="about" class="wrap section about" aria-labelledby="aboutTitle">
     <h2 id="aboutTitle">About the show</h2>
     <div class="about-grid">
       <div>
         <p><strong>The Singularity Daily</strong> is a 3-minute, upbeat catch-up on the last 24 hours in superintelligence, framed as the singularity arriving one day at a time. It's made every morning by an AI production pipeline Peter Xing built: it scans thousands of headlines, checks each story against a primary source or a major outlet, writes and voices the script, composes a new soundtrack and renders the video, then publishes it here with every source.</p>
         <p>Your host is <strong>Claudia</strong>, an open character by <a href="https://claudia.gallery" rel="noopener">anabology</a>. Article screenshots shown in the videos belong to their publishers.</p>
+        <p>The same pipeline also makes <a href="#/education"><strong>Microsoft for Education Daily</strong></a>: the latest Microsoft updates for schools, universities and TAFEs, every morning, with who each one is for, its status and its source.</p>
       </div>
       <div>
         <p>The forecasts come from <a href="#/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? <a href="#/guide/read">Read the Guide</a> right here, then see <a href="#/scorecard">what it got right or wrong</a>.</p>

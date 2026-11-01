@@ -38,6 +38,11 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   `/guide` page, but it is still the source of the chapter text, so it has to stay deployed. Elsewhere (the Pages copy)
   the section points readers to peterxing.com.
 - **Every episode** — the archive. The page checks for a new episode, verdict or revision every ten minutes while it's open.
+- **Microsoft for Education Daily** (`#/education`, one episode at `#/education/<date>`) — a second daily show from the same
+  pipeline: the latest Microsoft updates for schools, universities and TAFEs in three minutes, with every update's audience
+  ("For teachers", "For school IT"), its status (out now, rolling out, preview, coming) and its sources, the episode's
+  transcript, and every episode. Its share link, **peterxing.com/daily/edu**, carries the show's own preview card and opens
+  the section. Episodes before 2 November 2026 aired as The Microsoft Daily.
 
 It tracks the news, not the odds: the Guide's probabilities are Peter's own and change only when he revises them. A story
 that is "evidence for" a forecast shows part of its claim happening; only the test, once the forecast is due, says whether
@@ -78,6 +83,13 @@ any rendered episode the show's own run didn't, writes the verdict for any forec
 Friday digest), refreshes the forecast snapshot from the Guide and records any revision (`publish.py sync`), and checks
 that peterxing.com serves the newest episode.
 
+The Microsoft for Education Daily section is published by its own production project (`engine/build/publish.py` in
+Microsoft-Daily), which touches only `daily/edu/`: it uploads the web-encoded video as the release `edu-ep-YYYY-MM-DD`
+(never marked Latest), writes `daily/edu/data/episodes/<date>.json`, the cover, thumbnail and captions
+(`daily/edu/media/<date>/`), regenerates `daily/edu/data/index.json` and `daily/edu/feed.xml`, and pushes. The newest three
+of its videos are copied into the Pages site too (`assemble_pages.py` reads both indexes and keeps the total under 900 MB).
+`daily/edu/index.html` is the share link's page (peterxing.com/daily/edu): the show's own preview card, then the section.
+
 ## Data
 
 | File | What it holds |
@@ -89,6 +101,8 @@ that peterxing.com serves the newest episode.
 | `daily/data/scorecard.json` | every forecast's test; every due forecast with its verdict, finding and sources; the forecasts falling due next |
 | `daily/data/revisions.json` | the dated log of revisions to the forecasts (odds, month, wording, added, retired) and the Guide's latest reassessment note |
 | `daily/data/weekly.json` | every Friday digest, newest first |
+| `daily/edu/data/index.json` | Microsoft for Education Daily: every episode (newest first), hook, counts, cover, video location |
+| `daily/edu/data/episodes/<date>.json` | one of its episodes: updates (title, summary, who it's for, status, education-specific or not, chapter, date, sources), TL;DR, transcript, ticker, notes, post links |
 
 Story links store the forecast's `id` and `key`, so if the Guide reorders or rewords its forecasts the tracker still
 resolves them (and flags wording that changed after the link was made).

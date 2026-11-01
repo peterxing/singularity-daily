@@ -1,0 +1,43 @@
+/* Microsoft for Education Daily: the second show's section (#education), drawn with the page's own components
+   (player, chapter headings, cards, episode cards) plus a status pill per update and the show's four-square mark. */
+.edu { --ms-blue: #3aa0ff; --ms-green: #7fd8a6; }
+.edu .section-head { max-width: 80ch; }
+.edu-mark { display: inline-grid; grid-template-columns: 6px 6px; gap: 2px; margin-right: 8px; vertical-align: -1px; }
+.edu-mark i { width: 6px; height: 6px; display: block; }
+.edu-mark i:nth-child(1) { background: #f25022; }
+.edu-mark i:nth-child(2) { background: #7fba00; }
+.edu-mark i:nth-child(3) { background: #00a4ef; }
+.edu-mark i:nth-child(4) { background: #ffb900; }
+.edu-hero { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 44px); align-items: start; margin-bottom: 8px; }
+.edu .player { box-shadow: 0 30px 80px -30px rgba(58, 160, 255, 0.45), 0 0 0 1px var(--line); }
+.edu .ep-kicker { color: var(--ms-blue); }
+.edu-hook { font: 400 clamp(38px, 5vw, 72px)/0.92 var(--display); text-transform: uppercase; letter-spacing: 0.005em; margin: 0 0 14px; text-wrap: balance; overflow-wrap: anywhere; }
+.edu-tldr { margin: 0 0 14px; color: var(--bone); line-height: 1.45; }
+.edu-posts { margin: 0 0 10px; font-size: 13px; color: var(--faint); }
+.edu-posts a { color: var(--bone); }
+.edu-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 4px; }
+.edu-filter .btn[aria-pressed="true"] { background: var(--white); color: var(--ink); border-color: var(--white); }
+.edu-stories { margin-top: 18px; }
+.edu-card.is-edu { border-color: rgba(58, 160, 255, 0.45); }
+.edu-tag { font: 700 11px/1 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 8px; border-radius: 6px; background: rgba(58, 160, 255, 0.16); color: #9fd2ff; }
+.edu-status { font: 700 11px/1 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; padding: 5px 8px; border-radius: 999px; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.edu-status.ga { background: var(--ms-green); color: var(--ink); }
+.edu-status.rolling { background: var(--orange); color: var(--ink); }
+.edu-status.preview { background: transparent; color: var(--cool); box-shadow: inset 0 0 0 1px var(--cool); }
+.edu-status.coming { background: transparent; color: var(--bone); box-shadow: inset 0 0 0 1px var(--line-2); }
+.edu-status.alert { background: rgba(255, 59, 47, 0.16); color: #ffb3ad; }
+.edu-status.info { background: rgba(245, 243, 239, 0.08); color: var(--bone); }
+.edu-card .edu-for { font-size: 14px; color: var(--faint); }
+.edu-card .edu-for b { color: var(--bone); font-weight: 700; }
+.edu-eps-h { margin-top: 40px; }
+.edu .episodes { margin-top: 12px; }
+.edu .epcard[aria-current="true"] { border-color: var(--ms-blue); }
+.edu .epcard .k { color: var(--ms-blue); }
+.start-also { margin: 12px 0 0; font-size: 14px; color: var(--dim); }
+.start-also a { color: var(--bone); text-decoration: none; }
+.start-also a:hover { color: var(--white); }
+.start-also b { color: var(--white); }
+.start-also .edu-mark { vertical-align: 0; }
+@media (max-width: 1000px) {
+  .edu-hero { grid-template-columns: 1fr; }
+}

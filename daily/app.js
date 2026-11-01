@@ -989,7 +989,7 @@
     } else if (parts[0] === 'today') {
       date = state.index.latest;
       target = 'now';
-    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly'].includes(parts[0])) {
+    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'education'].includes(parts[0])) {
       target = parts[0];
     } else {
       date = state.index.latest;

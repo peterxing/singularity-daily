@@ -1,8 +1,9 @@
 """Assemble the GitHub Pages artifact: the site files plus, for the newest episodes, their video from the GitHub release.
 
-Videos live in releases (one per episode, tag ep-YYYY-MM-DD) so the git history stays small. GitHub serves release assets
-as application/octet-stream downloads, which Safari on iPhone won't play inline, so the newest `videosOnPages` episodes are
-copied into the Pages site, where they're served as video/mp4 with range requests. Older episodes stream from the release.
+Videos live in releases (one per episode, tag ep-YYYY-MM-DD, and edu-ep-YYYY-MM-DD for the Microsoft for Education Daily
+section under daily/edu) so the git history stays small. GitHub serves release assets as application/octet-stream
+downloads, which Safari on iPhone won't play inline, so the newest `videosOnPages` episodes of each show are copied into the
+Pages site, where they're served as video/mp4 with range requests. Older episodes stream from the release.
 """
 import argparse
 import json
@@ -45,20 +46,25 @@ def main():
             shutil.copy2(ROOT / f, out / f)
     shutil.copytree(ROOT / "daily", out / "daily")
     (out / ".nojekyll").write_text("", encoding="utf-8")
-    index = json.loads((ROOT / "daily" / "data" / "index.json").read_text(encoding="utf-8"))
     total = 0
-    for ep in index.get("episodes", []):
-        v = ep.get("video") or {}
-        if v.get("pages") and v.get("release") and v.get("file"):
-            dest = out / v["file"]
-            size = download(v["release"], dest)
-            if v.get("bytes") and size != v["bytes"]:
-                raise SystemExit(f"{v['file']}: got {size} bytes, expected {v['bytes']}")
-            total += size
-            print(f"video {ep['date']}: {size / 1e6:.1f} MB", flush=True)
+    # the Singularity Daily, then the Microsoft for Education Daily section (absent until its first episode)
+    for rel in (("daily", "data", "index.json"), ("daily", "edu", "data", "index.json")):
+        path = ROOT.joinpath(*rel)
+        if not path.exists():
+            continue
+        index = json.loads(path.read_text(encoding="utf-8"))
+        for ep in index.get("episodes", []):
+            v = ep.get("video") or {}
+            if v.get("pages") and v.get("release") and v.get("file"):
+                dest = out / v["file"]
+                size = download(v["release"], dest)
+                if v.get("bytes") and size != v["bytes"]:
+                    raise SystemExit(f"{v['file']}: got {size} bytes, expected {v['bytes']}")
+                total += size
+                print(f"video {v['file']}: {size / 1e6:.1f} MB", flush=True)
     print(f"site assembled in {out} ({total / 1e6:.0f} MB of video)", flush=True)
     if total > 900e6:
-        sys.exit("site would exceed GitHub Pages' 1 GB limit: lower videosOnPages in publish.json")
+        sys.exit("site would exceed GitHub Pages' 1 GB limit: lower videosOnPages in publish.json (either show's)")
 
 
 if __name__ == "__main__":
