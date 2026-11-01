@@ -1,0 +1,36 @@
+{
+ "show": "Microsoft for Education Daily",
+ "updated": "2026-11-01T00:42:23+00:00",
+ "latest": "2026-11-01",
+ "site": "https://peterxing.com/",
+ "section": "https://peterxing.com/#/education",
+ "share": "https://peterxing.com/daily/edu/",
+ "pages": "https://peterxing.github.io/singularity-daily/",
+ "videosOnPages": 3,
+ "episodes": [
+  {
+   "date": "2026-11-01",
+   "ep": 6,
+   "hook": "PLAN AHEAD.",
+   "day": "Sunday 1 November 2026",
+   "name": "The Microsoft Daily",
+   "stories": 16,
+   "edu": 1,
+   "titles": [
+    "Teach in Microsoft 365 Copilot gets multi-week unit plans",
+    "Live AI interpretation is coming to Teams town halls and webinars",
+    "Copilot in Excel gets a clean data skill"
+   ],
+   "cover": "daily/edu/media/2026-11-01/cover.webp",
+   "thumb": "daily/edu/media/2026-11-01/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-01/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-01/Microsoft-for-Education-Daily_2026-11-01.mp4",
+    "mb": 52.7,
+    "bytes": 52717178,
+    "seconds": 180.01
+   }
+  }
+ ]
+}

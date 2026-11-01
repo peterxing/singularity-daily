@@ -1,0 +1,476 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "The Microsoft Daily",
+ "date": "2026-11-01",
+ "ep": 6,
+ "hook": "PLAN AHEAD.",
+ "day": "Sunday 1 November 2026",
+ "note": "FOR EDUCATION · SUNDAY 1 NOVEMBER 2026",
+ "tldr": "The week's best for education: multi-week unit plans in Teach, previews to line up, and a January deadline for school IT.",
+ "chapters": [
+  "UNIT PLANS",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "THE DATA",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, the 72 hours to 09:19 AEDT, Sun 1 Nov 2026 (Wednesday 28 to Saturday 31 Oct in the US), plus Azure Backup's cross-tenant restore preview (28 Oct).",
+ "notes": [
+  "This week: Azure Backup Cross Tenant Restore (public preview, 28 Oct). Unit plan details come from Microsoft Education's What's New post (20 Oct); the roadmap moved the feature to Rolling out on 30 Oct. Targeted release's timeline is on Microsoft Learn (7 Oct, restated 30 Oct).",
+  "'Due' dates follow the Microsoft 365 roadmap (AI Interpreter December 2026; Select Password and Frontier November 2026; Teams other-orgs preview November, GA January 2027) and Xbox Wire (release dates subject to change); dates can change.",
+  "Screenshots are the publishers' public pages as captured on 1 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "PLAN AHEAD. 📅\n\nThe week's best at Microsoft for education:\n- Teach in Copilot: multi-week unit plans, rolling out\n- Teams: live AI interpreters for webinars (due Dec)\n- GitHub's app in Teams is generally available\n- Targeted release freezes in Nov, retires in Jan",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (1 Nov 2026): multi-week unit plans in Teach, AI interpreters for Teams town halls and webinars, Copilot in Excel's clean data skill, Edge's Select Password, Teams activity across orgs, the GitHub app in Teams, Frontier previews, Foundry's Voice Agent, Azure Backup cross-tenant restore, Fabric's Project Osmos, how Microsoft tests Copilot on synthetic data, a tampered Claude Code extension, the Targeted release retirement and three Xbox games, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "TEACH IN COPILOT: SET A UNIT'S LENGTH AND WEEKLY SCHEDULE, THEN REFINE THE PACING AND REORDER LESSONS",
+  "TEACH IN ONENOTE CLASS NOTEBOOK IS DUE FOR GENERAL AVAILABILITY IN NOVEMBER, INCLUDING IPADOS AND MACOS",
+  "TEAMS ASSIGNMENTS: ASSIGNING STUDY AND LEARN OR A COPILOT STARTER PROMPT IS DUE FOR EVERYONE IN NOVEMBER",
+  "STUDY AND LEARN NOW WORKS IN ALL 48 COPILOT LANGUAGES",
+  "EXCEL FOR THE WEB: COPILOT'S GET DATA SKILL BUILDS A POWER QUERY FOR YOU",
+  "EXCEL FOR WINDOWS AND MAC: NAME A TABLE AS YOU CREATE IT",
+  "EDGE FOR BUSINESS: COPILOT CHAT IN THE SIDE PANE CAN ANSWER QUESTIONS ABOUT YOUR OPEN TABS AND YOUTUBE VIDEOS",
+  "COPILOT CHAT: FEDERATED CONNECTORS CAN NOW CREATE, UPDATE AND DELETE, ALWAYS WITH YOUR CONFIRMATION",
+  "PLANNER IN COPILOT CHAT: CREATE TASKS AND PLANS FROM A CHAT, ROLLING OUT",
+  "EDGE ON MANAGED PCS: A CHOICE TO LAUNCH EDGE AT WINDOWS STARTUP, WITH AN ADMIN POLICY, IS DUE IN NOVEMBER",
+  "GITHUB IN TEAMS: A NEW CANVAS SHOWS THE PLAN, FILE CHANGES AND PULL REQUEST BESIDE THE CHAT",
+  "THE LEGACY GITHUB NOTIFICATIONS APP FOR TEAMS RETIRES ON 16 NOVEMBER",
+  "FRONTIER IS OPT-IN AND SEPARATE FROM STANDARD AND DEFERRED RELEASE",
+  "PROJECT OSMOS STARTS FROM GITHUB COPILOT CLI, CLAUDE CODE OR CODEX WITH THE SKILLS FOR FABRIC PLUG-IN",
+  "CURSOR SAYS THE TAMPERED CLAUDE CODE EXTENSION WAS LIVE FOR ABOUT 11 HOURS ON 29 OCTOBER",
+  "MICROSOFT: THE VISUAL STUDIO MARKETPLACE AND NPM WEREN'T AFFECTED BY THE TAMPERED EXTENSION",
+  "ZERO PARADES: DIRECTOR'S CUT, FROM THE MAKERS OF DISCO ELYSIUM, ARRIVES ON XBOX ON 3 NOVEMBER",
+  "GAME PASS: GRAVHOUNDS (GAME PREVIEW) LANDS 2 NOVEMBER, PIT OF GOBLIN 3 NOVEMBER",
+  "KITTIES ON PLANETS, A SPACE PUZZLER WITH TWO ASTRONAUT CATS, ARRIVES 3 NOVEMBER"
+ ],
+ "sources": [
+  "Microsoft 365 Roadmap",
+  "Microsoft Education Blog",
+  "Microsoft Excel Blog",
+  "Microsoft Teams Blog",
+  "GitHub",
+  "Microsoft Learn",
+  "Microsoft Foundry Blog",
+  "Azure Updates",
+  "Microsoft Fabric Blog",
+  "Microsoft Research Blog",
+  "Microsoft Security Blog",
+  "Xbox Wire"
+ ],
+ "scanned": 2233,
+ "stories": [
+  {
+   "id": "teach-unit-plans",
+   "title": "Teach in Microsoft 365 Copilot gets multi-week unit plans",
+   "summary": "Set a unit's length and weekly teaching schedule, and Teach lays it out week by week, maps your standards to individual lessons and places assessments across the unit, with connected lesson plans and quizzes.",
+   "for": "Teachers",
+   "status": "Rolling out",
+   "edu": true,
+   "chapter": "UNIT PLANS",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577392"
+    },
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://techcommunity.microsoft.com/t5/education-blog/what-s-new-in-microsoft-edu-october-2026/ba-p/4516290"
+    }
+   ]
+  },
+  {
+   "id": "teams-ai-interpreter",
+   "title": "Live AI interpretation is coming to Teams town halls and webinars",
+   "summary": "Real-time, AI-powered audio interpretation lets audiences follow an event in their preferred language, from the languages the organiser sets up. Handy for an online parent night, for example.",
+   "for": "Schools and universities running online events",
+   "status": "Due December 2026",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576711"
+    }
+   ]
+  },
+  {
+   "id": "excel-clean-data",
+   "title": "Copilot in Excel gets a clean data skill",
+   "summary": "It checks a sheet for extra spaces, inconsistent text, number and date formats, duplicates and values stored as the wrong type, explains what it found and proposes fixes you choose to apply. Type @clean-data on Windows, Mac or the web.",
+   "for": "Teachers and school office staff",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Microsoft Excel Blog",
+     "url": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-october-2026/ba-p/4549758"
+    }
+   ]
+  },
+  {
+   "id": "edge-select-password",
+   "title": "Edge adds a right-click Select Password option",
+   "summary": "When saved passwords don't pop up on a sign-in page, right-click the username or password field and choose Select Password. There's nothing to set up, and existing password policies still apply.",
+   "for": "Staff and students signing in on Edge",
+   "status": "Due November 2026",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570662"
+    }
+   ]
+  },
+  {
+   "id": "teams-other-orgs",
+   "title": "Teams will show your other accounts and organisations in one window",
+   "summary": "Preview and open chats, channels and other activity from your other accounts and organisations without switching, in Teams on desktop and Mac: useful if you work across two schools.",
+   "for": "Staff who work across schools",
+   "status": "Preview November; GA January 2027",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577901"
+    }
+   ]
+  },
+  {
+   "id": "github-app-teams",
+   "title": "The GitHub app in Microsoft Teams is generally available",
+   "summary": "Reply @GitHub to a notification and GitHub Copilot can investigate, make the fix and draft a pull request in the same thread, with a canvas to review the plan and the file changes. It uses your GitHub Copilot licence.",
+   "for": "Code clubs, capstone teams and campus developers",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft Teams Blog",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-github-app-in-microsoft-teams-is-now-generally-available/ba-p/4569136"
+    },
+    {
+     "outlet": "GitHub",
+     "url": "https://teams.github.com/"
+    }
+   ]
+  },
+  {
+   "id": "frontier-expands",
+   "title": "Frontier previews expand to Teams, Outlook, OneDrive and SharePoint",
+   "summary": "People enrolled in Microsoft's opt-in Frontier program are due to get eligible previews in Teams, Outlook, OneDrive and SharePoint through one admin-controlled enrolment. A Copilot licence isn't needed to enrol; Copilot features still need one.",
+   "for": "School IT",
+   "status": "Due November 2026",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578225"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/get-started-frontier"
+    }
+   ]
+  },
+  {
+   "id": "foundry-voice-agent",
+   "title": "Foundry's Voice Agent can turn course materials into a talking tutor",
+   "summary": "Voice Agent in Foundry Agent Service combines your knowledge (Foundry IQ), a Personal Voice and a custom photo avatar in one real-time conversation; Microsoft's guide lists a training and e-learning tutor among its uses. The voice and avatar need recorded consent.",
+   "for": "University course teams and developers",
+   "status": "How-to guide",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-enterprise-knowledge-into-a-personalized-voice-and-avatar/ba-p/4564809"
+    }
+   ]
+  },
+  {
+   "id": "azure-backup-cross-tenant-restore",
+   "title": "Azure Backup can restore VM backups into a separate tenant",
+   "summary": "Cross Tenant Restore gives you an independent recovery path: Azure VM backups can be restored into a separate Azure tenant from the existing backup copy, strengthening your plan for recovering from an attack.",
+   "for": "University IT",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": "THIS WEEK",
+   "date": "2026-10-28",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=577117"
+    }
+   ]
+  },
+  {
+   "id": "fabric-project-osmos",
+   "title": "Fabric's data engineering agent, Project Osmos, builds and checks its own work",
+   "summary": "Describe the problem and the outcome you want, and agents build, validate and refine the implementation in your Fabric lakehouse; your team reviews the evidence before accepting it. It needs an eligible Fabric capacity, not a trial.",
+   "for": "University data teams",
+   "status": "Preview",
+   "edu": false,
+   "chapter": "THE DATA",
+   "badge": null,
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Microsoft Fabric Blog",
+     "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Introducing-the-data-engineering-agent-for-Fabric-Project-Osmos/ba-p/5377944"
+    }
+   ]
+  },
+  {
+   "id": "msr-synthetic-evals",
+   "title": "How Microsoft tests Copilot without customer data",
+   "summary": "Microsoft Research describes full-scale synthetic organisations, built from public sources such as occupational data, job postings and company filings, that it uses to evaluate Copilot without using any customer data.",
+   "for": "Leaders weighing up Copilot",
+   "status": "Research",
+   "edu": false,
+   "chapter": "THE DATA",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft Research Blog",
+     "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/"
+    }
+   ]
+  },
+  {
+   "id": "tampered-claude-code-extension",
+   "title": "A tampered Claude Code extension was served in Cursor's marketplace",
+   "summary": "Microsoft Threat Intelligence analysed anthropic.claude-code versions 2.1.312 and 2.1.313, served in Cursor's extension marketplace on 29 October, which tried to set up an SSH backdoor. The Visual Studio Marketplace and npm weren't affected; if it was installed, remove it and rotate credentials.",
+   "for": "Coding students, staff and IT",
+   "status": "Security advisory",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/"
+    }
+   ]
+  },
+  {
+   "id": "targeted-release-retirement",
+   "title": "Targeted release is frozen from November and retires in January 2027",
+   "summary": "From November 2026, admins can't add users to, remove users from or change Targeted release, and in January 2027 Microsoft retires it, moving features to Frontier, Standard and Deferred release. Review your release preferences before then.",
+   "for": "School IT",
+   "status": "Retires January 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/targeted-release-retirement"
+    }
+   ]
+  },
+  {
+   "id": "escape-academy-2",
+   "title": "Escape Academy 2: Back 2 School joins Game Pass on 5 November",
+   "summary": "Puzzle rooms on an all-new campus, to play solo or in online or local co-op. Release dates can change.",
+   "for": "Students, after hours",
+   "status": "Out 5 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/10/30/next-week-on-xbox-new-games-for-november-2-to-6/"
+    }
+   ]
+  },
+  {
+   "id": "hidden-cats-in-beijing",
+   "title": "Hidden Cats in Beijing arrives on 4 November",
+   "summary": "A relaxing hunt for more than 700 hidden cats across Beijing, on Xbox Play Anywhere.",
+   "for": "Students, after hours",
+   "status": "Out 4 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/10/30/next-week-on-xbox-new-games-for-november-2-to-6/"
+    }
+   ]
+  },
+  {
+   "id": "football-manager-27",
+   "title": "Football Manager 27's PC early access starts 3 November",
+   "summary": "Pre-ordering on PC, or playing with Game Pass Ultimate or PC Game Pass, gets you early access from 3 November.",
+   "for": "Students, after hours",
+   "status": "Early access from 3 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/10/30/next-week-on-xbox-new-games-for-november-2-to-6/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Sunday, November 1, and this is the Microsoft Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on everything new from Microsoft."
+  },
+  {
+   "s": 15.0,
+   "t": "Let's plan ahead with the week's best. For teachers, Copilot's Teach is rolling out multi-week unit plans."
+  },
+  {
+   "s": 22.03,
+   "t": "It lays out the unit week by week, maps your standards and places assessments."
+  },
+  {
+   "s": 31.88,
+   "t": "Online parent night?"
+  },
+  {
+   "s": 33.12,
+   "t": "Teams town halls and webinars are due to get live AI interpretation in December."
+  },
+  {
+   "s": 39.38,
+   "t": "Messy class lists? Excel's Copilot is rolling out a check for stray spaces, odd dates and duplicates."
+  },
+  {
+   "s": 46.41,
+   "t": "Password won't autofill? In Edge, a right-click Select Password option is due in November."
+  },
+  {
+   "s": 52.97,
+   "t": "Two schools, two accounts? From November, a Teams preview shows both in one window."
+  },
+  {
+   "s": 60.0,
+   "t": "Code club or capstone team? GitHub's Teams app is out: tag it, and Copilot drafts a pull request."
+  },
+  {
+   "s": 67.5,
+   "t": "School IT? In November, Frontier previews are due to reach Teams, Outlook, OneDrive and SharePoint."
+  },
+  {
+   "s": 75.0,
+   "t": "With Foundry's Voice Agent, course notes can become a talking tutor, using a consented voice and face."
+  },
+  {
+   "s": 82.5,
+   "t": "Ransomware plan?"
+  },
+  {
+   "s": 83.53,
+   "t": "Azure Backup can now restore VM backups into a separate tenant, in preview."
+  },
+  {
+   "s": 90.0,
+   "t": "For university data teams, Fabric's Project Osmos agent builds pipelines, then checks its own results, in preview."
+  },
+  {
+   "s": 97.5,
+   "t": "And how does Microsoft test Copilot?"
+  },
+  {
+   "s": 99.85,
+   "t": "In made-up organisations built from public data, never customer data."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? A tampered Claude Code extension sat in Cursor's marketplace for hours, trying to plant a backdoor."
+  },
+  {
+   "s": 112.5,
+   "t": "And Targeted release freezes this month, then retires in January, so review your settings."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours? Escape Academy 2: Back 2 School joins Game Pass on November 5."
+  },
+  {
+   "s": 128.44,
+   "t": "Or hunt for over 700 cats in Hidden Cats in Beijing, out November 4."
+  },
+  {
+   "s": 135.0,
+   "t": "And Football Manager 27's early access starts November 3 on PC Game Pass."
+  },
+  {
+   "s": 142.5,
+   "t": "Lessons mapped, previews coming, a January deadline: good weeks start when you plan ahead."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: shipped today, and more on the way."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And it keeps on shipping."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-01/Microsoft-for-Education-Daily_2026-11-01.mp4",
+  "mb": 52.7,
+  "bytes": 52717178,
+  "seconds": 180.01
+ },
+ "links": {
+  "x": "https://x.com/peterxing/status/2116673679887409602",
+  "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7522441339335237633/",
+  "facebook": "https://www.facebook.com/peterxingularity/"
+ }
+}

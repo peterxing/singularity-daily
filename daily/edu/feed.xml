@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>Microsoft for Education Daily</title>
+  <link>https://peterxing.com/#/education</link>
+  <description>The latest Microsoft updates for schools, universities and TAFEs in three minutes, every morning, with who each update is for, its status and its sources. An independent recap, not an official Microsoft channel.</description>
+  <language>en-au</language>
+  <item>
+   <title>EP.006 · PLAN AHEAD.</title>
+   <link>https://peterxing.com/#/education/2026-11-01</link>
+   <guid isPermaLink="false">microsoft-for-education-daily-2026-11-01</guid>
+   <pubDate>Sun, 01 Nov 2026 07:00:00 +1100</pubDate>
+   <description>The week&#x27;s best for education: multi-week unit plans in Teach, previews to line up, and a January deadline for school IT.</description>
+   <enclosure url="https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-01/Microsoft-for-Education-Daily_2026-11-01.mp4" length="52717178" type="video/mp4"/>
+  </item>
+ </channel>
+</rss>
