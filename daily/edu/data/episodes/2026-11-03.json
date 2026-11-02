@@ -1,0 +1,365 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-03",
+ "ep": 8,
+ "hook": "SAFE TO LEARN.",
+ "day": "Tuesday 3 November 2026",
+ "note": "FOR EDUCATION · TUESDAY 3 NOVEMBER 2026",
+ "tldr": "Safe to learn: US districts can add Microsoft's AI privacy standard, Study and Learn's locked mode is coming, and campus IT has time zones and fixes to check.",
+ "chapters": [
+  "THE STANDARD",
+  "LEARNING MODE",
+  "CAMPUS IT",
+  "THE SKILLS",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Tue 3 Nov 2026 (Monday 2 Nov in the US), plus one This-week roadmap update from 30 Oct.",
+ "notes": [
+  "This week: Edge's startup opt-in for managed PCs (Microsoft 365 Roadmap 571307, In development, due November; updated 30 Oct).",
+  "The AI Safety & Privacy Standard is open to US school districts from 1 Nov (announced 9 Sep). Study and Learn's locked mode is coming soon, with no date yet. WoW: Forever's launch time is from Game Rant.",
+  "Screenshots are the publishers' public pages as captured on 3 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SAFE TO LEARN. 🏫\n\nThe last 24h for education:\n- US districts can add Microsoft's AI Safety & Privacy Standard\n- Study and Learn gets a locked, learning-only mode (coming soon)\n- Canada time zones: recheck Outlook meetings\n- Data Days: free exam offers for eligible learners",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (3 Nov 2026): the AI Safety & Privacy Standard for US school districts, a locked learning-only mode for Study and Learn, Canada's time zone changes in Outlook, Edge's startup opt-in, the Smart App Control fix, Fabric Data Days, the Entra memberOf retirement, GitHub's pull_request_target default, Game Off 2026 and World of Warcraft: Forever, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "US SCHOOL DISTRICTS CAN ADD THE AI SAFETY & PRIVACY STANDARD TO NEW OR EXISTING MICROSOFT AGREEMENTS",
+  "THE STANDARD: STUDENT AND EDUCATOR DATA WON'T BE SOLD OR USED FOR ADVERTISING, AND SCHOOLS CONTROL RETENTION AND DELETION",
+  "MICROSOFT PROMISES FAMILIES PLAIN-LANGUAGE INFORMATION ON HOW ITS AI WORKS IN THE CLASSROOM",
+  "STUDY AND LEARN LOCKED MODE AIMS TO COVER COPILOT CHAT ON WEB AND APP, THE AGENT STORE, DIRECT LINKS AND PREVIOUS CHATS",
+  "STUDY AND LEARN WEBINARS: 10 AND 12 NOVEMBER, 8AM AND 4PM PACIFIC",
+  "CANADA TIME ZONES: TEAMS ROOMS ON WINDOWS NEEDS EDGE AND WEBVIEW2 UPDATES, SAYS MICROSOFT",
+  "CANADA TIME ZONES: MICROSOFT BOOKINGS, FABRIC AND POWER AUTOMATE ARE ALSO AFFECTED",
+  "PARTS OF THE NORTHWEST TERRITORIES AND NORTHWESTERN ONTARIO FOLLOW THE ALBERTA AND MANITOBA CHANGES",
+  "EDGE ADMINS: A POLICY WILL OFFER OPT-IN, OPT-OUT OR USER CHOICE FOR LAUNCHING AT STARTUP",
+  "SMART APP CONTROL: DEVICES THAT ALREADY HAD IT ON STAYED PROTECTED",
+  "DATA DAYS: 50% DISCOUNT OFFERS FOR SELECT OTHER EXAMS, PLUS THE POWER BI DATAVIZ WORLD CHAMPIONSHIPS",
+  "ENTRA: STALE MEMBEROF GROUPS CAN LEAVE OUTDATED TEAMS AND SHAREPOINT ACCESS AND GROUP-BASED LICENSING",
+  "GITHUB: PULL_REQUEST_TARGET BROWNOUTS ON 9 AND 16 NOVEMBER, 16:00-18:00 UTC",
+  "GITHUB: PRIVATE AND INTERNAL REPOSITORIES AREN'T AFFECTED BY THE NEW DEFAULT",
+  "GAME OFF 2026: VOTING RUNS TO 1 JANUARY, AND AI-ASSISTED ENTRIES SAY HOW THEY USED AI",
+  "WORLD OF WARCRAFT: FOREVER IS INCLUDED WITH A WOW SUBSCRIPTION OR GAME TIME"
+ ],
+ "sources": [
+  "Microsoft Source",
+  "Microsoft fact sheet",
+  "The Neuron",
+  "Microsoft Education Blog",
+  "Microsoft Support",
+  "The Register",
+  "Microsoft 365 Roadmap",
+  "BleepingComputer",
+  "Microsoft Fabric Blog",
+  "Microsoft Learn",
+  "GitHub Changelog",
+  "GitHub Blog",
+  "Xbox Wire",
+  "Game Rant"
+ ],
+ "scanned": 1346,
+ "stories": [
+  {
+   "id": "ai-safety-privacy-standard",
+   "title": "Microsoft's AI Safety & Privacy Standard is now open to every US school district",
+   "summary": "From 1 November, every US school district can add the standard's 10 contractually enforceable protections to new or existing Microsoft agreements. They start with no AI training on student or educator data (bar a narrow safety and security exception), and schools keep control of how data is used, retained and deleted.",
+   "for": "US school district leaders",
+   "status": "Available from 1 Nov 2026",
+   "edu": true,
+   "chapter": "THE STANDARD",
+   "badge": null,
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "Microsoft Source",
+     "url": "https://news.microsoft.com/source/2026/09/09/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-for-schools-to-protect-students-families-and-educators/"
+    },
+    {
+     "outlet": "Microsoft fact sheet",
+     "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/AI-Safety-and-Privacy-Standard-Fact-Sheet.pdf"
+    }
+   ]
+  },
+  {
+   "id": "study-learn-locked-mode",
+   "title": "Study and Learn is getting a locked, learning-only mode in Copilot Chat for students",
+   "summary": "Coming soon: an IT-controlled mode that always lands students in Study and Learn, Microsoft Education's AI tutor, in Copilot Chat. Students can't switch back to general Copilot Chat or use other agents, but can still add their own files. Webinars on 10 and 12 November (8am and 4pm Pacific) show how to turn it on.",
+   "for": "School IT, teachers and students",
+   "status": "Coming soon",
+   "edu": true,
+   "chapter": "LEARNING MODE",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://techcommunity.microsoft.com/t5/education-blog/webinar-study-and-learn-limits-locks-down-copilot-chat/ba-p/4569599"
+    }
+   ]
+  },
+  {
+   "id": "canada-time-zones",
+   "title": "Canada's time zone change: pick the new zone in Outlook and recheck your meetings",
+   "summary": "Parts of BC, Alberta and Manitoba didn't turn their clocks back on 1 November. Microsoft's advice: have people there select the new time zone in Outlook and review meetings scheduled after 1 November, especially recurring series; only a meeting's organiser can change it. Teams Rooms on Windows and Bookings are affected too.",
+   "for": "Campuses in BC, Alberta and Manitoba",
+   "status": "In effect; recheck meetings",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/servicing/os/windows/docs/2026/10/canada-2026-time-zone-changes"
+    },
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/software/2026/11/02/microsofts-canada-timezone-troubles-leave-admins-fixing-calendars-pretending-theyre-in-bogota/5306934"
+    }
+   ]
+  },
+  {
+   "id": "edge-startup-opt-in",
+   "title": "Edge is due to let people on managed PCs choose whether it opens at startup",
+   "summary": "An opt-in experience will let users on managed devices choose whether Edge launches automatically when Windows starts, and admins can set opt-in, opt-out or user choice with the LaunchEdgeOnWindowsStartupEnabled policy.",
+   "for": "School IT",
+   "status": "Due November 2026",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": "THIS WEEK",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571307"
+    }
+   ]
+  },
+  {
+   "id": "smart-app-control-fix",
+   "title": "Smart App Control can be turned back on with Windows updates from 28 October",
+   "summary": "After the October 2026 security update, some Windows 11 PCs (24H2 and later) couldn't turn Smart App Control back on in the Windows Security app: the option was greyed out. Updates released on 28 October and later fix it, and PCs that already had it on stayed protected.",
+   "for": "Students and school IT",
+   "status": "Fixed in updates from 28 Oct",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/"
+    }
+   ]
+  },
+  {
+   "id": "fabric-data-days",
+   "title": "Microsoft Fabric Data Days runs to 15 December, with free exam offers for eligible learners",
+   "summary": "From 2 November to 15 December: live sessions, community study groups, contests and certification prep on Fabric, SQL and Power BI. Eligible participants can explore limited 100% discount offers for the DP-600, DP-700 and DP-800 exams and 50% off select others; eligibility rules and deadlines apply.",
+   "for": "Data learners and university data teams",
+   "status": "Runs 2 Nov to 15 Dec",
+   "edu": false,
+   "chapter": "THE SKILLS",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Microsoft Fabric Blog",
+     "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-Days-Learn-build-and-connect-with-AI-Work/ba-p/5382446"
+    }
+   ]
+  },
+  {
+   "id": "entra-memberof-retires",
+   "title": "Entra dynamic groups that use the memberOf preview stop updating after 3 November",
+   "summary": "After 3 November, dynamic groups, dynamic administrative units and entitlement auto-assignment policies that use the memberOf operator stay frozen in their last state, which can leave stale Teams and SharePoint access and group-based licensing. Microsoft says to review every use of it and remove or replace those rules.",
+   "for": "School IT",
+   "status": "Preview ends after 3 Nov",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-rule-member-of"
+    }
+   ]
+  },
+  {
+   "id": "gh-pull-request-target",
+   "title": "GitHub Actions will block pull_request_target by default in public repos from 2 December",
+   "summary": "The trigger runs in the base repository's context and can reach its secrets, so untrusted code from forks could steal them. Unless a policy allows it, it's blocked in public repos on GitHub Free, Team and Enterprise Cloud from 2 December, with brownouts on 9 and 16 November. Private and internal repos aren't affected.",
+   "for": "Course, club and research repo owners",
+   "status": "From 2 December 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2"
+    }
+   ]
+  },
+  {
+   "id": "github-game-off-2026",
+   "title": "GitHub's Game Off 2026 game jam is on, and this year's theme is SHIFT",
+   "summary": "GitHub's annual month-long game jam, now in its 14th year, runs through November. Work solo or in a team with any engine or tools, keep your code in a public GitHub repo and submit on itch.io by 1 December at 13:37 PST; AI-assisted entries say how they used AI.",
+   "for": "Student developers",
+   "status": "Entries due 1 December",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "GitHub Blog",
+     "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/"
+    }
+   ]
+  },
+  {
+   "id": "wow-forever",
+   "title": "World of Warcraft: Forever arrives 4 November, with Xbox controller support in alpha",
+   "summary": "A return to a world like 2004's WoW, with new stories, locations and the Skyborne race, included with a WoW subscription or Game Time on PC. Turn on Gamepad (Alpha) in Options to play with an Xbox controller. Game Rant reports a worldwide launch at 3pm PST.",
+   "for": "Students, after hours",
+   "status": "Out 4 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/02/world-of-warcraft-forever-controller-support-reimagines-way-we-play-azeroth/"
+    },
+    {
+     "outlet": "Game Rant",
+     "url": "https://gamerant.com/world-of-warcraft-wow-forever-release-times/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Tuesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what shipped at Microsoft in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Safe to learn."
+  },
+  {
+   "s": 15.96,
+   "t": "Microsoft's AI privacy standard is now open to every US school district."
+  },
+  {
+   "s": 22.5,
+   "t": "That's 10 enforceable protections, starting with no AI training on student data."
+  },
+  {
+   "s": 31.88,
+   "t": "Soon, school IT can lock students' Copilot Chat to Study and Learn, Microsoft's AI tutor."
+  },
+  {
+   "s": 39.38,
+   "t": "They can't switch back or use other agents, but can still add their own files."
+  },
+  {
+   "s": 46.41,
+   "t": "It's a tutor built to keep the productive struggle, not do students' work."
+  },
+  {
+   "s": 52.97,
+   "t": "Microsoft's showing schools how to switch it on, in webinars on November 10 and 12."
+  },
+  {
+   "s": 60.0,
+   "t": "In BC, Alberta or Manitoba? Clocks didn't fall back, so switch Outlook to your new time zone."
+  },
+  {
+   "s": 67.5,
+   "t": "Then recheck meetings after November 1, especially recurring ones; only organisers can fix them."
+  },
+  {
+   "s": 75.0,
+   "t": "On managed PCs, Edge will soon let people choose whether it opens at startup."
+  },
+  {
+   "s": 82.5,
+   "t": "If a student laptop couldn't switch on Smart App Control, updates from October 28 fix that."
+  },
+  {
+   "s": 90.0,
+   "t": "Building data skills? Microsoft Fabric's Data Days runs to December 15, with live sessions and study groups."
+  },
+  {
+   "s": 97.5,
+   "t": "Eligible participants can also find free exam offers for three certifications, while they last."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? After November 3, Entra dynamic groups built on the memberOf preview stop updating."
+  },
+  {
+   "s": 112.5,
+   "t": "And from December 2, GitHub blocks one risky Actions trigger in public repos by default."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours? GitHub's Game Off jam is on, and this year's theme is Shift."
+  },
+  {
+   "s": 128.44,
+   "t": "Go solo or team up, use any engine, and submit your game by December 1."
+  },
+  {
+   "s": 135.0,
+   "t": "And World of Warcraft: Forever arrives November 4, with controller support in alpha."
+  },
+  {
+   "s": 142.5,
+   "t": "Protected data, a tutor that keeps students thinking, safer code: that's how school stays safe to learn."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "On the release board: shipped, and still shipping."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours at Microsoft. Tomorrow, there's more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-03/Microsoft-for-Education-Daily_2026-11-03.mp4",
+  "mb": 52.5,
+  "bytes": 52511247,
+  "seconds": 180.01
+ },
+ "links": {}
+}

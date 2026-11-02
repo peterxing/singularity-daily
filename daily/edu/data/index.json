@@ -1,13 +1,37 @@
 {
  "show": "Microsoft for Education Daily",
- "updated": "2026-11-01T23:20:22+00:00",
- "latest": "2026-11-02",
+ "updated": "2026-11-02T20:01:56+00:00",
+ "latest": "2026-11-03",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/education",
  "share": "https://peterxing.com/daily/education",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-03",
+   "ep": 8,
+   "hook": "SAFE TO LEARN.",
+   "day": "Tuesday 3 November 2026",
+   "name": "Microsoft for Education Daily",
+   "stories": 10,
+   "edu": 2,
+   "titles": [
+    "Microsoft's AI Safety & Privacy Standard is now open to every US school district",
+    "Study and Learn is getting a locked, learning-only mode in Copilot Chat for students",
+    "Canada's time zone change: pick the new zone in Outlook and recheck your meetings"
+   ],
+   "cover": "daily/edu/media/2026-11-03/cover.webp",
+   "thumb": "daily/edu/media/2026-11-03/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-03/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-03/Microsoft-for-Education-Daily_2026-11-03.mp4",
+    "mb": 52.5,
+    "bytes": 52511247,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-02",
    "ep": 7,
