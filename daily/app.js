@@ -27,6 +27,7 @@
     index: null, preds: null, tracker: null, byId: new Map(), byKey: new Map(), order: new Map(), episodes: new Map(),
     score: { tests: {}, due: [], soon: [] }, dueIds: new Set(), revs: { items: [] }, weekly: { items: [] },
     current: null, lastSync: 0, filters: { q: '', domain: 'all', rel: 'all', view: 'year' },
+    sdTracker: null, th: null,
   };
 
   const $ = id => document.getElementById(id);
@@ -95,6 +96,35 @@
   const verdictPill = v => h('span', { class: `verdict ${v}` }, h('span', { 'aria-hidden': 'true', text: VERDICT[v].icon }), VERDICT[v].label);
   const forecastHref = p => (isDue(p) ? `#/scorecard/${p.id}` : `#/forecasts/${p.id}`);
   const dayMonthYear = iso => fmt(iso, { day: 'numeric', month: 'short', year: 'numeric' });
+
+  // ------------------------------------------------------------------ the Transhuman Daily's forecast links
+  // That show (#/transhuman, daily/th.js) maps its stories to the same forecasts. Its publisher writes every link to
+  // daily/th/data/links.json; they join the Singularity Daily's in the tracker here, each resolved by the forecast's key (then
+  // its id, as the tracker does), so Predictions vs reality, the verdicts and "moving now" count both shows.
+  function setTracker(tracker, th) {
+    state.sdTracker = tracker;
+    state.th = th && Array.isArray(th.links) ? th : null;
+    if (!state.th) { state.tracker = tracker; return; }
+    const forecasts = {};
+    for (const [id, r] of Object.entries(tracker.forecasts || {})) forecasts[id] = { ...r, items: [...r.items] };
+    for (const l of state.th.links) {
+      const p = state.byKey.get(l.key) || state.byId.get(l.fid);
+      if (!p || !REL[l.relation]) continue;
+      const r = forecasts[p.id] || (forecasts[p.id] = { supports: 0, early: 0, challenges: 0, last: '', items: [] });
+      r[l.relation] = (r[l.relation] || 0) + 1;
+      r.items.push({ show: 'th', ep: l.ep, on: l.on, date: l.date, story: l.story, title: l.title, relation: l.relation, note: l.note,
+        outlet: l.outlet, url: l.url, revised: Boolean(l.key && p.key !== l.key) });
+    }
+    for (const r of Object.values(forecasts)) {
+      r.items.sort((a, b) => (b.on || '').localeCompare(a.on || '') || (b.date || '').localeCompare(a.date || ''));
+      r.last = r.items.length ? r.items[0].on : r.last;
+    }
+    state.tracker = { ...tracker, forecasts };
+  }
+  const thOn = () => Boolean(state.th && state.th.links.length);
+  const theShows = () => (thOn() ? 'the shows' : 'the show');
+  const itemHref = i => (i.show === 'th' ? `#/transhuman/${i.on}/${i.story}` : `#/ep/${i.on}/${i.story}`);
+  const itemEp = i => (i.show === 'th' ? `Transhuman Daily EP.${pad3(i.ep)}` : `EP.${pad3(i.ep)}`);
 
   // ------------------------------------------------------------------ episode
   async function showEpisode(date) {
@@ -375,7 +405,7 @@
   function verdictCard(d) {
     const p = state.byId.get(d.id), test = (state.score.tests[d.id] || {}).test, r = trackerFor(p.id);
     const row = (label, ...kids) => h('div', { class: 'vc-row' }, h('span', { class: 'lab mono', text: label }), h('div', null, ...kids));
-    const news = r ? h('details', { class: 'vc-news' }, h('summary', { text: `${r.items.length} ${r.items.length === 1 ? 'story' : 'stories'} in the show on this forecast` })) : null;
+    const news = r ? h('details', { class: 'vc-news' }, h('summary', { text: `${r.items.length} ${r.items.length === 1 ? 'story' : 'stories'} in ${theShows()} on this forecast` })) : null;
     if (news) news.addEventListener('toggle', () => { if (news.open && !news.dataset.filled) { news.dataset.filled = '1'; news.append(trail(r)); } });
     return h('li', { class: `vc ${d.verdict}`, id: `v-${p.id}` },
       h('div', { class: 'vc-top' },
@@ -487,7 +517,7 @@
     const live = liveItems(), t = totals(live);
     const many = (k, one, more) => (k === 1 ? one : more);
     const tiles = [
-      h('div', { class: 'tile hot' }, h('b', { text: `${t.withNews}/${live.length}` }), h('span', { text: 'live forecasts with news in the show' })),
+      h('div', { class: 'tile hot' }, h('b', { text: `${t.withNews}/${live.length}` }), h('span', { text: `live forecasts with news in ${theShows()}` })),
       h('div', { class: 'tile' }, h('b', { text: String(t.supports) }), h('span', { text: many(t.supports, 'story is evidence for a forecast', 'stories are evidence for a forecast') })),
       h('div', { class: 'tile' }, h('b', { text: String(t.early) }), h('span', { text: many(t.early, 'early sign', 'early signs') })),
       h('div', { class: 'tile' }, h('b', { text: String(t.challenges) }), h('span', { text: many(t.challenges, 'story is evidence against one', 'stories are evidence against one') })),
@@ -504,8 +534,8 @@
     });
     $('scoreboard').replaceChildren(...tiles, h('div', { class: 'domains' }, doms));
     const dated = live.filter(p => p.kind === 'dated'), first = dated.slice().sort((a, b) => order(a) - order(b))[0];
-    const eps = state.index.episodes.length, due = state.score.due.length;
-    $('forecastIntro').textContent = `The Guide's ${dated.length} live dated forecasts, from ${first ? when(first) : 'now'} to 2040, plus ${live.length - dated.length} undated ones beyond superintelligence, each with its best-guess month, its odds and the test it will be judged against. Every morning, each story in the show is checked against them, across ${eps} episode${eps === 1 ? '' : 's'} so far.${due ? ` ${due} more ${due === 1 ? 'has' : 'have'} fallen due and ${due === 1 ? 'is' : 'are'} judged in What it got right or wrong.` : ''}`;
+    const eps = state.index.episodes.length, due = state.score.due.length, thEps = thOn() ? state.th.episodes || 0 : 0;
+    $('forecastIntro').textContent = `The Guide's ${dated.length} live dated forecasts, from ${first ? when(first) : 'now'} to 2040, plus ${live.length - dated.length} undated ones beyond superintelligence, each with its best-guess month, its odds and the test it will be judged against. Every morning, each story in ${thEps ? 'the Singularity Daily and the Transhuman Daily' : 'the show'} is checked against them, across ${eps} episode${eps === 1 ? '' : 's'}${thEps ? ` and ${thEps} of the Transhuman Daily` : ''} so far.${due ? ` ${due} more ${due === 1 ? 'has' : 'have'} fallen due and ${due === 1 ? 'is' : 'are'} judged in What it got right or wrong.` : ''}`;
   }
   const order = p => (p.kind === 'horizon' ? 1e7 : (p.year * 12 + (p.m || 12)) * 100) + (state.order.get(p.id) || 0);
 
@@ -525,7 +555,7 @@
     $('moving').replaceChildren(h('h3', { text: 'Moving now · last 14 days' }), ...top.map(({ p, r, recent }) => h('a', { class: 'mover', href: `#/forecasts/${p.id}` },
       h('span', { class: 'when', text: `${when(p)} · ${odds(p)} · ${domainName(p.d)}` }),
       h('span', { class: 't', text: p.t }),
-      h('span', { class: 'latest', text: `Latest: ${recent[0].title} (EP.${pad3(recent[0].ep)})` }),
+      h('span', { class: 'latest', text: `Latest: ${recent[0].title} (${itemEp(recent[0])})` }),
       h('span', { class: 'tally' }, tallyPills(r)))));
   }
 
@@ -624,7 +654,7 @@
       h('summary', null,
         h('span', { class: 'y', text: beyond ? 'Beyond' : k }),
         h('span', { class: 'yc' }, beyond ? `${list.length} undated horizon${list.length === 1 ? '' : 's'}` : `${list.length} live forecast${list.length === 1 ? '' : 's'}`,
-          h('small', { text: withNews ? `${withNews} with news from the show` : 'No news from the show yet' })),
+          h('small', { text: withNews ? `${withNews} with news from ${theShows()}` : `No news from ${theShows()} yet` })),
         h('span', { class: 'tally' }, tallyPills(sum))),
       note ? h('p', { class: 'ysum', text: note }) : null,
       h('ol', { class: 'forecasts' }, list.map(({ p, r }) => forecastRow(p, r))));
@@ -659,15 +689,15 @@
       p.signs ? fact('Signs to watch', list(p.signs)) : null,
       p.caveat ? fact('Caveat', h('p', { text: p.caveat })) : null,
       revisionNote(p),
-      r ? trail(r) : h('p', { class: 'empty', text: 'No story in the show has been linked to this forecast yet.' }),
+      r ? trail(r) : h('p', { class: 'empty', text: `No story in ${theShows()} has been linked to this forecast yet.` }),
       h('div', { class: 'fc-foot' }, h('a', { href: `#/forecasts/${p.id}`, text: 'Link to this forecast' })));
   }
 
   function trail(r) {
     return h('ol', { class: 'trail' }, r.items.map(i => h('li', null,
-      h('div', { class: 'd' }, `${short(i.on)} · EP.${pad3(i.ep)}`, h('br'), relPill(i.relation)),
+      h('div', { class: 'd' }, `${short(i.on)} · ${itemEp(i)}`, h('br'), relPill(i.relation)),
       h('div', null,
-        h('div', { class: 'h' }, h('a', { href: `#/ep/${i.on}/${i.story}`, text: i.title })),
+        h('div', { class: 'h' }, h('a', { href: itemHref(i), text: i.title })),
         h('div', { class: 'w', text: i.note + (i.revised ? ' (The forecast\u2019s wording has been revised since.)' : '') }),
         h('div', { class: 'o' }, i.url ? h('a', { href: i.url, target: '_blank', rel: 'noopener', text: `${i.outlet || 'Source'} ↗` }) : (i.outlet || ''), i.date ? ` · ${short(i.date)}` : '')))));
   }
@@ -1015,6 +1045,8 @@
       timer = setTimeout(stop, HOLD_MS);
     });
   }
+  // the Transhuman Daily's section (th.js) lands a story's own link (#/transhuman/<date>/<story>) on its card once it's drawn
+  window.sdLand = el => land(el, firstRoute);
 
   let firstRoute = true;
   async function route() {
@@ -1029,7 +1061,7 @@
     } else if (parts[0] === 'today') {
       date = state.index.latest;
       target = 'now';
-    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'education'].includes(parts[0])) {
+    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'transhuman', 'education'].includes(parts[0])) {
       target = parts[0];
     } else {
       date = state.index.latest;
@@ -1064,11 +1096,19 @@
     state.lastSync = Date.now();
     try {
       const index = await getJSON('daily/data/index.json');
-      if (index.latest === state.index.latest && index.updated === state.index.updated) return;
-      const [preds, tracker, score, revs, weekly] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json'),
-        getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json')]);
+      if (index.latest === state.index.latest && index.updated === state.index.updated) {
+        // the Transhuman Daily publishes on its own schedule: fold in its new forecast links
+        const th = await getOptional('daily/th/data/links.json');
+        if (th && th.updated !== (state.th && state.th.updated)) {
+          setTracker(state.sdTracker, th);
+          renderScoreboard(); renderMoving(); renderForecasts(); renderScorecard();
+        }
+        return;
+      }
+      const [preds, tracker, score, revs, weekly, th] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json'),
+        getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'), getOptional('daily/th/data/links.json')]);
       const fresh = index.latest !== state.index.latest;
-      state.index = index; setPreds(preds); state.tracker = tracker; setExtras(score, revs, weekly);
+      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly);
       state.episodes.clear();
       renderAll();
       if (fresh) {
@@ -1146,10 +1186,11 @@
   async function init() {
     wireStatic();
     try {
-      const [index, preds, tracker, score, revs, weekly] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
-        getJSON('daily/data/tracker.json'), getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json')]);
+      const [index, preds, tracker, score, revs, weekly, th] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
+        getJSON('daily/data/tracker.json'), getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'),
+        getOptional('daily/th/data/links.json')]);
       if (!index.episodes || !index.episodes.length) throw new Error('no episodes yet');
-      state.index = index; setPreds(preds); state.tracker = tracker; setExtras(score, revs, weekly);
+      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly);
     } catch (e) {
       showLoadError(e);
       return;

@@ -1,0 +1,31 @@
+/* The Transhuman Daily: the third show's section (#transhuman), drawn with the page's own components (player, chapter headings,
+   cards, forecast links, episode cards) plus a pillar tag per story in Transhumanism Australia's colours and the show's h+ mark. */
+.thd { --th-longevity: #4be38a; --th-wellbeing: #ffd447; --th-intelligence: #5cc8ff; --th-frontier: #b794ff; --th-accent: #4be38a; }
+.thd .section-head { max-width: 80ch; }
+.th-mark { display: inline-block; font: 700 11px/1 var(--mono); letter-spacing: 0; padding: 3px 5px; margin-right: 8px; border-radius: 5px; color: #0b0b0c; background: linear-gradient(90deg, #4be38a, #ffd447 50%, #5cc8ff); vertical-align: 1px; text-transform: none; }
+.th-hero { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 44px); align-items: start; margin-bottom: 8px; }
+.thd .player { box-shadow: 0 30px 80px -30px rgba(75, 227, 138, 0.4), 0 0 0 1px var(--line); }
+.thd .ep-kicker { color: var(--th-accent); }
+.th-hook { font: 400 clamp(38px, 5vw, 72px)/0.92 var(--display); text-transform: uppercase; letter-spacing: 0.005em; margin: 0 0 14px; text-wrap: balance; overflow-wrap: anywhere; }
+.th-tldr { margin: 0 0 14px; color: var(--bone); line-height: 1.45; }
+.th-posts { margin: 0 0 10px; font-size: 13px; color: var(--faint); }
+.th-posts a { color: var(--bone); }
+.th-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 4px; }
+.th-filter .btn[aria-pressed="true"] { background: var(--white); color: var(--ink); border-color: var(--white); }
+.th-stories { margin-top: 18px; }
+.th-pillar { font: 700 11px/1 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 8px; border-radius: 6px; background: rgba(245, 243, 239, 0.08); color: var(--bone); }
+.th-pillar.longevity { background: rgba(75, 227, 138, 0.16); color: var(--th-longevity); }
+.th-pillar.wellbeing { background: rgba(255, 212, 71, 0.16); color: var(--th-wellbeing); }
+.th-pillar.intelligence { background: rgba(92, 200, 255, 0.16); color: var(--th-intelligence); }
+.th-pillar.frontier { background: rgba(183, 148, 255, 0.16); color: var(--th-frontier); }
+.th-card .th-evidence { font-size: 14px; color: var(--faint); }
+.th-card .th-evidence b { color: var(--bone); font-weight: 700; }
+.th-eps-h { margin-top: 40px; }
+.thd .episodes { margin-top: 12px; }
+.thd .epcard[aria-current="true"] { border-color: var(--th-accent); }
+.thd .epcard .k { color: var(--th-accent); }
+.start-also .th-mark { vertical-align: 1px; }
+.start-also + .start-also { margin-top: 6px; }
+@media (max-width: 1000px) {
+  .th-hero { grid-template-columns: 1fr; }
+}

@@ -38,6 +38,14 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   `/guide` page, but it is still the source of the chapter text, so it has to stay deployed. Elsewhere (the Pages copy)
   the section points readers to peterxing.com.
 - **Every episode** — the archive. The page checks for a new episode, verdict or revision every ten minutes while it's open.
+- **The Transhuman Daily** (`#/transhuman`, one episode at `#/transhuman/<date>`, one story at `#/transhuman/<date>/<story>`) —
+  a third daily show from the same pipeline, made with Transhumanism Australia, after About the show: the last 24 hours in
+  super longevity, super wellbeing, super intelligence and frontier tech in three minutes, with every story's pillar, how strong
+  its evidence is ("in mice", "Phase 3 trial", "approved") and its sources, the episode's transcript, and every episode. Its
+  stories are mapped to the Guide's forecasts by the same rules as the Singularity Daily's, so they show on the story cards
+  and in **Predictions vs reality**, the verdicts and "moving now", labelled as the Transhuman Daily's. Its share link,
+  **peterxing.com/daily/transhuman** (`daily/transhuman.html`), carries the show's own preview card and opens the section.
+  (The same episodes also go on transhuman.com.au/daily.)
 - **Microsoft for Education Daily** (`#/education`, one episode at `#/education/<date>`) — a second daily show from the same
   pipeline, at the very end of the page after About the show: the latest Microsoft updates for schools, universities and
   TAFEs in three minutes, with every update's audience ("For teachers", "For school IT"), its status (out now, rolling out,
@@ -97,6 +105,14 @@ of its videos are copied into the Pages site too (`assemble_pages.py` reads both
 show's own preview card, then the section. Keep it a file, not a folder: Vercel strips trailing slashes, and a folder would
 bounce readers through GitHub Pages' own address.
 
+The Transhuman Daily section is published by its own production project (`engine/build/pxpublish.py` in Transhuman-Daily),
+which touches only `daily/th/`: it uploads the web-encoded video as the release `th-ep-YYYY-MM-DD` (never marked Latest),
+writes `daily/th/data/episodes/<date>.json`, the cover, thumbnail and captions (`daily/th/media/<date>/`), regenerates
+`daily/th/data/index.json`, `daily/th/data/links.json` (every forecast link, newest first) and `daily/th/feed.xml`, and
+pushes. `daily/app.js` folds `links.json` into the tracker in the browser, resolving each link by the forecast's key and then
+its id, so the Singularity Daily's own `tracker.json` stays its own. The newest three of its videos are copied into the Pages
+site too. `daily/transhuman.html` is its share link's page (`daily/th/index.html` is an alias).
+
 ## Data
 
 | File | What it holds |
@@ -110,6 +126,9 @@ bounce readers through GitHub Pages' own address.
 | `daily/data/weekly.json` | every Friday digest, newest first |
 | `daily/edu/data/index.json` | Microsoft for Education Daily: every episode (newest first), hook, counts, cover, video location |
 | `daily/edu/data/episodes/<date>.json` | one of its episodes: updates (title, summary, who it's for, status, education-specific or not, chapter, date, sources), TL;DR, transcript, ticker, notes, post links |
+| `daily/th/data/index.json` | The Transhuman Daily: every episode (newest first), hook, counts by pillar, forecasts touched, cover, video location |
+| `daily/th/data/episodes/<date>.json` | one of its episodes: stories (title, summary, pillar, evidence, chapter, badge, date, sources, forecast links), TL;DR, transcript, ticker, notes, post links |
+| `daily/th/data/links.json` | every forecast link in its episodes, newest first (forecast id and key, relation, note, episode, story, source), merged into the tracker by `app.js` |
 
 Story links store the forecast's `id` and `key`, so if the Guide reorders or rewords its forecasts the tracker still
 resolves them (and flags wording that changed after the link was made).

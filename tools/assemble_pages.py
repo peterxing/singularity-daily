@@ -1,9 +1,10 @@
 """Assemble the GitHub Pages artifact: the site files plus, for the newest episodes, their video from the GitHub release.
 
-Videos live in releases (one per episode, tag ep-YYYY-MM-DD, and edu-ep-YYYY-MM-DD for the Microsoft for Education Daily
-section under daily/edu) so the git history stays small. GitHub serves release assets as application/octet-stream
-downloads, which Safari on iPhone won't play inline, so the newest `videosOnPages` episodes of each show are copied into the
-Pages site, where they're served as video/mp4 with range requests. Older episodes stream from the release.
+Videos live in releases (one per episode, tag ep-YYYY-MM-DD, th-ep-YYYY-MM-DD for the Transhuman Daily section under daily/th
+and edu-ep-YYYY-MM-DD for the Microsoft for Education Daily section under daily/edu) so the git history stays small. GitHub
+serves release assets as application/octet-stream downloads, which Safari on iPhone won't play inline, so the newest
+`videosOnPages` episodes of each show are copied into the Pages site, where they're served as video/mp4 with range requests.
+Older episodes stream from the release.
 """
 import argparse
 import json
@@ -47,8 +48,9 @@ def main():
     shutil.copytree(ROOT / "daily", out / "daily")
     (out / ".nojekyll").write_text("", encoding="utf-8")
     total = 0
-    # the Singularity Daily, then the Microsoft for Education Daily section (absent until its first episode)
-    for rel in (("daily", "data", "index.json"), ("daily", "edu", "data", "index.json")):
+    # the Singularity Daily, then the Transhuman Daily and the Microsoft for Education Daily sections (each absent until its
+    # first episode)
+    for rel in (("daily", "data", "index.json"), ("daily", "th", "data", "index.json"), ("daily", "edu", "data", "index.json")):
         path = ROOT.joinpath(*rel)
         if not path.exists():
             continue

@@ -18,14 +18,17 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="The Singularity Daily" href="daily/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="The Singularity Daily · The week in the forecasts" href="daily/weekly.xml">
+<link rel="alternate" type="application/rss+xml" title="The Transhuman Daily" href="daily/th/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="Microsoft for Education Daily" href="daily/edu/feed.xml">
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="daily/app.css?v=20261101a">
 <link rel="stylesheet" href="daily/edu.css?v=20261101c">
+<link rel="stylesheet" href="daily/th.css?v=20261103a">
 <script src="daily/route.js?v=20261101a"></script>
-<script src="daily/app.js?v=20261101c" defer></script>
+<script src="daily/app.js?v=20261103a" defer></script>
+<script src="daily/th.js?v=20261103a" defer></script>
 <script src="daily/edu.js?v=20261101d" defer></script>
 </head>
 <body>
@@ -39,6 +42,7 @@
       <a href="#/scorecard">Right or wrong</a>
       <a href="#/forecasts">Predictions vs reality</a>
       <a href="#/episodes">Episodes</a>
+      <a href="#/transhuman" title="The Transhuman Daily">Transhuman</a>
       <a href="#/education" title="Microsoft for Education Daily">Microsoft Edu</a>
       <a class="nav-guide" href="#/guide">The Guide</a>
     </nav>
@@ -80,6 +84,7 @@
         <span class="t" id="startScoreT">What it got right or wrong</span>
       </a>
     </div>
+    <p class="start-also" id="thAlso" hidden><a href="#/transhuman"><span class="th-mark" aria-hidden="true">h+</span>Also every morning: <b>The Transhuman Daily</b>, the last 24 hours in longevity, wellbeing and intelligence in 3 minutes, mapped to the same forecasts · <span id="thAlsoT">today's episode</span> →</a></p>
     <p class="start-also" id="eduAlso" hidden><a href="#/education"><span class="edu-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Also every morning: <b>Microsoft for Education Daily</b>, the latest Microsoft updates for schools and universities in 3 minutes · <span id="eduAlsoT">today's episode</span> →</a></p>
   </section>
 
@@ -185,7 +190,7 @@
     </div>
     <p class="mono count" id="forecastCount" aria-live="polite"></p>
     <div id="forecastList" class="fyears"></div>
-    <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the show's reading, not an independent assessment.</p>
+    <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the shows' reading, not an independent assessment.</p>
   </section>
 
   <section id="guide" class="wrap section guide" aria-labelledby="guideTitle">
@@ -239,13 +244,69 @@
       <div>
         <p><strong>The Singularity Daily</strong> is a 3-minute, upbeat catch-up on the last 24 hours in superintelligence, framed as the singularity arriving one day at a time. It's made every morning by an AI production pipeline Peter Xing built: it scans thousands of headlines, checks each story against a primary source or a major outlet, writes and voices the script, composes a new soundtrack and renders the video, then publishes it here with every source.</p>
         <p>Your host is <strong>Claudia</strong>, an open character by <a href="https://claudia.gallery" rel="noopener">anabology</a>. Article screenshots shown in the videos belong to their publishers.</p>
-        <p>The same pipeline also makes <a href="#/education"><strong>Microsoft for Education Daily</strong></a>: the latest Microsoft updates for schools, universities and TAFEs, every morning, with who each one is for, its status and its source.</p>
+        <p>The same pipeline also makes <a href="#/transhuman"><strong>The Transhuman Daily</strong></a>, the last 24 hours in super longevity, super wellbeing, super intelligence and the frontier tech that gets us there, with Transhumanism Australia, its stories checked against the same forecasts; and <a href="#/education"><strong>Microsoft for Education Daily</strong></a>: the latest Microsoft updates for schools, universities and TAFEs, every morning, with who each one is for, its status and its source.</p>
       </div>
       <div>
         <p>The forecasts come from <a href="#/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? <a href="#/guide/read">Read the Guide</a> right here, then see <a href="#/scorecard">what it got right or wrong</a>.</p>
         <p>Follow along: <a href="daily/weekly.xml">the weekly by RSS</a> · <a href="daily/feed.xml">every episode by RSS</a> · <a href="https://x.com/peterxing" rel="noopener">X</a> · <a href="https://www.linkedin.com/in/peter-xing/" rel="noopener">LinkedIn</a> · <a href="https://www.facebook.com/peterxingularity" rel="noopener">Facebook</a> · <a id="repoLink" href="https://github.com/peterxing/singularity-daily" rel="noopener">source on GitHub</a></p>
       </div>
     </div>
+  </section>
+
+  <section id="transhuman" class="wrap section thd" aria-labelledby="thTitle">
+    <div class="section-head">
+      <p class="mono eyebrow"><span class="th-mark" aria-hidden="true">h+</span>Another show, every morning</p>
+      <h2 id="thTitle">The Transhuman Daily</h2>
+      <p class="section-sub">The last 24 hours in transhumanism in three minutes: super longevity, super wellbeing, super intelligence and the frontier tech that gets us there. Every story says how strong its evidence is (in mice, in a trial, approved) and where it came from, and is checked against the Guide's forecasts like the Singularity Daily's, so it shows up in <a href="#/forecasts">Predictions vs reality</a> too.</p>
+    </div>
+    <div class="th-hero">
+      <div class="player" id="thPlayer">
+        <video id="thVideo" controls playsinline webkit-playsinline preload="metadata" aria-describedby="thHook"></video>
+        <div class="player-note" id="thPlayerNote" hidden></div>
+      </div>
+      <div class="ep">
+        <p class="mono ep-kicker" id="thKicker">Loading the latest episode…</p>
+        <h3 class="th-hook" id="thHook">The Transhuman Daily</h3>
+        <p class="th-tldr" id="thTldr"></p>
+        <p class="ep-stats mono" id="thStats"></p>
+        <div class="ep-touch" id="thTouch" hidden></div>
+        <div class="actions">
+          <button type="button" class="btn btn-primary" id="thPlay">▶ Play</button>
+          <button type="button" class="btn" id="thTranscriptBtn" aria-expanded="false" aria-controls="thTranscript">Transcript</button>
+          <button type="button" class="btn" id="thShare">Share</button>
+        </div>
+        <p class="mono th-posts" id="thPosts" hidden></p>
+        <p class="mono ep-window" id="thWindow"></p>
+      </div>
+    </div>
+    <div id="thTranscript" class="transcript" hidden aria-label="Transcript"><ol id="thTranscriptList"></ol></div>
+    <div class="th-filter" id="thFilter" role="group" aria-label="Which stories">
+      <button type="button" class="btn" data-f="all" aria-pressed="true">Every story</button>
+      <button type="button" class="btn" data-f="longevity" aria-pressed="false">Super longevity</button>
+      <button type="button" class="btn" data-f="wellbeing" aria-pressed="false">Super wellbeing</button>
+      <button type="button" class="btn" data-f="intelligence" aria-pressed="false">Super intelligence</button>
+      <button type="button" class="btn" data-f="frontier" aria-pressed="false">Frontier tech</button>
+      <button type="button" class="btn" data-f="mapped" aria-pressed="false">On a forecast</button>
+    </div>
+    <div id="thStories" class="th-stories"></div>
+    <details class="more" id="thMore" hidden>
+      <summary>More from the day</summary>
+      <ul id="thTicker" class="ticker"></ul>
+    </details>
+    <ul class="notes" id="thNotes"></ul>
+    <h3 class="sub-h th-eps-h">Every episode</h3>
+    <ol class="episodes" id="thEpisodes"></ol>
+    <div class="follow">
+      <p class="follow-k mono">Follow the show</p>
+      <div class="follow-row">
+        <a class="btn btn-primary" href="daily/th/feed.xml">Every episode by RSS</a>
+        <a class="btn" href="https://x.com/peterxing" rel="noopener" target="_blank">X ↗</a>
+        <a class="btn" href="https://www.facebook.com/peterxingularity" rel="noopener" target="_blank">Facebook ↗</a>
+        <a class="btn" href="https://www.linkedin.com/company/transhumanism" rel="noopener" target="_blank">LinkedIn ↗</a>
+        <a class="btn" href="https://transhuman.com.au/next" rel="noopener" target="_blank">Next meetup ↗</a>
+      </div>
+    </div>
+    <p class="fineprint">Made every morning with Transhumanism Australia (transhuman.com.au) by the AI production pipeline Peter Xing built: it scans the science and tech press, checks every story against its source, says how strong the evidence is, then writes, voices and renders the show. The forecast links are the show's reading, made by the same rules as the Singularity Daily's. Not medical or financial advice. Article screenshots in the videos belong to their publishers.</p>
   </section>
 
   <section id="education" class="wrap section edu" aria-labelledby="eduTitle">
