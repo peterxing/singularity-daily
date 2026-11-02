@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T23:04:20+00:00",
- "latest": "2026-11-02",
+ "updated": "2026-11-02T20:45:40+00:00",
+ "latest": "2026-11-03",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -20,6 +20,34 @@
  },
  "data": "5b0753cfcf7f",
  "episodes": [
+  {
+   "date": "2026-11-03",
+   "ep": 30,
+   "hook": "GENIUS ISN'T CHEAP.",
+   "day": "Tuesday 3 November 2026",
+   "stories": 13,
+   "forecasts": 3,
+   "links": {
+    "supports": 0,
+    "early": 4,
+    "challenges": 0
+   },
+   "titles": [
+    "Sam Altman: AI is now mostly smarter than our smartest scientists",
+    "Anthropic's IPO filing: nearly $17B in quarterly sales and $895.4B in commitments",
+    "Musk: serving Grok Bot cost 'unsustainably high relative to revenue'"
+   ],
+   "cover": "daily/media/2026-11-03/cover.webp",
+   "thumb": "daily/media/2026-11-03/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-03/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-03/Singularity-Daily_2026-11-03.mp4",
+    "mb": 67.0,
+    "bytes": 66970002,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-02",
    "ep": 29,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-10-26/cover.webp",
    "thumb": "daily/media/2026-10-26/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-10-26/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-26/Singularity-Daily_2026-10-26.mp4",
     "mb": 70.1,

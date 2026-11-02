@@ -1,0 +1,511 @@
+{
+ "date": "2026-11-03",
+ "ep": 30,
+ "hook": "GENIUS ISN'T CHEAP.",
+ "day": "Tuesday 3 November 2026",
+ "chapters": [
+  "GENIUS",
+  "THE BILL",
+  "BIG BETS",
+  "EVERYDAY",
+  "THE CATCH",
+  "THE CLIMB"
+ ],
+ "window": "Window: the 24 hours to 04:16 AEDT, Tue 3 Nov 2026.",
+ "notes": [
+  "Sam Altman's 'mostly smarter than our smartest scientists' is his claim, made at ADIPEC in Abu Dhabi on 2 Nov. OpenAI's everyday-tasks scores are from its own internal test. ADNOC's 'hours, not months' is its stated hope. South Korea's AI and chip budget is a proposal that parliament still has to pass.",
+  "Anthropic's figures are from its amended IPO filing (2 Nov), as reported by Bloomberg, Reuters, CNBC and The Next Web. Goldman's AI tool limits are from internal guidance seen by Bloomberg. Counts of the data-centre ballot measures differ by outlet (Fortune: 41 measures in 10 states).",
+  "Screenshots are the publishers' public article pages as captured on 3 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "GENIUS ISN'T CHEAP. 💸\n\nThe last 24h in superintelligence:\n- Altman: AI is now mostly smarter than top scientists\n- Anthropic: nearly $17B in sales in 3 months\n- Marvell buys Lumentum for $115B\n- Robots race up Mount Tai with eggs\n\nWho should foot the bill?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (3 Nov 2026), hosted by Claudia: Sam Altman saying AI is now mostly smarter than top scientists, Anthropic's nearly $17 billion quarter and $895 billion in compute commitments, Grok Bot's costs, OpenAI's grid pledge, Marvell's $115 billion Lumentum deal, South Korea's AI budget, ADNOC's OpenAI agents, US data-centre votes, OpenAI's everyday-errands test, hidden deepfake apps, Goldman's AI coding limits, robots racing up Mount Tai and Japan's rules for cars with no steering wheel, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ALTMAN AT ADIPEC: 'THERE SHOULD NOT BE A HANDOFF TO AI'",
+  "ALTMAN: AROUND 80% OF YOUNG PEOPLE IN THE UAE USE CHATGPT EVERY WEEK",
+  "REUTERS: ANTHROPIC PLANS TO SELL UP TO $3.5 BILLION OF SHARES TO INVESTORS IN JAPAN",
+  "BLOOMBERG: ABOUT $448 BILLION OF ANTHROPIC'S COMMITMENTS FALLS DUE BY THE END OF 2030",
+  "TECHCRUNCH: SPACEX SAYS AI NOW MAKES UP 52% OF COMPANY INCOME",
+  "OPENAI: GEORGIA POWER CAN CUT UP TO 1,000 MW FROM ITS GEORGIA CAMPUS, ABOUT 700,000 HOMES' WORTH",
+  "MARVELL EXPECTS THE LUMENTUM DEAL TO CLOSE IN THE FIRST HALF OF 2028",
+  "REUTERS: NVIDIA INVESTED $2 BILLION EACH IN MARVELL AND LUMENTUM EARLIER THIS YEAR",
+  "YONHAP: SOUTH KOREA'S 2027 BUDGET BILL IS A RECORD 820.9 TRILLION WON",
+  "ADNOC HAS ALREADY ROLLED OUT CHATGPT ENTERPRISE TO MORE THAN 40,000 STAFF",
+  "FORTUNE: BOFA ECONOMISTS CALL A SUSTAINED AI CORRECTION A MAJOR RISK TO THE GLOBAL ECONOMY",
+  "CNN: GPT-6 ASTRA SCORED 98% AT ORGANISING VOLUNTEERS BEFORE A FLOOD, OPENAI SAYS",
+  "WIRED: THE DEEPFAKE APP NETWORK APPEARS TO HAVE BEEN PUBLISHING FOR ABOUT A YEAR",
+  "APPLEINSIDER: APPLE HAS REMOVED 19 OF THE CLOAKED APPS",
+  "BLOOMBERG: GOLDMAN'S 'STRATS' KEEP THEIR AI CODING TOOLS",
+  "AFP: THE FASTEST HUMANOID FINISHED A SHORTER MOUNT TAI COURSE IN 27 MINUTES 26 SECONDS",
+  "SCMP: MOUNT TAI'S REFEREES HAD TO WRITE NEW RULES TO KEEP UP WITH THE ROBOTS",
+  "NIKKEI ASIA: JAPAN MAY CERTIFY SELF-DRIVING CARS WITH NO BRAKE OR ACCELERATOR PEDALS",
+  "TECHCRUNCH: OPENAI IS MERGING CHATGPT'S CHAT AND WORK TABS, STARTING WITH SELECT USERS",
+  "BUSINESS INSIDER: HOME DEPOT WANTS AI AGENTS TO IDENTIFY THEMSELVES AND PROVE WHO THEY ACT FOR",
+  "TOM'S HARDWARE: ANTHROPIC CONFIRMS NEW CLAUDE CODE LIMITS TO STOP GAME CLONING",
+  "THE GUARDIAN: UNIONS GAIN ACCESS TO THOUSANDS OF GOOGLE WORKERS UNDER NEW UK RULES",
+  "REUTERS: HSBC TO OPEN A HONG KONG AI INSTITUTE AFTER ITS SINGAPORE LAUNCH",
+  "REUTERS: MERZ SAYS GERMANY MUST PRESERVE 'DIGITAL SOVEREIGNTY' IN THE AI ERA",
+  "TECHNODE: ROBOT-TRAINING DATA STARTUP GENROBOT AI RAISES $100 MILLION"
+ ],
+ "sources": [
+  "Daily Sabah",
+  "Anadolu Agency",
+  "The Next Web",
+  "Bloomberg",
+  "Reuters",
+  "CNBC",
+  "AFP",
+  "TechCrunch",
+  "Business Insider",
+  "OpenAI",
+  "Axios",
+  "RTÉ",
+  "Yonhap",
+  "The National",
+  "Fortune",
+  "HuffPost",
+  "CNN",
+  "WIRED",
+  "AI Forensics",
+  "AppleInsider",
+  "Moneycontrol",
+  "South China Morning Post",
+  "Tech Xplore",
+  "CBS News",
+  "Nikkei Asia",
+  "Tom's Hardware",
+  "The Guardian",
+  "TechNode"
+ ],
+ "scanned": 3764,
+ "stories": [
+  {
+   "id": "altman-adipec",
+   "title": "Sam Altman: AI is now mostly smarter than our smartest scientists",
+   "summary": "Opening ADIPEC in Abu Dhabi, OpenAI's Sam Altman said AI was mostly not as smart as our smartest scientists at the start of this year and is now mostly smarter than them. 'Atoms are still atoms,' he added: powering it will dominate the cost.",
+   "chapter": "GENIUS",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Daily Sabah",
+     "url": "https://www.dailysabah.com/business/tech/ai-models-smarter-than-brightest-scientists-openais-altman"
+    },
+    {
+     "outlet": "Anadolu Agency"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-s1",
+   "title": "Anthropic's IPO filing: nearly $17B in quarterly sales and $895.4B in commitments",
+   "summary": "Anthropic's amended IPO filing shows nearly $17B in revenue in the third quarter, about 12 times a year earlier, and $895.4B committed to purchases, almost all computing and infrastructure, with about $448B due by the end of 2030 (Bloomberg).",
+   "chapter": "THE BILL",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/anthropic-ipo-filing-17bn-revenue-commitments"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-2",
+     "key": "6e83e1e459",
+     "relation": "early",
+     "note": "One lab's revenue reached nearly $17B in a single quarter, about 12 times a year earlier: still far below a national government's revenue, but climbing fast."
+    }
+   ]
+  },
+  {
+   "id": "grok-bot-costs",
+   "title": "Musk: serving Grok Bot cost 'unsustainably high relative to revenue'",
+   "summary": "After some Grok Bot users found their weekly limits suddenly maxed out over Halloween weekend, Elon Musk said in a reply on X that the cost of serving it 'was unsustainably high relative to revenue'. He hasn't said how the limits will change.",
+   "chapter": "THE BILL",
+   "badge": null,
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+    },
+    {
+     "outlet": "Business Insider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-grid-protectors",
+   "title": "OpenAI's Grid Protectors: its data centres will ease off when the grid is strained",
+   "summary": "OpenAI's Grid Protectors Program starts at its Georgia campus, where Georgia Power can cut up to 1,000 MW, about the average demand of 700,000 homes, when the grid is strained. 'Families and small businesses should not be asked to subsidize' its power, OpenAI says.",
+   "chapter": "THE BILL",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/openai-grid-protectors-program-demand-response-georgia"
+    },
+    {
+     "outlet": "OpenAI"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "OpenAI will let Georgia Power cut up to 1,000 MW from its campus when the grid is strained, so households don't subsidise its power: one company's voluntary step."
+    }
+   ]
+  },
+  {
+   "id": "marvell-lumentum",
+   "title": "Marvell to buy laser maker Lumentum for $115B",
+   "summary": "Chipmaker Marvell agreed to buy Lumentum, which makes lasers and optical components for AI data centres, in an all-stock deal valued at $115B including debt (equity value $102.54B), Reuters reports. It's expected to close in the first half of 2028.",
+   "chapter": "BIG BETS",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Reuters (via RTÉ)",
+     "url": "https://www.rte.ie/news/business/2026/1102/1597646-marvell-to-buy-lumentum-in-115-billion-deal/"
+    },
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "south-korea-ai-budget",
+   "title": "South Korea plans to double AI and chip spending in 2027, to about $16B",
+   "summary": "In his 2027 budget speech, South Korea's President Lee said spending on AI and chips will double to a record 21.3 trillion won (about $16B), AFP reports. It's a proposal: parliament still has to pass the budget.",
+   "chapter": "BIG BETS",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "AFP (via The Japan Times)",
+     "url": "https://www.japantimes.co.jp/business/2026/11/02/south-korea-ai-chips-spending-2027/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Yonhap"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "adnoc-openai-frontier",
+   "title": "ADNOC becomes the first energy company to deploy OpenAI Frontier, with G42",
+   "summary": "Abu Dhabi's ADNOC signed a multi-year deal with OpenAI and G42 to use AI agents across its operations, starting with oil and gas field development plans it hopes will take hours instead of months, with human experts overseeing the major decisions.",
+   "chapter": "BIG BETS",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "The National",
+     "url": "https://www.thenationalnews.com/business/energy/2026/11/02/adnoc-signs-agreement-with-openai-and-g42-to-deploy-frontier-ai/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "The Next Web"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-1",
+     "key": "5f44d27e24",
+     "relation": "early",
+     "note": "An energy major is handing field-planning work to AI agents while its human experts oversee the major decisions: one company's plan, not yet the norm."
+    }
+   ]
+  },
+  {
+   "id": "data-centre-ballots",
+   "title": "US voters in dozens of towns decide on data-centre bans and pauses",
+   "summary": "In Tuesday's US elections, voters in dozens of towns decide on banning or pausing data centres: Fortune counts 41 measures in 10 states, amid fights over power bills, while HuffPost counts dozens of municipalities in at least seven states.",
+   "chapter": "BIG BETS",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "HuffPost (via Yahoo)",
+     "url": "https://ca.news.yahoo.com/where-data-center-bans-ballot-132131127.html"
+    },
+    {
+     "outlet": "Fortune"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Dozens of US towns are voting on banning or pausing data centres amid fights over power bills: a local version of data centres becoming a political constraint."
+    }
+   ]
+  },
+  {
+   "id": "openai-everyday-test",
+   "title": "OpenAI's everyday-errands test: GPT-6 Astra scores 80%, up from 49.3% for GPT-5.2",
+   "summary": "OpenAI's new test of everyday tasks, built from a survey of about 4,000 ChatGPT users, scores GPT-6 Astra at 80% against 49.3% for last year's GPT-5.2, including 93.1% on finding the right kindergarten after a move. These are OpenAI's own results.",
+   "chapter": "EVERYDAY",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2026/11/02/tech/openai-chatgpt-personal-assistant-ai"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "wired-deepfake-apps",
+   "title": "WIRED: 400+ ordinary-looking AI apps and sites hide abusive deepfake tools",
+   "summary": "WIRED found a network of more than 400 connected apps and websites, such as a 'pet portrait' app, that cloak sexually abusive deepfake features to pass app store review. AppleInsider reports Apple has removed 19 of the apps.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+    },
+    {
+     "outlet": "AppleInsider"
+    },
+    {
+     "outlet": "9to5Mac"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "goldman-ai-coding-tools",
+   "title": "Goldman Sachs limits AI coding tools to its engineers, Bloomberg reports",
+   "summary": "Goldman Sachs bankers and traders had been using Claude Code and GitHub; internal guidance updated in October now limits them to engineers after a review of productivity and risk, according to Bloomberg.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Bloomberg (via The Edge Singapore)",
+     "url": "https://www.theedgesingapore.com/news/us-stocks/goldman-restricts-traders-and-bankers-using-some-ai-tools--bloomberg"
+    },
+    {
+     "outlet": "Moneycontrol"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "robots-mount-tai",
+   "title": "Robots race up China's Mount Tai, some carrying eggs and watermelons",
+   "summary": "About 90 teams raced robots up Mount Tai's 3,000-plus steps in the World Mountain Robot Challenge. A robot dog from Unitree subsidiary Beijing Lingyi Technology finished in 43 min 41 s; most tourists take at least two hours, AFP reports.",
+   "chapter": "THE CLIMB",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "AFP (via Tech Xplore)",
+     "url": "https://techxplore.com/news/2026-11-laden-eggs-robots-sacred-chinese.html"
+    },
+    {
+     "outlet": "CBS News"
+    },
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "japan-driverless-rules",
+   "title": "Japan weighs safety rules for self-driving cars with no steering wheel or pedals",
+   "summary": "Japan is considering revising its auto safety certification standards to cover self-driving vehicles without steering wheels, brakes or accelerator pedals, Nikkei Asia reports. Nothing has been decided yet.",
+   "chapter": "THE CLIMB",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/automobiles/japan-weighs-standards-for-self-driving-cars-without-steering-wheels"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Tuesday, November 3, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "Genius isn't cheap."
+  },
+  {
+   "s": 16.32,
+   "t": "Sam Altman says AI is now mostly smarter than our smartest scientists."
+  },
+  {
+   "s": 22.03,
+   "t": "But atoms are still atoms, he said. Power will decide what it costs."
+  },
+  {
+   "s": 31.88,
+   "t": "Anthropic's filing to go public shows almost $17 billion in sales, in just three months."
+  },
+  {
+   "s": 39.38,
+   "t": "But it's also promised to spend nearly $900 billion, mostly on computing power."
+  },
+  {
+   "s": 45.94,
+   "t": "Meanwhile, Elon Musk says Grok Bot got too expensive to run."
+  },
+  {
+   "s": 49.69,
+   "t": "Users are hitting their limits."
+  },
+  {
+   "s": 52.97,
+   "t": "OpenAI says its new data centres will ease off when the grid's strained."
+  },
+  {
+   "s": 57.12,
+   "t": "Families shouldn't pay."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the big bets."
+  },
+  {
+   "s": 61.44,
+   "t": "Chipmaker Marvell is buying laser maker Lumentum, for $115 billion."
+  },
+  {
+   "s": 67.5,
+   "t": "South Korea's president says it'll double AI and chip spending next year, to about $16 billion."
+  },
+  {
+   "s": 75.0,
+   "t": "Abu Dhabi's oil giant signed up for OpenAI's agents."
+  },
+  {
+   "s": 78.84,
+   "t": "Its hope? Oil field plans in hours, not months."
+  },
+  {
+   "s": 82.5,
+   "t": "And on Tuesday, Americans in dozens of towns vote on banning or pausing data centres."
+  },
+  {
+   "s": 90.0,
+   "t": "Meanwhile, OpenAI built a test for everyday errands."
+  },
+  {
+   "s": 94.7,
+   "t": "Last year's model scored 49%. This year's? 80%."
+  },
+  {
+   "s": 99.38,
+   "t": "Like finding the right kindergarten after a move, or a meal plan for a parent with diabetes."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? WIRED found over 400 apps and sites hiding abusive deepfake tools."
+  },
+  {
+   "s": 111.56,
+   "t": "And Goldman Sachs pulled AI coding tools from its bankers. Engineers only."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, robots. About 90 teams raced them up China's sacred Mount Tai, some carrying eggs and watermelons."
+  },
+  {
+   "s": 129.38,
+   "t": "A robot dog finished the climb in under 44 minutes."
+  },
+  {
+   "s": 132.9,
+   "t": "Most tourists take two hours."
+  },
+  {
+   "s": 135.94,
+   "t": "And Japan is weighing rules for self-drivin g cars with no steering wheel and no pedals."
+  },
+  {
+   "s": 142.5,
+   "t": "So, genius isn't cheap. The real question is who pays, and whether it pays us back."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-03/Singularity-Daily_2026-11-03.mp4",
+  "mb": 67.0,
+  "bytes": 66970002,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
