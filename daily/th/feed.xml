@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>The Transhuman Daily</title>
+  <link>https://peterxing.com/#/transhuman</link>
+  <description>The last 24 hours in transhumanism in three minutes, every morning: super longevity, super wellbeing, super intelligence and the frontier tech that gets us there, with every story's evidence, its sources and the forecasts it touches in The Hitchhiker's Guide to the Singularity.</description>
+  <language>en-au</language>
+  <item>
+   <title>EP.001 · NEVER TOO LATE.</title>
+   <link>https://peterxing.com/#/transhuman/2026-11-02</link>
+   <guid isPermaLink="false">the-transhuman-daily-px-2026-11-02</guid>
+   <pubDate>Mon, 02 Nov 2026 07:00:00 +1100</pubDate>
+   <description>Never too late: two treatments helped old mice live longer, retiring didn&#x27;t make older Australians lonelier, and a psychedelic spray eased tough depression in a mid-stage trial.</description>
+   <enclosure url="https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-02/The-Transhuman-Daily_2026-11-02.mp4" length="56278568" type="video/mp4"/>
+  </item>
+ </channel>
+</rss>

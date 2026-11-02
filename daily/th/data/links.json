@@ -1,0 +1,91 @@
+{
+ "show": "The Transhuman Daily",
+ "updated": "2026-11-02T23:53:25+00:00",
+ "episodes": 1,
+ "links": [
+  {
+   "fid": "2032-1",
+   "key": "c133f89242",
+   "relation": "early",
+   "note": "A humanoid robot helped patrol traffic at a 36,000-runner marathon: a public-service demonstration, far from robots doing a third of physical work.",
+   "ep": 1,
+   "on": "2026-11-02",
+   "date": "2026-11-01",
+   "story": "hangzhou-robot-traffic-cop",
+   "title": "A humanoid robot traffic cop helped patrol the Hangzhou Marathon",
+   "pillar": "frontier",
+   "outlet": "Global Times",
+   "url": "https://www.globaltimes.cn/page/202611/1373413.shtml"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A five-year NIH-backed study targets one of the horizon's prerequisites, implants that last without scarring; it has animal data only so far.",
+   "ep": 1,
+   "on": "2026-11-02",
+   "date": "2026-10-31",
+   "story": "miami-brain-implants-last",
+   "title": "A five-year Miami study aims to make brain implants last longer",
+   "pillar": "intelligence",
+   "outlet": "University of Miami (Mirage News)",
+   "url": "https://www.miragenews.com/extending-life-of-brain-implants-1769931/"
+  },
+  {
+   "fid": "2026-8",
+   "key": "885506950d",
+   "relation": "supports",
+   "note": "Google's Suncatcher prototype runs a named AI model, Gemma 4, on four TPUs in orbit: demonstrator scale, as the forecast expects.",
+   "ep": 1,
+   "on": "2026-11-02",
+   "date": "2026-10-30",
+   "story": "google-suncatcher-haiku",
+   "title": "Google's AI satellite Suncatcher wrote a haiku from orbit",
+   "pillar": "frontier",
+   "outlet": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+  },
+  {
+   "fid": "horizon-orbital-compute-to-proto-dyson",
+   "key": "f1cd4d6370",
+   "relation": "early",
+   "note": "A data-centre satellite prototype is online, with two more planned for 2027: an opening step toward computing in orbit.",
+   "ep": 1,
+   "on": "2026-11-02",
+   "date": "2026-10-30",
+   "story": "google-suncatcher-haiku",
+   "title": "Google's AI satellite Suncatcher wrote a haiku from orbit",
+   "pillar": "frontier",
+   "outlet": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+  },
+  {
+   "fid": "2028-1",
+   "key": "5f44d27e24",
+   "relation": "early",
+   "note": "An AI agent drafts ultrasound reports for radiologists to check: a research version of professionals supervising AI agents, not yet in everyday care.",
+   "ep": 1,
+   "on": "2026-11-02",
+   "date": "2026-10-29",
+   "story": "ultrasound-ai-agent",
+   "title": "An AI agent reading abdominal ultrasounds got 99.6% of diagnoses right in 100 checked reports",
+   "pillar": "intelligence",
+   "outlet": "Nature Communications",
+   "url": "https://www.nature.com/articles/s41467-026-77498-w"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "Musk says Neuralink's vision implant is ready and awaits approval: a company claim about sensory restoration, not yet a result.",
+   "ep": 1,
+   "on": "2026-11-02",
+   "date": "2026-10-29",
+   "story": "neuralink-blindsight-claim",
+   "title": "Elon Musk says Neuralink's Blindsight implant is ready and waiting on regulators",
+   "pillar": "intelligence",
+   "outlet": "TeslaNorth",
+   "url": "https://teslanorth.com/2026/10/29/elon-blindsight-ready-2-years-after-fda-breakthrough/"
+  }
+ ]
+}

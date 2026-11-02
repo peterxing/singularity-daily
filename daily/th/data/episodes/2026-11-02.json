@@ -1,0 +1,601 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-02",
+ "ep": 1,
+ "hook": "NEVER TOO LATE.",
+ "day": "Monday 2 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · MONDAY 2 NOVEMBER 2026",
+ "tldr": "Never too late: two treatments helped old mice live longer, retiring didn't make older Australians lonelier, and a psychedelic spray eased tough depression in a mid-stage trial.",
+ "chapters": [
+  "NEVER TOO LATE",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the week's best, mostly the 72 hours to 14:00 AEDT, Mon 2 Nov 2026; items older than about 30 hours (back to Tue 27 Oct) are marked THIS WEEK.",
+ "notes": [
+  "This week: the nasal-spray trial (JAMA, 27 Oct), Neuralink's Blindsight claim (29 Oct), 18 and Up (29 Oct) and the ultrasound AI (announced 29-30 Oct; the paper appeared on 7 Sept).",
+  "Evidence: both lifespan results are in mice, in small groups; the napping link is observational; Blindsight being 'ready' is Elon Musk's claim; Acumen's results are topline.",
+  "Screenshots are the publishers' public pages as captured on 2 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "NEVER TOO LATE. ⏳\n\nThe week's best in transhumanism:\n- Old mice lived 17% longer on an enzyme blocker\n- UK clears gene-editing therapy Casgevy from age 5\n- A psychedelic nasal spray eased tough depression for 8 weeks in a trial\n- 50 AI agents in Minecraft built a bureaucracy",
+  "alt": "A 3-minute motion-graphics showreel of the week's best in transhumanism (2 Nov 2026): an enzyme blocker and a senolytic vaccine that lengthened old mice's lives, retirement and loneliness in 7,434 Australians, an AI agent reading ultrasounds, Neuralink's Blindsight claim, a study to make brain implants last, AI agents in Minecraft, Casgevy for UK children from age five, napping and dementia, the Dog Aging Project, a psychedelic nasal spray trial, the 18 and Up study, a failed Alzheimer's trial, AI translation errors, Falcon 9's 700th flight, Google's AI satellite haiku and a robot traffic officer, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "ISCIENCE: MICE ON THE AEP BLOCKER ALSO DID BETTER ON MEMORY, STRENGTH AND EXERCISE TESTS",
+  "MONASH: ABOUT 1 IN 6 OLDER AUSTRALIANS REPORT HIGH LONELINESS, AND IT RISES FROM THE LATE 60S",
+  "ULTRASOUND AI: EXPERTS MOSTLY COULDN'T TELL RADIOLOGIST-EDITED AI REPORTS FROM HUMAN ONES",
+  "NEURALINK SAYS AN ALS PARTICIPANT HIT 75 WORDS A MINUTE IN WEEK ONE OF ITS SPEECH WORK",
+  "MUSK CLAIMS TELEPATHY'S BANDWIDTH WILL 'VASTLY EXCEED' SPEECH OR TYPING 'IN A FEW YEARS'",
+  "MIAMI: MORE THAN 200,000 DEEP BRAIN STIMULATION DEVICES HAVE BEEN IMPLANTED WORLDWIDE",
+  "MINDUSTRY TEST: THE GPT AGENTS BEAT THE CLAUDE AGENTS 6-1 OVER 7 GAMES",
+  "LIFESPAN.IO: THE VACCINE STUDY'S CONTROL MICE WERE SHORT-LIVED, SO MORE RIGOROUS TESTS ARE NEEDED",
+  "MHRA: CASGEVY WAS PREVIOUSLY APPROVED IN THE UK FOR AGES 12 AND OVER",
+  "DOG AGING PROJECT: WATER TESTS, POLLUTANT TAGS AND ACTIVITY TRACKERS FOR SOME OF ITS DOGS",
+  "NASAL SPRAY TRIAL: MOST PATIENTS WERE READY TO GO HOME WITHIN ABOUT TWO HOURS",
+  "THE NASAL SPRAY'S 8 MG DOSE NOW MOVES TO A PHASE 3 TRIAL",
+  "SAX INSTITUTE: ITS 45 AND UP STUDY HAS MORE THAN 267,000 PARTICIPANTS",
+  "ACUMEN: SWELLING ON BRAIN SCANS (ARIA-E) IN ABOUT 10% OF TREATED PATIENTS",
+  "YALE (CELL): TAURINE IN OUR BLOOD RISES WITH AGE, AND HELPS KEEP AN INFLAMMATION SWITCH IN CHECK",
+  "EARLY TRIAL: A TWO-DAY EVOLUTIONARY THERAPY EASED DEPRESSION AT ONE WEEK; BY 3 MONTHS THE GAP WASN'T SIGNIFICANT",
+  "LUCID DREAMING CAN BE TRAINED WITH VR, MEDITATION AND REALITY CHECKS, A SMALL ITALIAN STUDY SUGGESTS",
+  "GOOGLE PLANS TWO MORE SUNCATCHER SATELLITES IN 2027",
+  "STARSHIP FLIGHT 15 IS EXPECTED IN MID-NOVEMBER FROM STARBASE, TEXAS",
+  "HANGZHOU'S ROBOT OFFICER IS 178 CM TALL AND RAIN-PROOF (IP66)"
+ ],
+ "sources": [
+  "iScience",
+  "ScienceAlert",
+  "Monash University",
+  "Scientific Reports",
+  "Mirage News",
+  "Nature Communications",
+  "CU Anschutz",
+  "Elon Musk on X",
+  "TeslaNorth",
+  "University of Miami",
+  "Tom's Hardware",
+  "Mezha",
+  "Advanced Science",
+  "Lifespan.io",
+  "MHRA",
+  "Johns Hopkins",
+  "The Journals of Gerontology",
+  "Texas A&M",
+  "Longevity.Technology",
+  "JAMA",
+  "The Guardian",
+  "Sax Institute",
+  "Acumen Pharmaceuticals",
+  "RTTNews",
+  "The Conversation",
+  "Spaceflight Now",
+  "TechCrunch",
+  "Google",
+  "Global Times",
+  "Yale School of Medicine",
+  "New Atlas",
+  "Live Science"
+ ],
+ "scanned": 1622,
+ "stories": [
+  {
+   "id": "aep-blocker-mice",
+   "title": "Blocking one enzyme helped old mice live 17% longer",
+   "summary": "Chinese researchers put the AEP blocker #11a in the food of 18-month-old mice, which then lived 28 months on average against 24 untreated (17% longer) and did better on memory, strength and exercise tests. A hint that blocking AEP may ease signs of ageing, but it's a small mouse study, not tested in people.",
+   "pillar": "longevity",
+   "evidence": "Mouse study, small groups",
+   "chapter": "NEVER TOO LATE",
+   "badge": "IN MICE",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "iScience",
+     "url": "https://doi.org/10.1016/j.isci.2026.117990"
+    },
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/blocking-one-enzyme-extended-lifespan-in-aging-mice-by-17"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "monash-retirement-loneliness",
+   "title": "Retiring didn't make older Australians any lonelier",
+   "summary": "A Monash-led study of 7,434 Australians aged 55 to 75, followed for nearly two decades, found no 'loneliness cliff' at retirement: loneliness didn't change in the three years before or after. In this observational data, loneliness tends to rise from the late 60s, with age rather than leaving work.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study, 7,434 Australians",
+   "chapter": "NEVER TOO LATE",
+   "badge": null,
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "Monash University (Mirage News)",
+     "url": "https://www.miragenews.com/retirement-does-not-make-older-australians-more-1770223/"
+    },
+    {
+     "outlet": "Scientific Reports",
+     "url": "https://doi.org/10.1038/s41598-026-64288-z"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ultrasound-ai-agent",
+   "title": "An AI agent reading abdominal ultrasounds got 99.6% of diagnoses right in 100 checked reports",
+   "summary": "CU Anschutz's vision-language AI agent reads abdominal ultrasounds and drafts reports for radiologists to check, as a helper rather than a replacement; in 100 reports researchers reviewed, it got the diagnoses right 99.6% of the time. A research study across about 11,000 scans, not yet tested in real-world emergency care.",
+   "pillar": "intelligence",
+   "evidence": "Peer-reviewed study, ~11,000 scans",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "Nature Communications",
+     "url": "https://www.nature.com/articles/s41467-026-77498-w"
+    },
+    {
+     "outlet": "CU Anschutz (Mirage News)",
+     "url": "https://www.miragenews.com/ai-tool-may-help-radiologists-read-ultrasounds-1769141/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-1",
+     "key": "5f44d27e24",
+     "relation": "early",
+     "note": "An AI agent drafts ultrasound reports for radiologists to check: a research version of professionals supervising AI agents, not yet in everyday care."
+    }
+   ]
+  },
+  {
+   "id": "neuralink-blindsight-claim",
+   "title": "Elon Musk says Neuralink's Blindsight implant is ready and waiting on regulators",
+   "summary": "Elon Musk says Neuralink's Blindsight implant, aimed at blindness, is 'ready from an engineering standpoint' and 'just waiting on regulatory approval'. It's a company claim: Blindsight has had FDA Breakthrough Device designation since September 2024, but no regulator has cleared it.",
+   "pillar": "intelligence",
+   "evidence": "Company claim",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "TeslaNorth",
+     "url": "https://teslanorth.com/2026/10/29/elon-blindsight-ready-2-years-after-fda-breakthrough/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "Musk says Neuralink's vision implant is ready and awaits approval: a company claim about sensory restoration, not yet a result."
+    }
+   ]
+  },
+  {
+   "id": "miami-brain-implants-last",
+   "title": "A five-year Miami study aims to make brain implants last longer",
+   "summary": "Brain implants for BCIs, Parkinson's and paralysis trigger inflammation and scarring that wear them down over time. University of Miami researchers are starting a five-year, NIH-supported study of IC 100, an antibody that prevented some implant inflammation in earlier animal trials, to help implants last longer.",
+   "pillar": "intelligence",
+   "evidence": "Study launch; animal data so far",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "University of Miami (Mirage News)",
+     "url": "https://www.miragenews.com/extending-life-of-brain-implants-1769931/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A five-year NIH-backed study targets one of the horizon's prerequisites, implants that last without scarring; it has animal data only so far."
+    }
+   ]
+  },
+  {
+   "id": "minecraft-agents-bureaucracy",
+   "title": "50 AI agents told to build a Minecraft civilization built a bureaucracy instead",
+   "summary": "Y Combinator and Olam Labs gave 50 AI agents three hours to build a thriving Minecraft civilization; it never thrived, and four agents spent 11 minutes appointing a 'sole fertilizer operator'. A playful lesson in how AI teams coordinate, from an informal test on the researchers' blog, not a peer-reviewed study.",
+   "pillar": "intelligence",
+   "evidence": "Informal test, not peer reviewed",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy"
+    },
+    {
+     "outlet": "Mezha",
+     "url": "https://mezha.net/eng/news/mezha-4382f3018f670054e361e422_50-agent_minecraft_colony/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "senolytic-vaccine-mice",
+   "title": "A vaccine against worn-out 'zombie' cells helped old mice live 12% longer",
+   "summary": "A senolytic nanovaccine trains the immune system to clear worn-out 'zombie' cells; old mice vaccinated at 75 weeks lived 12% longer (median) and had better glucose control. A proof of concept for healthier ageing, only in mice, with 10 per group and short-lived controls, so it needs repeating.",
+   "pillar": "longevity",
+   "evidence": "Mouse study, 10 mice per group",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Lifespan.io",
+     "url": "https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/"
+    },
+    {
+     "outlet": "Advanced Science",
+     "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.78545"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "casgevy-uk-age-5",
+   "title": "UK clears gene-editing treatment Casgevy for children from age five",
+   "summary": "Britain's MHRA extended Casgevy, which edits a faulty gene in a patient's own bone marrow stem cells so the body makes working haemoglobin, to children aged five and over with severe sickle cell disease or transfusion-dependent beta-thalassaemia. It was previously approved for ages 12 and up.",
+   "pillar": "longevity",
+   "evidence": "Approved by the UK MHRA",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-29",
+   "sources": [
+    {
+     "outlet": "MHRA (GOV.UK)",
+     "url": "https://www.gov.uk/government/news/mhra-approves-gene-editing-treatment-for-children-aged-five-and-over-with-serious-inherited-blood-disorders"
+    },
+    {
+     "outlet": "Mirage News",
+     "url": "https://www.miragenews.com/gene-editing-treatment-approved-for-children-1769557/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "napping-dementia-link",
+   "title": "Older adults who napped most days had a 48% higher dementia rate",
+   "summary": "A Johns Hopkins-led study followed 995 Americans aged 65 and over for a median of five years: those who napped every day or most days had a 48% higher rate of dementia. It shows a link, not a cause; frequent napping may be an early sign of brain changes.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 995 older adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/the-links-between-napping-and-dementia-may-go-further-than-we-realized"
+    },
+    {
+     "outlet": "The Journals of Gerontology: Series A",
+     "url": "https://doi.org/10.1093/gerona/glag208"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dog-aging-project-funding",
+   "title": "The Dog Aging Project won US$29 million to learn why some dogs age better",
+   "summary": "The US NIH is giving the Dog Aging Project about US$29 million over five more years to study the genes, environments and lifestyles of its nearly 55,000 pet dogs, to learn why some age better, which could point to ways to intervene. It's funding for an observational study, not a result.",
+   "pillar": "longevity",
+   "evidence": "Funding for an observational study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/old-dogs-new-funding-dog-aging-project-fetches-29m-from-nih/"
+    },
+    {
+     "outlet": "Texas A&M",
+     "url": "https://vetmed.tamu.edu/news/press-releases/dog-aging-project-nih-funding/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psychedelic-nasal-spray",
+   "title": "One dose of a psychedelic nasal spray eased hard-to-treat depression for 8 weeks in a trial",
+   "summary": "In a phase 2b trial of 193 adults with hard-to-treat depression, including at sites in Australia, one dose of 5-MeO-DMT nasal spray with psychological support eased symptoms for at least eight weeks compared with a very low dose (JAMA). Company-funded and mid-stage; the 8 mg dose now moves to phase 3.",
+   "pillar": "wellbeing",
+   "evidence": "Phase 2b trial, 193 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-10-27",
+   "sources": [
+    {
+     "outlet": "JAMA",
+     "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2026.18380"
+    },
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/scientists-tested-a-toad-venom-psychedelic-on-treatment-resistant-depression-heres-what-happened"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "18-and-up-study",
+   "title": "18 and Up, Australia's biggest study of wellbeing and ageing, starts recruiting 100,000 people",
+   "summary": "The Sax Institute's 18 and Up will follow 100,000 Australians aged 18 to 90+ through their lives, to understand rising mental illness in young people and early-onset cancer. Recruitment starts in November with a $4.5m NHMRC grant: a study launch, not results yet.",
+   "pillar": "wellbeing",
+   "evidence": "Study launch",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/australia-news/2026/oct/30/study-of-100000-australians-seeks-causes-of-mental-health-disorders-and-early-onset-cancer"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alzheimers-antibody-fails",
+   "title": "An Alzheimer's antibody lowered plaque but didn't slow decline",
+   "summary": "Acumen's antibody sabirnetug significantly reduced amyloid plaque in a phase 2 trial of 542 people with early Alzheimer's, but didn't slow decline versus placebo at 18 months, so the company has stopped developing it. Topline results from the company; full data to come.",
+   "pillar": "longevity",
+   "evidence": "Phase 2 trial, 542 people",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "Acumen Pharmaceuticals (GlobeNewswire)",
+     "url": "https://www.manilatimes.net/2026/10/30/tmt-newswire/globenewswire/acumen-pharmaceuticals-announces-topline-results-from-phase-2-altitude-ad-clinical-trial-of-sabirnetug-acu193-for-the-treatment-of-early-alzheimers-disease-trial-did-not-meet-primary-endpoint/2458191"
+    },
+    {
+     "outlet": "RTTNews",
+     "url": "https://www.rttnews.com/3706614/acumen-halts-sabirnetug-development-after-phase-2-trial-miss.aspx"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-translation-thongs",
+   "title": "AI translation sounds fluent but isn't always right: one turned Aussie thongs into underwear",
+   "summary": "Writing in The Conversation, a translation researcher shows how fluent AI translations can hide errors: one turned a student's line about Australian professors wearing thongs (flip-flops) to class into G-strings. Fluency doesn't equal accuracy, and it can't be guaranteed.",
+   "pillar": "intelligence",
+   "evidence": "Expert commentary",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "The Conversation",
+     "url": "https://theconversation.com/ai-translation-sounds-convincing-but-it-can-be-riddled-with-hidden-errors-294686"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "falcon-9-700th-flight",
+   "title": "SpaceX flew Falcon 9 for the 700th time and landed the booster at sea",
+   "summary": "Falcon 9 flew for the 700th time, carrying 27 Starlink satellites from Vandenberg on 30 October (California time), and booster B1093 landed on a droneship on its 18th flight, a milestone for reusable rockets. SpaceX is now winding Falcon down as it turns to Starship.",
+   "pillar": "frontier",
+   "evidence": "Launch milestone",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "Spaceflight Now",
+     "url": "https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/"
+    },
+    {
+     "outlet": "TeslaNorth",
+     "url": "https://teslanorth.com/2026/10/31/falcon-9-700th-flight/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "google-suncatcher-haiku",
+   "title": "Google's AI satellite Suncatcher wrote a haiku from orbit",
+   "summary": "Google's Suncatcher prototype, a data-centre satellite with four TPUs launched on a Falcon 9, is online, and its first prompt asked the Gemma 4 model on board for a haiku: 'Blue marble below / Data streams in silent grace / Starlight feeds my core'. Next it tests AI chips under heat and radiation, with two more satellites planned for 2027.",
+   "pillar": "frontier",
+   "evidence": "Company announcement (prototype)",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-8",
+     "key": "885506950d",
+     "relation": "supports",
+     "note": "Google's Suncatcher prototype runs a named AI model, Gemma 4, on four TPUs in orbit: demonstrator scale, as the forecast expects."
+    },
+    {
+     "id": "horizon-orbital-compute-to-proto-dyson",
+     "key": "f1cd4d6370",
+     "relation": "early",
+     "note": "A data-centre satellite prototype is online, with two more planned for 2027: an opening step toward computing in orbit."
+    }
+   ]
+  },
+  {
+   "id": "hangzhou-robot-traffic-cop",
+   "title": "A humanoid robot traffic cop helped patrol the Hangzhou Marathon",
+   "summary": "Hangxing No.2, a 178 cm DEEP Robotics humanoid, joined the traffic patrol at the 2026 Hangzhou Marathon (36,000 runners), monitoring intersections and warning of violations. Humanoid traffic robots have been tested in Hangzhou since May 2026; this account is from state media.",
+   "pillar": "frontier",
+   "evidence": "State-media report",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202611/1373413.shtml"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "A humanoid robot helped patrol traffic at a 36,000-runner marathon: a public-service demonstration, far from robots doing a third of physical work."
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Monday, November 2."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in transhumanism, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "The week's best? It's never too late."
+  },
+  {
+   "s": 17.88,
+   "t": "Old mice given an enzyme blocker lived 17% longer."
+  },
+  {
+   "s": 22.03,
+   "t": "Closer to home, Monash found retiring didn't make older Australians any lonelier."
+  },
+  {
+   "s": 31.88,
+   "t": "In AI, an agent reading abdominal ultrasounds got the diagnosis right 99.6% of the time."
+  },
+  {
+   "s": 39.38,
+   "t": "Elon Musk says Neuralink's Blindsight, an implant aimed at blindness, is ready. Regulators still have to agree."
+  },
+  {
+   "s": 46.41,
+   "t": "Trouble is, implants fade as the brain scars around them."
+  },
+  {
+   "s": 50.2,
+   "t": "A five-year Miami study wants them to last."
+  },
+  {
+   "s": 53.44,
+   "t": "And 50 AI agents, told to build a Minecraft civilization, built a bureaucracy instead."
+  },
+  {
+   "s": 60.0,
+   "t": "In the longevity lab, a vaccine against worn-out 'zombie' cells helped old mice live 12% longer."
+  },
+  {
+   "s": 67.5,
+   "t": "And Britain cleared Casgevy, a gene-editing treatment for two inherited blood disorders, for kids from age 5."
+  },
+  {
+   "s": 75.0,
+   "t": "Seniors who napped most days had a 48% higher dementia rate."
+  },
+  {
+   "s": 79.29,
+   "t": "Maybe a sign, not a cause."
+  },
+  {
+   "s": 82.5,
+   "t": "Plus, the Dog Aging Project won US$29 million to learn why some dogs age better."
+  },
+  {
+   "s": 90.0,
+   "t": "In a mid-stage trial, one dose of a psychedelic nasal spray eased hard-to-treat depression for 8 weeks."
+  },
+  {
+   "s": 97.5,
+   "t": "And Australia's biggest study of wellbeing and ageing acro ss generations starts recruiting 100,000 people this month."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. An Alzheimer's drug lowered plaque but didn't slow decline, in a trial of over 500 people."
+  },
+  {
+   "s": 112.97,
+   "t": "And AI translation sounds fluent, but isn't always right."
+  },
+  {
+   "s": 116.69,
+   "t": "One turned Aussie thongs into underwear."
+  },
+  {
+   "s": 121.88,
+   "t": "Meanwhile, SpaceX flew Falcon 9 for the 700th time, and the booster landed at sea again."
+  },
+  {
+   "s": 129.38,
+   "t": "One recent passenger, Google's AI satellite, just wrote a haiku from orbit."
+  },
+  {
+   "s": 135.94,
+   "t": "In Hangzhou, a humanoid robot traffic cop helped patrol a marathon of 36,000 runners."
+  },
+  {
+   "s": 142.5,
+   "t": "Old mice, old dogs, new tricks."
+  },
+  {
+   "s": 144.46,
+   "t": "It's never too late to start something new. Even a daily show."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay well. Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-02/The-Transhuman-Daily_2026-11-02.mp4",
+  "mb": 56.3,
+  "bytes": 56278568,
+  "seconds": 180.01
+ },
+ "links": {
+  "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7522890558164586496/",
+  "facebook": "https://www.facebook.com/reel/2098812127436574"
+ }
+}
