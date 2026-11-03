@@ -175,10 +175,10 @@
     const touch = $('epTouch');
     if (t.length) {
       touch.hidden = false;
-      touch.replaceChildren(h('span', { class: 'label', text: 'Moves' }),
+      touch.replaceChildren(...[h('span', { class: 'label', text: 'Moves' }),
         ...t.slice(0, 3).map(({ p, rel }) => h('a', { class: 'chip', href: forecastHref(p), title: `${REL[rel].label}: ${p.t}` },
           relPill(rel, ''), h('span', { class: 't', text: `${when(p)}: ${p.t}` }))),
-        t.length > 3 ? h('a', { class: 'chip', href: '#/stories' }, h('span', { class: 't', text: `+${t.length - 3} more in the stories` })) : null);
+        t.length > 3 ? h('a', { class: 'chip', href: '#/stories' }, h('span', { class: 't', text: `+${t.length - 3} more in the stories` })) : null].filter(Boolean));
     } else touch.hidden = true;
     $('epWindow').textContent = ep.window || '';
     setupVideo(entry, ep);

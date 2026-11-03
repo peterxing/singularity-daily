@@ -114,7 +114,7 @@
     touch.replaceChildren(...(t.length ? [h('span', { class: 'label', text: 'Moves' }),
       ...t.slice(0, 3).map(({ p, rel }) => h('a', { class: 'chip', href: forecastHref(p), title: `${REL[rel].label}: ${p.t}` },
         relPill(rel, ''), h('span', { class: 't', text: `${when(p)}: ${p.t}` }))),
-      t.length > 3 ? h('span', { class: 'chip' }, h('span', { class: 't', text: `+${t.length - 3} more in the stories` })) : null] : []));
+      t.length > 3 ? h('span', { class: 'chip' }, h('span', { class: 't', text: `+${t.length - 3} more in the stories` })) : null].filter(Boolean) : []));
     const L = ep.links || {};
     const posts = [['x', 'X'], ['facebook', 'Facebook'], ['linkedin', 'LinkedIn']].filter(([k]) => L[k]);
     const pe = $('thPosts');
