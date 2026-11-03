@@ -1,0 +1,403 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-04",
+ "ep": 9,
+ "hook": "ROOM TO LEARN.",
+ "day": "Wednesday 4 November 2026",
+ "note": "FOR EDUCATION · WEDNESDAY 4 NOVEMBER 2026",
+ "tldr": "Room to learn: Windows gets snappier on 8 GB PCs, an Ontario board opens Copilot's Study and Learn to Grades 9-12, and Imagine Cup keeps a category for students.",
+ "chapters": [
+  "8 GB PCS",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "STUDENT FOUNDERS",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Wed 4 Nov 2026 (Tuesday 3 Nov in the US), plus one This-week item: Imagine Cup 2027 (2 Nov).",
+ "notes": [
+  "This week: Imagine Cup 2027 (Microsoft for Startups, 2 Nov; entrants 18+). Windows' 8 GB gains are Microsoft's 'up to' figures from its telemetry and lab tests; rollout varies by device.",
+  "HWDSB set 3 Nov to enable Copilot for Grades 9-12, through Study and Learn only, per its own notice. OneDrive's access requests (due Jan 2027) and Teams' blocked file types (due Dec) are roadmap features in development.",
+  "Screenshots are the publishers' public pages as captured on 4 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ROOM TO LEARN. 🎒\n\nThe last 24h for education:\n- Ontario's HWDSB: Copilot for Grades 9-12, Study and Learn only\n- Teachers rebuild their town in Minecraft with Arnis\n- Imagine Cup keeps a student category ($25K prize)\n- Windows 11: up to 20% more responsive on 8GB PCs",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (4 Nov 2026): Windows 11's gains on 8 GB PCs, HWDSB switching on Copilot's Study and Learn for Grades 9-12, Arnis turning a town into a Minecraft world for class, OneDrive access requests in the Share dialog, Teams' custom blocked file types, Azure Migrate NAS discovery, .NET Conf 2026, Imagine Cup 2027's Student Startup category, a fake-download campaign, Edge muting scam notifications, The Elder Scrolls VI: Sentinel and Game Pass's November games, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "HWDSB: STAFF GET ONGOING LEARNING AND GUIDANCE SO ANY AI USE ALIGNS WITH CURRICULUM EXPECTATIONS",
+  "IMAGINE CUP 2027: SEVEN CATEGORIES, FROM CYBERSECURITY AND DEVELOPER TOOLS TO HEALTHCARE AND RETAIL",
+  "IMAGINE CUP WORLD CHAMPION: $250,000 CASH AND $1 MILLION IN STARTUP CREDITS",
+  "IMAGINE CUP: ALL ENTRANTS MUST BE AT LEAST 18, AND EXTRA RULES APPLY TO THE STUDENT STARTUP CATEGORY",
+  "ARNIS HAS ADDED THE MOON AND MARS, AND HAS ABOUT 70 CONTRIBUTORS",
+  "TO GET THE 8GB IMPROVEMENTS: WINDOWS 11 VERSION 26H2, BUILD 26300.9818 OR LATER",
+  "WINDOWS 11 ON 8GB PCS: WIDGETS NOW LOADS ONLY WHEN YOU OPEN IT, SAVING ABOUT 200 MB",
+  "EDGE: INACTIVE TABS NOW SLEEP AFTER 15 MINUTES BY DEFAULT, DOWN FROM TWO HOURS",
+  "WORD, POWERPOINT, EXCEL AND OUTLOOK IMPROVEMENTS ADD UP TO 360 MB SAVINGS ON 8GB PCS",
+  "ONEDRIVE: REQUESTS FOR MORE ACCESS, LIKE EDIT RIGHTS, WILL SHOW ALONGSIDE NEW REQUESTS",
+  ".NET CONF 2026: MICROSOFT TEAM DAYS 10-11 NOV, COMMUNITY DAYS 12-13 NOV",
+  ".NET CONF: YOU CAN ORGANISE A LOCAL EVENT UNTIL 15 JANUARY 2027",
+  "MICROSOFT'S ADVICE ON FAKE DOWNLOADS: BLOCK UNTRUSTED SOFTWARE SOURCES AND TURN ON PUA PROTECTION",
+  "EDGE: A NEW BLOCK AND REPORT OPTION ON NOTIFICATION PERMISSION REQUESTS",
+  "ENTRA PRIVATE ACCESS AND INTERNET ACCESS CAN NOW BE BOUGHT TOGETHER AS GLOBAL SECURE ACCESS",
+  "AZURE FLUID RELAY RETIRES ON 2 FEBRUARY 2027; THE FLUID FRAMEWORK STAYS OPEN SOURCE",
+  "AZURE SQL DATABASE: RESTART OR FAIL OVER DATABASES FROM THE AZURE PORTAL, NOW GENERALLY AVAILABLE",
+  "AZURE STORAGE ACTIONS: AUTOMATIC TASK UPDATES AND EXECUTION CONTROLS, NOW GENERALLY AVAILABLE",
+  "DEFENDER FOR IOT'S OT SECURITY COMPONENT WILL BE FULLY DEPRECATED IN OCTOBER 2029",
+  "TEAMS ON MOBILE: AI RECAPS FOR CALL QUEUE CALLS, DUE DECEMBER",
+  "GAME PASS: VAMPIRE CRAWLERS AND VOID/BREAKER ON 4 NOV, MYSIMS COZY BUNDLE ON 5 NOV",
+  "XBOX WIRE CELEBRATES 40 YEARS OF BETHESDA GAME STUDIOS"
+ ],
+ "sources": [
+  "Windows Experience Blog",
+  "HWDSB",
+  "OpenTools",
+  "GitHub Blog",
+  "Microsoft 365 Roadmap",
+  "Azure Updates",
+  ".NET Blog",
+  "Microsoft for Startups Blog",
+  "GeekWire",
+  "Microsoft Security Blog",
+  "Microsoft Edge Blog",
+  "Microsoft Entra Blog",
+  "Xbox Wire",
+  "The Verge",
+  "IGN",
+  "Forbes"
+ ],
+ "scanned": 1683,
+ "stories": [
+  {
+   "id": "win11-8gb",
+   "title": "Windows 11 is now up to 20% more responsive on PCs with 8 GB of memory",
+   "summary": "Microsoft says Windows 11 on 8 GB PCs is up to 20% more responsive, multitasking is up to 40% faster in its lab test, and up to 2 GB more of your active data stays in memory, so open apps and tabs are less likely to reload. Get it with Windows 11 version 26H2, build 26300.9818 or later; rollout varies by device.",
+   "for": "Students, teachers and school IT",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "8 GB PCS",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Windows Experience Blog",
+     "url": "https://blogs.windows.com/windowsexperience/2026/11/03/raising-the-bar-for-8-gb-windows-11-pcs-whats-improved-and-how-to-get-it/"
+    }
+   ]
+  },
+  {
+   "id": "hwdsb-copilot",
+   "title": "Ontario's HWDSB set 3 November to enable Copilot for Grades 9-12, through Study and Learn only",
+   "summary": "The Hamilton-Wentworth District School Board says Microsoft Copilot will be enabled for its Grade 9 to 12 students only through Study and Learn, a student-focused experience, with ongoing learning and guidance for staff. Its principle: technology must support student learning and well-being, not drive it.",
+   "for": "School boards and secondary students",
+   "status": "Set for 3 Nov 2026",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "HWDSB",
+     "url": "https://schools.hwdsb.on.ca/news/hwdsbs-responsible-approach-ai"
+    },
+    {
+     "outlet": "OpenTools",
+     "url": "https://opentools.ai/news/hwdsb-november-3-copilot-study-learn-grades-9-12"
+    }
+   ]
+  },
+  {
+   "id": "arnis-minecraft",
+   "title": "Arnis turns any place on Earth into a Minecraft world, and teachers are using it in class",
+   "summary": "An open-source project profiled by GitHub turns OpenStreetMap data into Minecraft worlds you can explore, with close to 900,000 downloads. Its maintainer's favourite use is in schools: teachers generate their city or a park, every student improves the same area, and the class looks at the results together.",
+   "for": "Teachers and students",
+   "status": "Open source on GitHub",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "GitHub Blog",
+     "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/"
+    }
+   ]
+  },
+  {
+   "id": "onedrive-access-requests",
+   "title": "OneDrive is due to let you answer access requests right in the Share dialog",
+   "summary": "When people ask for access to a file, folder or library, anyone who can share it will see pending requests in the Share dialog and can approve or decline them one by one or in bulk, choose the access level and message the requester first. Handy, for example, when a whole class asks for the same file.",
+   "for": "Teachers and staff",
+   "status": "Due January 2027",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578856"
+    }
+   ]
+  },
+  {
+   "id": "teams-blocked-filetypes",
+   "title": "Teams admins will be able to choose which risky file types are blocked",
+   "summary": "Teams is expanding admin controls for Weaponizable File Protection: admins will be able to customise which file types are blocked in Teams to fit their security requirements, or keep Microsoft's recommended default list. It's in development on the Microsoft 365 roadmap for December.",
+   "for": "School IT",
+   "status": "Due December 2026",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571298"
+    }
+   ]
+  },
+  {
+   "id": "azure-migrate-nas",
+   "title": "Azure Migrate can now discover and assess NetApp and Dell file storage, in preview",
+   "summary": "Azure Migrate now supports discovery and assessment of on-premises network-attached storage, so IT teams can plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. Its appliance connects directly to the NAS clusters.",
+   "for": "University IT",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=577975"
+    }
+   ]
+  },
+  {
+   "id": "dotnet-conf-2026",
+   "title": ".NET Conf 2026 is free and online from 10 to 13 November, with the .NET 11 launch",
+   "summary": "A free, four-day virtual conference: Microsoft's product teams on 10-11 November, opening with the .NET 11 launch keynote at 8am PST, then community-led talks on 12-13 November. You can also organise a local .NET Conf event until 15 January 2027.",
+   "for": "Student developers",
+   "status": "Runs 10-13 November",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": ".NET Blog",
+     "url": "https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/"
+    }
+   ]
+  },
+  {
+   "id": "imagine-cup-2027",
+   "title": "Imagine Cup 2027 opens to more early-stage startups, and students keep their own category",
+   "summary": "Microsoft's Imagine Cup now spans seven categories for early-stage startups, including a dedicated Student Startup category with its own judging and a Top Student Startup prize of $25,000 cash and $250,000 in Startup credits. Entrants must be at least 18; applications are open until 28 February 2027.",
+   "for": "Student founders (18+)",
+   "status": "Applications close 28 Feb 2027",
+   "edu": true,
+   "chapter": "STUDENT FOUNDERS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Microsoft for Startups Blog",
+     "url": "https://www.microsoft.com/en-us/startups/blog/imagine-cup-2027-why-this-is-an-opportunity-for-early-stage-founders/"
+    }
+   ]
+  },
+  {
+   "id": "fake-download-campaign",
+   "title": "Microsoft warns of fake downloads that quietly turn PCs into money-makers for someone else",
+   "summary": "Microsoft Threat Intelligence found trojanized installers posing as cracked software, free games, Roblox executors and auto-clickers that silently turn PCs into proxies, distributed-computing nodes or adware hosts. Its advice: block untrusted software sources and turn on potentially unwanted app protection.",
+   "for": "Students, staff and school IT",
+   "status": "Security advisory",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/"
+    }
+   ]
+  },
+  {
+   "id": "edge-scam-notifications",
+   "title": "Edge now turns off notifications from sites caught pushing scams",
+   "summary": "Since Edge 156, when Microsoft Defender SmartScreen or Scareware blocker detects a scam pushed through a website notification, Edge switches off that site's notifications and explains why the next time it starts; you can review or undo it in Settings. A new Block and report option lets you report notification lures.",
+   "for": "Students and staff",
+   "status": "Rolled out in Edge 156",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Microsoft Edge Blog",
+     "url": "https://blogs.windows.com/msedgedev/2026/11/02/client-side-threat-detection-how-scareware-blocker-uncovered-malicious-notification-abuse/"
+    }
+   ]
+  },
+  {
+   "id": "elder-scrolls-sentinel",
+   "title": "The Elder Scrolls VI finally has a name: Sentinel",
+   "summary": "Bethesda revealed the subtitle in a new teaser as it celebrated 40 years: the follow-up to Skyrim is The Elder Scrolls VI: Sentinel. There's still no release date.",
+   "for": "Students, after hours",
+   "status": "Name revealed; no release date",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/03/the-elder-scrolls-vi-official-name-reveal/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/news/1025273/the-elder-scrolls-vi-sentinel-name-announcement"
+    }
+   ]
+  },
+  {
+   "id": "game-pass-november",
+   "title": "Game Pass adds Football Manager 27 now, Warhammer Survivors on 10 November and Thronefall on 11 November",
+   "summary": "November's first Game Pass wave: Football Manager 27 is out on PC Game Pass now, Warhammer Survivors arrives on 10 November, and Thronefall, a strategy game where you build a kingdom by day and defend it by night, follows on 11 November. Tiers vary by game; dates are US dates.",
+   "for": "Students, after hours",
+   "status": "From 3 Nov (US dates)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/03/xbox-game-pass-november-2026-wave-1/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Wednesday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours at Microsoft, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Room to learn. On 8GB PCs, Windows 11 is now up to 20% more responsive."
+  },
+  {
+   "s": 22.03,
+   "t": "Multitasking's up to 40% faster in Microsoft's lab, and open tabs reload less."
+  },
+  {
+   "s": 31.88,
+   "t": "In Ontario, the Hamilton-Wentworth board set November 3 to switch on Copilot for grades 9 to 12."
+  },
+  {
+   "s": 39.38,
+   "t": "Students get Study and Learn only. The board's rule?"
+  },
+  {
+   "s": 42.72,
+   "t": "Technology supports learning; it doesn't drive it."
+  },
+  {
+   "s": 46.41,
+   "t": "Meanwhile, teachers are generating their own city in Minecraft with Arnis, an open-source tool."
+  },
+  {
+   "s": 52.97,
+   "t": "Every student improves the same park, then the class compares. Nearly 900,000 downloads so far."
+  },
+  {
+   "s": 60.0,
+   "t": "Teachers, in January OneDrive's due to let you approve a whole class's access requests at once."
+  },
+  {
+   "s": 67.5,
+   "t": "Due in December, Teams admins can choose which risky file types to block, or keep Microsoft's list."
+  },
+  {
+   "s": 75.0,
+   "t": "For university IT, Azure Migrate can now discover and assess NetApp and Dell file storage, in preview."
+  },
+  {
+   "s": 82.5,
+   "t": "For student coders, .NET Conf is free online from November 10, launching .NET 11."
+  },
+  {
+   "s": 90.0,
+   "t": "Got a student startup? Imagine Cup is opening up to more startups, but students keep their own category."
+  },
+  {
+   "s": 97.5,
+   "t": "The top student startup wins $25,000 plus credits; applications close February 28."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Fake free games, Roblox cheat tools and cracked apps are quietly hijacking PCs for profit."
+  },
+  {
+   "s": 112.5,
+   "t": "Meanwhile, Edge now automatically switches off notifications from sites caught pushing scams."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours? The Elder Scrolls VI finally has a name: Sentinel."
+  },
+  {
+   "s": 126.62,
+   "t": "No release date yet."
+  },
+  {
+   "s": 128.44,
+   "t": "Game Pass gets Football Manager 27 on PC now, and Warhammer Survivors on November 10."
+  },
+  {
+   "s": 135.0,
+   "t": "Then Thronefall on the 11th: build a kingdom by day, defend it by night."
+  },
+  {
+   "s": 142.5,
+   "t": "Snappier 8GB laptops, an AI tutor for teens, a stage for student founders: that's room to learn."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Today's board: shipped. Tomorrow's: already building."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of updates. Imagine a whole year."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-04/Microsoft-for-Education-Daily_2026-11-04.mp4",
+  "mb": 51.6,
+  "bytes": 51554902,
+  "seconds": 180.01
+ },
+ "links": {}
+}
