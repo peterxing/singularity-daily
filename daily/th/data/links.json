@@ -1,8 +1,50 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-02T23:53:25+00:00",
- "episodes": 1,
+ "updated": "2026-11-03T04:07:39+00:00",
+ "episodes": 2,
  "links": [
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A third blind volunteer got a wireless visual-cortex implant aimed at restoring some sight: an early feasibility study with no vision results yet.",
+   "ep": 2,
+   "on": "2026-11-03",
+   "date": "2026-11-02",
+   "story": "icvp-third-implant",
+   "title": "A third blind volunteer got a wireless brain implant aimed at restoring some sight",
+   "pillar": "intelligence",
+   "outlet": "Rush University Medical Center (Medical Xpress)",
+   "url": "https://medicalxpress.com/news/2026-11-surgeons-major-artificial-vision.html"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A Neuralink user with ALS runs his robot vacuum, laptop and TV by thought at home: patient videos and a company claim, not a published study.",
+   "ep": 2,
+   "on": "2026-11-03",
+   "date": "2026-11-02",
+   "story": "neuralink-robot-vacuum",
+   "title": "A Neuralink user with ALS steers his robot vacuum around his home by thought",
+   "pillar": "intelligence",
+   "outlet": "TeslaNorth",
+   "url": "https://teslanorth.com/2026/11/02/neuralink-matic-robot/"
+  },
+  {
+   "fid": "2032-1",
+   "key": "c133f89242",
+   "relation": "early",
+   "note": "Meta reportedly built a humanoid prototype in three months for internal research: another big tech step toward general-purpose robots, not yet doing real work.",
+   "ep": 2,
+   "on": "2026-11-03",
+   "date": "2026-10-31",
+   "story": "meta-max-humanoid",
+   "title": "Meta reportedly built a humanoid robot prototype, Max, in three months",
+   "pillar": "frontier",
+   "outlet": "Gadget Review",
+   "url": "https://www.gadgetreview.com/meta-just-built-a-105-pound-humanoid-robot-that-could-one-day-do-your-household-chores"
+  },
   {
    "fid": "2032-1",
    "key": "c133f89242",

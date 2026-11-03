@@ -1,0 +1,572 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-03",
+ "ep": 2,
+ "hook": "ONE STEP AT A TIME.",
+ "day": "Tuesday 3 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · TUESDAY 3 NOVEMBER 2026",
+ "tldr": "One step at a time: a third blind volunteer got a vision implant, a Huntington's gene therapy got an FDA decision date, and robots climbed Mount Tai's 3,000 steps.",
+ "chapters": [
+  "ONE STEP AT A TIME",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 07:00 AEDT, Tue 3 Nov 2026; items marked THIS WEEK are from 31 Oct to 1 Nov.",
+ "notes": [
+  "This week: the inflammation study (1 Nov), the medical cannabis review and the glucose implant (released 31 Oct) and Meta's Max (reported 31 Oct).",
+  "Evidence: the vision implant and the Huntington's gene therapy rest on small early studies; LifeVal is OpenAI's own benchmark; the blood pressure AI is a preliminary abstract; Usona's filing is reported by Psychedelic Alpha.",
+  "Screenshots are the publishers' public pages as captured on 3 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ONE STEP AT A TIME. 👣\n\nThe day in transhumanism:\n- A 3rd blind volunteer got a vision brain implant (early study)\n- Huntington's gene therapy gets an FDA decision date: May 1\n- OpenAI says its best model handles 81% of everyday chores\n- Robots climbed Mount Tai's 3,000 steps 🤖",
+  "alt": "A 3-minute motion-graphics showreel of the day in transhumanism (3 Nov 2026): a third brain implant aimed at restoring sight, an FDA decision date for a Huntington's gene therapy, OpenAI's everyday-tasks benchmark, a Neuralink user steering a robot vacuum, AI warning of blood pressure crises, Meta's reported humanoid, cell-recycling and blood-vessel ageing research, weight and memory, schooling and dementia, a reported psilocybin FDA filing, inflammation and sociability, a failed psilocybin replication in mice, a medical cannabis sleep review, the UK's first bionic upper arm, a glucose-burning implant in mice and robots climbing Mount Tai, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "VISION IMPLANT: 34 WIRELESS STIMULATORS AND 544 ELECTRODES, PLACED AT RUSH IN CHICAGO",
+  "THE ICVP STUDY IS LOOKING FOR VOLUNTEERS WHO LOST THEIR SIGHT AS ADULTS",
+  "UNIQURE: 51 PATIENTS DOSED IN PHASE 1/2; A 200-PATIENT CONFIRMATORY TRIAL STARTS SCREENING BY YEAR END",
+  "HUNTINGTON'S AFFECTS ABOUT 75,000 PEOPLE IN THE US, EU AND UK",
+  "LIFEVAL TASKS CAME FROM TIME-USE STUDIES AND A NEW SURVEY OF 3,995 PEOPLE",
+  "LIFEVAL: GPT-5.2 SCORED 49.3%; GPT-6 ASTRA 80.6%",
+  "NEURALINK PATIENT #22 ALSO RUNS HIS LAPTOP, PHONE, TV AND XBOX CONTROLLER BY THOUGHT",
+  "BLOOD PRESSURE AI: 97.4% OF PATIENTS WITH NO ALERT STAYED CRISIS-FREE",
+  "NO NIGHT-TIME DIP IN BLOOD PRESSURE MEANT NEARLY 5X THE ODDS OF A CRISIS",
+  "META'S MAX IS ABOUT 1.5 M TALL AND 48 KG; MAX 2 IS REPORTEDLY IN DEVELOPMENT",
+  "SLINGSHOT-1 IS AN ENZYME TYPE THAT DRUGS CAN BE DESIGNED TO BLOCK",
+  "THE WEIGHT LINK WAS STRONGEST IN ADULTS OVER 65",
+  "THE UK'S 1972 SCHOOL REFORM ALSO SOFTENED GENETIC DEMENTIA RISK, PNAS STUDY FINDS",
+  "COMPASS PATHWAYS EXPECTS TO COMPLETE ITS PSILOCYBIN FDA SUBMISSION IN Q4 2026",
+  "OXFORD HEALTH: THE LAST PARTICIPANT HAS FINISHED COMPASS'S PHASE 3 COMP006 PSILOCYBIN STUDY THERE",
+  "INFLAMMATION STUDY: THE DIP IN PLEASURE WORE OFF WITHIN FOUR HOURS",
+  "PSILOCYBIN IN MICE: TWO OF FIVE LABS SAW AN EFFECT ON ONE DEPRESSION TEST; POOLED, IT DISAPPEARED",
+  "COCHRANE: THE LONGEST MEDICAL CANNABIS INSOMNIA TRIAL LASTED 12 WEEKS",
+  "OPEN BIONICS' NEW ARM LETS THE SKIN BREATHE AND SWEAT DRAIN",
+  "ETH ZURICH'S IMPLANT IS POWERED WIRELESSLY AND SWITCHED ON BY A GLUCOSE SENSOR",
+  "MOUNT TAI: ABOUT 90 TEAMS; MOST TOURISTS NEED AT LEAST TWO HOURS FOR THE CLIMB",
+  "FASTEST HUMANOID ON MOUNT TAI: 27 MIN 26 SEC ON A SHORTER COURSE"
+ ],
+ "sources": [
+  "Medical Xpress",
+  "Rush University Medical Center",
+  "uniQure",
+  "GlobeNewswire",
+  "BioSpace",
+  "OpenAI",
+  "TeslaNorth",
+  "Matic Robots",
+  "American Heart Association",
+  "Mirage News",
+  "Gadget Review",
+  "The Information",
+  "Baylor College of Medicine",
+  "Autophagy",
+  "Fight Aging!",
+  "Aging Cell",
+  "ScienceDaily",
+  "University of Georgia",
+  "Journal of Neurology",
+  "PNAS",
+  "Psychedelic Alpha",
+  "Stocktwits",
+  "PsyPost",
+  "Psychoneuroendocrinology",
+  "Neuroscience News",
+  "Nature Neuroscience",
+  "Cochrane",
+  "BBC",
+  "Bristol Post",
+  "ETH Zurich",
+  "Science",
+  "AFP",
+  "Tech Xplore",
+  "Global Times"
+ ],
+ "scanned": 1319,
+ "stories": [
+  {
+   "id": "icvp-third-implant",
+   "title": "A third blind volunteer got a wireless brain implant aimed at restoring some sight",
+   "summary": "Surgeons at Rush University Medical Center placed the Intracortical Visual Prosthesis (ICVP), a wireless implant that bypasses the eyes and stimulates the brain's visual cortex, in a third person who is blind: 34 stimulators, 544 electrodes. It aims to restore some sight; this early study has no results on vision yet.",
+   "pillar": "intelligence",
+   "evidence": "Early feasibility study, 3rd participant",
+   "chapter": "ONE STEP AT A TIME",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Rush University Medical Center (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-surgeons-major-artificial-vision.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A third blind volunteer got a wireless visual-cortex implant aimed at restoring some sight: an early feasibility study with no vision results yet."
+    }
+   ]
+  },
+  {
+   "id": "uniqure-huntingtons-fda-date",
+   "title": "The FDA set a 1 May 2027 decision date for uniQure's Huntington's gene therapy",
+   "summary": "The FDA accepted uniQure's application for AMT-130, a one-time gene therapy infused into the brain to silence the huntingtin gene, with Priority Review and a decision date of 1 May 2027. It's not approved yet: the evidence so far comes from small phase 1/2 studies, with 51 patients dosed, compared with an external control.",
+   "pillar": "longevity",
+   "evidence": "Phase 1/2 trials, 51 patients; FDA review",
+   "chapter": "ONE STEP AT A TIME",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "uniQure (GlobeNewswire via Markets Insider)",
+     "url": "https://markets.businessinsider.com/news/stocks/uniqure-announces-fda-acceptance-and-priority-review-of-the-biologics-license-application-for-ifezuntirgene-inilparvovec-for-the-treatment-of-huntington-s-disease-1036700040"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-lifeval",
+   "title": "OpenAI's LifeVal benchmark grades AI on everyday tasks; GPT-6 Astra averages 80.6%",
+   "summary": "LifeVal tests AI on everyday-life tasks drawn from time-use surveys, like finding childcare, budgeting and ordering groceries. GPT-6 Astra averaged 80.6%, up from 49.3% for GPT-5.2. It's OpenAI's way of tracking how useful AI is in daily life, and its own benchmark of its own models, not independently checked.",
+   "pillar": "intelligence",
+   "evidence": "Company benchmark, not independently checked",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/lifeval/"
+    },
+    {
+     "outlet": "Blockchain News",
+     "url": "https://blockchain.news/news/openai-unveils-lifeval-benchmark-for-everyday-ai-tasks"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "neuralink-robot-vacuum",
+   "title": "A Neuralink user with ALS steers his robot vacuum around his home by thought",
+   "summary": "Matic Robots says Neuralink patient #22, Zach McManus, who lives with ALS, moves its robot vacuum around his home with his thoughts; he also runs his laptop, phone, TV and Xbox controller with the implant. A company claim backed by patient videos, not a published study; Neuralink's device is in clinical trials.",
+   "pillar": "intelligence",
+   "evidence": "Company claim and patient videos",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "TeslaNorth",
+     "url": "https://teslanorth.com/2026/11/02/neuralink-matic-robot/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A Neuralink user with ALS runs his robot vacuum, laptop and TV by thought at home: patient videos and a company claim, not a published study."
+    }
+   ]
+  },
+  {
+   "id": "bp-ai-crisis-warning",
+   "title": "AI reading a wrist tracker and a blood pressure cuff flagged dangerous spikes up to 3 days early",
+   "summary": "In more than 4,000 adults with stage 2 high blood pressure followed for 12 months, AI analysing a portable cuff and a wrist-worn tracker flagged higher risk of a dangerous crisis up to 72 hours ahead; 97.4% of those with no alert stayed crisis-free. Preliminary research for an American Heart Association meeting, not yet peer reviewed.",
+   "pillar": "intelligence",
+   "evidence": "Preliminary conference abstract, 4,000+ adults",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "American Heart Association (Mirage News)",
+     "url": "https://www.miragenews.com/wearables-and-ai-may-predict-blood-pressure-1770411/"
+    },
+    {
+     "outlet": "Inside Precision Medicine",
+     "url": "https://www.insideprecisionmedicine.com/topics/patient-care/wearables-and-ai-predict-hypertensive-crisis-up-to-three-days-in-advance/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meta-max-humanoid",
+   "title": "Meta reportedly built a humanoid robot prototype, Max, in three months",
+   "summary": "Meta built Max, a humanoid robot about 1.5 m tall and 48 kg running on NVIDIA's Jetson Thor, with China's Fourier in three months, The Information reported. Meta says it's for internal research with no plans to sell the prototypes; a second, Max 2, reportedly entered development in September.",
+   "pillar": "frontier",
+   "evidence": "Media report (The Information)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "REPORTED",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "Gadget Review",
+     "url": "https://www.gadgetreview.com/meta-just-built-a-105-pound-humanoid-robot-that-could-one-day-do-your-household-chores"
+    },
+    {
+     "outlet": "The Information (via Yahoo Finance)",
+     "url": "https://au.finance.yahoo.com/news/meta-builds-humanoid-robot-china-180011210.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Meta reportedly built a humanoid prototype in three months for internal research: another big tech step toward general-purpose robots, not yet doing real work."
+    }
+   ]
+  },
+  {
+   "id": "slingshot1-autophagy-tau",
+   "title": "Less of one protein revved up cell recycling and cut Alzheimer's tau in fruit flies",
+   "summary": "Baylor researchers found that lowering the enzyme Slingshot-1 boosted autophagy, the cell's recycling system, and cut the tau clumps linked to Alzheimer's in fruit-fly models and human cells (journal Autophagy). Drugs can be designed to block enzymes like it, but this is lab work, not tested in people.",
+   "pillar": "longevity",
+   "evidence": "Fruit-fly and human-cell study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Baylor College of Medicine (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-cell-natural-recycling-center-alzheimer.html"
+    },
+    {
+     "outlet": "Autophagy",
+     "url": "https://www.tandfonline.com/doi/full/10.1080/15548627.2026.2752745"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mtr4-vascular-youth-factor",
+   "title": "A protein called MTR4 keeps blood vessel linings young, and boosting it let worms live longer",
+   "summary": "MTR4 appears to slow the ageing (senescence) of the cells lining blood vessels, an early feature of atherosclerosis, but it declines with age; boosting it extended the lives of short-lived nematode worms (Aging Cell). A possible lead for keeping blood vessels young, shown in cells and worms only, not in mice or people.",
+   "pillar": "longevity",
+   "evidence": "Cell and worm study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Fight Aging!",
+     "url": "https://www.fightaging.org/archives/2026/11/mtr4-reduces-vascular-cellular-senescence-in-mammals-extends-life-in-nematode-worms/"
+    },
+    {
+     "outlet": "Aging Cell",
+     "url": "https://doi.org/10.1111/acel.70774"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bmi-memory-decline",
+   "title": "A 24-year study of 8,200 adults linked higher BMI to faster memory decline",
+   "summary": "A University of Georgia study followed more than 8,200 adults over 50 for 24 years: each one-point rise in BMI went with faster decline in memory, overall thinking and executive function, most strongly in adults over 65 (Journal of Neurology). Observational: a link, not proof that extra weight causes decline.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 8,200+ adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "University of Georgia (ScienceDaily)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261101010559.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "school-leaving-age-dementia",
+   "title": "When Britain kept kids in school a year longer, dementia rates later fell slightly",
+   "summary": "In 1972 England, Scotland and Wales raised the school-leaving age from 15 to 16. A PNAS study using that change found the extra year cut the later incidence of Alzheimer's and related dementias in that generation by approximately 0.88% and softened genetic risk: a small effect, suggesting social policy can shift dementia risk.",
+   "pillar": "longevity",
+   "evidence": "Natural experiment, UK health records",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Fight Aging!",
+     "url": "https://www.fightaging.org/archives/2026/11/an-additional-year-of-early-life-education-correlates-with-a-small-reduction-in-late-life-dementia-risk/"
+    },
+    {
+     "outlet": "PNAS",
+     "url": "https://doi.org/10.1073/pnas.2529506123"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "usona-psilocybin-filing",
+   "title": "The nonprofit Usona has reportedly filed psilocybin for depression with the FDA",
+   "summary": "According to Psychedelic Alpha, the nonprofit Usona Institute has finished submitting its FDA application for psilocybin in major depressive disorder, making it the second psychedelic under FDA review; Compass Pathways expects to complete its own submission in Q4 2026. A reported filing, not an approval.",
+   "pillar": "wellbeing",
+   "evidence": "Reported FDA filing (single source)",
+   "chapter": "SUPER WELLBEING",
+   "badge": "REPORTED",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Psychedelic Alpha (via Stocktwits)",
+     "url": "https://stocktwits.com/news-articles/markets/equity/cmps-help-stocks-on-track-for-worst-day-in-months-on-competitive-fda-psychedelic-race-fears/cNGaI8nR9Pr"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "inflammation-social-desire",
+   "title": "Inflammation dampened pleasure and the urge to socialise in a small placebo-controlled study",
+   "summary": "In a UCLA placebo-controlled study of 40 healthy women, a low dose of endotoxin that triggers inflammation dampened pleasure and the desire to chat with another person two hours later; the dip in pleasure was back to baseline by four hours, even with inflammation still raised. A small experiment in healthy women.",
+   "pillar": "wellbeing",
+   "evidence": "Randomised placebo-controlled trial, 40 women",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-01",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/inflammation-briefly-dampens-pleasure-and-the-desire-to-socialize-placebo-controlled-study-finds/"
+    },
+    {
+     "outlet": "Psychoneuroendocrinology",
+     "url": "https://doi.org/10.1016/j.psyneuen.2026.107987"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psilocybin-mice-replication",
+   "title": "Five labs ran identical psilocybin tests in mice, and the lasting effects didn't replicate",
+   "summary": "Five labs at UC Berkeley, UCSF and Stanford gave mice the same psilocybin dose under identical protocols (Nature Neuroscience). The immediate effects replicated in all five, but pooled, there were no reproducible changes in anxiety- or depression-like behaviour a day later. A mouse study; the authors say it isn't evidence against human trials.",
+   "pillar": "wellbeing",
+   "evidence": "Mouse study, five labs",
+   "chapter": "THE CATCH",
+   "badge": "IN MICE",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Nature Neuroscience",
+     "url": "https://www.nature.com/articles/s41593-026-02500-z"
+    },
+    {
+     "outlet": "Neuroscience News",
+     "url": "https://neurosciencenews.com/psilocybin-behavioral-effects-psychopharmacology-32371/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cannabis-insomnia-review",
+   "title": "A review of nine trials found little evidence that medical cannabis helps insomnia",
+   "summary": "A Cochrane review of nine studies with 537 adults found medical cannabis gave little or no clinically meaningful improvement in sleep compared with placebo, and mild side effects such as dizziness and dry mouth were more likely. The evidence is low or very low certainty and the longest study lasted 12 weeks, so the question isn't settled.",
+   "pillar": "wellbeing",
+   "evidence": "Systematic review, 9 studies, 537 adults",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "Cochrane review (ScienceDaily)",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221157.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uk-first-bionic-upper-arm",
+   "title": "A former paratrooper became the first person in the UK with a bionic upper arm",
+   "summary": "Milos Stankovic, 63, a former paratrooper from Plymouth who lost his left arm in a motorbike crash in 2025, was fitted with a lightweight bionic upper arm from Bristol's Open Bionics, a UK first. It lets the skin breathe and sweat drain, which he says cuts infection risk and discomfort.",
+   "pillar": "frontier",
+   "evidence": "First fitting, one person",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Bristol Post (Yahoo News UK)",
+     "url": "https://uk.news.yahoo.com/army-veteran-crash-survivor-receives-123440787.html"
+    },
+    {
+     "outlet": "BBC (via MSN)",
+     "url": "https://www.msn.com/en-us/health/disability/ex-paratrooper-gets-uk-s-first-bionic-upper-arm/ar-AA2gz91J"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "eth-glucose-implant-mice",
+   "title": "A wireless implant turned surplus blood sugar into waste the body flushes out, in mice",
+   "summary": "ETH Zurich's wireless implant uses a gold-platinum catalyst, switched on by a glucose sensor, to turn excess blood sugar into gluconate, which leaves the body in urine (Science). In diabetic mice it kept blood sugar in check and the mice lost weight, working for six weeks with no sign of tissue damage. Not yet tested in people.",
+   "pillar": "frontier",
+   "evidence": "Mouse study",
+   "chapter": "THE FRONTIER",
+   "badge": "IN MICE",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "ETH Zurich (ScienceDaily)",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261031221151.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mount-tai-robot-climb",
+   "title": "Robots raced up more than 3,000 steps on China's Mount Tai, some carrying eggs",
+   "summary": "About 90 teams sent robots up a 3.9 km course with more than 3,000 steps on China's Mount Tai, racing for speed or carrying fragile goods like eggs and watermelons. The fastest robot dog took 43 minutes 41 seconds, against at least two hours for most tourists. A state-media-run contest, as reported by AFP.",
+   "pillar": "frontier",
+   "evidence": "News report (AFP)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "AFP (Tech Xplore)",
+     "url": "https://techxplore.com/news/2026-11-laden-eggs-robots-sacred-chinese.html"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Tuesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in transhumanism."
+  },
+  {
+   "s": 15.0,
+   "t": "One step at a time."
+  },
+  {
+   "s": 16.23,
+   "t": "A third blind volunteer got a brain implant aimed at restoring some sight."
+  },
+  {
+   "s": 22.03,
+   "t": "And a gene therapy for Huntington's disease now has an FDA decision date: May 1."
+  },
+  {
+   "s": 31.88,
+   "t": "In AI, OpenAI's new test grades everyday chores like budgets."
+  },
+  {
+   "s": 37.01,
+   "t": "Its best model scores 81%."
+  },
+  {
+   "s": 39.38,
+   "t": "Meanwhile, a Neuralink user with ALS now steers his robot vacuum around the house just by thinking."
+  },
+  {
+   "s": 46.41,
+   "t": "In early results, AI reading a wrist tracker and a pressure cuff flagged dangerous spikes up to 3 days early."
+  },
+  {
+   "s": 53.44,
+   "t": "And Meta reportedly built a home humanoid called Max in three months."
+  },
+  {
+   "s": 57.99,
+   "t": "It's not for sale."
+  },
+  {
+   "s": 60.0,
+   "t": "In the longevity lab, dialling down one protein revved up cell recycling and cut Alzheimer's tau in flies."
+  },
+  {
+   "s": 67.5,
+   "t": "Another protein, MTR4, keeps blood vessel linings young."
+  },
+  {
+   "s": 71.61,
+   "t": "Boosting it let worms live longer."
+  },
+  {
+   "s": 75.0,
+   "t": "In people, a study following 8,000 adults for 24 years linked extra weight to faster memory decline."
+  },
+  {
+   "s": 82.5,
+   "t": "And when Britain made kids stay in school a year longer, dementia rates later fell slightly."
+  },
+  {
+   "s": 90.0,
+   "t": "For wellbeing, the nonprofit Usona has reportedly filed psilocybin therapy for depression with the FDA."
+  },
+  {
+   "s": 97.5,
+   "t": "And in a small study of 40 women, a brief bout of inflammation dampened their urge to socialise."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. Five labs ran identical psilocybin tests in mice, and the lasting effects didn't replicate."
+  },
+  {
+   "s": 112.5,
+   "t": "And a review of nine trials found little evidence that medical cannabis helps people with insomnia."
+  },
+  {
+   "s": 121.88,
+   "t": "Meanwhile, a former paratrooper just became the first person in Britain with a bionic upper arm."
+  },
+  {
+   "s": 128.44,
+   "t": "A Swiss implant turns surplus blood sugar into waste the body flushes out."
+  },
+  {
+   "s": 133.64,
+   "t": "So far, in mice."
+  },
+  {
+   "s": 135.47,
+   "t": "And robots climbed 3,000 steps up China's Mount Tai, some carrying eggs."
+  },
+  {
+   "s": 142.5,
+   "t": "Implants, gene therapies, a bionic arm, 3,000 steps. The future arrives one step at a time."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build the future. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-03/The-Transhuman-Daily_2026-11-03.mp4",
+  "mb": 55.9,
+  "bytes": 55919971,
+  "seconds": 180.01
+ },
+ "links": {
+  "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523205385806319616?actorCompanyId=6383480"
+ }
+}
