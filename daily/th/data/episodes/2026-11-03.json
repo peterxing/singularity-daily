@@ -567,6 +567,8 @@
   "seconds": 180.01
  },
  "links": {
-  "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523205385806319616?actorCompanyId=6383480"
+  "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523205385806319616?actorCompanyId=6383480",
+  "facebook": "https://www.facebook.com/peterxingularity",
+  "x": "https://x.com/peterxing/status/2117470555750482083"
  }
 }
