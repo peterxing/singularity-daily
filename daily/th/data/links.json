@@ -1,6 +1,6 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-03T04:07:39+00:00",
+ "updated": "2026-11-03T04:07:49+00:00",
  "episodes": 2,
  "links": [
   {
@@ -44,20 +44,6 @@
    "pillar": "frontier",
    "outlet": "Gadget Review",
    "url": "https://www.gadgetreview.com/meta-just-built-a-105-pound-humanoid-robot-that-could-one-day-do-your-household-chores"
-  },
-  {
-   "fid": "2032-1",
-   "key": "c133f89242",
-   "relation": "early",
-   "note": "A humanoid robot helped patrol traffic at a 36,000-runner marathon: a public-service demonstration, far from robots doing a third of physical work.",
-   "ep": 1,
-   "on": "2026-11-02",
-   "date": "2026-11-01",
-   "story": "hangzhou-robot-traffic-cop",
-   "title": "A humanoid robot traffic cop helped patrol the Hangzhou Marathon",
-   "pillar": "frontier",
-   "outlet": "Global Times",
-   "url": "https://www.globaltimes.cn/page/202611/1373413.shtml"
   },
   {
    "fid": "horizon-implantable-neural-symbiosis",
