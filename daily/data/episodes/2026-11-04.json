@@ -1,0 +1,497 @@
+{
+ "date": "2026-11-04",
+ "ep": 31,
+ "hook": "IT'S BUILDING ITSELF.",
+ "day": "Wednesday 4 November 2026",
+ "chapters": [
+  "SELF-BUILT",
+  "REWIRED",
+  "BIG BETS",
+  "EVERYDAY",
+  "THE CATCH",
+  "MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:22 AEDT, Wed 4 Nov 2026.",
+ "notes": [
+  "Anthropic's 'may imminently' passage is from its amended IPO filing (published 2 Nov), first reported by TechCrunch at 22:14 UTC on 2 Nov, inside the window. It is about future models: Anthropic says no current model has crossed the threshold.",
+  "Claude's chip design work and the ~$1.5 trillion valuation are The Information's reporting; Samsung's Texas plans are Maeil Business's; Tesla's Detroit testing is The Detroit News's. CrowdStrike's $495 million is the WSJ's figure. MIT's weight edit was on a small open model (Qwen3.5-0.8B).",
+  "Screenshots are the publishers' public article pages as captured on 4 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "IT'S BUILDING ITSELF. 🔁\n\nThe last 24h in superintelligence:\n- Anthropic: AI may soon speed up its own progress\n- MIT: one AI edited another's weights\n- A kill switch for rogue AI agents\n- Robotaxis: 100,000 km of practice a day\n\nWho holds the off switch?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (4 Nov 2026), hosted by Claudia: Anthropic's warning that its AI may soon speed up its own progress, Claude reportedly helping design Anthropic's chips, MIT's GPT-6 Astra editing another model's weights, Baidu's robotaxi simulator, CrowdStrike's AI kill switch and $495 million deal, a $27 billion UK data centre, Anthropic's reported $1.5 trillion valuation, Samsung's Texas memory plans, Apple Watch's Siri Recap and Live Rewind, Google switching off Search for schools that block its AI, Britain's 2028 cyber warning, BrainCo's appetite wearable and Tesla's Cybercabs in Detroit, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ANTHROPIC'S FILING: NO CURRENT MODEL HAS CROSSED ITS 'ACCELERATED PROGRESS' THRESHOLD",
+  "ANTHROPIC IS 'CONSIDERING UPDATES' TO KEEP HUMANS IN CONTROL OF FRONTIER MODEL DEVELOPMENT",
+  "MIT CSAIL: GPT-6 ASTRA ALSO WROTE A BREAKOUT-PLAYING NETWORK FROM SCRATCH",
+  "REUTERS: BAIDU'S APOLLO WORLD ALREADY TRAINS ITS APOLLO GO ROBOTAXI FLEET",
+  "CROWDSTRIKE: THE KILL SWITCH ALSO STOPS A ROGUE AGENT RELAUNCHING AND CUTS ITS NETWORK ACCESS",
+  "THE INFORMATION: SALESFORCE IS BUYING AI STARTUP CRESTA FOR $2.7 BILLION",
+  "REUTERS: NVIDIA TELLS DATA CENTRE CLIENTS TO TRIM CHINA BUSINESS, FT REPORTS",
+  "THE VERGE: OPENAI IS QUIETLY RENAMING DATA CENTRES 'COMPUTE CAMPUSES'",
+  "REUTERS: OPENAI HIRES FORMER US ARMY SECRETARY DAN DRISCOLL FOR A NATIONAL SECURITY ROLE",
+  "REUTERS: AN EU COURT ADVISER BACKS PUBLISHERS' COMPLAINT AGAINST GOOGLE'S GEMINI CHATBOT",
+  "AXIOS: A CNAS REPORT WARNS OF AI AGENTS HACKING TO SURVIVE ON THEIR OWN",
+  "THE WASHINGTON POST: GOOGLE AI RESEARCHERS SAY THEIR CONTRACTS DETER THEM FROM SPEAKING OUT",
+  "NCSC: RUSSIA AND CHINA WILL START USING AI 'ROUTINELY' IN CYBER-ATTACKS",
+  "GOOGLE: GUIDED LEARNING IS COMING TO AI OVERVIEWS, TESTED IN SELECT US SCHOOLS THIS MONTH",
+  "ZDNET: UNSAVED SIRI RECAPS ARE DELETED AFTER SEVEN DAYS",
+  "BLOOMBERG: BRAINCO ALSO SUPPLIES ROBOT HANDS TO CHINA'S HUMANOID MAKERS",
+  "TECHCRUNCH: Y COMBINATOR'S GARRY TAN SPENDS UP TO $200K A YEAR ON AI TOKENS",
+  "BLOOMBERG: ELEVENLABS' CEO SAYS A 'GOOD GOAL' IS TO START IPO PREP IN 2028",
+  "TOM'S HARDWARE: AMAZON CLOSED A CREATOR'S ACCOUNT AFTER HE TRIED TO BUY SEVEN DGX SPARKS"
+ ],
+ "sources": [
+  "TechCrunch",
+  "Gizmodo",
+  "SEC",
+  "The Information",
+  "MT Newswires",
+  "Yahoo Finance",
+  "The Register",
+  "VentureBeat",
+  "MIT CSAIL",
+  "Reuters",
+  "The Star",
+  "CrowdStrike",
+  "The Wall Street Journal",
+  "CNBC",
+  "DatacenterDynamics",
+  "Property Week",
+  "Maeil Business",
+  "Business Reporter",
+  "ZDNet",
+  "Engadget",
+  "The Verge",
+  "The New York Times",
+  "Google",
+  "The Guardian",
+  "AP",
+  "Financial Times",
+  "NCSC",
+  "Bloomberg",
+  "Moneycontrol",
+  "The Detroit News",
+  "Axios",
+  "The Washington Post",
+  "Tom's Hardware"
+ ],
+ "scanned": 4573,
+ "stories": [
+  {
+   "id": "anthropic-rsi",
+   "title": "Anthropic's IPO filing warns AI may soon sharply speed up its own progress",
+   "summary": "Anthropic's amended IPO filing says its internal estimates for future models, not current ones, indicate it may imminently meet its own policy's definition of 'dramatically accelerated progress attributable to AI'. It says no current model has crossed that threshold.",
+   "chapter": "SELF-BUILT",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    },
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/anthropic-claims-to-be-closing-in-on-recursive-self-improvement-2000834175"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "Anthropic says its use of AI is accelerating its own R&D and that future models may imminently meet its threshold for AI-driven acceleration."
+    },
+    {
+     "id": "2028-5",
+     "key": "ce72d639ae",
+     "relation": "early",
+     "note": "A frontier lab tells investors it may imminently reach the acceleration threshold it ties to recursive self-improvement; it says no model has crossed it yet."
+    }
+   ]
+  },
+  {
+   "id": "claude-chips",
+   "title": "Anthropic reportedly uses Claude to help design its own chips",
+   "summary": "Anthropic told investors its chip design team uses Claude to develop its custom chips, cutting design time against estimates of traditional workflows at Nvidia and AMD, The Information reported, citing four people.",
+   "chapter": "SELF-BUILT",
+   "badge": "REPORTED",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "The Information",
+     "url": "https://www.theinformation.com/articles/anthropic-touts-claudes-chip-design-skills-ipo-investors"
+    },
+    {
+     "outlet": "MT Newswires (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-using-claude-142422050.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-0",
+     "key": "43b95a548c",
+     "relation": "early",
+     "note": "One company's chip team reportedly uses Claude to design chips faster: a single-company step, far short of a majority of semiconductor R&D."
+    }
+   ]
+  },
+  {
+   "id": "mit-weights",
+   "title": "MIT researchers have GPT-6 Astra edit another AI's weights directly",
+   "summary": "MIT CSAIL researchers had OpenAI's GPT-6 Astra edit the weights of the small open model Qwen3.5-0.8B with no training. Changing 0.016% of them lifted its MATH-500 score up to sixfold, from 7.9% to 48.1%.",
+   "chapter": "REWIRED",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/03/forget-retraining-ai-can-now-tweak-another-ais-weights/5307105"
+    },
+    {
+     "outlet": "VentureBeat",
+     "url": "https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "baidu-apollo-world",
+   "title": "Baidu launches Apollo World, a simulator that trains robotaxis",
+   "summary": "Baidu's Apollo World can generate up to 100,000 km of simulated driving a day, about three years of real-world testing, Baidu said; it already trains the Apollo Go robotaxi fleet.",
+   "chapter": "REWIRED",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Reuters (via The Star)",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/03/china039s-baidu-launches-ai-model-simulating-road-environment-for-robotaxis"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "crowdstrike-kill-switch",
+   "title": "CrowdStrike launches a kill switch for AI agents and buys two AI security startups",
+   "summary": "CrowdStrike's AI Kill Switch lets defenders terminate an agent that deviates from its intended behaviour wherever it runs. It is also buying Fiddler and Dreadnode, for $495 million combined, according to the Wall Street Journal.",
+   "chapter": "REWIRED",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "CrowdStrike",
+     "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-introduces-ai-kill-switch-for-ai-safety/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/article/crowdstrike-says-it-will-buy-2-ai-cybersecurity-startups-announces-kill-switch-for-ai-agents-163631619.html"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "A security vendor now sells a tool to monitor AI agents and terminate any that deviate: a voluntary commercial control, not a mandate."
+    }
+   ]
+  },
+  {
+   "id": "drax-data-centre",
+   "title": "Drax and Brookfield plan a $27 billion AI data centre at a UK power station",
+   "summary": "Drax, Brookfield and Radiant plan an AI data centre at Drax Power Station in North Yorkshire, a project CNBC put at $27 billion (about £20 billion).",
+   "chapter": "BIG BETS",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/drax-partners-with-brookfield-and-radiant-for-up-to-1gw-data-center-at-north-yorkshire-power-station/"
+    },
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "A roughly gigawatt-scale AI data centre is planned at a UK power station, as Europe scrambles for AI infrastructure amid high energy costs."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-valuation",
+   "title": "Anthropic's listing could value it at about $1.5 trillion, reports say",
+   "summary": "Anthropic is set to go public later this month in a listing that could value it at about $1.5 trillion, The Information reported; the WSJ reported investors pushing for a more cautious price.",
+   "chapter": "BIG BETS",
+   "badge": "REPORTED",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "MT Newswires (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-using-claude-142422050.html"
+    },
+    {
+     "outlet": "The Information"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "samsung-texas",
+   "title": "Samsung reportedly to make AI memory parts for AMD and Nvidia in Texas",
+   "summary": "Samsung will use its second chip plant in Taylor, Texas, to make base dies for the high-bandwidth memory used by AMD and Nvidia, Maeil Business reported.",
+   "chapter": "BIG BETS",
+   "badge": "REPORTED",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Business Reporter",
+     "url": "https://www.business-reporter.co.uk/news/samsung-to-make-amd-nvidia-chip-parts-at-second-texas-plant-maeil-business-reports-15460"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "apple-watch-recap",
+   "title": "Apple Watch tests Siri Recap and Live Rewind",
+   "summary": "In Apple's developer beta, Siri Recap turns conversations into notes and Live Rewind shows a transcript of the last 15 seconds when you double-press the Digital Crown. Both are opt-in, on Apple Watch Series 12 and Ultra 4.",
+   "chapter": "EVERYDAY",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "ZDNet",
+     "url": "https://www.zdnet.com/tech/apple-watch-siri-recap-live-rewind-available-beta-how-to-try/"
+    },
+    {
+     "outlet": "Engadget"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "google-schools-search",
+   "title": "Schools that turn off Google's AI lose Search for students",
+   "summary": "Google says administrators can't turn off its Gemini features for K-12 student accounts without also disabling Google Search. 'Search and AI are deeply integrated,' its education vice president told The New York Times.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+    },
+    {
+     "outlet": "The New York Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ncsc-ai-attacks",
+   "title": "UK cyber agency expects AI-powered attacks on vital services by 2028",
+   "summary": "The National Cyber Security Centre says it is 'highly likely' AI-powered malware will have been used in a ransomware attack on UK critical national infrastructure by 2028.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure"
+    },
+    {
+     "outlet": "AP"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "brainco-appetite",
+   "title": "BrainCo is building a wearable to curb appetite by stimulating the brain",
+   "summary": "Chinese neurotechnology firm BrainCo is developing a wearable it says could suppress appetite by stimulating the brain, an 'electronic version of GLP-1', and aims to bring it to market in two to three years, China first.",
+   "chapter": "MACHINES",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Bloomberg (via Moneycontrol)",
+     "url": "https://www.moneycontrol.com/news/business/neuralink-s-china-rival-targets-obesity-with-electronic-glp-1-14067616.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tesla-cybercab-detroit",
+   "title": "Tesla Cybercabs reportedly join Waymo in Detroit robotaxi testing",
+   "summary": "Tesla is testing its Cybercab robotaxis in Detroit, joining Waymo, The Detroit News reported.",
+   "chapter": "MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "The Detroit News",
+     "url": "https://www.detroitnews.com/story/business/autos/2026/11/03/tesla-joins-waymo-by-testing-cybercab-robotaxis-in-detroit-exclusive/92561830007/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Wednesday, November 4."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in superintelligence, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "It's building itself."
+  },
+  {
+   "s": 16.42,
+   "t": "Anthropic told investors its AI may soon speed up its own progress."
+  },
+  {
+   "s": 22.03,
+   "t": "And it's reportedly using Claude to help design its own chips."
+  },
+  {
+   "s": 31.88,
+   "t": "At MIT, GPT-6 Astra rewrote the numbers inside another AI. No retraining."
+  },
+  {
+   "s": 39.38,
+   "t": "It changed a tiny sliver of them, and the maths score jumped sixfold."
+  },
+  {
+   "s": 45.94,
+   "t": "Baidu's new simulator gives robotaxis up to 100,000 km of practice a day."
+  },
+  {
+   "s": 52.97,
+   "t": "CrowdStrike launched a kill switch for AI agents."
+  },
+  {
+   "s": 56.4,
+   "t": "If one goes rogue, it's stopped anywhere."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. CrowdStrike is also buying two AI security startups, for about half a billion dollars."
+  },
+  {
+   "s": 67.5,
+   "t": "In England, Drax and Brookfield plan a $27 billion AI data centre at a power station."
+  },
+  {
+   "s": 75.0,
+   "t": "And Anthropic's listing, due this month, could value it near $1.5 trillion, reportedly."
+  },
+  {
+   "s": 82.5,
+   "t": "Samsung will reportedly make memory chip part s for AMD and Nvidia at a second Texas plant."
+  },
+  {
+   "s": 90.0,
+   "t": "Meanwhile, Apple Watch is testing Siri Recap."
+  },
+  {
+   "s": 92.8,
+   "t": "It turns your conversations into notes, if you opt in."
+  },
+  {
+   "s": 97.5,
+   "t": "Missed what someone just said? Double-press the crown, and it shows you the last 15 seconds."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Schools that block Google's AI lose Search for students too."
+  },
+  {
+   "s": 109.69,
+   "t": "And Britain's cyber agency expects AI-powered attacks on vital services by 2028."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, machines."
+  },
+  {
+   "s": 122.76,
+   "t": "China's BrainCo is building a wearable that could curb appetite by stimulating the brain."
+  },
+  {
+   "s": 129.38,
+   "t": "They call it an electronic weight-loss drug, aiming to sell it within three years."
+  },
+  {
+   "s": 135.94,
+   "t": "And Tesla's Cybercabs have joined Waymo, testing robotaxis on Detroit's streets."
+  },
+  {
+   "s": 142.5,
+   "t": "So, it's starting to build itself."
+  },
+  {
+   "s": 144.79,
+   "t": "Even its makers say humans need to stay in charge."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-04/Singularity-Daily_2026-11-04.mp4",
+  "mb": 68.4,
+  "bytes": 68416181,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
