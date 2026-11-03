@@ -1,0 +1,580 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-04",
+ "ep": 3,
+ "hook": "SELF-IMPROVEMENT.",
+ "day": "Wednesday 4 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · WEDNESDAY 4 NOVEMBER 2026",
+ "tldr": "Self-improvement: Anthropic says AI helping build AI may soon speed up sharply, an early trial fixed a faulty DNA letter in the liver, and six humanoids worked a 24-hour shift.",
+ "chapters": [
+  "SELF-IMPROVEMENT",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 07:00 AEDT, Wed 4 Nov 2026; items marked THIS WEEK are from 31 Oct and 2 Nov.",
+ "notes": [
+  "This week: the base-editing trial (released 2 Nov) and the AI agents at SETI's telescope (announced 31 Oct).",
+  "Evidence: Anthropic's warning is its own estimate in its IPO filing; BrainCo's wearable is a plan; Muna's Phase 1 markers are company-reported; the ultrasound trial is a first-in-human Phase 1; the GLP-1 drinking result is a survey.",
+  "Screenshots are the publishers' public pages as captured on 4 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SELF-IMPROVEMENT. 🧬\n\nThe day in transhumanism:\n- Anthropic says AI helping build AI may soon speed up dramatically\n- Doctors fixed a faulty DNA letter inside a liver (early trial)\n- 44% of drinkers on GLP-1s say they drink less\n- Six humanoids worked a 24-hour shift 🤖",
+  "alt": "A 3-minute motion-graphics showreel of the day in transhumanism (4 Nov 2026): Anthropic's warning that AI helping build AI may soon dramatically speed up progress, a base-editing fix inside a patient's liver, protein design from plain language, BrainCo's planned appetite wearable, an emotion-decoding chip, AI agents at a SETI telescope, a fatty acid that clears worn-out cells in mice, rejuvenated stem cells, Muna's Phase 1 brain markers, a 10-protein ALS blood test, GLP-1 drugs and drinking, an ultrasound trial for hearing voices, doubts about three-parent IVF, a small blueberry pilot, humanoids working a 24-hour store shift, REM-like sleep in spiders and a hand-cranked blood tester, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "ANTHROPIC'S FILING: NO CURRENT MODEL HAS CROSSED ITS 'DRAMATICALLY ACCELERATED PROGRESS' THRESHOLD",
+  "ANTHROPIC SAYS IT WANTS TO KEEP HUMANS IN CONTROL OF FRONTIER MODEL DEVELOPMENT",
+  "ALPHA-1 ANTITRYPSIN DEFICIENCY AFFECTS AN ESTIMATED 120,000 PEOPLE IN EUROPE",
+  "BASE-EDITING TRIAL: SEVEN PATIENTS TREATED IN SHANGHAI; A TRIAL IN HANNOVER IS SET TO CONTINUE IN EARLY 2027",
+  "PINAL WAS TRAINED ON ABOUT 1.7 BILLION PROTEIN-TEXT PAIRS",
+  "BRAINCO AIMS TO LAUNCH ITS APPETITE WEARABLE IN CHINA FIRST, WITHIN TWO TO THREE YEARS",
+  "THE EMOTION CHIP USED 2.66 MICROJOULES PER READING",
+  "SETI'S AI AGENTS SPOTTED A CRAB NEBULA PULSAR IN REAL TIME, THE TEAM SAYS",
+  "SENESCENT CELLS RUN LOW ON DGLA, AN OMEGA-6 FATTY ACID",
+  "A GENE VARIANT THAT RAISES DGLA WENT WITH FEWER SENESCENCE MARKERS IN PEOPLE'S FAT TISSUE",
+  "CIRC-OSK CARRIES THREE YAMANAKA FACTORS: OCT4, SOX2 AND KLF4",
+  "MUNA'S MNA-001: NO SERIOUS ADVERSE EVENTS IN PHASE 1",
+  "ALS PANEL: SIX OF THE TEN PROTEINS ARE NEW ALS BLOOD MARKERS",
+  "GLP-1 SURVEY: JUST THREE PEOPLE SAID THEY DRANK MORE",
+  "ABOUT 40% OF PEOPLE WITH SCHIZOPHRENIA KEEP HEARING VOICES DESPITE MEDICATION",
+  "THREE-PARENT IVF: LOW REVERSION (5-16%) IN 3 OF 8 UK BABIES, WHO SHOW NO SIGNS OF DISEASE",
+  "BLUEBERRY PILOT: 48 G OF FREEZE-DRIED POWDER A DAY, ABOUT TWO CUPS OF BERRIES",
+  "AGIBOT'S STORE SHIFT RAN FROM 2 TO 3 NOVEMBER, ALONGSIDE REAL CUSTOMERS",
+  "THE SPIDERS' REM-LIKE BOUTS LASTED ABOUT 83 SECONDS",
+  "THE HAND-CRANKED BLOOD TESTER NEEDS NO ELECTRICITY OR TRAINING"
+ ],
+ "sources": [
+  "TechCrunch",
+  "Anthropic S-1/A",
+  "Medical Xpress",
+  "Hannover Medical School",
+  "Journal of Hepatology",
+  "Gadget Review",
+  "Singularity Hub",
+  "Nature",
+  "Phys.org",
+  "Bloomberg",
+  "Moneycontrol",
+  "Neuroscience News",
+  "National Science Review",
+  "The Decoder",
+  "SETI Institute",
+  "Cell",
+  "University of Eastern Finland",
+  "Fight Aging!",
+  "Stem Cell Research & Therapy",
+  "Longevity.Technology",
+  "Muna Therapeutics",
+  "Nature Communications",
+  "Emory University",
+  "JAMA Psychiatry",
+  "UCSF",
+  "STAT",
+  "ScienceAlert",
+  "Journal of Nutrition, Health and Aging",
+  "Interesting Engineering",
+  "New Atlas",
+  "University of Bonn",
+  "Biosensors and Bioelectronics"
+ ],
+ "scanned": 1605,
+ "stories": [
+  {
+   "id": "anthropic-rsi",
+   "title": "Anthropic's IPO filing says AI helping build AI may soon sharply speed up its progress",
+   "summary": "Anthropic's amended IPO filing says its estimates for future models, not current ones, indicate it may imminently meet its safety policy's definition of 'dramatically accelerated progress attributable to AI', meaning AI that speeds up AI research. It says that could pose a considerable safety risk; no current model has crossed the threshold.",
+   "pillar": "intelligence",
+   "evidence": "Company filing, its own estimate",
+   "chapter": "SELF-IMPROVEMENT",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    },
+    {
+     "outlet": "SEC (Anthropic S-1/A)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "Anthropic's filing says future models may imminently bring dramatically accelerated progress attributable to AI, while it doesn't expect to safely build models fully autonomously without human supervision."
+    },
+    {
+     "id": "2028-5",
+     "key": "ce72d639ae",
+     "relation": "early",
+     "note": "A frontier lab told investors it may imminently meet its own threshold for AI-driven acceleration of its progress; it says no current model has crossed it yet."
+    }
+   ]
+  },
+  {
+   "id": "aatd-base-editing",
+   "title": "In an early trial, base editing fixed the faulty DNA letter behind alpha-1 antitrypsin deficiency in the liver",
+   "summary": "Hannover Medical School and Renji Hospital, Shanghai, used base editing to swap the single faulty DNA letter inside the liver in seven patients; a biopsy confirmed precise correction in one, who makes working AAT again after one infusion. An early trial: not yet authorised, and it can't reverse existing damage.",
+   "pillar": "longevity",
+   "evidence": "Early trial, 7 patients",
+   "chapter": "SELF-IMPROVEMENT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Hannover Medical School (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-hereditary-lung-liver-disease-successfully.html"
+    },
+    {
+     "outlet": "Gadget Review",
+     "url": "https://www.gadgetreview.com/scientists-just-confirmed-gene-editing-repaired-a-faulty-liver-gene-directly-inside-a-human-patient"
+    },
+    {
+     "outlet": "Journal of Hepatology",
+     "url": "https://doi.org/10.1016/j.jhep.2026.09.028"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pinal-protein-design",
+   "title": "Pinal, an AI from Westlake University, designs proteins from plain-language descriptions",
+   "summary": "Described in Nature, Pinal turns a plain description of what a protein should do into a sequence; trained on about 135 million proteins, it made designs tested in the lab, like a protein that glows green and an enzyme that breaks down PET plastic. Many designs are duds, but with enough tries it reliably hits the goal.",
+   "pillar": "intelligence",
+   "evidence": "Peer-reviewed study (Nature), lab-tested",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Singularity Hub",
+     "url": "https://singularityhub.com/2026/11/02/scientists-can-now-ask-ai-to-design-proteins-using-plain-language/"
+    },
+    {
+     "outlet": "Nature",
+     "url": "https://www.nature.com/articles/s41586-026-11205-z"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "brainco-appetite",
+   "title": "China's BrainCo plans a brain-stimulating wearable to curb appetite, an 'electronic GLP-1'",
+   "summary": "Hangzhou-based BrainCo says it's developing a wearable that could suppress appetite by stimulating the brain, an 'electronic version of GLP-1' obesity drugs, and aims to bring it to market in two to three years, China first. A plan from an interview with founding partner Nyx He: no device or trial data yet.",
+   "pillar": "intelligence",
+   "evidence": "Company plan, no trial data",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Bloomberg (via Moneycontrol)",
+     "url": "https://www.moneycontrol.com/news/business/neuralink-s-china-rival-targets-obesity-with-electronic-glp-1-14067616.html"
+    },
+    {
+     "outlet": "NewsBytes",
+     "url": "https://www.newsbytesapp.com/news/science/china-s-neuralink-rival-develops-brain-implant-as-glp-1-alternative/story"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "neuromorphic-emotion",
+   "title": "A brain-inspired chip read emotions from brainwave recordings in 18 microseconds on 97.5% less energy",
+   "summary": "Beijing Institute of Technology's brain-inspired spiking network on an FPGA chip classified emotions from EEG recordings in 18 microseconds, using 97.5% less energy than the standard EEGNet, with up to 96.85% accuracy (National Science Review). A lab test on recorded data, aimed at battery-powered wearables for mental-health monitoring.",
+   "pillar": "intelligence",
+   "evidence": "Lab test on recorded EEG datasets",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Neuroscience News",
+     "url": "https://neurosciencenews.com/neuromorphic-chip-emotion-brain-32378/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "seti-ai-agents",
+   "title": "AI agents now help steer SETI's Allen Telescope Array and analyse its radio signals live",
+   "summary": "The SETI Institute and Breakthrough Listen use AI agents on Nvidia's Holoscan platform to steer the 42-antenna Allen Telescope Array and analyse incoming signals on the fly; the team says work that took weeks can wrap up in hours, and it caught a pulsar in real time. No alien signal has been found since SETI began in 1960.",
+   "pillar": "intelligence",
+   "evidence": "Announcement, the team's own speed claims",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-10-31",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/"
+    },
+    {
+     "outlet": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/nvidia-ai-agents-allen-telescope-array-seti/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "At SETI's Allen Telescope Array, AI agents now steer the telescope and analyse signals live; the team says work that took weeks can wrap up in hours."
+    }
+   ]
+  },
+  {
+   "id": "dgla-senescence",
+   "title": "An omega-6 fatty acid made worn-out cells self-destruct and cleared some from old mice",
+   "summary": "In a Cell study, senescent (worn-out) cells had low levels of the omega-6 fatty acid DGLA; adding it made them self-destruct by ferroptosis while healthy cells were largely spared, and oral DGLA cut senescent cells and inflammation in aged mice. A lead for clearing ageing cells, shown in mice and cells, not tested in people.",
+   "pillar": "longevity",
+   "evidence": "Mouse and cell study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "University of Eastern Finland (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-fatty-acid-metabolism-senescent-cells.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "circ-osk",
+   "title": "Ring-shaped RNA carrying three Yamanaka factors rejuvenated aged stem cells in a dish without a full reset",
+   "summary": "Circular RNA carrying OCT4, SOX2 and KLF4 (circ-OSK), delivered by lipid nanoparticles, cut senescence and DNA-damage markers in aged mesenchymal stem cells and restored growth and differentiation to early-passage levels, without making them pluripotent or modifying their genome (Stem Cell Research & Therapy). Cells in a dish only.",
+   "pillar": "longevity",
+   "evidence": "Cell study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN CELLS",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Stem Cell Research & Therapy",
+     "url": "https://doi.org/10.1186/s13287-026-05193-0"
+    },
+    {
+     "outlet": "Fight Aging!",
+     "url": "https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "muna-mna001",
+   "title": "Muna's TREM2 pill had no serious side effects in Phase 1 and nudged brain-fluid markers toward younger levels",
+   "summary": "Muna Therapeutics' MNA-001, a pill that activates TREM2 on microglia, the brain's maintenance cells, had no serious adverse events in a placebo-controlled Phase 1; in older volunteers, exploratory brain-fluid markers shifted toward younger levels. Company-reported, with no participant numbers, and markers aren't better memory.",
+   "pillar": "longevity",
+   "evidence": "Phase 1 trial, company-reported",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/muna-oral-pill-shifts-aging-brain-markers-in-trial/"
+    },
+    {
+     "outlet": "Muna Therapeutics",
+     "url": "https://munatherapeutics.com/news/muna-therapeutics-announces-positive-phase-1-results-supporting-potential-of-oral-small-molecule-trem2-modulator-mna-001-in-alzheimer-s-disease/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "als-blood-test",
+   "title": "Ten blood proteins picked out ALS with 98.3% balanced accuracy, ahead of today's best single marker",
+   "summary": "Emory researchers used machine learning to trim a 300-plus protein blood test to 10 proteins; in a separate group of 144 people with ALS and 37 without, the panel scored 98.3% balanced accuracy versus 89.9% for neurofilament light alone (Nature Communications). A step toward a blood test for ALS, not yet a clinical test.",
+   "pillar": "longevity",
+   "evidence": "Peer-reviewed study, validated in 181 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/ten-blood-proteins-pick-out-als-with-98-accuracy/"
+    },
+    {
+     "outlet": "Nature Communications",
+     "url": "https://www.nature.com/articles/s41467-026-78766-5"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "glp1-alcohol",
+   "title": "44% of drinkers on GLP-1 drugs say they drink less, a national US survey found",
+   "summary": "In a Harvard Medical School and McLean Hospital survey of 2,009 US adults (JAMA Psychiatry), 242 were drinkers when they started GLP-1 drugs: 44.2% of them say they now drink less, most of the rest saw no change and three drink more, with bigger effects in those at risk of unhealthy drinking. Self-reported, not a trial.",
+   "pillar": "wellbeing",
+   "evidence": "Survey, 2,009 adults, self-reported",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Harvard Medical School (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-drinkers-glp-1s-imbibed.html"
+    },
+    {
+     "outlet": "JAMA Psychiatry",
+     "url": "https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2854926"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lifu-voices",
+   "title": "UCSF began a first-in-human trial of gentle ultrasound to quiet persistent voices in schizophrenia",
+   "summary": "About 40% of people with schizophrenia keep hearing voices despite medication. UCSF's Phase 1 trial gives up to 12 people five daily sessions of low-intensity focused ultrasound aimed deep in the brain, plus five sham sessions; the first participants report fewer hallucinations. An early trial with anecdotal reports so far.",
+   "pillar": "wellbeing",
+   "evidence": "Phase 1 trial, up to 12 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "UCSF (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-hallucinations-schizophrenia-focused-ultrasound-human.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "three-parent-ivf",
+   "title": "As Australia readies three-parent IVF, data show the mother's mitochondria can creep back",
+   "summary": "STAT reports that after mitochondrial replacement, some children carry the mother's mitochondria again: 5% to 16% in three of Newcastle's eight babies, up to 51% in a Greek study, up to 72% in a Ukrainian clinic's unpublished data. Newcastle's children show no disease; Australia is preparing a national trial.",
+   "pillar": "longevity",
+   "evidence": "Report on small studies, some unpublished",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "STAT",
+     "url": "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "blueberries-pilot",
+   "title": "A pilot of blueberries for depression in older adults found no significant difference",
+   "summary": "In a Harvard Medical School-led pilot, 18 sedentary adults aged 65 and over took freeze-dried blueberry powder, about two cups of berries a day, or a placebo for three months. Symptoms improved in both groups, more so with blueberries, but the difference wasn't statistically significant. A small pilot, not proof.",
+   "pillar": "wellbeing",
+   "evidence": "Pilot trial, 18 people",
+   "chapter": "THE CATCH",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/eating-blueberries-every-day-could-reduce-depressive-symptoms-in-older-adults"
+    },
+    {
+     "outlet": "Journal of Nutrition, Health and Aging",
+     "url": "https://doi.org/10.1016/j.jnha.2026.100958"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agibot-store",
+   "title": "Six AGIBOT humanoid robots worked a 24-hour convenience-store shift in China, livestreamed",
+   "summary": "In AGIBOT's 'Robots Never Clock Out' livestream, six G2 humanoids stocked shelves, made coffee and hot food, greeted customers and cleared rubbish for 24 hours in a Chinese convenience store, alongside real customers and staff. A company demo: no independently audited task log, intervention count or failure rate has been released.",
+   "pillar": "frontier",
+   "evidence": "Company demo, no performance data",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Gadget Review",
+     "url": "https://www.gadgetreview.com/china-put-six-humanoid-robots-to-work-in-a-convenience-store-for-24-hours-and-livestreamed-everything"
+    },
+    {
+     "outlet": "Interesting Engineering",
+     "url": "https://interestingengineering.com/ai-robotics/agibot-humanoid-robots-in-convenience-store"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "Six AGIBOT humanoids stocked shelves and made coffee through a 24-hour store shift with real customers: a company demo with no audited performance data."
+    }
+   ]
+  },
+  {
+   "id": "spiders-rem",
+   "title": "Jumping spiders show REM-like sleep and catch up on it after a disturbed night",
+   "summary": "University of Bonn biologists watched ten fringed jumping spiders, a species from Australia's tropical northeast: REM-like bouts with twitching legs and moving retinas averaged about 83 seconds, and after a night disturbed by fruit flies REM-like time rose from about 9 to 17 minutes. Behaviour only, not brain activity: it doesn't show spiders dream.",
+   "pillar": "wellbeing",
+   "evidence": "Behavioural study, 10 spiders",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/biology/spiders-signs-of-dreaming/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hand-crank-blood",
+   "title": "A hand-cranked, power-free gadget reads blood type and red-cell level from one drop in a minute",
+   "summary": "National Taiwan University's device spins a drop of blood through winding channels with three antibodies: the clumps show the blood type and their amount the hematocrit, within a minute and with no electricity or training, matching hospital equipment almost exactly (Biosensors and Bioelectronics). Early validation, aimed at first responders.",
+   "pillar": "frontier",
+   "evidence": "Early validation vs hospital equipment",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/this-hand-cranked-device-can-tell-you-your-blood-type-and-red-cell-levels-in-a-minute"
+    },
+    {
+     "outlet": "Biosensors and Bioelectronics",
+     "url": "https://doi.org/10.1016/j.bios.2026.119215"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Wednesday, November 4, and this is the Transhuman Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in transhumanism, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Self-improvement."
+  },
+  {
+   "s": 16.2,
+   "t": "Anthropic says AI helping build AI may soon dramatically speed up progress."
+  },
+  {
+   "s": 22.03,
+   "t": "And in an early trial, doctors fixed a faulty DNA letter inside a patient's liver."
+  },
+  {
+   "s": 31.88,
+   "t": "In AI, a new tool designs proteins from a plain description, like 'glow green' or 'break down plastic'."
+  },
+  {
+   "s": 39.38,
+   "t": "Meanwhile, China's BrainCo plans a brain-stimulating wearable to curb appetite: an 'electronic GLP-1'."
+  },
+  {
+   "s": 46.41,
+   "t": "A brain-inspired chip read emotions from brainwave recordings in microseconds, on about a fortieth of the energy."
+  },
+  {
+   "s": 53.44,
+   "t": "And AI agents now help run a telescope listening for alien signals. Nothing yet."
+  },
+  {
+   "s": 60.0,
+   "t": "In the longevity lab, a fatty acid made worn-out cells self-destruct, and cleared some from old mice."
+  },
+  {
+   "s": 67.5,
+   "t": "And ring-shaped RNA rewound aged stem cells in a dish, without the risky full reset."
+  },
+  {
+   "s": 75.0,
+   "t": "In an early trial, Muna says its pill nudged older volunteers' brain-fluid markers toward younger levels."
+  },
+  {
+   "s": 82.5,
+   "t": "And ten blood proteins spotted ALS with 98% accuracy, well ahead of today's best marker."
+  },
+  {
+   "s": 90.0,
+   "t": "For wellbeing, 44% of drinkers on GLP-1 drugs say they now drink less."
+  },
+  {
+   "s": 97.5,
+   "t": "And an early trial is aiming gentle ultrasound de ep in the brain to quiet voices in schizophrenia."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. As Australia readies three-parent IVF, studies show the mother's mitochondria can creep back."
+  },
+  {
+   "s": 112.5,
+   "t": "And blueberries for depression? That pilot had just 18 people, and the difference wasn't significant."
+  },
+  {
+   "s": 121.88,
+   "t": "Meanwhile, six humanoid robots worked a 24-hour shift in a Chinese convenience store, live."
+  },
+  {
+   "s": 128.44,
+   "t": "Jumping spiders seem to have REM-like sleep, and they catch up on it after a rough night."
+  },
+  {
+   "s": 135.47,
+   "t": "Plus, a hand-cranked gadget reads your blood type from one drop in a minute."
+  },
+  {
+   "s": 140.32,
+   "t": "No power needed."
+  },
+  {
+   "s": 142.5,
+   "t": "Smarter AI, self-repairing cells, healthier habits."
+  },
+  {
+   "s": 145.98,
+   "t": "Self-improvement just got new tools."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Live long. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-04/The-Transhuman-Daily_2026-11-04.mp4",
+  "mb": 55.4,
+  "bytes": 55447280,
+  "seconds": 180.01
+ },
+ "links": {}
+}

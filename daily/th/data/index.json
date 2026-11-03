@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-03T04:18:45+00:00",
- "latest": "2026-11-03",
+ "updated": "2026-11-03T22:00:15+00:00",
+ "latest": "2026-11-04",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-04",
+   "ep": 3,
+   "hook": "SELF-IMPROVEMENT.",
+   "day": "Wednesday 4 November 2026",
+   "tldr": "Self-improvement: Anthropic says AI helping build AI may soon speed up sharply, an early trial fixed a faulty DNA letter in the liver, and six humanoids worked a 24-hour shift.",
+   "stories": 17,
+   "forecasts": 4,
+   "links": {
+    "supports": 0,
+    "early": 4,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 6,
+    "wellbeing": 4,
+    "intelligence": 5,
+    "frontier": 2
+   },
+   "titles": [
+    "Anthropic's IPO filing says AI helping build AI may soon sharply speed up its progress",
+    "In an early trial, base editing fixed the faulty DNA letter behind alpha-1 antitrypsin deficiency in the liver",
+    "Pinal, an AI from Westlake University, designs proteins from plain-language descriptions"
+   ],
+   "cover": "daily/th/media/2026-11-04/cover.webp",
+   "thumb": "daily/th/media/2026-11-04/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-04/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-04/The-Transhuman-Daily_2026-11-04.mp4",
+    "mb": 55.4,
+    "bytes": 55447280,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-03",
    "ep": 2,
