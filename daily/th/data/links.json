@@ -1,8 +1,22 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-03T22:00:15+00:00",
- "episodes": 3,
+ "updated": "2026-11-04T20:14:21+00:00",
+ "episodes": 4,
  "links": [
+  {
+   "fid": "horizon-non-invasive-neural-symbiosis",
+   "key": "04fc97cca9",
+   "relation": "early",
+   "note": "Cognixion is enrolling 30 adults with ALS to test its non-invasive wearable brain interface for communication at home over 12 weeks: a study starting, with no results yet.",
+   "ep": 4,
+   "on": "2026-11-05",
+   "date": "2026-11-04",
+   "story": "cognixion-choice",
+   "title": "Thirty people with ALS will test a wearable brain interface for communicating at home",
+   "pillar": "intelligence",
+   "outlet": "Cognixion (PR Newswire via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/healthcare/articles/cognixion-now-enrolling-nih-funded-110000798.html"
+  },
   {
    "fid": "2032-1",
    "key": "c133f89242",

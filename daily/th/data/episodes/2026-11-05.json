@@ -1,0 +1,577 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-05",
+ "ep": 4,
+ "hook": "EARLY SIGNS.",
+ "day": "Thursday 5 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · THURSDAY 5 NOVEMBER 2026",
+ "tldr": "Early signs: 80,000 blood samples will be searched for the first clues of brain disease, an AI screens questionnaires for Parkinson's, and an hour of nature a week brings half the possible boost.",
+ "chapters": [
+  "EARLY SIGNS",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:15 AEDT, Thu 5 Nov 2026; items marked THIS WEEK are from 2 and 3 Nov.",
+ "notes": [
+  "This week: UK Biobank's 80,000-sample study (announced 2 Nov) and the Michigan cardiologists' gene-editing perspective (3 Nov).",
+  "Evidence: the enzymes, the honey and 'Super HGF' are lab (and mouse) work; the spinal implant was tested in animals; the heat, nature and loneliness findings are observational; the supplement trial had 61 people.",
+  "Screenshots are the publishers' public pages as captured on 5 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "EARLY SIGNS. 🔍\n\nThe day in transhumanism:\n- 80,000 blood samples will be searched for early clues of brain disease\n- AI reads questionnaires to spot Parkinson's sooner\n- An hour of nature a week gets half the possible boost\n- A robot got a knee-jerk reflex, no electronics 🦿",
+  "alt": "A 3-minute motion-graphics showreel of the day in transhumanism (5 Nov 2026): UK Biobank's 80,000-sample hunt for early signs of brain disease, an AI that screens questionnaires for Parkinson's, a wearable brain interface study for ALS, AI-designed protein-cutting enzymes, a hexagon grid for emotions in the brain, Anthropic's proof of which model wrote an answer, faster tau in early-onset Alzheimer's, a 'Super HGF' muscle-repair signal, a small supplement trial, heat and dementia risk, a weekly dose of nature, an online therapy for pregnancy anxiety, retirement and loneliness in Australia, a gene-editing safety warning, a review on social media and teen mood, a robot with a mechanical knee-jerk, native bee honey against bacteria and an ultrasound implant for spinal injuries, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "UK BIOBANK'S PRISM STUDY IS FUNDED BY THE MICHAEL J FOX FOUNDATION, ALZHEIMER'S RESEARCH UK AND LIFEARC",
+  "QUEST2DX: A 30-QUESTION SHORTLIST WAS NEARLY AS ACCURATE AS THE FULL QUESTIONNAIRES",
+  "COGNIXION'S CHOICE STUDY: 30 ADULTS WITH ALS, 12 WEEKS AT HOME, NIH-SUPPORTED",
+  "BAKER LAB: 31 OF 38 ENZYME DESIGNS WORKED ONCE A WATER MOLECULE WAS MODELLED IN",
+  "THE EMOTION GRID SHOWED UP IN THE VENTROMEDIAL PREFRONTAL CORTEX",
+  "FLASHPROVE IS OPEN SOURCE; NO LAB PLANS TO DEPLOY IT YET",
+  "EARLY-ONSET ALZHEIMER'S IS ABOUT 5% OF ALL CASES",
+  "BIOGEN WILL PRESENT NEW PHASE 2 DATA ON ITS TAU DRUG DIRANERSEN AT CTAD ON 17 NOVEMBER",
+  "SUPPLEMENT TRIAL: NO SIGNIFICANT CHANGE IN CHOLESTEROL",
+  "DANGEROUS HEAT IN THE DEMENTIA STUDY: A HEAT INDEX OF 39.4°C OR MORE",
+  "FOUR HOURS OF GREEN SPACE A WEEK: ABOUT 90% OF THE MODELLED BENEFIT",
+  "THE RELAX THERAPY IS BEING TURNED INTO AN APP, LENS4PREGNANCY",
+  "ABOUT ONE IN SIX OLDER AUSTRALIANS REPORT HIGH LONELINESS",
+  "MORE THAN 6,000 RARE GENETIC DISORDERS ARE KNOWN",
+  "ONE EXPERIMENT: AN HOUR-A-DAY SOCIAL MEDIA CAP HELPED YOUNG PEOPLE WHO WERE ALREADY HIGHLY DEPRESSED",
+  "NATIVE BEE HONEY KEPT MUCH OF ITS PUNCH AFTER 18 YEARS IN A FRIDGE",
+  "THE SPINAL IMPLANT GOT FDA BREAKTHROUGH DEVICE DESIGNATION IN 2023",
+  "A CNAS REPORT WARNS AI AGENTS COULD SECURE COMPUTE, REPLICATE AND RESIST SHUTDOWN",
+  "OPENAI SAYS TWO STAFF USED GPT-6 AND ASTRA TO DESIGN A CODEX DEVICE IN UNDER A WEEK"
+ ],
+ "sources": [
+  "Longevity.Technology",
+  "UK Biobank",
+  "Alamar Biosciences",
+  "Medical Xpress",
+  "Nature Aging",
+  "Rensselaer Polytechnic Institute",
+  "PR Newswire",
+  "ClinicalTrials.gov",
+  "Chemistry World",
+  "ScienceAlert",
+  "PLOS Biology",
+  "TechCrunch",
+  "Anthropic",
+  "UCSF",
+  "Science Translational Medicine",
+  "ScienceDaily",
+  "Kyushu University",
+  "Scientific Reports",
+  "University of Surrey",
+  "European Heart Journal Open",
+  "Alzheimer's & Dementia",
+  "University of Hong Kong",
+  "Journal of Environmental Psychology",
+  "King's College London",
+  "JAMA Network Open",
+  "News-Medical",
+  "Monash University",
+  "Michigan Medicine",
+  "JAMA Internal Medicine",
+  "The Conversation",
+  "British Journal of Clinical Psychology",
+  "Tech Xplore",
+  "Tohoku University",
+  "Advanced Intelligent Systems",
+  "PLOS One",
+  "Johns Hopkins Medicine",
+  "Science Advances"
+ ],
+ "scanned": 1429,
+ "stories": [
+  {
+   "id": "ukb-prism",
+   "title": "UK Biobank will search 80,000 stored blood samples for the first protein clues of brain disease",
+   "summary": "UK Biobank's PRISM study will measure hundreds of brain-related blood proteins in 80,000 stored samples, many given years before a diagnosis, to look for early signs of Alzheimer's, Parkinson's and rare dementias. A study launch funded by the Michael J Fox Foundation, Alzheimer's Research UK and LifeArc; results are due by the end of 2027.",
+   "pillar": "longevity",
+   "evidence": "Study launch, no results yet",
+   "chapter": "EARLY SIGNS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-02",
+   "sources": [
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/reading-the-brains-small-print-in-80000-blood-samples/"
+    },
+    {
+     "outlet": "GEN",
+     "url": "https://www.genengnews.com/topics/omics/alamar-nightingale-health-team-up-on-uk-biobank-neurodegeneration-protein-study/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "quest2dx",
+   "title": "An AI reads long health questionnaires to flag possible Parkinson's sooner",
+   "summary": "Rensselaer Polytechnic Institute's Quest2Dx uses a language model to read health questionnaires, works around skipped answers and outperformed earlier models; a 30-question version was nearly as accurate as the full ones (Nature Aging). It's meant to flag people for earlier testing, not to diagnose, and it still makes false positives and negatives.",
+   "pillar": "longevity",
+   "evidence": "Peer-reviewed AI model, study data",
+   "chapter": "EARLY SIGNS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Rensselaer Polytechnic Institute (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-ai-questionnaire-based-parkinson-screening.html"
+    },
+    {
+     "outlet": "Nature Aging",
+     "url": "https://www.nature.com/articles/s43587-026-01260-6"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cognixion-choice",
+   "title": "Thirty people with ALS will test a wearable brain interface for communicating at home",
+   "summary": "Cognixion is enrolling 30 adults with ALS in its NIH-supported CHOICE study: each uses its non-invasive brain-computer interface with AR glasses, a touchscreen version and their own eye-tracking device at home for 12 weeks. An investigational device, not FDA-cleared; no results yet.",
+   "pillar": "intelligence",
+   "evidence": "Study now enrolling, 30 people",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Cognixion (PR Newswire via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/healthcare/articles/cognixion-now-enrolling-nih-funded-110000798.html"
+    },
+    {
+     "outlet": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT07871071"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-non-invasive-neural-symbiosis",
+     "key": "04fc97cca9",
+     "relation": "early",
+     "note": "Cognixion is enrolling 30 adults with ALS to test its non-invasive wearable brain interface for communication at home over 12 weeks: a study starting, with no results yet."
+    }
+   ]
+  },
+  {
+   "id": "baker-proteases",
+   "title": "AI from David Baker's lab designed brand-new enzymes that cut proteins",
+   "summary": "Generative AI models from Nobel laureate David Baker's lab designed new proteases, enzymes that cut proteins; once a water molecule was modelled in, 31 of 38 metalloprotease designs worked, and some cut human proteins linked to Alzheimer's. A lab study: the best designs were still 10 to 100 times weaker than natural enzymes.",
+   "pillar": "intelligence",
+   "evidence": "Lab enzyme study",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Chemistry World",
+     "url": "https://www.chemistryworld.com/news/baker-lab-tackles-tough-challenge-of-designing-new-proteases/4024444.article"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hexagon-emotions",
+   "title": "Brain scans hint we map emotions on a hexagon grid, the way we map places",
+   "summary": "Emory University researchers scanned 18 people as they followed faces and phrases moving between emotions and found a sixfold, grid-like pattern in the ventromedial prefrontal cortex, like the grid cells that map space (PLOS Biology). A small brain-imaging study; it doesn't show the grid drives how we feel.",
+   "pillar": "intelligence",
+   "evidence": "Brain-imaging study, 18 people",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/the-human-brain-may-organize-emotions-using-a-hexagonal-grid"
+    },
+    {
+     "outlet": "PLOS Biology",
+     "url": "https://doi.org/10.1371/journal.pbio.3003795"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "flashprove",
+   "title": "Anthropic shared FlashProve, a way to prove which AI model wrote an answer",
+   "summary": "Anthropic's open-source FlashProve research gives a cryptographic proof that an output came from a specific model, checked against a published 'fingerprint' that doesn't reveal the model's weights, so a provider couldn't quietly swap in another model. Research code only: there are no plans to deploy it yet.",
+   "pillar": "intelligence",
+   "evidence": "Research prototype, open source",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+    },
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/research/provable-inference"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tau-early-onset",
+   "title": "In early-onset Alzheimer's, tau piles up more than twice as fast",
+   "summary": "UCSF-led tau PET scans of 390 people whose Alzheimer's began before 65 and 211 with later onset found tau, the protein that tangles inside neurons, built up at more than twice the rate and spread more widely in the younger group (Science Translational Medicine). An imaging study that may explain faster decline; no treatment was tested.",
+   "pillar": "longevity",
+   "evidence": "Brain-imaging study, 601 patients",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "UCSF (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-rapid-tau-midlife-alzheimer-rapidly.html"
+    },
+    {
+     "outlet": "Science Translational Medicine",
+     "url": "https://www.science.org/doi/10.1126/scitranslmed.aea2816"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "super-hgf",
+   "title": "A sulfur compound more than doubled the grip of an ageing muscle-repair signal, in lab tests",
+   "summary": "Kyushu University found a trisulfide compound, LASSS, made 'Super HGF': the signal that wakes muscle stem cells bound its receptor more than twice as strongly in lab tests, and in mice the compound cut the age-type damage that weakens it (Scientific Reports). Lab and mouse work; no muscle-healing result yet.",
+   "pillar": "longevity",
+   "evidence": "Lab and mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Kyushu University (ScienceDaily)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261104005226.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "novos-stamina",
+   "title": "In a 61-person trial, a multi-ingredient supplement improved blood-vessel markers over six months",
+   "summary": "In the University of Surrey's randomised STAMINA trial, 33 people took the NOVOS Core supplement and 28 a placebo for six months: blood-vessel function and arterial stiffness improved, and systolic blood pressure ended 6.1 mmHg lower than placebo (European Heart Journal Open). A small, preliminary trial of markers, not health outcomes.",
+   "pillar": "longevity",
+   "evidence": "Randomised trial, 61 people, biomarkers",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/"
+    },
+    {
+     "outlet": "University of Surrey (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-supplement-aging-potential-markers-blood.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "heat-dementia",
+   "title": "Older Americans with more dangerous-heat days had up to 23% higher dementia risk",
+   "summary": "A USC study of 28,512 older Americans found those exposed to at least 7.2 days a year with a heat index of 39.4°C or more had a 23% higher risk of dementia than those with almost none, and the link was stronger where air conditioning was scarce (Alzheimer's & Dementia). Observational: a link, not proof that heat causes dementia.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 28,512 adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-extreme-days-dementia-poorer-communities.html"
+    },
+    {
+     "outlet": "Alzheimer's & Dementia",
+     "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.71857"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nature-dose",
+   "title": "One hour of nature a week gets half the possible mental-health boost, a big review found",
+   "summary": "A University of Hong Kong meta-analysis of green-space research from 1980 to 2025 found one visit or one hour a week brought 50% of the maximum estimated mental-health benefit, about four hours 90% and about eight hours 99% (Journal of Environmental Psychology). Population averages from observational studies.",
+   "pillar": "wellbeing",
+   "evidence": "Meta-analysis of observational studies",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "University of Hong Kong (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-weekly-dose-nature-benchmarks-mental.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "relax-pregnancy",
+   "title": "A 12-session online therapy kept pregnancy anxiety from rising in a 268-person trial",
+   "summary": "In King's College London's randomised RELAX trial of 268 pregnant people with mild to moderate anxiety, 12 short online sessions training more positive readings of everyday situations cut anxiety before and after birth compared with usual care, along with depression and repetitive negative thinking (JAMA Network Open).",
+   "pillar": "wellbeing",
+   "evidence": "Randomised trial, 268 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "King's College London (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-digital-therapy-worsening-anxiety-childbirth.html"
+    },
+    {
+     "outlet": "JAMA Network Open",
+     "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856249"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "retirement-loneliness",
+   "title": "Retiring didn't make older Australians any lonelier, a Monash study found",
+   "summary": "Monash University researchers followed 7,434 Australians aged 55 to 75 for nearly two decades in the HILDA survey: loneliness didn't change in the three years before or after retiring, across incomes and jobs. About one in six report high loneliness, which rises from the late 60s. Observational survey data.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study, 7,434 Australians",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Monash University (News-Medical)",
+     "url": "https://www.news-medical.net/news/20261104/Retirement-does-not-increase-loneliness-in-older-Australians.aspx"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gene-editing-catch",
+   "title": "Doctors warn one-shot gene editing for common conditions needs a much higher safety bar",
+   "summary": "Two University of Michigan cardiologists write in JAMA Internal Medicine that gene therapies aimed at common problems such as high cholesterol must meet especially demanding safety standards: unlike pills, a permanent edit can't be stopped, and a rare side effect could harm many people if given to millions. An expert perspective, not a new study.",
+   "pillar": "longevity",
+   "evidence": "Expert perspective",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Michigan Medicine (ScienceDaily)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261102202829.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "social-media-teens",
+   "title": "A review of 37 studies found social media time barely tracks teen anxiety or depression",
+   "summary": "Across 37 studies of nearly 80,000 young people aged 10 to 24, time on social media explained less than 1% of the differences in anxiety and depression symptoms (British Journal of Clinical Psychology). Australia's under-16 limits took effect in December 2025. Mostly observational, and it measured time, not harmful content.",
+   "pillar": "wellbeing",
+   "evidence": "Meta-analysis of 37 studies",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "The Conversation (via Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-social-media-teens-anxious-depressed.html"
+    },
+    {
+     "outlet": "British Journal of Clinical Psychology",
+     "url": "https://doi.org/10.1111/bjc.70100"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mechanical-reflex",
+   "title": "A robot got a knee-jerk reflex with no electronics at all, and walked",
+   "summary": "Tohoku University built a purely mechanical module that senses when an artificial muscle stretches too far and contracts it, like the muscle spindles behind our reflexes. It reproduced the knee-jerk in a musculoskeletal robot and, with simple control, let it walk on two legs (Advanced Intelligent Systems). A lab robot demonstration.",
+   "pillar": "frontier",
+   "evidence": "Lab robot demonstration",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Tohoku University (Tech Xplore)",
+     "url": "https://techxplore.com/news/2026-11-electronics-free-artificial-reflex-knee.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "native-bees",
+   "title": "Honey from Australia's native stingless bees stopped every bacterium tested in the lab",
+   "summary": "Honey from Tetragonula carbonaria, a small native bee of Australia's east coast, stopped every bacterium it was tested against, including golden staph and E. coli even when diluted more than tenfold, and its propolis hit certain skin fungi hard (PLOS One). Lab tests only: not yet shown to treat infections in people.",
+   "pillar": "frontier",
+   "evidence": "Lab (in a dish) study",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "The Conversation",
+     "url": "https://theconversation.com/australias-native-bees-have-an-unusual-power-that-can-fight-antibiotic-resistance-295463"
+    },
+    {
+     "outlet": "PLOS One",
+     "url": "https://doi.org/10.1371/journal.pone.0361610"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "music-implant",
+   "title": "A Band-Aid-sized ultrasound implant watched blood flow at spinal injuries in real time, in animals",
+   "summary": "Johns Hopkins Medicine's MUSIC implant, placed over a spinal cord injury during surgery, gave real-time imaging of blood flow around the injury in a first proof-of-concept study in animals (Science Advances). It's meant as a bedside 'mobile MRI' to guide care in intensive care; not yet tested in people.",
+   "pillar": "frontier",
+   "evidence": "Animal proof-of-concept study",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Johns Hopkins Medicine (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-experimental-ultrasound-implant-spinal-cord.html"
+    },
+    {
+     "outlet": "Science Advances",
+     "url": "https://doi.org/10.1126/sciadv.aeg2342"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Thursday, November 5."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in transhumanism in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Early signs."
+  },
+  {
+   "s": 15.79,
+   "t": "Researchers will comb 80,000 stored blood samples for the first clues of brain disease."
+  },
+  {
+   "s": 22.03,
+   "t": "And an AI reads long health questionnaires to spot possible Parkinson's sooner."
+  },
+  {
+   "s": 31.88,
+   "t": "In brain tech, 30 people with ALS will try a wearable brain interface to communicate at home."
+  },
+  {
+   "s": 39.38,
+   "t": "Meanwhile, AI from Nobel winner David Baker's lab designed new enzymes that cut proteins."
+  },
+  {
+   "s": 46.41,
+   "t": "And brain scans hint we map emotions on a hexagon grid, the way we map places."
+  },
+  {
+   "s": 53.44,
+   "t": "Plus, Anthropic shared a way to prove which AI model actually wrote an answer."
+  },
+  {
+   "s": 60.0,
+   "t": "Over in longevity, scans show Alzheimer's tau piles up over twice as fast when it starts early."
+  },
+  {
+   "s": 67.5,
+   "t": "And in lab tests, a sulfur compound more than doubled the grip of a muscle-repair signal."
+  },
+  {
+   "s": 75.0,
+   "t": "A small trial of 61 people found a multi-ingredient su pplement improved blood-vessel markers over six months."
+  },
+  {
+   "s": 82.5,
+   "t": "And extreme-heat days went with up to 23% higher dementia risk in older Americans."
+  },
+  {
+   "s": 90.0,
+   "t": "For wellbeing, one hour of nature a week gets half the possible boost."
+  },
+  {
+   "s": 95.62,
+   "t": "A 12-session online therapy kept pregnancy anxiety from rising."
+  },
+  {
+   "s": 100.31,
+   "t": "Closer to home, retiring didn't make older Australians any lonelier."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 105.97,
+   "t": "Doctors warn one-shot gene editing for common conditions needs a much higher safety bar."
+  },
+  {
+   "s": 112.5,
+   "t": "And a big review found social media time barel y tracks teen anxiety or depression: under 1%."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, a robot got a knee-jerk reflex with no electronics at all, and walked."
+  },
+  {
+   "s": 128.44,
+   "t": "And honey from Australia's native stingless bees stopped every bacterium tested, in lab dishes."
+  },
+  {
+   "s": 135.47,
+   "t": "Plus, a Band-Aid-sized implant watched spinal-injury blood flow in real time, so far in animals."
+  },
+  {
+   "s": 142.5,
+   "t": "Early signs, early help: the sooner we see trouble coming, the more good years we keep."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-05/The-Transhuman-Daily_2026-11-05.mp4",
+  "mb": 54.5,
+  "bytes": 54542111,
+  "seconds": 180.01
+ },
+ "links": {}
+}
