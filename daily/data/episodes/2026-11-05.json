@@ -1,0 +1,527 @@
+{
+ "date": "2026-11-05",
+ "ep": 32,
+ "hook": "WE GET A SAY.",
+ "day": "Thursday 5 November 2026",
+ "chapters": [
+  "ON THE BALLOT",
+  "NEW MINDS",
+  "THE MONEY",
+  "EVERYDAY",
+  "THE CATCH",
+  "ON SHIFT"
+ ],
+ "window": "Window: the 24 hours to 04:41 AEDT, Thu 5 Nov 2026.",
+ "notes": [
+  "US election results are preliminary (Route Fifty, Gizmodo and Wired, 4 Nov); some local data-centre votes were advisory. The governors-elect in Texas and Georgia campaigned for data-centre moratoriums, per Wired.",
+  "Nvidia's China order figures are Bloomberg's reporting, citing people familiar. Hy4's abilities are Tencent's own claims (weights due 'in the coming days'). Xiaomi's 8-hour shift is from its own video; AgiBot's store trial was its own livestream.",
+  "Screenshots are the publishers' public article pages as captured on 5 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "WE GET A SAY. 🗳️\n\nThe last 24h in superintelligence:\n- Data centres lost nearly every local US vote\n- Tencent's new AI can see and use a computer\n- AMD's data centre sales nearly doubled\n- 6 robots ran a Shanghai store for 24h\n\nWould you trust a robot barista?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (5 Nov 2026), hosted by Claudia: US voters turning down data centres in nearly every local vote and electing governors who promised a pause, Tencent's Hy4 that can see and use a computer, Anthropic's FlashProve, OpenAI buying Pierre, AMD's surge, Elon Musk's data-centres-in-space post, Nvidia's China chip shortfall, Singapore's scam-warning app, Apple's AI arriving in China, a Brazilian court's order to Meta, Uber's four AI-agent rides, Xiaomi's 8-hour robot shift and a robot-run Shanghai store, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "WIRED: ALMOST A QUARTER OF VOTERS TOLD NBC'S EXIT POLL THAT DATA CENTRES WERE 'CRUCIAL' TO THEIR VOTE",
+  "ROUTE FIFTY: HARWOOD, NORTH DAKOTA WAS THE ONE PLACE DATA CENTRES WON ON ELECTION NIGHT",
+  "GIZMODO: ALHAMBRA, CALIFORNIA VOTED 82% TO BAN NEW DATA CENTRES",
+  "TENCENT: HY4'S WEIGHTS AND SYSTEM CARDS ARE DUE 'IN THE COMING DAYS'",
+  "REUTERS: TENCENT TRAINED HY4 WITH LIMITED CYBERSECURITY DATA AMID HACKING FEARS",
+  "ANTHROPIC: FLASHPROVE IS OPEN-SOURCE RESEARCH, WITH NO PLANS YET TO DEPLOY IT",
+  "REUTERS: AMD TAKES A $1 BILLION QUARTERLY CHARGE TIED TO ITS OPENAI AND META CHIP DEALS",
+  "WSJ: AI SECURITY STARTUP SENTRA RAISES $150 MILLION TO POLICE AUTONOMOUS AGENTS",
+  "REUTERS: AI SALES STARTUP NOOKS SECURES $500 MILLION IN FUNDING",
+  "REUTERS: TERAWULF GETS A CREDIT BACKSTOP FROM GOOGLE FOR AN ANTHROPIC DATA-CENTRE PROJECT",
+  "FT: ORACLE CANCELS A $7BN TENCENT AI DEAL UNDER TRUMP PRESSURE",
+  "REUTERS: JAPAN TO SEEK SOFTWARE FLAW DATA FROM US AI FIRMS, NIKKEI REPORTS",
+  "THE GUARDIAN: CANVA TO CUT OR RELOCATE MORE THAN 1,200 JOBS IN A MAJOR RESTRUCTURE",
+  "MERCURY NEWS: POLICE INVESTIGATE AN $11.4 MILLION NVIDIA CARGO THEFT FROM OAKLAND",
+  "THE STRAITS TIMES: SINGAPORE EXPLORES USING THE WEB'S DOMAIN NAME SYSTEM TO TRACK AI AGENTS",
+  "SCMP: A DEEPSEEK ENGINEER DEFENDS THE PUSH FOR OPEN-SOURCE AGI DESPITE HIGHER RISKS",
+  "OPENAI: DAYBREAK RED BRINGS GPT-5.6 CYBER TO AWS GOVCLOUD",
+  "UBER: AI AGENTS PLACED AROUND 500 UBER EATS ORDERS IN HALLOWEEN WEEK",
+  "ELECTREK: XIAOMI'S 8-HOUR ROBOT SHIFT IS IMPRESSIVE, BUT KEY NUMBERS ARE MISSING",
+  "TECHSPOT: THE STORE'S SHELF-PATROL ROBOT 'LACKED INITIATIVE'"
+ ],
+ "sources": [
+  "Route Fifty",
+  "Gizmodo",
+  "Wired",
+  "NBC News",
+  "The Washington Post",
+  "Tencent",
+  "South China Morning Post",
+  "Reuters",
+  "Nikkei Asia",
+  "TechCrunch",
+  "Anthropic",
+  "OpenAI",
+  "Axios",
+  "ShiftDelete.Net",
+  "CNBC",
+  "AMD",
+  "PCMag",
+  "Bloomberg",
+  "Yahoo Finance",
+  "The Straits Times",
+  "GovTech Singapore",
+  "Global Times",
+  "AFP",
+  "The Verge",
+  "Electrek",
+  "TechSpot",
+  "Xinhua",
+  "The Wall Street Journal",
+  "Financial Times",
+  "The Guardian",
+  "The Mercury News"
+ ],
+ "scanned": 4161,
+ "stories": [
+  {
+   "id": "data-centre-votes",
+   "title": "US data centres lost nearly every one of about 40 local ballot votes",
+   "summary": "On election night, opponents of data centres won virtually all of about 40 local ballot measures across 10 states, preliminary results show. Seven towns passed outright bans on new ones; in Alhambra, California, 82% voted for a ban.",
+   "chapter": "ON THE BALLOT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Route Fifty",
+     "url": "https://www.route-fifty.com/artificial-intelligence/2026/11/voters-reject-data-centers-local-ballot-initiatives/417033/"
+    },
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/voters-turn-election-night-into-a-bloodbath-for-ai-data-centers-2000834821"
+    },
+    {
+     "outlet": "Wired",
+     "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Voters in about 40 local ballot measures across 10 states moved to ban or limit data centres; the fights are still local, not yet national."
+    },
+    {
+     "id": "2028-0",
+     "key": "49d11afdd5",
+     "relation": "early",
+     "note": "Almost a quarter of voters told NBC's exit poll that data centres were crucial to their vote in the 2026 midterms."
+    }
+   ]
+  },
+  {
+   "id": "governors-pause",
+   "title": "Texas and Georgia elected governors who campaigned for data-centre moratoriums",
+   "summary": "Voters elected Gina Hinojosa in Texas and Keisha Lance Bottoms in Georgia, two of the biggest data-centre hubs; both campaigned for moratoriums on new data centres, Wired reports.",
+   "chapter": "ON THE BALLOT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Wired",
+     "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/"
+    },
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/voters-turn-election-night-into-a-bloodbath-for-ai-data-centers-2000834821"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Governors-elect in two of the biggest US data-centre hubs campaigned for moratoriums: a state-level step, not yet national policy."
+    }
+   ]
+  },
+  {
+   "id": "tencent-hy4",
+   "title": "Tencent's Hy4 adds vision and computer use, and helped tune training for smaller models",
+   "summary": "Tencent's new Hy4 model can understand images and operate a computer for the first time, trained on software such as Blender and CAD. Tencent says Hy4 optimised the pre-training setup for its smaller models; weights are due in the coming days.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Tencent (PR Newswire)",
+     "url": "https://www.aap.com.au/aapreleases/cision20261104ae88821/"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.scmp.com/tech/big-tech/article/3373227/tencent-unveils-hy4-open-weight-ai-race-deepseek-zai-alibaba-heats"
+    },
+    {
+     "outlet": "Nikkei Asia"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "Tencent says Hy4 optimised the pre-training setup for its smaller models, a company claim of AI helping build AI, with no measured speed-up."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-flashprove",
+   "title": "Anthropic shares FlashProve, a way to prove which AI model wrote an answer",
+   "summary": "Anthropic's open-source FlashProve research checks an output against a model's published 'fingerprint' to prove which model produced it, like an email signature, without revealing the model's weights. There are no plans yet to deploy it.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+    },
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/research/provable-inference"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-pierre",
+   "title": "OpenAI is buying Pierre, a developer tools start-up, in what Axios calls a move on GitHub",
+   "summary": "OpenAI will acquire Pierre Computer Company, whose code storage tools are already built into Codex. Axios, which broke the news, says the deal targets Microsoft's GitHub.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/openai-to-acquire-pierre"
+    },
+    {
+     "outlet": "Axios"
+    },
+    {
+     "outlet": "ShiftDelete.Net",
+     "url": "https://shiftdelete.net/en/openai-acquires-pierre"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amd-q3",
+   "title": "AMD's revenue jumped 45% as its data centre sales nearly doubled",
+   "summary": "AMD's third-quarter revenue rose 45% to $13.38 billion and its data centre sales nearly doubled from a year earlier. It forecast about $17 billion for the fourth quarter.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "musk-space-data-centres",
+   "title": "Data-centre stocks slid on the election results; Musk eyed space instead",
+   "summary": "AI data-centre stocks fell as the Texas governor's race and the wider results came in, CNBC reported. Elon Musk posted: 'Data centers in space looking pretty appealing right now.'",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "PCMag",
+     "url": "https://au.pcmag.com/ai/120761/us-voters-reject-ai-data-centers-elon-musk-finds-solace-in-orbital-alternative"
+    },
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/voters-turn-election-night-into-a-bloodbath-for-ai-data-centers-2000834821"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-china-orders",
+   "title": "Chinese firms reportedly ordered 6 million Nvidia chips but expect about 1% soon",
+   "summary": "Alibaba, Tencent, ByteDance and others have ordered about 6 million Nvidia RTX Pro 5500 chips, worth about $70 billion, but expect only roughly 1% within four months, Bloomberg reports, citing people familiar.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Bloomberg (via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-china-clients-1-70-031424389.html"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "antiscam-pango",
+   "title": "Singapore's AntiScam Pango, built with Google DeepMind, warns of scam messages live",
+   "summary": "GovTech Singapore and Google DeepMind launched AntiScam Pango, an Android app that checks WhatsApp, Telegram and SMS messages on the phone itself and warns users in real time when a conversation looks like a scam.",
+   "chapter": "EVERYDAY",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "url": "https://www.straitstimes.com/tech/new-govtech-google-deepmind-app-flags-potential-scams-by-analysing-incoming-messages"
+    },
+    {
+     "outlet": "GovInsider"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "apple-intelligence-china",
+   "title": "Apple Intelligence reaches mainland China in a test version, built with Alibaba's Qwen",
+   "summary": "Apple's iOS 27.3 developer beta gives users in mainland China their first test access to Apple Intelligence, integrated with Alibaba's Qwen; it is due for everyone with iOS 27.3 in December.",
+   "chapter": "EVERYDAY",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202611/1373652.shtml"
+    },
+    {
+     "outlet": "AFP"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meta-brazil-court",
+   "title": "A São Paulo court ordered Meta to stop training its AI on Brazilian news outlets' content",
+   "summary": "In a preliminary injunction, a São Paulo state court told Meta to stop collecting content from outlets in three national press associations to train its AI, with a daily fine of one million reais if it doesn't comply.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "AFP via The Straits Times",
+     "url": "https://www.straitstimes.com/world/court-orders-meta-to-halt-training-on-brazilian-media-content"
+    },
+    {
+     "outlet": "Semafor"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uber-agent-rides",
+   "title": "Uber says outside AI agents booked just four rides last quarter",
+   "summary": "Only four Uber rides were arranged by third-party AI agents in the third quarter, the company said on its earnings call. CEO Dara Khosrowshahi: 'It is just very, very early.'",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "xiaomi-8-hour-shift",
+   "title": "Xiaomi showed two humanoid robots working a full 8-hour shift in its car factory",
+   "summary": "Xiaomi posted a time-lapse of two of its humanoid robots working a full shift at a sorting station in its car factory; Electrek notes key numbers such as speed and interventions are missing.",
+   "chapter": "ON SHIFT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1026488/watch-two-humanoid-robots-put-in-a-full-8-hour-shift-at-a-factory"
+    },
+    {
+     "outlet": "Electrek"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "Two humanoid robots worked one full shift at a sorting station in Xiaomi's own factory: a company demo, far short of thousands on live lines."
+    }
+   ]
+  },
+  {
+   "id": "agibot-store",
+   "title": "Six AgiBot humanoids ran a Shanghai convenience store for 24 hours; four passed",
+   "summary": "AgiBot's six G2 robots worked a Shanghai convenience store for a day, completing 1,730 tasks including 147 coffees. Only four passed; the cleaning robot found a full bin on night duty and strayed outside the store.",
+   "chapter": "ON SHIFT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "TechSpot",
+     "url": "https://www.techspot.com/news/114445-six-humanoid-robots-worked-24-hour-shift-convenience.html"
+    },
+    {
+     "outlet": "Xinhua",
+     "url": "https://english.news.cn/20261104/38d3010af9c3490d8bb666623bd72bce/c.html"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Thursday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in superintelligence in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "We get a say. America voted, and data centres lost nearly all of about 40 local votes."
+  },
+  {
+   "s": 22.03,
+   "t": "Texas and Georgia also elected governors who campaigned to pause new data centres."
+  },
+  {
+   "s": 31.88,
+   "t": "Over in China, Tencent's newest AI model can now see, and use a computer too."
+  },
+  {
+   "s": 39.38,
+   "t": "Tencent says it already tuned the training setup for its smaller siblings."
+  },
+  {
+   "s": 44.06,
+   "t": "AI, improving AI."
+  },
+  {
+   "s": 45.94,
+   "t": "Anthropic showed how to prove which AI wrote an answer."
+  },
+  {
+   "s": 49.14,
+   "t": "Think of it as a signature."
+  },
+  {
+   "s": 52.97,
+   "t": "And OpenAI's buying Pierre, a developer tools start-up."
+  },
+  {
+   "s": 56.78,
+   "t": "Axios calls it a shot at GitHub."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. AMD's revenue jumped 45%, and its data centre business nearly doubled."
+  },
+  {
+   "s": 67.5,
+   "t": "Data centre stocks slid. Elon Musk posted, \"Data centers in space looking pretty appealing right now.\""
+  },
+  {
+   "s": 75.0,
+   "t": "Meanwhile, Chinese tech giants have reportedly ordered 6 million Nvidia chips."
+  },
+  {
+   "s": 80.55,
+   "t": "About $70 billion worth."
+  },
+  {
+   "s": 82.5,
+   "t": "Their own guess? They'll get about 1% of them in the next four months."
+  },
+  {
+   "s": 90.0,
+   "t": "In Singapore, a new app built with Google DeepMind warns you about scam messages as they arrive."
+  },
+  {
+   "s": 97.5,
+   "t": "And Apple's AI finally reached China, in a test version, with help from Alibaba's Qwen."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? A Brazilian court told Meta to stop training on local news."
+  },
+  {
+   "s": 110.62,
+   "t": "And Uber says AI agents booked just four rides last quarter. Four."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, the machines."
+  },
+  {
+   "s": 123.07,
+   "t": "Xiaomi showed two humanoid robots working a full 8-hour shift in its car factory."
+  },
+  {
+   "s": 129.38,
+   "t": "In Shanghai, six robots ran a convenience store for a full day, making 147 coffees."
+  },
+  {
+   "s": 136.88,
+   "t": "Only four passed probation. The cleaner found a full bin and wandered outside."
+  },
+  {
+   "s": 142.5,
+   "t": "So yes, the machines keep clocking in. But we still get a say in how."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-05/Singularity-Daily_2026-11-05.mp4",
+  "mb": 69.2,
+  "bytes": 69166753,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
