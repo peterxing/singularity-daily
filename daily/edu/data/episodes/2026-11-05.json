@@ -1,0 +1,359 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-05",
+ "ep": 10,
+ "hook": "LEARN BY DOING.",
+ "day": "Thursday 5 November 2026",
+ "note": "FOR EDUCATION · THURSDAY 5 NOVEMBER 2026",
+ "tldr": "Learn by doing: a Wisconsin college trains data centre technicians with Microsoft, VS Code lets agents check each other's work, and Teams' Facilitator is due to turn meetings into slides.",
+ "chapters": [
+  "CAMPUS TO CAREER",
+  "FOR STUDENTS",
+  "CAMPUS IT",
+  "RESEARCH DATA",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:23 AEDT, Thu 5 Nov 2026 (Wednesday 4 Nov in the US).",
+ "notes": [
+  "Reported: Datacenter Academy figures (14 certificates and 206 enrolled by the end of May; $2,277 tuition and about $760 for books) come from Gateway Technical College's dean via the Hechinger Report.",
+  "Facilitator's PowerPoint decks are a roadmap feature in development, due December 2026. VS Code's mixed harnesses are in preview and Blobby is experimental; the MCP gateway, Storage Discovery insights and Azure SQL backup locks are in public preview.",
+  "Screenshots are the publishers' public pages as captured on 5 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "LEARN BY DOING. 🎓\n\nThe last 24h at Microsoft for education:\n- A college's Microsoft Datacenter Academy trains data centre techs\n- VS Code: Claude can review Copilot's plan (preview)\n- Teams Facilitator: meetings to slides (due Dec)\n- Xbox's Nano Controller is out ($49.99)",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (5 Nov 2026): the Microsoft Datacenter Academy at Gateway Technical College and its Microsoft-funded scholarships, VS Code 1.145's mixed agent harnesses and Blobby game, Teams Facilitator turning meetings into PowerPoint decks, an MCP gateway for Application Gateway for Containers, Azure Site Recovery for flexible scale sets, Azure Storage Discovery insights, longer immutable Azure SQL backups, the Application Insights API key retirement date, Escape Academy 2: Back 2 School and the Xbox Nano Controller, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "MICROSOFT DATACENTER ACADEMY: ONE OF SEVERAL DOZEN WORLDWIDE, RUN WITH LOCAL EDUCATION PARTNERS",
+  "GATEWAY'S FOUR COURSES: IT TECH SKILLS, HARDWARE/SOFTWARE SUPPORT, SERVER TECHNOLOGIES AND DATA CENTER TECHNICIAN",
+  "GATEWAY GRADUATES CAN GO STRAIGHT TO WORK OR KEEP STUDYING TOWARDS A DEGREE",
+  "VS CODE 1.145: RUN LOCAL AGENT AUTOMATIONS ON YOUR OWN CRON SCHEDULE",
+  "VS CODE 1.145: KEEP AGENT CHATS CONCISE, OR SEE THE FULL REASONING AND TOOL CALLS",
+  "GITHUB COPILOT IS NOW AVAILABLE IN JETBRAINS AIR",
+  "DEPENDABOT VERSION UPDATES NOW SUPPORT AGENT PACKAGE MANAGER",
+  "GITHUB'S COPILOT USAGE API NOW SHOWS BRING-YOUR-OWN-KEY USAGE SEPARATELY",
+  "CODEQL 2.27.3 ADDS PYTHON 3.15 FEATURES, AND DEPENDABOT NOW SUPPORTS PYTHON 3.15",
+  ".NET: AGENT SKILLS CAN NOW SHIP INSIDE NUGET PACKAGES",
+  "APPLICATION GATEWAY FOR CONTAINERS: JWT VALIDATION AND PRIVATE INGRESS, ALSO IN PUBLIC PREVIEW",
+  "AZURE VMS: MULTI-DISK CRASH-CONSISTENT RESTORE POINTS FOR PREMIUM SSD V2 AND ULTRA DISKS, IN PREVIEW",
+  "AZURE SQL: IMMUTABLE BACKUPS ALREADY COVER THE FIRST 7 DAYS BY DEFAULT",
+  "MICROSOFT FABRIC: SALESFORCE DATA 360 INTEGRATION WITH ONELAKE, IN PREVIEW",
+  "FABRIC DATA WAREHOUSE: MORE WAYS TO USE SCALAR UDFS, IN PREVIEW",
+  "MICROSOFT INTRODUCES SHAREPOINT TOOLS IN WORK IQ",
+  "COPILOT STUDIO GETS A NEW HARNESS FOR AUTONOMOUS AGENTS AND WORKFLOWS",
+  "VIVA ENGAGE: AN IMPROVED SHARED-MESSAGES EXPERIENCE, DUE NOVEMBER",
+  "ESCAPE ACADEMY 2: PLAY SOLO, OR IN LOCAL OR ONLINE CO-OP",
+  "XBOX NANO CONTROLLER: INTERNAL BATTERY THAT CHARGES OVER USB-C (CABLE NOT INCLUDED)",
+  "XBOX NANO CONTROLLER WORKS WITH XBOX CONSOLES, WINDOWS PCS, TABLETS, SMART TVS, IOS AND ANDROID",
+  "XBOX INDIE SELECTS FOR NOVEMBER: SIX GAMES, INCLUDING SILVER PINES AND GRAVEYARD KEEPER 2",
+  "INDIE SELECTS: THE FIRST-EVER DECEMBER SELECTS ARRIVE NEXT MONTH",
+  "XBOX IS GIVING AWAY AN XBOX SERIES X 'SWALLOWED' BY A FIVE-FOOT ALLIGATOR"
+ ],
+ "sources": [
+  "The Hechinger Report",
+  "Route Fifty",
+  "Visual Studio Code",
+  "Microsoft 365 Roadmap",
+  "Azure Updates",
+  "Xbox Wire",
+  "Mashable",
+  "Windows Central",
+  "GitHub Changelog",
+  "Microsoft Fabric Blog",
+  "Tech Community",
+  ".NET Blog"
+ ],
+ "scanned": 1460,
+ "stories": [
+  {
+   "id": "datacenter-academy",
+   "title": "A Wisconsin college trains data centre technicians in a Microsoft Datacenter Academy",
+   "summary": "Gateway Technical College's Microsoft Datacenter Academy offers four hands-on courses over two semesters toward a Microsoft Data Center Certificate. By the end of May, 14 students had reportedly earned it and 206 were enrolled, and Microsoft-funded scholarships cover the $2,277 tuition and about $760 for books.",
+   "for": "Community colleges and their students",
+   "status": "Running since fall 2025",
+   "edu": true,
+   "chapter": "CAMPUS TO CAREER",
+   "badge": "REPORTED",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "The Hechinger Report",
+     "url": "https://hechingerreport.org/tech-companies-enlist-colleges-to-help-them-train-data-center-workers/"
+    }
+   ]
+  },
+  {
+   "id": "vscode-1145",
+   "title": "VS Code 1.145 lets Claude review a plan Copilot wrote, and adds a Blobby break game",
+   "summary": "In Visual Studio Code 1.145, nested agent sessions can use different harnesses side by side (a preview setting), so you can ask Claude to review a plan a Copilot chat wrote, or give Codex the same task. It also adds cron schedules for local automations and an experimental Blobby jump game for short breaks.",
+   "for": "Student coders",
+   "status": "Released; harness mixing in preview",
+   "edu": false,
+   "chapter": "FOR STUDENTS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Visual Studio Code",
+     "url": "https://code.visualstudio.com/updates/v1_145"
+    }
+   ]
+  },
+  {
+   "id": "teams-facilitator-ppt",
+   "title": "Teams' Facilitator is due to turn meeting discussions into PowerPoint decks",
+   "summary": "You'll be able to ask Facilitator to create a PowerPoint presentation from what was said, the chat and the shared files in a Teams meeting; it can already draft documents in Word. Handy, for example, after a staff meeting. It's in development on the Microsoft 365 roadmap for December.",
+   "for": "Staff and school leaders",
+   "status": "Due December 2026",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571296"
+    }
+   ]
+  },
+  {
+   "id": "agc-mcp-gateway",
+   "title": "Azure Application Gateway for Containers can now front MCP servers, in preview",
+   "summary": "A new MCPRoute resource lets platform teams publish MCP servers for AI agents behind a stable hostname and path, with TLS, JWT validation and the web application firewall managed centrally. JWT validation and private ingress also reached public preview the same day.",
+   "for": "University IT",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=576388"
+    }
+   ]
+  },
+  {
+   "id": "asr-vmss-flex",
+   "title": "Azure Site Recovery's improved disaster recovery for flexible scale sets is generally available",
+   "summary": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration, with better target configuration and end-to-end failover and reprotect.",
+   "for": "University IT",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=578926"
+    }
+   ]
+  },
+  {
+   "id": "storage-discovery",
+   "title": "Azure Storage Discovery now shows access patterns, data age and tiers, in preview",
+   "summary": "Advanced capacity insights in Azure Storage Discovery give more visibility into storage use, including access patterns, data age, storage tiers, object size distribution and retention, so teams can see which data is old or rarely touched.",
+   "for": "Research data teams",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "RESEARCH DATA",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=578655"
+    }
+   ]
+  },
+  {
+   "id": "sql-pitr-immutable",
+   "title": "Azure SQL backups can stay immutable for the full retention period, in preview",
+   "summary": "Azure SQL Database and SQL Managed Instance can now lock point-in-time restore backups as immutable for the whole configured retention, beyond the default 7 days of immutable backups that were already available.",
+   "for": "University IT",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=579305"
+    }
+   ]
+  },
+  {
+   "id": "appinsights-apikeys",
+   "title": "Application Insights API keys for queries now retire on 31 March 2027",
+   "summary": "Microsoft has extended the retirement date: on 31 March 2027, API keys used to query Azure Monitor Application Insights data will be retired, so apps and scripts that use them need to switch to Microsoft Entra ID.",
+   "for": "University developers and IT",
+   "status": "Retires 31 March 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=transition-to-azure-ad-to-query-data-from-azure-monitor-application-insights-by-31-march-2026"
+    }
+   ]
+  },
+  {
+   "id": "escape-academy-2",
+   "title": "Escape Academy 2: Back 2 School is on Game Pass from 5 November",
+   "summary": "The sequel joins its timed escape rooms into an explorable, puzzle-filled campus, solo or in local or online co-op, on Xbox Series X|S, Xbox on PC and day one with Game Pass. Xbox Wire's tips: keep a pencil and paper handy and think backwards from the goal.",
+   "for": "Students, after hours",
+   "status": "Out 5 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/04/escape-academy-2-tips/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-nano",
+   "title": "Xbox's Nano Controller is out at $49.99, built for smaller hands",
+   "summary": "The new controller measures 133 x 66.5 x 36.6 mm and weighs 101 g, about a third of a standard Xbox Wireless Controller, with a built-in battery that charges over USB-C. It works with Xbox consoles, Windows PCs, tablets, compatible smart TVs and iOS or Android devices; $49.99 is the US price.",
+   "for": "Students, after hours",
+   "status": "Out now ($49.99 in the US)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Mashable",
+     "url": "https://mashable.com/tech/xbox-nano-controller-launch-first-impressions"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Thursday."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on everything new from Microsoft."
+  },
+  {
+   "s": 15.0,
+   "t": "Learn by doing. At a Wisconsin college, a Microsoft Datacenter Academy trains data centre technicians."
+  },
+  {
+   "s": 22.03,
+   "t": "By May, 14 had the certificate, and 206 were enrolled."
+  },
+  {
+   "s": 31.88,
+   "t": "Microsoft-funded scholarships cover the tuition, about $2,300, and the books."
+  },
+  {
+   "s": 39.38,
+   "t": "Gateway's dean says it isn't really about steering graduates to Microsoft."
+  },
+  {
+   "s": 43.67,
+   "t": "It's for the whole community."
+  },
+  {
+   "s": 46.41,
+   "t": "Student coders? In VS Code, Claude can review a plan Copilot wrote, in preview."
+  },
+  {
+   "s": 52.97,
+   "t": "And when you need a break, there's Blobby, a little jumping game starring the VS Code pet."
+  },
+  {
+   "s": 60.0,
+   "t": "Staff meeting? In December, Teams' Facilitator is due to turn what was said into a PowerPoint deck."
+  },
+  {
+   "s": 67.5,
+   "t": "It works from the conversation, the meeting chat and shared files. It already drafts in Word."
+  },
+  {
+   "s": 75.0,
+   "t": "University IT building AI agents?"
+  },
+  {
+   "s": 77.47,
+   "t": "Azure can now put MCP servers behind one gateway, in preview."
+  },
+  {
+   "s": 82.5,
+   "t": "And Azure Site Recovery's improved disaster recovery for flexible scale sets is now generally available."
+  },
+  {
+   "s": 90.0,
+   "t": "Research storage piling up? Azure Storage Discovery now shows access patterns, data age and tiers, in preview."
+  },
+  {
+   "s": 97.5,
+   "t": "So you can see which data is old or rarely touched, and how much sits in each tier."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? In preview, Azure SQL backups can stay locked for the full retention, not just seven days."
+  },
+  {
+   "s": 112.5,
+   "t": "And Application Insights API keys now retire on March 31, 2027. Switch to Entra."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours? Escape Academy 2: Back 2 School is on Game Pass from November 5."
+  },
+  {
+   "s": 128.44,
+   "t": "Xbox's tips? Keep a pencil and paper handy, and think backwards from the goal."
+  },
+  {
+   "s": 135.0,
+   "t": "And Xbox's new Nano Controller is out: 101 grams, built for smaller hands."
+  },
+  {
+   "s": 142.5,
+   "t": "Hands-on courses, agents checking agents, pencil-and-paper puzzles: that's how you learn by doing."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: shipped today, and more on the way."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And it keeps on shipping."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-05/Microsoft-for-Education-Daily_2026-11-05.mp4",
+  "mb": 52.7,
+  "bytes": 52696182,
+  "seconds": 180.01
+ },
+ "links": {}
+}
