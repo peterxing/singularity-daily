@@ -1,0 +1,418 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-06",
+ "ep": 11,
+ "hook": "PAUSE AND QUESTION.",
+ "day": "Friday 6 November 2026",
+ "note": "FOR EDUCATION · FRIDAY 6 NOVEMBER 2026",
+ "tldr": "Pause and question: 2,000 Filipino teachers are set to earn AI literacy credentials, Behind the Chat helps teens think twice, and Teams Rooms is due to show two screens at once.",
+ "chapters": [
+  "TEACHERS FIRST",
+  "AI LITERACY",
+  "CAMPUS IT",
+  "CODE LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Fri 6 Nov 2026 (Thursday 5 Nov in the US).",
+ "notes": [
+  "DepEd's program aims to credential 2,000 teachers through May 2027; Behind the Chat first launched in June 2026 and launched for DepEd's teachers on 5 Nov.",
+  "Teams Rooms' two-screen view (due December) and expiring share links (due February 2027) are roadmap features in development; the new Xbox PC app is for Xbox Insiders and the phone controller is in preview.",
+  "Screenshots are the publishers' public pages as captured on 6 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "PAUSE AND QUESTION. 🧠\n\nThe last 24h at Microsoft for education:\n- Philippines: 2,000 teachers to earn AI literacy credentials\n- Behind the Chat helps teens think twice about AI\n- Teams Rooms: two screens side by side (due Dec)\n- Xbox: Anno 117 free to try this weekend",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (6 Nov 2026): Microsoft and DepEd's plan to credential 2,000 Filipino teachers in AI literacy, Microsoft Elevate for Educators' free credential, Behind the Chat for safe AI conversations with teens, Q3 email phishing trends and security exceptions, Defender's local AI agent discovery, two shared screens in Teams Rooms, Microsoft Research's PDD Kit, GitHub accessibility statements, Windows patching, expiring share links, the faster Xbox PC app, Anno 117 free to try and the phone-as-controller preview, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "DEPED PROGRAM: TWO VIRTUAL SESSIONS IN NOVEMBER, EIGHT LIVE SESSIONS FROM JANUARY TO MAY, AND A RECOGNITION DAY IN MAY 2027",
+  "MICROSOFT AND AUDENTES TECHNOLOGIES WILL TRAIN AND CREDENTIAL 2,000 DEPED EDUCATORS IN AI LITERACY",
+  "SIMILAR TEACHER PROGRAMS ARE UNDER WAY IN INDONESIA, MALAYSIA AND THAILAND",
+  "MICROSOFT IS GIVING 1 MILLION FILIPINO PUBLIC SCHOOL TEACHERS ACCESS TO MICROSOFT COPILOT (ANNOUNCED IN AUGUST)",
+  "BEHIND THE CHAT AND THE AI CLASSROOM TOOLKIT WERE DEVELOPED WITH CYBERLITE",
+  "AI CLASSROOM TOOLKIT: NEW LESSONS ON VERIFICATION AND MEDIA AND AI LITERACY, ADDED IN OCTOBER",
+  "MICROSOFT PRO BADGE: A FREE, NO-EXAM CREDENTIAL FOR GITHUB COPILOT, EARNED FROM EVERYDAY USE",
+  "GITHUB COPILOT NOW WORKS IN XCODE'S BUILT-IN CODING ASSISTANT, IN PUBLIC PREVIEW (XCODE 27.3 BETA)",
+  "FOUNDRY LOCAL: CODE WITH GITHUB COPILOT ON QWEN3.8-27B, RUNNING ON YOUR OWN 24 GB GPU",
+  "NEW GITHUB REPOSITORIES NOW GET AN 'ACCESSIBILITY' ISSUE LABEL BY DEFAULT",
+  "QR CODE PHISHING FELL 67% IN Q3, TO ABOUT 12.1 MILLION ATTACKS",
+  "IN TEAMS, ATTACKERS INCREASINGLY USE ORDINARY PERSONAL NAMES RATHER THAN HELP DESK IDENTITIES",
+  "MICROSOFT EXECUTION CONTAINERS FOR AI AGENTS ARE GENERALLY AVAILABLE",
+  "WINDOWS AUTOPATCH AND HOTPATCHING CAN SPEED UP SECURITY UPDATES ON ELIGIBLE DEVICES",
+  "TEAMS ADMINS CAN NOW CHOOSE WHETHER PROFANITY IS MASKED IN MEETING TRANSCRIPTS; FILTERING STAYS ON BY DEFAULT",
+  "FABRIC CAPACITY METRICS CAN NOW FIND EXPENSIVE QUERIES, GENERALLY AVAILABLE",
+  "EVENTHOUSE SUPPORT FOR ONELAKE SECURITY IS GENERALLY AVAILABLE",
+  "POWER QUERY: A NEW EXPERIENCE FOR FINDING AND CONNECTING TO DATA, IN PREVIEW",
+  "AZURE: WAF INSIGHTS FOR APPLICATION GATEWAY IS GENERALLY AVAILABLE",
+  "EDGE'S NEW TAB GETS A REIMAGINED DISCOVER FEED IN THE US, CANADA, UK, AUSTRALIA AND INDIA",
+  "XBOX CLOUD GAMING ON THE WEB: LIGHT MODE AND FIVE NEW HIGH-CONTRAST OPTIONS, REACHING MORE PLAYERS IN THE COMING WEEKS",
+  "FREE PLAY DAYS FOR GAME PASS MEMBERS: PAYDAY 3, BALL X PIT, AGE OF WONDERS 4 AND MORE, UNTIL 8 NOVEMBER",
+  "MICROSOFT IGNITE: 17-20 NOVEMBER, IN SAN FRANCISCO AND ONLINE"
+ ],
+ "sources": [
+  "Microsoft Source Asia",
+  "Microsoft Security Blog",
+  "Microsoft 365 Roadmap",
+  "Microsoft Research Blog",
+  "GitHub Blog",
+  "Windows Experience Blog",
+  "Xbox Wire",
+  "GitHub Changelog",
+  "Microsoft Foundry Blog",
+  "Microsoft Skills Hub Blog",
+  "Microsoft Fabric Blog",
+  "Microsoft Edge Blog",
+  "Azure Updates"
+ ],
+ "scanned": 1541,
+ "stories": [
+  {
+   "id": "deped-ai-literacy",
+   "title": "Microsoft and DepEd set out to credential 2,000 Filipino teachers in AI literacy",
+   "summary": "Microsoft and the Philippines' Department of Education (DepEd) launched Microsoft Elevate for Educators for public school teachers, with a day of hands-on training for about 100 senior high teachers in Makati. With Audentes Technologies, they aim to credential 2,000 teachers in AI literacy through sessions running to May 2027.",
+   "for": "Public school teachers (Philippines)",
+   "status": "Launched; training runs to May 2027",
+   "edu": true,
+   "chapter": "TEACHERS FIRST",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Source Asia",
+     "url": "https://news.microsoft.com/source/asia/2026/11/05/microsoft-and-deped-to-credential-2000-filipino-teachers-in-ai-literacy-and-equip-classrooms-for-safe-responsible-ai-use/"
+    }
+   ]
+  },
+  {
+   "id": "elevate-free-credential",
+   "title": "Any educator can join Microsoft Elevate for Educators and earn its free credential",
+   "summary": "Microsoft Elevate for Educators brings professional learning, a global community of more than 100,000 educators and recognition together, and educators can earn its free credential, developed with ISTE+ASCD and aligned to the AI Literacy Framework.",
+   "for": "Educators and school leaders",
+   "status": "Open to educators",
+   "edu": true,
+   "chapter": "AI LITERACY",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Source Asia",
+     "url": "https://news.microsoft.com/source/asia/2026/11/05/microsoft-and-deped-to-credential-2000-filipino-teachers-in-ai-literacy-and-equip-classrooms-for-safe-responsible-ai-use/"
+    },
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/10/meet-the-educators-shaping-the-future-of-learning/"
+    }
+   ]
+  },
+  {
+   "id": "behind-the-chat",
+   "title": "Behind the Chat helps teachers and parents talk with teens about AI",
+   "summary": "Behind the Chat is a set of scenario-based resources for teens, educators and parents that follows three fictional young people through privacy and oversharing, AI-guided decisions and emotional attachment. Made with Cyberlite and shaped by 131 students aged 12 to 18, it now reaches DepEd's teachers alongside the AI Classroom Toolkit.",
+   "for": "Teachers and parents of teens",
+   "status": "Available now",
+   "edu": true,
+   "chapter": "AI LITERACY",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Source Asia",
+     "url": "https://news.microsoft.com/source/asia/2026/11/05/microsoft-and-deped-to-credential-2000-filipino-teachers-in-ai-literacy-and-equip-classrooms-for-safe-responsible-ai-use/"
+    },
+    {
+     "outlet": "Microsoft Source Asia (June)",
+     "url": "https://news.microsoft.com/source/asia/2026/06/25/microsoft-launches-behind-the-chat-resources-to-help-teens-build-safer-ai-habits/"
+    }
+   ]
+  },
+  {
+   "id": "email-threats-q3",
+   "title": "Microsoft counts 7.3 billion email phishing threats in Q3 and flags broad exceptions",
+   "summary": "Microsoft Threat Intelligence detected about 7.3 billion email phishing threats from July to September 2026, nearly 3 billion in September alone (up 41% on August). Many spoofed business-service messages were delivered through broad tenant or user exceptions, so it's worth reviewing yours.",
+   "for": "Campus IT",
+   "status": "Threat report",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/"
+    }
+   ]
+  },
+  {
+   "id": "defender-local-agents",
+   "title": "Microsoft Defender now discovers more than 50 local AI agents on Windows and macOS",
+   "summary": "Microsoft Defender now discovers more than 50 supported local AI agents on Windows and macOS devices, bringing together the agent, device, account and the MCP servers each one is set up to use, so IT can see what's running.",
+   "for": "Campus IT",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "teams-rooms-two-screens",
+   "title": "Teams Rooms on Windows is due to show two shared screens side by side",
+   "summary": "Teams Rooms on Windows will show up to two shared screens side by side in meetings, with each presenter identified and layouts for single or dual displays, so presenters don't have to hand off. It needs Teams Rooms Pro and is in development on the Microsoft 365 roadmap for December; handy, for example, in lecture rooms.",
+   "for": "Campus IT and AV teams",
+   "status": "Due December 2026",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579184"
+    }
+   ]
+  },
+  {
+   "id": "pdd-kit",
+   "title": "Microsoft Research's PDD Kit proves AI agents' code meets its spec",
+   "summary": "Microsoft Research's PDD Kit (Proof-Driven Development) turns your intent into a formal specification and proves that an AI agent's code meets it for every input, falling back to tests where a proof can't reach. It uses Verus, a proof language for Rust co-developed with universities including UNSW Sydney.",
+   "for": "Computer science departments",
+   "status": "Research",
+   "edu": false,
+   "chapter": "CODE LAB",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Research Blog",
+     "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"
+    }
+   ]
+  },
+  {
+   "id": "github-accessibility-md",
+   "title": "GitHub now shows ACCESSIBILITY.md statements on repository pages",
+   "summary": "GitHub now recognises an ACCESSIBILITY.md file and shows it on a repository's overview page, giving projects one place to explain accessibility goals, known limitations and how to report barriers. New repositories also get an 'accessibility' issue label by default.",
+   "for": "Student and university projects",
+   "status": "Available now",
+   "edu": false,
+   "chapter": "CODE LAB",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "GitHub Blog",
+     "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/"
+    }
+   ]
+  },
+  {
+   "id": "windows-patching",
+   "title": "October's Windows update fixed over 1,100 flaws, and Microsoft urges prompt patching",
+   "summary": "October's Windows security update fixed more than 1,100 vulnerabilities, and Microsoft warns attackers can study a published fix within hours. In an August sample of business PCs, fewer than half had installed the update two weeks after release; Microsoft advises installing updates promptly, with tools like Windows Autopatch.",
+   "for": "School IT",
+   "status": "Security guidance",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Windows Experience Blog",
+     "url": "https://blogs.windows.com/windowsexperience/2026/11/05/a-new-standard-for-vulnerability-management-in-the-ai-era/"
+    }
+   ]
+  },
+  {
+   "id": "share-link-expiry",
+   "title": "OneDrive and SharePoint sharing links are due to get expiry dates",
+   "summary": "People will be able to set expiry dates for 'Anyone' and 'People in your organization' access on the main sharing link in OneDrive and SharePoint, and admins can require expiry and set a maximum duration. It's in development on the Microsoft 365 roadmap for February 2027.",
+   "for": "School IT",
+   "status": "Due February 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571399"
+    }
+   ]
+  },
+  {
+   "id": "xbox-pc-app",
+   "title": "Xbox Insiders get a new Xbox PC app that launches up to 60% faster",
+   "summary": "Xbox Insiders can try a redesigned Xbox PC app that launches up to 60% faster, with pages loading up to 50% faster, an easier Library, friends in the main navigation and better search. The refreshed cloud gaming web experience, with five new high-contrast options, reaches more players over the coming weeks.",
+   "for": "Students, after hours",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud/"
+    }
+   ]
+  },
+  {
+   "id": "anno-117-free-play",
+   "title": "Anno 117: Pax Romana is free for all Xbox members to try, 5-8 November",
+   "summary": "In Xbox Free Play Days, Anno 117: Pax Romana, a city-builder set in the Roman Empire, is free for all Xbox members to try from 5 to 8 November, no Game Pass needed. Game Pass members can also try PAYDAY 3, BALL x PIT, Age of Wonders 4 and more.",
+   "for": "Students, after hours",
+   "status": "Free to try, 5-8 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/05/free-play-days-11-04-2026/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-phone-controller",
+   "title": "Xbox Cloud Gaming previews your phone as a controller on smart TVs",
+   "summary": "In a new Xbox Cloud Gaming preview, a supported Android or iOS phone can be your controller on supported smart TVs, with the controls opening in the phone's browser. In the US, cloud connect with the Xbox Nano Controller is also in preview.",
+   "for": "Students, after hours",
+   "status": "Preview",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/04/cloud-gaming-inputs-preview/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Friday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in Microsoft updates, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Pause and question. In the Philippines, 2,000 public school teachers are set to earn AI literacy credentials."
+  },
+  {
+   "s": 22.03,
+   "t": "It kicked off with about a hundred senior high teachers, hands-on, in Makati."
+  },
+  {
+   "s": 31.88,
+   "t": "Two online sessions follow this month, then eight live ones from January to May."
+  },
+  {
+   "s": 39.38,
+   "t": "And any teacher can join Microsoft Elevate for Educators, and earn its free credential."
+  },
+  {
+   "s": 46.41,
+   "t": "To talk with teens, there's Behind the Chat: three fictional young people in tricky AI situations."
+  },
+  {
+   "s": 52.97,
+   "t": "Microsoft's Madeline Shepherd says it's about helping young people pause, and question what they see."
+  },
+  {
+   "s": 60.0,
+   "t": "Campus IT?"
+  },
+  {
+   "s": 60.72,
+   "t": "Microsoft detected about 7.3 billion email phishing threats from July to September."
+  },
+  {
+   "s": 67.5,
+   "t": "Many spoofed messages got through on broad security exceptions, so it's worth checking yours."
+  },
+  {
+   "s": 75.0,
+   "t": "On campus devices, Defender can now spot more than 50 local AI agents, on Windows and Mac."
+  },
+  {
+   "s": 82.5,
+   "t": "And in December, Teams Rooms on Windows is due to show two shared screens side by side."
+  },
+  {
+   "s": 90.0,
+   "t": "Microsoft Research's PDD Kit turns your intent into a spec, then proves an agent's code meets it."
+  },
+  {
+   "s": 97.5,
+   "t": "And for student coders, GitHub now shows a project's accessibility statement on its overview page."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? October's Windows update fixed over 1,100 flaws."
+  },
+  {
+   "s": 110.03,
+   "t": "So patch promptly."
+  },
+  {
+   "s": 112.5,
+   "t": "And from February, admins should be able to make OneDrive and SharePoint share links expire."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours? Xbox Insiders get a new PC app that launches up to 60% faster."
+  },
+  {
+   "s": 128.44,
+   "t": "History fans? Anno 117 is free for all Xbox members to try, until Sunday."
+  },
+  {
+   "s": 135.0,
+   "t": "And on supported smart TVs, your phone can now be the controller for cloud games, in preview."
+  },
+  {
+   "s": 142.5,
+   "t": "Teachers learning AI, teens thinking twice, proof-checked code: the smart move is to pause and question."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "Some of it's shipped. The rest is on its way."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-06/Microsoft-for-Education-Daily_2026-11-06.mp4",
+  "mb": 50.8,
+  "bytes": 50800418,
+  "seconds": 180.01
+ },
+ "links": {}
+}
