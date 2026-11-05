@@ -1,8 +1,36 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-04T20:14:21+00:00",
- "episodes": 4,
+ "updated": "2026-11-05T21:14:28+00:00",
+ "episodes": 5,
  "links": [
+  {
+   "fid": "2027-2",
+   "key": "041b303e2d",
+   "relation": "early",
+   "note": "METR estimates Anthropic's models now improve about twice as fast, mostly because Anthropic uses AI for its own research, though AI can't yet do the key training work alone.",
+   "ep": 5,
+   "on": "2026-11-06",
+   "date": "2026-11-05",
+   "story": "metr-anthropic",
+   "title": "An outside review finds Anthropic's AI is improving about twice as fast, mostly thanks to AI",
+   "pillar": "intelligence",
+   "outlet": "METR",
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "In gerbils, light-based cochlear implants gave more distinct hearing-nerve signals than electrical ones, a step toward sensory restoration with more channels; it needs gene therapy and isn't in people yet.",
+   "ep": 5,
+   "on": "2026-11-06",
+   "date": "2026-11-05",
+   "story": "optical-cochlear",
+   "title": "Hearing implants that use light sent clearer, more distinct signals than electrical ones, in gerbils",
+   "pillar": "intelligence",
+   "outlet": "EMBO Molecular Medicine",
+   "url": "https://link.springer.com/article/10.1038/s44321-026-00541-2"
+  },
   {
    "fid": "horizon-non-invasive-neural-symbiosis",
    "key": "04fc97cca9",

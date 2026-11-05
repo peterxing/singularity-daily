@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-04T20:14:21+00:00",
- "latest": "2026-11-05",
+ "updated": "2026-11-05T21:14:28+00:00",
+ "latest": "2026-11-06",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-06",
+   "ep": 5,
+   "hook": "LEVEL UP.",
+   "day": "Friday 6 November 2026",
+   "tldr": "Level up: an outside review finds AI is now speeding up AI at Anthropic, a drug plus vibration seemed to help flush Alzheimer's-linked proteins in 29 people, and a robot moth grew its own sensor.",
+   "stories": 16,
+   "forecasts": 2,
+   "links": {
+    "supports": 0,
+    "early": 2,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 5,
+    "wellbeing": 3,
+    "intelligence": 5,
+    "frontier": 3
+   },
+   "titles": [
+    "An outside review finds Anthropic's AI is improving about twice as fast, mostly thanks to AI",
+    "OpenAI says its GPT-6 Cyber found 81 unknown, serious flaws in Firefox",
+    "Sydney physicists found a one-bit nudge can send an AI's training somewhere else"
+   ],
+   "cover": "daily/th/media/2026-11-06/cover.webp",
+   "thumb": "daily/th/media/2026-11-06/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-06/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-06/The-Transhuman-Daily_2026-11-06.mp4",
+    "mb": 61.1,
+    "bytes": 61081405,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-05",
    "ep": 4,
@@ -105,7 +140,7 @@
    "cover": "daily/th/media/2026-11-03/cover.webp",
    "thumb": "daily/th/media/2026-11-03/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/th/media/2026-11-03/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-03/The-Transhuman-Daily_2026-11-03.mp4",
     "mb": 55.9,

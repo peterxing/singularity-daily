@@ -1,0 +1,531 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-06",
+ "ep": 5,
+ "hook": "LEVEL UP.",
+ "day": "Friday 6 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · FRIDAY 6 NOVEMBER 2026",
+ "tldr": "Level up: an outside review finds AI is now speeding up AI at Anthropic, a drug plus vibration seemed to help flush Alzheimer's-linked proteins in 29 people, and a robot moth grew its own sensor.",
+ "chapters": [
+  "LEVEL UP",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:57 AEDT, Fri 6 Nov 2026.",
+ "notes": [
+  "Evidence: the hearing implants were tested in gerbils and psilocybin in mice; the brain-clearance study had 29 healthy volunteers; the estrogen, lockdown, heat and loneliness findings are observational; GPT-6 Cyber's numbers are OpenAI's; the code-breaking estimate is a preprint.",
+  "METR's assessment is independent but not peer reviewed and carries high uncertainty; Anthropic redacted much of its evidence.",
+  "Screenshots are the publishers' public pages as captured on 6 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "LEVEL UP. 🎮\n\nThe day in transhumanism:\n- Anthropic's AI is improving ~2x faster, largely via AI (outside review)\n- A BP drug + vibration seemed to flush Alzheimer's proteins (29 people)\n- Loneliness linked to an older biological age\n- A robot moth grew its own sensor 🦋",
+  "alt": "A 3-minute motion-graphics showreel of the day in transhumanism (6 Nov 2026): METR's finding that Anthropic's AI progress has roughly doubled in pace, OpenAI's GPT-6 Cyber, a Sydney study of unpredictable AI training, light-based hearing implants in gerbils, AI that fills gaps in brain scans, a drug-plus-vibration brain clearance study, estrogen and brain blood vessels, pandemic stress and epigenetic ageing, hot homes and older hearts, loneliness and biological age, psilocybin in mice, tumour reports after an SMA gene therapy, a meditation trial, a robot moth that grows its own sensor, a quantum code-breaking estimate and DNA nanoswitches for drug discovery, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "METR REVIEWED ANTHROPIC FOR 11 WEEKS; ANTHROPIC REDACTED MOST OF THE EVIDENCE METR FOUND MOST INFORMATIVE",
+  "METR: AN INFORMAL STAFF POLL PUT THE SELF-REPORTED SPEED-UP FROM ANTHROPIC'S BEST INTERNAL MODEL AT ABOUT 12X",
+  "GPT-6 CYBER STAYED IN SCOPE IN 99.93% OF HONEYPOT TESTS WITHOUT ITS SAFETY PROMPT",
+  "OPENAI HAS DISCLOSED 304 CRITICAL LINUX FINDINGS TO MAINTAINERS WITH PROPOSED PATCHES",
+  "SYDNEY: LOWER LEARNING RATES MADE TRAINING REPRODUCIBLE, BUT THE NETWORKS LEARNED LESS",
+  "TODAY'S COCHLEAR IMPLANTS HAVE 12-24 CHANNELS; USUALLY NO MORE THAN 10 CAN BE TOLD APART",
+  "OULU: BRAIN PROTEINS WERE SEEN PASSING STRAIGHT INTO THE LARGE VEINS AT THE BACK OF THE BRAIN",
+  "ESTROGEN STUDY: MENOPAUSAL HORMONE THERAPY USERS ALSO HAD FEWER SIGNS OF SMALL-VESSEL DISEASE",
+  "LOCKDOWN STUDY: PEOPLE ALREADY VULNERABLE BEFORE THE PANDEMIC WERE HIT HARDEST",
+  "HOT HOMES: INDOOR HEAT, NOT HUMIDITY, DROVE THE HEART STRAIN",
+  "LONELINESS STUDY: HAVING NO ONE TO CONFIDE IN MATTERED ABOUT AS MUCH AS FEELING LONELY",
+  "PEOPLE WITH SCHIZOPHRENIA ARE USUALLY EXCLUDED FROM PSYCHEDELIC TRIALS",
+  "ZOLGENSMA'S LABEL ALREADY WARNS OF A THEORETICAL TUMOUR RISK; REGULATORS ARE ASSESSING THE REPORTS",
+  "ROBOT MOTH: ITS NEW SENSOR STILL WORKED AFTER FOUR MONTHS IN STORAGE",
+  "ALICE & BOB'S QUBIT ESTIMATE FOR RSA-2048 FELL FROM 350,000 IN 2023 TO UNDER 23,000",
+  "A UNITREE G1 HUMANOID OVERHEATED IN THE MOUNT TAI ROBOT RACE AND WAS CARRIED DOWN ON A STRETCHER",
+  "A FRONTIERS IN AGING PERSPECTIVE PITCHES CAPSULES OF IMPLANTED CELLS AS A STEADY KLOTHO SUPPLY",
+  "TWO NEUROSCIENTISTS ARGUE CONSCIOUSNESS MAY START IN THE BRAINSTEM, NOT THE CORTEX",
+  "META SAYS US USERS CAN NOW VIDEO CHAT WITH THEIR MUSE AI AVATAR",
+  "GOOGLE DEEPMIND RELEASED GEMINI OMNI 1.2 FLASH, FOR LONGER VIDEO CLIPS"
+ ],
+ "sources": [
+  "METR",
+  "Reuters",
+  "The Information",
+  "Unite.AI",
+  "OpenAI",
+  "The Next Web",
+  "The Verge",
+  "University of Sydney",
+  "Mirage News",
+  "Nature Machine Intelligence",
+  "University Medical Center Göttingen",
+  "EMBO Molecular Medicine",
+  "Medical Xpress",
+  "USC Stevens INI",
+  "Medical Image Analysis",
+  "University of Oulu",
+  "Nature Communications",
+  "Karolinska Institutet",
+  "ScienceAlert",
+  "Neurology",
+  "Max Planck Institute of Psychiatry",
+  "PNAS",
+  "Griffith University",
+  "Temperature",
+  "PsyPost",
+  "Health Psychology",
+  "Florey Institute",
+  "Neuropsychopharmacology",
+  "BioSpace",
+  "STAT",
+  "Novartis",
+  "PLOS One",
+  "New Atlas",
+  "University of Tartu",
+  "Advanced Science",
+  "Alice & Bob",
+  "Cryptology ePrint Archive",
+  "Wyss Institute",
+  "Phys.org",
+  "Science",
+  "Global Times"
+ ],
+ "scanned": 1447,
+ "stories": [
+  {
+   "id": "metr-anthropic",
+   "title": "An outside review finds Anthropic's AI is improving about twice as fast, mostly thanks to AI",
+   "summary": "METR, an independent AI-safety nonprofit, spent 11 weeks inside Anthropic and estimates its models now improve on well-specified tasks about twice as fast as in 2024-25 (1.3x to 3x), mostly because Anthropic uses AI for its own research. An independent assessment with high uncertainty; Anthropic redacted much of the evidence.",
+   "pillar": "intelligence",
+   "evidence": "Independent assessment, not peer reviewed",
+   "chapter": "LEVEL UP",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "METR",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    },
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/metr-estimates-anthropics-model-capability-growth-has-nearly-doubled/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "METR estimates Anthropic's models now improve about twice as fast, mostly because Anthropic uses AI for its own research, though AI can't yet do the key training work alone."
+    }
+   ]
+  },
+  {
+   "id": "gpt-6-cyber",
+   "title": "OpenAI says its GPT-6 Cyber found 81 unknown, serious flaws in Firefox",
+   "summary": "OpenAI released GPT-6 Cyber, rated 'Critical' for cybersecurity, to vetted defenders only. It says the model found 81 previously unknown high-severity Firefox flaws, which Mozilla has started fixing, and built working exploits for 948 Linux kernel vulnerabilities. Company claims from OpenAI's own tests.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sydney-one-bit",
+   "title": "Sydney physicists found a one-bit nudge can send an AI's training somewhere else",
+   "summary": "University of Sydney physicists trained about 500,000 neural networks and found the 'map' of where training ends up is a fractal: in one image network, a single-bit change to the starting settings led somewhere new in about 48% of runs (Nature Machine Intelligence). Understanding it could make AI more consistent.",
+   "pillar": "intelligence",
+   "evidence": "Peer-reviewed study",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "University of Sydney (Mirage News)",
+     "url": "https://www.miragenews.com/sydney-researchers-find-hidden-limit-to-ai-1772540/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "optical-cochlear",
+   "title": "Hearing implants that use light sent clearer, more distinct signals than electrical ones, in gerbils",
+   "summary": "A University Medical Center Göttingen team made gerbils' hearing nerves light-sensitive with gene therapy; LED signals were easier to tell apart than electrical ones, even with LEDs close together (EMBO Molecular Medicine). A step toward implants with more channels; an animal study that needs gene therapy, not yet in people.",
+   "pillar": "intelligence",
+   "evidence": "Animal study (gerbils)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "EMBO Molecular Medicine",
+     "url": "https://link.springer.com/article/10.1038/s44321-026-00541-2"
+    },
+    {
+     "outlet": "UMG Göttingen (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-based-cochlear-implants-trigger-distinct.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "In gerbils, light-based cochlear implants gave more distinct hearing-nerve signals than electrical ones, a step toward sensory restoration with more channels; it needs gene therapy and isn't in people yet."
+    }
+   ]
+  },
+  {
+   "id": "brain-scan-gaps",
+   "title": "A USC AI fills the gaps in brain-wiring scans, to track how ageing brains change",
+   "summary": "USC's FOD-Diffusion, a generative AI, fills in diffusion-MRI brain-wiring maps where scans lose signal in the brainstem and above the eyes. Tested on scans of mostly older adults, its fibre directions were within about 1.4 degrees of the real data, against 4.5 for the next-best method (Medical Image Analysis). An imaging-method study.",
+   "pillar": "intelligence",
+   "evidence": "Imaging-method study",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "USC Stevens INI (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-generative-ai-gaps-brain-wiring.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "brain-clearance",
+   "title": "A blood-pressure drug plus vibration seemed to help flush Alzheimer's-linked proteins from 29 healthy brains",
+   "summary": "University of Oulu researchers gave 29 healthy volunteers a drug that briefly lowers blood pressure plus whole-body vibration; blood levels of beta-amyloid and other brain proteins rose, suggesting faster clearance from the awake brain (Nature Communications). A small early study of markers, not proof it prevents dementia.",
+   "pillar": "longevity",
+   "evidence": "Small early study, 29 healthy volunteers",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Nature Communications",
+     "url": "https://www.nature.com/articles/s41467-026-78894-y"
+    },
+    {
+     "outlet": "University of Oulu (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-blood-pressure-medication-vibration-boost.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "estrogen-vessels",
+   "title": "Women with more years of natural estrogen had fewer signs of brain blood-vessel damage at 70",
+   "summary": "A Karolinska Institutet study of 352 Swedish women born in 1944 found each extra reproductive year went with about 8% lower odds of two or more signs of small-vessel disease on brain MRI at 70, mostly from a later menopause (Neurology). Observational: estrogen wasn't measured directly; not advice on hormone therapy.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 352 women",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/longer-estrogen-exposure-linked-to-less-blood-vessel-damage-in-womens-brains-later-in-life"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lockdown-clocks",
+   "title": "Pandemic stress sped up epigenetic ageing clocks, and for teens, feeling stressed mattered most",
+   "summary": "A Max Planck Institute of Psychiatry study of just over 1,000 Germans aged 8 to 29, with saliva DNA from before and after the lockdowns, found the pandemic sped up epigenetic ageing in every age group; among teenagers, how burdened they felt mattered, and those already vulnerable were hit hardest (PNAS). Observational; long-term health effects are unknown.",
+   "pillar": "longevity",
+   "evidence": "Observational study, about 1,000 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "PNAS",
+     "url": "https://pnas.org/doi/10.1073/pnas.2604211123"
+    },
+    {
+     "outlet": "Max Planck Institute of Psychiatry (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-covid-stress-linked-faster-epigenetic.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hot-homes",
+   "title": "Above 26°C indoors, older Queenslanders' heart rates climbed almost twice as fast per degree",
+   "summary": "Griffith University tracked 47 people aged 65 and over through a South East Queensland summer at home, over 64,000 hours: below 26°C their heart rate rose about 0.6 beats a minute per degree, above it about 1.3, and indoor heat, not humidity, drove the strain (Temperature). A small observational study.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 47 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Temperature",
+     "url": "https://www.tandfonline.com/doi/full/10.1080/23328940.2026.2750778"
+    },
+    {
+     "outlet": "Griffith University (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-hot-homes-heart-strain-older.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "loneliness-age",
+   "title": "Lonely and isolated people were biologically a few months older, in 309,746 Brits",
+   "summary": "In UK Biobank data on 309,746 adults, the most socially isolated were about four months older on a blood-based biological-age measure and lonely people about three months older, and the two added up; having no one to confide in mattered too (Health Psychology). Observational: modest average differences, not proof of cause.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study, 309,746 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/socially-isolated-and-lonely-people-tend-to-be-biologically-older-than-their-years/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psilocybin-mice",
+   "title": "One dose of psilocybin improved sensory filtering for days in female mice modelling schizophrenia",
+   "summary": "Florey Institute and University of Melbourne researchers gave mice that model schizophrenia-relevant traits one dose of psilocybin; females showed a lasting improvement in sensory filtering, tested on days 1 and 9 (Neuropsychopharmacology). A mouse study; people with schizophrenia are excluded from psychedelic trials.",
+   "pillar": "wellbeing",
+   "evidence": "Mouse study",
+   "chapter": "SUPER WELLBEING",
+   "badge": "IN MICE",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/in-female-mice-modeling-schizophrenia-a-single-dose-of-psilocybin-restored-sensory-filtering-for-days/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "zolgensma-tumours",
+   "title": "Novartis confirms nine tumour reports among patients given its SMA gene therapy",
+   "summary": "Novartis told BioSpace that nine tumours have been reported since Zolgensma's 2019 approval among more than 6,000 patients treated; two showed evidence of the therapy's viral vector integrating into patients' DNA, and seven haven't been causally linked. The label already warns of a theoretical tumour risk, and regulators are assessing the reports.",
+   "pillar": "longevity",
+   "evidence": "Company-confirmed safety reports",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "BioSpace",
+     "url": "https://www.biospace.com/drug-development/novartis-confirms-9-reported-cases-of-tumors-in-patients-treated-with-zolgensma"
+    },
+    {
+     "outlet": "STAT",
+     "url": "https://www.statnews.com/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "loving-kindness",
+   "title": "A month of online loving-kindness meditation eased pain no better than muscle relaxation",
+   "summary": "In a preregistered Georgetown University trial, 69 healthy adults did four weeks of online loving-kindness meditation or progressive muscle relaxation: neither eased pain more on a wall-sit test, and relaxation raised perceived social support more (PLOS One). A small randomised trial run online during the pandemic.",
+   "pillar": "wellbeing",
+   "evidence": "Randomised trial, 69 people",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/loving-kindness-meditation-fails-to-beat-muscle-relaxation-for-pain-or-social-well-being-in-online-trial/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "robot-moth",
+   "title": "A robot moth grew itself a new light sensor using its artificial blood",
+   "summary": "University of Tartu and Italian Institute of Technology engineers built a 3D-printed robot moth whose roughly 3 ml of artificial blood carries a chemical that UV light turns into a conductive plastic, growing a wing sensor that still worked after four months (Advanced Science). A lab prototype that can't fly yet.",
+   "pillar": "frontier",
+   "evidence": "Lab prototype",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/robotics/tartu-iit-robot-moth-artificial-blood-uv-sensor/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "quantum-rsa",
+   "title": "A preprint reckons about 23,000 cat qubits could crack RSA-2048 encryption in about three days",
+   "summary": "Paris quantum start-up Alice & Bob estimates that 22,593 'cat' qubits could factor an RSA-2048 key, the kind that guards bank logins, in 3.14 days: about 40 times fewer qubits than an earlier Google estimate, under different assumptions. A company's preprint estimate, not peer reviewed; no such machine exists yet.",
+   "pillar": "frontier",
+   "evidence": "Preprint (resource estimate)",
+   "chapter": "THE FRONTIER",
+   "badge": "PREPRINT",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/a-quantum-computer-could-crack-major-internet-encryption-in-just-3-days-study-suggests"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dna-nanoswitches",
+   "title": "DNA nanoswitches let Harvard's Wyss Institute sift 400 million molecules for new drug leads",
+   "summary": "The Wyss Institute's FIND platform builds each experiment onto a single DNA molecule so many run in one tube, screening for molecules that change how two proteins pair up; starting from a 400-million-member library, it found small molecules and nanobodies for targets such as the diabetes protein PPAR-gamma (Science). Drug leads, not medicines yet.",
+   "pillar": "frontier",
+   "evidence": "Lab drug-discovery method",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Wyss Institute (Phys.org)",
+     "url": "https://phys.org/news/2026-11-dna-nanoswitches-drug-faster-protein.html"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Friday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in transhumanism, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Level up."
+  },
+  {
+   "s": 15.63,
+   "t": "Outside reviewers say Anthropic's AI is now improving about twice as fast."
+  },
+  {
+   "s": 22.03,
+   "t": "Roughly two years of progress in one, mostly because AI now helps build AI."
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, OpenAI says its cyber AI found 81 serious, unknown Firefox flaws; Mozilla's fixing them."
+  },
+  {
+   "s": 39.38,
+   "t": "In Sydney, flipping one tiny bit sent an AI's training somewhere else, nearly half the time."
+  },
+  {
+   "s": 46.41,
+   "t": "And in gerbils, hearing implants that use light, not electricity, sent clearer, more distinct signals."
+  },
+  {
+   "s": 53.44,
+   "t": "Plus, a USC AI fills the torn corners of brain-wiring scans, to track ageing brains."
+  },
+  {
+   "s": 60.0,
+   "t": "In longevity, a blood-pressure drug plus vibration seemed to flush Alzheimer's proteins from 29 healthy brains."
+  },
+  {
+   "s": 67.5,
+   "t": "And women with more years of natural estrogen show ed fewer signs of brain blood-vessel damage at 70."
+  },
+  {
+   "s": 75.0,
+   "t": "Pandemic stress sped up epigenetic ageing clocks, and for teens, how stressed they felt really mattered."
+  },
+  {
+   "s": 82.5,
+   "t": "Closer to home, older Queenslanders' heart rates rose almost twice as fast per degree once homes passed 26°C."
+  },
+  {
+   "s": 90.0,
+   "t": "For wellbeing, in over 300,000 Brits, loneliness went with being biologically a few months older."
+  },
+  {
+   "s": 97.5,
+   "t": "And in Melbourne, one dose of psilocybin eased a schizophrenia-like filtering problem in female mice, for days."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 106.05,
+   "t": "Novartis says nine tumours were reported among over 6,000 kids given its SMA gene therapy."
+  },
+  {
+   "s": 112.5,
+   "t": "And a month of online loving-kindness meditation e ased pain no better than simple muscle relaxation."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, a robot moth grew itself a new light sensor, using its artificial blood."
+  },
+  {
+   "s": 128.44,
+   "t": "A preprint reckons 23,000 cat qubits could cr ack bank-grade encryption in about three days."
+  },
+  {
+   "s": 135.47,
+   "t": "And Harvard's Wyss Institute used DNA switches t o sift 400 million molecules for new drug leads."
+  },
+  {
+   "s": 142.5,
+   "t": "Level up, together: smarter tools matter most when they buy all of us more good years."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay well. Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-06/The-Transhuman-Daily_2026-11-06.mp4",
+  "mb": 61.1,
+  "bytes": 61081405,
+  "seconds": 180.01
+ },
+ "links": {}
+}
