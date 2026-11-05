@@ -1,0 +1,505 @@
+{
+ "date": "2026-11-06",
+ "ep": 33,
+ "hook": "THEY HEARD YOU.",
+ "day": "Friday 6 November 2026",
+ "chapters": [
+  "AFTER THE VOTE",
+  "NEW MINDS",
+  "THE MONEY",
+  "BREAKING GROUND",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:17 AEDT, Fri 6 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: about 600,000 Nvidia chips waiting in Hong Kong for China's import approval (a Reuters exclusive citing two people familiar).",
+  "Company claims: GPT-6 Cyber's results are OpenAI's own; ChatGPT search at about 20% of Google's query volume is OpenAI's figure; Unitree's painting and chess are its CEO's account to the South China Morning Post.",
+  "The S&P 500 move is Thursday's intraday fall as AP reported it (more than 3%); the window closed before the US market close. Agility's $2.5 billion value and $1.8 million of 2025 sales are Forbes' figures.",
+  "This week: Rep. Yassamin Ansari's call to ban superintelligence (4 Nov) and Cortical Labs' neuron-steered robot dog (30 Oct).",
+  "Screenshots are the publishers' public article pages as captured on 6 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "THEY HEARD YOU. 👂\n\nThe last 24h in superintelligence:\n- OpenAI pledged to cover its data centres' power costs\n- GPT-6 Cyber got OpenAI's top risk rating\n- Agility took humanoid robots public\n- AI stocks dragged the S&P 500 down 3%+\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (6 Nov 2026), hosted by Claudia: OpenAI's new promises to data-centre towns, Meta's president on harder builds, OpenAI's 'Critical'-rated GPT-6 Cyber, ChatGPT search reaching about a fifth of Google's volume, Greg Brockman's 2027 IPO outlook, an AI stock slide, Agility Robotics going public, 600,000 Nvidia chips waiting in Hong Kong, Taisei's self-driving tunnel-boring machine, $1 million for materials science problems, shopping agents that slip up, a call to ban superintelligence, Unitree's painting humanoids, China blocking SoftBank's ABB robot deal and a robot dog steered by human neurons, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "GIZMODO: OPENAI WILL LIMIT NDAS WITH PUBLIC OFFICIALS AND PLAN WATER USE TOWN BY TOWN",
+  "THE REGISTER: GPT-6 CYBER AVOIDED OUT-OF-SCOPE TARGETS OVER 99% OF THE TIME, OPENAI SAYS",
+  "THE REGISTER: OPENAI QUADRUPLED ITS BUG BOUNTY MIDPOINTS THIS WEEK",
+  "THE VERGE: YOU CAN NOW POST AI MUSIC STRAIGHT TO SOUNDCLOUD FROM ELEVENLABS",
+  "TECHCRUNCH: ELEVENLABS SAYS MORE THAN 25 MILLION TRACKS HAVE BEEN MADE WITH ITS MUSIC MODELS",
+  "TECHCRUNCH: AGILITY'S DIGIT ROBOTS HAVE MOVED MORE THAN 100,000 TOTES AT A GXO SITE",
+  "BLOOMBERG: NVIDIA-BACKED AGILITY IS THE FIRST HUMANOID MAKER TO GO PUBLIC IN THE US",
+  "WSJ: CROWDSTRIKE TO BUY TWO AI SECURITY STARTUPS FOR $495 MILLION",
+  "BLOOMBERG: SHIELD AI TO HIT A $28.8 BILLION VALUE WITH A $5.3 BILLION RADAR ACQUISITION",
+  "CNBC: CHINESE AI LAB MOONSHOT TURNED TO EUROPE FOR NVIDIA BLACKWELL ACCESS, SOURCES SAY",
+  "REUTERS: AI INSURANCE STARTUP KALEPA VALUED AT $470 MILLION",
+  "TECHCRUNCH: DROPBOX ACQUIRES TIGRIS DATA FOR $350 MILLION",
+  "BLOOMBERG: CLAUDE NARROWS CHATGPT'S LEAD IN THE UK CONSUMER AI MARKET",
+  "FORBES: INDIA IS NOW CHATGPT'S LARGEST MARKET",
+  "THE GUARDIAN: ACTIVISTS ACROSS EUROPE PREPARE TWO DAYS OF PROTESTS AGAINST DATACENTRES",
+  "NYT: PARENTS SUE GOOGLE OVER AI SAFETY RISKS ON SCHOOL CHROMEBOOKS",
+  "FORBES: GOOGLE TURNS OFF SEARCH AND GEMINI FOR K-12 STUDENTS BY DEFAULT",
+  "BLOOMBERG: NVIDIA PARTNER HON HAI'S SALES RISE 46% ON AI DEMAND",
+  "THE DECODER: NO AI AGENT SCORES ABOVE 12% ON SEMIANALYSIS' NEW REAL-WORK BENCHMARK",
+  "SCMP: UNITREE'S FOUNDER SAYS THE LAST HURDLE IS A 'LAST-MILLIMETRE' MECHANICAL GAP"
+ ],
+ "sources": [
+  "OpenAI",
+  "Gizmodo",
+  "The Wall Street Journal",
+  "Reuters",
+  "The Verge",
+  "The Register",
+  "CyberScoop",
+  "Forbes",
+  "The Economic Times",
+  "AP",
+  "TechCrunch",
+  "Bloomberg",
+  "Business Insider",
+  "Ars Technica",
+  "Nikkei Asia",
+  "Fortune",
+  "Tom's Hardware",
+  "Yahoo News",
+  "South China Morning Post",
+  "Financial Times",
+  "ScienceAlert",
+  "The Daily Galaxy"
+ ],
+ "scanned": 4096,
+ "stories": [
+  {
+   "id": "openai-community-compact",
+   "title": "OpenAI pledges to cover its future data centres' power costs after the midterms",
+   "summary": "Two days after the US midterms, OpenAI's National Community Compact pledged to cover electricity and grid costs for future data centres it owns and operates, limit NDAs with public officials and plan water use with each community.",
+   "chapter": "AFTER THE VOTE",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/openai-is-changing-its-tune-on-data-centers-following-electoral-wipeout-2000835718"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
+    },
+    {
+     "outlet": "Politico"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "After voters turned on data centres, OpenAI promised to pay for their power and grid costs and plan water use with each town: a voluntary, single-company step."
+    }
+   ]
+  },
+  {
+   "id": "meta-data-centres-harder",
+   "title": "Meta's president says building data centres is 'going to be harder' after the midterms",
+   "summary": "Speaking at the WSJ Tech conference, Meta president Dina Powell McCormick said data-centre construction is 'going to be harder' after the midterms, and that Meta is more optimistic about scaling up its existing sites.",
+   "chapter": "AFTER THE VOTE",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/metas-president-on-midterm-results-building-data-centers-is-going-to-be-harder-2000835444"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Meta's president expects building new data centres to get harder after the US midterms: one company's view of a growing political constraint."
+    }
+   ]
+  },
+  {
+   "id": "gpt-6-cyber",
+   "title": "OpenAI's GPT-6 Cyber gets its highest cyber-risk rating, 'Critical'",
+   "summary": "OpenAI released GPT-6 Cyber, built to find and exploit security flaws, only to approved security customers, rating it 'Critical', its highest cyber tier. OpenAI says it found 81 previously unknown high-severity Firefox bugs, which Mozilla is fixing.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chatgpt-search-fifth-of-google",
+   "title": "OpenAI says ChatGPT search now equals about 20% of Google's query volume",
+   "summary": "OpenAI says ChatGPT search now handles about a fifth as many queries as Google, by its own count, Forbes reports.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Forbes",
+     "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/05/chatgpt-search-hits-20-of-googles-query-volume-openai-says/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-ipo-2027",
+   "title": "Greg Brockman says OpenAI should be ready to go public in 2027",
+   "summary": "OpenAI president Greg Brockman said at a WSJ tech conference that most of OpenAI's revenue now comes from enterprise sales and that he believes it will be ready to go public in 2027.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "The Economic Times",
+     "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-ready-to-ipo-in-2027-now-counts-majority-of-sales-from-enterprises-greg-brockman-says/articleshow/135556244.cms"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-stocks-tumble",
+   "title": "AI stocks lead a slide that takes the S&P 500 down more than 3%",
+   "summary": "Another sell-off in stocks tied to the AI data-centre build-out pulled the S&P 500 down more than 3% on Thursday, erasing the previous day's gains, its best in three months, AP reported.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://www.thecanadianpressnews.ca/business/a-wipeout-for-ai-stocks-sends-wall-street-reeling-and-the-s-p-500-tumbles/article_c0939e5b-859e-5091-8206-50fa85f54f26.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agility-goes-public",
+   "title": "Agility Robotics becomes the first US pure-play humanoid robot company on the stock market",
+   "summary": "Agility, maker of the Digit humanoid, began trading on Nasdaq as AGLT, valued at $2.5 billion on $1.8 million of 2025 sales, per Forbes. A year ago Figure AI's CEO told it, 'You'll be bankrupt in <12 months.'",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
+    },
+    {
+     "outlet": "Forbes",
+     "url": "https://www.forbes.com/sites/jonmarkman/2026/11/05/humanoid-maker-agility-robotics-goes-public-on-18-million-of-2025-sales/"
+    },
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "Agility's Digit robots work for nine customers and earned $1.8 million in 2025: a public listing, but far from thousands of humanoids on live lines."
+    }
+   ]
+  },
+  {
+   "id": "nvidia-chips-hong-kong",
+   "title": "About 600,000 Nvidia AI chips reportedly wait in Hong Kong for China's approval",
+   "summary": "About 600,000 of Nvidia's advanced AI chips are stored in Hong Kong awaiting shipment to mainland China as Beijing withholds import approval, two people familiar told Reuters.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-chips-stockpile-hong-kong-120548918.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "taisei-tunnel-boring",
+   "title": "Taisei's AI-run tunnel-boring machine beats veteran operators on precision",
+   "summary": "Japanese contractor Taisei demonstrated a giant tunnel-boring machine operating autonomously with AI, and it outperformed veteran human operators on precision, Nikkei Asia reports.",
+   "chapter": "BREAKING GROUND",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-contractor-s-ai-guided-tunnel-boring-outperforms-human-operators"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "discovered-materials-prizes",
+   "title": "A YC start-up offers $200,000 for each of five unsolved materials science problems",
+   "summary": "Discovered Materials, a months-old YC start-up that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems, $1 million in all.",
+   "chapter": "BREAKING GROUND",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "shopping-agents-half-wrong",
+   "title": "AI agents sent shopping for TVs and laptops got it wrong nearly half the time",
+   "summary": "In a study reported by Fortune, AI agents shopping for TVs and laptops messed up nearly 50% of the time; Gemini and Muse agents scored highest.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Fortune"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ansari-ban-superintelligence",
+   "title": "Rep. Yassamin Ansari calls for a ban on artificial superintelligence",
+   "summary": "A day after the midterms, Rep. Yassamin Ansari (D-Ariz.) urged Democrats to pause advanced AI development, regulate the industry and ban artificial superintelligence outright.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "url": "https://www.yahoo.com/news/politics/articles/congresswoman-calls-artificial-superintelligence-ban-133016001.html"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-0",
+     "key": "49d11afdd5",
+     "relation": "early",
+     "note": "A day after the midterms, a Democratic congresswoman urged her party to pause advanced AI and ban superintelligence: one lawmaker's agenda, not yet a national election issue."
+    }
+   ]
+  },
+  {
+   "id": "unitree-paints-chess",
+   "title": "Unitree's founder says its GPT-6-powered robots paint and play chess without training",
+   "summary": "Unitree founder Wang Xingxing says its humanoid robots, running OpenAI's GPT-6, mastered painting and chess without training, and that the hard part left is a 'last-millimetre' mechanical gap, the South China Morning Post reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "softbank-abb-blocked",
+   "title": "China blocks SoftBank's $5.4 billion takeover of ABB's robotics business",
+   "summary": "China's state planner told SoftBank it will not allow its $5.4 billion acquisition of the robotics business of Swiss engineering group ABB, first reported by the Financial Times.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "PYMNTS",
+     "url": "https://www.pymnts.com/cpi-posts/china-blocks-softbanks-5-4-billion-abb-robotics-takeover/"
+    },
+    {
+     "outlet": "Financial Times"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cortical-labs-robot-dog",
+   "title": "Lab-grown human neurons steer a robot dog to its target",
+   "summary": "Researchers at Cortical Labs in Australia attached lab-grown human neurons to a robot dog and used them to steer it toward a goal on a simple map.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-10-30",
+   "sources": [
+    {
+     "outlet": "ScienceAlert"
+    },
+    {
+     "outlet": "The Daily Galaxy"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Friday, November 6, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in superintelligence, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "They heard you. Two days after the vote, OpenAI promised to pay its data centres' power bills."
+  },
+  {
+   "s": 22.03,
+   "t": "And Meta's president admits building new ones is going to be harder."
+  },
+  {
+   "s": 31.88,
+   "t": "OpenAI's new GPT-6 Cyber hunts security holes, and OpenAI rates it critical."
+  },
+  {
+   "s": 39.38,
+   "t": "It found 81 serious new bugs in Firefox."
+  },
+  {
+   "s": 42.42,
+   "t": "For now, only vetted security teams get it."
+  },
+  {
+   "s": 45.94,
+   "t": "Meanwhile, OpenAI says ChatGPT now handles about a fifth as many searches as Google."
+  },
+  {
+   "s": 52.97,
+   "t": "And Greg Brockman says it should be ready to go public in 2027."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. AI stocks led a slide that took the S&P 500 down more than 3%."
+  },
+  {
+   "s": 67.5,
+   "t": "A year ago, a rival predicted Agility would go bust."
+  },
+  {
+   "s": 71.3,
+   "t": "Instead, the humanoid maker just went public."
+  },
+  {
+   "s": 75.0,
+   "t": "Valued at $2.5 billion, on $1.8 million in sales last year."
+  },
+  {
+   "s": 82.5,
+   "t": "Meanwhile, about 600,000 Nvidia chips are reportedly stuck in Hong Kong, waiting for China's approval."
+  },
+  {
+   "s": 90.0,
+   "t": "In Japan, Taisei's giant tunnel-boring machine ran itself with AI, and beat veteran operators on precision."
+  },
+  {
+   "s": 97.5,
+   "t": "And a young start-up is offering $200,000 f or each of five unsolved materials problems."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? AI agents sent shopping got it wrong nearly half the time."
+  },
+  {
+   "s": 110.62,
+   "t": "And one congresswoman wants superintelligence banned outright, and advanced AI paused."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, the machines."
+  },
+  {
+   "s": 123.06,
+   "t": "Unitree's founder says his robots paint and play chess, untrained."
+  },
+  {
+   "s": 129.38,
+   "t": "But China blocked SoftBank's $5.4 billion takeover of ABB's robotics business."
+  },
+  {
+   "s": 135.94,
+   "t": "And in Australia, living human brain cells steered a robot dog to its target."
+  },
+  {
+   "s": 142.5,
+   "t": "Turns out when people speak up, the builders listen. So keep talking."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-06/Singularity-Daily_2026-11-06.mp4",
+  "mb": 71.9,
+  "bytes": 71887629,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

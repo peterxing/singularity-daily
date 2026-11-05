@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T18:33:41+00:00",
- "latest": "2026-11-05",
+ "updated": "2026-11-05T18:17:54+00:00",
+ "latest": "2026-11-06",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -20,6 +20,34 @@
  },
  "data": "5b0753cfcf7f",
  "episodes": [
+  {
+   "date": "2026-11-06",
+   "ep": 33,
+   "hook": "THEY HEARD YOU.",
+   "day": "Friday 6 November 2026",
+   "stories": 15,
+   "forecasts": 3,
+   "links": {
+    "supports": 0,
+    "early": 4,
+    "challenges": 0
+   },
+   "titles": [
+    "OpenAI pledges to cover its future data centres' power costs after the midterms",
+    "Meta's president says building data centres is 'going to be harder' after the midterms",
+    "OpenAI's GPT-6 Cyber gets its highest cyber-risk rating, 'Critical'"
+   ],
+   "cover": "daily/media/2026-11-06/cover.webp",
+   "thumb": "daily/media/2026-11-06/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-06/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-06/Singularity-Daily_2026-11-06.mp4",
+    "mb": 71.9,
+    "bytes": 71887629,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-05",
    "ep": 32,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-10-29/cover.webp",
    "thumb": "daily/media/2026-10-29/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-10-29/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-10-29/Singularity-Daily_2026-10-29.mp4",
     "mb": 74.6,
