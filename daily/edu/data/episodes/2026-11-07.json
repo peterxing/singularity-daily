@@ -1,0 +1,497 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-07",
+ "ep": 12,
+ "hook": "PLAN AHEAD.",
+ "day": "Saturday 7 November 2026",
+ "note": "FOR EDUCATION · SATURDAY 7 NOVEMBER 2026",
+ "tldr": "Plan ahead: Microsoft 365 Education gets a new lineup from A0 to A7 and Microsoft Classroom, with most changes at renewals from January 2028.",
+ "chapters": [
+  "PLAN AHEAD",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "STORAGE",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Sat 7 Nov 2026 (Friday 6 Nov in the US).",
+ "notes": [
+  "Microsoft announced the Microsoft 365 Education changes on 5 Nov (16:00 UTC, just before the window); most take effect at an institution's first renewal or extension on or after 1 Jan 2028, and existing agreements stay in effect until then.",
+  "Microsoft Classroom, Learning Zone lesson insights (due December) and Purview version trimming (preview due November) are coming, not shipped; Teams pinch-to-zoom is rolling out; the Paint Store fix is as reported by The Hacker News.",
+  "Screenshots are the publishers' public pages as captured on 7 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "PLAN AHEAD. 📅\n\nThe last 24h at Microsoft for education:\n- Microsoft 365 Education's new lineup, A0 to A7 (most changes at renewals from 2028)\n- Microsoft Classroom is coming for teachers\n- Learning Zone lesson insights due Dec\n- Teams pinch-to-zoom rolling out",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (7 Nov 2026): the new Microsoft 365 Education lineup from A0 to A7 and its 2027-2028 dates, Microsoft Classroom, the no-cost A0 student option, Learning Zone lesson insights, pinch-to-zoom in Teams, A7 and new faculty security, an AI agent abusing leaked GitHub keys, post-quantum key exchange in Azure Front Door, storage per license, Purview version trimming, the Office 365 A1 and Student Use Benefit retirements, the Paint fix in the Microsoft Store and next week's Xbox games, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "MICROSOFT 365 EDUCATION: NEW FACULTY AND STUDENT EDITIONS, WITH OR WITHOUT TEAMS, FROM A0 TO A7",
+  "A2 BECOMES GENERALLY AVAILABLE ON 1 DECEMBER 2026; A7 HAS BEEN AVAILABLE SINCE 1 OCTOBER",
+  "FROM RENEWALS ON OR AFTER 1 MAY 2027: ONE PRICE ACROSS ALL PRICE LEVELS FOR ONLINE SERVICES IN ACADEMIC VOLUME LICENSING",
+  "A2 TO A5 ARE MORE THAN 80% BELOW COMMERCIAL PRICING; A7 UP TO 60%",
+  "MICROSOFT CLASSROOM CAN BE TAILORED FOR K-5, GRADES 6-12 OR HIGHER EDUCATION; TEAMS ASSIGNMENTS CARRY ON AS TODAY",
+  "PAID STUDENT LICENSES ADD STORAGE FOR THE FIRST TIME: 4 GB IN A2, 8 GB IN A3, 12 GB IN A5 AND A7",
+  "EXCHANGE ONLINE FOR ALUMNI: THE FREE OFFER RETIRES IN 2028 AND A NEW PAID OFFER REPLACES IT",
+  "MICROSOFT'S ADVICE: CONFIRM YOUR NEXT RENEWAL DATE AND PLAN THE MOVE WITH YOUR ACCOUNT TEAM OR PARTNER",
+  "STUDY AND LEARN'S LOCKED MODE: MICROSOFT EDUCATION WEBINARS ON 10 AND 12 NOVEMBER",
+  "LEARNING ZONE RUNS ON ELIGIBLE COPILOT+ PCS",
+  "ONEDRIVE IS GETTING ODCLI, A COMMAND-LINE TOOL FOR THE SYNC APP, DUE MARCH 2027",
+  "THE MICROSOFT FOUNDRY EXTENSION FOR THE AZURE DEVELOPER CLI REACHES 1.0, GENERALLY AVAILABLE",
+  "GITHUB SECRET SCANNING ADDS SPACEX AS A PARTNER AND CUTS FALSE POSITIVES FOR SIX PROVIDERS",
+  "LEAKED KEYS STAY USABLE UNTIL ROTATED: DELETING THEM FROM CODE ISN'T ENOUGH",
+  "WORK IQ: AUTHORIZED AGENTS GET ACCESS TO A USER'S MEMORY PROFILE, DUE DECEMBER",
+  "OUTLOOK ON THE WEB: INLINE COPILOT CHAT FOR DRAFTING EMAIL, DUE DECEMBER",
+  "FABRIC: ONELAKE AS NATIVE STORAGE FOR AZURE DATABRICKS IS GENERALLY AVAILABLE",
+  "FABRIC DATA WAREHOUSE GETS REGULAR EXPRESSION FUNCTIONS, IN PREVIEW",
+  "FABCON + SQLCON 2027 IS IN ATLANTA",
+  "NEXT WEEK ON XBOX: FOOTBALL MANAGER 27 CONSOLE AND TANUKI: PON'S SUMMER JOIN GAME PASS ON 10 NOVEMBER",
+  "9 KINGS ARRIVES IN GAME PREVIEW ON GAME PASS ON 12 NOVEMBER",
+  "MICROSOFT IGNITE: 17-20 NOVEMBER, IN SAN FRANCISCO AND ONLINE"
+ ],
+ "sources": [
+  "Microsoft Education Blog",
+  "Microsoft Learn",
+  "Microsoft Licensing Resources",
+  "Microsoft 365 Roadmap",
+  "Microsoft Security Blog",
+  "Azure Updates",
+  "The Hacker News",
+  "Xbox Wire",
+  "Microsoft Tech Community",
+  "Microsoft Foundry Blog",
+  "GitHub Changelog",
+  "Microsoft Fabric Blog",
+  "Neowin",
+  "Windows Report"
+ ],
+ "scanned": 1470,
+ "stories": [
+  {
+   "id": "m365-education-lineup",
+   "title": "Microsoft 365 Education gets a new lineup from A0 to A7, with most changes from 2028",
+   "summary": "Microsoft is evolving Microsoft 365 Education into faculty and student editions, with or without Teams, from a no-cost student option (A0) to A7. Most changes take effect at an institution's first renewal or extension on or after 1 January 2028; existing agreements stay in effect until then, and new pricing applies at renewals from 1 May 2027.",
+   "for": "School and university leaders and IT",
+   "status": "Announced; most changes from 2028",
+   "edu": true,
+   "chapter": "PLAN AHEAD",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/future-ready-education-evolving-microsoft-365-education/"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio"
+    },
+    {
+     "outlet": "Microsoft Licensing Resources",
+     "url": "https://www.microsoft.com/en-us/licensing/news/m365education-update"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-classroom",
+   "title": "Microsoft Classroom brings classwork, grades, Teach and Study and Learn together",
+   "summary": "Microsoft Classroom is a new, dedicated home for teaching and learning, tailorable for K-5, grades 6-12 or higher education, with Assignments, Gradebook, Class Notebook, the Teach module for educators and the Study and Learn Agent for students. It's included in A2 to A7, and Teams for Education stays available.",
+   "for": "Teachers and students",
+   "status": "Coming, in A2 to A7",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/future-ready-education-evolving-microsoft-365-education/"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio"
+    }
+   ]
+  },
+  {
+   "id": "m365-education-a0",
+   "title": "Microsoft 365 Education A0 gives students Office apps at no additional cost, from 2028",
+   "summary": "From 1 January 2028, Microsoft 365 Education A0 gives students Office desktop and web apps, Minecraft Education, Microsoft Entra ID Free and Learning Zone at no additional cost. It's for eligible institutions with all faculty on A2 or higher and for students using Windows devices for school, and it doesn't include Exchange Online, SharePoint Online or Teams.",
+   "for": "Students at eligible institutions",
+   "status": "Available from January 2028",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/future-ready-education-evolving-microsoft-365-education/"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio"
+    }
+   ]
+  },
+  {
+   "id": "learning-zone-lesson-insights",
+   "title": "Learning Zone is due to show teachers where a class is struggling, lesson by lesson",
+   "summary": "Microsoft Learning Zone is due to show teachers lesson-level results for every student, plus the mistakes many students made in a lesson, so they can open each student's answers and plan targeted follow-up. It's in development on the Microsoft 365 roadmap for December.",
+   "for": "Teachers",
+   "status": "Due December 2026",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577544"
+    }
+   ]
+  },
+  {
+   "id": "teams-pinch-to-zoom",
+   "title": "Teams is rolling out pinch-to-zoom on shared screens",
+   "summary": "Pinch-to-zoom with a touchpad is rolling out for shared content in Teams calls and meetings on Windows and Mac, making small text and detailed visuals easier to see; existing zoom controls remain. Handy, for example, for students following slides in an online class.",
+   "for": "Students and staff in online classes",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576193"
+    }
+   ]
+  },
+  {
+   "id": "m365-education-a7",
+   "title": "Microsoft 365 Education A7 adds Copilot, Agent 365 and Entra Suite",
+   "summary": "Microsoft 365 Education A7, generally available since 1 October 2026, builds on A5 with Microsoft Copilot, Microsoft Agent 365 and Microsoft Entra Suite, to help institutions deploy and govern AI at scale. Microsoft says A7 is discounted up to 60% compared with commercial pricing.",
+   "for": "Campus IT and leaders",
+   "status": "Generally available since October",
+   "edu": true,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/future-ready-education-evolving-microsoft-365-education/"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio"
+    }
+   ]
+  },
+  {
+   "id": "faculty-security",
+   "title": "Faculty plans add Defender for Office 365 in A3 and Intune Suite in A5",
+   "summary": "The updated A3 Faculty offer adds Microsoft Defender for Office 365 Plan 1, and the updated A5 Faculty offer adds Microsoft Intune Suite, without an increase to suite prices, though actual renewal prices may vary. The new A3 and A5 become available from 1 January 2028.",
+   "for": "School IT and faculty",
+   "status": "From January 2028",
+   "edu": true,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/future-ready-education-evolving-microsoft-365-education/"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio"
+    }
+   ]
+  },
+  {
+   "id": "exposed-secrets",
+   "title": "An AI agent went from leaked GitHub keys to Key Vault data in five minutes",
+   "summary": "Microsoft Threat Intelligence saw attackers use an agentic AI framework to search public GitHub repositories for exposed secrets; in one case an AI agent went from scanning GitHub to exfiltrating Azure Key Vault data in five minutes. Microsoft advises scanning your code, rotating exposed keys and using managed identities.",
+   "for": "School IT and student coders",
+   "status": "Threat report",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/"
+    }
+   ]
+  },
+  {
+   "id": "front-door-post-quantum",
+   "title": "Azure Front Door adds post-quantum key exchange for TLS",
+   "summary": "Azure Front Door now supports configurable TLS key exchange policies, including hybrid post-quantum key exchange, to help sites prepare for evolving cryptographic threats while meeting compatibility needs.",
+   "for": "University web teams",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=577668"
+    }
+   ]
+  },
+  {
+   "id": "storage-per-license",
+   "title": "Microsoft 365 Education storage will scale with paid licenses as the 100 TB base goes",
+   "summary": "At an institution's first renewal or extension on or after 1 January 2028, the current 100 TB base allocation is removed and storage stays one tenant-wide pool built from paid licenses: 4 GB per student and 50 GB per faculty license in A2, 8 GB and 75 GB in A3, and 12 GB and 150 GB in A5 and A7.",
+   "for": "School IT",
+   "status": "At renewals from January 2028",
+   "edu": true,
+   "chapter": "STORAGE",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/future-ready-education-evolving-microsoft-365-education/"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio"
+    }
+   ]
+  },
+  {
+   "id": "purview-version-trimming",
+   "title": "Purview is due to let admins trim old file versions kept by retention",
+   "summary": "Microsoft Purview is due to let admins trim file versions in OneDrive and SharePoint even under retention policies, reclaiming storage while keeping legal holds and records intact. It's in development on the Microsoft 365 roadmap, with a preview due in November and general availability in January 2027.",
+   "for": "School IT",
+   "status": "Preview due November 2026",
+   "edu": false,
+   "chapter": "STORAGE",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575284"
+    }
+   ]
+  },
+  {
+   "id": "retirements-2028",
+   "title": "Office 365 A1, the Student Use Benefit and free alumni email retire in 2028",
+   "summary": "Office 365 A1, the Student Use Benefit and free Exchange Online for Alumni retire on 1 January 2028, with a new paid alumni email offer. Office 365 A1 reaches end of sale through partner channels on 1 May 2027, and enrollments that began earlier run to the end of their term.",
+   "for": "School IT and leaders",
+   "status": "Retires January 2028",
+   "edu": true,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/future-ready-education-evolving-microsoft-365-education/"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio"
+    }
+   ]
+  },
+  {
+   "id": "paint-store-fix",
+   "title": "Paint's fix for a remote code flaw reportedly comes only through the Microsoft Store",
+   "summary": "The fix for CVE-2026-83844, a remote code execution flaw in Windows Paint rated Important, reportedly comes only through the Microsoft Store, not Windows Update. The Hacker News says the fixed build is 11.2609.401.0, so it's worth checking every copy, for example with Intune's Store app updates.",
+   "for": "School IT",
+   "status": "Fix in the Microsoft Store",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "REPORTED",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+    },
+    {
+     "outlet": "Microsoft Security Response Center",
+     "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844"
+    }
+   ]
+  },
+  {
+   "id": "hope-in-the-city",
+   "title": "Hope in the City, a sketchbook mystery, joins Game Pass on 11 November",
+   "summary": "Hope in the City is a narrative mystery about 17-year-old Hope Song, whose sketches may be the only clues after her parents disappear; it joins Game Pass and Xbox Play Anywhere on 11 November.",
+   "for": "Students, after hours",
+   "status": "Due 11 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/06/next-week-on-xbox-new-games-for-november-9-to-13/"
+    }
+   ]
+  },
+  {
+   "id": "hozy",
+   "title": "Hozy, a game with no timers and no stress, arrives on 9 November",
+   "summary": "Hozy is a calm game about making spaces beautiful again, with no timers, scores or penalties; it arrives on Xbox Play Anywhere on 9 November.",
+   "for": "Students, after hours",
+   "status": "Due 9 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/06/next-week-on-xbox-new-games-for-november-9-to-13/"
+    }
+   ]
+  },
+  {
+   "id": "shrek-2-remastered",
+   "title": "Shrek 2 Remastered lands on Xbox on 10 November, solo or co-op",
+   "summary": "Shrek 2 Remastered, an action-adventure inspired by the DreamWorks Animation film, arrives on Xbox on 10 November; play solo or with up to three friends in co-op.",
+   "for": "Students, after hours",
+   "status": "Due 10 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/06/next-week-on-xbox-new-games-for-november-9-to-13/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Saturday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what shipped at Microsoft in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Plan ahead. Microsoft 365 Education is getting a new lineup, from A0 to A7."
+  },
+  {
+   "s": 22.03,
+   "t": "Most of it lands at your first renewal on or after January 2028."
+  },
+  {
+   "s": 31.88,
+   "t": "For teachers, Microsoft Classroom is coming, with assignments, grades, Class Notebook, Teach and Study and Learn."
+  },
+  {
+   "s": 39.38,
+   "t": "From 2028, A0 gives students Office, Minecraft Education and Learning Zone, at no extra cost."
+  },
+  {
+   "s": 46.88,
+   "t": "And in December, Learning Zone should show teachers where a class is struggling, lesson by lesson."
+  },
+  {
+   "s": 52.97,
+   "t": "Squinting at a shared slide in Teams?"
+  },
+  {
+   "s": 55.26,
+   "t": "Pinch to zoom on your touchpad is rolling out now."
+  },
+  {
+   "s": 60.0,
+   "t": "Campus IT? The top tier, A7, adds Copilot, Agent 365 and Entra Suite."
+  },
+  {
+   "s": 67.03,
+   "t": "Faculty get Defender for Office 365 in A3, and Intune Suite in A5, at no extra cost."
+  },
+  {
+   "s": 75.0,
+   "t": "Code on GitHub?"
+  },
+  {
+   "s": 76.01,
+   "t": "Microsoft saw an AI agent go from spotting leaked keys to taking vault data in five minutes."
+  },
+  {
+   "s": 82.5,
+   "t": "Run university websites? Azure Front Door can now use post-quantum key exchange, to prepare for future threats."
+  },
+  {
+   "s": 90.0,
+   "t": "Storage changes too: the 100 TB base allocation goes, and each paid license adds space instead."
+  },
+  {
+   "s": 97.5,
+   "t": "And Purview is due to let admins trim old file versions kept by retention, with a preview this month."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Office 365 A1, the Student Use Benefit and free alumni email retire in 2028."
+  },
+  {
+   "s": 113.44,
+   "t": "Patch Paint from the Microsoft Store: the fix for i ts remote code flaw reportedly skips Windows Update."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours? In Hope in the City, a sketchbook holds the clues, from November 11."
+  },
+  {
+   "s": 128.44,
+   "t": "Need a calmer night? Hozy has no timers, no scores and no stress, from November 9."
+  },
+  {
+   "s": 135.0,
+   "t": "And Shrek 2 Remastered lands November 10: play solo, or with up to three friends."
+  },
+  {
+   "s": 142.5,
+   "t": "New plans, new tools, new dates: whatever your school runs, the smart move is to plan ahead."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "On the release board: shipped, and still shipping."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours at Microsoft. Tomorrow, there's more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-07/Microsoft-for-Education-Daily_2026-11-07.mp4",
+  "mb": 54.5,
+  "bytes": 54517228,
+  "seconds": 180.01
+ },
+ "links": {}
+}
