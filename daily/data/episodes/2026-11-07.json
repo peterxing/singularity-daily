@@ -1,0 +1,530 @@
+{
+ "date": "2026-11-07",
+ "ep": 34,
+ "hook": "NOT SLOWING DOWN.",
+ "day": "Saturday 7 November 2026",
+ "chapters": [
+  "THE SELL-OFF",
+  "NEW MINDS",
+  "POWER & MONEY",
+  "BREAKING GROUND",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:09 AEDT, Sat 7 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: Thinking Machines' $5 billion raise at a $40 billion valuation (Business Insider, citing multiple people familiar).",
+  "Company claims: PSI's proof of the Aaronson-Ambainis conjecture is the start-up's own announcement as reported by OfficeChai (checked in the Lean proof assistant, not yet peer reviewed); Tesla's SI6 '80x' chip and its space-ready Dojo 3 are roadmap targets (Tom's Hardware).",
+  "METR's 'about twice as fast' is an estimate with high uncertainty (1.3x to 3x), and Anthropic redacted most of the evidence behind it. Inkling 2 Small's ranking is Artificial Analysis's, once its weights are released next week.",
+  "Market figures are Thursday 5 Nov closes (CNBC, AP); Musk's $113bn is the paper fall reported by The Guardian. This week: METR's review of Anthropic (5 Nov), Inkling 2 Small (5 Nov) and Anthropic's vault-particle map (4 Nov).",
+  "Screenshots are the publishers' public article pages as captured on 7 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "NOT SLOWING DOWN. 🏁\n\nThe last 24h in superintelligence:\n- Tech stocks' worst day in 19 months\n- METR: AI is roughly doubling Anthropic's pace\n- Trump: '100% in favor' of superintelligence\n- Tesla drops the Cybertruck for robotaxis\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (7 Nov 2026), hosted by Claudia: Thursday's tech-stock rout, OpenAI's finance chief on real demand, METR's finding that AI is speeding up Anthropic's progress, Thinking Machines' new open model, China's lead in open models, President Trump's superintelligence post, Democrats' plans for AI bills, a reported $40 billion raise, Musk's paper losses, an AI-found proof of a quantum computing puzzle, Claude helping map a cell structure, an AI agent that deleted a professor's syllabus, protesters at a Microsoft data-centre site, Tesla ending the Cybertruck, its next AI chips and a humanoid house cleaner, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "CNBC: THE 'MAGNIFICENT SEVEN' LOST MORE THAN $1 TRILLION ON THURSDAY, NVIDIA MORE THAN $440 BILLION",
+  "WSJ: MAJOR INVESTORS ARE SKEPTICAL ANTHROPIC'S IPO CAN REACH A $1.5 TRILLION VALUATION",
+  "TECHCRUNCH: RAMP DATA SHOWS AI SPENDING STALLING EVEN AS USAGE KEEPS CLIMBING",
+  "THE REGISTER: THE JUSTICE DEPARTMENT'S 'SUPER INTELLIGENCE TASK FORCE' IS UP AND RUNNING",
+  "CBS NEWS: 3 CHARGED WITH USING AI TO IMPERSONATE EXECUTIVES AND STEAL ABOUT $129 MILLION",
+  "TOM'S HARDWARE: SIX PALLETS OF NVIDIA GPUS WORTH $11.4 MILLION STOLEN IN A CALIFORNIA CARGO HEIST",
+  "AXIOS: LAWMAKERS CALL IN NVIDIA CEO JENSEN HUANG OVER TIES TO AN ALLEGED CHINESE SPY",
+  "TECHCRUNCH: PALO ALTO NETWORKS IN TALKS TO BUY AI AGENT SECURITY STARTUP CLUTCH FOR $500M",
+  "TECHCRUNCH: AMAZON NOW LETS USERS TEXT ALEXA TO HELP THEM SHOP",
+  "GOOGLE: GEMINI OMNI 1.2 FLASH MAKES 15-SECOND VIDEOS AT 30% LOWER PRICES",
+  "TECHCRUNCH: PHYSICL RAISES $10M TO MAKE SIMULATIONS REAL ENOUGH FOR ROBOTS",
+  "CNBC: OPENAI'S CFO SAYS IT IS STILL LOOKING AT A 2027 STOCK MARKET DEBUT",
+  "METR: ANTHROPIC REDACTED A MAJORITY OF THE EVIDENCE METR FOUND MOST INFORMATIVE",
+  "OFFICECHAI: PSI'S PROOF WAS FOUND BY A SYSTEM RUNNING A NON-PUBLIC ANTHROPIC MODEL",
+  "ANTHROPIC: CLAUDE CUT A THREE-DAY LAB STEP TO ABOUT 90 MINUTES, BUT ITS MISTAKES ALSO COST TWO WEEKS",
+  "TOM'S HARDWARE: AMSTERDAM IS REPORTEDLY THE FIRST OF 85 ACTIONS AGAINST DATA CENTRES ACROSS EUROPE",
+  "THE GUARDIAN: TESLA SHARES FELL 11% ON THURSDAY, SPACEX 9%",
+  "MIT TECHNOLOGY REVIEW: TAU'S CLEANING ROBOTS ARE STEERED REMOTELY FROM ITS HEADQUARTERS",
+  "TOM'S HARDWARE: NVIDIA WANTS TO TURN 130+ OLD TELCO BUILDINGS INTO TINY DATA CENTERS, REPORT CLAIMS",
+  "SCMP: OPEN-SOURCE MODEL SPENDING IS STILL SMALL NEXT TO SPENDING ON PROPRIETARY MODELS"
+ ],
+ "sources": [
+  "CNBC",
+  "AP",
+  "METR",
+  "Reuters",
+  "ZDNET",
+  "Artificial Analysis",
+  "South China Morning Post",
+  "Truth Social",
+  "The News International",
+  "Mediaite",
+  "Business Insider",
+  "The Guardian",
+  "OfficeChai",
+  "Anthropic",
+  "TechJuice",
+  "Tom's Hardware",
+  "The Verge",
+  "TechCrunch",
+  "Mezha",
+  "MIT Technology Review",
+  "The Wall Street Journal",
+  "CBS News",
+  "Axios",
+  "Google",
+  "The Register"
+ ],
+ "scanned": 4185,
+ "stories": [
+  {
+   "id": "worst-day-19-months",
+   "title": "Tech stocks have their worst day in 19 months as the AI trade sells off",
+   "summary": "On Thursday the Nasdaq fell more than 5% and the S&P 500 more than 4%, their worst days since April 2025; the 'Magnificent Seven' lost over $1 trillion in market value, Nvidia more than $440 billion.",
+   "chapter": "THE SELL-OFF",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
+    },
+    {
+     "outlet": "AP"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "friar-demand-is-real",
+   "title": "OpenAI's CFO says it will keep investing in data centres: 'The demand for AI is real'",
+   "summary": "OpenAI CFO Sarah Friar told CNBC on Friday that OpenAI will keep investing in AI infrastructure despite the midterm rebuke of data centres: 'The demand for AI is real.'",
+   "chapter": "THE SELL-OFF",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "metr-anthropic-2x",
+   "title": "METR: Anthropic's AI progress is running about twice as fast, mostly thanks to AI",
+   "summary": "After an 11-week, high-access review, METR estimates Anthropic is improving its models about twice as fast as in 2024-25 (anywhere from 1.3x to 3x), likely mostly because of its own use of AI in research; Anthropic redacted most of the key evidence.",
+   "chapter": "NEW MINDS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "METR",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "AP"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "An outside review estimates AI is behind most of a roughly 2x speed-up in Anthropic's model research, while fully autonomous AI research isn't seen yet."
+    },
+    {
+     "id": "2030-0",
+     "key": "722cc2e445",
+     "relation": "early",
+     "note": "AI already does enough of one frontier lab's research to roughly double its pace, a step toward fully automated AI R&D."
+    }
+   ]
+  },
+  {
+   "id": "inkling-2-small",
+   "title": "Thinking Machines' Inkling 2 Small will be the top open model outside China once its weights ship",
+   "summary": "Mira Murati's Thinking Machines Lab released Inkling 2 Small (594 billion parameters), scoring 31 on the Artificial Analysis Intelligence Index; with its weights due next week, it would be the top-scoring open model developed outside China.",
+   "chapter": "NEW MINDS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "ZDNET",
+     "url": "https://www.zdnet.com/innovation/thinking-machines-inkling-2-small-open-weight/"
+    },
+    {
+     "outlet": "Artificial Analysis"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "china-open-models-89",
+   "title": "Chinese models take 89% of business spending on open-source AI models",
+   "summary": "Chinese systems, led by Moonshot's Kimi, account for 89% of enterprise spending on open-source models, the South China Morning Post reports, though that category is small next to spending on proprietary models.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "trump-100-percent-superintelligence",
+   "title": "Trump says he's '100% in favor' of superintelligence and that saying no is 'foolish'",
+   "summary": "On Truth Social early Friday, President Trump wrote that he is '100% in favor of Super Intelligence (SI)' and will work with the many states 'that want to become RICH by having them': 'only foolish leadership will say NO to the riches they bring!'",
+   "chapter": "POWER & MONEY",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "The News International",
+     "url": "https://www.thenews.com.pk/latest/1422716-trump-endorses-super-intelligence-as-an-economic-goldmine-for-states"
+    },
+    {
+     "outlet": "Mediaite"
+    },
+    {
+     "outlet": "The Daily Beast"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "democrats-ai-bills",
+   "title": "Democrats plan a flood of AI and data-centre bills once they control Congress",
+   "summary": "Democrats are planning to unleash a flood of new legislation targeting AI systems and data-centre development when they take control of Congress, Reuters reports. These are plans, not bills yet.",
+   "chapter": "POWER & MONEY",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-4",
+     "key": "4266dad71f",
+     "relation": "early",
+     "note": "The incoming Democratic majority plans new AI legislation, a first step toward a federal AI accountability law; nothing has been introduced yet."
+    },
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Data-centre development is one of the two main targets of the planned bills."
+    }
+   ]
+  },
+  {
+   "id": "thinking-machines-40b",
+   "title": "Thinking Machines is reportedly raising $5 billion at a $40 billion valuation",
+   "summary": "Mira Murati's Thinking Machines Lab is raising $5 billion at a $40 billion pre-money valuation, with Accel leading, according to people familiar who spoke to Business Insider. The company declined to comment.",
+   "chapter": "POWER & MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/thinking-machines-lab-is-closing-5-billion-new-round-2026-11"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "musk-113-billion",
+   "title": "Elon Musk's fortune falls $113 billion on paper in the AI sell-off",
+   "summary": "The paper value of Musk's fortune fell by $113bn after Thursday's rout, when Tesla shares fell 11% and SpaceX 9%; AI stocks rebounded some on Friday.",
+   "chapter": "POWER & MONEY",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psi-quantum-proof",
+   "title": "Start-up PSI says its AI system proved an 18-year-old quantum computing conjecture",
+   "summary": "Physical Superintelligence (PSI) says a research system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, open since 2008, and that the Lean proof checker accepted it, OfficeChai reports. It is not yet peer reviewed.",
+   "chapter": "BREAKING GROUND",
+   "badge": "REPORTED",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/us-startup-physical-superintelligence-proves-aaronson-ambainis-conjecture-a-key-open-problem-in-quantum-computing/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-maps-vault",
+   "title": "Claude helped Anthropic's biologists map the first bacterial 'vault' particle",
+   "summary": "Anthropic's biology team used Claude to map the first 3D structure of a vault particle from bacterial life (96 copies of one protein); vaults have puzzled biologists since 1986 and their function is still unknown.",
+   "chapter": "BREAKING GROUND",
+   "badge": "THIS WEEK",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "TechJuice",
+     "url": "https://www.techjuice.pk/anthropic-claude-bacterial-vault-3d-map/"
+    },
+    {
+     "outlet": "Anthropic"
+    },
+    {
+     "outlet": "Interesting Engineering"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-deletes-syllabus",
+   "title": "A Claude agent asked to fix page numbers deleted a law professor's syllabus",
+   "summary": "University of Chicago law professor William Baude says a Claude agent tasked with updating page numbers deleted his Fall 2026 syllabus and a year of lecture notes, then told him 'You're right to be angry'; the files were recovered via Dropbox.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amsterdam-data-centre-protest",
+   "title": "About 100 protesters break into a Microsoft data-centre site in Amsterdam",
+   "summary": "Around 100 people got into the construction site of a new Microsoft data centre in Amsterdam, some climbing a crane to hang an anti-AI banner; Tom's Hardware says it was reportedly the first of 85 actions across Europe.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Protesters stormed a Microsoft data-centre site in Amsterdam, a city that has banned new data centres until 2030."
+    }
+   ]
+  },
+  {
+   "id": "tesla-ends-cybertruck",
+   "title": "Tesla will stop making the Cybertruck in mid-2027 to build its Cybercab robotaxi",
+   "summary": "Elon Musk says Cybertruck production at Tesla's Texas factory will stop around the middle of next year so the plant can make the Cybercab, its self-driving taxi.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai"
+    },
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tesla-si6-chip",
+   "title": "Tesla's chip roadmap promises 80x the compute, plus a training chip built for space",
+   "summary": "Tesla's roadmap says its sixth-generation inference chip, SI6, will bring 80 times the compute of its current chip, and its Dojo 3 training chip is 'optimized for space, training, and scaling'. These are targets.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space"
+    },
+    {
+     "outlet": "Mezha"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tau-humanoid-cleaner",
+   "title": "A remotely steered humanoid robot cleaned a reporter's apartment",
+   "summary": "Tau Robotics sends humanoid robots, operated remotely from its headquarters, to clean San Francisco homes; MIT Technology Review's reporter says it climbed the stairs 'as if it were drunk' and still needs lots of human guidance.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Saturday, November 7."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "Thursday, tech stocks had their worst day in 19 months."
+  },
+  {
+   "s": 19.14,
+   "t": "And still, nobody's slowing down."
+  },
+  {
+   "s": 22.03,
+   "t": "OpenAI's finance chief isn't flinching: \"The demand for AI is real.\""
+  },
+  {
+   "s": 31.88,
+   "t": "An outside lab spent 11 weeks inside Anthropic."
+  },
+  {
+   "s": 35.39,
+   "t": "Its verdict? Progress is running about twice as fast."
+  },
+  {
+   "s": 39.38,
+   "t": "And most of that speed-up, they think, is AI helping to build the next AI."
+  },
+  {
+   "s": 45.94,
+   "t": "Mira Murati's new model goes open next week, as the top-scoring open model outside China."
+  },
+  {
+   "s": 52.97,
+   "t": "Still, China owns that space: its models get 89% of business spending on open models."
+  },
+  {
+   "s": 60.0,
+   "t": "President Trump posted that he's 100% in favour of superintelligence."
+  },
+  {
+   "s": 65.05,
+   "t": "Saying no? \"Foolish.\""
+  },
+  {
+   "s": 67.5,
+   "t": "Meanwhile, Democrats, about to run Congress, are planning a flood of bills on AI and data centres."
+  },
+  {
+   "s": 75.0,
+   "t": "And Thinking Machines is reportedly raising $5 billion, at a $40 billion valuation."
+  },
+  {
+   "s": 82.5,
+   "t": "Elon Musk lost $113 billion, on paper. By Friday, stocks clawed some back."
+  },
+  {
+   "s": 90.0,
+   "t": "In science, a start-up says its AI cracked an 18-year-old quantum computing puzzle."
+  },
+  {
+   "s": 97.5,
+   "t": "And Claude helped map a bacterial version of a s tructure that's baffled biologists for 40 years."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Told to fix page numbers, an AI deleted a professor's syllabus."
+  },
+  {
+   "s": 111.09,
+   "t": "In Amsterdam, about 100 protesters stormed a Microsoft data centre site."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, the machines. Tesla's ending the Cybertruck next year, to build its robotaxi instead."
+  },
+  {
+   "s": 129.38,
+   "t": "Its next AI chip promises 80 times today's computing power."
+  },
+  {
+   "s": 133.05,
+   "t": "Another's being designed for space."
+  },
+  {
+   "s": 135.94,
+   "t": "And a humanoid robot cleaned a reporter's apartment, climbing the stairs like it was drunk."
+  },
+  {
+   "s": 142.5,
+   "t": "A terrible day doesn't stop progress. Don't let it stop you, either. Keep going."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-07/Singularity-Daily_2026-11-07.mp4",
+  "mb": 71.5,
+  "bytes": 71512027,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
