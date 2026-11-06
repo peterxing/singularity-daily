@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-05T21:14:28+00:00",
- "latest": "2026-11-06",
+ "updated": "2026-11-06T20:19:50+00:00",
+ "latest": "2026-11-07",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-07",
+   "ep": 6,
+   "hook": "FACTORY RESET?",
+   "day": "Saturday 7 November 2026",
+   "tldr": "Factory reset? A drug got old rats' livers clearing an Alzheimer's-linked protein again, a start-up says its AI proved a quantum puzzle open since 2008, and a humanoid cleaned a reporter's home.",
+   "stories": 16,
+   "forecasts": 0,
+   "links": {
+    "supports": 0,
+    "early": 0,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 5,
+    "wellbeing": 3,
+    "intelligence": 5,
+    "frontier": 3
+   },
+   "titles": [
+    "A drug got old rats' livers clearing an Alzheimer's-linked protein again",
+    "Start-up PSI says its AI system proved a quantum computing conjecture open since 2008",
+    "Thinking Machines' Inkling 2 Small is set to be the top open model outside China"
+   ],
+   "cover": "daily/th/media/2026-11-07/cover.webp",
+   "thumb": "daily/th/media/2026-11-07/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-07/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-07/The-Transhuman-Daily_2026-11-07.mp4",
+    "mb": 60.2,
+    "bytes": 60222133,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-06",
    "ep": 5,
@@ -105,7 +140,7 @@
    "cover": "daily/th/media/2026-11-04/cover.webp",
    "thumb": "daily/th/media/2026-11-04/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/th/media/2026-11-04/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-04/The-Transhuman-Daily_2026-11-04.mp4",
     "mb": 55.4,

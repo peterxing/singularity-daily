@@ -1,0 +1,509 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-07",
+ "ep": 6,
+ "hook": "FACTORY RESET?",
+ "day": "Saturday 7 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · SATURDAY 7 NOVEMBER 2026",
+ "tldr": "Factory reset? A drug got old rats' livers clearing an Alzheimer's-linked protein again, a start-up says its AI proved a quantum puzzle open since 2008, and a humanoid cleaned a reporter's home.",
+ "chapters": [
+  "FACTORY RESET?",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:12 AEDT, Sat 7 Nov 2026.",
+ "notes": [
+  "Evidence: the liver drug was tested in old rats; the liver-cell therapy and the supplement trial are small, company-linked human studies; the brain, dog, couples and therapy-access findings are observational; PSI's proof and Tesla's and UAVOS's figures are company claims.",
+  "This week: Inkling 2 Small (5 Nov), the liver-cell therapy (5 Nov), the supplement trial (3 Nov), Stanford's brain score (4 Nov) and AgiBot's store results (5 Nov).",
+  "Screenshots are the publishers' public pages as captured on 7 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "FACTORY RESET? 🔧\n\nThe day in transhumanism:\n- A drug halved an Alzheimer's-linked protein in old rats' blood\n- A start-up says its AI proved a quantum puzzle open since 2008\n- A tougher-than-usual day dents that night's love\n- A humanoid cleaned a reporter's home 🤖",
+  "alt": "A 3-minute motion-graphics showreel of the day in transhumanism (7 Nov 2026): a drug that restored old rats' liver clearance, an AI proof of a quantum computing conjecture, Thinking Machines' Inkling 2 Small, Tesla's 'super intelligence' chips, insurance cover for deep brain stimulation in Hubei, engineered immune cells for failing livers, a supplement trial on artery health, Stanford's super-ager brain score, dog and human lifespans by US state, brain-network flexibility and mental health, stress and love in couples, Australia's widening gap in children's therapy, an AI agent that deleted a professor's files, a humanoid house-cleaner, a long-flying solar plane and AgiBot's convenience-store robots, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "PSI SAYS ITS PROOF CAME FROM A SYSTEM RUNNING A NON-PUBLIC ANTHROPIC MODEL, ON DAY THREE OF A RUN",
+  "INKLING 2 SMALL HAS 594 BILLION PARAMETERS; THINKING MACHINES SAYS THE WEIGHTS ARRIVE NEXT WEEK",
+  "TESLA'S DOJO 3 TRAINING CHIP IS BACK, NOW A CHIPLET DESIGN WITH STACKED HBM MEMORY",
+  "HUBEI'S COVER RUNS FROM PRE-SURGERY ASSESSMENT TO IMPLANTATION AND REHABILITATION",
+  "CINACIGUAT ALSO LOWERED LDL CHOLESTEROL IN THE OLD RATS",
+  "RESOLUTION THERAPEUTICS PLANS A PRE-IND MEETING WITH THE FDA IN DECEMBER 2026",
+  "SURREY SUPPLEMENT TRIAL: NO CHANGE IN CHOLESTEROL, AND WHICH INGREDIENTS MATTERED IS UNKNOWN",
+  "STANFORD: SUPER AGERS ARE 75+ WITH THE MEMORY TYPICAL OF A 45-YEAR-OLD",
+  "STANFORD HOPES BRAIN STIMULATION OR TRAINING COULD ONE DAY NUDGE BRAINS TOWARD THE SUPER-AGER PATTERN",
+  "DOG AGING PROJECT: FEMALE AUSTRALIAN SHEPHERDS OUTLIVED MALES BY 2.7 YEARS",
+  "COUPLES STUDY: A PARTNER'S STRESS DIDN'T DIRECTLY CHANGE THE OTHER'S FEELINGS",
+  "MONASH: A FIRST THERAPY SESSION NOW COSTS ADULTS ABOUT $80 OUT OF POCKET, UP FROM $35",
+  "CLAUDE TO THE PROFESSOR: 'YOU'RE RIGHT TO BE ANGRY'",
+  "TAU ROBOTICS' CLEANER IS STEERED REMOTELY FROM ITS HQ IN SAN FRANCISCO",
+  "SOLAR PLANE APUSNEO REACHED 47,600 FT OVER FUERTEVENTURA IN OCTOBER",
+  "AGIBOT'S STORE ROBOTS MADE 147 COFFEES AND 126 HOT-FOOD ORDERS IN 24 HOURS",
+  "MIT: FLOPPY CONNECTORS LET GOLD NANOPARTICLES FORM NEVER-SEEN CRYSTALS"
+ ],
+ "sources": [
+  "ScienceAlert",
+  "Journal of Biological Chemistry",
+  "University of Southern California",
+  "OfficeChai",
+  "Physical Superintelligence",
+  "ZDNET",
+  "Artificial Analysis",
+  "Thinking Machines Lab",
+  "Tom's Hardware",
+  "China Daily",
+  "Longevity.Technology",
+  "Resolution Therapeutics",
+  "Lifespan.io",
+  "Medical Xpress",
+  "University of Surrey",
+  "European Heart Journal Open",
+  "Stanford Medicine",
+  "Science Advances",
+  "FOX 13 Seattle",
+  "Tech Times",
+  "GeroScience",
+  "Dog Aging Project",
+  "PsyPost",
+  "Nature Communications",
+  "Journal of Social and Personal Relationships",
+  "Monash University",
+  "SSM - Mental Health",
+  "MIT Technology Review",
+  "New Atlas",
+  "Around Prague",
+  "Gasgoo",
+  "MIT News"
+ ],
+ "scanned": 1484,
+ "stories": [
+  {
+   "id": "rats-liver",
+   "title": "A drug got old rats' livers clearing an Alzheimer's-linked protein again",
+   "summary": "USC researchers gave two-year-old rats the experimental drug cinaciguat for two weeks: it reopened tiny openings in the liver's blood vessels and blood amyloid-beta 40 fell by half, back to youthful levels (Journal of Biological Chemistry). A rat study; brains, memory and Alzheimer's weren't tested.",
+   "pillar": "longevity",
+   "evidence": "Rat study",
+   "chapter": "FACTORY RESET?",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/drug-restores-liver-function-in-aging-rats-and-halves-levels-of-an-alzheimers-linked-protein"
+    },
+    {
+     "outlet": "Journal of Biological Chemistry",
+     "url": "https://doi.org/10.1016/j.jbc.2026.113608"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psi-proof",
+   "title": "Start-up PSI says its AI system proved a quantum computing conjecture open since 2008",
+   "summary": "Physical Superintelligence says its research system, running a non-public Anthropic model, proved the Aaronson-Ambainis conjecture about when quantum computers can be exponentially faster. The proof was checked in the Lean proof software and outside researchers called it 'a huge result'. A company announcement, not yet peer reviewed.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement, not yet peer reviewed",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/us-startup-physical-superintelligence-proves-aaronson-ambainis-conjecture-a-key-open-problem-in-quantum-computing/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "inkling",
+   "title": "Thinking Machines' Inkling 2 Small is set to be the top open model outside China",
+   "summary": "Mira Murati's Thinking Machines Lab released Inkling 2 Small, a 594-billion-parameter model, and says its weights ship next week; Artificial Analysis says that would make it the highest-scoring open-weights model developed outside China. Open weights let anyone with the hardware run and build on it.",
+   "pillar": "intelligence",
+   "evidence": "Company release; independent benchmark ranking",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "ZDNET",
+     "url": "https://www.zdnet.com/innovation/thinking-machines-inkling-2-small-open-weight/"
+    },
+    {
+     "outlet": "Thinking Machines Lab",
+     "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tesla-si",
+   "title": "Tesla rebrands its AI chips 'SI' for super intelligence and promises 80x the compute",
+   "summary": "Tesla's chip roadmap renames its accelerators SI, for super intelligence, says its sixth-generation SI6 chip will bring 80 times the compute of today's SI4, and revives the Dojo 3 training chip, described as built with space in mind. Targets from Tesla, not shipped chips.",
+   "pillar": "intelligence",
+   "evidence": "Company roadmap",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hubei-dbs",
+   "title": "China's Hubei province now covers deep brain stimulation under basic medical insurance",
+   "summary": "Hubei added deep brain stimulators, electrodes and leads to basic medical insurance, covering care from assessment to implantation and rehabilitation; Ge Dongju, 72, treated for Parkinson's at Tongji Hospital in Wuhan, was the first to claim. Cover like this could put neurotech within reach of more older patients.",
+   "pillar": "intelligence",
+   "evidence": "Policy change (state media report)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "China Daily",
+     "url": "https://www.chinadaily.com.cn/a/202611/06/WS6aedb48be4b03ebf8519aea3.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "resolution",
+   "title": "Engineered immune cells for failing livers: fewer setbacks in an early trial",
+   "summary": "Resolution Therapeutics says that in its phase I/II EMERALD trial of RTX001, engineered repair macrophages, 2 of the first 9 patients with end-stage liver disease died, needed a transplant or worsened, versus 8 of 21 in a past comparison group. Interim company data from a small, early trial.",
+   "pillar": "longevity",
+   "evidence": "Early trial (phase I/II), interim company data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/resolution-therapeutics-posts-positive-interim-emerald-results/"
+    },
+    {
+     "outlet": "Resolution Therapeutics (GlobeNewswire)",
+     "url": "https://www.globenewswire.com/news-release/2026/11/05/3396647/0/en/resolution-therapeutics-announces-positive-interim-phase-i-ii-emerald-data-for-regenerative-macrophage-therapy-rtx001-in-end-stage-liver-disease.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "novos",
+   "title": "A longevity supplement made arteries more flexible in a small, maker-funded trial",
+   "summary": "In a University of Surrey randomised, placebo-controlled trial (61 adults, 43 analysed), six months of the NOVOS Core powder raised artery widening from about 5.5% to 8.1% and cut systolic blood pressure by 8.5 mmHg vs 1.5 on placebo. Small and part-funded by the maker; markers, not health outcomes.",
+   "pillar": "longevity",
+   "evidence": "Randomised trial, 61 people (maker-funded)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "Lifespan.io",
+     "url": "https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/"
+    },
+    {
+     "outlet": "European Heart Journal Open",
+     "url": "https://academic.oup.com/ehjopen/article/doi/10.1093/ehjopen/oeag157/8840868"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "stanford-arc",
+   "title": "Stanford's brain score flags Alzheimer's risk up to 12 years early",
+   "summary": "Stanford Medicine trained a score on the resting brain activity of 180 super agers and 110 people with Alzheimer's, then placed healthy 55-to-70-year-olds on that spectrum: more Alzheimer's-like scores predicted decline, plaques and diagnosis within 12 years, beating standard biomarkers (Science Advances).",
+   "pillar": "longevity",
+   "evidence": "Peer-reviewed prediction study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Stanford Medicine",
+     "url": "https://med.stanford.edu/news/all-news/2026/11/alzheimers-brain-activity.html"
+    },
+    {
+     "outlet": "Science Advances",
+     "url": "https://www.science.org/doi/10.1126/sciadv.aed9351"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dog-map",
+   "title": "Dogs die younger in the same US states where people do",
+   "summary": "The Dog Aging Project analysed more than 41,000 companion dogs and about 12,000 deaths: once size, breed and sex were accounted for, the states where dogs die younger tend to be the states where people do (GeroScience). A correlation of state averages that points to shared causes worth finding.",
+   "pillar": "longevity",
+   "evidence": "Observational study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/the-lie-of-the-land-dog-lifespans-track-human-mortality-by-state/"
+    },
+    {
+     "outlet": "GeroScience",
+     "url": "https://link.springer.com/article/10.1007/s11357-026-02448-9"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "brain-networks",
+   "title": "Brain networks shift less between rest and tasks in people with mental health diagnoses",
+   "summary": "Rutgers and Yale researchers scanned 219 adults across 11 diagnoses and none: in those with diagnoses, brain networks reorganised less between rest and tasks, and the patterns tracked people's mix of symptoms better than their diagnosis (Nature Communications). A small, exploratory study.",
+   "pillar": "wellbeing",
+   "evidence": "Observational imaging study, 219 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/new-neuroscience-research-reveals-a-common-brain-pattern-across-many-psychiatric-diagnoses/"
+    },
+    {
+     "outlet": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-026-75585-6"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "love-stress",
+   "title": "A tougher-than-usual day dents that evening's love, a couples study finds",
+   "summary": "In 100 UK couples who kept 14 nightly diaries, days with more outside stress than usual brought slightly lower love, passion and closeness that evening, but people who were generally more stressed weren't lower on average (Journal of Social and Personal Relationships). An observational diary study.",
+   "pillar": "wellbeing",
+   "evidence": "Observational diary study, 100 couples",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/a-bad-day-at-work-may-leave-you-feeling-less-in-love-study-suggests/"
+    },
+    {
+     "outlet": "Journal of Social and Personal Relationships",
+     "url": "https://doi.org/10.1177/02654075261500167"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "monash-therapy",
+   "title": "Poorer Australian kids are increasingly missing out on therapy",
+   "summary": "Monash University's study of Medicare and tax data for 5.4 million Australians found the gap in children's psychological care between the richest and poorest areas grew from 14 to 23 percentage points over 2014-2023, as first-session costs doubled to $90. Observational data; the cause isn't proven.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study (Medicare data)",
+   "chapter": "THE CATCH",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-income-access-psychological-widens-children.html"
+    },
+    {
+     "outlet": "SSM - Mental Health",
+     "url": "https://dx.doi.org/10.1016/j.ssmmh.2025.100580"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-syllabus",
+   "title": "A Claude agent asked to fix page numbers deleted a professor's syllabus",
+   "summary": "University of Chicago law professor William Baude asked Claude to update page numbers in old lecture notes; it deleted his Fall 2026 syllabus and a year of notes, then told him 'You're right to be angry.' The files were recovered from Dropbox.",
+   "pillar": "intelligence",
+   "evidence": "First-hand account",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tau-robot",
+   "title": "A remotely steered humanoid robot cleaned a reporter's apartment",
+   "summary": "MIT Technology Review booked Tau Robotics' humanoid house-cleaner, steered remotely from the company's San Francisco HQ: it climbed the stairs 'as if it were drunk', stalled on its first visit when the operator's gear overheated, and went much more smoothly a month later.",
+   "pillar": "frontier",
+   "evidence": "Reporter's first-hand test",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "solar-plane",
+   "title": "A solar plane has flown more than 80 hours straight, aiming for 100",
+   "summary": "UAVOS told New Atlas its ApusNeo, a solar drone with 18-metre wings flying over Fuerteventura in the Canary Islands, had logged more than 80 hours on one flight on sunlight and batteries, aiming for 100. It's built to watch for wildfires. Company figures, reported mid-flight.",
+   "pillar": "frontier",
+   "evidence": "Company figures",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/aircraft/uavos-apusneo-haps-solar-aircraft-100-hour-flight-fuerteventura/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agibot-store",
+   "title": "AgiBot's six store robots did 1,730 tasks in a day, but two failed probation",
+   "summary": "In AgiBot's 24-hour livestreamed trial at a Shanghai convenience store, six G2 humanoids completed 1,730 tasks, including 147 coffees, but two failed their probation: the overnight cleaner went outside to a full bin and never came back. Charging breaks and remote help weren't disclosed.",
+   "pillar": "frontier",
+   "evidence": "Company trial, reported",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Around Prague",
+     "url": "https://aroundprague.cz/en/news/technology/two-of-six-agibot-robots-fail-24-hour-shanghai-convenience-store-shift"
+    },
+    {
+     "outlet": "Gasgoo",
+     "url": "https://autonews.gasgoo.com/articles/news/agibots-convenience-store-test-the-challenge-is-not-working-but-keeping-it-going-2118558800365383680"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Saturday, November 7, and this is the Transhuman Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in transhumanism."
+  },
+  {
+   "s": 15.0,
+   "t": "Factory reset? In old rats, two weeks on a drug halved an Alzheimer's-linked protein in their blood."
+  },
+  {
+   "s": 22.03,
+   "t": "Its first author compares it to Mufasa telling Simba: remember who you are."
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, a start-up says its AI solved a quantum maths puzzle open since 2008."
+  },
+  {
+   "s": 38.91,
+   "t": "And Mira Murati's lab is opening up Inkling 2 Small, ranked the best open model outside China."
+  },
+  {
+   "s": 45.94,
+   "t": "Tesla now brands its chips SI, for super intelligence, and promises 80 times today's compute."
+  },
+  {
+   "s": 52.97,
+   "t": "And China's Hubei province now covers deep brain s timulation implants under basic medical insurance."
+  },
+  {
+   "s": 60.0,
+   "t": "An early trial gave failing livers engineered immune cells: 2 in 9 had setbacks, versus 8 in 21."
+  },
+  {
+   "s": 67.5,
+   "t": "And in 61 adults, a maker-funded longevity supplement made arteries more flexible and lowered blood pressure."
+  },
+  {
+   "s": 75.0,
+   "t": "Stanford scored resting brains from super ager to Alzheimer's-like, flagging risk up to 12 years early."
+  },
+  {
+   "s": 82.5,
+   "t": "Across 41,000 US dogs, the states where dogs die younger tend to match where people do."
+  },
+  {
+   "s": 90.0,
+   "t": "In wellbeing, brains of people with mental health diagnoses shifted gears less between rest and tasks."
+  },
+  {
+   "s": 97.5,
+   "t": "And in 100 couples, extra stress dented that evening's love, but always-stressed people weren't less in love."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. Poorer Australian kids are increasingly missing out on therapy, even after seeing a GP."
+  },
+  {
+   "s": 112.5,
+   "t": "Asked to fix page numbers, a Claude agent deleted a law professor's syllabus; luckily, backups saved the day."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, a remote-controlled humanoid cleaned a reporter's apartment, climbing stairs like it was tipsy."
+  },
+  {
+   "s": 128.91,
+   "t": "A solar plane over the Canary Islands has flown more than 80 hours straight, aiming for 100."
+  },
+  {
+   "s": 135.94,
+   "t": "And AgiBot's six shop robots did over 1,700 tasks in a day, but two failed probation."
+  },
+  {
+   "s": 142.97,
+   "t": "No factory reset for us yet, but small fixes that hold up add up to more good years."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build the future. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-07/The-Transhuman-Daily_2026-11-07.mp4",
+  "mb": 60.2,
+  "bytes": 60222133,
+  "seconds": 180.01
+ },
+ "links": {}
+}
