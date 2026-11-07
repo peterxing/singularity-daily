@@ -1,0 +1,538 @@
+{
+ "date": "2026-11-08",
+ "ep": 35,
+ "hook": "WE STILL GET A SAY.",
+ "day": "Sunday 8 November 2026",
+ "chapters": [
+  "WHO DECIDES",
+  "NEW MINDS",
+  "MONEY & POWER",
+  "HEALTH & HOME",
+  "PUSHBACK",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:29 AEDT, Sun 8 Nov 2026.",
+ "notes": [
+  "Company claims and own tests: Meta's Personal Superintelligence Index (47% vs 38%) and memory scores are Meta's own; Nous Research's propaganda rates (22% to 0.9%) come from its own 803-prompt test.",
+  "Valuations: OpenAI's $11 billion at $1.25 trillion is per people familiar (Bloomberg, Reuters); Anthropic's $1-1.5 trillion range is what its investors told CNBC, down from $2 trillion floated. Goldman's $8.5 trillion is five years of data-centre spending in its 2 Nov note, as reported by Investing.com.",
+  "Allegations: the Presley and Eight Mile Style lawsuits against Suno are claims, and Suno denies wrongdoing. Chomet and his producer say an automated tool filled in some in-between frames of Dior's film.",
+  "This week: Cambridge's bird flu vaccine (5 Nov, animal tests only), the Tel Aviv University and Stanford self-teaching method (announced 4 Nov), Xinhua's robot anchors (5 Nov) and Dubai's robot showroom (opened 6 Nov).",
+  "Screenshots are the publishers' public article pages as captured on 8 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "WE STILL GET A SAY. 🙋\n\nThe last 24h in superintelligence:\n- OpenAI raised $11B at $1.25T\n- Meta's Muse: 47% on its superintelligence index\n- Elvis's music owners sued AI song maker Suno\n- A professor, 78, blocks delivery robots\n\nWhere do you want a say?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (8 Nov 2026), hosted by Claudia: voters, investors and Elvis's music owners pushing back, Anthropic's IPO price, Meta's personal superintelligence score and memory, a lab stripping propaganda from a Chinese model, two AI models teaching each other, OpenAI's $11 billion, Goldman's $8.5 trillion data-centre math, Nvidia chips cleared for an empty office, a one-man business run with AI, an AI-designed bird flu vaccine, NYT Cooking's AI helper, the Suno lawsuits, Dior's hand-drawn defence, a professor blocking delivery robots, robot news anchors and Dubai's robot showroom, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "THE NEW YORK TIMES: CHINA'S TOP SPY AGENCY RECRUITED THE WOMAN WHO TARGETED NVIDIA'S JENSEN HUANG",
+  "CNN: THE NASDAQ LOST ABOUT $2.5 TRILLION IN VALUE THIS WEEK",
+  "CNBC: ANTHROPIC'S NASDAQ DEBUT IS LIKELY IN MID-NOVEMBER",
+  "FORBES: ANTHROPIC IPO VALUATION TALK FALLS TO $1.2-1.3 TRILLION AFTER THE AI STOCK ROUT",
+  "THE VERGE: OPENAI RAISED $122 BILLION IN MARCH AT AN $852 BILLION VALUATION",
+  "META: MUSE'S 'ACTIVE FOCUS' IS 67% BETTER AT FINISHING EVERYDAY TASKS WHEN SOMETHING GOES WRONG",
+  "THE DECODER: NOUS'S ARETE-27B CUT PROPAGANDA ON FREE-SPEECH QUESTIONS FROM 60% TO 1%",
+  "BUSINESS INSIDER: AN UNRELEASED ANTHROPIC MODEL HELPED SOLVE A MAJOR QUANTUM-COMPUTING QUESTION",
+  "GOLDMAN SACHS: GLOBAL DATA-CENTRE CAPACITY TO REACH 273 GW BY 2030, UP FROM 217 GW",
+  "THE NEW YORK TIMES: NEW MATRIX'S OWNERS HAVE TIES TO A CHINESE FIRM BLACKLISTED SINCE 2024",
+  "CNBC: NON-EMPLOYER BUSINESS APPLICATIONS IN AI-EXPOSED INDUSTRIES ROSE 26.8% SINCE EARLY 2024",
+  "CNBC: SMALL FIRMS THAT ADOPTED AI GREW HEADCOUNT ABOUT 7% MORE THAN NON-ADOPTERS, GUSTO FOUND",
+  "CAMBRIDGE: THE SAME TEAM'S BROAD CORONAVIRUS VACCINE HAS ALREADY PROVED SAFE IN HUMAN TRIALS",
+  "VARIETY: SUNO SAYS IT DOESN'T ALLOW PROMPTS FOR SPECIFIC ARTISTS' NAMES AND SONGS",
+  "VARIETY: DIOR'S SIX-MINUTE FILM TOOK SEVEN MONTHS AND ABOUT 20 PEOPLE, ITS PRODUCER SAYS",
+  "SKY NEWS: MORE THAN 70 ANTI-DATA-CENTRE PROTESTS ARE PLANNED IN 15 EUROPEAN COUNTRIES THIS MONTH",
+  "THE NATIONAL: 76 GROUPS BACK AN EDINBURGH MARCH AGAINST AI DATA CENTRES ON 14 NOVEMBER",
+  "THE GUARDIAN: SOME PHILADELPHIANS DRESSED UP AS MARVIN AND A DELIVERY ROBOT FOR HALLOWEEN",
+  "XINHUA: ITS ROBOT ANCHORS ARE LINKED TO XINHUA YUDIAN, ITS AI CURRENT-AFFAIRS AGENT",
+  "EMIRATES 24/7: DUBAI'S SHOWROOM SELLS ROBOTS FOR CLEANING HOMES, FACADES, STREETS AND WAREHOUSES",
+  "NEW YORK POST: A SAN FRANCISCO RESIDENT HIRED HUMANOID ROBOTS TO CLEAN UP AFTER A PARTY FOR $100",
+  "TOM'S HARDWARE: TSMC DENIES EXPLORING 3D DRAM AT NVIDIA'S REQUEST"
+ ],
+ "sources": [
+  "CNBC",
+  "Variety",
+  "Billboard",
+  "Forbes",
+  "Meta",
+  "Unite.AI",
+  "The Decoder",
+  "Nous Research",
+  "Tel Aviv University",
+  "The Jerusalem Post",
+  "Bloomberg",
+  "Reuters",
+  "The Verge",
+  "Investing.com",
+  "Goldman Sachs",
+  "The New York Times",
+  "University of Cambridge",
+  "Medical Xpress",
+  "Cell Reports Medicine",
+  "The Guardian",
+  "Xinhua",
+  "Emirates 24/7",
+  "The National",
+  "CNN",
+  "Sky News",
+  "Business Insider",
+  "Tom's Hardware",
+  "New York Post"
+ ],
+ "scanned": 3765,
+ "stories": [
+  {
+   "id": "anthropic-ipo-backlash",
+   "title": "Anthropic's IPO meets the AI backlash: investors now expect $1 trillion to $1.5 trillion",
+   "summary": "Anthropic, likely heading for a Nasdaq debut in mid-November, is seen by its investors at a $1 trillion to $1.5 trillion valuation, down from a $2 trillion target floated earlier, CNBC reports. US voters opposed data-centre ballot measures in 40 of 41 cases this week.",
+   "chapter": "WHO DECIDES",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Local communities opposed data-centre ballot measures in 40 of 41 cases in the US midterms, CNBC reports."
+    },
+    {
+     "id": "2028-0",
+     "key": "49d11afdd5",
+     "relation": "early",
+     "note": "More than half of voters told NBC's exit poll AI data centres were a crucial or major factor in their congressional vote."
+    }
+   ]
+  },
+  {
+   "id": "meta-muse-superintelligence-index",
+   "title": "Meta's Muse scores 47% on Meta's own Personal Superintelligence Index, up from 38%",
+   "summary": "Meta is rolling out models trained with its Muse Wonder model to Muse and Meta AI. On Meta's own tests, Muse now scores 47% on its Personal Superintelligence Index (38% before) and uses critical context in 90% of tasks (76% before).",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/current-muse-scores-47-on-metas-personal-superintelligence-index/"
+    },
+    {
+     "outlet": "Meta"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nous-arete-propaganda",
+   "title": "Nous Research strips most Chinese state propaganda from Alibaba's Qwen model",
+   "summary": "Nous Research fine-tuned Alibaba's Qwen3.8-27B on about 53 million tokens into Arete-27B. On Nous's own 803-prompt test, the share of answers containing propaganda fell from 22% to 0.9%.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/"
+    },
+    {
+     "outlet": "Nous Research"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tau-stanford-ai-teaches-ai",
+   "title": "Tel Aviv University and Stanford get two AI models to teach each other without human data",
+   "summary": "In a preprint, one model generates symbol sequences and the other learns to predict them, with no human-made data; the skills transferred to language, images, audio, music, code and DNA. The models could not learn real-world facts this way.",
+   "chapter": "NEW MINDS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "The Jerusalem Post",
+     "url": "https://www.jpost.com/israel-news/article-914126"
+    },
+    {
+     "outlet": "Tel Aviv University"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-11b-at-1-25t",
+   "title": "OpenAI closes $11 billion at a $1.25 trillion valuation, less than it hoped",
+   "summary": "OpenAI has closed $11 billion, the first part of a round valuing it at $1.25 trillion, people familiar told Bloomberg and Reuters. It could rise to $20 billion; OpenAI had hoped for up to $30 billion at $1.4 trillion.",
+   "chapter": "MONEY & POWER",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "OpenAI closed $11 billion at a $1.25 trillion valuation, a frontier lab priced at trillion-dollar scale."
+    }
+   ]
+  },
+  {
+   "id": "goldman-data-centre-forecast",
+   "title": "Goldman Sachs: the data-centre build-out could cost $8.5 trillion over five years",
+   "summary": "Goldman Sachs raised its 2030 forecast for global data-centre capacity to 273 GW from 217 GW, a build-out that could need $8.5 trillion of spending over five years, according to Investing.com's report of its note.",
+   "chapter": "MONEY & POWER",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "Investing.com (via Yahoo Finance)",
+     "url": "https://uk.finance.yahoo.com/news/goldman-raises-global-data-center-004410623.html"
+    },
+    {
+     "outlet": "Goldman Sachs"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "A projection: consensus capex for selected US tech and cloud firms could reach about $1.74 trillion a year by 2030, up from $457 billion in 2025."
+    }
+   ]
+  },
+  {
+   "id": "nvidia-chips-empty-office",
+   "title": "The US cleared Nvidia's H200 chips for a Chinese firm with an empty office",
+   "summary": "The Commerce Department approved dozens of Chinese companies to handle Nvidia's H200 chips, The New York Times found, including New Matrix, a 17-month-old firm whose office is empty and whose owners have ties to a firm blacklisted since 2024.",
+   "chapter": "MONEY & POWER",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+    },
+    {
+     "outlet": "The New York Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-5",
+     "key": "26bd2dce18",
+     "relation": "challenges",
+     "note": "US approvals let Nvidia's H200 chips go to a Chinese firm with an empty office and blacklist ties, a gap in tracking where AI chips go."
+    }
+   ]
+  },
+  {
+   "id": "one-man-twelve-brands",
+   "title": "One man runs 12 online brands with no employees, using AI as his team",
+   "summary": "Alex Willen expects his 12 e-commerce brands, which have no employees, to bring in $2.5 million to $3 million this year, CNBC reports. Non-employer business applications in AI-exposed industries rose 26.8% from early 2024 to early 2026, per preliminary Mercatus research.",
+   "chapter": "MONEY & POWER",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/07/americas-new-no-employee-small-business-owners-start-hot-in-ai-era.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cambridge-ai-bird-flu-vaccine",
+   "title": "Cambridge's AI-designed bird flu vaccine fully protects animals in tests",
+   "summary": "A broad-spectrum bird flu vaccine designed with AI by the University of Cambridge and spinoff DIOSynVax gave complete protection against diverse variants in animal trials, while stockpiled vaccines protected about half of the animals. It has not been tested in people.",
+   "chapter": "HEALTH & HOME",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-scientists-ai-bird-flu-vaccine.html"
+    },
+    {
+     "outlet": "University of Cambridge"
+    },
+    {
+     "outlet": "Cell Reports Medicine"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "An AI-designed vaccine fully protected animals in a published study, a step well short of regulator approval."
+    }
+   ]
+  },
+  {
+   "id": "nyt-cooking-ai-assistant",
+   "title": "NYT Cooking's new AI assistant saves a reviewer's chicken, and nearly ruins her cake",
+   "summary": "The New York Times' cooking app has added an AI assistant for subscribers, on iOS at launch. In The Verge's hands-on review it helped with a weeknight chicken but almost ruined a cake.",
+   "chapter": "HEALTH & HOME",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "elvis-eminem-sue-suno",
+   "title": "Elvis Presley's rightsholders and Eminem's publisher sue AI music maker Suno",
+   "summary": "A Presley group including Authentic Brands Group alleges Suno infringes copyright and Tennessee's ELVIS Act; Eight Mile Style, which controls hundreds of Eminem recordings, filed its own suit. 'The next Elvis won't pick up a guitar,' their lawyers wrote. Suno denies wrongdoing.",
+   "chapter": "PUSHBACK",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "Variety",
+     "url": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/"
+    },
+    {
+     "outlet": "Billboard"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dior-film-drawn-by-hand",
+   "title": "Accused of using AI, the director of Dior's holiday film says it was drawn by hand",
+   "summary": "After a six-fingered hand went viral, director Sylvain Chomet and producer Aton Soumache told Variety the six-minute Dior film was traditional 2D animation that took seven months, with an automated tool filling in some in-between frames.",
+   "chapter": "PUSHBACK",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "Variety",
+     "url": "https://variety.com/2026/film/global/sylvain-chomet-denies-ai-accusations-dior-robert-pattinson-1236941945/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "philadelphia-professor-blocks-robots",
+   "title": "A 78-year-old Philadelphia professor blocks Uber Eats delivery robots in protest",
+   "summary": "Semi-retired UPenn professor Carolyn Marvin stands in front of Uber Eats delivery robots, made by Avride, in downtown Philadelphia. Police handcuffed her and wrote her a ticket for disorderly conduct, which she plans to contest.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "xinhua-robot-news-anchors",
+   "title": "Xinhua unveils two humanoid robot news anchors, their look designed by Zhang Yimou",
+   "summary": "China's state news agency Xinhua and UBTECH unveiled humanoid anchors Xinyu and Xinyan in Beijing on 5 November, linked to Xinhua's AI current-affairs agent. Film director Zhang Yimou was chief image designer; Xinhua says journalists remain the central editorial actors.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/xinhua-unveils-bionic-humanoid-robot-news-anchors-with-ubtech/"
+    },
+    {
+     "outlet": "Xinhua"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dubai-humanoid-robot-showroom",
+   "title": "Dubai gets the UAE's first humanoid robot showroom, with 28 robots",
+   "summary": "Lootah Robotics' showroom on Sheikh Zayed Road shows 28 robots priced from AED 50,000 to 3 million, for cleaning homes, facades, streets and warehouses, reception and hospitality. Dubai aims for 200,000 robots by 2032.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Emirates 24/7",
+     "url": "https://www.emirates247.com/business/from-aed50000-to-3-million-dubai-gets-a-showroom-for-humanoid-robots/7553"
+    },
+    {
+     "outlet": "The National"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Sunday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in superintelligence, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "This week, voters, investors and Elvis's music owners told the AI industry: we still get a say."
+  },
+  {
+   "s": 22.03,
+   "t": "Anthropic's investors now expect $1 to $1.5 trillion. Not two."
+  },
+  {
+   "s": 31.88,
+   "t": "Meta's assistant, Muse, now scores 47% on its Personal Superintelligence Index. Up from 38."
+  },
+  {
+   "s": 39.38,
+   "t": "It also remembers what matters: in 90% of tasks, up from 76."
+  },
+  {
+   "s": 45.94,
+   "t": "And a US lab says it cut a Chinese model's propaganda from 22% to under 1%."
+  },
+  {
+   "s": 52.97,
+   "t": "In Tel Aviv, researchers got two AI models to teach each other."
+  },
+  {
+   "s": 57.34,
+   "t": "No human data at all."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. OpenAI banked $11 billion, at $1.25 trillion. Less than it hoped."
+  },
+  {
+   "s": 67.5,
+   "t": "Goldman Sachs reckons the data centre boo m could cost $8.5 trillion in five years."
+  },
+  {
+   "s": 75.0,
+   "t": "Meanwhile, the US cleared Nvidia's AI chips for a Chinese firm with an empty office."
+  },
+  {
+   "s": 80.56,
+   "t": "Wires dangling."
+  },
+  {
+   "s": 82.5,
+   "t": "One man, twelve brands, no employees: AI's his team."
+  },
+  {
+   "s": 86.38,
+   "t": "He expects up to $3 million this year."
+  },
+  {
+   "s": 90.0,
+   "t": "An AI-designed bird flu vaccine from Cambridge fully protected animals."
+  },
+  {
+   "s": 94.91,
+   "t": "Stockpiled ones? About half."
+  },
+  {
+   "s": 97.5,
+   "t": "And NYT Cooking's new AI helper saved a reviewer's chicken."
+  },
+  {
+   "s": 101.54,
+   "t": "Then it almost ruined her cake."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Elvis's and Eminem's music owners are suing an AI song maker."
+  },
+  {
+   "s": 111.09,
+   "t": "Accused of AI, Dior's animator says: \"Everything was drawn by hand.\""
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, the machines. In Philadelphia, a 78-year-old professor blocks delivery robots. She got a ticket."
+  },
+  {
+   "s": 129.38,
+   "t": "China's state news agency has two humanoid robot anchors."
+  },
+  {
+   "s": 133.27,
+   "t": "Their look? By film director Zhang Yimou."
+  },
+  {
+   "s": 136.41,
+   "t": "Dubai just got a showroom for humanoid robots. Need one? 28 to choose from."
+  },
+  {
+   "s": 142.5,
+   "t": "It's all moving fast."
+  },
+  {
+   "s": 143.87,
+   "t": "But the future isn't just happening to us. We still get a say."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-08/Singularity-Daily_2026-11-08.mp4",
+  "mb": 70.3,
+  "bytes": 70305573,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
