@@ -1,0 +1,544 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-08",
+ "ep": 7,
+ "hook": "SLEEP ON IT.",
+ "day": "Sunday 8 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · SUNDAY 8 NOVEMBER 2026",
+ "tldr": "Sleep on it: silencing some sleep cells made mice forget, a gene therapy plus a pill cut seizures in 3 patients, and exam stress showed up in Australian campus sewage.",
+ "chapters": [
+  "SLEEP ON IT.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 72 hours to 06:10 AEDT, Sun 8 Nov 2026 (the week's best).",
+ "notes": [
+  "Evidence: the sleep-memory and Alzheimer's-protein results are in mice and the bird flu vaccine in mice and ferrets; the epilepsy result is a 3-patient pilot; the bedtime, sewage, conversation and psychedelics findings are links, not proof; the lawyers study is a Google-run working paper; Anthropic's figures are its own.",
+  "This week: the epilepsy pilot (3 Nov), the bedtime trial (3 Nov), UDCA's Parkinson's trial (4 Nov) and the KAIST protein (4 Nov).",
+  "Screenshots are the publishers' public pages as captured on 8 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SLEEP ON IT. 😴\n\nThe week in transhumanism:\n- Silencing some sleep cells made mice forget, though they slept normally\n- A gene therapy plus a pill cut seizures in 3 people\n- Exam stress showed up in campus sewage in Queensland\n- A drone that hops on one leg 🛸",
+  "alt": "A 3-minute motion-graphics showreel of the week's best in transhumanism (8 Nov 2026): sleep-active memory cells in mice, earlier bedtimes and weight loss, Anthropic's 'dreaming' Claude agents, a gene therapy and pill that cut seizures in three epilepsy patients, an AI-designed bird flu vaccine, an NHS trial of an AI phone assistant, an old liver drug in the world's biggest Parkinson's trial, a protein that halved Alzheimer's plaques in mice, a review of obesity drugs and the brain, a Lancet trial on dialysis for frail older people, exam stress in Australian campus sewage, the pink noise of good conversations, AI and lawyers' skills, psychedelics and age, signs of simmering magma on Mars, a hopping drone and Sony's glasses-free 3D desk display, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "CHINA HAS AT LEAST SEVEN DESIGNER-RECEPTOR (DREADD) TRIALS IN PEOPLE UNDER WAY, C&EN REPORTS",
+  "ANTHROPIC: A WIKI BUILT OVER 128 DREAMING SESSIONS LIFTED SCORES FROM 13% TO 48% ON ITS OWN TEST",
+  "META SAYS ITS MUSE ASSISTANT NOW FORGETS CRITICAL CONTEXT 2.4 TIMES LESS (COMPANY FIGURES)",
+  "CAMBRIDGE'S AI-DESIGNED BIRD FLU VACCINE HEADS FOR HUMAN TRIALS NEXT",
+  "DORA CARE'S CALLS ADD TO, NOT REPLACE, PATIENTS' REGULAR NHS CARE",
+  "EJS ACT-PD NOW TESTS THREE PARKINSON'S DRUGS AT ONCE: TELMISARTAN, TERAZOSIN AND UDCA",
+  "KAIST'S PROTEIN ALSO CALMED THE BRAIN'S OVERACTIVE IMMUNE CELLS IN THE MICE",
+  "GLP-1 REVIEW: RAPID WEIGHT AND MUSCLE LOSS COULD OFFSET BENEFITS IN FRAIL OLDER PEOPLE",
+  "LANCET KIDNEY TRIAL: ONLY 28% OF THOSE PREPARING FOR DIALYSIS WENT ON TO START IT",
+  "JAPAN BACKED INSURANCE COVER FOR AN INJECTABLE VERSION OF THE ALZHEIMER'S DRUG LECANEMAB",
+  "A REVIEW IN THE JOURNAL AGING ARGUES AGEING HAS SEVERAL BRAKES, NOT ONE",
+  "FDA IS INVESTIGATING TUMOUR REPORTS AFTER NOVARTIS' ZOLGENSMA GENE THERAPY",
+  "UQ: ANTIDEPRESSANT TRACES IN CAMPUS SEWAGE ALSO ROSE DURING EXAMS",
+  "PINK NOISE PREDICTED WHICH SPEED-DATING PAIRS MET UP FOR A SECOND DATE",
+  "TWO-HOST PODCASTS GOT 'PINKER' OVER THEIR FIRST 50 EPISODES",
+  "THE PATENT-LAWYER STUDY WAS RUN AND FUNDED BY GOOGLE, WHICH MADE THE AI TOOL",
+  "UC SAN DIEGO: KETAMINE PLUS MINDFULNESS RAISED BODY AWARENESS FASTER IN OPIOID RECOVERY",
+  "MARS: HYDROGEN CHLORIDE KEEPS SEEPING FROM MAGMA EVEN AFTER ERUPTIONS END",
+  "HOPCOPTER HOPS ON ABOUT A TENTH OF THE ENERGY OF A SAME-SIZE DRONE, ITS MAKERS SAY",
+  "SONY'S ELF-MN1 LAUNCHES IN JAPAN ON 11 DECEMBER FOR ABOUT 54,000 YEN",
+  "XINHUA AND UBTECH UNVEILED TWO HUMANOID ROBOT NEWS ANCHORS IN BEIJING"
+ ],
+ "sources": [
+  "Medical Xpress",
+  "Neuron",
+  "Chinese Academy of Sciences",
+  "New Atlas",
+  "NYU Rory Meyers College of Nursing",
+  "Nursing Research",
+  "Anthropic",
+  "Let's Data Science",
+  "Interesting Engineering",
+  "C&EN",
+  "Science",
+  "The Independent",
+  "New England Journal of Medicine",
+  "University of Cambridge",
+  "Cell Reports Medicine",
+  "University of York",
+  "Mirage News",
+  "University of Sheffield",
+  "Seoul Economic Daily",
+  "KAIST",
+  "Advanced Science",
+  "Neuroscience News",
+  "University of Copenhagen",
+  "University of Gothenburg",
+  "The Lancet",
+  "University of Bristol",
+  "ScienceAlert",
+  "University of Queensland",
+  "Nature Water",
+  "The Guardian",
+  "Dartmouth College",
+  "Science Advances",
+  "PsyPost",
+  "National Bureau of Economic Research",
+  "BBC",
+  "Durham University",
+  "ESA",
+  "Advanced Intelligent Systems",
+  "Sony",
+  "Unite.AI",
+  "Longevity.Technology",
+  "The Japan News",
+  "RTTNews"
+ ],
+ "scanned": 1673,
+ "stories": [
+  {
+   "id": "sleep-memory",
+   "title": "Mice with some sleep cells silenced slept normally but forgot what they'd learned",
+   "summary": "Chinese Academy of Sciences researchers found hippocampal cells that are busiest in deep sleep and help make the 'ripples' that lock in memories. Silencing them after learning impaired mice's memory, though standard sleep measures looked normal (Neuron). A mouse study; their role in people is unknown.",
+   "pillar": "wellbeing",
+   "evidence": "Mouse study",
+   "chapter": "SLEEP ON IT.",
+   "badge": "IN MICE",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-mask-memory-problems.html"
+    },
+    {
+     "outlet": "Neuron",
+     "url": "https://doi.org/10.1016/j.neuron.2026.09.031"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bedtime",
+   "title": "Falling asleep earlier, not sleeping longer, went with more weight loss",
+   "summary": "In an NYU trial of 196 adults with prediabetes, people who fell asleep earlier lost more weight over 8 weeks, about 0.6 kg per hour earlier, however long they slept; sleep coaching didn't change blood sugar (Nursing Research). A link found within a trial, not proof of cause.",
+   "pillar": "wellbeing",
+   "evidence": "Link within a trial of 196 people",
+   "chapter": "SLEEP ON IT.",
+   "badge": "THIS WEEK",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/sleep/weight-loss-earlier-bedtimes/"
+    },
+    {
+     "outlet": "NYU Rory Meyers College of Nursing",
+     "url": "https://nursing.nyu.edu/w/news/press-release/earlier-bedtime-linked-weight-loss-prediabetes"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dreaming",
+   "title": "Anthropic says its Claude agents 'dream' to fix their own memory notes",
+   "summary": "Anthropic described 'dreaming': between jobs, Claude reviews past session transcripts to correct its memory notes and build knowledge. In its own tests, a corrected note got a Pokemon run past Mt. Moon, and a wiki built over 128 dreaming sessions lifted scores from 13% to 48%. The model itself doesn't change.",
+   "pillar": "intelligence",
+   "evidence": "Company's own evaluations",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/anthropic-details-how-claude-uses-dreaming-to-organize-agent-86d1704a"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chemogenetics",
+   "title": "A gene therapy plus a pill dimmed overactive brain cells and cut seizures in three patients",
+   "summary": "In China, an engineered virus gave 'designer receptors' to brain cells of three adults with drug-resistant epilepsy, so an existing pill could dial those cells down. Monthly seizures fell from 4.5 to 0.5 in two and from 4 to 0 in one (NEJM). A pilot built to test safety, not proof it works.",
+   "pillar": "intelligence",
+   "evidence": "Pilot study, 3 patients",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "C&EN",
+     "url": "https://cen.acs.org/pharmaceuticals/drug-development/designer-gene-therapy-chemogenetics-dreadd-epilepsy-clinical-trial/104/web/2026/11"
+    },
+    {
+     "outlet": "bdnews24.com",
+     "url": "https://bdnews24.com/health/308xrmyeu5"
+    },
+    {
+     "outlet": "New England Journal of Medicine",
+     "url": "https://doi.org/10.1056/NEJMc2606815"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "birdflu-ai",
+   "title": "Cambridge's AI-designed bird flu vaccine fully protected mice and ferrets",
+   "summary": "The University of Cambridge and spinoff DIOSynVax used AI to design 'super-antigens' from bird flu sequences logged worldwide. The vaccine completely protected mice and ferrets against diverse variants; the stockpiled vaccine protected about half (Cell Reports Medicine). Animal tests; human trials are next.",
+   "pillar": "intelligence",
+   "evidence": "Animal study (mice and ferrets)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-scientists-ai-bird-flu-vaccine.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "An AI-designed vaccine fully protected animals in a published study, a step well short of regulator approval."
+    }
+   ]
+  },
+  {
+   "id": "dora-care",
+   "title": "The NHS is trialling Dora, an AI that phones people with osteoporosis",
+   "summary": "Ufonia, the University of York and Newcastle University are testing Dora Care, a generative-AI phone assistant built to show empathy the way clinicians do, for routine check-ins with people who have fragile bones. The calls add to regular NHS care; the two-year trial has no results yet.",
+   "pillar": "intelligence",
+   "evidence": "Trial under way, no results yet",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-trial-ai-patients-term-illness.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "udca-parkinsons",
+   "title": "An old liver drug, UDCA, joins the world's biggest Parkinson's trial",
+   "summary": "Ursodeoxycholic acid, used for liver conditions for over 30 years and found by Sheffield researchers screening a drug library in patients' tissue, becomes the third drug tested in EJS ACT-PD, which aims to recruit 2,000 people at 40 NHS hospitals. It may help cells' power plants; no evidence yet it slows Parkinson's.",
+   "pillar": "longevity",
+   "evidence": "Trial starting, no results yet",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Mirage News",
+     "url": "https://www.miragenews.com/sheffield-drug-joins-worlds-largest-parkinsons-1772534/"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-drug-discovery-scientists-world-largest.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "kaist-amyloid",
+   "title": "A KAIST protein cut Alzheimer's plaques by about half in mice",
+   "summary": "KAIST chemists made a brain-reaching version of a zinc finger protein that steers amyloid-beta away from toxic clumps. In Alzheimer's model mice, deposits fell about 53% in the cortex and hippocampus and recognition memory improved, but other memory tests didn't (Advanced Science). A mouse study.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/technology/2026/11/05/kaist-team-curbs-toxic-alzheimers-protein-clumping-in-mice"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-protein-alzheimer-linked-brain-deposits.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "glp1-brain",
+   "title": "Obesity drugs might protect thinking if started before damage sets in, a review says",
+   "summary": "A review in Science by Copenhagen and Gothenburg researchers weighs whether GLP-1 drugs like semaglutide protect the brain: health records link them to less dementia in diabetes, but semaglutide didn't slow early Alzheimer's in the EVOKE trials. Timing may matter. A review of existing evidence, no new data.",
+   "pillar": "longevity",
+   "evidence": "Review of existing evidence",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Neuroscience News",
+     "url": "https://neurosciencenews.com/glp1-brain-health-neuropharmacology-32389/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "kidney-frailty",
+   "title": "For frail older people with failing kidneys, care without dialysis did about as well",
+   "summary": "A University of Bristol-led trial of 445 people from 31 UK kidney centres, mostly aged 80 or over, found neither preparing for dialysis nor structured care without it gave better length and quality of life together over 4.5 years (The Lancet). It doesn't apply to people already on dialysis or to fitter patients.",
+   "pillar": "longevity",
+   "evidence": "Randomised trial, 445 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-kidney-trial-default-dialysis-older.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "exam-sewage",
+   "title": "Exam stress showed up in an Australian campus's sewage",
+   "summary": "University of Queensland researchers tracked wastewater from a campus of 30,000 people: oxidative-stress markers rose during exam weeks, and so did antidepressant traces, though only some rises were statistically significant (Nature Water). An observational, population-level signal.",
+   "pillar": "wellbeing",
+   "evidence": "Observational wastewater study",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/university-exams-produce-a-distinct-chemical-signature-in-sewage-study-suggests"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pink-noise",
+   "title": "The best conversations have 'pink noise': on topic, off on a tangent, back again",
+   "summary": "Dartmouth researchers scored more than 1,000 chats between strangers turn by turn and found the most enjoyable had 'pink noise', a rhythm between staying on a topic and wandering off; it also predicted second dates in speed dating (Science Advances). A correlational study.",
+   "pillar": "wellbeing",
+   "evidence": "Correlational study",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/science/2026/nov/06/better-conversation-study-pink-noise"
+    },
+    {
+     "outlet": "Neuroscience News",
+     "url": "https://neurosciencenews.com/pink-noise-conversation-cognition-32390/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-lawyers",
+   "title": "AI improved lawyers' drafts, but only senior lawyers kept an edge without it",
+   "summary": "In a 3-month randomised trial with 133 US patent lawyers, an AI writing tool improved drafts; on a later task done without AI, only senior lawyers who had used it did better, while juniors showed no average gain. An NBER working paper, not yet peer reviewed, run and funded by Google, which made the tool.",
+   "pillar": "intelligence",
+   "evidence": "Working paper, not peer reviewed",
+   "chapter": "THE CATCH",
+   "badge": "PREPRINT",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/prior-expertise-may-determine-whether-ai-builds-skills-or-substitutes-for-them-field-experiment-suggests/"
+    },
+    {
+     "outlet": "NBER",
+     "url": "https://doi.org/10.3386/w35720"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psychedelics-age",
+   "title": "Psychedelic users' better mental health showed up only in younger adults",
+   "summary": "In a Durham University survey of 1,088 adults, those who had used psilocybin or LSD reported less anxiety and depression than non-users, but only in younger age groups; the link faded with age. Observational and self-reported, so it doesn't show cause and effect.",
+   "pillar": "wellbeing",
+   "evidence": "Observational survey, 1,088 adults",
+   "chapter": "THE CATCH",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6m2dl3ey483o"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mars-hcl",
+   "title": "An orbiter sniffed hydrogen chloride by a Martian volcano: Mars may still simmer inside",
+   "summary": "ESA's ExoMars Trace Gas Orbiter detected hydrogen chloride several times above fissured ground near Alba Mons, Mars' biggest volcano by area; the researchers say it's best explained by ongoing magma activity inside the planet (Science Advances). An interpretation of gas detections, not an observed eruption.",
+   "pillar": "frontier",
+   "evidence": "Orbital gas detections",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/a-stinky-gas-seeping-from-the-bowels-of-mars-may-reveal-the-planet-is-still-volcanically-active"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hopcopter",
+   "title": "Hopcopter, a drone that hops on one leg, gets a foot for sand, ice and rocks",
+   "summary": "Researchers in Hong Kong and Toronto gave their one-legged hopping drone a flexible foot pad that cut landing variation across terrains by 84% (Advanced Intelligent Systems). Its makers say hopping uses about a tenth of the energy of flying a same-size drone. A research prototype.",
+   "pillar": "frontier",
+   "evidence": "Research prototype",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/robotics/hopcopter-hopping-robot-flexible-foot-pad/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sony-3d",
+   "title": "Sony's tiny desk display shows 3D characters with no glasses",
+   "summary": "Sony's ELF-MN1 is a 6-inch Spatial Reality Display that tracks your eyes to give each one its own image, so characters seem to stand on your desk without a headset. It launches in Japan on 11 December for about 54,000 yen (roughly US$340).",
+   "pillar": "frontier",
+   "evidence": "Product launch",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/consumer-tech/sony-xyn-elf-mn1-spatial-reality-display/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Sunday, November 8."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in transhumanism, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Sleep on it. This week, mice with some sleep cells silenced slept normally, but forgot what they'd learned."
+  },
+  {
+   "s": 22.03,
+   "t": "And people who fell asleep earlier lost more weight, however long they slept."
+  },
+  {
+   "s": 31.88,
+   "t": "And Anthropic says its Claude agents dream too: between jobs, they review past sessions to fix their notes."
+  },
+  {
+   "s": 38.91,
+   "t": "In China, a gene therapy plus a pill dimmed overactive brain cells, cutting seizures in three patients."
+  },
+  {
+   "s": 45.94,
+   "t": "Cambridge's AI-designed bird flu vaccine fully protected mice and ferrets; the stockpiled one protected about half."
+  },
+  {
+   "s": 52.97,
+   "t": "And the NHS is trialling Dora, an AI that phones people with fragile bones for routine check-ins."
+  },
+  {
+   "s": 60.0,
+   "t": "An old liver drug, UDCA, joins the world's biggest Parkinson's trial, to see if it slows the disease."
+  },
+  {
+   "s": 67.5,
+   "t": "In mice, a Korean team's protein cut Alzheimer's plaques by about half, and helped one kind of memory."
+  },
+  {
+   "s": 75.0,
+   "t": "A review in Science says obesity drugs might protect thinking, if taken before damage sets in."
+  },
+  {
+   "s": 82.5,
+   "t": "And a Lancet trial found frail older people with f ailing kidneys did about as well without dialysis."
+  },
+  {
+   "s": 90.0,
+   "t": "Here in Australia, Queensland researchers found exam stress in campus sewage, as stress markers rose in exam weeks."
+  },
+  {
+   "s": 97.5,
+   "t": "In a thousand chats, the best had pink noise: stay on topic, wander off, find each other again."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. A working paper found AI improved lawyers' drafts, but only seniors got sharper on their own."
+  },
+  {
+   "s": 112.5,
+   "t": "And in a survey, only younger psychedelic users reported less anxiety and depression; the link faded with age."
+  },
+  {
+   "s": 121.88,
+   "t": "Out in space, an orbiter sniffed acid gas by a Martian volcano: Mars may still simmer inside."
+  },
+  {
+   "s": 128.91,
+   "t": "Meet Hopcopter: a drone that hops on one leg, and its new foot handles sand, ice and rocks."
+  },
+  {
+   "s": 135.94,
+   "t": "And Sony's tiny desk screen shows 3D characters with no glasses, landing in Japan in December."
+  },
+  {
+   "s": 142.97,
+   "t": "So, big decision this week? Sleep on it."
+  },
+  {
+   "s": 145.91,
+   "t": "Our brains do their best filing while we rest."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Live long. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-08/The-Transhuman-Daily_2026-11-08.mp4",
+  "mb": 61.2,
+  "bytes": 61183070,
+  "seconds": 180.01
+ },
+ "links": {}
+}

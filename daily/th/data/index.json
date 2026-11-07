@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-06T20:19:50+00:00",
- "latest": "2026-11-07",
+ "updated": "2026-11-07T20:35:23+00:00",
+ "latest": "2026-11-08",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-08",
+   "ep": 7,
+   "hook": "SLEEP ON IT.",
+   "day": "Sunday 8 November 2026",
+   "tldr": "Sleep on it: silencing some sleep cells made mice forget, a gene therapy plus a pill cut seizures in 3 patients, and exam stress showed up in Australian campus sewage.",
+   "stories": 17,
+   "forecasts": 1,
+   "links": {
+    "supports": 0,
+    "early": 1,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 4,
+    "wellbeing": 5,
+    "intelligence": 5,
+    "frontier": 3
+   },
+   "titles": [
+    "Mice with some sleep cells silenced slept normally but forgot what they'd learned",
+    "Falling asleep earlier, not sleeping longer, went with more weight loss",
+    "Anthropic says its Claude agents 'dream' to fix their own memory notes"
+   ],
+   "cover": "daily/th/media/2026-11-08/cover.webp",
+   "thumb": "daily/th/media/2026-11-08/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-08/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-08/The-Transhuman-Daily_2026-11-08.mp4",
+    "mb": 61.2,
+    "bytes": 61183070,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-07",
    "ep": 6,
@@ -105,7 +140,7 @@
    "cover": "daily/th/media/2026-11-05/cover.webp",
    "thumb": "daily/th/media/2026-11-05/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/th/media/2026-11-05/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-05/The-Transhuman-Daily_2026-11-05.mp4",
     "mb": 54.5,

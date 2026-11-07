@@ -1,8 +1,22 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-06T20:19:50+00:00",
- "episodes": 6,
+ "updated": "2026-11-07T20:35:23+00:00",
+ "episodes": 7,
  "links": [
+  {
+   "fid": "2030-4",
+   "key": "10d59da620",
+   "relation": "early",
+   "note": "An AI-designed vaccine fully protected animals in a published study, a step well short of regulator approval.",
+   "ep": 7,
+   "on": "2026-11-08",
+   "date": "2026-11-05",
+   "story": "birdflu-ai",
+   "title": "Cambridge's AI-designed bird flu vaccine fully protected mice and ferrets",
+   "pillar": "intelligence",
+   "outlet": "Medical Xpress",
+   "url": "https://medicalxpress.com/news/2026-11-scientists-ai-bird-flu-vaccine.html"
+  },
   {
    "fid": "2027-2",
    "key": "041b303e2d",
