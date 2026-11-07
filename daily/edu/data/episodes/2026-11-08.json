@@ -1,0 +1,404 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-08",
+ "ep": 13,
+ "hook": "EVERYONE IN.",
+ "day": "Sunday 8 November 2026",
+ "note": "FOR EDUCATION · SUNDAY 8 NOVEMBER 2026",
+ "tldr": "The week's best for education: Narrator reads math on Braille displays for Insiders, Live captions follows your mic, and App Blocks rolls out in Copilot Chat.",
+ "chapters": [
+  "EVERYONE IN",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "SKILLS",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, from the 80 hours to 05:00 AEDT, Sun 8 Nov 2026 (Wednesday 4 to Friday 6 Nov in the US), plus This-week items.",
+ "notes": [
+  "A thin week for education news. Narrator Math in Braille, the Live captions change and Windows Hello's sign-in changes are for Windows Insiders in the Experimental channel; App Blocks is rolling out; Entra policy plans are in preview; Teams Rooms' two-screen view is now due January 2027 (December when we covered it on 6 Nov).",
+  "This week: Microsoft Pro Badge (4 Nov) and the .NET 8 and 9 end of support on 10 Nov (a scheduled date). The App Blocks practice form and physics simulation are our own examples.",
+  "Screenshots are the publishers' public pages as captured on 8 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "EVERYONE IN. 🙌\n\nThe week's best at Microsoft for education:\n- Windows Insiders: Narrator shows math on Braille displays\n- Live captions can follow your mic, PC sound or both (Insiders)\n- App Blocks rolling out in Copilot Chat\n- A free GitHub Copilot Pro Badge, no exam",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (8 Nov 2026): Narrator Math on Braille displays, Live captions from your mic, App Blocks in Copilot Chat, Windows Hello's whichever-works-first sign-in, @GitHub in Teams and its Canvas, Entra Conditional Access policy plans, new Windows Hello sign-in events, the Microsoft Pro Badge for GitHub Copilot, the .NET 8 and 9 end of support, Teams Rooms' two-screen view moving to January, The End of the Sun's scanned museum objects and Plants vs. Zombies: Replanted on EA Play, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "NARRATOR MATH ON BRAILLE DISPLAYS: NEMETH BY DEFAULT, PLUS UEB, CMU, VIETNAMESE, SWEDISH, LATEX AND ASCIIMATH",
+  "WINDOWS INSIDERS: STICKY KEYS AND FILTER KEYS PROMPTS CAN NOW BE DISMISSED FOR GOOD",
+  "THIS WEEK: STUDY AND LEARN LOCKED-MODE WEBINARS ON 10 AND 12 NOVEMBER (PACIFIC TIME)",
+  "PARTNERS SERVING EDUCATION: MICROSOFT 365 EDUCATION UPDATE WEBINARS ON 10 NOVEMBER, SALES READY TRAINING ON 17 NOVEMBER",
+  "PRO BADGE: ADVANCED AND EXPERT LEVELS COME NEXT; ENTERPRISE MANAGED USER ACCOUNTS AREN'T SUPPORTED AT LAUNCH",
+  "APP BLOCKS IN COPILOT CHAT: GENERAL AVAILABILITY DUE NOVEMBER, ON WEB, DESKTOP AND MOBILE",
+  "FRONTIER PREVIEWS FOR TEAMS, OUTLOOK, ONEDRIVE AND SHAREPOINT ARE NOW MARKED LAUNCHED ON THE ROADMAP",
+  "TEAMS: FACILITATOR FOLLOW-UP MODE, TO CHAT WITHOUT TAGGING IT EACH TIME, DUE DECEMBER",
+  "WORK IQ: AGENTS CAN RUN REUSABLE RECIPES, DUE NOVEMBER",
+  "ISSUES AND PULL REQUESTS FROM @GITHUB NOW SAY WHICH SLACK OR TEAMS CONVERSATION THEY CAME FROM",
+  "ENTRA POLICY PLANS: PLAN-LEVEL EXCLUSIONS CAN'T BE REMOVED BY ANY RULE, CUTTING ACCIDENTAL LOCKOUTS",
+  "WINDOWS HELLO: AFTER A RESTART YOU'LL STILL NEED YOUR PIN FIRST",
+  ".NET 10 IS A LONG-TERM SUPPORT RELEASE, SUPPORTED UNTIL 14 NOVEMBER 2028",
+  "COPILOT CHAT: FAIR USE LIMITS FOR UNLICENSED USERS IN COMMERCIAL TENANTS, LARGER ORGANIZATIONS FROM 9 NOVEMBER",
+  "TEAMS ROOMS ON WINDOWS: TWO SHARED SCREENS SIDE BY SIDE NEEDS TEAMS ROOMS PRO",
+  "THE END OF THE SUN: FLORAL PATTERNS INSPIRED BY ZALIPIE, POLAND'S PAINTED VILLAGE",
+  "MYSIMS: COZY BUNDLE BRINGS BACK MYSIMS AND MYSIMS KINGDOM",
+  "EA PLAY MEMBERS ALSO SAVE 10% ON EA DIGITAL PURCHASES",
+  "MICROSOFT IGNITE: 17-20 NOVEMBER, IN SAN FRANCISCO AND ONLINE"
+ ],
+ "sources": [
+  "Microsoft Learn",
+  "Windows Insider Blog",
+  "Neowin",
+  "Microsoft 365 Roadmap",
+  "GitHub Changelog",
+  "Microsoft Entra Blog",
+  "Microsoft Skills Hub Blog",
+  "The Register",
+  ".NET Support Policy",
+  "Microsoft Partner Center",
+  "Xbox Wire",
+  "Microsoft Education Tech Community"
+ ],
+ "scanned": 1802,
+ "stories": [
+  {
+   "id": "narrator-math-braille",
+   "title": "Narrator Math now shows equations on Braille displays, for Windows Insiders",
+   "summary": "Narrator's math reading now reaches refreshable Braille displays: equations in Word, PowerPoint, Edge or Chrome show on the display, so students who read Braille can explore them by touch while listening. Nemeth is the default, with UEB, CMU, LaTeX and ASCIIMath among the options.",
+   "for": "Students who read Braille, STEM teachers",
+   "status": "Insiders",
+   "edu": true,
+   "chapter": "EVERYONE IN",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental/preview-build-26340-9882"
+    },
+    {
+     "outlet": "Windows Insider Blog",
+     "url": "https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "live-captions-mic",
+   "title": "Live captions can follow your mic, your PC's sound, or both, for Windows Insiders",
+   "summary": "In the same Insider build, Live captions settings let you choose system audio, your microphone, or both, so you can caption an in-person conversation without picking up PC audio, or follow a meeting or a video.",
+   "for": "Students and staff who use captions",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental/preview-build-26340-9882"
+    }
+   ]
+  },
+  {
+   "id": "copilot-chat-app-blocks",
+   "title": "App Blocks is rolling out in Microsoft 365 Copilot Chat",
+   "summary": "App Blocks turns a request in Copilot Chat into an interactive tool right in the conversation: calculators, dashboards, forms, planners, simulations and comparison tools. A teacher might ask for a practice form or a simple physics simulation (our examples).",
+   "for": "Anyone on campus who uses Copilot Chat",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577743"
+    }
+   ]
+  },
+  {
+   "id": "windows-hello-whichever-first",
+   "title": "Windows Hello takes face, fingerprint or PIN, whichever works first, for Insiders",
+   "summary": "You no longer have to wait for face or fingerprint recognition to finish before typing your PIN: use whichever method works first. After a restart, you'll still need your PIN first.",
+   "for": "Students and staff signing in",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Windows Insider Blog",
+     "url": "https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "github-in-teams-ga",
+   "title": "@GitHub in Slack and Teams is generally available, with Canvas in Teams",
+   "summary": "Tag @GitHub in a Teams chat to investigate a bug, create an issue, make the change and open a pull request without leaving the conversation. The new Canvas puts implementation plans, code changes and previews beside the chat.",
+   "for": "Student and staff dev teams",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/"
+    }
+   ]
+  },
+  {
+   "id": "entra-policy-plans",
+   "title": "Microsoft Entra Conditional Access policy plans are in public preview",
+   "summary": "Policy plans group Conditional Access policies around one goal: define the users in scope and emergency-access exclusions once, then add a rule for each requirement, with AI agents covered by the same model. Plan-level exclusions can't be removed by any rule.",
+   "for": "School IT",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Microsoft Entra Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/scale-access-controls-with-microsoft-entra-conditional-access-policy-plans/4569647"
+    }
+   ]
+  },
+  {
+   "id": "windows-hello-sign-in-events",
+   "title": "New Windows Hello sign-in events for IT admins, for Windows Insiders",
+   "summary": "Event 4628 records the Windows Hello methods a user has set up and which one they used to sign in, and event 4629 records failed attempts, both under the existing Audit Logon policy. The sign-in experience doesn't change.",
+   "for": "School IT",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental/preview-build-26340-9882"
+    }
+   ]
+  },
+  {
+   "id": "pro-badge-github-copilot",
+   "title": "Microsoft Pro Badge: GitHub Copilot, a free credential earned from everyday use",
+   "summary": "Opt in with a personal GitHub account and your everyday GitHub Copilot use is assessed against five levels, from Beginner to Expert. Reach Proficient and you qualify for the badge, at no cost and with no exam. It's private by default, and you choose whether to share it on Credly and LinkedIn.",
+   "for": "Student coders",
+   "status": "Generally available",
+   "edu": true,
+   "chapter": "SKILLS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Microsoft Skills Hub Blog",
+     "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/introducing-a-credential-based-on-real-work%E2%80%94no-test-required/4519039"
+    },
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/software/2026/11/05/microsoft-admits-certifications-can-be-a-drag-launches-creds-that-recognize-skills/5307725"
+    }
+   ]
+  },
+  {
+   "id": "dotnet-8-9-end-of-support",
+   "title": ".NET 8 and .NET 9 reach end of support on 10 November 2026",
+   "summary": "After Tuesday 10 November, .NET 8 (long-term support) and .NET 9 (standard-term support) no longer get free support and patches. .NET 10, a long-term support release, is supported until 14 November 2028.",
+   "for": "University developers and IT",
+   "status": "Ends 10 November 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": ".NET Support Policy",
+     "url": "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core"
+    },
+    {
+     "outlet": "Microsoft Partner Center",
+     "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-november"
+    }
+   ]
+  },
+  {
+   "id": "teams-rooms-two-screens-january",
+   "title": "Two shared screens side by side in Teams Rooms on Windows, now due January 2027",
+   "summary": "Teams Rooms on Windows is due to show up to two shared screens side by side, with side-by-side and expanded views. The roadmap now says January 2027 (it said December when we covered it on 6 November), and it needs Teams Rooms Pro.",
+   "for": "Campus AV teams",
+   "status": "Due January 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579184"
+    }
+   ]
+  },
+  {
+   "id": "end-of-the-sun-museums",
+   "title": "The End of the Sun on Xbox is built from objects scanned in Polish museums",
+   "summary": "About 80% of the objects in this Slavic-folklore adventure were scanned from real-world originals, many in Polish ethnographic museums. Optional Learn More points explain what unfamiliar objects were used for.",
+   "for": "Students, after hours",
+   "status": "Out 4 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/04/from-polish-museums-to-xbox/"
+    }
+   ]
+  },
+  {
+   "id": "ea-play-pvz-mysims",
+   "title": "Plants vs. Zombies: Replanted and MySims: Cozy Bundle join EA Play on Xbox",
+   "summary": "Both are now on EA Play's The Play List, playable with Xbox Cloud Gaming, Xbox PC Game Pass or Ultimate. Replanted is remastered in HD with new levels, local co-op and PvP.",
+   "for": "Students, after hours",
+   "status": "Available now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/05/ea-play-november/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Sunday."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours at Microsoft, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Everyone in. The week's best: for Windows Insiders, Narrator now shows math on a Braille display."
+  },
+  {
+   "s": 21.56,
+   "t": "Students who read Braille can explore equations by touch, in Word, PowerPoint, Edge or Chrome."
+  },
+  {
+   "s": 31.88,
+   "t": "Chatting in class? Insiders' Live captions can now follow your mic, your PC's sound, or both."
+  },
+  {
+   "s": 39.38,
+   "t": "Over in Copilot Chat, App Blocks are rolling out: ask, and get a working calculator, planner or simulation."
+  },
+  {
+   "s": 46.88,
+   "t": "Picture a practice form, or a simple physics simulation, built right inside the chat."
+  },
+  {
+   "s": 52.97,
+   "t": "Signing in? Insiders' Windows Hello now takes face, fingerprint or PIN, whichever works first."
+  },
+  {
+   "s": 60.0,
+   "t": "Campus IT? In Teams, tagging @GitHub is now generally available: from bug report to pull request."
+  },
+  {
+   "s": 67.5,
+   "t": "Its new Canvas puts the plan, the code changes and a preview right beside the conversation."
+  },
+  {
+   "s": 75.0,
+   "t": "In Entra, Conditional Access policy plans are in preview: define who's covered once, then add rules."
+  },
+  {
+   "s": 82.5,
+   "t": "And for IT, Insiders' Windows Hello now logs which method people used, and failed sign-ins."
+  },
+  {
+   "s": 90.0,
+   "t": "Student coders? Microsoft's Pro Badge for GitHub Copilot is free, with no exam: it's earned from everyday use."
+  },
+  {
+   "s": 97.5,
+   "t": "Opt in with a personal GitHub account, reach Proficient, and the badge is yours to share."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? .NET 8 and 9 reach end of support on Tuesday, November 10."
+  },
+  {
+   "s": 112.5,
+   "t": "And two shared screens side by side in Teams Rooms?"
+  },
+  {
+   "s": 116.19,
+   "t": "Now due in January, not December."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours?"
+  },
+  {
+   "s": 122.69,
+   "t": "About 80% of The End of the Sun's objects were scanned from real ones."
+  },
+  {
+   "s": 129.38,
+   "t": "Spot something unfamiliar?"
+  },
+  {
+   "s": 130.9,
+   "t": "Optional Learn More points tell you what it was used for."
+  },
+  {
+   "s": 135.0,
+   "t": "And on Xbox, EA Play now has Plants vs. Zombies: Replanted, with local co-op, and MySims: Cozy Bundle."
+  },
+  {
+   "s": 142.5,
+   "t": "Math by touch, captions for the room, apps in the chat: the week's best gets everyone in."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "Today's board: shipped. Tomorrow's: already building."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of updates. Imagine a whole year."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-08/Microsoft-for-Education-Daily_2026-11-08.mp4",
+  "mb": 50.4,
+  "bytes": 50388417,
+  "seconds": 180.01
+ },
+ "links": {}
+}

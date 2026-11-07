@@ -1,13 +1,37 @@
 {
  "show": "Microsoft for Education Daily",
- "updated": "2026-11-06T19:07:41+00:00",
- "latest": "2026-11-07",
+ "updated": "2026-11-07T19:04:12+00:00",
+ "latest": "2026-11-08",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/education",
  "share": "https://peterxing.com/daily/education",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-08",
+   "ep": 13,
+   "hook": "EVERYONE IN.",
+   "day": "Sunday 8 November 2026",
+   "name": "Microsoft for Education Daily",
+   "stories": 12,
+   "edu": 2,
+   "titles": [
+    "Narrator Math now shows equations on Braille displays, for Windows Insiders",
+    "Live captions can follow your mic, your PC's sound, or both, for Windows Insiders",
+    "App Blocks is rolling out in Microsoft 365 Copilot Chat"
+   ],
+   "cover": "daily/edu/media/2026-11-08/cover.webp",
+   "thumb": "daily/edu/media/2026-11-08/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-08/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-08/Microsoft-for-Education-Daily_2026-11-08.mp4",
+    "mb": 50.4,
+    "bytes": 50388417,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-07",
    "ep": 12,
@@ -72,7 +96,7 @@
    "cover": "daily/edu/media/2026-11-05/cover.webp",
    "thumb": "daily/edu/media/2026-11-05/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/edu/media/2026-11-05/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-05/Microsoft-for-Education-Daily_2026-11-05.mp4",
     "mb": 52.7,
