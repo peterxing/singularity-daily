@@ -1,8 +1,22 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-07T20:35:23+00:00",
- "episodes": 7,
+ "updated": "2026-11-08T20:13:36+00:00",
+ "episodes": 8,
  "links": [
+  {
+   "fid": "2027-2",
+   "key": "041b303e2d",
+   "relation": "early",
+   "note": "METR estimates Anthropic's models now improve about twice as fast as a year ago, mostly because AI is helping its researchers, at one lab.",
+   "ep": 8,
+   "on": "2026-11-09",
+   "date": "2026-11-05",
+   "story": "metr-anthropic",
+   "title": "An audit found Anthropic's AI improving about twice as fast, but most of the evidence was redacted",
+   "pillar": "intelligence",
+   "outlet": "METR",
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+  },
   {
    "fid": "2030-4",
    "key": "10d59da620",

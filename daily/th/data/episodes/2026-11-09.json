@@ -1,0 +1,545 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-09",
+ "ep": 8,
+ "hook": "SHOW YOUR WORK.",
+ "day": "Monday 9 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · MONDAY 9 NOVEMBER 2026",
+ "tldr": "Show your work: an AI-found quantum proof checked by software, gene-edited cells that helped 9 of 9 myositis patients early on, and online sessions that steadied anxiety in pregnancy.",
+ "chapters": [
+  "SHOW YOUR WORK.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 72 hours to 06:07 AEDT, Mon 9 Nov 2026 (the week's best).",
+ "notes": [
+  "Evidence: the quantum proof is a company claim checked in Lean, not yet peer reviewed; OpenAI's, DeepMind's and AGIBOT's figures are their own; the Toronto lab agents are a preprint; zugo-cel, RTX001 and the air-filter results are small early trials; the light-and-dementia and Monash findings are observational.",
+  "This week: METR's Anthropic report (5 Nov), the Toronto lab agents (5-6 Nov), RTX001 (5 Nov), the RELAX trial (4 Nov) and the room-temperature supersolid (3 Nov).",
+  "Screenshots are the publishers' public pages as captured on 9 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SHOW YOUR WORK. ✅\n\nThe week in transhumanism:\n- An AI found a proof for a 2008 quantum puzzle\n- Gene-edited immune cells helped all 9 patients in an early myositis trial\n- Online sessions eased anxiety in pregnancy\n- SpaceX will try to catch both halves of Starship 🚀",
+  "alt": "A 3-minute motion-graphics showreel of the week's best in transhumanism (9 Nov 2026): an AI-found proof of a quantum computing conjecture, an audit of AI speeding up AI at Anthropic, GPT-6 Cyber's Firefox bug haul, DeepMind's agents probing old encryption, AI agents in the wet lab and running robot labs, gene-edited immune cells for autoimmune disease, retatrutide and knee arthritis pain, macrophage therapy for failing livers, bright light and dementia, an online therapy for anxiety in pregnancy, bedroom air filters and blood sugar, a failed heart-drug trial, Australia's widening gap in access to therapy, Starship's double-catch attempt, a room-temperature supersolid and six humanoid robots running a Shanghai store, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "PSI: LEAN ACCEPTED THE PROOF ON DAY THREE OF THE RUN; STANFORD RESEARCHERS ARE WRITING A SHORTER VERSION FOR EXPERTS",
+  "METR: ANTHROPIC STAFF SELF-REPORTED BEING ABOUT 12 TIMES AS PRODUCTIVE WITH ITS TOP INTERNAL MODEL",
+  "GPT-6 CYBER ALSO BUILT WORKING EXPLOITS FOR 948 LINUX KERNEL BUGS; ACCESS IS RESTRICTED",
+  "DEEPMIND: FACTORING MANY OLD 1024-BIT RSA KEYS AT ONCE GOT ABOUT 30 TIMES CHEAPER PER KEY",
+  "BIOBASICSBENCH TASKS USE REAL GELS, COLONY PLATES, MICROSCOPY AND LAB VIDEOS",
+  "CRISPR THERAPEUTICS: 2 OF 3 EVALUABLE LUPUS PATIENTS IN DRUG-FREE REMISSION FOR 9+ MONTHS",
+  "RETATRUTIDE IS STILL EXPERIMENTAL; DIET AND EXERCISE STAY FIRST-LINE FOR KNEE ARTHRITIS, ITS RESEARCHERS SAY",
+  "RESOLUTION THERAPEUTICS PLANS AN FDA MEETING IN DECEMBER ABOUT A PIVOTAL TRIAL",
+  "NIGHT OWLS WITH MORE DAYLIGHT HAD UP TO 41% LOWER DEMENTIA RISK IN THE UK BIOBANK STUDY",
+  "THE RELAX TRIAL ALSO LOWERED DEPRESSION BEFORE AND AFTER BIRTH",
+  "NYU'S BEDROOM HEPA FILTERS CUT FINE PARTICLES BY 36%",
+  "LP(A)HORIZON RAN 7 YEARS IN 42 COUNTRIES; OTHER LP(A) DRUGS ARE STILL IN TRIALS",
+  "MONASH: THE GAP FOR ADULTS GREW FROM 8 TO 15 PERCENTAGE POINTS",
+  "STARSHIP FLIGHT 15'S DATE STILL NEEDS FAA APPROVAL",
+  "THE SUPERSOLID'S CAVITIES CAN RUN AT NEARLY 60 DEGREES C",
+  "AGIBOT'S STORE ROBOTS MADE 147 COFFEES AND SERVED 126 BREAKFASTS IN 24 HOURS",
+  "THINKING MACHINES UNVEILED INKLING 2 SMALL, A NEW OPEN-WEIGHT AI MODEL",
+  "BRAINCO SAYS ITS APPETITE-CURBING BRAIN WEARABLE COULD REACH CHINA IN 2-3 YEARS; NO DATA YET",
+  "OPENAI'S PAGE: AGENTS MUST SAY WHEN THE EVIDENCE CAN'T SUPPORT A CONCLUSION"
+ ],
+ "sources": [
+  "Physical Superintelligence",
+  "The Quantum Insider",
+  "METR",
+  "The Verge",
+  "OpenAI",
+  "BleepingComputer",
+  "Mozilla",
+  "Google DeepMind",
+  "OfficeChai",
+  "Crypto Briefing",
+  "Nature",
+  "University of Toronto",
+  "CRISPR Therapeutics",
+  "American College of Rheumatology",
+  "Northwestern University",
+  "New England Journal of Medicine",
+  "New Atlas",
+  "Resolution Therapeutics",
+  "AASLD",
+  "ScienceAlert",
+  "General Psychiatry",
+  "King's College London",
+  "JAMA Network Open",
+  "News-Medical",
+  "NYU Langone Health",
+  "American Heart Association",
+  "Cleveland Clinic",
+  "Monash University",
+  "SSM - Mental Health",
+  "Medical Xpress",
+  "The News International",
+  "SpaceNews",
+  "University of Warsaw",
+  "Science Advances",
+  "AGIBOT",
+  "Interesting Engineering",
+  "Yahoo Finance",
+  "ZDNET"
+ ],
+ "scanned": 1465,
+ "stories": [
+  {
+   "id": "psi-proof",
+   "title": "A startup's AI found a proof for an 18-year-old quantum computing puzzle, checked by software",
+   "summary": "Physical Superintelligence says its research system, running a non-public Anthropic model, found a proof of the Aaronson-Ambainis conjecture, open since 2008, and the Lean proof assistant accepted it. It limits quantum speedups on random inputs. A company claim; the paper isn't peer reviewed yet.",
+   "pillar": "intelligence",
+   "evidence": "Company claim; Lean-checked, not peer reviewed",
+   "chapter": "SHOW YOUR WORK.",
+   "badge": "PREPRINT",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Physical Superintelligence",
+     "url": "https://psi.inc/research/aaronson-ambainis/"
+    },
+    {
+     "outlet": "The Quantum Insider",
+     "url": "https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "metr-anthropic",
+   "title": "An audit found Anthropic's AI improving about twice as fast, but most of the evidence was redacted",
+   "summary": "After 11 weeks inside Anthropic, the AI-safety group METR estimates its models made roughly two years of progress in the last year, mostly thanks to AI helping its researchers. Anthropic redacted a majority of the evidence METR found most informative, so the public must rely on METR's judgement.",
+   "pillar": "intelligence",
+   "evidence": "Independent assessment, partly redacted",
+   "chapter": "SHOW YOUR WORK.",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "METR",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "METR estimates Anthropic's models now improve about twice as fast as a year ago, mostly because AI is helping its researchers, at one lab."
+    }
+   ]
+  },
+  {
+   "id": "gpt6-cyber",
+   "title": "OpenAI says GPT-6 Cyber found 81 serious Firefox bugs, and Mozilla is shipping fixes",
+   "summary": "OpenAI's new security model found 81 previously unknown high-severity Firefox flaws and built working exploits for 948 Linux kernel bugs, the company says. It rates the model 'Critical' for cyber risk and restricts access to approved security customers.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepmind-rsa",
+   "title": "DeepMind's AI agents found two weak spots in old, retired 1024-bit encryption",
+   "summary": "Working with researchers from UC San Diego and Inria, Google DeepMind's supervised AI agents found a signature-forgery attack about 1,600x better than the best known method, by DeepMind's own estimate, and a cheaper way to factor many keys at once. Only retired 1024-bit RSA is affected; 2048-bit keys are safe.",
+   "pillar": "intelligence",
+   "evidence": "Company research; theoretical estimates",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/google-deepmind-says-it-has-used-ai-agents-to-break-legacy-rsa-1024-encryption-faster-than-anyone-thought-possible/"
+    },
+    {
+     "outlet": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/google-deepmind-ai-rsa-1024-bit-weaknesses/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "biobasicsbench",
+   "title": "OpenAI tested AI agents on 100 everyday lab tasks; its best model scored 66.7%",
+   "summary": "BioBasicsBench, built with the biotech Ligo, asks agents to read raw gels, plates and microscopy, catch errors and say when the evidence can't support a conclusion. GPT-6 Astra earned 66.7% of the credit, up from 43.8% for GPT-5.6 Sol: progress toward reliable AI lab help, with room to improve.",
+   "pillar": "intelligence",
+   "evidence": "Company benchmark",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lab-agents",
+   "title": "AI agents rehearse experiments in a virtual lab, then run the real robots",
+   "summary": "University of Toronto researchers' AI agents write protocols, test them in a simulated copy of the lab and then direct the real robot arm; in one test they wrote more than 200 commands to measure nanocrystals. A preprint, not yet peer reviewed.",
+   "pillar": "intelligence",
+   "evidence": "Preprint",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Nature",
+     "url": "https://www.nature.com/articles/d41586-026-03587-x"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "zugo-cel",
+   "title": "Off-the-shelf gene-edited immune cells helped all 9 myositis patients in an early trial",
+   "summary": "In CRISPR Therapeutics' phase 1 trial of zugo-cel, donor CAR-T cells that need no matching, all 9 patients with inflammatory myopathy responded and 5 of 6 with systemic sclerosis did at month 3, with no serious immune reactions so far. Company data from 21 patients; an early trial.",
+   "pillar": "longevity",
+   "evidence": "Phase 1 trial, 21 patients; company data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "CRISPR Therapeutics (GlobeNewswire)",
+     "url": "https://www.manilatimes.net/2026/11/08/tmt-newswire/globenewswire/crispr-therapeutics-provides-update-on-zugocabtagene-geleucel-zugo-cel-in-refractory-rheumatologic-autoimmune-diseases/2464772"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "retatrutide-knee",
+   "title": "An experimental weight-loss jab at least halved knee arthritis pain for about 2 in 3 people",
+   "summary": "In two phase 3 trials with more than 1,000 people with knee osteoarthritis and overweight or obesity, about two-thirds on Eli Lilly's retatrutide had their pain at least halved, vs 38% on placebo, and the top dose took off about a quarter of body weight (NEJM). Not yet approved.",
+   "pillar": "longevity",
+   "evidence": "Two phase 3 trials, 1,000+ people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "Northwestern University",
+     "url": "https://news.northwestern.edu/stories/2026/11/experimental-weight-loss-drug-eases-painful-knee-osteoarthritis-in-two-clinical-trials"
+    },
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/disease/obesity/knee-osteoarthritis-pain-relief-weight-loss/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "rtx001",
+   "title": "Engineered clean-up cells cut serious setbacks for failing livers in a tiny early trial",
+   "summary": "In Resolution Therapeutics' EMERALD trial, 2 of 9 people with end-stage liver disease treated with their own engineered macrophages had death, a transplant or a relapse within 6 months, vs 8 of 21 in a comparison group: a 42% lower risk. Company data, not randomised.",
+   "pillar": "longevity",
+   "evidence": "Phase 1/2 trial, 9 patients; company data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Resolution Therapeutics (GlobeNewswire)",
+     "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/globenewswire/resolution-therapeutics-announces-positive-interim-phase-iii-emerald-data-for-regenerative-macrophage-therapy-rtx001-in-end-stage-liver-disease/2463202"
+    },
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/resolution-therapeutics-posts-positive-interim-emerald-results/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bright-light",
+   "title": "42 minutes of bright light a day went with 17% less dementia in 88,000 older adults",
+   "summary": "In UK Biobank data analysed by Guangzhou Medical University, older adults who wore light sensors for a week and got at least 42 minutes of bright light a day had a 17% lower relative risk of dementia over about 8 years (General Psychiatry). An observational link, not proof.",
+   "pillar": "longevity",
+   "evidence": "Observational study, ~88,000 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/less-than-42-minutes-of-daily-bright-light-is-a-stronger-predictor-of-dementia-than-obesity-study-finds"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "relax-trial",
+   "title": "Twelve short online sessions kept anxiety from climbing in pregnancy",
+   "summary": "In King's College London's RELAX trial of 268 people 16-28 weeks pregnant, 12 online sessions that train a less negative reading of everyday moments lowered anxiety and depression before and after birth, compared with usual care (JAMA Network Open).",
+   "pillar": "wellbeing",
+   "evidence": "Randomised trial, 268 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-04",
+   "sources": [
+    {
+     "outlet": "News-Medical",
+     "url": "https://www.news-medical.net/news/20261104/New-digital-therapy-prevents-maternal-anxiety-from-escalating-during-pregnancy.aspx"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "air-filter",
+   "title": "A month of sleeping with a bedroom air filter smoothed blood sugar in prediabetes",
+   "summary": "In an NYU Langone trial of more than 150 people with prediabetes, real HEPA filters cut fine particles by 36% and post-breakfast blood sugar by about 17%, compared with sham filters. A small, short trial presented at the American Heart Association's meeting, not yet peer reviewed.",
+   "pillar": "wellbeing",
+   "evidence": "Small randomised trial; conference result",
+   "chapter": "SUPER WELLBEING",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "NYU Langone Health (PR Newswire)",
+     "url": "https://www.prnewswire.com/news-releases/cleaner-bedroom-air-may-help-manage-blood-sugar-in-prediabetes-302932132.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pelacarsen",
+   "title": "A drug cut a risky blood fat by 78%, but heart attacks didn't fall",
+   "summary": "In the 7-year Lp(a)HORIZON trial of more than 8,300 people with heart disease, Novartis' pelacarsen lowered lipoprotein(a) by 78% but didn't change heart attacks, strokes or deaths (NEJM). 'It didn't work,' said senior author Steven Nissen. Lowering a number isn't the same as living longer.",
+   "pillar": "longevity",
+   "evidence": "Phase 3 trial, 8,300+ people",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "American Heart Association",
+     "url": "https://finance.yahoo.com/healthcare/articles/lp-horizon-trial-lp-fell-145000574.html"
+    },
+    {
+     "outlet": "TCTMD",
+     "url": "https://www.tctmd.com/news/full-lpahorizon-results-affirm-lack-pelacarsen-benefit-secondary-prevention"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "monash-therapy-gap",
+   "title": "Australia's income gap in who gets subsidised therapy nearly doubled; poorer kids miss out most",
+   "summary": "Monash University's study of 5.4 million Australians with a Mental Health Treatment Plan found the gap between the richest and poorest kids getting therapy within 3 months grew from 14 to 23 points, 2014-2023, as a child's first session rose from $44 to $90 out of pocket.",
+   "pillar": "wellbeing",
+   "evidence": "Analysis of Medicare and tax data",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-income-access-psychological-widens-children.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "starship-15",
+   "title": "SpaceX aims to catch both halves of Starship with its tower, as soon as 13 November",
+   "summary": "Starship Flight 15, with Booster 22 and Ship 42, is set to try the first catch of the upper stage as well as the booster, pending FAA approval. Catching both would mean every part of an orbital rocket coming back intact, Musk says: a step toward cheaper, reusable spaceflight.",
+   "pillar": "frontier",
+   "evidence": "Announced plan",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "The News International",
+     "url": "https://www.thenews.com.pk/latest/1422870-spacex-targets-nov-13-for-starship-flight-15-and-first-dual-catch-attempt"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "supersolid",
+   "title": "Physicists made a supersolid, part crystal and part frictionless fluid, at room temperature",
+   "summary": "A team from the University of Warsaw, Poland's Military University of Technology, IBM Research Zurich and CNRS made the quantum state with light-matter particles in a liquid-crystal cavity, no deep cooling needed (Science Advances): a step toward cheaper quantum sensors.",
+   "pillar": "frontier",
+   "evidence": "Peer-reviewed lab experiment",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-03",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/finally-physicists-create-an-exotic-quantum-state-of-matter-that-works-at-room-temperature"
+    },
+    {
+     "outlet": "University of Warsaw",
+     "url": "https://m.fuw.edu.pl/press-release/news10489.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agibot-store",
+   "title": "Six humanoid robots ran a Shanghai shop for a day; four of the six passed review",
+   "summary": "In AGIBOT's 24-hour trial on 2-3 November, six G2 wheeled humanoids completed 1,730 tasks in a working convenience store, including 683 customer interactions and 147 coffees, the company says. Four of the six passed its final assessment.",
+   "pillar": "frontier",
+   "evidence": "Company announcement",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "AGIBOT (GlobeNewswire)",
+     "url": "https://www.tmcnet.com/usubmit/2026/11/08/10477210.htm"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Monday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in transhumanism in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Show your work. A startup's AI just solved an 18-year-old quantum puzzle, and software checked every step."
+  },
+  {
+   "s": 22.03,
+   "t": "An audit says Anthropic's AI improves twice as fast."
+  },
+  {
+   "s": 26.02,
+   "t": "The evidence? Mostly redacted."
+  },
+  {
+   "s": 31.88,
+   "t": "OpenAI says its new model found 81 serious Firefox bugs, and Mozilla's already shipping fixes."
+  },
+  {
+   "s": 38.91,
+   "t": "DeepMind's agents found two weak spots in old, retired encryption. Today's longer keys are safe."
+  },
+  {
+   "s": 45.94,
+   "t": "OpenAI also tested AI on 100 everyday lab tasks."
+  },
+  {
+   "s": 49.56,
+   "t": "Its best model scored about two-thirds."
+  },
+  {
+   "s": 52.97,
+   "t": "In a Toronto preprint, AI agents rehearse experiments in a virtual lab, then run the real robots."
+  },
+  {
+   "s": 60.0,
+   "t": "In an early trial, off-the-shelf gene-edited immune cells helped all nine patients with an autoimmune muscle disease."
+  },
+  {
+   "s": 67.5,
+   "t": "In two big trials, Lilly's experimental jab at least halved knee arthritis pain for about two in three people."
+  },
+  {
+   "s": 75.0,
+   "t": "In a tiny trial, engineered clean-up cells cut serious setbacks for failing livers by 42%."
+  },
+  {
+   "s": 82.5,
+   "t": "In 88,000 older adults, 42 bright minutes a day went with 17% less dementia."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. In a trial with expectant mums, twelve short online sessions kept anxiety from climbing."
+  },
+  {
+   "s": 97.5,
+   "t": "In a small trial, a month of sleeping with an air filter smoothed blood sugar swings in prediabetes."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. A drug cut a risky blood fat by 78%. Heart attacks? Unchanged."
+  },
+  {
+   "s": 112.5,
+   "t": "Here in Australia, the income gap in who gets subsidised therapy nearly doubled; poorer kids miss out most."
+  },
+  {
+   "s": 121.88,
+   "t": "SpaceX aims to catch both halves of Starship with its tower, as soon as November 13."
+  },
+  {
+   "s": 128.91,
+   "t": "And physicists made a supersolid, part crystal, part frictionless fluid, at room temperature."
+  },
+  {
+   "s": 135.94,
+   "t": "And six humanoid robots ran a Shanghai shop for a whole day."
+  },
+  {
+   "s": 139.73,
+   "t": "Four of the six passed review."
+  },
+  {
+   "s": 142.97,
+   "t": "So, whether it's maths, medicine or machines, show your work. That's how we know what's real."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-09/The-Transhuman-Daily_2026-11-09.mp4",
+  "mb": 50.8,
+  "bytes": 50758349,
+  "seconds": 180.01
+ },
+ "links": {}
+}
