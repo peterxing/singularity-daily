@@ -1,0 +1,429 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-09",
+ "ep": 14,
+ "hook": "ONE STEP AT A TIME.",
+ "day": "Monday 9 November 2026",
+ "note": "FOR EDUCATION · MONDAY 9 NOVEMBER 2026",
+ "tldr": "The week's best for education: a study finds revealing slides step by step helps students find the point, passkey-first sign-in rolls out in Entra, and Kimi K3.1 Pro arrives in Foundry.",
+ "chapters": [
+  "ONE STEP AT A TIME",
+  "STUDENTS AND STAFF",
+  "CAMPUS BUILDERS",
+  "RESEARCH",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, from the 80 hours to 05:22 AEDT, Mon 9 Nov 2026 (Thursday 5 to Sunday 8 Nov in the US).",
+ "notes": [
+  "A quiet US weekend after a big week for education news (the Microsoft 365 Education lineup, DepEd and the Pro Badge were covered 6-8 Nov). The slide study, as reported by PsyPost, is one 20-minute recorded lesson with 40 students; its authors say the learning result needs replicating.",
+  "Passkey-first registration and Hello as standalone MFA are generally available and rolling out; guest and agent lifecycle policies and the fal video models are in preview; Exchange's on-by-default mitigations (December), automatic updates (a Q1 2027 target) and Claude in the EU Data Boundary (end of 2026) are planned.",
+  "Screenshots are the publishers' public pages as captured on 9 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ONE STEP AT A TIME. 👣\n\nThe week's best at Microsoft for education:\n- Study: reveal slides as you speak and students find the point in ~1s\n- Students and staff can start with a passkey (rolling out)\n- Kimi K3.1 Pro is in Foundry\n- Claude in Copilot due in the EU Data Boundary",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (9 Nov 2026): a study on revealing slides step by step, passkey-first sign-in, Windows Hello and Platform SSO as standalone MFA, guest and agent identity lifecycle policies in Entra, Kimi K3.1 Pro and new video models in Foundry, GitHub Copilot's Arm64 migration for .NET, Microsoft's Copilot harness paper, safer defaults for on-premises Exchange and SharePoint Server, Claude in the EU Data Boundary, Cat-Astrophy and Where Winds Meet's Hutuo update, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "STUDY: REVEALING SLIDE ITEMS AS THE TEACHER SPEAKS HELPED STUDENTS LOOK AT THE RIGHT SPOT IN ABOUT 1 SECOND, NOT 5.75",
+  "THE SLIDE STUDY USED ONE 20-MINUTE RECORDED BIOLOGY LESSON AND 40 UNIVERSITY STUDENTS; ITS AUTHORS SAY THE LEARNING RESULT NEEDS REPLICATING",
+  "ENTRA: CONTINUOUS ACCESS EVALUATION NOW REACTS TO DEVICE AND USER RISK, ASKING FOR A NEW SIGN-IN WITHIN TWO MINUTES",
+  "ENTRA CLOUD SYNC CAN NOW SYNC ACTIVE DIRECTORY COMPUTERS FOR HYBRID JOIN, GENERALLY AVAILABLE",
+  "ENTRA: CHOOSE YOUR OWN SMS AND VOICE PROVIDER BEFORE MICROSOFT-PROVIDED DELIVERY RETIRES ON 1 FEBRUARY 2027",
+  "GLOBAL SECURE ACCESS: HOME PRINTERS AND DISPLAYS STAY REACHABLE WITHOUT DISCONNECTING, IN PREVIEW",
+  "AUTHENTICATOR ON ANDROID: NEW PASSKEY BACKUP AND RESTORE GUIDANCE, ROLLING OUT FROM JANUARY 2027",
+  "KIMI K3.1 PRO IN FOUNDRY: $2.30 PER MILLION INPUT TOKENS, $11.50 PER MILLION OUTPUT",
+  "FAL OFFERS APIS FOR MORE THAN 1,500 GENERATIVE MEDIA MODELS; FOUNDRY STARTS WITH FIVE VIDEO MODELS",
+  "WINDOWS 365: EXTERNAL USERS CAN NOW SIGN IN TO CLOUD PCS FROM WINDOWS APP ON IPHONE AND IPAD",
+  "AZURE VIRTUAL DESKTOP: HOST POOLS USING SESSION HOST CONFIGURATION WILL NEED A MANAGED IDENTITY IN A FUTURE UPDATE",
+  "GITHUB COPILOT NOW WORKS IN JETBRAINS AIR WITH YOUR EXISTING COPILOT SUBSCRIPTION",
+  "GITHUB COPILOT APP: CSV AND TSV FILES NOW OPEN AS TABLES",
+  "EXCHANGE SERVER: SINCE SEPTEMBER, IMPORTANT SECURITY FIXES CAN ALSO SHIP OUTSIDE PATCH TUESDAY",
+  "CLAUDE IN COPILOT: TENANTS ALREADY USING IT NEED NO ACTION; PROCESSING MOVES INTO THE EU DATA BOUNDARY AUTOMATICALLY",
+  "COPILOT HARNESS PAPER: ONE TUNING CHANGE LIFTED THE EXCEL ONLINE CONNECTOR'S SUCCESS RATE FROM 85.6% TO 96.3%",
+  "WHERE WINDS MEET'S ANNIVERSARY EVENTS INCLUDE A FREE OUTFIT SET OF YOUR CHOICE",
+  "GEARS OF WAR TURNS 20: SEASON 2 OF GEARS OF WAR: E-DAY ARRIVES ON 1 DECEMBER",
+  "MICROSOFT IGNITE: 17-20 NOVEMBER, IN SAN FRANCISCO AND ONLINE"
+ ],
+ "sources": [
+  "PsyPost",
+  "Journal of Computer Assisted Learning",
+  "Microsoft Entra Blog",
+  "Microsoft Learn",
+  "Microsoft Foundry Blog",
+  ".NET Blog",
+  "Copilot Studio Blog",
+  "Microsoft Security Blog",
+  "Microsoft Copilot Blog",
+  "Windows IT Pro Blog",
+  "GitHub Changelog",
+  "Xbox Wire"
+ ],
+ "scanned": 1698,
+ "stories": [
+  {
+   "id": "slides-step-by-step-study",
+   "title": "Study: revealing slide items as you speak helps students find the point faster",
+   "summary": "In an eye-tracking study reported by PsyPost, students looked at what the teacher was describing after about 1 second when each item appeared as it was explained, versus 5.75 seconds with the whole slide at once, and scored 17.7 vs 16.7 out of 20. One recorded lesson, 40 students: the authors say it needs replicating.",
+   "for": "Teachers who present with slides",
+   "status": "Research",
+   "edu": true,
+   "chapter": "ONE STEP AT A TIME",
+   "badge": "REPORTED",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/eye-tracking-study-suggests-a-simple-powerpoint-technique-can-sharpen-students-focus/"
+    },
+    {
+     "outlet": "Journal of Computer Assisted Learning",
+     "url": "https://doi.org/10.1002/jcal.70286"
+    }
+   ]
+  },
+  {
+   "id": "entra-passkey-first",
+   "title": "Microsoft Entra lets people register a passkey as their first MFA method",
+   "summary": "Students and staff can now start with phishing-resistant sign-in from day one, registering a passkey or passwordless option as their very first MFA method. It's generally available, with the rollout continuing through February 2027.",
+   "for": "Students, staff and school IT",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "STUDENTS AND STAFF",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Entra Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/what%E2%80%99s-new-in-microsoft-entra-november-2026/4556457"
+    }
+   ]
+  },
+  {
+   "id": "entra-hello-platform-sso-mfa",
+   "title": "Windows Hello for Business and macOS Platform SSO now count as MFA on their own",
+   "summary": "These device-bound credentials now qualify as standalone MFA factors across step-up prompts, Authentication Strength and sign-in frequency checks, with no extra passkey required. Generally available, with the rollout beginning in early November.",
+   "for": "School and university IT",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "STUDENTS AND STAFF",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Entra Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/what%E2%80%99s-new-in-microsoft-entra-november-2026/4556457"
+    },
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=568076"
+    }
+   ]
+  },
+  {
+   "id": "entra-guest-lifecycle",
+   "title": "Entra guest lifecycle policies disable or delete stale guest accounts, in preview",
+   "summary": "IT can define guest policies based on sponsor attestation, recent activity or redemption state, then automatically disable or delete guests who no longer meet them. Handy for visiting researchers whose projects have ended (our example).",
+   "for": "University IT",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "STUDENTS AND STAFF",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/entra/id-governance/guest-lifecycle-policies"
+    },
+    {
+     "outlet": "Microsoft Entra Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/what%E2%80%99s-new-in-microsoft-entra-november-2026/4556457"
+    }
+   ]
+  },
+  {
+   "id": "kimi-k3-1-pro-foundry",
+   "title": "Moonshot AI's Kimi K3.1 Pro comes to Microsoft Foundry",
+   "summary": "An open-weight model built for agentic work, with text and image understanding and a context window of up to 1 million tokens, suited to coding, research and document-heavy apps. It costs $2.30 per million input tokens and $11.50 per million output tokens.",
+   "for": "University research teams and developers",
+   "status": "In the Foundry model catalog",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/moonshot-ai%E2%80%99s-kimi-k3-1-pro-comes-to-microsoft-foundry/4570292"
+    }
+   ]
+  },
+  {
+   "id": "foundry-video-models-fal",
+   "title": "Kling, LTX and MiniMax video models roll out in Microsoft Foundry through fal",
+   "summary": "Text-to-video and image-to-video models from Kling (v3 Pro), LTX (2.5 Fast and Pro) and MiniMax (H3 Max and Max Turbo) are rolling out in public preview in Foundry, served by fal as a first-party Azure service, with more models planned.",
+   "for": "Developers building media projects",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032"
+    }
+   ]
+  },
+  {
+   "id": "dotnet-arm64-upgrade-agent",
+   "title": "GitHub Copilot's upgrade agent helps move .NET apps to Windows on Arm",
+   "summary": "The GitHub Copilot upgrade agent now assesses .NET projects for a move from Windows x64 or x86 to Windows Arm64, finds blockers such as native dependencies without Arm64 binaries, plans the migration and helps update code, dependencies and settings. Testing on Arm64 hardware is still needed.",
+   "for": "Campus developers",
+   "status": "Available",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": ".NET Blog",
+     "url": "https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64/"
+    }
+   ]
+  },
+  {
+   "id": "entra-agent-lifecycle",
+   "title": "Entra agent identity lifecycle policies switch off idle AI agents, in preview",
+   "summary": "Lifecycle policies keep agent identities from outliving their purpose, with reconfirmation, sponsor and inactivity rules. A default policy for every tenant, with no license needed, notifies owners after 60 days of inactivity and disables the identity if it stays idle.",
+   "for": "School IT and agent builders",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/entra/id-governance/agent-lifecycle-policies"
+    },
+    {
+     "outlet": "Microsoft Entra Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/what%E2%80%99s-new-in-microsoft-entra-november-2026/4556457"
+    }
+   ]
+  },
+  {
+   "id": "copilot-harness-paper",
+   "title": "Microsoft paper: the Copilot harness lifts Copilot Studio agents' pass rates by up to 22 points",
+   "summary": "On the same tasks and models, the Microsoft Copilot harness in Copilot Studio raised eval pass rates by 10.8 points on GPT-5.5 Chat and 22.1 on Opus 4.8 while using 15-21% fewer cost-weighted tokens. In production its agents kept working after a failed tool call 84-91% of the time, versus under 7% before.",
+   "for": "Campus agent builders",
+   "status": "Research",
+   "edu": false,
+   "chapter": "RESEARCH",
+   "badge": null,
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "Copilot Studio Blog",
+     "url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot-studio-enabled-comp/4571157"
+    }
+   ]
+  },
+  {
+   "id": "onprem-baseline-security",
+   "title": "Exchange, SharePoint and Skype for Business Server are getting safer defaults",
+   "summary": "Microsoft plans to switch Emergency Mitigation Service 2.0 on by default for Exchange Server and Skype for Business Server in December 2026 and for SharePoint Server in January 2027, and is targeting automatic security updates and hardened default settings in Q1 2027. Until then, apply current updates on supported versions.",
+   "for": "University IT running on-prem servers",
+   "status": "Planned from December 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381"
+    }
+   ]
+  },
+  {
+   "id": "claude-copilot-eu-data-boundary",
+   "title": "Claude models in Microsoft Copilot are coming into the EU Data Boundary",
+   "summary": "By the end of 2026, organizations in the EU and EFTA will be able to use Claude models across Copilot experiences, including Copilot Cowork, with processing inside the EU Data Boundary. The setting is off by default in the EU and EFTA; tenants already using Claude need no action.",
+   "for": "European schools and universities",
+   "status": "Due by the end of 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-05",
+   "sources": [
+    {
+     "outlet": "Microsoft Copilot Blog",
+     "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/"
+    }
+   ]
+  },
+  {
+   "id": "cat-astrophy-xbox",
+   "title": "Cat-Astrophy, a space action roguelite, is out on Xbox",
+   "summary": "Travel procedurally generated planets as Polo, mixing evolving modules and directional attacks; there's no single right build, and Star Fragments unlock permanent upgrades and new routes for future runs. Also on Steam, Nintendo Switch and PlayStation.",
+   "for": "Students, after hours",
+   "status": "Out now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/06/cat-astrophy/"
+    }
+   ]
+  },
+  {
+   "id": "where-winds-meet-hutuo",
+   "title": "Where Winds Meet's Hutuo anniversary update arrives on Xbox on 13 November",
+   "summary": "The update brings a new campaign around the Battle of Zhongdu Bridge to Xbox Series X|S, with new bosses, Horse Racing Chess, Jianghu Tactics and the Dual Spears, plus anniversary gifts including a free outfit set of your choice.",
+   "for": "Students, after hours",
+   "status": "Out 13 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/06/where-winds-meet-anniversary-update-hutuo/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Monday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on everything new from Microsoft."
+  },
+  {
+   "s": 15.0,
+   "t": "One step at a time. The week's best opens with a slide tip for teachers."
+  },
+  {
+   "s": 21.09,
+   "t": "Reveal each point as you say it: students found it in about a second, not almost six."
+  },
+  {
+   "s": 31.88,
+   "t": "In the study, they also remembered a little more, though it was just 40 students."
+  },
+  {
+   "s": 39.38,
+   "t": "New on campus? A passkey can now be the first sign-in method you register, rolling out through February."
+  },
+  {
+   "s": 46.88,
+   "t": "Windows Hello for Business, or a Mac's Platform single sign-on, now counts as multifactor on its own."
+  },
+  {
+   "s": 54.38,
+   "t": "Visiting researchers?"
+  },
+  {
+   "s": 55.67,
+   "t": "Stale guest accounts can be disabled automatically, in preview."
+  },
+  {
+   "s": 60.0,
+   "t": "Research teams? Kimi K3.1 Pro is in Foundry, with room for a million tokens."
+  },
+  {
+   "s": 67.5,
+   "t": "Media projects? Kling, LTX and MiniMax video models are rolling out in Foundry, in public preview."
+  },
+  {
+   "s": 75.0,
+   "t": "Moving to Arm laptops?"
+  },
+  {
+   "s": 76.63,
+   "t": "GitHub Copilot's upgrade agent now helps port .NET apps to Windows on Arm."
+  },
+  {
+   "s": 82.5,
+   "t": "Idle AI agents? In preview, Entra warns owners after 60 days, then disables those still idle."
+  },
+  {
+   "s": 90.0,
+   "t": "In calmer news, Microsoft's paper finds Copilot Studio's new harness lifts pass rates by up to 22 points."
+  },
+  {
+   "s": 97.5,
+   "t": "When a step fails, they keep working up to 91% of the time, versus under 7%."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Still running Exchange Server on campus?"
+  },
+  {
+   "s": 108.65,
+   "t": "Emergency mitigations are due on by default in December."
+  },
+  {
+   "s": 112.5,
+   "t": "In Europe, Claude in Copilot is due inside the EU Data Boundary by the end of the year."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours?"
+  },
+  {
+   "s": 122.78,
+   "t": "Cat-Astrophy is out on Xbox: a space roguelite with freshly generated planets."
+  },
+  {
+   "s": 129.38,
+   "t": "No single right build here, and Star Fragments unlock upgrades for next time."
+  },
+  {
+   "s": 135.0,
+   "t": "And on November 13, Where Winds Meet's Hutuo update brings Horse Racing Chess to Xbox."
+  },
+  {
+   "s": 142.5,
+   "t": "Reveal it piece by piece, start with a passkey, tidy up guests: one step at a time."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: shipped today, and more on the way."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And it keeps on shipping."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-09/Microsoft-for-Education-Daily_2026-11-09.mp4",
+  "mb": 51.0,
+  "bytes": 51031719,
+  "seconds": 180.01
+ },
+ "links": {}
+}

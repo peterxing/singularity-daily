@@ -1,13 +1,37 @@
 {
  "show": "Microsoft for Education Daily",
- "updated": "2026-11-07T19:04:12+00:00",
- "latest": "2026-11-08",
+ "updated": "2026-11-08T19:22:24+00:00",
+ "latest": "2026-11-09",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/education",
  "share": "https://peterxing.com/daily/education",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-09",
+   "ep": 14,
+   "hook": "ONE STEP AT A TIME.",
+   "day": "Monday 9 November 2026",
+   "name": "Microsoft for Education Daily",
+   "stories": 13,
+   "edu": 1,
+   "titles": [
+    "Study: revealing slide items as you speak helps students find the point faster",
+    "Microsoft Entra lets people register a passkey as their first MFA method",
+    "Windows Hello for Business and macOS Platform SSO now count as MFA on their own"
+   ],
+   "cover": "daily/edu/media/2026-11-09/cover.webp",
+   "thumb": "daily/edu/media/2026-11-09/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-09/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-09/Microsoft-for-Education-Daily_2026-11-09.mp4",
+    "mb": 51.0,
+    "bytes": 51031719,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-08",
    "ep": 13,
@@ -72,7 +96,7 @@
    "cover": "daily/edu/media/2026-11-06/cover.webp",
    "thumb": "daily/edu/media/2026-11-06/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/edu/media/2026-11-06/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-06/Microsoft-for-Education-Daily_2026-11-06.mp4",
     "mb": 50.8,
