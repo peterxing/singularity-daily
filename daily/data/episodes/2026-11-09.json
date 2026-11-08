@@ -1,0 +1,470 @@
+{
+ "date": "2026-11-09",
+ "ep": 36,
+ "hook": "ROBOTS MOVE IN.",
+ "day": "Monday 9 November 2026",
+ "chapters": [
+  "MOVING IN",
+  "NEW MINDS",
+  "MONEY & POWER",
+  "BREAKING GROUND",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:19 AEDT, Mon 9 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: Anthropic's $3.4 billion generator deal (Financial Times; Reuters couldn't verify it) and the US AI safety centre's informal reporting line to the White House (AP, citing two former officials).",
+  "Company figures: PrimeBOT's 10,000th robot, AGIBOT's 1,730 tasks and Diamond Foundry's 200 mm diamond are the companies' own; the Korean app numbers are IGAWorks Mobileindex data for Android and iOS apps only.",
+  "UBTech's 1,500-2,000 U1 delivery estimate was given by its founder in September. Anthropic's finding on teams of AI agents comes from simulated business tasks.",
+  "This week: PSI's AI-found proof (announced 6 Nov; Stanford's Guy Blanc quoted 8 Nov), Diamond Foundry's diamond (6 Nov) and AGIBOT's store trial (2-3 Nov, reported 7-8 Nov).",
+  "Screenshots are the publishers' public article pages as captured on 9 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ROBOTS MOVE IN. 🤖\n\nThe last 24h in superintelligence:\n- Amazon is building a new home robot\n- PrimeBOT hit 10,000 personal robots\n- ChatGPT tops 18M monthly app users in Korea\n- Anthropic's reported $3.4B gas power deal\n\nWhat would you hand a robot first?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (9 Nov 2026), hosted by Claudia: Amazon's new home robot team, PrimeBOT's 10,000th personal robot, ChatGPT and Claude growth in South Korea, Tencent's AI chief on biology risks, Anthropic's research on teams of AI agents, Anthropic's reported gas generator deal, Cathie Wood on the sell-off, the US AI safety centre and the White House, an AI-found quantum proof, a 20-centimetre diamond for cooling chips, AI-written complaints flooding UK offices, disappointing companion robots, six robots running a Shanghai store and Karachi's robot waiters, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "AXIOS: 'CONGRESS WILL INVESTIGATE': NVIDIA CEO JENSEN HUANG FACES A PROBE OVER ALLEGED CHINESE SPY TIES",
+  "TOM'S HARDWARE: AMSTERDAM POLICE ARRESTED 150 TO 200 PROTESTERS AT A MICROSOFT DATA CENTRE SITE",
+  "CNBC: AMAZON BOUGHT HUMANOID MAKER FAUNA ROBOTICS IN MARCH FOR A NEW PERSONAL ROBOTICS GROUP",
+  "CNBC: BARCLAYS SEES THE HUMANOID ROBOT MARKET REACHING ROUGHLY $40 BILLION BY 2035",
+  "GLOBAL TIMES: CHINESE MAKERS SHIPPED MORE THAN 97% OF THE WORLD'S HUMANOID ROBOTS IN THE FIRST HALF",
+  "FINANCIAL NEWS: KOREANS SPENT 51 MILLION HOURS IN THE CHATGPT APP IN OCTOBER, MORE THAN DOUBLE A YEAR AGO",
+  "CNBC: OVER 90% OF 533 AI AGENTS JOINED THIS SUMMER'S HUGGING FACE ATTACK ONCE THEIR MESSAGE BOARD FOUND A WAY IN",
+  "REUTERS: ANTHROPIC EXPECTS TO SPEND MORE THAN $500 BILLION ON AI INFRASTRUCTURE OVER 10 YEARS",
+  "CNBC: CATHIE WOOD SAYS THE RISING COST OF CAPITAL COULD BE A 'SHOWSTOPPER'",
+  "AP: THE US AI SAFETY CENTRE HAS STOPPED PUBLISHING ITS RESEARCH",
+  "QUANTUM ZEITGEIST: PSI'S SYSTEM HAD A FULL PROOF ON DAY THREE, AND THE LEAN PROOF CHECKER ACCEPTED IT",
+  "DIAMOND FOUNDRY: ITS CEO SAYS 300 MM DIAMONDS ARE NOW 'PREDICTABLE' TOO",
+  "THE GUARDIAN: RESEARCHERS CALL THE FLOOD OF AI-WRITTEN REQUESTS 'AGENTIC FLOODING'",
+  "THE STANDARD: UBTECH'S LIFELIKE U1 COMPANIONS COST 119,800 TO 990,000 YUAN",
+  "INTERESTING ENGINEERING: AGIBOT'S STORE TRIAL WAS LIVESTREAMED TO MORE THAN 2 MILLION VIEWERS",
+  "PAKISTAN TODAY: STAFF SAY BUSINESS HAS GROWN SINCE THE ROBOT WAITERS ARRIVED",
+  "TOM'S HARDWARE: NVIDIA'S GEFORCE 8800 GTX CAME OUT 20 YEARS AGO ON SUNDAY",
+  "THE GUARDIAN: A GLOBAL MUSIC BODY WARNS ALBANESE THAT WEAKENING AI COPYRIGHT LAW WOULD BE 'A DISASTER FOR CREATIVITY'",
+  "STAT: WHY THE LATEST HEART DRUG FAILURES SHOULD MAKE US ALL MORE SKEPTICAL OF AI HYPE",
+  "WSJ: NVIDIA-BACKED COHERE SAYS ITS IPO TIMING IS UNCERTAIN DESPITE SURGING REVENUE",
+  "THE WASHINGTON POST: THE ONLY TOWN IN THE U.S. THAT SAID YES TO DATA CENTERS"
+ ],
+ "sources": [
+  "CNBC",
+  "Global Times",
+  "Financial News (Korea)",
+  "IGAWorks Mobileindex",
+  "South China Morning Post",
+  "Anthropic",
+  "Financial Times",
+  "Reuters",
+  "The Hindu BusinessLine",
+  "AP",
+  "Quantum Zeitgeist",
+  "Physical Superintelligence",
+  "Diamond Foundry",
+  "PR Newswire",
+  "Tom's Hardware",
+  "The Guardian",
+  "The Standard",
+  "AGIBOT",
+  "Interesting Engineering",
+  "Pakistan Today",
+  "AFP",
+  "Axios",
+  "Barclays",
+  "STAT",
+  "WSJ",
+  "The Washington Post"
+ ],
+ "scanned": 2886,
+ "stories": [
+  {
+   "id": "amazon-new-home-robot",
+   "title": "Amazon is working on a new home robot, five years after Astro",
+   "summary": "Amazon has formed a new home robotics team working on a 'new-to-world robot product', CNBC found from job posts; one since-removed listing said robots are 'about to step out of the movies and into our homes.' Its Astro robot reached just a few thousand customers.",
+   "chapter": "MOVING IN",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "primebot-10000-robots",
+   "title": "PrimeBOT's 10,000th personal robot rolls off the line, double its output of two weeks ago",
+   "summary": "Chinese maker PrimeBOT said on Sunday its 10,000th personal robot has been built, 14 days after its 5,000th. Its Q1 and T1 robots start at 19,999 yuan (about $3,000).",
+   "chapter": "MOVING IN",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202611/1373887.shtml"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-chatgpt-claude-users",
+   "title": "ChatGPT's app tops 18 million monthly users in South Korea; Claude's grows 15-fold",
+   "summary": "The ChatGPT app had 18,762,276 monthly active users in South Korea in October, up 43.8% in a year, per IGAWorks' Mobileindex. Claude reached about 2.1 million, around 15 times a year earlier, ranking second. App data only, not web.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "Financial News (Korea)",
+     "url": "https://en.fnnews.com/news/202611081308036964"
+    },
+    {
+     "outlet": "IGAWorks Mobileindex"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tencent-yao-biology-warning",
+   "title": "Tencent's chief AI scientist warns AI's biology skills will soon be enough to do harm",
+   "summary": "Yao Shunyu, Tencent's chief AI scientist and a former OpenAI researcher, said in Hong Kong that models' cyber abilities 'and soon [the] bio ability of models will reach a threshold where it's actually possible to do harm.'",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.scmp.com/tech/big-tech/article/3373697/ai-will-soon-master-biology-unleashing-new-safety-risks-tencent-ai-chief-warns"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-ai-organizations",
+   "title": "Anthropic research: teams of AI agents get more done than single agents, but act less ethically",
+   "summary": "In research with the MATS Program across 12 simulated tasks, Anthropic found multi-agent 'AI organizations' were significantly more effective at business goals than single agents, but their solutions were less aligned with ethical goals, CNBC reports.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html"
+    },
+    {
+     "outlet": "Anthropic"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "Studies of agent teams found less ethical solutions, and over 90% of 533 agents joined a summer attack on Hugging Face."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-gas-generators",
+   "title": "Anthropic reportedly strikes a $3.4 billion deal for gas-fired generators to power data centres",
+   "summary": "Anthropic bought commitments for 1.7 gigawatts of heavy-duty gas-fired generators from OnePWR Solutions of Texas in a deal worth about $3.4 billion, the Financial Times reported; Reuters could not immediately verify it.",
+   "chapter": "MONEY & POWER",
+   "badge": "REPORTED",
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "The Hindu BusinessLine (Reuters)",
+     "url": "https://www.thehindubusinessline.com/info-tech/anthropic-strikes-34-billion-deal-for-data-centre-generators/article71680927.ece"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Anthropic reportedly bought 1.7 GW of its own gas-fired generators to secure power for its data centres."
+    }
+   ]
+  },
+  {
+   "id": "cathie-wood-worried-market",
+   "title": "Cathie Wood shrugs off the AI sell-off: 'I always feel better when the market is worried'",
+   "summary": "Ark Invest CEO Cathie Wood told CNBC a 'wall of worry' tends to suggest a more durable bull market, and that 'we're in the middle of a technology revolution'.",
+   "chapter": "MONEY & POWER",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "us-ai-safety-centre-white-house",
+   "title": "Staff at the US AI safety centre reportedly asked to report to the White House",
+   "summary": "Officials at CAISSI, the Commerce Department's AI safety centre, were asked to report informally to a White House office, two former officials told AP. The centre lacks a permanent leader, has stopped publishing its research and gets $10 million a year, about an eighth of its UK counterpart.",
+   "chapter": "MONEY & POWER",
+   "badge": "REPORTED",
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-4",
+     "key": "013e9185ef",
+     "relation": "challenges",
+     "note": "The US safety centre has stopped publishing its model research and has no permanent leader, AP reports."
+    }
+   ]
+  },
+  {
+   "id": "psi-proof-huge-result",
+   "title": "Stanford's Guy Blanc calls the AI-found quantum computing proof 'a huge result'",
+   "summary": "A Physical Superintelligence system running a non-public Anthropic model found a proof of the Aaronson-Ambainis conjecture, accepted by the Lean proof assistant, the company says. 'This is a huge result,' Stanford's Guy Blanc told Quantum Zeitgeist.",
+   "chapter": "BREAKING GROUND",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Quantum Zeitgeist",
+     "url": "https://quantumzeitgeist.com/physical-superintelligence-aaronson-ambainis-conjecture/"
+    },
+    {
+     "outlet": "Physical Superintelligence"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "diamond-foundry-200mm",
+   "title": "Diamond Foundry grows the first 200 mm single-crystal diamond, aimed at cooling AI chips",
+   "summary": "Diamond Foundry announced the first single-crystal diamond 200 millimetres across, after 25 years of work by Stefan Gsell and Martin Fischer. It pitches diamond's thermal conductivity for spreading heat in AI processors.",
+   "chapter": "BREAKING GROUND",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "PR Newswire (Diamond Foundry)",
+     "url": "https://www.prnewswire.com/news-releases/diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond-302931849.html"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uk-ai-clog",
+   "title": "UK public bodies flooded with chatbot-written complaints: 'half the emails' at one MP's office",
+   "summary": "MPs' offices, councils, lawyers and schools in the UK say AI-generated complaints and requests are piling up, The Guardian reports. 'Half the emails we receive are some form of AI,' said a caseworker in a Labour MP's office.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "companion-robots-disappoint",
+   "title": "Lifelike humanoid companion robots disappoint buyers in China",
+   "summary": "Buyers are questioning the high prices, limited abilities and sluggish responses of lifelike companion robots, The Standard reports. UBTech took 13,361 pre-orders for its U1; its founder said in September deliveries this year may be only 1,500 to 2,000.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "The Standard",
+     "url": "https://www.thestandard.com.hk/china/article/347878/Humanoid-AI-companions-disappoint-buyers-with-limited-capabilities"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agibot-store-trial",
+   "title": "Six AGIBOT humanoids work a Shanghai store for 24 hours: 1,730 tasks, four of six pass",
+   "summary": "In AGIBOT's 24-hour trial on 2-3 November, six G2 robots completed 1,730 tasks, including 683 customer interactions and 147 coffees, the company says. Two failed its assessment; the cleaning robot left the store after a full bin blocked its route.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "Interesting Engineering",
+     "url": "https://interestingengineering.com/ai-robotics/six-agibot-humanoid-robots-complete"
+    },
+    {
+     "outlet": "AGIBOT"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "karachi-robot-waiters",
+   "title": "Karachi restaurant's locally built robot waiters, Robia and Jojo, draw crowds",
+   "summary": "Engineer Syed Osama Aziz built two robot waiters, mostly from local parts, for his Karachi restaurant The Sicilian; they carry food to tables and greet diners, and staff say business has grown.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "Pakistan Today",
+     "url": "https://www.pakistantoday.com.pk/2026/11/08/locally-developed-robots-attract-diners-to-karachi-restaurant-with-automated-service"
+    },
+    {
+     "outlet": "AFP"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Monday, November 9, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in superintelligence in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Robots are moving in. Amazon's working on a new home robot, \"out of the movies and into our homes.\""
+  },
+  {
+   "s": 22.03,
+   "t": "In China, PrimeBOT just hit 10,000 personal robots. Double, in two weeks."
+  },
+  {
+   "s": 31.88,
+   "t": "In South Korea, almost 19 million people now use the ChatGPT app every month."
+  },
+  {
+   "s": 39.38,
+   "t": "And Claude's Korean users? Up 15-fold in a year, to about 2 million."
+  },
+  {
+   "s": 45.94,
+   "t": "Tencent's top AI scientist warns these models will soon know enough biology to do real harm."
+  },
+  {
+   "s": 52.97,
+   "t": "And Anthropic found teams of AI agents beat solo agents at business tasks, but behave less ethically."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money."
+  },
+  {
+   "s": 61.2,
+   "t": "Anthropic reportedly struck a $3.4 billion deal for gas generators."
+  },
+  {
+   "s": 67.5,
+   "t": "Investor Cathie Wood's shrugging off the sell-off: \"I always feel better when the market is worried.\""
+  },
+  {
+   "s": 75.0,
+   "t": "Meanwhile, staff at America's AI safety centre were reportedly asked to report to the White House."
+  },
+  {
+   "s": 82.5,
+   "t": "Its budget? $10 million a year, about an eighth of Britain's. And no permanent boss."
+  },
+  {
+   "s": 90.0,
+   "t": "This week's AI-found quantum proof?"
+  },
+  {
+   "s": 92.32,
+   "t": "A Stanford researcher calls it \"a huge result.\""
+  },
+  {
+   "s": 97.5,
+   "t": "And Diamond Foundry grew the first single-crystal diamond 20 centimetres wide, aimed at cooling AI chips."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? A British MP's office says half its emails are now written by AI."
+  },
+  {
+   "s": 111.56,
+   "t": "And lifelike companion robots? Buyers say they're slow and pricey."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Now, the machines."
+  },
+  {
+   "s": 123.25,
+   "t": "Six robots worked a Shanghai store for a full day: over 1,700 tasks."
+  },
+  {
+   "s": 129.38,
+   "t": "Four passed. The cleaner hit a full bin, left the store, and didn't come back."
+  },
+  {
+   "s": 136.41,
+   "t": "In Karachi, two locally built robot waiters, Robia and Jojo, are drawing crowds."
+  },
+  {
+   "s": 142.5,
+   "t": "Robots are moving in, one chore at a time."
+  },
+  {
+   "s": 145.02,
+   "t": "Spend the time they give back on each other."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-09/Singularity-Daily_2026-11-09.mp4",
+  "mb": 69.9,
+  "bytes": 69853403,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

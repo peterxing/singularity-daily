@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07T18:40:54+00:00",
- "latest": "2026-11-08",
+ "updated": "2026-11-08T18:30:09+00:00",
+ "latest": "2026-11-09",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -20,6 +20,34 @@
  },
  "data": "a3fbc3a0f366",
  "episodes": [
+  {
+   "date": "2026-11-09",
+   "ep": 36,
+   "hook": "ROBOTS MOVE IN.",
+   "day": "Monday 9 November 2026",
+   "stories": 14,
+   "forecasts": 3,
+   "links": {
+    "supports": 0,
+    "early": 2,
+    "challenges": 1
+   },
+   "titles": [
+    "Amazon is working on a new home robot, five years after Astro",
+    "PrimeBOT's 10,000th personal robot rolls off the line, double its output of two weeks ago",
+    "ChatGPT's app tops 18 million monthly users in South Korea; Claude's grows 15-fold"
+   ],
+   "cover": "daily/media/2026-11-09/cover.webp",
+   "thumb": "daily/media/2026-11-09/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-09/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-09/Singularity-Daily_2026-11-09.mp4",
+    "mb": 69.9,
+    "bytes": 69853403,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-08",
    "ep": 35,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-02/cover.webp",
    "thumb": "daily/media/2026-11-02/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-02/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-02/Singularity-Daily_2026-11-02.mp4",
     "mb": 72.8,
