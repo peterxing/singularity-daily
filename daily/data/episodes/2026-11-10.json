@@ -1,0 +1,491 @@
+{
+ "date": "2026-11-10",
+ "ep": 37,
+ "hook": "BOUNCING BACK.",
+ "day": "Tuesday 10 November 2026",
+ "chapters": [
+  "BOUNCING BACK",
+  "NEW MINDS",
+  "POWER & CHIPS",
+  "BREAKTHROUGHS",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:26 AEDT, Tue 10 Nov 2026.",
+ "notes": [
+  "This week: DeepSeek Harness's figures (posted by DeepSeek on Sunday 8 Nov) and Elon Musk's castle remarks (Baron Capital's conference, Friday 6 Nov, reported 9 Nov).",
+  "Alleged: US intelligence agencies say the businesswoman linked to Nvidia's CEO is a Chinese spy (NYT and FT reports); China calls the claim unsubstantiated. Nvidia's board review is ongoing.",
+  "Estimates and company figures: $135 billion in Google TPU sales by 2028 is Bloomberg Intelligence's projection; ChatGPT's 81% share is Graphite's analysis of Similarweb traffic data; DeepSeek's user numbers and Apple's 91% task rate are the companies' own.",
+  "Screenshots are the publishers' public article pages as captured on 10 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "BOUNCING BACK. 🔁\n\nThe last 24h in superintelligence:\n- ChatGPT's growth is back: 81% of chatbot traffic\n- Nvidia's board probes its CEO; shares -5%\n- Google's new AI chips aim at Nvidia\n- Apple ran a humanoid robot on a Mac mini\n\nWho bounces back next?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (10 Nov 2026), hosted by Claudia: ChatGPT's comeback in chatbot traffic, chip stocks rebounding, DeepSeek's agent app, Disney and Adobe's AI models, Elon Musk's castle prediction, Instagram's AI age checks, Nvidia's board probe into its CEO, Trump's defence of Jensen Huang, Google's new AI chips, comfortable brain-reading electrodes, MIT's one-model physics simulator, Waymo's school-bus recall query, leaked Claude Code secrets, Apple's Mac-mini-powered robot, Tesla robotaxis in San Antonio and robot speakers at Web Summit, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "FORTUNE: NEARLY 20% OF US WORKERS REPLACED BY AI ARE BEING ASKED BACK",
+  "BUSINESS INSIDER: MONTHLY VISITS TO MAJOR AI SERVICES HIT 76 BILLION, UP 37% IN A YEAR (GRAPHITE)",
+  "BUSINESS INSIDER: THE US MAKES UP JUST 8.8% OF WORLDWIDE AI CHATBOT TRAFFIC",
+  "GLOBAL TIMES: DEEPSEEK HARNESS NOW HAS ABOUT 35,000 THIRD-PARTY PLUG-INS",
+  "THE VERGE: DISNEY GETS EARLY ACCESS TO ADOBE AI FOR ITS RESORTS, CRUISE LINE AND ESPN GRAPHICS",
+  "TECHCRUNCH: INSTAGRAM WILL LOOK FOR TEENS EVEN IF THEY USE AN ADULT BIRTHDAY",
+  "CNBC: CHINA'S FOREIGN MINISTRY CALLS THE NVIDIA SPY CLAIMS UNSUBSTANTIATED",
+  "CNBC: SEQUOIA'S SHAUN MAGUIRE CALLS JENSEN HUANG 'IRREPLACEABLE FOR AMERICA'S AI LEADERSHIP'",
+  "CNBC: NVIDIA REPORTS ITS THIRD-QUARTER EARNINGS ON NOVEMBER 17",
+  "BLOOMBERG: GOOGLE'S NEW TPU 8TX AND 8I MAX VARIANTS ARRIVE IN 2027",
+  "SCMP: THE NEW ELECTRODES RECORDED 8 HOURS OF STABLE BRAIN SIGNALS DURING DAILY ACTIVITIES",
+  "MIT NEWS: WORLDPARTICLE COULD HELP DEVELOP SOFT ROBOTS AND MEDICINES",
+  "TECHCRUNCH: WAYMO SAYS IT HAS HAD NO SCHOOL-BUS CITATIONS SINCE MARCH 2026",
+  "ARS TECHNICA: APIIRO FOUND OVER 100,000 CLAUDE CODE SETTINGS FILES IN PUBLIC GITHUB REPOS",
+  "APPLEINSIDER: APPLE'S HALO ROBOT TRAINED ON 1,000 VIRTUAL ROOMS AND ITS CODE IS ON GITHUB",
+  "EURONEWS: WEB SUMMIT EXPECTS ABOUT 70,000 PEOPLE AND CHINA'S BIGGEST DELEGATION YET",
+  "THE GUARDIAN: PARENTS CALL GOOGLE'S 'BLOCK AI, LOSE SEARCH' RULE FOR SCHOOLS 'EXTORTION'",
+  "BBC: FORMER OPENAI LEADER DAVID ROBINSON ON WHY HE QUIT OVER SAFETY",
+  "NBC NEWS: AI-FUELED HACKING IS GETTING WORSE, AND TOP CYBER FIRMS ARE TURNING AWAY SOME VICTIMS",
+  "REUTERS: THE AI POWER RUSH HAS DATA CENTRES HUNTING FOR USED TURBINES AND JET ENGINES",
+  "TOM'S HARDWARE: A DEEPX AI CHIP RUNS SO COOL THAT A BUTTER HEATSINK DOESN'T MELT"
+ ],
+ "sources": [
+  "Business Insider",
+  "Graphite",
+  "CNBC",
+  "Reuters",
+  "Global Times",
+  "DeepSeek",
+  "The Verge",
+  "TechCrunch",
+  "Meta",
+  "AP",
+  "Bloomberg",
+  "The Straits Times",
+  "South China Morning Post",
+  "MIT News",
+  "Ars Technica",
+  "Apiiro",
+  "AppleInsider",
+  "Apple",
+  "Tesla",
+  "Euronews",
+  "The Guardian",
+  "Fortune",
+  "BBC",
+  "NBC News",
+  "Tom's Hardware"
+ ],
+ "scanned": 3225,
+ "stories": [
+  {
+   "id": "chatgpt-growth-rebounds",
+   "title": "ChatGPT's growth bounces back to over 81% of AI chatbot traffic",
+   "summary": "ChatGPT now draws more than 81% of worldwide traffic to major AI chatbots and no rival has even 10%, according to a Graphite study of Similarweb data. Its monthly visits rose nearly 20% to a record 61.35 billion in September.",
+   "chapter": "BOUNCING BACK",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/chatgpt-growth-rebounds-openai-rivals-ai-market-share-2026-11"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2033-4",
+     "key": "444604f437",
+     "relation": "early",
+     "note": "ChatGPT drew a record 61.35 billion visits in September: an early sign of AI assistants competing with search interfaces."
+    }
+   ]
+  },
+  {
+   "id": "chip-stocks-rebound",
+   "title": "Asian tech stocks and US chipmakers rebound after last week's AI sell-off",
+   "summary": "Asian tech stocks rose across the region on Monday, rebounding from Friday's losses, and shares of US chipmakers including AMD, Marvell, Arm, Intel and Qualcomm climbed too, CNBC reported.",
+   "chapter": "BOUNCING BACK",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepseek-harness",
+   "title": "DeepSeek's open-source agent platform Harness passes 1.5 million daily users",
+   "summary": "DeepSeek said Harness logged 1.54 million daily active users as of November 4, less than three months after launch, with about 35,000 third-party plug-ins.",
+   "chapter": "NEW MINDS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-08",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202611/1373952.shtml"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-0",
+     "key": "6578e05a7a",
+     "relation": "early",
+     "note": "An agent platform reaching 1.54 million daily users in under three months is a step toward agents working at scale, far short of $10B a month."
+    }
+   ]
+  },
+  {
+   "id": "disney-adobe-models",
+   "title": "Disney and Adobe team up on generative AI models made for Disney's worlds",
+   "summary": "Disney will work with Adobe through Firefly Foundry on generative AI models tailored to its properties, trained on character attributes, environments and visual styles, with early access to AI tech for its resorts, cruise line and ESPN graphics.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "musk-castle",
+   "title": "Elon Musk: superintelligence could build you a castle 'as a side project'",
+   "summary": "Speaking by webcast at Baron Capital's conference, Elon Musk predicted that 'super intelligence will saturate all human needs by far' and that you could wish for a castle and digital superintelligence could make it 'as a side project'.",
+   "chapter": "NEW MINDS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/elon-musk-ai-abundance-castle-robotics-productivity-universal-high-income-2026-11"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "instagram-ai-age",
+   "title": "Meta takes Instagram's AI age detection worldwide",
+   "summary": "Meta is expanding Instagram's AI age-detection technology globally, using AI to look for clues that people it suspects are teenagers are using an adult birthday.",
+   "chapter": "NEW MINDS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-board-probe",
+   "title": "Nvidia's board investigates CEO Jensen Huang's ties to an alleged Chinese spy; shares fall 5%",
+   "summary": "Nvidia's board opened an independent investigation after reports that Huang was the target of a 'foreign intelligence effort'; shares fell 5% on Monday and China calls the spy claims unsubstantiated. President Trump called Huang 'an honorable guy.'",
+   "chapter": "POWER & CHIPS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+    },
+    {
+     "outlet": "AP"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "google-tpu-variants",
+   "title": "Google unveils two new TPU chip variants to take on Nvidia",
+   "summary": "Google introduced the TPU 8tx, for confidential computing, and the 8i Max, for long-context AI, both due in 2027. Bloomberg Intelligence projects Google's TPU sales could top $135 billion by 2028, up from about $12 billion in 2026.",
+   "chapter": "POWER & CHIPS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "The Straits Times (Bloomberg)",
+     "url": "https://www.straitstimes.com/world/google-escalates-nvidia-rivalry-with-specialised-versions-of-ai-chips"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "brain-reading-electrodes",
+   "title": "Comfortable brain-reading electrodes top 94% mind-typing accuracy in day-long use",
+   "summary": "Chinese researchers built comfortable gradient electrodes for non-invasive brain-computer interfaces that reached over 94% accuracy in visual mind-typing tests during day-long use, with eight hours of stable recordings during daily activities.",
+   "chapter": "BREAKTHROUGHS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/science/article/3373477/chinas-comfortable-brain-reading-device-achieves-94-mind-typing-accuracy-day-long-use"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-non-invasive-neural-symbiosis",
+     "key": "04fc97cca9",
+     "relation": "early",
+     "note": "A comfortable EEG cap reached over 94% accuracy at visual mind-typing across a day of use: an early step toward practical non-invasive communication."
+    }
+   ]
+  },
+  {
+   "id": "mit-worldparticle",
+   "title": "MIT's WorldParticle: one AI model simulates sand, fluids and folding proteins",
+   "summary": "Researchers at MIT, the University of British Columbia and elsewhere built WorldParticle, a single deep-learning system that models physical phenomena from sliding sand to folding proteins by predicting how particles move.",
+   "chapter": "BREAKTHROUGHS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "MIT News",
+     "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waymo-school-bus-query",
+   "title": "US regulators open a recall query into 2,895 Waymo robotaxis over school buses",
+   "summary": "NHTSA opened a recall query into 2,895 Waymo vehicles after most reported incidents of its robotaxis passing stopped school buses came after a 2025 software fix; Waymo says it has had no citations since March 2026.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-code-secrets",
+   "title": "About 1,100 Claude Code settings files on GitHub leak passwords and keys",
+   "summary": "Security firm Apiiro found over 100,000 public GitHub repositories containing Claude Code's local settings file, about 1,100 of them holding secrets such as API tokens, database passwords and private keys.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+    },
+    {
+     "outlet": "Apiiro"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "apple-halo-robot",
+   "title": "Apple researchers run a humanoid robot on an onboard Mac mini",
+   "summary": "Apple's HALO system, running on an M4 Pro Mac mini on a Unitree G1 humanoid and trained on synthetic data from 1,000 virtual rooms, completed 91% of 360 tasks in rooms it had never seen, without an operator.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "AppleInsider",
+     "url": "https://appleinsider.com/articles/26/11/09/how-a-mac-mini-powers-a-staggeringly-capable-robot-without-human-training"
+    },
+    {
+     "outlet": "Apple"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-1",
+     "key": "c133f89242",
+     "relation": "early",
+     "note": "A humanoid completed 91% of simple tasks in unseen rooms after training in simulation, though it handled no objects."
+    }
+   ]
+  },
+  {
+   "id": "tesla-robotaxi-san-antonio",
+   "title": "Tesla opens its robotaxi service in San Antonio",
+   "summary": "Tesla said its robotaxis would be available in San Antonio from 5 a.m. local time on Monday, adding to Austin, Dallas, Fort Worth, Houston, Miami and Orlando.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "web-summit-robot-speakers",
+   "title": "Humanoid robots are official speakers at Web Summit for the first time",
+   "summary": "Web Summit in Lisbon opened with humanoid robots acting as official speakers for the first time, as China sent its largest-ever delegation; organisers expect about 70,000 participants.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "url": "https://www.euronews.com/2026/11/09/lisbon-web-summit-2026-opens-with-humanoid-robot-speakers-and-record-chinese-delegation"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Tuesday, November 10."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in superintelligence, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Today's about bouncing back."
+  },
+  {
+   "s": 17.23,
+   "t": "ChatGPT's growth is climbing again: 81% of chatbot traffic."
+  },
+  {
+   "s": 22.03,
+   "t": "Markets bounced too. Asian tech stocks rose Monday, and so did chipmakers like Intel."
+  },
+  {
+   "s": 31.88,
+   "t": "In China, DeepSeek's agent app Harness passed 1.5 million daily users in under three months."
+  },
+  {
+   "s": 39.38,
+   "t": "Disney's teaming up with Adobe to build AI models trained on its characters and worlds."
+  },
+  {
+   "s": 45.94,
+   "t": "Musk says you could wish for a castle, and superintelligence would make it on the side."
+  },
+  {
+   "s": 52.97,
+   "t": "Instagram's AI age-guesser goes worldwide, hunting for teens who claim to be adults."
+  },
+  {
+   "s": 60.0,
+   "t": "Meanwhile, Nvidia's board is investigating its boss's ties to an alleged Chinese spy."
+  },
+  {
+   "s": 66.19,
+   "t": "Shares fell 5%."
+  },
+  {
+   "s": 67.5,
+   "t": "President Trump stood by him: \"an honorable guy,\" he said, who's done \"an amazing job.\""
+  },
+  {
+   "s": 75.0,
+   "t": "And Google picked this week to unveil two new versions of its AI chips, aimed at Nvidia."
+  },
+  {
+   "s": 82.5,
+   "t": "Bloomberg's analysts see its chip sales topping $135 billion by 2028."
+  },
+  {
+   "s": 90.0,
+   "t": "Chinese scientists made comfy brain-reading electrodes that topped 94% at mind-typing, all day long."
+  },
+  {
+   "s": 97.5,
+   "t": "And MIT built one AI model that simulates sliding sand, sloshing fluids and folding proteins."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Regulators say Waymo kept passing stopped school buses after its fix."
+  },
+  {
+   "s": 110.62,
+   "t": "And about 1,100 Claude Code files on GitHub were leaking passwords and keys."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Apple researchers put a Mac mini on a robot, and it navigated rooms it had never seen."
+  },
+  {
+   "s": 129.38,
+   "t": "Tesla opened its robotaxis to San Antonio at 5 a.m. Monday, another Texas city."
+  },
+  {
+   "s": 136.41,
+   "t": "In Lisbon, robots are official speakers at Web Summit for the very first time."
+  },
+  {
+   "s": 142.5,
+   "t": "Everyone stumbles sometimes. The ones we remember are the ones who bounce back."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-10/Singularity-Daily_2026-11-10.mp4",
+  "mb": 73.7,
+  "bytes": 73687605,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
