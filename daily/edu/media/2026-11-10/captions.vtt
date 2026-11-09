@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00:01.880 --> 00:00:05.760
+It's Tuesday, and this is the Microsoft for Education Daily.
+
+00:00:06.560 --> 00:00:10.180
+Here's your day in Microsoft updates, in 3 minutes flat.
+
+00:00:15.000 --> 00:00:16.490
+Look before you leap.
+
+00:00:16.490 --> 00:00:21.380
+Manchester's students will get Microsoft 365 Copilot, after a pilot.
+
+00:00:21.560 --> 00:00:27.490
+Selected programmes try it next semester; every student follows in 2027/28.
+
+00:00:31.880 --> 00:00:32.480
+Why wait?
+
+00:00:32.480 --> 00:00:38.390
+Students and academics asked for clear guidance on AI in learning and assessment first.
+
+00:00:39.380 --> 00:00:42.880
+Meanwhile, every Manchester student can already use Copilot Chat,
+
+00:00:42.880 --> 00:00:45.640
+and their prompts aren't used to train the models.
+
+00:00:46.880 --> 00:00:47.860
+Making handouts?
+
+00:00:47.860 --> 00:00:53.840
+Word's Accessibility Assistant now flags bold text that only looks like a heading, for Insiders.
+
+00:00:54.380 --> 00:00:57.910
+Real headings let screen reader users jump straight to each section.
+
+00:01:00.000 --> 00:01:02.420
+Running student portals on Power Pages?
+
+00:01:02.420 --> 00:01:06.340
+Admins can now allow or block each sign-in method, in preview.
+
+00:01:07.500 --> 00:01:08.290
+Block Google,
+
+00:01:08.290 --> 00:01:13.500
+Facebook or local passwords per site; anyone still using a blocked one can't sign in.
+
+00:01:15.000 --> 00:01:16.580
+Still running file servers?
+
+00:01:16.580 --> 00:01:21.300
+Azure now walks you through syncing Arc-enabled ones to Azure Files, in preview.
+
+00:01:22.500 --> 00:01:24.720
+Cloud tiering keeps busy files on the se
+
+00:01:24.720 --> 00:01:27.000
+rver and moves rarely used ones to Azure.
+
+00:01:30.000 --> 00:01:30.940
+In calmer news,
+
+00:01:30.940 --> 00:01:36.180
+Microsoft tested AI coding agents with the same code but different version numbers.
+
+00:01:37.500 --> 00:01:38.680
+Labelled a patch,
+
+00:01:38.680 --> 00:01:44.080
+one model checked a breaking upgrade in 2 of 10 runs; labelled major, all 10.
+
+00:01:45.000 --> 00:01:47.090
+The fine print? From January,
+
+00:01:47.090 --> 00:01:52.060
+new Fabric workspaces get one SQL pool that can use all the compute.
+
+00:01:52.500 --> 00:01:55.050
+Outlook.com bouncing school emails?
+
+00:01:55.050 --> 00:01:59.340
+Microsoft's reportedly investigating; check SPF and DMARC.
+
+00:02:01.880 --> 00:02:03.710
+After hours? Holiday shopping?
+
+00:02:03.710 --> 00:02:07.940
+Edge now offers to compare similar products you've got open in tabs.
+
+00:02:09.380 --> 00:02:13.410
+In US English, it'll also look for a working coupon at checkout.
+
+00:02:15.000 --> 00:02:16.080
+On Xbox and PC,
+
+00:02:16.080 --> 00:02:21.860
+FragPunk's Farlands is in early access: deliver cargo through a changing world.
+
+00:02:22.500 --> 00:02:24.500
+Pilot it first, check your headings,
+
+00:02:24.500 --> 00:02:27.060
+compare before you buy: look before you leap.
+
+00:02:30.000 --> 00:02:32.350
+Zoom out, and it never stops shipping.
+
+00:02:33.750 --> 00:02:36.620
+Some of it's shipped. The rest is on its way.
+
+00:02:37.500 --> 00:02:40.880
+One day, all of this. Tomorrow, probably more.
+
+00:02:45.000 --> 00:02:47.870
+You've been watching the Microsoft for Education Daily.
+
+00:02:48.750 --> 00:02:49.940
+See you tomorrow.

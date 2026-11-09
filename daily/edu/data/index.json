@@ -1,13 +1,37 @@
 {
  "show": "Microsoft for Education Daily",
- "updated": "2026-11-08T19:22:24+00:00",
- "latest": "2026-11-09",
+ "updated": "2026-11-09T19:12:14+00:00",
+ "latest": "2026-11-10",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/education",
  "share": "https://peterxing.com/daily/education",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-10",
+   "ep": 15,
+   "hook": "LOOK BEFORE YOU LEAP.",
+   "day": "Tuesday 10 November 2026",
+   "name": "Microsoft for Education Daily",
+   "stories": 9,
+   "edu": 1,
+   "titles": [
+    "The University of Manchester sets its timeline for Microsoft 365 Copilot for students",
+    "Word's Accessibility Assistant now flags missing and fake headings, for Insiders",
+    "Power Pages admins can allow or block each sign-in method, in preview"
+   ],
+   "cover": "daily/edu/media/2026-11-10/cover.webp",
+   "thumb": "daily/edu/media/2026-11-10/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-10/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-10/Microsoft-for-Education-Daily_2026-11-10.mp4",
+    "mb": 50.7,
+    "bytes": 50722359,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-09",
    "ep": 14,
@@ -72,7 +96,7 @@
    "cover": "daily/edu/media/2026-11-07/cover.webp",
    "thumb": "daily/edu/media/2026-11-07/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/edu/media/2026-11-07/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-07/Microsoft-for-Education-Daily_2026-11-07.mp4",
     "mb": 54.5,

@@ -1,0 +1,367 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-10",
+ "ep": 15,
+ "hook": "LOOK BEFORE YOU LEAP.",
+ "day": "Tuesday 10 November 2026",
+ "note": "FOR EDUCATION · TUESDAY 10 NOVEMBER 2026",
+ "tldr": "Manchester pilots Microsoft 365 Copilot before every student gets it, Word flags fake headings for Insiders, and Power Pages admins get per-site sign-in controls in preview.",
+ "chapters": [
+  "LOOK BEFORE YOU LEAP",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "RESEARCH",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Tue 10 Nov 2026 (Sunday 8 to Monday 9 Nov in the US).",
+ "notes": [
+  "A quiet Monday in the US. Manchester's student Copilot timeline is the University of Manchester's own plan (a pilot in Semester 2, 2026/27; all students from Semester 1, 2027/28), not a Microsoft product change.",
+  "Word's new heading checks are for Microsoft 365 Insiders; Power Pages sign-in controls and Azure File Sync for Arc-enabled servers are in preview; Fabric's SQL pool changes are planned (mid-December, January); the Outlook.com bounces are as reported by The Register.",
+  "Screenshots are the publishers' public pages as captured on 10 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "LOOK BEFORE YOU LEAP. 👀\n\nThe last 24h at Microsoft for education:\n- Manchester pilots Microsoft 365 Copilot before all students get it in 2027/28\n- Word flags fake headings (Insiders)\n- Power Pages sign-in controls (preview)\n- Edge compares products in your tabs",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (10 Nov 2026): the University of Manchester's student Microsoft 365 Copilot timeline, Word's new heading checks for accessible documents, Power Pages sign-in controls, Azure File Sync for Arc-enabled servers, a Microsoft study on AI coding agents and version numbers, Fabric's unified SQL pools, Outlook.com email bounces, Edge's product comparison and FragPunk's Farlands, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "UNIVERSITY OF MANCHESTER: ALL STUDENTS CAN ALREADY USE COPILOT CHAT WITH THEIR UNIVERSITY ACCOUNT",
+  "MANCHESTER'S PILOT IN SEMESTER 2, 2026/27 WILL TEST GUIDANCE, LEARNING RESOURCES, SUPPORT AND ACCESSIBILITY ARRANGEMENTS",
+  "MANCHESTER: THE FULL ROLLOUT ADDS COPILOT ACROSS THE EMAILS, CHATS, MEETINGS AND FILES STUDENTS CAN ACCESS",
+  "STUDY AND LEARN LOCKED MODE: MICROSOFT EDUCATION WEBINARS ON 10 AND 12 NOVEMBER, 8 AM AND 4 PM PACIFIC",
+  "WORD'S NEW HEADING CHECKS NEED VERSION 2610 (BUILD 20620.20002) OR LATER ON WINDOWS, FOR INSIDERS",
+  "WORD: AFTER A BREAK, THREE OR MORE PARAGRAPHS WITHOUT A HEADING NOW GET A NUDGE TO ADD ONE",
+  "POWER PAGES: BLOCKED SIGN-IN OPTIONS SHOW GREYED OUT IN DESIGN STUDIO, AND SITE OWNERS ARE EMAILED",
+  "AZURE FILE SYNC: A COMPLETE COPY OF YOUR FILES STAYS IN AZURE FILES WHILE SERVERS KEEP SERVING THEM",
+  "AZURE SQL BLOG: HOW ALWAYS ENCRYPTED RUNS QUERIES ON DATA THE DATABASE CAN'T READ",
+  "AZURE SQL DATABASE: VBS ENCLAVES FOR ALWAYS ENCRYPTED ARE AVAILABLE ACROSS EVERY OFFERING IN MOST REGIONS",
+  "SEMVER STUDY: ACROSS SIX MODELS, UNCHECKED MERGES FELL FROM 13% FOR PATCH LABELS TO 4% FOR MAJOR",
+  "CLAUDE OPUS 5.5, GPT-6.1 SOL AND GPT-6.1 TERRA CHECKED EVERY UPGRADE, WHATEVER THE LABEL",
+  "FABRIC: STOP RELYING ON THE CUSTOMSQLPOOLSENABLED FLAG BY MID-DECEMBER 2026",
+  "FABRIC: EXISTING WAREHOUSE WORKSPACES KEEP THEIR ACTIVE SQL POOL SETTINGS",
+  "OUTLOOK.COM: ERROR 550 5.7.23 MEANS SPF VALIDATION FAILED FOR THE SENDING DOMAIN",
+  "EDGE PRODUCT COMPARISON WORKS IN ALL COPILOT MARKETS; CHECKOUT SAVINGS IS US ENGLISH ONLY FOR NOW",
+  "FRAGPUNK FARLANDS: EACH PERSISTENT SERVER RUNS ON A FIVE-DAY CYCLE",
+  "GITHUB: COPILOT CODE REVIEW SETTINGS CAN NOW BE MANAGED THROUGH THE REST AND GRAPHQL APIS",
+  "GITHUB: THE COPILOT IMPACT DASHBOARD NOW COUNTS COPILOT CHAT AND THE VS CODE AGENTS WINDOW",
+  "AZURE FIREWALL: IPV6 APPLICATION RULES ARE IN PUBLIC PREVIEW"
+ ],
+ "sources": [
+  "The University of Manchester",
+  "Microsoft 365 Insider Blog",
+  "Microsoft Power Platform Blog",
+  "Azure Updates",
+  "Microsoft Developer Blog",
+  "Microsoft Fabric Blog",
+  "The Register",
+  "Microsoft Q&A",
+  "Microsoft Edge Blog",
+  "Xbox Wire",
+  "Azure SQL Blog",
+  "GitHub Changelog",
+  "Microsoft Education Tech Community"
+ ],
+ "scanned": 1155,
+ "stories": [
+  {
+   "id": "manchester-student-copilot-timeline",
+   "title": "The University of Manchester sets its timeline for Microsoft 365 Copilot for students",
+   "summary": "Selected programmes pilot Microsoft 365 Copilot in Semester 2, 2026/27, and all students follow in Semester 1, 2027/28, after students and academics asked for clear guidance on AI in learning and assessment. Meanwhile, every student can already use Copilot Chat with their university account.",
+   "for": "University leaders, teaching staff and students",
+   "status": "Pilot first; all students 2027/28",
+   "edu": true,
+   "chapter": "LOOK BEFORE YOU LEAP",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "The University of Manchester StaffNet",
+     "url": "https://www.staffnet.manchester.ac.uk/news/display/?id=34490"
+    },
+    {
+     "outlet": "The University of Manchester Student News",
+     "url": "https://studentnews.manchester.ac.uk/2026/11/09/your-microsoft-365-copilot-access-update/"
+    }
+   ]
+  },
+  {
+   "id": "word-heading-checks",
+   "title": "Word's Accessibility Assistant now flags missing and fake headings, for Insiders",
+   "summary": "Accessibility Assistant in Word for Windows now flags bold text that only looks like a heading, sections that need a heading and headings split across lines, so screen reader users can jump by section. For Microsoft 365 Insiders on Version 2610 (Build 20620.20002) or later.",
+   "for": "Teachers making handouts and accessible documents",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Insider Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/improved-detection-for-improper-or-missing-headings-in-word/4506225"
+    }
+   ]
+  },
+  {
+   "id": "power-pages-sign-in-controls",
+   "title": "Power Pages admins can allow or block each sign-in method, in preview",
+   "summary": "New authentication governance controls in the Power Platform admin center let admins allow or block OpenID Connect, SAML 2.0, WS-Federation and OAuth 2.0, Google, Microsoft and Facebook sign-in, and local passwords, site by site. Blocks apply to live sites too, so check affected sites first.",
+   "for": "University IT running student, applicant or alumni portals",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Microsoft Power Platform Blog",
+     "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/new-authentication-governance-controls-in-power-pages/"
+    }
+   ]
+  },
+  {
+   "id": "azure-file-sync-arc",
+   "title": "Azure File Sync gets a guided setup for Arc-enabled Windows Servers, in preview",
+   "summary": "A guided Azure portal experience takes Arc-enabled Windows Servers from agent install and registration to syncing an Azure file share. Your servers keep serving files with a complete copy in Azure Files, and cloud tiering keeps busy files local while rarely used ones move to Azure.",
+   "for": "School and university IT running Windows file servers",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=579854"
+    }
+   ]
+  },
+  {
+   "id": "ai-agents-semver-study",
+   "title": "Microsoft study: some AI coding agents check upgrades less when they're labelled a patch",
+   "summary": "In almost 1,000 runs with GitHub Copilot CLI, Claude Sonnet 5.5 checked a breaking upgrade in 2 of 10 runs when it was labelled a patch and 10 of 10 when labelled major; Claude Opus 5.5, GPT-6.1 Sol and GPT-6.1 Terra checked every time. Across six models, unchecked merges fell from 13% (patch) to 4% (major).",
+   "for": "Student coders and computer science teachers",
+   "status": "Research",
+   "edu": false,
+   "chapter": "RESEARCH",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Microsoft Developer Blog",
+     "url": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver/"
+    }
+   ]
+  },
+  {
+   "id": "fabric-unified-sql-pools",
+   "title": "Fabric Data Warehouse is unifying SQL pools, with changes from December",
+   "summary": "By mid-December 2026, stop relying on the customSQLPoolsEnabled flag; from January 2027, new workspaces start with one read-optimized SQL pool that can use 100% of compute, which can mean faster runs but more consumption. Existing workspaces keep their active settings.",
+   "for": "University data teams",
+   "status": "Planned from mid-December 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Microsoft Fabric Blog",
+     "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Unifying-SQL-Pools-Upcoming-changes-to-UI-and-APIs/ba-p/5397390"
+    }
+   ]
+  },
+  {
+   "id": "outlook-com-spf-bounces",
+   "title": "Outlook.com is reportedly bouncing some legitimate emails over SPF checks",
+   "summary": "The Register reports SPF validation errors (550 5.7.23) and missing-DMARC rejections since late last week; a Microsoft support moderator called it a service degradation under investigation. Microsoft's checklist: one valid SPF record listing every sender, plus DKIM and DMARC.",
+   "for": "School IT emailing families",
+   "status": "Under investigation",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "REPORTED",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/applications/2026/11/09/outlookcom-bounces-legit-emails-as-microsofts-authentication-crackdown-goes-sideways/5308428"
+    },
+    {
+     "outlet": "Microsoft Q&A",
+     "url": "https://learn.microsoft.com/en-us/answers/questions/6063210/spf-validation-error"
+    }
+   ]
+  },
+  {
+   "id": "edge-shopping-compare",
+   "title": "Edge offers to compare similar products open in your tabs",
+   "summary": "When you're weighing similar products, Edge now offers a Copilot comparison alongside the page, in all Copilot markets, and the new Checkout Savings looks for a working coupon at checkout (US English only). It's on Edge for Windows and Mac, and you can turn it off in Edge Settings.",
+   "for": "Students and staff, after hours",
+   "status": "Available now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Microsoft Edge Blog",
+     "url": "https://blogs.windows.com/msedgedev/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/"
+    }
+   ]
+  },
+  {
+   "id": "fragpunk-farlands",
+   "title": "FragPunk's Farlands opens in Global Early Access",
+   "summary": "Farlands is a persistent, multiplayer delivery adventure where dozens of players share a world on a five-day server cycle; cargo weight, weather and other players change every run. It's in Global Early Access on PC and console.",
+   "for": "Students, after hours",
+   "status": "Early access",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/09/fragpunk-farlands-early-access/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Tuesday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in Microsoft updates, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Look before you leap."
+  },
+  {
+   "s": 16.49,
+   "t": "Manchester's students will get Microsoft 365 Copilot, after a pilot."
+  },
+  {
+   "s": 21.56,
+   "t": "Selected programmes try it next semester; every student follows in 2027/28."
+  },
+  {
+   "s": 31.88,
+   "t": "Why wait?"
+  },
+  {
+   "s": 32.48,
+   "t": "Students and academics asked for clear guidance on AI in learning and assessment first."
+  },
+  {
+   "s": 39.38,
+   "t": "Meanwhile, every Manchester student can already use Copilot Chat, and their prompts aren't used to train the models."
+  },
+  {
+   "s": 46.88,
+   "t": "Making handouts?"
+  },
+  {
+   "s": 47.86,
+   "t": "Word's Accessibility Assistant now flags bold text that only looks like a heading, for Insiders."
+  },
+  {
+   "s": 54.38,
+   "t": "Real headings let screen reader users jump straight to each section."
+  },
+  {
+   "s": 60.0,
+   "t": "Running student portals on Power Pages?"
+  },
+  {
+   "s": 62.42,
+   "t": "Admins can now allow or block each sign-in method, in preview."
+  },
+  {
+   "s": 67.5,
+   "t": "Block Google, Facebook or local passwords per site; anyone still using a blocked one can't sign in."
+  },
+  {
+   "s": 75.0,
+   "t": "Still running file servers?"
+  },
+  {
+   "s": 76.58,
+   "t": "Azure now walks you through syncing Arc-enabled ones to Azure Files, in preview."
+  },
+  {
+   "s": 82.5,
+   "t": "Cloud tiering keeps busy files on the se rver and moves rarely used ones to Azure."
+  },
+  {
+   "s": 90.0,
+   "t": "In calmer news, Microsoft tested AI coding agents with the same code but different version numbers."
+  },
+  {
+   "s": 97.5,
+   "t": "Labelled a patch, one model checked a breaking upgrade in 2 of 10 runs; labelled major, all 10."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? From January, new Fabric workspaces get one SQL pool that can use all the compute."
+  },
+  {
+   "s": 112.5,
+   "t": "Outlook.com bouncing school emails?"
+  },
+  {
+   "s": 115.05,
+   "t": "Microsoft's reportedly investigating; check SPF and DMARC."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours? Holiday shopping?"
+  },
+  {
+   "s": 123.71,
+   "t": "Edge now offers to compare similar products you've got open in tabs."
+  },
+  {
+   "s": 129.38,
+   "t": "In US English, it'll also look for a working coupon at checkout."
+  },
+  {
+   "s": 135.0,
+   "t": "On Xbox and PC, FragPunk's Farlands is in early access: deliver cargo through a changing world."
+  },
+  {
+   "s": 142.5,
+   "t": "Pilot it first, check your headings, compare before you buy: look before you leap."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Some of it's shipped. The rest is on its way."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-10/Microsoft-for-Education-Daily_2026-11-10.mp4",
+  "mb": 50.7,
+  "bytes": 50722359,
+  "seconds": 180.01
+ },
+ "links": {}
+}
