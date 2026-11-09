@@ -1,0 +1,559 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-10",
+ "ep": 9,
+ "hook": "FAST FORWARD.",
+ "day": "Tuesday 10 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · TUESDAY 10 NOVEMBER 2026",
+ "tldr": "Fast forward: Anthropic says AI agents machine-checked Fermat in 30 hours, one gene-editing infusion cut a risky blood fat 63% early on, and a psilocybin therapy is filed with the FDA.",
+ "chapters": [
+  "FAST FORWARD.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:04 AEDT, Tue 10 Nov 2026.",
+ "notes": [
+  "Evidence: Anthropic's and Meta's figures are their own; CTX310 and the brain cap are early tests; the dementia, bone-drug, bladder-drug and teen-clock findings are observational links; the heart map is in mice; Compass has filed, not been approved.",
+  "This week: the Sydney-led dementia study (6 Nov), the FDA's Zolgensma investigation (6 Nov) and Caltech's ASTRA robot in orbit (7 Nov).",
+  "Screenshots are the publishers' public pages as captured on 10 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "FAST FORWARD. ⏩\n\nThe last 24 hours in transhumanism:\n- AI agents machine-checked Fermat in 30 hours, Anthropic says\n- One gene-editing infusion cut a risky blood fat 63% (early trial)\n- Psilocybin therapy filed for FDA approval\n- A robot built part of an antenna in orbit 🛰️",
+  "alt": "A 3-minute motion-graphics showreel of the last 24 hours in transhumanism (10 Nov 2026): Anthropic's claims that AI agents machine-checked Fermat's Last Theorem in 30 hours and built an operating system from scratch, a one-time gene-editing infusion for a risky blood fat, Meta's Muse Ember, a comfier brain-reading cap, an AI that flags PTSD risk in the emergency room, short bursts of activity and bone drugs linked to less dementia, teens' faster ageing clocks after lockdowns, a map of the ageing mouse heart, a psilocybin therapy filed for FDA approval, a weight-loss pill for sleep apnea, the FDA's Zolgensma tumour investigation, bladder drugs and dementia, Atlas on wheels, a robot building in orbit and a record-cold atom cloud, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "ANTHROPIC: FABLE 5.2 SOLVED TWO OPEN PROBLEMS IN BLACK-HOLE PHYSICS, POSTED AS PREPRINTS",
+  "MYTHOS 5.2 MODELLED 28 OF 34 GENE-THERAPY VIRUS SHELLS IN ANTHROPIC'S OWN TESTS",
+  "FABLE 5.2 DESIGNED A VOICE HUB, A SPEAKERPHONE AND A VIRTUAL PET FROM A ONE-PARAGRAPH PROMPT",
+  "ANTHROPIC SAYS OVER 90% OF CHANGES MERGED INTO ITS CORE CODEBASE ARE NOW WRITTEN BY CLAUDE",
+  "META'S MUSE EMBER COSTS 10 CENTS PER MILLION INPUT TOKENS",
+  "THE CTX310 TRIAL IS ENROLLING IN AUSTRALIA, NEW ZEALAND, THE UK AND THE US",
+  "THE NEW BRAIN-CAP ELECTRODES HELD 8 HOURS OF STABLE EEG DURING DAILY ACTIVITIES",
+  "ONLY ABOUT 28% OF US EMERGENCY DEPARTMENTS SCREEN FOR PTSD",
+  "THE SYDNEY-LED STUDY TRACKED 22,618 UK BIOBANK ADULTS FOR ABOUT 8 YEARS",
+  "HKU: 48 PEOPLE ON BONE DRUGS FOR 5 YEARS MIGHT MEAN ONE FEWER DEMENTIA CASE, IF THE LINK IS CAUSAL",
+  "PANDEMIC CLOCKS: BMI AND SMOKING WERE THE STRONGEST LINKS TO FASTER EPIGENETIC AGEING",
+  "JAX: SOME 'AGEING' MARKERS ARE ALREADY THERE IN YOUNG MOUSE HEARTS",
+  "COMPASS'S COMP360 HAS FDA BREAKTHROUGH THERAPY DESIGNATION",
+  "LILLY PLANS TO FILE FOUNDAYO FOR SLEEP APNEA BY YEAR-END",
+  "FDA: PATIENTS GIVEN ZOLGENSMA OR ITVISMA SHOULD BE MONITORED FOR TUMOURS",
+  "BOSTON DYNAMICS: A WHEELED ATLAS IS A RESEARCH TESTBED, NOT A PRODUCT",
+  "CALTECH'S ASTRA ROBOT SPENT SIX MONTHS IN ORBIT ON A DARPA PROGRAM",
+  "THE TIANGONG ATOM CLOUD WAS TRACKED FOR SEVEN SECONDS",
+  "EISAI WILL SHOW FIVE-YEAR LECANEMAB DATA AT CTAD IN BOSTON ON 16 NOVEMBER",
+  "SCIENTIFIC REPORTS: OLDER CHATBOTS AFFIRMED A REPEATED FALSE CLAIM IN UP TO 12% OF REPLIES"
+ ],
+ "sources": [
+  "Anthropic",
+  "The Verge",
+  "CRISPR Therapeutics",
+  "Yahoo Finance",
+  "Cleveland Clinic",
+  "Meta",
+  "TechCrunch",
+  "South China Morning Post",
+  "Interesting Engineering",
+  "NYU Langone Health",
+  "Medical Xpress",
+  "Nature Communications",
+  "University of Sydney",
+  "New Scientist",
+  "HKUMed",
+  "ScienceDaily",
+  "Alzheimer's & Dementia",
+  "Max Planck Institute of Psychiatry",
+  "PNAS",
+  "ScienceAlert",
+  "The Jackson Laboratory",
+  "Aging Cell",
+  "Compass Pathways",
+  "Business Wire",
+  "Eli Lilly",
+  "Scientific American",
+  "JAMA",
+  "FDA",
+  "BioSpace",
+  "Novartis",
+  "University Hospitals Cleveland",
+  "JAMA Network Open",
+  "Boston Dynamics",
+  "The Robot Report",
+  "Caltech",
+  "DARPA",
+  "New Atlas",
+  "Science",
+  "Phys.org"
+ ],
+ "scanned": 1245,
+ "stories": [
+  {
+   "id": "fable-fermat",
+   "title": "Anthropic says 1,000 AI agents machine-checked Fermat's Last Theorem in 30 hours",
+   "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2 and says a team of 1,000 Fable 5.2 agents turned the proof of Fermat's Last Theorem into a computer-checked proof in 30 hours with minimal human help; its first attempt took 11 days. A company claim about AI that could help researchers think bigger, faster.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "FAST FORWARD.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "early",
+     "note": "Anthropic says 1,000 of its agents worked for 30 hours on one formal proof with minimal human intervention, a company claim about long-running agent teams."
+    }
+   ]
+  },
+  {
+   "id": "ctx310",
+   "title": "One gene-editing infusion cut a risky blood fat by 63% in an early trial",
+   "summary": "In 10 people with very high triglycerides, one infusion of CRISPR Therapeutics' CTX310, which edits the ANGPTL3 gene in the liver, cut triglycerides 63% on average at day 30, with no serious drug-related side effects. Early company data from a trial also enrolling in Australia; a one-time fix like this could one day mean fewer daily pills.",
+   "pillar": "longevity",
+   "evidence": "Phase 1b trial, 10 people (company data)",
+   "chapter": "FAST FORWARD.",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "CRISPR Therapeutics (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/healthcare/articles/crispr-therapeutics-presents-phase-1b-141600255.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "fable-os",
+   "title": "Anthropic says its new model built a working operating system from an empty folder in 8 days",
+   "summary": "In an internal experiment, Fable 5.2 coordinated over 1,000 subagents around the clock for eight days and produced a prototype operating system that boots on a laptop, with drivers, file storage, windows, a login screen and an installer, Anthropic says. A company claim, not a product.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "early",
+     "note": "Anthropic says Fable 5.2 ran over 1,000 subagents around the clock for eight days on one project, a company claim that agent systems can persist for days."
+    },
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "early",
+     "note": "An AI-built prototype operating system from an empty folder is a company-claimed step toward software written end to end by AI."
+    }
+   ]
+  },
+  {
+   "id": "muse-ember",
+   "title": "Meta released Muse Ember, a cheap little model for the busywork AI agents repeat all day",
+   "summary": "Meta Superintelligence Labs' Muse Ember costs 10 cents per million input tokens and is built for tool calls, coding subtasks and document parsing, paired with the larger Muse Wonder: 'Muse Wonder plans, Muse Ember handles the volume.' Meta's own benchmarks put it ahead of rivals on cost per task.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "eeg-cap",
+   "title": "A comfier brain-reading cap held over 94% typing accuracy across a whole day of tests",
+   "summary": "Chinese researchers built soft-to-rigid hydrogel electrodes for a standard EEG cap, with no implant: in early tests they kept visual mind-typing over 94% accurate through 14 hours at rest and recorded steady brain signals for 8 hours of one person's daily life. A step toward non-invasive brain interfaces people could wear all day; details from news reports.",
+   "pillar": "intelligence",
+   "evidence": "Early tests (reported)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "REPORTED",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/science/article/3373477/chinas-comfortable-brain-reading-device-achieves-94-mind-typing-accuracy-day-long-use"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-non-invasive-neural-symbiosis",
+     "key": "04fc97cca9",
+     "relation": "early",
+     "note": "A comfortable EEG cap reached over 94% accuracy at visual mind-typing across a day of use: an early step toward practical non-invasive communication."
+    }
+   ]
+  },
+  {
+   "id": "previa-ptsd",
+   "title": "An AI reading emergency patients' own words flagged all 30 who later developed PTSD",
+   "summary": "NYU Langone's PREVIA analyses patients' answers to 'What brought you to the ED?'. In a small study of 145 patients published in Nature Communications, it flagged all 30 who went on to develop PTSD, against 89% for a PTSD specialist, which could help people get support sooner. A research tool, not yet in clinical use.",
+   "pillar": "wellbeing",
+   "evidence": "Small study, 145 patients (Nature Communications)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-ai-ptsd-based-stories-brought.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "vilpa-dementia",
+   "title": "Sydney researchers tied under 4 huff-and-puff minutes a day to 48% less dementia",
+   "summary": "In a University of Sydney-led study of 22,618 UK Biobank adults who wore activity trackers for a week and were followed for about eight years, 3.7 minutes a day of vigorous everyday bursts, like stairs or a dash for the bus, went with a 48% lower dementia risk. Observational: a link, not proof.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 22,618 adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "New Scientist",
+     "url": "https://www.newscientist.com/article/2597936-less-than-4-minutes-of-vigorous-exercise-a-day-could-half-your-dementia-risk/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bisphosphonates-dementia",
+   "title": "Common bone-strengthening drugs were linked to up to 24% less dementia",
+   "summary": "In Hong Kong health records of more than 120,000 people aged 60 and over with osteoporosis, those on alendronate or zoledronate had a 24% lower risk of dementia than people on other bone drugs, and 16% lower than people on none (HKUMed, Alzheimer's & Dementia). Observational: it doesn't show the drugs protect the brain.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 120,000+ people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261108233037.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pandemic-teen-clocks",
+   "title": "Teens most stressed by lockdowns showed faster-ticking DNA ageing clocks",
+   "summary": "Saliva samples from over 1,000 people in Germany, taken before and after the lockdowns, showed faster epigenetic ageing on three of four clocks across the group, but only adolescents showed a link between how stressed they felt and how fast their clocks ran (PNAS). Observational; it's not yet known if the changes last.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 1,000+ people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/pandemic-stress-linked-to-faster-epigenetic-aging-but-only-in-one-generation"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "jax-heart",
+   "title": "In mice, the heart doesn't age evenly",
+   "summary": "Mapping young and old mouse hearts cell by cell, The Jackson Laboratory found inflammation and scarring concentrated in hotspots in the valves and the aortic root (Aging Cell), and some 'ageing' markers already present in young hearts. A mouse study that points to where heart ageing might be tackled.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-inflammaging-reveal-heart-age-evenly.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "compass-nda",
+   "title": "Compass has asked the FDA to approve its psilocybin therapy for hard-to-treat depression",
+   "summary": "Compass Pathways completed its New Drug Application for COMP360, a synthetic psilocybin given with psychological support, for treatment-resistant depression, which affects an estimated 4 million people in the US. A filing, not an approval: the FDA's review comes next.",
+   "pillar": "wellbeing",
+   "evidence": "FDA filing (not approved)",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Compass Pathways (AOL)",
+     "url": "https://www.aol.com/articles/compass-pathways-completes-comp360-psilocybin-113000000.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "foundayo-osa",
+   "title": "Lilly's daily weight-loss pill cut sleep apnea severity by up to 44% in a year-long trial",
+   "summary": "In a phase 3 trial published in JAMA, Foundayo (orforglipron) reduced obstructive sleep apnea severity by 43.8% after 52 weeks in adults with obesity who didn't use a breathing machine, and 27.5% in those who did, a step toward better sleep for many. Not yet approved for sleep apnea; Lilly plans to file by year-end.",
+   "pillar": "wellbeing",
+   "evidence": "Phase 3 trial (JAMA)",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/eli-lilly-shows-glp-1-weight-loss-pill-foundayo-can-dramatically-improve-sleep-apnea/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "zolgensma",
+   "title": "After nine tumour reports, the FDA is investigating the one-time gene therapy Zolgensma",
+   "summary": "The FDA is investigating tumours in children treated with Novartis' Zolgensma for spinal muscular atrophy; Novartis confirmed nine reports among 6,000+ patients since 2019, two with the vector's DNA integrated near a cancer gene. The FDA says benefits still outweigh risks, with monitoring: one-time therapies need long follow-up.",
+   "pillar": "longevity",
+   "evidence": "FDA safety communication",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-06",
+   "sources": [
+    {
+     "outlet": "FDA",
+     "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-investigating-serious-risk-malignancy-linked-zolgensma-gene-therapy"
+    },
+    {
+     "outlet": "BioSpace",
+     "url": "https://www.biospace.com/drug-development/novartis-confirms-9-reported-cases-of-tumors-in-patients-treated-with-zolgensma"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "oab-dementia",
+   "title": "Long-feared bladder drugs looked no worse for dementia than newer ones in a huge study",
+   "summary": "In records of 830,393 adults treated for overactive bladder from 2012 to 2025, older anticholinergic drugs showed similar dementia rates to newer beta-3 agonists (JAMA Network Open). Observational, with no untreated group, so it can't rule out any risk; a reminder that links can mislead.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 830,393 adults",
+   "chapter": "THE CATCH",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-held-overactive-bladder-drugs-dementia.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "atlas-wheels",
+   "title": "Boston Dynamics bolted scooter wheels onto Atlas, and it learned to skate in simulation first",
+   "summary": "One adapter mounts an off-the-shelf scooter rim on the humanoid's ankle; Atlas learned rolling, pirouettes and switching to walking over obstacles in simulation, then did them for real. Boston Dynamics calls it a research testbed, not a product.",
+   "pillar": "frontier",
+   "evidence": "Company research demo",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "astra-orbit",
+   "title": "A Caltech robot assembled part of an antenna in orbit on its own, a first",
+   "summary": "Caltech's ASTRA robot, part of DARPA's NOM4D program, spent six months in orbit and autonomously built the first section of a 1.4-metre reflector antenna, without astronauts; the whole dish wasn't finished. The approach could one day build giant telescopes and antennas in space.",
+   "pillar": "frontier",
+   "evidence": "In-orbit demonstration",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-07",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "coldest-orbit",
+   "title": "China's space station chilled atoms to about ten trillionths of a degree above absolute zero",
+   "summary": "About 20,000 rubidium atoms on the Tiangong station reached an effective 9.7 picokelvin, four times colder than the 2021 record, and were tracked for seven seconds (Science). The temperature is estimated from how slowly the cloud spread; ultra-cold atoms like these can test gravity and quantum physics.",
+   "pillar": "frontier",
+   "evidence": "Peer-reviewed (Science)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/materials/experiment-shatters-record-lowest-temperature/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Tuesday, November 10, and this is the Transhuman Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in transhumanism, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Fast forward."
+  },
+  {
+   "s": 15.84,
+   "t": "Anthropic says a thousand of its AI agents machine-checked Fermat's Last Theorem in 30 hours."
+  },
+  {
+   "s": 22.03,
+   "t": "In an early trial, one gene-editing infusion cut a risky blood fat by 63%."
+  },
+  {
+   "s": 31.88,
+   "t": "The same model, Anthropic says, built a working operating system from an empty folder in 8 days."
+  },
+  {
+   "s": 38.91,
+   "t": "Meanwhile, Meta released Muse Ember, a cheap little model built for the busywork AI agents repeat all day."
+  },
+  {
+   "s": 45.94,
+   "t": "In early tests, a comfier brain-reading cap from China held 94% typing accuracy all day."
+  },
+  {
+   "s": 52.97,
+   "t": "In a small study, an AI reading ER patients' words flagged all 30 who later developed PTSD."
+  },
+  {
+   "s": 60.0,
+   "t": "Back home, Sydney researchers tied under four huff-and-puff minutes a day to 48% less dementia."
+  },
+  {
+   "s": 67.5,
+   "t": "And in Hong Kong health records, people on common bone-strengthening drugs had up to 24% less dementia."
+  },
+  {
+   "s": 75.0,
+   "t": "In Germany, teens most stressed by lockdowns showed faster-ticking DNA ageing clocks."
+  },
+  {
+   "s": 80.97,
+   "t": "Kids and adults didn't."
+  },
+  {
+   "s": 82.97,
+   "t": "And in mice, the heart doesn't age evenly."
+  },
+  {
+   "s": 85.78,
+   "t": "Inflammation and scarring cluster around the valves."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing."
+  },
+  {
+   "s": 90.98,
+   "t": "Compass has asked the FDA to approve its psilocybin therapy for hard-to-treat depression."
+  },
+  {
+   "s": 97.5,
+   "t": "And in a year-long trial, Lilly's daily weight-loss pill cut sleep apnea severity by up to 44%."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. After nine tumours, the FDA is probing Zolgensma, a one-time gene therapy for kids."
+  },
+  {
+   "s": 112.5,
+   "t": "And links can mislead. In a huge study, long-feared bladder drugs looked no worse for dementia than newer ones."
+  },
+  {
+   "s": 121.88,
+   "t": "Over in robotics, Boston Dynamics bolted scooter wheels onto Atlas."
+  },
+  {
+   "s": 126.24,
+   "t": "It learned to skate in simulation first."
+  },
+  {
+   "s": 128.91,
+   "t": "And in orbit, a Caltech robot assembled part of an antenna on its own, a first in space."
+  },
+  {
+   "s": 135.94,
+   "t": "Oh, and China's space station chilled atoms to about ten trillionths of a degree above absolute zero."
+  },
+  {
+   "s": 142.97,
+   "t": "So yes, life's on fast forward."
+  },
+  {
+   "s": 144.92,
+   "t": "Just keep watching the whole tape, not only the highlights."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay well. Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-10/The-Transhuman-Daily_2026-11-10.mp4",
+  "mb": 55.9,
+  "bytes": 55899857,
+  "seconds": 180.01
+ },
+ "links": {}
+}

@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-08T20:13:36+00:00",
- "latest": "2026-11-09",
+ "updated": "2026-11-09T20:11:22+00:00",
+ "latest": "2026-11-10",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-10",
+   "ep": 9,
+   "hook": "FAST FORWARD.",
+   "day": "Tuesday 10 November 2026",
+   "tldr": "Fast forward: Anthropic says AI agents machine-checked Fermat in 30 hours, one gene-editing infusion cut a risky blood fat 63% early on, and a psilocybin therapy is filed with the FDA.",
+   "stories": 17,
+   "forecasts": 3,
+   "links": {
+    "supports": 0,
+    "early": 4,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 7,
+    "wellbeing": 3,
+    "intelligence": 4,
+    "frontier": 3
+   },
+   "titles": [
+    "Anthropic says 1,000 AI agents machine-checked Fermat's Last Theorem in 30 hours",
+    "One gene-editing infusion cut a risky blood fat by 63% in an early trial",
+    "Anthropic says its new model built a working operating system from an empty folder in 8 days"
+   ],
+   "cover": "daily/th/media/2026-11-10/cover.webp",
+   "thumb": "daily/th/media/2026-11-10/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-10/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-10/The-Transhuman-Daily_2026-11-10.mp4",
+    "mb": 55.9,
+    "bytes": 55899857,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-09",
    "ep": 8,
@@ -105,7 +140,7 @@
    "cover": "daily/th/media/2026-11-07/cover.webp",
    "thumb": "daily/th/media/2026-11-07/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/th/media/2026-11-07/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-07/The-Transhuman-Daily_2026-11-07.mp4",
     "mb": 60.2,
