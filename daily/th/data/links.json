@@ -1,22 +1,8 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-10T22:19:30+00:00",
+ "updated": "2026-11-10T22:56:08+00:00",
  "episodes": 10,
  "links": [
-  {
-   "fid": "2026-0",
-   "key": "bb27c32ef8",
-   "relation": "early",
-   "note": "Google DeepMind says Gemini-powered agents did four weeks of proof work, with experts reviewing every specification and the 1% of code the agents flagged, a company claim.",
-   "ep": 10,
-   "on": "2026-11-11",
-   "date": "2026-11-10",
-   "story": "alphaproof",
-   "title": "Google DeepMind says its AI agents proved key security properties of Signal's encryption code",
-   "pillar": "intelligence",
-   "outlet": "Google DeepMind",
-   "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
-  },
   {
    "fid": "2031-4",
    "key": "b354838c73",

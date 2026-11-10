@@ -1,6 +1,6 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-10T22:19:30+00:00",
+ "updated": "2026-11-10T22:56:08+00:00",
  "latest": "2026-11-11",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
@@ -15,10 +15,10 @@
    "day": "Wednesday 11 November 2026",
    "tldr": "Prove it: DeepMind says AI agents machine-checked Signal's encryption code, Beam says a one-letter gene edit hit its sickle cell goal, and higher wellbeing was linked to ~2 more years.",
    "stories": 17,
-   "forecasts": 2,
+   "forecasts": 1,
    "links": {
     "supports": 0,
-    "early": 2,
+    "early": 1,
     "challenges": 0
    },
    "pillars": {

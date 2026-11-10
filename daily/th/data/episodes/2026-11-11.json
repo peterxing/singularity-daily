@@ -104,14 +104,7 @@
      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
     }
    ],
-   "predictions": [
-    {
-     "id": "2026-0",
-     "key": "bb27c32ef8",
-     "relation": "early",
-     "note": "Google DeepMind says Gemini-powered agents did four weeks of proof work, with experts reviewing every specification and the 1% of code the agents flagged, a company claim."
-    }
-   ]
+   "predictions": []
   },
   {
    "id": "beam",
