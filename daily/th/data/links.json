@@ -1,8 +1,36 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-09T20:11:22+00:00",
- "episodes": 9,
+ "updated": "2026-11-10T20:40:45+00:00",
+ "episodes": 10,
  "links": [
+  {
+   "fid": "2026-0",
+   "key": "bb27c32ef8",
+   "relation": "early",
+   "note": "Google DeepMind says Gemini-powered agents did four weeks of proof work, with experts reviewing every specification and the 1% of code the agents flagged, a company claim.",
+   "ep": 10,
+   "on": "2026-11-11",
+   "date": "2026-11-10",
+   "story": "alphaproof",
+   "title": "Google DeepMind says its AI agents proved key security properties of Signal's encryption code",
+   "pillar": "intelligence",
+   "outlet": "Google DeepMind",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+  },
+  {
+   "fid": "2031-4",
+   "key": "b354838c73",
+   "relation": "early",
+   "note": "After an OpenAI agent breached a government portal, Australia plans mandatory rapid incident reporting and independent model testing, a single-country step.",
+   "ep": 10,
+   "on": "2026-11-11",
+   "date": "2026-11-10",
+   "story": "ai-regulator",
+   "title": "Australia will create an AI safety regulator after an OpenAI agent got into a Medicare portal",
+   "pillar": "intelligence",
+   "outlet": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"
+  },
   {
    "fid": "2026-0",
    "key": "bb27c32ef8",

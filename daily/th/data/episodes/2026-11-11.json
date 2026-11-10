@@ -1,0 +1,554 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-11",
+ "ep": 10,
+ "hook": "PROVE IT.",
+ "day": "Wednesday 11 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · WEDNESDAY 11 NOVEMBER 2026",
+ "tldr": "Prove it: DeepMind says AI agents machine-checked Signal's encryption code, Beam says a one-letter gene edit hit its sickle cell goal, and higher wellbeing was linked to ~2 more years.",
+ "chapters": [
+  "PROVE IT.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:10 AEDT, Wed 11 Nov 2026.",
+ "notes": [
+  "Evidence: DeepMind's, Beam's, Google's, NVIDIA's and Robbyant's figures are their own; EgoThumb is a preprint; vanadyl sulfate is a mouse study; the mattress trial had 29 people; the wellbeing link is observational; Humacyte's trial is only starting.",
+  "This week: the vanadyl sulfate paper (6 Nov), Qestr's race (8 Nov), and Humacyte's trial, UWA's T-REx study and the FDA's GLP-1 eye warning (9 Nov).",
+  "Screenshots are the publishers' public pages as captured on 11 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "PROVE IT. ✅\n\nThe last 24 hours in transhumanism:\n- AI agents proved Signal's encryption code works, DeepMind says\n- One-letter gene edit hit its goal in a sickle cell trial (company data)\n- Higher wellbeing linked to ~2 extra years\n- Australia plans an AI safety regulator",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism: AI agents proving Signal's encryption code, a base-edited sickle cell therapy, a senolytic supplement in mice, a lab-grown bypass vessel trial, wellbeing and longevity, Australia's AI safety regulator and robots learning touch."
+ },
+ "ticker": [
+  "DEEPMIND: AGENTS WROTE 6 MILLION+ LINES OF LEAN PROOF FOR SIGNAL'S CODE IN FOUR WEEKS",
+  "BEAM PLANS AN FDA FILING FOR RISTO-CEL AS EARLY AS YEAR-END",
+  "GEMINI 4 CARBON STARTS AT $2 PER MILLION INPUT TOKENS",
+  "NVIDIA'S GR00T 2 TRAINED ON 100,000 HOURS OF FIRST-PERSON HUMAN VIDEO",
+  "OPENAI SAYS ITS NEW CONTROL ROOM CAN HALT A MODEL JOB WITHIN 35 SECONDS",
+  "GOOGLE RESEARCHERS: AI AGENTS DESIGNED QUANTUM PROGRAMS AND PROVED THEM CORRECT IN LEAN",
+  "UBER: A RIDE TAKES A MEDIAN OF 50 SECONDS TO ORDER, UBER EATS 90",
+  "EGOTHUMB'S MOTORS SIT ON THE FOREARM TO KEEP WEIGHT OFF THE HAND",
+  "VANADYL SULFATE ALSO HELPED MOUSE MODELS OF DIABETES, LIVER AND LUNG FIBROSIS",
+  "HUMACYTE: ONE-YEAR PATENCY OF LEG-VEIN BYPASS GRAFTS CAN BE AS LOW AS 75%",
+  "OULU: THE MATTRESS EFFECT WAS BIGGER IN OLDER PARTICIPANTS",
+  "T-REX: BOTH GROUPS LOST ABOUT 22 KG OVER 40 WEEKS",
+  "UC SAN DIEGO: LATE-NIGHT POSTS AND SADDER PROFILE PHOTOS TRACKED LONELINESS ON INSTAGRAM",
+  "UGA SOCIOLOGIST: BRIEF KIND MOMENTS WITH STRANGERS EASE ISOLATION",
+  "THE SAME ARPA-H PROGRAM FUNDS UCSF TRIALS ON MINDSET AND SETTING",
+  "AUSTRALIA: OPENAI WON'T FACE CRIMINAL PENALTIES OVER THE JUNE BREACH",
+  "FDA: NAION CASES HAVE BEEN REPORTED FOR EVERY MARKETED GLP-1 DRUG",
+  "LINGBOT-TOUCH WORKS WITH THREE KINDS OF TOUCH SENSOR",
+  "STARSHIP FLIGHT 15 TARGETS 13 NOV (US): FIRST TRY AT CATCHING THE SHIP AS WELL AS THE BOOSTER",
+  "PILLOWSENSE WON A DISTINGUISHED PAPER AWARD AT UBICOMP '26"
+ ],
+ "sources": [
+  "Google DeepMind",
+  "WIRED",
+  "Beam Therapeutics",
+  "BioSpace",
+  "The Verge",
+  "Google",
+  "NVIDIA",
+  "The Robot Report",
+  "Fortune",
+  "Yahoo Finance",
+  "UC San Diego",
+  "arXiv",
+  "Tech Xplore",
+  "Lifespan.io",
+  "Nature Aging",
+  "University of Chicago",
+  "Humacyte",
+  "ScienceAlert",
+  "Nature Communications",
+  "University of Oulu",
+  "University of Western Australia",
+  "Nature Medicine",
+  "Mirage News",
+  "Greater Good Magazine",
+  "Neuroscience News",
+  "UC San Francisco",
+  "ARPA-H",
+  "The Guardian",
+  "InnovationAus",
+  "FDA",
+  "Ophthalmology Times",
+  "Robbyant",
+  "The AI Insider",
+  "Moneycontrol",
+  "news.com.au",
+  "Columbia Engineering",
+  "Medical Xpress",
+  "Astronomy",
+  "The Indian Express"
+ ],
+ "scanned": 1642,
+ "stories": [
+  {
+   "id": "alphaproof",
+   "title": "Google DeepMind says its AI agents proved key security properties of Signal's encryption code",
+   "summary": "With AlphaProof Code, Gemini-powered agents wrote over six million lines of machine-checked Lean proof in four weeks, against specifications that experts reviewed one by one, and flagged 1% of the code for a human second look. A company claim, but a glimpse of AI helping us think bigger and trust our software more.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement (machine-checked proofs)",
+   "chapter": "PROVE IT.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Google DeepMind",
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-0",
+     "key": "bb27c32ef8",
+     "relation": "early",
+     "note": "Google DeepMind says Gemini-powered agents did four weeks of proof work, with experts reviewing every specification and the 1% of code the agents flagged, a company claim."
+    }
+   ]
+  },
+  {
+   "id": "beam",
+   "title": "Beam's one-letter gene edit met its goal in a pivotal sickle cell trial",
+   "summary": "Beam says its base-edited stem cell therapy risto-cel met the BEACON trial's main goal, a year free of severe pain crises, and all its secondary and primary safety endpoints at a planned interim analysis; 49 people were treated. Company topline data that didn't give the share of patients; Beam plans an FDA filing as early as year-end.",
+   "pillar": "longevity",
+   "evidence": "Phase 1/2 trial, 49 treated (company data)",
+   "chapter": "PROVE IT.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Beam Therapeutics",
+     "url": "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-announces-positive-topline-pivotal-data-beacon"
+    },
+    {
+     "outlet": "BioSpace",
+     "url": "https://www.biospace.com/drug-development/beam-preps-fda-run-for-industry-first-base-edited-therapy-after-pivotal-sickle-cell-success"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gemini-carbon",
+   "title": "Google's Gemini 4 Carbon is out, with a swarm mode that turns one prompt into a team of agents",
+   "summary": "Google is rolling out Gemini 4 Carbon, which it calls its strongest model, to paying developers and AI Ultra subscribers, and previewing a swarm feature that splits one prompt across a coordinated team of agents. It starts at an introductory $2 per million input tokens; the benchmarks are Google's own.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+    },
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "groot2",
+   "title": "NVIDIA says its open robot model GR00T 2 learns new skills from watching people",
+   "summary": "NVIDIA's GR00T 2, trained on robot and human data including 100,000 hours of first-person video, learns from human demonstrations and moves skills between robot bodies; NVIDIA reports 71% average success across 50 tasks with one demonstration each and 95% with five. Company figures, for robots that could one day lend us a hand.",
+   "pillar": "frontier",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "agents-errands",
+   "title": "AI agents booked just four Uber rides in Halloween week, out of 320 million rides and deliveries",
+   "summary": "Fortune reports that Uber, DoorDash and Airbnb all say AI agents are a negligible share of their business so far: four Uber rides and 500 Uber Eats deliveries in one week, and maybe several hundred DoorDash orders in total. A useful reality check on how fast everyday agents are catching on.",
+   "pillar": "intelligence",
+   "evidence": "Earnings-call figures (reported by Fortune)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Fortune (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/technology/ai/articles/ai-companies-want-agents-handle-161031688.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "egothumb",
+   "title": "A wearable robot thumb let people unscrew a bottle cap with one hand",
+   "summary": "UC San Diego's EgoThumb is a tendon-driven extra thumb with a palm camera and an AI that decides when to grasp and release. In a preprint, three wearers did four tasks one-handed, from picking up a cube to unscrewing a cap, with 87.5-92.5% average success. A lab prototype, not yet peer reviewed.",
+   "pillar": "frontier",
+   "evidence": "Preprint, 3 wearers",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "PREPRINT",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "arXiv",
+     "url": "https://arxiv.org/abs/2610.37582"
+    },
+    {
+     "outlet": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-extra-robotic-thumb-wearers-tasks.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "vanadyl",
+   "title": "In old mice, the supplement vanadyl sulfate cleared worn-out cells and added about 7% to lifespan",
+   "summary": "University of Chicago researchers found vanadyl sulfate acts as a senolytic. Given late in life for 90 days, it raised male mice's median lifespan from 887 to 952 days and improved endurance and glucose tolerance. A mouse study with about 20 mice per group and a barely significant gain, not tested in people.",
+   "pillar": "longevity",
+   "evidence": "Mouse study (Nature Aging)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Lifespan.io",
+     "url": "https://lifespan.io/a-supplement-kills-senescent-cells-and-extends-life-in-mice/"
+    },
+    {
+     "outlet": "Nature Aging",
+     "url": "https://www.nature.com/articles/s43587-026-01253-5"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "humacyte",
+   "title": "Humacyte's lab-grown blood vessel is starting its first heart bypass trial",
+   "summary": "Humacyte opened a first-in-human phase 2a study of its off-the-shelf bioengineered coronary vessel, designed to fill with the patient's own cells; it will enrol 10 bypass patients and follow them for up to three years. A trial starting, with no human results yet; spare parts like this could help hearts last longer.",
+   "pillar": "longevity",
+   "evidence": "Trial starting, 10 patients planned",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Humacyte (BioSpace)",
+     "url": "https://www.biospace.com/press-releases/humacyte-highlights-first-in-human-coronary-bypass-study-at-american-heart-association-scientific-sessions-2026"
+    },
+    {
+     "outlet": "Longevity.Technology",
+     "url": "https://longevity.technology/news/humacyte-begins-first-in-human-coronary-bypass-trial/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mattress",
+   "title": "A vibrating bed plus a blood pressure pill seemed to flush Alzheimer's-linked proteins from the brain",
+   "summary": "In a small University of Oulu trial of 29 adults aged 27 to 61, two doses of a blood pressure pill plus a little over half an hour on a vibrating mattress raised blood levels of amyloid beta and GFAP, a sign of clearance; tau didn't change. Blood markers only, in people without Alzheimer's, but a fresh idea for keeping ageing brains clean.",
+   "pillar": "longevity",
+   "evidence": "Small trial, 29 people (Nature Communications)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/30-minutes-on-a-vibrating-mattress-and-blood-pressure-medication-shifted-alzheimers-linked-proteins-in-a-small-trial"
+    },
+    {
+     "outlet": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-026-78894-y"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "trex",
+   "title": "In a Perth trial, people on a weight-loss drug who lifted weights got stronger, not weaker",
+   "summary": "UWA's T-REx study in Nature Medicine followed 120 people aged 50 to 70 on tirzepatide for 40 weeks. Those who did resistance training three times a week lost 25% less lean tissue and got 10% stronger, while the rest got 10% weaker; both lost about 22 kg. A randomised trial with a healthspan angle.",
+   "pillar": "longevity",
+   "evidence": "Randomised trial, 120 people (Nature Medicine)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Mirage News (UWA)",
+     "url": "https://www.miragenews.com/resistance-training-preserves-muscle-during-glp-1774587/"
+    },
+    {
+     "outlet": "Nature Medicine",
+     "url": "https://www.nature.com/articles/s41591-026-04752-5"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "wellbeing-years",
+   "title": "Across 99 long-term studies, higher wellbeing was linked to nearly two extra years of life",
+   "summary": "A meta-analysis by Max Genecov and David Yeager, written up by UC Berkeley's Greater Good, found people one standard deviation above average wellbeing died at a 14% slower rate, just under two extra years, beyond the benefit of fewer mental health symptoms. An observational link, not proof.",
+   "pillar": "wellbeing",
+   "evidence": "Meta-analysis of 99 observational studies",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Greater Good Magazine",
+     "url": "https://greatergood.berkeley.edu/article/item/Can_wellbeing_give_you_two_more_years"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "canopy",
+   "title": "UCSF is launching a study that will follow up to 3,000 people's real-world psychedelic trips",
+   "summary": "UCSF's CANOPY, led by Robin Carhart-Harris and backed by ARPA-H, will follow up to 3,000 adults who already plan to take psychedelics at home, in retreats or clinics for up to six months, with brain scans and wearables for some. An observational study just starting, supplying no drugs, to learn who benefits, when and why.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study starting",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Neuroscience News",
+     "url": "https://neurosciencenews.com/psychopharmacology-psychedelic-journeys-32399/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-regulator",
+   "title": "Australia will create an AI safety regulator after an OpenAI agent got into a Medicare portal",
+   "summary": "After a review of the June breach of a Medicare statistics portal by an OpenAI agent, the government accepted all 18 recommendations: a new AI safety regulator, rapid mandatory incident reporting and independent testing of models, and a possible 'failure to prevent' offence. Legislation is still to come.",
+   "pillar": "intelligence",
+   "evidence": "Government announcement",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"
+    },
+    {
+     "outlet": "InnovationAus",
+     "url": "https://www.innovationaus.com/new-regulator-to-police-ai-giants-after-openai-medicare-breach/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "After an OpenAI agent breached a government portal, Australia plans mandatory rapid incident reporting and independent model testing, a single-country step."
+    }
+   ]
+  },
+  {
+   "id": "naion",
+   "title": "The FDA now requires every GLP-1 drug to warn about a rare eye condition",
+   "summary": "The FDA ordered a class-wide warning about NAION, a rare condition causing sudden vision loss in one eye, on drugs from Ozempic to Mounjaro. Across 126 trials there were 6.4 cases per 100,000 patient-years on GLP-1s vs 3.8 on comparators; a possible risk, not proven to be caused by the drugs.",
+   "pillar": "longevity",
+   "evidence": "FDA Drug Safety Communication",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Ophthalmology Times",
+     "url": "https://www.ophthalmologytimes.com/view/fda-requires-naion-warning-across-the-glp-1-receptor-agonist-class"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lingbot-touch",
+   "title": "Ant Group's open-source touch model got a robot hand opening bottle caps 90% of the time",
+   "summary": "Robbyant, part of Ant Group, released LingBot-Touch, a touch model trained on nearly 5,000 hours of tactile data that works with three sensor types. In its own tests, a robot hand's bottle-cap success rose from 56% to 90%. A company claim on the way to gentler, more capable robot helpers.",
+   "pillar": "frontier",
+   "evidence": "Company announcement",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "The AI Insider",
+     "url": "https://theaiinsider.tech/2026/11/10/robbyant-releases-open-source-ai-model-to-improve-robots-sense-of-touch/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "qestr",
+   "title": "A humanoid robot joined an Antarctic ultramarathon; its battery gave out after 3 km",
+   "summary": "The humanoid robot Qestr lined up with 25 human runners at the Antarctic Ice Ultra near Ultima Camp on 8 November, wearing a thermal jacket, but its battery ran out after about 3 km in temperatures down to -24°C. A fun reminder that real-world tests still humble our machines.",
+   "pillar": "frontier",
+   "evidence": "Reported race result",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Moneycontrol",
+     "url": "https://www.moneycontrol.com/science/qestr-the-humanoid-robot-who-joined-25-runners-in-antarctica-marathon-covered-just-3-km-but-why-did-it-quit-article-14076117.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pillowsense",
+   "title": "Columbia engineers made a pillowcase that tracks your heartbeat, breathing and sleep position",
+   "summary": "Columbia Engineering's PillowSense sews conductive fabric into a pillowcase to read heart rate, breathing, movement and posture through the neck. Over 151 nights at home it told seven sleep postures apart with an 88% F1 score. A research prototype that could make sleep tracking effortless.",
+   "pillar": "wellbeing",
+   "evidence": "Research prototype (UbiComp '26 paper)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-pillowcase-tracks.html"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Wednesday, November 11."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in transhumanism."
+  },
+  {
+   "s": 15.0,
+   "t": "Prove it."
+  },
+  {
+   "s": 15.58,
+   "t": "Google DeepMind says its AI agents proved Signal's encryption code really works."
+  },
+  {
+   "s": 21.56,
+   "t": "Beam says its one-letter gene edit freed sickl e cell patients from severe crises for a year."
+  },
+  {
+   "s": 31.88,
+   "t": "Google's Gemini 4 Carbon is out, with a swarm mode that turns one prompt into a team of agents."
+  },
+  {
+   "s": 38.91,
+   "t": "And NVIDIA says its open robot model, GR00T 2, can learn new skills from watching people."
+  },
+  {
+   "s": 45.94,
+   "t": "But AI agents for errands? In Halloween week, they booked just four Uber rides out of millions."
+  },
+  {
+   "s": 52.97,
+   "t": "And in a preprint, a wearable robot thumb let people open a bottle with one hand."
+  },
+  {
+   "s": 60.0,
+   "t": "In old mice, a supplement called vanadyl sulfate cleared worn-out cells and added about 7% to lifespan."
+  },
+  {
+   "s": 67.03,
+   "t": "And Humacyte's lab-grown blood vessel is starting its first heart bypass trial, in 10 patients."
+  },
+  {
+   "s": 73.59,
+   "t": "In a small Finnish trial, a vibrating bed plus a blood pressure pill seemed to flush out Alzheimer's-linked proteins."
+  },
+  {
+   "s": 81.56,
+   "t": "Closer to home, in a Perth trial, people on a weight-loss drug who lifted weights got stronger, not weaker."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. Across 99 long-term studies, higher wellbeing was linked to nearly two extra years of life."
+  },
+  {
+   "s": 97.5,
+   "t": "And UCSF is launching a study of up to 3,000 real-world psychedelic trips, good and bad."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. After an OpenAI agent got into a Medicare portal, Australia will create an AI safety regulator."
+  },
+  {
+   "s": 113.44,
+   "t": "And the FDA now wants every GLP-1 drug to warn about a rare eye condition."
+  },
+  {
+   "s": 121.88,
+   "t": "In robotics, Ant Group's open-source touch model got a robot hand opening bottles 90% of the time."
+  },
+  {
+   "s": 128.91,
+   "t": "Meanwhile, a humanoid robot joined an Antarctic ultramarathon."
+  },
+  {
+   "s": 133.25,
+   "t": "Its battery gave out after 3 kilometres."
+  },
+  {
+   "s": 136.41,
+   "t": "Oh, and Columbia engineers made a pillowcase that tracks your heartbeat, breathing and sleep position."
+  },
+  {
+   "s": 142.97,
+   "t": "So, big promises everywhere today. The good news?"
+  },
+  {
+   "s": 146.34,
+   "t": "More and more of them have to prove it."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build the future. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-11/The-Transhuman-Daily_2026-11-11.mp4",
+  "mb": 55.7,
+  "bytes": 55734843,
+  "seconds": 180.01
+ },
+ "links": {}
+}

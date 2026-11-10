@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-09T20:11:22+00:00",
- "latest": "2026-11-10",
+ "updated": "2026-11-10T20:40:45+00:00",
+ "latest": "2026-11-11",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-11",
+   "ep": 10,
+   "hook": "PROVE IT.",
+   "day": "Wednesday 11 November 2026",
+   "tldr": "Prove it: DeepMind says AI agents machine-checked Signal's encryption code, Beam says a one-letter gene edit hit its sickle cell goal, and higher wellbeing was linked to ~2 more years.",
+   "stories": 17,
+   "forecasts": 2,
+   "links": {
+    "supports": 0,
+    "early": 2,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 6,
+    "wellbeing": 3,
+    "intelligence": 4,
+    "frontier": 4
+   },
+   "titles": [
+    "Google DeepMind says its AI agents proved key security properties of Signal's encryption code",
+    "Beam's one-letter gene edit met its goal in a pivotal sickle cell trial",
+    "Google's Gemini 4 Carbon is out, with a swarm mode that turns one prompt into a team of agents"
+   ],
+   "cover": "daily/th/media/2026-11-11/cover.webp",
+   "thumb": "daily/th/media/2026-11-11/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-11/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-11/The-Transhuman-Daily_2026-11-11.mp4",
+    "mb": 55.7,
+    "bytes": 55734843,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-10",
    "ep": 9,
@@ -105,7 +140,7 @@
    "cover": "daily/th/media/2026-11-08/cover.webp",
    "thumb": "daily/th/media/2026-11-08/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/th/media/2026-11-08/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-08/The-Transhuman-Daily_2026-11-08.mp4",
     "mb": 61.2,
