@@ -6,6 +6,14 @@
   <description>The latest Microsoft updates for schools, universities and TAFEs in three minutes, every morning, with who each update is for, its status and its sources. An independent recap, not an official Microsoft channel.</description>
   <language>en-au</language>
   <item>
+   <title>EP.016 · STAY CURRENT.</title>
+   <link>https://peterxing.com/#/education/2026-11-11</link>
+   <guid isPermaLink="false">microsoft-for-education-daily-2026-11-11</guid>
+   <pubDate>Wed, 11 Nov 2026 07:00:00 +1100</pubDate>
+   <description>Ohio State and Microsoft plan five years of AI learning, certifications and cloud work, .NET 11 ships for student coders, and Git 2.56.1 fixes six security flaws.</description>
+   <enclosure url="https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-11/Microsoft-for-Education-Daily_2026-11-11.mp4" length="52064546" type="video/mp4"/>
+  </item>
+  <item>
    <title>EP.015 · LOOK BEFORE YOU LEAP.</title>
    <link>https://peterxing.com/#/education/2026-11-10</link>
    <guid isPermaLink="false">microsoft-for-education-daily-2026-11-10</guid>

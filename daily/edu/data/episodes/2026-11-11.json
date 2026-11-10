@@ -1,0 +1,343 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-11",
+ "ep": 16,
+ "hook": "STAY CURRENT.",
+ "day": "Wednesday 11 November 2026",
+ "note": "FOR EDUCATION · WEDNESDAY 11 NOVEMBER 2026",
+ "tldr": "Ohio State and Microsoft plan five years of AI learning, certifications and cloud work, .NET 11 ships for student coders, and Git 2.56.1 fixes six security flaws.",
+ "chapters": [
+  "STAY CURRENT",
+  "STUDENT CODERS",
+  "CAMPUS IT",
+  "RESEARCH",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Wed 11 Nov 2026 (Monday 9 to Tuesday 10 Nov in the US).",
+ "notes": [
+  "A quiet day for education news: Ohio State and Microsoft's partnership is a five-year plan, said as plans. Visual Studio's 21-task gain is Microsoft's own benchmark.",
+  "Dependabot's pause starts 8 December 2026 and Power BI's R and Python visuals retire in May 2027. Realms Pro's price and Minecraft Editor co-editing are as reported by DayOne; Claude's UK default (ticker) is as reported by The Register.",
+  "Screenshots are the publishers' public pages as captured on 11 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "STAY CURRENT. 🔄\n\nThe last 24h at Microsoft for education:\n- Ohio State and Microsoft: a five-year partnership, with AI learning and certifications\n- .NET 11 is out\n- Git 2.56.1 fixes six security flaws\n- Power BI's R and Python visuals retire May 2027",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (11 Nov 2026): Ohio State and Microsoft's five-year partnership, .NET 11 and C# 15, Copilot's new engine in Visual Studio, Git's security fixes, Windows settings backup and restore, Microsoft research on Rust's standard library, the retirement of Power BI's R and Python visuals, Dependabot pausing on idle repositories and Minecraft Realms Pro, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "OHIO STATE AND MICROSOFT: A FIVE-YEAR PARTNERSHIP ACROSS CLINICAL CARE, EDUCATION AND RESEARCH",
+  "OHIO STATE WILL BECOME A MICROSOFT TRAINING SERVICES PROVIDER, BROADENING ACCESS TO MICROSOFT TRAINING AND CERTIFICATIONS",
+  "OHIO STATE IS BUILDING A DATA FOUNDATION ON MICROSOFT FABRIC AND ONELAKE ACROSS ITS MEDICAL CENTER, COLLEGES AND REGIONAL CAMPUSES",
+  "OHIO STATE WEXNER MEDICAL CENTER AIMS TO MOVE 70-80% OF ITS STORAGE AND COMPUTE TO AZURE",
+  "OHIO STATE CLINICIANS USE DRAGON COPILOT'S AMBIENT NOTES, REVIEWED AND FINALISED BY THE CLINICIAN",
+  ".NET CONF 2026 RUNS 10-13 NOVEMBER: PRODUCT TEAM SESSIONS, THEN TWO DAYS OF COMMUNITY SESSIONS",
+  ".NET 11 IS A STANDARD TERM SUPPORT RELEASE; .NET 10 REMAINS THE LONG TERM SUPPORT OPTION",
+  "C# 15 ALSO BRINGS CLOSED HIERARCHIES, EXTENSION INDEXERS AND LABELED BREAK AND CONTINUE",
+  "VISUAL STUDIO 18.12: STEER COPILOT MID-TASK AND SEE WHAT EACH REQUEST COSTS",
+  "VISUAL STUDIO: PLAN MODE AND CHAT EXPORTS ARE STILL COMING TO THE NEW COPILOT CHAT",
+  "GIT FIXES ARE ALSO BACKPORTED TO 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3 AND 2.50.2",
+  "GITHUB.COM IS PATCHED; GITHUB ENTERPRISE SERVER FIXES ARE IN 3.19.15, 3.20.11, 3.21.9 AND 3.22.4",
+  "WINDOWS BACKUP FOR ORGANIZATIONS IS NOW WINDOWS SETTINGS BACKUP AND RESTORE: NO POLICY CHANGES NEEDED",
+  "ENTERPRISE STATE ROAMING IS NOW MANAGED THROUGH WINDOWS SETTINGS BACKUP AND RESTORE",
+  "FORGE LAB: TWO OF THE RUST ISSUES IT REPORTED WERE STILL OPEN AT PUBLICATION",
+  "POWER BI: PYTHON SCRIPTS IN POWER QUERY ARE NOT AFFECTED BY THE R AND PYTHON VISUALS RETIREMENT",
+  "POWER BI'S ROADMAP PLANS HTML AND VEGA CORE VISUALS",
+  "DEPENDABOT: ARCHIVED ALERTS COME BACK WITH ANY PUSH, AND THE ONE-YEAR CLOCK RESTARTS",
+  "THE REGISTER: CLAUDE IN COPILOT WILL BE ON BY DEFAULT FOR UK TENANTS FROM 9 DECEMBER UNLESS ADMINS CHOOSE A SETTING",
+  "CLAUDE FABLE 5.2 IS GENERALLY AVAILABLE IN GITHUB COPILOT PRO+, MAX, BUSINESS AND ENTERPRISE; ADMINS MUST ENABLE IT",
+  "MINECRAFT REALMS PRO: 4 CPU CORES, 16 GB OF RAM AND 25 GB OF SAVE STORAGE"
+ ],
+ "sources": [
+  "Microsoft Source",
+  ".NET Blog",
+  "Visual Studio Blog",
+  "GitHub Blog",
+  "Windows IT Pro Blog",
+  "Microsoft Security Blog",
+  "Power BI Blog",
+  "GitHub Changelog",
+  "Minecraft.net",
+  "DayOne",
+  "The Register",
+  "Microsoft Learn"
+ ],
+ "scanned": 1336,
+ "stories": [
+  {
+   "id": "ohio-state-microsoft-partnership",
+   "title": "Ohio State and Microsoft announce a five-year partnership across care, research and education",
+   "summary": "Plans include moving about 70-80% of Ohio State's storage and compute to Azure and a Microsoft Fabric data foundation across its medical center, colleges and regional campuses. It will also expand AI learning, Microsoft Learn resources and certifications for students, faculty and staff, as Ohio State becomes a Microsoft Training Services Provider.",
+   "for": "University leaders, IT, researchers, faculty and students",
+   "status": "Announced: a five-year plan",
+   "edu": true,
+   "chapter": "STAY CURRENT",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Microsoft Source",
+     "url": "https://news.microsoft.com/source/2026/11/10/the-ohio-state-university-and-microsoft-announce-five-year-strategic-partnership-to-accelerate-innovation-across-clinical-care-education-and-research/"
+    }
+   ]
+  },
+  {
+   "id": "dotnet-11",
+   "title": ".NET 11 is out, with C# 15 and two years of support",
+   "summary": ".NET 11 is a Standard Term Support release with two years of support. C# 15 adds union types, so the compiler checks you've handled every case, alongside faster SDK commands and new building blocks for AI apps. .NET Conf 2026 runs 10-13 November.",
+   "for": "Student coders and computer science teachers",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "STUDENT CODERS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": ".NET Blog",
+     "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/"
+    }
+   ]
+  },
+  {
+   "id": "visual-studio-copilot-engine",
+   "title": "Copilot Chat in Visual Studio 2026 gets a new engine built by GitHub",
+   "summary": "From Visual Studio 2026 version 18.12, Copilot Chat runs on the Microsoft Copilot SDK, on by default. In Microsoft's own test of 157 real C# tasks it solved 124, against 103 for the previous engine with the same model, and you can now steer it mid-task and see what each request costs.",
+   "for": "Students and teachers coding in C#",
+   "status": "On by default in version 18.12",
+   "edu": false,
+   "chapter": "STUDENT CODERS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Visual Studio Blog",
+     "url": "https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade/"
+    }
+   ]
+  },
+  {
+   "id": "git-2-56-1-security-fixes",
+   "title": "Git 2.56.1 fixes six security flaws: update lab PCs and laptops",
+   "summary": "The worst lets a malicious repository run code during a recursive clone. Update to Git 2.56.1, or the patched release for your version, and any apps that bundle Git; github.com is already patched and GitHub Enterprise Server fixes are out.",
+   "for": "School IT, computer labs and student coders",
+   "status": "Fixes available now",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "GitHub Blog",
+     "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/"
+    }
+   ]
+  },
+  {
+   "id": "windows-settings-backup-restore",
+   "title": "Windows settings backup and restore carries settings to a new or reimaged PC",
+   "summary": "Windows Backup for Organizations is now Windows settings backup and restore: it brings supported Windows settings and the Microsoft Store app list to a new, reset or reimaged PC. A restore summary shows what came back (Windows 11 24H2 and later), backup is on by default from 26H2 on eligible devices, and a PowerShell module manages backup profiles.",
+   "for": "School IT refreshing student and staff laptops",
+   "status": "Available now",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Windows IT Pro Blog",
+     "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/enhanced-resilience-with-windows-settings-backup-and-restore/4571757"
+    }
+   ]
+  },
+  {
+   "id": "forge-lab-rust-memory-safety",
+   "title": "Microsoft researchers find memory safety bugs in Rust's standard library",
+   "summary": "Microsoft's FORGE Lab, helped by an AI vulnerability scanner, found cases where even safe Rust can trigger undefined behavior through unsafe code in the standard library. The bugs fall into three patterns of misplaced trust and were reported to the Rust maintainers; two were still open at publication.",
+   "for": "Computer science students and researchers",
+   "status": "Research",
+   "edu": false,
+   "chapter": "RESEARCH",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/"
+    }
+   ]
+  },
+  {
+   "id": "power-bi-r-python-visuals-retire",
+   "title": "Power BI's built-in R and Python visuals retire in May 2027",
+   "summary": "At retirement, R and Python visuals stop working in published reports, including older ones; Python scripts in Power Query aren't affected. Rebuild them with built-in or custom visuals, or recreate the analysis in Fabric notebooks or Fabric Apps, and keep your scripts.",
+   "for": "University researchers and data teams",
+   "status": "Retiring May 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Power BI Blog",
+     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Announcing-the-retirement-of-R-and-Python-visuals-in-Power-BI/ba-p/5400748"
+    }
+   ]
+  },
+  {
+   "id": "dependabot-pause-inactive-repos",
+   "title": "GitHub will pause Dependabot alerts on repositories idle for a year",
+   "summary": "From 8 December 2026, GitHub turns off Dependabot alerts on most repositories with no activity in the past year. The alerts are archived, not deleted, and any push brings them back; the change applies to all plans on github.com.",
+   "for": "Teachers and students with course repositories",
+   "status": "From 8 December 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/"
+    }
+   ]
+  },
+  {
+   "id": "minecraft-realms-pro",
+   "title": "Minecraft Realms Pro hosts up to 50 players at once",
+   "summary": "Realms Pro is a new Realms subscription with up to 50 simultaneous players (10 on Realms Plus), a non-shared server with 4 CPU cores and 16 GB of RAM, and 25 GB of saves. DayOne reports it costs US$29.99 a month and lets several admins edit a world live in Minecraft Editor on Windows.",
+   "for": "Students, after hours",
+   "status": "Available now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Minecraft.net",
+     "url": "https://www.minecraft.net/en-us/article/introducing-realms-pro"
+    },
+    {
+     "outlet": "DayOne",
+     "url": "https://playday.one/2026/11/10/minecraft-gets-a-new-premium-realms-subscription-supporting-up-to-50-players/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Wednesday."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what shipped at Microsoft in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Stay current. Ohio State and Microsoft announced a five-year partnership for care, research and education."
+  },
+  {
+   "s": 22.5,
+   "t": "Expect more AI learning and Microsoft certifications for students, staff and the community."
+  },
+  {
+   "s": 31.88,
+   "t": "For student coders, .NET 11 is out, with C# 15 and two years of support."
+  },
+  {
+   "s": 39.38,
+   "t": "New union types make the compiler check every case, and .NET Conf runs through Friday."
+  },
+  {
+   "s": 46.88,
+   "t": "Coding in Visual Studio 2026?"
+  },
+  {
+   "s": 49.05,
+   "t": "Copilot Chat just got a new engine, built by GitHub."
+  },
+  {
+   "s": 54.38,
+   "t": "In Microsoft's own test, it solved 21 more coding tasks with the same model."
+  },
+  {
+   "s": 60.0,
+   "t": "Git on your lab computers? Update it: the new release fixes six security flaws."
+  },
+  {
+   "s": 67.5,
+   "t": "The worst lets a malicious repo run code when it's cloned with its submodules."
+  },
+  {
+   "s": 75.0,
+   "t": "Refreshing student laptops?"
+  },
+  {
+   "s": 76.63,
+   "t": "Windows settings backup and restore moves their settings and app list to the new PC."
+  },
+  {
+   "s": 82.5,
+   "t": "A new restore summary shows what came back, and from 26H2, backup's on by default."
+  },
+  {
+   "s": 90.0,
+   "t": "Something calmer for computer science classes: Microsoft researchers found memory bugs in Rust's standard library."
+  },
+  {
+   "s": 97.5,
+   "t": "An AI scanner helped them show that even safe Rust can trip over the unsafe code underneath."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Power BI's R and Python visuals retire in May 2027."
+  },
+  {
+   "s": 112.5,
+   "t": "Idle course repos? From December 8, GitHub pauses their Dependabot alerts; one push brings them back."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Minecraft launched Realms Pro: private servers for up to 50 players at once."
+  },
+  {
+   "s": 129.38,
+   "t": "That's five times Realms Plus, on its own server with 16 GB of RAM."
+  },
+  {
+   "s": 135.0,
+   "t": "And big build crews can edit together, live, in Minecraft Editor on Windows."
+  },
+  {
+   "s": 142.5,
+   "t": "Learn something new, update Git, check your old repos and reports: stay current."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "On the release board: shipped, and still shipping."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours at Microsoft. Tomorrow, there's more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-11/Microsoft-for-Education-Daily_2026-11-11.mp4",
+  "mb": 52.1,
+  "bytes": 52064546,
+  "seconds": 180.01
+ },
+ "links": {}
+}
