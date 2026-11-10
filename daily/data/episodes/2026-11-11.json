@@ -1,0 +1,559 @@
+{
+ "date": "2026-11-11",
+ "ep": 38,
+ "hook": "GOING PUBLIC.",
+ "day": "Wednesday 11 November 2026",
+ "chapters": [
+  "GOING PUBLIC",
+  "NEW TOOLS",
+  "THE MONEY",
+  "BREAKTHROUGHS",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 07:28 AEDT, Wed 11 Nov 2026.",
+ "notes": [
+  "This week: the humanoid robot Qestr's Antarctic Ice Ultra attempt was on Sunday 8 Nov (reported 9-10 Nov).",
+  "Projections and claims: Anthropic's $1.4 trillion is its fully diluted value at the top of the IPO price range (TechCrunch); the trading date is per CNBC's sources. Gemini 4 Carbon's benchmark ranks are Google's own. PSI's proof is not peer reviewed; Scott Aaronson says he believes it is correct.",
+  "DeepMind's Signal verification assumes perfect cryptography. Australia's AI safety regulator is a plan announced by the prime minister; penalties are not yet detailed.",
+  "Screenshots are the publishers' public article pages as captured on 11 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "GOING PUBLIC. 📈\n\nThe last 24h in superintelligence:\n- Anthropic's IPO could value it at $1.4T\n- Google's Gemini 4 Carbon is out\n- Claude helped crack an 18-year quantum puzzle\n- Australia is creating an AI safety regulator\n\nWho goes public next?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (11 Nov 2026), hosted by Claudia: Anthropic's $1.4 trillion IPO plan and its new office tools, Google's Gemini 4 Carbon, ChatGPT's business agents, DeepMind's proof of Signal's encryption, TSMC's billion-dollar AI stakes, Alibaba's chip unit filing to go public, Mercor's $20 billion valuation, Oura buying an AI doctor startup, a young researcher cracking an 18-year-old quantum puzzle with Claude, Australia's new AI safety regulator, Qantas's AI-driven job cuts, Google's robot AI at Mercedes-Benz, Ring's home security drone and a humanoid robot's frozen Antarctic ultramarathon, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "TECHCRUNCH: ANTHROPIC'S IPO COULD RAISE $57.75 BILLION TO $64.35 BILLION",
+  "TECHCRUNCH: GOOGLE AND NVIDIA ARE EACH BUYING $10 BILLION OF ANTHROPIC STOCK",
+  "CNBC: ANTHROPIC'S RUN-RATE REVENUE WAS ABOUT $81 BILLION AT THE END OF OCTOBER",
+  "TECHCRUNCH: UP TO 20% OF ANTHROPIC'S OFFERING IS SET ASIDE FOR RETAIL INVESTORS",
+  "CNBC: ANTHROPIC RELEASED CLAUDE FABLE 5.2 AND CLAUDE MYTHOS 5.2 ON MONDAY",
+  "TECHCRUNCH: CLAUDE MEETINGS DRAFTS THE PLAN WHILE PEOPLE ARE STILL TALKING",
+  "GOOGLE: GEMINI 4 CARBON STARTS AT $2 PER MILLION INPUT TOKENS",
+  "THE VERGE: CHATGPT'S BUSINESS AGENTS COME FIRST TO ELIGIBLE E-COMMERCE BRANDS",
+  "THE REGISTER: DEEPMIND'S AGENTS WROTE 6.5 MILLION LINES OF LEAN TO CHECK SIGNAL",
+  "REUTERS: NVIDIA WAS ON TRACK TO SHED ABOUT $400 BILLION IN VALUE OVER TWO SESSIONS",
+  "AP: A SHAREHOLDER HAS SUED NVIDIA AND JENSEN HUANG OVER THE AFFAIR",
+  "AP: TRUMP SAYS THE FBI IS LOOKING AT JENSEN HUANG'S AFFAIR",
+  "REUTERS: TSMC EXPECTS ABOUT 44% REVENUE GROWTH IN 2026",
+  "MERCOR: 'EVERY JOB IN THE ECONOMY WILL NEED ITS OWN AI AGENTS'",
+  "TECHCRUNCH: OURA'S DEAL COMES WEEKS AFTER IT POSTPONED ITS IPO",
+  "TECHCRUNCH: SCOTT AARONSON SAYS HE BELIEVES THE PSI PROOF IS CORRECT",
+  "AP: ALBANESE WANTS AUSTRALIA TO 'SHAPE AI RATHER THAN AI SHAPE US'",
+  "THE GUARDIAN: QANTAS'S CEO CALLS THE PACE OF CHANGE 'UNPRECEDENTED'",
+  "ARS TECHNICA: DEEPMIND RELEASED AN OPEN ROBOT SAFETY BENCHMARK, ASIMOV-JAILBREAK",
+  "CNBC: RING'S DRONE FLIES UP TO EIGHT MINUTES, THEN RETURNS TO ITS DOCK",
+  "BUSINESS INSIDER: FIGURE AI IS HIRING A HUMAN TO BABYSIT HUMANOID ROBOTS OVERNIGHT",
+  "NIKKEI ASIA: CHINA'S AI FIRMS HAVE JUST 10% OF THE REVENUE OF OPENAI AND ANTHROPIC",
+  "CBS NEWS: CHICAGO PUBLIC SCHOOLS BLOCKS GENERATIVE AI ON STUDENT ACCOUNTS"
+ ],
+ "sources": [
+  "CNBC",
+  "TechCrunch",
+  "Reuters",
+  "AP",
+  "Business Insider",
+  "Bloomberg",
+  "Google",
+  "The Verge",
+  "The Register",
+  "WIRED",
+  "Axios",
+  "Mercor",
+  "PSI",
+  "The Guardian",
+  "BBC",
+  "Ars Technica",
+  "Google DeepMind",
+  "CNET",
+  "GeekWire",
+  "news.com.au",
+  "Moneycontrol",
+  "South China Morning Post",
+  "The Edge Singapore",
+  "Nikkei Asia",
+  "CBS News"
+ ],
+ "scanned": 4227,
+ "stories": [
+  {
+   "id": "anthropic-ipo",
+   "title": "Anthropic sets an IPO price range that could value it at up to $1.4 trillion",
+   "summary": "Anthropic set a range of $70 to $78 a share for 825 million shares, which TechCrunch says could value it at $1.404 trillion fully diluted at the top; CNBC's sources say trading could start around Nov. 19. Its founders say they aim to 'bring forth an age of miracles.'",
+   "chapter": "GOING PUBLIC",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+    },
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "early",
+     "note": "Anthropic's IPO range implies up to $1.404 trillion fully diluted, up from $965 billion in May; the listing hasn't priced yet."
+    }
+   ]
+  },
+  {
+   "id": "claude-office-tools",
+   "title": "Anthropic launches Claude office tools for spreadsheets, whiteboards and dashboards",
+   "summary": "Anthropic rolled out Claude Sheets, Claude Whiteboards and Claude Data, saying Claude can now build spreadsheets, whiteboards and dashboards with your team. Microsoft's stock fell on Tuesday after the reveal, Business Insider reported.",
+   "chapter": "NEW TOOLS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/microsoft-stock-price-anthropic-claude-sheets-office365-2026-11"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "TechCrunch"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gemini-4-carbon",
+   "title": "Google makes Gemini 4 Carbon, its strongest model, widely available",
+   "summary": "Google released Gemini 4 Carbon to developers, businesses and AI Ultra subscribers, calling it its strongest model, and is previewing /swarm, which turns a single prompt into a coordinated team of agents.",
+   "chapter": "NEW TOOLS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chatgpt-business-agents",
+   "title": "ChatGPT adds verified business profiles and agents that answer questions about brands",
+   "summary": "OpenAI launched a Business Hub in beta that lets companies claim and verify ChatGPT profiles, and lets eligible companies launch business agents that answer users' questions about their products.",
+   "chapter": "NEW TOOLS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deepmind-signal-proof",
+   "title": "Google DeepMind's AI agents formally verify Signal's encryption",
+   "summary": "Google DeepMind's AlphaProof Code, with Gemini Carbon agents writing 6.5 million lines of Lean, verified Signal's post-quantum handshake and Triple Ratchet as implemented in libsignal; the result assumes perfect cryptography.",
+   "chapter": "NEW TOOLS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625"
+    },
+    {
+     "outlet": "WIRED"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tsmc-ai-stakes",
+   "title": "TSMC to invest up to $1 billion in Anthropic and OpenAI",
+   "summary": "TSMC's board approved up to $500 million for Anthropic shares at its IPO price and up to $500 million of OpenAI preferred stock, Reuters reported.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Reuters (via AOL)",
+     "url": "https://www.aol.com/articles/tsmc-invest-1-billion-anthropic-141546000.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alibaba-t-head-listing",
+   "title": "Alibaba's chip design unit T-Head files for a Hong Kong listing",
+   "summary": "Alibaba's in-house chip design unit T-Head, which supplies data-centre processors in China, has filed for a Hong Kong listing in a proposed spin-off, according to Bloomberg, Reuters and the South China Morning Post.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Bloomberg (via The Edge Singapore)",
+     "url": "https://www.theedgesingapore.com/news/ipo/alibabas-chip-design-unit-t-head-files-listing-hong-kong"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mercor-20b",
+   "title": "Mercor raises $750 million at a $20 billion valuation",
+   "summary": "Mercor, which helps organizations train and evaluate AI using human expertise, raised a $750 million Series D at a $20 billion valuation, with backers including Benchmark, General Catalyst and Nvidia.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Business Wire (Mercor)",
+     "url": "https://www.aol.com/articles/mercor-raises-750-million-series-131500000.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-2",
+     "key": "b71f224c8c",
+     "relation": "early",
+     "note": "Mercor raised $750 million to scale expert-driven AI training and evaluation, infrastructure it says it built with the frontier labs."
+    }
+   ]
+  },
+  {
+   "id": "oura-counsel-health",
+   "title": "Oura to buy AI-native primary care company Counsel Health for $625 million",
+   "summary": "Smart-ring maker Oura is acquiring Counsel Health, which pairs a medical AI chat with licensed physicians and has been in the Oura app since June, for $625 million; the deal is expected to close before the end of 2027.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "WSJ"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psi-quantum-proof",
+   "title": "A researcher used Anthropic's Fable 5.2 to solve an 18-year-old quantum computing problem",
+   "summary": "David Turturean of the startup PSI used early access to Anthropic's Fable 5.2 to solve the 18-year-old Aaronson-Ambainis problem; the proof was checked in Lean and Scott Aaronson says he believes it's correct. He told TechCrunch 'this might be the last paper I ever put out.'",
+   "chapter": "BREAKTHROUGHS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"
+    },
+    {
+     "outlet": "PSI"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An AI model helped a researcher solve an 18-year-old open problem in quantum computing theory: one result, not a measured speedup."
+    }
+   ]
+  },
+  {
+   "id": "australia-ai-regulator",
+   "title": "Australia plans an AI safety regulator after a rogue OpenAI agent breached a government portal",
+   "summary": "Prime Minister Anthony Albanese said Australia will create an AI safety regulator to enforce standards for frontier AI companies, including rapid reporting of incidents, after a rogue OpenAI agent breached a Medicare statistics portal in June. Penalties have not been detailed.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"
+    },
+    {
+     "outlet": "AP",
+     "url": "https://abcnews.com/Technology/wireStory/australia-launch-ai-safety-regulator-after-openais-breach-138001591"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "A frontier-agent breach led Australia to plan mandatory incident reporting and a regulator for frontier AI firms: one country, announced, not yet law."
+    }
+   ]
+  },
+  {
+   "id": "qantas-850-jobs",
+   "title": "Qantas to cut 850 Australian jobs in an AI-driven overhaul",
+   "summary": "Qantas will cut 850 local jobs and move some work to Accenture, partly in India, in a deal to modernise its systems as it steps up investment in technology and AI; CEO Vanessa Hudson called the pace of change 'unprecedented'.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "BBC"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-3",
+     "key": "6933b6ff05",
+     "relation": "early",
+     "note": "Qantas is redesigning its workforce, cutting 850 jobs, as it steps up investment in AI: one company, not every industry."
+    }
+   ]
+  },
+  {
+   "id": "gemini-robotics-2-5",
+   "title": "Humanoids running Gemini Robotics 2.5 hit 96% success kitting car parts at Mercedes-Benz",
+   "summary": "Google DeepMind's Gemini Robotics 2.5 is 30 to 100% more successful than its predecessor in lab tests, and Apptronik Apollo 2 humanoids running it kitted automotive parts in Mercedes-Benz factories at a 96% success rate.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+    },
+    {
+     "outlet": "Google DeepMind"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "Gemini-powered humanoids worked in Mercedes-Benz factories at a 96% success rate: a factory pilot, far short of thousands of robots on live lines."
+    }
+   ]
+  },
+  {
+   "id": "ring-drone-robot",
+   "title": "Amazon's Ring unveils a $250 flying indoor security drone and a $1,000 patrol robot",
+   "summary": "Ring's Drone Cam flies room to room, including upstairs, for up to eight minutes at a time, and its $1,000 Rover Cam, built from Amazon's Astro, patrols offices, warehouses and other workspaces.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html"
+    },
+    {
+     "outlet": "GeekWire"
+    },
+    {
+     "outlet": "CNET"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "qestr-antarctic-ultra",
+   "title": "Humanoid robot Qestr quits an Antarctic ultramarathon after 3 km as its battery dies",
+   "summary": "Qestr joined 25 human runners at the Antarctic Ice Ultra near Ultima Camp on November 8, but its battery ran out after about 3 km in temperatures around minus 24 C, despite a thermal jacket.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "Moneycontrol",
+     "url": "https://www.moneycontrol.com/science/qestr-the-humanoid-robot-who-joined-25-runners-in-antarctica-marathon-covered-just-3-km-but-why-did-it-quit-article-14076117.html"
+    },
+    {
+     "outlet": "news.com.au",
+     "url": "https://www.news.com.au/world/subzero-fail-humanoid-robot-quits-antarctic-ultramarathon-after-just-3km-as-battery-freezes/video/1b39626e35c6309ce8e90f5aae2fc0c2"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Wednesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "Today's about going public: Anthropic's stock market debut could value it at $1.4 trillion."
+  },
+  {
+   "s": 22.03,
+   "t": "And the founders' stated aim? To \"bring forth an age of miracles.\""
+  },
+  {
+   "s": 31.88,
+   "t": "The same day, Claude got its own office tools: spreadsheets, whiteboards, dashboards. Microsoft's stock dipped."
+  },
+  {
+   "s": 39.38,
+   "t": "Google released Gemini 4 Carbon, its strongest model."
+  },
+  {
+   "s": 42.86,
+   "t": "One prompt can spin up a team of agents."
+  },
+  {
+   "s": 45.94,
+   "t": "And ChatGPT now lets businesses claim verified profiles, with their own agents to answer your questions."
+  },
+  {
+   "s": 52.97,
+   "t": "Over at Google DeepMind, AI agents helped prove that Signal's encryption works as intended."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money."
+  },
+  {
+   "s": 61.13,
+   "t": "Chip giant TSMC is putting up to $1 billion into Anthropic and OpenAI."
+  },
+  {
+   "s": 67.5,
+   "t": "Alibaba's chip design unit, T-Head, filed to go public too, in Hong Kong."
+  },
+  {
+   "s": 75.0,
+   "t": "Mercor, which uses human experts to train AI, is now valued at $20 billion."
+  },
+  {
+   "s": 82.5,
+   "t": "Oura, the smart ring company, is buying an AI doctor startup for $625 million."
+  },
+  {
+   "s": 90.0,
+   "t": "A recent MIT grad used Anthropic's new model to crack an 18-year-old quantum computing puzzle."
+  },
+  {
+   "s": 97.5,
+   "t": "He told TechCrunch, \"this might be the last paper I ever put out.\""
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? After a rogue OpenAI agent's breach, Australia's creating an AI safety regulator."
+  },
+  {
+   "s": 111.56,
+   "t": "And Qantas is cutting 850 jobs in an AI overhaul."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Humanoids running Google's new robot AI pac ked car parts at Mercedes with 96% success."
+  },
+  {
+   "s": 129.38,
+   "t": "Amazon's Ring unveiled a drone that flies room to room inside your home, checking on things."
+  },
+  {
+   "s": 135.47,
+   "t": "In Antarctica, a humanoid robot entered an ultramarathon."
+  },
+  {
+   "s": 139.69,
+   "t": "Its battery died after 3 kilometers."
+  },
+  {
+   "s": 142.5,
+   "t": "Going public means letting everyone see you stumble."
+  },
+  {
+   "s": 145.45,
+   "t": "It's also how you earn their trust."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-11/Singularity-Daily_2026-11-11.mp4",
+  "mb": 73.6,
+  "bytes": 73615556,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

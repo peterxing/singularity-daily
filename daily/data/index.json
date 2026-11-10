@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-09T18:37:13+00:00",
- "latest": "2026-11-10",
+ "updated": "2026-11-10T22:41:34+00:00",
+ "latest": "2026-11-11",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -20,6 +20,34 @@
  },
  "data": "a3fbc3a0f366",
  "episodes": [
+  {
+   "date": "2026-11-11",
+   "ep": 38,
+   "hook": "GOING PUBLIC.",
+   "day": "Wednesday 11 November 2026",
+   "stories": 15,
+   "forecasts": 6,
+   "links": {
+    "supports": 0,
+    "early": 6,
+    "challenges": 0
+   },
+   "titles": [
+    "Anthropic sets an IPO price range that could value it at up to $1.4 trillion",
+    "Anthropic launches Claude office tools for spreadsheets, whiteboards and dashboards",
+    "Google makes Gemini 4 Carbon, its strongest model, widely available"
+   ],
+   "cover": "daily/media/2026-11-11/cover.webp",
+   "thumb": "daily/media/2026-11-11/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-11/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-11/Singularity-Daily_2026-11-11.mp4",
+    "mb": 73.6,
+    "bytes": 73615556,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-10",
    "ep": 37,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-04/cover.webp",
    "thumb": "daily/media/2026-11-04/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-04/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-04/Singularity-Daily_2026-11-04.mp4",
     "mb": 68.4,
