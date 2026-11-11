@@ -12,8 +12,8 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
 ## What's on the site
 
 - **Countdown to the singularity** — at the very top, a clock ticking down to the start (midnight, Sydney time) of the
-  best-guess month of the Guide's forecast that superintelligence emerges (today September 2028, window May 2028–January
-  2029, at the Guide's odds), with a link to that forecast and its test. It finds the forecast by its wording
+  best-guess month of the Guide's forecast that superintelligence emerges (today May 2028, window January–September
+  2028, at the Guide's odds), with a link to that forecast and its test. It finds the forecast by its wording
   ("superintelligence emerges" or "arrives") in `daily/data/predictions.json`, so it moves whenever Peter revises the
   forecast. During that month it says the month is here; once the month has passed it shows the forecast's verdict.
 - **Start here** — one line on what the site is, then three ways in side by side: watch today's episode, start the book,
