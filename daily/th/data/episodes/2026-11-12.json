@@ -1,0 +1,580 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-12",
+ "ep": 11,
+ "hook": "SEE IT COMING.",
+ "day": "Thursday 12 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · THURSDAY 12 NOVEMBER 2026",
+ "tldr": "See it coming: arm swing changed ~7 years before Parkinson's diagnoses, AlphaGenome 2 predicts what DNA changes do cell by cell, and brain scans flagged risks before diagnosis.",
+ "chapters": [
+  "SEE IT COMING.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:08 AEDT, Thu 12 Nov 2026.",
+ "notes": [
+  "Evidence: AlphaGenome 2, the Yang-Mills proof and the sleeper-agent research are company claims; elamipretide and the gut microbe are mouse studies; the avatar study had 30 patients; the gait, SuperAger and delirium findings are observational.",
+  "This week: Bloomington's council vote (4 Nov). The kids' brain-biotype paper appeared on 16 Oct; Stanford announced it on 11 Nov.",
+  "Screenshots are the publishers' public pages as captured on 12 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SEE IT COMING. 🔭\n\nThe last 24 hours in transhumanism:\n- Arm swing changed ~7 years before Parkinson's diagnoses (UNSW)\n- AlphaGenome 2 predicts what DNA changes do, cell by cell\n- 3 antidepressants kept people well more often than Prozac\n- CSIRO's AI confirmed a black hole photo",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (12 Nov 2026): arm swing and Parkinson's, AlphaGenome 2, OpenAI's checked Yang-Mills proof, CSIRO's black hole check, AI agents coding robots, kids' brain biotypes, SuperAger brain wiring, a peptide for ageing ovaries in mice, a gut microbe against Parkinson's in mice, delirium and dementia, long-term antidepressants, VR avatar therapy, sleeper-agent AI, a city's superintelligence ban, ancient water from beyond Neptune, the smallest gravity measurement and trunk-like robots, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "UNSW: PEOPLE DIAGNOSED WITHIN 40 MONTHS AVERAGED ABOUT 4,000 STEPS A DAY, VERSUS 6,400",
+  "ALPHAGENOME 2 IS OPEN TO NON-COMMERCIAL RESEARCH THROUGH DEEPMIND'S API",
+  "YANG-MILLS: THE HARDER 'MASS GAP' HALF OF THE PRIZE PROBLEM IS STILL UNSOLVED",
+  "CSIRO COMBINED TELESCOPE SIGNALS IN TRIPLETS TO CANCEL OUT ERRORS",
+  "M87'S BLACK HOLE: 6.5 BILLION SUNS, ABOUT 55 MILLION LIGHT-YEARS AWAY",
+  "BERKELEY'S VABAR BENCHMARK: SIX TASKS, FROM TOOL SORTING TO CABLE ROUTING",
+  "UNITED AIRLINES IS BARRING UNAUTHORISED AI AGENTS FROM BOOKING ITS FLIGHTS",
+  "GOOGLE DEEPMIND: HUMANOIDS RUNNING GEMINI ROBOTICS 2.5 HIT 96% SUCCESS KITTING PARTS AT MERCEDES-BENZ",
+  "SUPERAGERS ARE 75+ WITH MEMORY AS SHARP AS MIDDLE-AGED ADULTS",
+  "ACU: LIFETIME TRAUMA LINKED TO DEMENTIA AND MEMORY PROBLEMS IN 1,800+ OLDER AUSTRALIANS",
+  "ELAMIPRETIDE ALSO HELPED EGGS FROM WOMEN 35+ MATURE IN A DISH",
+  "PARABACTEROIDES GOLDSTEINII IS FOUND AT LOWER LEVELS IN PEOPLE WITH PARKINSON'S",
+  "DELIRIUM AFFECTS UP TO 30% OF OLDER HOSPITAL PATIENTS AND UP TO 80% IN INTENSIVE CARE",
+  "ESCITALOPRAM IS AUSTRALIA'S MOST COMMONLY PRESCRIBED ANTIDEPRESSANT",
+  "AVATAR THERAPY: THE VOICES DISAPPEARED FOR 2 OF 30 PATIENTS",
+  "MICROSOFT: CLAUDE CODE FOUND MOST OF THE SLEEPER-AGENT THREAT ON ITS OWN",
+  "BLOOMINGTON'S SUPERINTELLIGENCE BAN NOW GOES TO THE MAYOR",
+  "KUIPER BELT DUST CARRIED ABOUT 100 TIMES THE RADIATION TRACKS OF ASTEROID DUST",
+  "THE PREVIOUS LIGHTEST GRAVITY TEST (2021) USED 92 MG GOLD SPHERES",
+  "COLORADO STATE: TWO TRUNK ROBOTS HAVE FOUND EACH OTHER AND LINKED UP ON THEIR OWN"
+ ],
+ "sources": [
+  "ScienceAlert",
+  "Journal of Neural Transmission",
+  "UNSW Sydney",
+  "Google DeepMind",
+  "The Verge",
+  "Scientific American",
+  "The Conversation",
+  "CSIRO",
+  "Nature",
+  "The Robot Report",
+  "UC Berkeley",
+  "NVIDIA",
+  "Medical Xpress",
+  "Stanford Medicine",
+  "Nature Mental Health",
+  "PsyPost",
+  "Science Advances",
+  "Lifespan.io",
+  "Aging Cell",
+  "National Taiwan University",
+  "Journal of Advanced Research",
+  "JAMA Neurology",
+  "Mayo Clinic",
+  "The Lancet Psychiatry",
+  "Radboud University",
+  "Semmelweis University",
+  "Acta Psychologica",
+  "Microsoft",
+  "Indiana Public Media",
+  "FOX59",
+  "NASA",
+  "Nature Communications",
+  "Tech Xplore",
+  "Colorado State University",
+  "Nature Machine Intelligence",
+  "Unite.AI",
+  "Australian Catholic University"
+ ],
+ "scanned": 1702,
+ "stories": [
+  {
+   "id": "gait",
+   "title": "Arm swing changed nearly seven years before a Parkinson's diagnosis, a Sydney team found",
+   "summary": "UNSW Sydney researchers analysed UK Biobank wrist-sensor data from 73,413 people; the 314 later diagnosed with Parkinson's swung their arms less naturally, a difference visible nearly seven years earlier. Group averages from an observational study, not a personal test, but a clue for catching the disease sooner.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 73,413 people",
+   "chapter": "SEE IT COMING.",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/subtle-changes-in-how-you-walk-may-signal-parkinsons-nearly-7-years-early"
+    },
+    {
+     "outlet": "Journal of Neural Transmission",
+     "url": "https://doi.org/10.1007/s00702-026-03256-3"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alphagenome2",
+   "title": "Google DeepMind's AlphaGenome 2 predicts what a DNA change does in each type of cell",
+   "summary": "Trained on more than 100 million single-cell profiles across 68 tissues, AlphaGenome 2 finds nearly twice as many gene-changing variants as DeepMind's previous best model, the company says. A research tool, free for non-commercial use, that could help trace diseases to their roots.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SEE IT COMING.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Google DeepMind",
+     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-1",
+     "key": "53a8a671e5",
+     "relation": "early",
+     "note": "AlphaGenome 2 links DNA variants to effects in specific cell types, a research tool that could point to disease causes; no treatment yet."
+    }
+   ]
+  },
+  {
+   "id": "yangmills",
+   "title": "Experts appointed by OpenAI say its AI-made proof for part of a Millennium Prize Problem checks out",
+   "summary": "A committee led by physicist David Gross says OpenAI's AI-generated proof that quantum Yang-Mills theory exists is verified in Lean, though 'we do not claim to fully understand the proof yet'. The harder 'mass gap' half remains unsolved. A company claim, vetted by its own experts.",
+   "pillar": "intelligence",
+   "evidence": "Company claim; expert-checked in Lean",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/openais-shepherds-affirm-blockbuster-physics-result/"
+    },
+    {
+     "outlet": "Yang-Mills committee (GitHub)",
+     "url": "https://github.com/yang-mills-group/YM"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An AI-generated proof of the first part of the Yang-Mills Millennium Prize Problem was affirmed by an expert committee, a sign of AI speeding up hard science."
+    }
+   ]
+  },
+  {
+   "id": "csiro-bh",
+   "title": "CSIRO's AI, trained on cats, dogs and cars, independently confirmed the 2019 black hole image",
+   "summary": "Four CSIRO researchers combined telescope signals in triplets to cancel errors, then imaged the M87 black hole with a machine-learning method that had never seen one. The ring matched the Event Horizon Telescope's 2019 picture. Published in Nature, and a neat case of AI checking big science.",
+   "pillar": "intelligence",
+   "evidence": "Peer-reviewed (Nature)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "The Conversation",
+     "url": "https://theconversation.com/is-this-iconic-black-hole-image-accurate-new-study-delivers-an-independent-result-296146"
+    },
+    {
+     "outlet": "Nature",
+     "url": "https://doi.org/10.1038/s41586-026-11241-9"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "berkeley-agents",
+   "title": "UC Berkeley and NVIDIA released free tools that let teams of AI agents write and test robot programs",
+   "summary": "The open-source tools let AI coding agents write readable robot programs, rehearse them in simulation and fix them, with a six-task benchmark from tool sorting to cable routing. Research tools presented at CoRL 2026, mostly in simulation, toward robots that are quicker to set up.",
+   "pillar": "frontier",
+   "evidence": "Research tools and benchmark (CoRL 2026)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/"
+    },
+    {
+     "outlet": "UC Berkeley",
+     "url": "https://graph-robots.github.io/gap/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "biotypes",
+   "title": "AI found three brain types in kids with ADHD or anxiety, visible even before diagnosis",
+   "summary": "A Stanford-led AI analysis of brain scans from over 6,000 children found three biotypes across ADHD, anxiety or both, detectable in scans taken before some children were diagnosed. An observational study (paper 16 Oct, announced 11 Nov), not a diagnostic test yet, that could help match kids to care sooner.",
+   "pillar": "wellbeing",
+   "evidence": "Observational brain-scan study, 6,000+ children",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-brain-biotypes-kids-adhd-anxiety.html"
+    },
+    {
+     "outlet": "Nature Mental Health",
+     "url": "https://www.nature.com/articles/s44220-026-00740-3"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "superagers",
+   "title": "A brain-wiring pattern that sets SuperAgers apart flagged healthy older people who later declined faster",
+   "summary": "Stanford researchers built a brain-scan signature from 180 SuperAgers and 110 Alzheimer's patients (80% accurate, 71% in a second group). Healthy older adults whose brains looked more Alzheimer's-like later declined faster. An observational research signature, not a clinical test, for spotting risk earlier.",
+   "pillar": "longevity",
+   "evidence": "Observational study (Science Advances)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/brain-wiring-patterns-of-superagers-may-help-flag-alzheimers-risk-years-before-symptoms/"
+    },
+    {
+     "outlet": "Science Advances",
+     "url": "https://doi.org/10.1126/sciadv.aed9351"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "elamipretide",
+   "title": "In old mice, a week of the peptide elamipretide rejuvenated the ovaries and boosted litter sizes",
+   "summary": "A 7-day course of elamipretide, a tiny peptide that targets mitochondria, improved aged mouse eggs and litter sizes for a month, and in a dish it helped eggs from women 35+ mature. A mouse study published in Aging Cell, not yet tested as a fertility treatment in women.",
+   "pillar": "longevity",
+   "evidence": "Mouse study (plus human eggs in a dish)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Lifespan.io",
+     "url": "https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/"
+    },
+    {
+     "outlet": "Aging Cell",
+     "url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.70749"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gut-microbe",
+   "title": "One dose of a friendly gut microbe protected mice with a Parkinson's gene from brain damage",
+   "summary": "National Taiwan University researchers gave mice carrying a Parkinson's risk gene one dose of Parabacteroides goldsteinii before symptoms; five months later they moved far better, with fewer alpha-synuclein clumps and more dopamine neurons kept. A mouse study; trials in people would be needed.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-gut-microbe-shields-mice-parkinson.html"
+    },
+    {
+     "outlet": "Journal of Advanced Research",
+     "url": "https://dx.doi.org/10.1016/j.jare.2025.12.028"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "delirium",
+   "title": "Older patients who got delirium in hospital had about five times the dementia risk",
+   "summary": "In 3,501 older adults followed for a median 7.2 years, delirium during a hospital stay was linked to 5.39 times the risk of dementia and 3.67 times the risk of mild cognitive impairment (JAMA Neurology). An association, not proof of cause; the researchers say delirium should be treated as an emergency.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 3,501 older adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-sudden-hospital-higher-dementia-life.html"
+    },
+    {
+     "outlet": "JAMA Neurology",
+     "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/2856176"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "antidepressants",
+   "title": "Across 115 trials, three antidepressants kept people well more often than fluoxetine",
+   "summary": "A Lancet Psychiatry review of 115 trials with 30,000+ people found escitalopram, duloxetine and agomelatine were more likely than fluoxetine (Prozac) to sustain a response over six months or more. Far from definitive: over half the main trials had a high risk of bias, and results are averages.",
+   "pillar": "wellbeing",
+   "evidence": "Review of 115 trials, 30,000+ people",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "The Conversation",
+     "url": "https://theconversation.com/some-antidepressants-may-work-better-than-others-long-term-new-study-296151"
+    },
+    {
+     "outlet": "The Lancet Psychiatry",
+     "url": "https://dx.doi.org/10.1016/S2215-0366(26)00326-3"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "avatar",
+   "title": "In VR, facing an avatar of the voices they hear helped 13 of 30 people with schizophrenia",
+   "summary": "Semmelweis University added seven VR avatar-therapy sessions to usual medication for 30 people whose voices persisted; 13 improved meaningfully, and for 2 the voices disappeared. A small study without a separate control group, and an add-on to medication, not a replacement, but hopeful for feeling better.",
+   "pillar": "wellbeing",
+   "evidence": "Small study, 30 patients",
+   "chapter": "SUPER WELLBEING",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-voice-virtual-avatars-ease-distress.html"
+    },
+    {
+     "outlet": "Acta Psychologica",
+     "url": "https://dx.doi.org/10.1016/j.actpsy.2026.107489"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sleeper",
+   "title": "Microsoft found editing fewer than 10 neurons can turn an AI agent into a hidden sleeper agent",
+   "summary": "Microsoft Research showed a backdoored agent model can pass every evaluation, then run an attacker's command on a trigger; Claude Code found most of the threat, and frontier AI auditors can spot the edits. Company research, with no attacks seen in the wild yet.",
+   "pillar": "intelligence",
+   "evidence": "Company research (Microsoft)",
+   "chapter": "THE CATCH",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Microsoft Security blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/"
+    },
+    {
+     "outlet": "Microsoft Research",
+     "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bloomington",
+   "title": "A city council in Indiana voted to ban superintelligence, though it doesn't exist yet",
+   "summary": "Bloomington's council unanimously voted on 4 Nov to ban the distribution and deployment of artificial superintelligence in the city. Its author says it isn't enforceable and hopes hundreds of cities follow; it goes to the mayor and hasn't taken effect.",
+   "pillar": "intelligence",
+   "evidence": "City council vote (not yet in effect)",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Indiana Public Media",
+     "url": "https://www.ipm.org/news/2026-11-11/mocked-city-council-superintelligence-ban-aims-to-spur-action-elsewhere"
+    },
+    {
+     "outlet": "FOX59",
+     "url": "https://fox59.com/news/bloomington-common-council-approves-ordinance-that-bans-use-of-artificial-superintelligence/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "kuiper-water",
+   "title": "Dust from beyond Neptune held traces of ancient water from the Solar System's birth",
+   "summary": "A NASA-led team found 12 dust grains, collected high in the stratosphere, whose radiation tracks point to the Kuiper Belt, and whose clays hint at a pristine heavy-water reservoir beyond the giant planets. Published in Science Advances.",
+   "pillar": "frontier",
+   "evidence": "Peer-reviewed (Science Advances), 12 grains",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/breaking-scientists-find-evidence-of-primordial-water-hidden-at-the-edge-of-the-solar-system"
+    },
+    {
+     "outlet": "Science Advances",
+     "url": "https://doi.org/10.1126/sciadv.aeg1602"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tiny-gravity",
+   "title": "Physicists measured gravity between two silicon wafers of just 7.6 milligrams each, the smallest yet",
+   "summary": "A Sun Yat-sen University team measured the gravitational pull between two 7.6 mg silicon wafers, beating the 92 mg record from 2021, in Nature Communications. A step toward probing gravity where quantum effects matter, not a test of quantum gravity yet.",
+   "pillar": "frontier",
+   "evidence": "Peer-reviewed (Nature Communications)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/scientists-measure-gravitational-pull-between-the-smallest-objects-yet-in-quest-for-quantum-gravity"
+    },
+    {
+     "outlet": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-026-78187-4"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "trunk-robots",
+   "title": "Colorado engineers built trunk-like robots that bend, grab and clip together into teams",
+   "summary": "Colorado State University's tensegrity robots, stiff rods held by tensioned cables, bend like an elephant's trunk and use claws at both ends to grip objects or link into chains and loops. Lab prototypes in Nature Machine Intelligence, human-piloted for now.",
+   "pillar": "frontier",
+   "evidence": "Lab prototypes (Nature Machine Intelligence)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-elephant-trunks-shifting-robots-team.html"
+    },
+    {
+     "outlet": "Nature Machine Intelligence",
+     "url": "https://www.nature.com/articles/s42256-026-01335-4"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Thursday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in transhumanism, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "See it coming. In a Sydney study, arm swing changed nearly 7 years before a Parkinson's diagnosis."
+  },
+  {
+   "s": 22.03,
+   "t": "And DeepMind's AlphaGenome 2 predicts wha t a DNA change does in each type of cell."
+  },
+  {
+   "s": 31.88,
+   "t": "Experts appointed by OpenAI say its AI's proof for part of a million-dollar physics problem checks out."
+  },
+  {
+   "s": 38.91,
+   "t": "Closer to home, CSIRO's AI, trained on cats, dogs and cars, confirmed the famous black hole photo."
+  },
+  {
+   "s": 45.94,
+   "t": "Meanwhile, Berkeley and NVIDIA released free tools that let teams of AI agents write and test robot programs."
+  },
+  {
+   "s": 53.44,
+   "t": "And AI found three brain types in kids with ADHD or anxiety, even before diagnosis."
+  },
+  {
+   "s": 60.0,
+   "t": "In longevity, a brain-wiring pattern that sets SuperAgers apart flagged healthy older people who later declined faster."
+  },
+  {
+   "s": 67.5,
+   "t": "In old mice, a week of a tiny peptide rejuvenated the ovaries and boosted litter sizes."
+  },
+  {
+   "s": 75.0,
+   "t": "And a single dose of a friendly gut microbe protec ted mice with a Parkinson's gene from brain damage."
+  },
+  {
+   "s": 82.5,
+   "t": "Meanwhile, older patients who got delirium, a sudden confusion, in hospital had about five times the dementia risk."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. Across 115 trials, three antidepressants kept people well more often than Prozac."
+  },
+  {
+   "s": 97.5,
+   "t": "And in VR, facing an avatar of the voices they hear helped 13 of 30 people with schizophrenia."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 106.0,
+   "t": "Microsoft found editing under 10 neurons can turn an AI agent into a hidden sleeper agent."
+  },
+  {
+   "s": 112.5,
+   "t": "And a city council in Indiana voted to ban superintelligence, though it doesn't exist yet."
+  },
+  {
+   "s": 121.88,
+   "t": "Out in space, dust from beyond Neptune held traces of ancient water from the Solar System's birth."
+  },
+  {
+   "s": 128.91,
+   "t": "And physicists measured gravity between two silicon wafers of just 7.6 milligrams each, the smallest yet."
+  },
+  {
+   "s": 136.41,
+   "t": "Oh, and Colorado engineers built trunk-like robots that bend, grab and clip together into teams."
+  },
+  {
+   "s": 142.97,
+   "t": "From a walk to a brain scan, we're learning to see trouble coming, and that buys us time."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Live long. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-12/The-Transhuman-Daily_2026-11-12.mp4",
+  "mb": 55.2,
+  "bytes": 55171307,
+  "seconds": 180.01
+ },
+ "links": {}
+}
