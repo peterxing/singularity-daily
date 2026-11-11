@@ -1,0 +1,389 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-12",
+ "ep": 17,
+ "hook": "MAKE IT YOURS.",
+ "day": "Thursday 12 November 2026",
+ "note": "FOR EDUCATION · THURSDAY 12 NOVEMBER 2026",
+ "tldr": "Microsoft Classroom opens preview sign-ups for early 2027, Visual Studio lets coders bring their own AI model, and November's updates patch an exploited Outlook flaw.",
+ "chapters": [
+  "MAKE IT YOURS",
+  "THE CLASSROOM",
+  "CAMPUS BUILDERS",
+  "THE LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Thu 12 Nov 2026 (Tuesday 10 to Wednesday 11 Nov in the US).",
+ "notes": [
+  "Microsoft Classroom is coming, not shipped: its preview is planned for early 2027 and admins can register now; included with Microsoft 365 A2, A3, A5 and A7 as Microsoft states. Teams' recording controls are a roadmap item due December 2026; Bing's extension is in preview.",
+  "Patch Tuesday totals differ by outlet (1,093 to 1,259), so we say more than 1,000. Auto SR's 120 FPS Performance Mode is rolling out; Luma Island reaches Xbox on 2 December; the Halo Pelican is free until 17 November.",
+  "Screenshots are the publishers' public pages as captured on 12 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "MAKE IT YOURS. 🎨\n\nThe last 24h at Microsoft for education:\n- Microsoft Classroom: preview sign-ups open (preview early 2027)\n- Visual Studio: bring your own AI model\n- Bing: add -ai for results without AI answers\n- Patch Outlook: November fixes an exploited flaw",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (12 Nov 2026): Microsoft Classroom and its preview planned for early 2027, Bing's -ai operator and AI Search Choice extension, Bring Your Own Model in Visual Studio, issue types for personal GitHub accounts, Teams recording and transcription policies, Microsoft Research's Lazarus backdoor study, November's security updates and the Outlook zero-day, the end of updates for Windows 11 23H2 Education, the Halo Pelican in Flight Simulator, Auto SR on the ROG Xbox Ally X and Luma Island's Cozy Mode, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "MICROSOFT CLASSROOM: ADMINS CAN REGISTER AT AKA.MS/CLASSROOMPREVIEW; THE PREVIEW IS PLANNED FOR EARLY 2027",
+  "CLASSROOM BRINGS ASSIGNMENTS, CLASSWORK, GRADES, ONENOTE CLASS NOTEBOOK, LEARNING ACCELERATORS, INSIGHTS, REFLECT AND TEACH TOGETHER",
+  "MICROSOFT CLASSROOM DOES NOT REPLACE TEAMS FOR EDUCATION OR MICROSOFT 365 LTI",
+  "CLASSROOM WILL RUN ON THE WEB, WITH MOBILE AND DESKTOP APPS, AND SET UP CLASSES AND ROSTERS THROUGH SCHOOL DATA SYNC",
+  "EDUCATORS CAN SHARE EARLY CLASSROOM FEEDBACK THROUGH THE EDU INSIDERS PROGRAM",
+  "BING AI SEARCH CHOICE EXTENSION (PREVIEW) FOR EDGE AND CHROME ALSO SETS BING AS YOUR DEFAULT SEARCH ENGINE",
+  "VISUAL STUDIO 18.12: KEEP SEVERAL NAMED CONNECTIONS TO ONE MODEL PROVIDER, LIKE 'WORK' AND 'PERSONAL'",
+  "VISUAL STUDIO: ADMINS CAN TURN BRING YOUR OWN MODEL ON OR OFF BY ORGANIZATIONAL POLICY",
+  "GITHUB: CREATE LABELS AND MILESTONES RIGHT FROM AN ISSUE",
+  "VS CODE 1.146: THE LOCAL AGENT HARNESS IS DEPRECATED AND WILL BE REMOVED IN FEBRUARY 2027",
+  "EDGE FOR BUSINESS: MORE DATA LOSS PREVENTION CONTROLS FOR DOWNLOADS, UPLOADS, PASTE AND PRINT, DUE DECEMBER",
+  "NEW OUTLOOK: SORT SUBFOLDERS A TO Z AND KEEP FOLDERS EXPANDED AFTER A RESTART, DUE FEBRUARY 2027",
+  "MICROSOFT FOUNDRY TIES OPEN-WEIGHT MODELS TO THEIR ORIGINAL PUBLISHERS",
+  "MICROSOFT HAS NOT SEEN ATTACKERS USE THE LAZARUS NEURON TECHNIQUE",
+  "NOVEMBER UPDATES ALSO FIX TWO CRITICAL ZERO-CLICK FLAWS: WINDOWS SEARCH VIA EXCHANGE, AND WINDOWS LDAP",
+  "WINDOWS 11 23H2'S FINAL UPDATE ALSO OFFERS NTLM MESSAGE SIGNING BY DEFAULT",
+  "FROM 1 JANUARY 2027, MICROSOFT'S COMMERCIAL CLOUD PRICES IN AUSTRALIAN DOLLARS FALL 4%; IN NEW ZEALAND DOLLARS THEY RISE 10%",
+  "AZURE FUNCTIONS SUPPORT FOR .NET 11 IS GENERALLY AVAILABLE",
+  "AUTO SR NOW WORKS WITH GAMES AT 1080P; ITS 120 FPS PERFORMANCE MODE AND AUTO HDR SUPPORT ARE ROLLING OUT",
+  "HALO PELICAN IN FLIGHT SIMULATOR 2024: 12 LIVERIES AND A FULL CARGO BAY; US$9.99 FROM 18 NOVEMBER",
+  "LUMA ISLAND ON XBOX: NO STAMINA BARS, NO INVENTORY LIMITS, CROSS-PLATFORM PLAY FROM 2 DECEMBER",
+  "FOOTBALL MANAGER 27 IS OUT NOW WITH GAME PASS"
+ ],
+ "sources": [
+  "Microsoft Education Blog",
+  "Bing Blog",
+  "Visual Studio Blog",
+  "GitHub Changelog",
+  "Microsoft 365 Roadmap",
+  "Microsoft Research Blog",
+  "Microsoft Security Blog",
+  "The Register",
+  "Microsoft Support",
+  "Xbox Wire",
+  "flightsimulator.com",
+  "DirectX Developer Blog",
+  "Microsoft Source",
+  "VS Code",
+  "Azure Updates"
+ ],
+ "scanned": 1471,
+ "stories": [
+  {
+   "id": "microsoft-classroom-preview",
+   "title": "Microsoft Classroom: a new home for teaching and learning, with a preview planned for early 2027",
+   "summary": "A standalone Microsoft 365 space for primary, secondary and higher ed that brings Assignments, Grades, Class Notebook, Insights and Teach together, with a Home for every student and teacher. It'll be included with A2, A3, A5 and A7 at no extra cost, doesn't replace Teams, and admins can register at aka.ms/classroompreview.",
+   "for": "Teachers, students and school IT admins",
+   "status": "Preview planned for early 2027",
+   "edu": true,
+   "chapter": "MAKE IT YOURS",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://techcommunity.microsoft.com/blog/educationblog/introducing-microsoft-classroom-a-new-experience-built-for-teaching-and-learning/4571185"
+    }
+   ]
+  },
+  {
+   "id": "bing-ai-answers-choice",
+   "title": "Bing lets you turn AI answers off: add -ai to any search",
+   "summary": "Add -ai to any Bing search to get results without AI-generated answers, or install the Microsoft Bing AI Search Choice extension (preview) for Edge or Chrome to switch them on or off for every search. Handy, for example, when students practise comparing sources.",
+   "for": "Students and teachers",
+   "status": "Available; extension in preview",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Bing Blog",
+     "url": "https://blogs.bing.com/search/2026/11/your-choice-turn-ai-answers-on-or-off-in-bing/"
+    }
+   ]
+  },
+  {
+   "id": "visual-studio-byom",
+   "title": "Bring Your Own Model is generally available in Visual Studio 18.12",
+   "summary": "Use your own AI models in Visual Studio's Agent Mode, from Microsoft Foundry, OpenAI, Anthropic, Ollama or any OpenAI-compatible endpoint, including local models served by LM Studio. No GitHub sign-in is required, local models work in air-gapped labs, and admins can turn it off by policy.",
+   "for": "Coding classes and computer science teachers",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Visual Studio Blog",
+     "url": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/"
+    }
+   ]
+  },
+  {
+   "id": "github-issue-types-personal-accounts",
+   "title": "GitHub issue types and fields come to personal-account repositories",
+   "summary": "Repos owned by personal accounts can now use issue types (Bug, Task and Feature by default, up to 25) and issue fields such as Priority, Effort, Start date and Target date, in issues and projects. You can also create labels and milestones right from an issue.",
+   "for": "Students running their own projects",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts/"
+    }
+   ]
+  },
+  {
+   "id": "teams-recording-transcription-policy",
+   "title": "Teams will let admins set who can record and transcribe meetings",
+   "summary": "A meeting policy will let Teams admins limit recording and transcription to organizers and co-organizers or extend it to presenters, and decide whether organizers can change that. It's a Microsoft 365 roadmap item in development, due December 2026.",
+   "for": "School IT and Teams admins",
+   "status": "Due December 2026",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579860"
+    }
+   ]
+  },
+  {
+   "id": "lazarus-ai-backdoor-research",
+   "title": "Microsoft researchers show editing under 10 neurons can backdoor an AI agent",
+   "summary": "Reprogramming fewer than 10 dormant neurons, with no retraining, can hide a trigger that makes an AI agent run an attacker's command while it passes standard tests. Frontier AI agents can spot such edits, so get models from their original publisher and verify them; Microsoft hasn't seen attackers use the technique.",
+   "for": "University AI labs and computer science students",
+   "status": "Research",
+   "edu": false,
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Microsoft Research Blog",
+     "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+    },
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/"
+    }
+   ]
+  },
+  {
+   "id": "november-2026-security-updates",
+   "title": "November's security updates fix an Outlook flaw attackers already use",
+   "summary": "Microsoft's November updates fix more than 1,000 vulnerabilities, including CVE-2026-124194, an exploited Outlook flaw where opening a crafted message file can leak the user's NTLMv2 hash, and two critical zero-click flaws, in Windows Search via Exchange and in Windows LDAP.",
+   "for": "School IT",
+   "status": "Security updates available",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-but-only-one-zero-day-so-far/5308946"
+    },
+    {
+     "outlet": "Microsoft Security Update Guide",
+     "url": "https://msrc.microsoft.com/update-guide/releaseNote/2026-Nov"
+    }
+   ]
+  },
+  {
+   "id": "windows-11-23h2-final-update",
+   "title": "Windows 11 version 23H2 Education and Enterprise get their last update",
+   "summary": "The November 2026 security update (KB5131087) is the last for Windows 11, version 23H2 Enterprise and Education, so those PCs no longer get monthly security fixes. Microsoft recommends moving eligible devices to a supported version of Windows 11.",
+   "for": "School IT",
+   "status": "Updates ended 10 November 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5131087-windows-11-23h2-security-update"
+    }
+   ]
+  },
+  {
+   "id": "halo-pelican-flight-simulator",
+   "title": "Fly Halo's Pelican free in Microsoft Flight Simulator 2024 until 17 November",
+   "summary": "For Halo's 25th anniversary, Microsoft Flight Simulator 2024 adds the D77-TC Pelican, with a flight model that switches between drone and jet propulsion, a full cargo bay and 12 liveries. It's free on all platforms until 17 November, then US$9.99.",
+   "for": "Students, after hours",
+   "status": "Free until 17 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/10/microsoft-flight-simulator-2024-celebrates-halos-25th-anniversary-with-the-release-of-the-halo-pelican/"
+    },
+    {
+     "outlet": "Microsoft Flight Simulator",
+     "url": "https://www.flightsimulator.com/microsoft-flight-simulator-2024-celebrates-halos-25th-anniversary-with-the-release-of-the-halo-pelican/"
+    }
+   ]
+  },
+  {
+   "id": "auto-sr-out-of-preview",
+   "title": "Auto SR is out of preview on the ROG Xbox Ally X, and works handheld",
+   "summary": "Microsoft's AI upscaling, Auto SR, is out of preview on the ROG Xbox Ally X and X20 and now on select Copilot+ PCs powered by AMD Ryzen, working undocked on battery and with 1080p games. A Performance Mode of up to 120 FPS and Auto HDR support are rolling out with Windows updates.",
+   "for": "Students, after hours",
+   "status": "Available; Performance Mode rolling out",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "DirectX Developer Blog",
+     "url": "https://devblogs.microsoft.com/directx/autosr-performance-mode/"
+    }
+   ]
+  },
+  {
+   "id": "luma-island-xbox",
+   "title": "Luma Island comes to Xbox Series X|S on 2 December with a Cozy Mode",
+   "summary": "Feel Free Games' island adventure of farming, exploring and temple puzzles arrives on Xbox with cross-platform play, no stamina bars or inventory limits, and a Cozy Mode where combat only happens if you choose it.",
+   "for": "Students and families, after hours",
+   "status": "Out 2 December",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/11/how-luma-island-was-built-for-everyone-on-xbox-series-xs/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Thursday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours at Microsoft, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Make it yours. Microsoft Classroom puts assignments, grades and more in one place, from primary to university."
+  },
+  {
+   "s": 22.5,
+   "t": "Admins can sign up today; the preview is planned for early 2027."
+  },
+  {
+   "s": 31.88,
+   "t": "Students will get one home for what's due, what's overdue and new feedback, across every class."
+  },
+  {
+   "s": 39.38,
+   "t": "Teachers will see what needs grading, and Teach, Microsoft's AI planning space, will be built right in."
+  },
+  {
+   "s": 46.88,
+   "t": "It'll be included with A2, A3, A5 and A7 at no extra cost, and Teams stays."
+  },
+  {
+   "s": 53.91,
+   "t": "Teaching research? Add -ai to any Bing search to skip the AI answers."
+  },
+  {
+   "s": 60.0,
+   "t": "Coding class in Visual Studio?"
+  },
+  {
+   "s": 61.89,
+   "t": "You can now bring your own AI model, even one running locally."
+  },
+  {
+   "s": 67.5,
+   "t": "Hook up Foundry, OpenAI, Anthropic, Ollama or LM Studio, with no GitHub sign-in needed."
+  },
+  {
+   "s": 75.0,
+   "t": "Student projects on GitHub?"
+  },
+  {
+   "s": 76.79,
+   "t": "Personal accounts now get issue types and fields, like bug, task and priority."
+  },
+  {
+   "s": 82.5,
+   "t": "Teams is due to let school IT choose who can record and transcribe meetings, from December."
+  },
+  {
+   "s": 90.0,
+   "t": "In the lab, Microsoft researchers edited under 10 neurons to hide a trigger inside an AI model."
+  },
+  {
+   "s": 97.5,
+   "t": "The good news? It can be caught, so get models from their original publisher, and check them."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? November's updates fix over 1,000 flaws, including an Outlook bug attackers already use."
+  },
+  {
+   "s": 112.5,
+   "t": "And Windows 11 23H2 Education just got its final update, so plan the upgrade."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, for Halo's 25th, Flight Simulator lets you fly its Pelican free until November 17."
+  },
+  {
+   "s": 129.38,
+   "t": "On the ROG Xbox Ally X, Microsoft's AI upscaling now works handheld, even on battery."
+  },
+  {
+   "s": 136.88,
+   "t": "And Luma Island hits Xbox December 2, with a peaceful Cozy Mode."
+  },
+  {
+   "s": 142.5,
+   "t": "Your class, your model, your search, your game: make it yours."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "Today's board: shipped. Tomorrow's: already building."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of updates. Imagine a whole year."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-12/Microsoft-for-Education-Daily_2026-11-12.mp4",
+  "mb": 53.7,
+  "bytes": 53650980,
+  "seconds": 180.01
+ },
+ "links": {}
+}
