@@ -1,0 +1,484 @@
+{
+ "date": "2026-11-12",
+ "ep": 39,
+ "hook": "PROVE IT.",
+ "day": "Thursday 12 November 2026",
+ "chapters": [
+  "PROVE IT",
+  "IN COMMAND",
+  "THE MONEY",
+  "THE SCIENCE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:28 AEDT, Thu 12 Nov 2026.",
+ "notes": [
+  "This week: OpenAI published its Control Room post on Monday 9 Nov.",
+  "Reported, not confirmed: Anthropic's possible $1.5 trillion valuation and oversubscribed book (FT, Bloomberg sources); OpenAI's third-quarter figures (WSJ); Google's Hydrogen model (Business Insider); SpaceX's Kessel rack (SemiAnalysis, via Tom's Hardware).",
+  "The Yang-Mills committee was appointed by OpenAI; it affirmed the Lean verification of the 'existence' half, and the mass gap remains open. AlphaGenome 2's comparisons are DeepMind's own. The spy suspicion around Jensen Huang is an allegation; China calls it groundless.",
+  "Screenshots are the publishers' public article pages as captured on 12 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "PROVE IT. 🧪\n\nThe last 24h in superintelligence:\n- A Nobel winner's team verifies OpenAI's AI proof\n- The US and China will talk superintelligence\n- Anthropic's bankers reportedly eye $1.5T\n- 2,000 delivery robots open to AI agents\n\nWhat should AI prove next?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (12 Nov 2026), hosted by Claudia: a Nobel laureate's committee affirming OpenAI's AI-made Yang-Mills proof, a new US-China dialogue on superintelligence, OpenAI's 35-second kill switch, Google's Hydrogen model, Anthropic's possible $1.5 trillion valuation, OpenAI's $10 billion quarter, CoreWeave's rally, Fractile's $7 billion valuation, DeepMind's AlphaGenome 2, a senator's call for Nvidia's CEO to quit, AI and university assessments, Serve's 2,000 delivery robots opening to AI agents and SpaceX's reported AI racks for orbit, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "SCIENTIFIC AMERICAN: THE YANG-MILLS 'MASS GAP' REMAINS UNSOLVED",
+  "SCIENTIFIC AMERICAN: THE COMMITTEE USED OPENAI'S ASTRA MODEL TO HELP DIGEST THE LEAN CODE",
+  "REUTERS: THE TRUMP-XI MEETING IS ON THE SIDELINES OF APEC IN SHENZHEN, 18-19 NOV",
+  "REUTERS: THE US AND CHINA AGREED A DIRECT CHANNEL TO FLAG SERIOUS AI INCIDENTS",
+  "REUTERS: BESSENT SAYS THE US AIM IS TO 'DE-RISK, NOT TO DECOUPLE'",
+  "OPENAI: IF CONTROL ROOM GOES DOWN, ALL MODEL REQUESTS ARE DENIED",
+  "OPENAI ON ITS 35 SECONDS: 'WE ARE WORKING TO DRIVE THIS NUMBER DOWN TO ZERO'",
+  "BUSINESS INSIDER: GOOGLE DECLINED TO COMMENT ON HYDROGEN",
+  "BLOOMBERG: ANTHROPIC'S IPO IS SAID TO BE MULTIPLE TIMES OVERSUBSCRIBED",
+  "CNBC: ANTHROPIC OPENED ITS AUSTRALIAN RETAIL OFFER ON WEDNESDAY",
+  "WSJ: OPENAI'S THIRD-QUARTER REVENUE ROSE NEARLY 50%",
+  "REUTERS: COREWEAVE'S RESULTS EASED AI BUBBLE FEARS AND LIFTED NVIDIA",
+  "UK AI MINISTER KANISHKA NARAYAN ON FRACTILE: 'WE ARE DETERMINED TO CHANGE THAT'",
+  "THE VERGE: ALPHAGENOME 2 IS FREE FOR NON-COMMERCIAL RESEARCH VIA ITS API",
+  "NVIDIA: ITS INDEPENDENT DIRECTORS HIRED FORMER ACTING US ATTORNEY JOON KIM",
+  "REUTERS: CHINA'S FOREIGN MINISTRY CALLS THE SPYING ACCUSATIONS 'GROUNDLESS'",
+  "BBC: THE OFFICE FOR STUDENTS SAYS AI USE OFTEN 'CANNOT BE RELIABLY DETECTED'",
+  "THE VERGE: SERVE'S ROBOTS WORK IN 150 NEIGHBORHOODS AND TOP OUT AROUND 6 MPH",
+  "THE VERGE: SERVE'S STAFF STILL APPROVE ACCESS BY HAND",
+  "TOM'S HARDWARE: SPACEX'S KESSEL RACK REPORTEDLY USES AN 84-LAYER CIRCUIT BOARD",
+  "DECRYPT: ELON MUSK CALLED ANTHROPIC'S CLAUDE OPUS 5.5 A 'MASTERPIECE'",
+  "OPENAI: MORE THAN 20,000 VETERANS HAVE CLAIMED A FREE YEAR OF CHATGPT PLUS"
+ ],
+ "sources": [
+  "Scientific American",
+  "Reuters",
+  "Business Standard",
+  "OpenAI",
+  "The Indian Express",
+  "The Register",
+  "Business Insider",
+  "Financial Times",
+  "Bloomberg",
+  "The Wall Street Journal",
+  "Forbes",
+  "Google DeepMind",
+  "The Verge",
+  "Politico",
+  "BBC",
+  "Daily Mail",
+  "Tom's Hardware",
+  "SemiAnalysis",
+  "Nvidia",
+  "CNBC",
+  "Decrypt"
+ ],
+ "scanned": 4403,
+ "stories": [
+  {
+   "id": "yang-mills-proof",
+   "title": "A Nobel laureate's committee affirms OpenAI's AI-made proof of half a Millennium Prize Problem",
+   "summary": "Experts appointed by OpenAI and led by physicist David Gross say they have verified its AI-generated proof of the existence of quantum Yang-Mills theory, checked in Lean. The 'mass gap' half remains unsolved, and they wrote: 'We do not claim to fully understand the proof yet.'",
+   "chapter": "PROVE IT",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/openais-shepherds-affirm-blockbuster-physics-result/"
+    },
+    {
+     "outlet": "KITP, UC Santa Barbara",
+     "url": "https://www.kitp.ucsb.edu/sites/default/files/3rd-Statement-About-Quantum-YangMills-Theory_Nov-9.pdf"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An AI-generated proof of the first part of the Yang-Mills Millennium Prize Problem was affirmed by an expert committee, a sign of AI speeding up hard science."
+    }
+   ]
+  },
+  {
+   "id": "us-china-si-dialogue",
+   "title": "Bessent: the Trump-Xi meeting will advance a new US-China dialogue on superintelligence",
+   "summary": "US Treasury Secretary Scott Bessent said the Shenzhen meeting on the sidelines of the 18-19 Nov APEC summit will advance a bilateral dialogue on superintelligence, including best practices for testing advanced models before release and 'keeping human judgment firmly in command of this technology', according to Reuters.",
+   "chapter": "IN COMMAND",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Reuters (via Business Standard)",
+     "url": "https://www.business-standard.com/world-news/us-china-must-stay-clear-eyed-on-ai-cooperation-rivalry-bessent-126111101600_1.html"
+    },
+    {
+     "outlet": "Telegraph India"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-6",
+     "key": "3f3dfc17f1",
+     "relation": "early",
+     "note": "The US says next week's Trump-Xi meeting will advance a US-China dialogue on superintelligence risk, a step short of negotiations on slowing or auditing it."
+    }
+   ]
+  },
+  {
+   "id": "openai-control-room",
+   "title": "OpenAI's Control Room can stop a research-model job within 35 seconds",
+   "summary": "OpenAI described Control Room, a central system that tracks model workloads across its research infrastructure; it says the most time it takes to stop a job is 35 seconds, and if Control Room itself goes down, all inference requests are denied.",
+   "chapter": "IN COMMAND",
+   "badge": "THIS WEEK",
+   "date": "2026-11-09",
+   "sources": [
+    {
+     "outlet": "The Indian Express",
+     "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-kill-switch-control-room-how-it-works-10957767/"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/control-room"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "OpenAI built a fail-closed system to stop research-model jobs after earlier rogue-agent incidents; a voluntary, single-company control, not a mandate."
+    }
+   ]
+  },
+  {
+   "id": "gemini-hydrogen",
+   "title": "Google staff are reportedly testing a fast new Gemini model code-named Hydrogen",
+   "summary": "According to Business Insider, Google gave staff access to a model known internally as Hydrogen, which an engineer described as 'very capable, fast and efficient'. Google declined to comment.",
+   "chapter": "IN COMMAND",
+   "badge": "REPORTED",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/google-hydrogen-test-new-gemini-4-flash-model-ai-2026-11"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-ipo-1-5t",
+   "title": "Anthropic's bankers reportedly weigh a $1.5 trillion-plus IPO valuation",
+   "summary": "The Financial Times reported that Anthropic's bankers are preparing to raise its IPO valuation to $1.5 trillion or more, above the $70 to $78 a share range filed on Tuesday, and Bloomberg reported the IPO is said to be multiple times oversubscribed.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Business Standard",
+     "url": "https://www.business-standard.com/world-news/anthropic-bankers-weigh-raising-ipo-valuation-to-1-5-trillion-or-more-126111100341_1.html"
+    },
+    {
+     "outlet": "Financial Times"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "early",
+     "note": "Bankers are reportedly weighing a $1.5 trillion-plus valuation for Anthropic's IPO; reported, and the shares have not been priced yet."
+    }
+   ]
+  },
+  {
+   "id": "openai-q3-revenue",
+   "title": "OpenAI reportedly made $10 billion in a quarter and lost $10.9 billion",
+   "summary": "The Wall Street Journal reported that OpenAI's third-quarter revenue rose nearly 50% to about $10 billion, while its adjusted operating loss reached $10.9 billion.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Forbes",
+     "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/11/openai-revenue-hits-10-billion-as-losses-reach-109-billion/"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "coreweave-rally",
+   "title": "CoreWeave jumps more than 20% after its results, sparking an AI cloud rally",
+   "summary": "CoreWeave shares jumped more than 20% on Wednesday, igniting a rally in battered AI cloud stocks, as its heavy spending yielded strong revenue growth, Reuters reported.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Investing.com (via Yahoo Finance)",
+     "url": "https://au.finance.yahoo.com/news/premarket-movers-coreweave-nvidia-rally-131012803.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "fractile-7b",
+   "title": "British AI chip startup Fractile is valued at $7 billion, with UK government backing",
+   "summary": "Fractile, based in London and Bristol, was valued at $7 billion in its latest funding round, which included backing from the British government, according to Reuters; it says its chips run AI models faster and on less energy.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Financial Times",
+     "url": "https://www.ft.com/content/f999a0c2-af52-499f-8008-accbdfd45a25"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alphagenome-2",
+   "title": "Google DeepMind's AlphaGenome 2 predicts how DNA changes play out cell by cell",
+   "summary": "Trained on more than 100 million single-cell profiles across 68 tissues, AlphaGenome 2 finds nearly twice as many variants that change gene activity as DeepMind's previous best model, per the company; it is free for non-commercial research.",
+   "chapter": "THE SCIENCE",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+     "outlet": "Google DeepMind",
+     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-1",
+     "key": "53a8a671e5",
+     "relation": "early",
+     "note": "AlphaGenome 2 links DNA variants to effects in specific cell types, a research tool that could point to disease causes; no treatment yet."
+    }
+   ]
+  },
+  {
+   "id": "cramer-huang",
+   "title": "A Republican senator calls on Nvidia CEO Jensen Huang to step down",
+   "summary": "Senator Kevin Cramer of the Senate Banking Committee called on Huang to step down after the disclosure of his affair with a businesswoman US security services suspect of being a Chinese intelligence asset, an allegation China calls groundless.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Politico",
+     "url": "https://www.politico.com/news/2026/11/10/senate-banking-republican-nvidia-ceo-resign-01160543"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ofs-assessments",
+   "title": "England's university regulator says students pass some assessments in minutes with AI",
+   "summary": "The Office for Students says students can often use AI 'in ways that cannot be reliably detected', with some assessments completed in minutes, and calls AI a 'generational risk' to universities.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Daily Mail",
+     "url": "https://www.dailymail.com/news/article-16281091/Lecturers-AI-degree-assessments-unfit.html"
+    },
+    {
+     "outlet": "BBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "serve-robots-open",
+   "title": "Serve Robotics opens its 2,000 sidewalk delivery robots to developers and AI agents",
+   "summary": "Serve's new AV Delivery Developer Portal lets third-party developers, small businesses and even autonomous AI agents book its 2,000 sidewalk robots in 150 neighborhoods, with access approved by staff. CEO Ali Kashani: 'Why does getting something delivered from China cost $1, but from Chinatown cost $10?'",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-sidewalk-delivery"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "spacex-kessel",
+   "title": "SpaceX is reportedly designing its own AI racks for data centers on Earth and in orbit",
+   "summary": "SpaceX is reportedly developing a 'Kessel' rack-scale system with 72 Nvidia Rubin GPUs on an 84-layer circuit board, for data centers on Earth and in orbit, according to SemiAnalysis via Tom's Hardware.",
+   "chapter": "THE MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware"
+    },
+    {
+     "outlet": "SemiAnalysis"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-orbital-compute-to-proto-dyson",
+     "key": "f1cd4d6370",
+     "relation": "early",
+     "note": "SpaceX is reportedly designing AI racks meant for orbital data centers as well as Earth; a reported design step, not a launch."
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Thursday, November 12, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in superintelligence, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Today's about proof."
+  },
+  {
+   "s": 16.28,
+   "t": "A Nobel winner's team says OpenAI's AI solved half a million-dollar physics problem."
+  },
+  {
+   "s": 22.03,
+   "t": "Their honest verdict? \"We do not claim to fully understand the proof yet.\""
+  },
+  {
+   "s": 31.88,
+   "t": "When Trump and Xi meet next week, America says they'll advance a new dialogue on superintelligence."
+  },
+  {
+   "s": 39.38,
+   "t": "Treasury Secretary Scott Bessent wants to keep \"hu man judgment firmly in command of this technology.\""
+  },
+  {
+   "s": 45.94,
+   "t": "This week OpenAI unveiled a kill switch for its research models."
+  },
+  {
+   "s": 51.04,
+   "t": "Stop time? 35 seconds, max."
+  },
+  {
+   "s": 53.44,
+   "t": "Google staff are reportedly testing a fast new Gemini, code-named Hydrogen. Fitting name."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money."
+  },
+  {
+   "s": 61.16,
+   "t": "Anthropic's bankers are reportedly weighing a $1.5 trillion price tag."
+  },
+  {
+   "s": 67.5,
+   "t": "OpenAI reportedly hit $10 billion in quarterly revenue, and lost even more."
+  },
+  {
+   "s": 75.0,
+   "t": "CoreWeave, which rents out computing power for AI, jumped over 20% and sparked a rally."
+  },
+  {
+   "s": 82.5,
+   "t": "And British chip startup Fractile is now worth $7 billion, with the UK government on board."
+  },
+  {
+   "s": 90.0,
+   "t": "Google DeepMind's AlphaGenome 2 predicts how a change in your DNA plays out, cell by cell."
+  },
+  {
+   "s": 97.5,
+   "t": "It spots nearly twice as many DNA changes that affect genes, and researchers can use it for free."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? A senator now wants Nvidia's boss, Jensen Huang, to quit over the spy scandal."
+  },
+  {
+   "s": 111.56,
+   "t": "In England, students are passing some uni assessments in minutes, with AI."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Serve Robotics just opened its 2,000 sidewalk delivery robots to anyone, even AI agents."
+  },
+  {
+   "s": 128.44,
+   "t": "Their pitch? \"Why does getting something delivered from China cost $1, but from Chinatown cost $10?\""
+  },
+  {
+   "s": 135.94,
+   "t": "And SpaceX is reportedly designing its own AI racks, for data centers here and in orbit."
+  },
+  {
+   "s": 142.5,
+   "t": "Machines can do the work now. Proving it, and understanding it, is still up to us."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-12/Singularity-Daily_2026-11-12.mp4",
+  "mb": 70.6,
+  "bytes": 70571758,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
