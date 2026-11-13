@@ -1,0 +1,480 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-14",
+ "ep": 19,
+ "hook": "SMALL WINS.",
+ "day": "Saturday 14 November 2026",
+ "note": "FOR EDUCATION · SATURDAY 14 NOVEMBER 2026",
+ "tldr": "Windows' Release Preview brings small wins for classrooms, Microsoft apologised for the outage that hit schools, and Xbox's 25th brings a free Minecraft skin.",
+ "chapters": [
+  "SMALL WINS",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "THE LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:45 AEDT, Sat 14 Nov 2026 (Thursday 12 to Friday 13 Nov in the US).",
+ "notes": [
+  "Windows' pointer indicator, Sticky Keys prompt, Narrator math languages, Windows Hello brightening, Miracast fix and hybrid web sign-in are in Release Preview (KB5132057) for Insiders, rolling out gradually; the BitLocker PIN is in the Beta (26H1) channel. GitHub's AI Scan API and Front Door's token checks are in preview; Word's change starts in December.",
+  "The KLS post dates from 21 Oct; Research Focus #98 (12 Nov) featured it. The outage statement is Microsoft's (on X, quoted by Mashable); recovery was broad but not complete at publication. Known-issue details are as reported by BleepingComputer.",
+  "Screenshots are the publishers' public pages as captured on 14 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SMALL WINS. 🎓\n\nThe last 24h at Microsoft for education:\n- Narrator reads maths in 8 more languages (Release Preview)\n- Sticky Keys: switch it off from the pop-up\n- Old Word 2010 docs may reflow from Dec: save a PDF\n- Microsoft apologised for the outage that hit schools",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (14 Nov 2026): Windows Release Preview's pointer indicator, Sticky Keys prompt, Narrator math reading in eight more languages, Windows Hello in dim rooms and a Miracast fix, Word's coming compatibility change, passwordless web sign-in on hybrid joined PCs, a BitLocker PIN for standard users, GitHub's AI Scan API, Azure Front Door client certificates and token checks, the solved KLS conjecture, Microsoft's apology for the outage, November's printing and activation known issues, a free Minecraft skin and Flight Simulator liveries for Xbox's 25th and new Xbox Insider personalisation, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "MICROSOFT CLASSROOM'S PREVIEW IS PLANNED FOR EARLY 2027: ADMINS CAN REGISTER AT AKA.MS/CLASSROOMPREVIEW",
+  "NARRATOR'S MATH READING ADDS GREEK, HUNGARIAN, INDONESIAN, NORWEGIAN (BOKMÅL), POLISH, RUSSIAN, SWEDISH AND VIETNAMESE",
+  "THE MICROSOFT 365 OUTAGE DISRUPTED SCHOOLS AND UNIVERSITIES WORLDWIDE; MICROSOFT SAYS IT WAS NOT RELATED TO CYBER OR AI AGENTS",
+  "WORD: DOCUMENTS LAST SAVED IN WORD 2010 OR EARLIER MAY REFLOW; WORD FOR WINDOWS FROM DECEMBER, MAC IN EARLY 2027",
+  "MICROSOFT: THE OUTAGE CAME FROM AN ISSUE IN AN EARLIER NETWORK CAPACITY UPGRADE, SURFACED BY A RECENT NETWORK CHANGE",
+  "DURING THE OUTAGE, MICROSOFT EXTENDED EMAIL TIMEOUT TO 48 HOURS",
+  "WINDOWS RELEASE PREVIEW: A NEW WINDOWS SEARCH WITH ONE SIMPLE LIST AND QUICK ACTIONS, IN ENGLISH FIRST",
+  "FILE EXPLORER: SEARCHING THIS PC NOW USES THE INDEXER, SO IT'S MUCH FASTER (RELEASE PREVIEW)",
+  "MAGNIFIER GETS A HELP MENU AND A CHOICE OVER ITS WINDOWS + PLUS SHORTCUT (RELEASE PREVIEW)",
+  "SCREEN CAPTURE'S BORDER TURNS FROM YELLOW TO RED, SO IT'S EASIER TO SEE WHEN A CAPTURE IS ON (RELEASE PREVIEW)",
+  "POINTER INDICATOR: TURN IT ON IN ACCESSIBILITY SETTINGS, THEN TOGGLE IT WITH WINDOWS + CTRL + SHIFT + X",
+  "PRINTING ISSUE: DOCUMENTS WITH ZERO-SIZE 'INVISIBLE' IMAGES, SUCH AS SOME WATERMARKS, MAY FAIL TO PRINT",
+  "KMS-ACTIVATED PCS TYPICALLY STAY ACTIVATED FOR UP TO 180 DAYS, MICROSOFT SAYS; A FIX IS DUE IN THE COMING DAYS",
+  "AZURE FRONT DOOR PREMIUM: CHECK ENTRA ID TOKENS AT THE EDGE, BEFORE REQUESTS REACH YOUR APPS, IN PUBLIC PREVIEW",
+  "MICROSOFT RESEARCH: THE LATENT CORE TOKENIZER MADE MORE MEANINGFUL TOKENS ACROSS 104 LANGUAGES",
+  "MICROSOFT RESEARCH: UNDER 8% OF 13.5 MILLION CODING-AGENT SESSIONS NEEDED CONTEXT COMPACTION, BUT THEY TOOK 44% OF AI COSTS",
+  "GITHUB: A PRACTICAL GUIDE TO BUILDING AGENT SKILLS ONCE AND RUNNING THEM ON ANY AGENT",
+  "XBOX 25: A FREE DAMASCUS PROTOTYPE ARMOR STYLE FOR ALL HALO: CAMPAIGN EVOLVED PLAYERS",
+  "XBOX 25: AN ANNIVERSARY LIVERY FOR THE 2025 GR GT IN FORZA HORIZON 6'S GIFTS TAB",
+  "XBOX INSIDERS: DISC-BASED GAMES WITH CLAIMED DIGITAL LICENCES GET THEIR OWN LIBRARY CATEGORY",
+  "WOLFENSTEIN 3 IS OFFICIALLY IN PRODUCTION AT MACHINEGAMES"
+ ],
+ "sources": [
+  "Microsoft Learn",
+  "Windows Insider Blog",
+  "GitHub Changelog",
+  "Azure Updates",
+  "Microsoft Research",
+  "Mashable",
+  "Ars Technica",
+  "BleepingComputer",
+  "The Register",
+  "Neowin",
+  "Xbox Wire",
+  "Microsoft Tech Community",
+  "The Educator",
+  "Schools Week"
+ ],
+ "scanned": 2065,
+ "stories": [
+  {
+   "id": "windows-pointer-indicator",
+   "title": "Windows' new pointer indicator helps people with low vision find the mouse",
+   "summary": "In the latest Windows 11 Release Preview update (KB5132057, versions 25H2 and 26H2), a new pointer indicator makes the mouse pointer easier to locate. Turn it on in Settings > Accessibility > Mouse pointer and touch, then toggle it with Windows + Ctrl + Shift + X.",
+   "for": "Students and staff with low vision",
+   "status": "Insiders (Release Preview)",
+   "edu": false,
+   "chapter": "SMALL WINS",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    },
+    {
+     "outlet": "Windows Insider Blog",
+     "url": "https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "windows-sticky-keys-prompt",
+   "title": "Turn off Sticky Keys straight from the pop-up when it's triggered by accident",
+   "summary": "If someone accidentally triggers the shortcut for Sticky Keys, Filter Keys or Toggle Keys, they can now turn it off directly from the prompt that appears. It's in the same Windows 11 Release Preview update.",
+   "for": "Students and teachers",
+   "status": "Insiders (Release Preview)",
+   "edu": false,
+   "chapter": "SMALL WINS",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    }
+   ]
+  },
+  {
+   "id": "narrator-math-eight-languages",
+   "title": "Narrator reads maths aloud in eight more languages",
+   "summary": "Narrator's math reading now supports Greek, Hungarian, Indonesian, Norwegian (Bokmål), Polish, Russian, Swedish and Vietnamese, in the Windows 11 Release Preview update.",
+   "for": "Students who use a screen reader",
+   "status": "Insiders (Release Preview)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    }
+   ]
+  },
+  {
+   "id": "windows-hello-dark-room",
+   "title": "Windows Hello can brighten the screen to recognise your face in a dark room",
+   "summary": "Windows Hello facial recognition can now briefly brighten the screen to help you sign in in a dark or dimly lit room, for example with the lights down for a video. Turn it on under Settings > Accounts > Sign-in options > Facial recognition.",
+   "for": "Teachers and students",
+   "status": "Insiders (Release Preview)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    }
+   ]
+  },
+  {
+   "id": "word-compatibility-options-retiring",
+   "title": "Word is retiring some Compatibility Mode options, so old documents may reflow",
+   "summary": "Microsoft is retiring a set of compatibility options in the Word desktop app for documents in Compatibility Mode. Files created or last saved in Word 2010 or earlier may reflow, change spacing or page count, or move images; Microsoft suggests exporting them to PDF first. Word for Windows from December 2026, Mac in early 2027.",
+   "for": "Teachers and school admins",
+   "status": "From December 2026",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/applications/2026/11/13/oh-my-word-microsoft-retires-compatibility-options-because-who-needs-layouts-to-stay-put/5309664"
+    },
+    {
+     "outlet": "Message center MC1551147",
+     "url": "https://mc.merill.net/message/MC1551147"
+    }
+   ]
+  },
+  {
+   "id": "miracast-resolution-fix",
+   "title": "A Miracast fix stops wireless casting dropping to a lower resolution",
+   "summary": "The Windows 11 Release Preview update fixes an issue that might make Miracast connections default to a lower resolution with certain wireless display receivers, handy when casting to a classroom screen.",
+   "for": "Teachers who cast to a screen",
+   "status": "Insiders (Release Preview)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    }
+   ]
+  },
+  {
+   "id": "web-sign-in-hybrid-joined",
+   "title": "Passwordless web sign-in comes to Microsoft Entra hybrid joined PCs",
+   "summary": "Web sign-in now works on Entra hybrid joined PCs as well as Entra joined ones: at the lock screen, sign in without a password using a FIDO2 security key, a passkey on your phone or a Temporary Access Pass, and on-premises file shares keep working.",
+   "for": "School IT",
+   "status": "Insiders (Release Preview)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    }
+   ]
+  },
+  {
+   "id": "bitlocker-pin-standard-users",
+   "title": "Staff without admin rights can set their own BitLocker preboot PIN",
+   "summary": "In Windows 11 Insider Beta (26H1) build 28020.3532, standard users on managed PCs can add a BitLocker TPM+PIN themselves when prompted, once IT sets the existing BitLocker policies in Intune or another management tool. Microsoft says to target only a test group with the feature for now.",
+   "for": "School IT",
+   "status": "Insiders (Beta)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/beta-26h1/preview-build-28020-3532"
+    }
+   ]
+  },
+  {
+   "id": "github-ai-scan-rest-api",
+   "title": "Switch GitHub's AI Scan for repositories on or off with the REST API",
+   "summary": "Organization owners and security managers can now turn code scanning's AI Scan for repositories on or off with the REST API, at organization and repository level, so it can be rolled out by script. Turning it on doesn't start a scan, and each scan uses GitHub Code Security AI credits.",
+   "for": "University dev and security teams",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api"
+    }
+   ]
+  },
+  {
+   "id": "azure-front-door-mtls-jwt",
+   "title": "Azure Front Door Premium checks client certificates, and Entra tokens in preview",
+   "summary": "Mutual TLS (client certificate authentication) is generally available on Azure Front Door Premium, and JWT validation, which checks Microsoft Entra ID tokens at the edge before requests reach your apps, is in public preview.",
+   "for": "University web teams",
+   "status": "mTLS GA; token checks in preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=577678"
+    },
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=577673"
+    }
+   ]
+  },
+  {
+   "id": "kls-conjecture-solved",
+   "title": "A 31-year-old maths problem, the KLS conjecture, has been solved with human-directed AI",
+   "summary": "A Microsoft researcher and a collaborator proved the Kannan-Lovász-Simonovits conjecture, open since 1995, in a process where AI systems explored possibilities while the researchers steered the search. The proof was independently validated and formally verified; Microsoft Research's latest roundup featured it.",
+   "for": "Maths and computer science students",
+   "status": "Research",
+   "edu": false,
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Microsoft Research Blog",
+     "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/"
+    },
+    {
+     "outlet": "Microsoft Research Focus #98",
+     "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-365-outage-apology",
+   "title": "Microsoft apologises for the Microsoft 365 outage that disrupted schools worldwide",
+   "summary": "Microsoft said it is deeply sorry for the outage that hit Outlook, Teams and Copilot on 12-13 November, that it was a technical issue not related to cyber or AI agents, and that it will publish a full post-incident report. It reported broad recovery while restoring remaining customers.",
+   "for": "Everyone on campus, and school IT",
+   "status": "Broad recovery; report to come",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Mashable",
+     "url": "https://mashable.com/tech/microsoft-outage-company-statement-regret-outlook-nov-13-2026"
+    },
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/"
+    }
+   ]
+  },
+  {
+   "id": "november-update-known-issues",
+   "title": "November's Windows update: some documents may not print, and KMS activation commands can fail",
+   "summary": "Microsoft confirmed that after the November security updates, documents with zero-size images (such as some watermarks) may fail to print, and slmgr commands that set up KMS activation or product keys can fail with error 0x80041008. Already activated PCs stay activated, and a fix for activation is due in the coming days, BleepingComputer reports.",
+   "for": "School IT",
+   "status": "Known issues",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/"
+    }
+   ]
+  },
+  {
+   "id": "minecraft-og-green-skin",
+   "title": "A free Xbox-green Minecraft skin for Xbox's 25th anniversary",
+   "summary": "Minecraft players can claim a free OG Green Character Creator item in the Minecraft dressing room until 10 December at 10am PT. It needs Minecraft: Bedrock Edition (sold separately), one per account.",
+   "for": "Students, after hours",
+   "status": "Free until 10 December",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap/"
+    }
+   ]
+  },
+  {
+   "id": "flight-simulator-anniversary-liveries",
+   "title": "Flight Simulator 2024 gets four throwback Xbox liveries, including a hot air balloon",
+   "summary": "For Xbox's 25th, four commemorative liveries for the Boeing 737 MAX, XCub, Hot Air Balloon and Skyship 600 are available automatically to all Microsoft Flight Simulator 2024 owners.",
+   "for": "Students, after hours",
+   "status": "Available",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-insiders-personalisation",
+   "title": "Xbox Insiders can shuffle Home backgrounds and put the Guide on the left or right",
+   "summary": "Xbox Insiders can save favourite dynamic backgrounds and shuffle them at each sign-in, hourly, daily or weekly, choose which side the Guide opens on, and sort disc-based games with digital licences into their own library category. Alpha Skip-Ahead members get them first.",
+   "for": "Students, after hours",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/12/xbox-insiders-january-2027-console-features-1/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Saturday."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in Microsoft updates, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Small wins. In Windows' Release Preview, a new pointer indicator helps students with low vision find the mouse."
+  },
+  {
+   "s": 22.5,
+   "t": "Hit Sticky Keys by accident? Turn it off right from the pop-up."
+  },
+  {
+   "s": 31.88,
+   "t": "For students, Narrator now reads maths aloud in 8 more languages, from Greek and Polish to Vietnamese."
+  },
+  {
+   "s": 39.38,
+   "t": "Lights down for a video? Windows Hello can now briefly brighten your screen, so face sign-in still works."
+  },
+  {
+   "s": 46.88,
+   "t": "Teachers, files last saved in Word 2010 or earlier may reflow from December."
+  },
+  {
+   "s": 52.59,
+   "t": "Save a PDF first."
+  },
+  {
+   "s": 54.38,
+   "t": "Casting to the class screen? A Miracast fix stops it dropping resolution."
+  },
+  {
+   "s": 60.0,
+   "t": "For school IT, Release Preview lets hybrid joined PCs sign in with a security key, no password."
+  },
+  {
+   "s": 67.5,
+   "t": "And in the Beta channel, staff without admin rights can set their own BitLocker start-up PIN."
+  },
+  {
+   "s": 75.0,
+   "t": "University dev teams can now switch GitHub's AI code scanning on across repositories with a script, in preview."
+  },
+  {
+   "s": 82.5,
+   "t": "Running campus web apps? Azure Front Door Premium now checks client certificates, and in preview, Entra tokens too."
+  },
+  {
+   "s": 90.0,
+   "t": "In Microsoft Research's latest roundup, a 31-year-old maths problem, the KLS conjecture, has been solved."
+  },
+  {
+   "s": 97.5,
+   "t": "A Microsoft researcher and a collaborator proved it, with AI exploring ideas while they steered the search."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Microsoft says it's deeply sorry for the outage that hit Outlook, Teams, and schools worldwide."
+  },
+  {
+   "s": 112.5,
+   "t": "And after November's update, some Word documents may not print, and KMS activation commands can fail."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, for Xbox's 25th, claim a free Xbox green Minecraft skin until December 10."
+  },
+  {
+   "s": 129.38,
+   "t": "Flight Simulator pilots get four throwback liveries automatically, even one for the hot air balloon."
+  },
+  {
+   "s": 136.88,
+   "t": "And Xbox Insiders can shuffle Home backgrounds, and put the Guide on the left or right."
+  },
+  {
+   "s": 143.91,
+   "t": "Bumpy week? Find the pointer, save the PDF, then go play. Small wins."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "Some of it's shipped. The rest is on its way."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-14/Microsoft-for-Education-Daily_2026-11-14.mp4",
+  "mb": 53.6,
+  "bytes": 53641169,
+  "seconds": 180.01
+ },
+ "links": {}
+}
