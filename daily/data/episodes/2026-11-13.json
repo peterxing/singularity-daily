@@ -1,0 +1,475 @@
+{
+ "date": "2026-11-13",
+ "ep": 40,
+ "hook": "THE SHOW GOES ON.",
+ "day": "Friday 13 November 2026",
+ "chapters": [
+  "THE SHOW GOES ON",
+  "THE MODELS",
+  "THE MONEY",
+  "THE FORECAST",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 09:30 AEDT, Fri 13 Nov 2026.",
+ "notes": [
+  "This week: the AI Futures Project published its 'Q3.5 Timelines Update' on 10 Nov.",
+  "Reported, not confirmed: OpenAI's $15 billion raise at $1.25 trillion (CNBC sources); Anthropic's IPO demand of about six times the shares on offer (Bloomberg).",
+  "Hydrogen's speed and accuracy figures are Google's own; J.P. Morgan's humanoid numbers are a forecast; GXO's 1,000 robots depend on trials succeeding; the AI Futures Project's dates and 1.7x are its own estimates, built on METR's audit of partly redacted Anthropic data.",
+  "The spying allegations around Jensen Huang are allegations; China denies them. Screenshots are the publishers' public article pages as captured on 13 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "THE SHOW GOES ON. 🎬\n\nThe last 24h in superintelligence:\n- Jensen Huang resigned as Nvidia's CEO\n- Google launched Gemini 4 Hydrogen\n- OpenAI reportedly raised $15B at $1.25T\n- Forecasters expect a superhuman AI researcher in 2027\n\nWhat's your bet for 2027?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (13 Nov 2026), hosted by Claudia: Jensen Huang resigning as Nvidia's CEO, Google's Gemini 4 Hydrogen, OpenAI's reported $15 billion raise, demand for Anthropic's shares, SpaceX's $74 billion data-center plan, Agile Robots' $8.5 billion valuation, AMD's quantum investment, the AI 2027 forecasters' new timeline, a lawsuit to halt frontier AI, Synchron's paused brain-implant trials, GXO's humanoid plans, J.P. Morgan's robot forecast and Google and Samsung's Gemini glasses, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "NVIDIA: HARVEY C. JONES IS THE COMPANY'S FIRST-EVER BOARD CHAIR",
+  "ABC: NVIDIA SHARES FELL 13% IN EARLY TRADING AFTER THE NEWS",
+  "ABC: HUANG, 63, OWNS ABOUT 3.6% OF NVIDIA",
+  "TRUMP ON TRUTH SOCIAL, SUGGESTING TIM COOK: 'A LEGEND REPLACES A LEGEND'",
+  "ABC: HOUSE CHAIR BRIAN MAST EXPECTS HUANG TO TESTIFY TO CONGRESS WITHIN A WEEK",
+  "ELON MUSK ON HIRING JENSEN HUANG: IT WOULD BE AN 'HONOR'",
+  "ARS TECHNICA: HYDROGEN SCORED 54 ON THE ARTIFICIAL ANALYSIS INDEX, ARGON 50",
+  "ARS TECHNICA: HYDROGEN MORE THAN TRIPLES 3.8 FLASH'S TERMINAL-BENCH SCORE",
+  "CNBC: OPENAI'S $15B IS HALF THE $30B IT FIRST SOUGHT",
+  "NYT: ANTHROPIC HAS COMMITTED UP TO $120.5B TO SPACEX THROUGH 2029",
+  "NYT: SPACEX'S THIRD-QUARTER CAPITAL SPENDING HIT $19.6 BILLION",
+  "REUTERS: AMD AND PSIQUANTUM ARE BUILDING TOWARD UTILITY-SCALE QUANTUM COMPUTERS",
+  "INDIA TODAY: AI FUTURES NOW GIVES 35-65% ODDS OF TOP-EXPERT AI BEFORE 2028",
+  "INDIA TODAY: METR FOUND ANTHROPIC IMPROVING ITS MODELS ABOUT TWICE AS FAST",
+  "REUTERS: THE LAWSUIT INVOKES CALIFORNIA'S UNFAIR-BUSINESS-PRACTICE LAWS",
+  "WIRED: SYNCHRON'S FIRST STENTRODE LET 10 VOLUNTEERS TEXT AND SHOP BY THOUGHT",
+  "GXO: APOLLO WRAPPED A PICKING PILOT IN THE US EARLIER THIS YEAR",
+  "REUTERS: J.P. MORGAN SEES ABOUT 1.5 MILLION US HUMANOIDS BY 2035",
+  "J.P. MORGAN: THE BOTTLENECKS ARE 'HANDS, ACTUATORS, THE BRAIN, AND PRODUCTION CAPACITY'",
+  "TECHNOBEZZ: THE GEMINI GLASSES LAUNCH ON 10 DECEMBER",
+  "OPENAI: $2 MILLION FOR RESEARCH ON AI AND CHILDREN'S SAFETY",
+  "WASHINGTON POST: UNITED AIRLINES BLOCKS AI AGENTS FROM BOOKING FLIGHTS",
+  "BLOOMBERG: OPENAI JOINS GROWING SUPPORT FOR AI CHIP CONTROL MEASURES"
+ ],
+ "sources": [
+  "Nvidia",
+  "ABC (Australia)",
+  "Reuters",
+  "AP",
+  "Google",
+  "Ars Technica",
+  "CNBC",
+  "Bloomberg",
+  "The New York Times",
+  "Investor's Business Daily",
+  "Forbes",
+  "SiliconANGLE",
+  "Analytics Insight",
+  "India Today",
+  "AOL",
+  "WIRED",
+  "GXO",
+  "KTVU FOX 2",
+  "Technobezz",
+  "OpenAI",
+  "The Washington Post"
+ ],
+ "scanned": 4215,
+ "stories": [
+  {
+   "id": "huang-resigns",
+   "title": "Jensen Huang resigns as Nvidia's CEO; CFO Colette Kress steps in as interim chief",
+   "summary": "Nvidia said Huang resigned as president, CEO and director, effective immediately. It follows his affair with a woman US intelligence reportedly found was gathering information for China, which Beijing denies. New chair Harvey C. Jones expects operations to 'continue without interruption'.",
+   "chapter": "THE SHOW GOES ON",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "ABC (Australia)",
+     "url": "https://www.abc.net.au/news/2026-11-13/nvidia-founder-jensen-huang-resigns/107376470"
+    },
+    {
+     "outlet": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gemini-4-hydrogen",
+   "title": "Google launches Gemini 4 Hydrogen, replacing Gemini 3.8 Flash across its products",
+   "summary": "Google says Hydrogen is 2.5 times faster than Gemini 3.8 Flash even in high thinking mode and cuts fabricated claims by more than five times; it is available now across Google's products, Ars Technica reports.",
+   "chapter": "THE MODELS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+    },
+    {
+     "outlet": "Google",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-15b",
+   "title": "OpenAI reportedly raises $15 billion at a $1.25 trillion valuation",
+   "summary": "OpenAI raised $15 billion at a $1.25 trillion valuation, sources told CNBC, which reported it was half the $30 billion the company first sought.",
+   "chapter": "THE MODELS",
+   "badge": "REPORTED",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/video/2026/11/12/openai-raises-15b-at-a-1-point-25t-valuation-what-it-means-for-the-ipo.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "early",
+     "note": "OpenAI is reportedly valued at $1.25 trillion in a $15 billion round; reported by CNBC from sources, not confirmed by the company."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-6x",
+   "title": "Anthropic's IPO is reportedly about six times oversubscribed",
+   "summary": "Orders for Anthropic's IPO are about six times the shares on offer, Bloomberg reported, up from 'multiple times' a day earlier.",
+   "chapter": "THE MODELS",
+   "badge": "REPORTED",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "spacex-74b",
+   "title": "SpaceX plans $74 billion of new AI data centers in Texas and Arizona",
+   "summary": "SpaceX announced plans to invest $74 billion in new AI data center facilities in Texas and Arizona. The New York Times reports Google pays SpaceX $920 million a month for computing power and Anthropic has committed up to $120.5 billion through 2029.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/12/business/spacex-data-center.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Investor's Business Daily"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "One company announced $74 billion of new AI data center facilities, a step toward commitments on the scale the forecast describes."
+    }
+   ]
+  },
+  {
+   "id": "agile-robots",
+   "title": "Germany's Agile Robots raises $500 million at an $8.5 billion valuation",
+   "summary": "Agile Robots raised $500 million in a round led by SoftBank, with Nvidia, valuing it at $8.5 billion; it plans to expand in the US and increase production in Europe, the New York Times reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/12/business/softbank-nvidia-agile-robots.html"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "A $500 million round for a robot maker that plans to increase production is a funding step toward capital flooding into robotics."
+    }
+   ]
+  },
+  {
+   "id": "amd-psiquantum",
+   "title": "AMD will invest in quantum computing company PsiQuantum",
+   "summary": "AMD plans an equity investment in PsiQuantum in an expanded partnership on utility-scale quantum computing; the companies say their work has produced early results simulating covalent inhibitors, molecules used in cancer drug discovery.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/news/amd-to-invest-in-psiquantum-to-power-quantum-computing-systems"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-futures-2027",
+   "title": "The 'AI 2027' forecasters now expect a superhuman AI researcher in 2027",
+   "summary": "The AI Futures Project's update says a 'Superhuman AI Researcher' will likely arrive between May and November 2027 and estimates AI already speeds up AI research 1.7 times, based on METR's audit of Anthropic; the authors call for a pause on frontier training.",
+   "chapter": "THE FORECAST",
+   "badge": "THIS WEEK",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "India Today",
+     "url": "https://www.indiatoday.in/technology/news/story/intelligence-explosion-now-expected-in-2027-as-anthropic-ai-progress-doubles-3036529-2026-11-11"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "METR's audit, as the forecasters read it, finds Anthropic's own models behind most of a doubling in its progress; their 1.7x is an estimate."
+    }
+   ]
+  },
+  {
+   "id": "lawsuit-halt",
+   "title": "Nonprofits sue OpenAI, Anthropic, Google, Meta and SpaceX's AI unit to halt frontier AI",
+   "summary": "Public Citizen, Heat Initiative, the Irreplaceable Education Fund and others sued in San Francisco under California's unfair business practice laws, seeking an order barring further development of the most advanced models, Reuters reports.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Reuters (via AOL)",
+     "url": "https://www.aol.com/articles/openai-google-anthropic-hit-lawsuit-182328000.html"
+    },
+    {
+     "outlet": "AP"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "synchron-pause",
+   "title": "Synchron pauses trials of its second-generation brain implant",
+   "summary": "Synchron paused enrollment in trials of its wireless Stentrode after a performance issue with the lead, the cable carrying signals to the implanted electronics; the company says no safety issue was found and it is upgrading the system, WIRED reports.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/synchron-pauses-trials-of-its-brain-implant-due-to-performance-issues/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gxo-humanoids",
+   "title": "GXO and Apptronik plan up to 1,000 Apollo humanoids over four years",
+   "summary": "Under a letter of intent, GXO and Apptronik will expand trials and, if they meet agreed targets, intend to roll out up to 1,000 Apollo humanoid robots over the next four years, starting in North America in late 2027.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "GXO (GlobeNewswire)",
+     "url": "https://markets.ft.com/data/announce/detail?dockey=1330-9875779en-4FB7QRK9648EM1FIHU5R55516K"
+    },
+    {
+     "outlet": "Forbes"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "jpm-humanoids",
+   "title": "J.P. Morgan says US humanoid production could hit 300,000-400,000 by 2030",
+   "summary": "J.P. Morgan projects US humanoid robot production of 300,000 to 400,000 units by 2030 and about 1.5 million by 2035, and names hands, actuators, the brain and production capacity as binding bottlenecks.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Reuters (via KTVU)",
+     "url": "https://www.ktvu.com/news/us-humanoid-robot-production-could-hit-400000-units-2030-jpmorgan-says"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "A bank projection that names hands, actuators and production capacity as binding bottlenecks for humanoid robots; a forecast, not yet capital flows."
+    }
+   ]
+  },
+  {
+   "id": "gemini-glasses",
+   "title": "Google and Samsung's Gemini smart glasses open for preorder from $395",
+   "summary": "The Gemini-powered glasses, with frames by Warby Parker and Gentle Monster, are up for preorder from $395 ahead of a 10 December launch, with Google pitching privacy features.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Friday, November 13."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in superintelligence in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Jensen Huang, the man who built Nvidia, has resigned as its boss. But the show goes on."
+  },
+  {
+   "s": 22.03,
+   "t": "Nvidia's new chair says its plans should carry on \"without interruption.\""
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, Google launched Gemini 4 Hydrogen, its new everyday model, replacing Flash across its products."
+  },
+  {
+   "s": 39.38,
+   "t": "Google says it's 2.5x faster, with over 5x fewer made-up claims."
+  },
+  {
+   "s": 45.94,
+   "t": "OpenAI reportedly raised $15 billion, at a $1.25 trillion valuation."
+  },
+  {
+   "s": 52.97,
+   "t": "And demand for Anthropic's shares is reportedly about six times what's on offer."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money."
+  },
+  {
+   "s": 61.26,
+   "t": "SpaceX plans to spend $74 billion on AI data centers in Texas and Arizona."
+  },
+  {
+   "s": 67.5,
+   "t": "Google alone pays SpaceX $920 million a month for computing power."
+  },
+  {
+   "s": 75.0,
+   "t": "Agile Robots, from Germany, raised half a billion dollars. It's now worth $8.5 billion."
+  },
+  {
+   "s": 82.5,
+   "t": "And AMD is investing in quantum startup PsiQuantum."
+  },
+  {
+   "s": 86.05,
+   "t": "Together they're simulating cancer drug molecules."
+  },
+  {
+   "s": 90.0,
+   "t": "Now, the forecasters behind \"AI 2027\" expect a superhuman AI researcher next year."
+  },
+  {
+   "s": 97.5,
+   "t": "By their estimate, AI is already speeding up AI research by 1.7 times."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Nonprofits are suing OpenAI, Google, Anthropic and others to halt frontier AI."
+  },
+  {
+   "s": 111.56,
+   "t": "And brain implant maker Synchron paused its trials over a cable problem."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Robots, though, are getting jobs."
+  },
+  {
+   "s": 124.24,
+   "t": "Logistics giant GXO plans up to 1,000 humanoids over four years."
+  },
+  {
+   "s": 129.38,
+   "t": "J.P. Morgan says American humanoid production could hit 400,000 by 2030."
+  },
+  {
+   "s": 135.47,
+   "t": "And Google and Samsung's Gemini smart glasses are up for preorder, from $395."
+  },
+  {
+   "s": 142.5,
+   "t": "Leaders come and go, even legends."
+  },
+  {
+   "s": 144.7,
+   "t": "What they build keeps going. The show goes on."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-13/Singularity-Daily_2026-11-13.mp4",
+  "mb": 72.2,
+  "bytes": 72221641,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

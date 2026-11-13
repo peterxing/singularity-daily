@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T18:29:18+00:00",
- "latest": "2026-11-12",
+ "updated": "2026-11-13T00:30:09+00:00",
+ "latest": "2026-11-13",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -20,6 +20,34 @@
  },
  "data": "9a096fe8ecba",
  "episodes": [
+  {
+   "date": "2026-11-13",
+   "ep": 40,
+   "hook": "THE SHOW GOES ON.",
+   "day": "Friday 13 November 2026",
+   "stories": 13,
+   "forecasts": 4,
+   "links": {
+    "supports": 0,
+    "early": 5,
+    "challenges": 0
+   },
+   "titles": [
+    "Jensen Huang resigns as Nvidia's CEO; CFO Colette Kress steps in as interim chief",
+    "Google launches Gemini 4 Hydrogen, replacing Gemini 3.8 Flash across its products",
+    "OpenAI reportedly raises $15 billion at a $1.25 trillion valuation"
+   ],
+   "cover": "daily/media/2026-11-13/cover.webp",
+   "thumb": "daily/media/2026-11-13/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-13/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-13/Singularity-Daily_2026-11-13.mp4",
+    "mb": 72.2,
+    "bytes": 72221641,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-12",
    "ep": 39,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-06/cover.webp",
    "thumb": "daily/media/2026-11-06/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-06/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-06/Singularity-Daily_2026-11-06.mp4",
     "mb": 71.9,
