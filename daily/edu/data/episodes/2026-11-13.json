@@ -1,0 +1,421 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-13",
+ "ep": 18,
+ "hook": "LEVEL UP.",
+ "day": "Friday 13 November 2026",
+ "note": "FOR EDUCATION · FRIDAY 13 NOVEMBER 2026",
+ "tldr": "Students will soon rehearse presentations with Speaker Coach, Learning Zone is getting Minecraft lessons, and Microsoft Classroom is coming to current A1 plans too.",
+ "chapters": [
+  "LEVEL UP",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "THE DATA LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 28 hours to 09:30 AEDT, Fri 13 Nov 2026 (Wednesday 11 to Thursday 12 Nov in the US).",
+ "notes": [
+  "Speaker Coach in Learning Activities (due December 2026) and Learning Zone's Minecraft connected lessons (due February 2027) are roadmap items in development. Microsoft's Classroom post now says current A1/A3/A5/A7 at no additional cost from next year; the preview is planned for early 2027.",
+  "Entra Hard Deletion Protection and Copilot in Database Hub are in preview; Teams alt text is rolling out. This week: Microsoft's Exchange Server note (10 Nov). The KB5132061 repair timing is Microsoft's statement as reported by BleepingComputer.",
+  "Screenshots are the publishers' public pages as captured on 13 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "LEVEL UP. 🎓\n\nThe last 24h at Microsoft for education:\n- Speaker Coach is coming to Learning Activities (due Dec)\n- Minecraft lessons in Learning Zone (due Feb)\n- Classroom will come to current A1 plans too\n- Entra: 7 days to restore deleted accounts (preview)",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (13 Nov 2026): Speaker Coach coming to Learning Activities, Minecraft connected lessons in Learning Zone, Microsoft Classroom for current A1 plans, alt text for shared images in Teams, Entra Hard Deletion Protection, one Autopatch policy for three update types, Update Repair for Microsoft 365 Apps, Copilot in Fabric's Database Hub, the DP-800 SQL AI certification, the KB5132061 install repair, the end of Exchange Server 2016 and 2019 updates, 25 original Xbox games on PC with new achievements and Xbox Playback, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "SPEAKER COACH IN LEARNING ACTIVITIES: STUDENTS REHEARSE, GET FEEDBACK ON THEIR DELIVERY AND PRACTISE AGAIN, DUE DECEMBER 2026",
+  "LEARNING ZONE'S MINECRAFT CONNECTED LESSONS MATCH CURRICULUM GOALS TO BUILD CHALLENGES, DUE FEBRUARY 2027",
+  "MICROSOFT CLASSROOM: IN CURRENT A1, A3, A5 AND A7 AT NO ADDITIONAL COST FROM NEXT YEAR, AND IN A2 AND ABOVE FOR NEW PLANS FROM JANUARY 2028",
+  "MICROSOFT CLASSROOM'S PREVIEW IS PLANNED FOR EARLY 2027: ADMINS CAN SIGN UP AT AKA.MS/CLASSROOMPREVIEW",
+  "EXAM DP-800 EARNS THE MICROSOFT CERTIFIED: SQL AI DEVELOPER ASSOCIATE CERTIFICATION",
+  "TEAMS ALT TEXT FOR IMAGES SHARED FROM ONEDRIVE AND SHAREPOINT IS ROLLING OUT ON DESKTOP, MAC AND WEB",
+  "TEAMS: A NEW 'RECORD ONLY' CHOICE FOR AUTOMATIC MEETING RECORDING IS ROLLING OUT",
+  "COPILOT: ADMINS WILL BE ABLE TO DELEGATE PUBLISHING OF ORGANIZATION PROMPTS, DUE DECEMBER",
+  "MICROSOFT 365 ADMIN CENTER: CROSS-TENANT ORCHESTRATED MIGRATION FOR MAILBOXES, ONEDRIVE, TEAMS AND SHAREPOINT, DUE DECEMBER",
+  "ENTRA HARD DELETION PROTECTION COVERS CLOUD USERS, CLOUD-ONLY GROUPS, APPS AND SERVICE PRINCIPALS",
+  "AUTOPATCH: .NET FRAMEWORK UPDATES NOW SHIP IN THE SAME CYCLE AS WINDOWS QUALITY UPDATES BY DEFAULT, FOR FEWER RESTARTS",
+  "MISTRAL LARGE 4 IS IN PUBLIC PREVIEW IN MICROSOFT FOUNDRY; MISTRAL OCR 4 IS GENERALLY AVAILABLE",
+  "FOUNDRY CONTENT UNDERSTANDING ADDS GPT-6.1, GPT-6 AND GPT-5.6",
+  "AZURE MONITOR WORKSPACE: AUTO SCALING OF INGESTION LIMITS IS IN PUBLIC PREVIEW",
+  "GITHUB SECRET SCANNING NOW DETECTS CLOUDFLARE SERVICE TOKENS",
+  "GITHUB ACTIONS IS RETIRING ARM32 LINUX AND WINDOWS",
+  "EDGE: TOP SITES IN THE SEARCH BAR, WITH ADMIN POLICIES, DUE JANUARY 2027",
+  "EXCHANGE ONLINE CUSTOMERS ARE ALREADY PROTECTED FROM THE FLAWS NOVEMBER'S EXCHANGE SERVER UPDATES FIX",
+  "A MICROSOFT 365 OUTAGE DISRUPTED OUTLOOK, TEAMS AND COPILOT FOR MANY USERS ON 12 NOVEMBER (US TIME)",
+  "HALO: CAMPAIGN EVOLVED PLAYERS CAN JUMP INTO FIREFIGHT FOR FREE THIS WINTER",
+  "XBOX'S 25TH: CANDY CRUSH SAGA GIVES HALO, FALLOUT, FORZA AND MORE A SWEET MAKEOVER",
+  "DOOM: THE DARK AGES GETS SLAUGHTER MODE ON 16 NOVEMBER",
+  "FREE PLAY DAYS: SUMERIAN SIX, HYPNOSPACE OUTLAW, SUNDERFOLK AND STUFFED",
+  "XBOX PLAYBACK RUNS UNTIL 31 DECEMBER IN 15 COUNTRIES, INCLUDING AUSTRALIA"
+ ],
+ "sources": [
+  "Microsoft 365 Roadmap",
+  "Microsoft Education Blog",
+  "Microsoft Learn",
+  "Help Net Security",
+  "Windows IT Pro Blog",
+  "Azure SQL Blog",
+  "BleepingComputer",
+  "Exchange Team Blog",
+  "The Register",
+  "Xbox Wire",
+  "Microsoft Foundry Blog",
+  "GitHub Changelog",
+  "Azure Updates",
+  "Reuters",
+  "BBC"
+ ],
+ "scanned": 1672,
+ "stories": [
+  {
+   "id": "speaker-coach-learning-activities",
+   "title": "Speaker Coach is coming to Learning Activities, so students can rehearse presentations",
+   "summary": "In Learning Activities, students will be able to rehearse a presentation, get feedback on their delivery and practise again with targeted tips to improve clarity and confidence. It's a Microsoft 365 roadmap item in development, due December 2026.",
+   "for": "Students and teachers",
+   "status": "Due December 2026",
+   "edu": true,
+   "chapter": "LEVEL UP",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578880"
+    }
+   ]
+  },
+  {
+   "id": "learning-zone-minecraft-lessons",
+   "title": "Learning Zone is getting Minecraft connected lessons",
+   "summary": "AI-powered tools in Learning Zone will match curriculum goals to Minecraft Education Build Challenges, blend lessons with project-based learning, launch straight from Learning Zone and show participation, completion and student understanding. It's a roadmap item in development, due February 2027.",
+   "for": "Teachers",
+   "status": "Due February 2027",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577545"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-classroom-a1",
+   "title": "Microsoft Classroom will come to current A1 plans too, at no additional cost",
+   "summary": "Microsoft's introduction post now says Microsoft Classroom will be available in current A1, A3, A5 and A7 plans at no additional cost starting next year, and included in A2 and above for future plans from January 2028. The preview is planned for early 2027, and admins can sign up at aka.ms/classroompreview.",
+   "for": "Teachers, students and school IT admins",
+   "status": "Next year; preview planned early 2027",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://techcommunity.microsoft.com/blog/educationblog/introducing-microsoft-classroom-a-new-experience-built-for-teaching-and-learning/4571185"
+    }
+   ]
+  },
+  {
+   "id": "teams-alt-text-images",
+   "title": "Teams is rolling out alt text for images shared from OneDrive and SharePoint",
+   "summary": "You'll be able to add alternate text to images shared in Teams from OneDrive and SharePoint, so people using screen readers get a description of what's in them. It's rolling out on Teams for desktop, Mac and web.",
+   "for": "Students and staff who use screen readers",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571687"
+    }
+   ]
+  },
+  {
+   "id": "entra-hard-deletion-protection",
+   "title": "Entra's Hard Deletion Protection keeps deleted accounts restorable for seven days",
+   "summary": "Once you protect them, chosen Entra objects (cloud users, cloud-only groups, apps and service principals) can't be permanently deleted for the first seven days after they're deleted, so they can still be restored. It needs no extra licence for these types, but the protection itself can't be undone.",
+   "for": "School IT and identity admins",
+   "status": "Preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/entra/backup/configure-hard-deletion-protection"
+    },
+    {
+     "outlet": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/"
+    }
+   ]
+  },
+  {
+   "id": "autopatch-one-quality-update-policy",
+   "title": "One Windows Autopatch policy now manages Windows, .NET Framework and quick machine recovery updates",
+   "summary": "In Microsoft Intune, a single Windows Autopatch quality update policy now manages Windows quality updates, .NET Framework updates and quick machine recovery updates, with automatic or manual approval for each and new reports. Handy, for example, for holding optional updates until exams are over.",
+   "for": "School IT",
+   "status": "Available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Windows IT Pro Blog",
+     "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/granular-controls-for-multiple-updates-in-windows-autopatch/4572668"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-365-apps-update-repair",
+   "title": "Update Repair finds out-of-date Microsoft 365 Apps and repairs them remotely",
+   "summary": "In the Microsoft 365 Apps admin center, Update Repair shows Windows PCs whose Microsoft 365 Apps are out of date or failing to update, and lets admins remotely start Online Repair on eligible devices, which reinstalls the latest build for the device's update channel.",
+   "for": "School IT",
+   "status": "Launched",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576286"
+    }
+   ]
+  },
+  {
+   "id": "copilot-in-database-hub",
+   "title": "Copilot in Fabric's Database Hub answers 'What should I fix first?'",
+   "summary": "Copilot in Database Hub, in Microsoft Fabric, answers plain-language questions about your Azure, Fabric, on-premises and multicloud databases, such as 'What should I fix first?', ranking issues across performance, security and migration readiness. It's in public preview.",
+   "for": "University data teams",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "THE DATA LAB",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Azure SQL Blog",
+     "url": "https://techcommunity.microsoft.com/blog/azuresqlblog/ask-your-database-estate-a-question-copilot-in-database-hub-is-now-in-public-pre/4572704"
+    }
+   ]
+  },
+  {
+   "id": "dp-800-sql-ai-developer",
+   "title": "Exam DP-800 earns the Microsoft Certified: SQL AI Developer Associate certification",
+   "summary": "Passing Exam DP-800 earns Microsoft's SQL AI Developer Associate certification, covering SQL Server, Azure SQL and SQL databases in Microsoft Fabric. Microsoft's Azure SQL team points to three learning paths on Microsoft Learn and the official study guide, for anyone with T-SQL experience.",
+   "for": "Students and staff learning databases",
+   "status": "Exam and learning paths available",
+   "edu": true,
+   "chapter": "THE DATA LAB",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Azure SQL Blog",
+     "url": "https://devblogs.microsoft.com/azure-sql/dp-800-sql-ai-certification/"
+    }
+   ]
+  },
+  {
+   "id": "kb5132061-install-repair",
+   "title": "November's Windows 11 update won't install on some PCs; Microsoft is repairing them automatically",
+   "summary": "Microsoft says some Windows 11 PCs that installed October's optional preview update (KB5127936) can't install the November security update KB5132061, showing errors 0x80070306, 0x800f0989 or 0x800f0993. Affected devices are repaired automatically within 24 to 48 hours from 11 November, then install the update; no action is needed.",
+   "for": "School IT",
+   "status": "Known issue; automatic repair",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
+    }
+   ]
+  },
+  {
+   "id": "exchange-2016-2019-no-updates",
+   "title": "Exchange Server 2016 and 2019 get no more security updates: Microsoft says upgrade",
+   "summary": "November's Exchange Server security updates cover Exchange Server Subscription Edition only. Microsoft says Exchange Server 2016 and 2019 are no longer tested for vulnerabilities or updated, so you should consider them permanently vulnerable and upgrade; Exchange Online customers are already protected.",
+   "for": "University and school IT running Exchange",
+   "status": "No more security updates",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Exchange Team Blog",
+     "url": "https://techcommunity.microsoft.com/blog/exchange/released-november-2026-exchange-server-security-updates/4570368"
+    },
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/saas/2026/11/12/microsoft-exchange-server-2016-and-2019-enter-their-permanently-vulnerable-era/5309401"
+    }
+   ]
+  },
+  {
+   "id": "original-xbox-games-on-pc",
+   "title": "21 more original Xbox games come to PC, and four get achievements for the first time",
+   "summary": "21 more original Xbox games now play on Windows 11 PCs through Xbox Backward Compatibility, 25 in all, each with mouse and keyboard support. Knights of the Old Republic I and II, BLiNX and Conker: Live and Reloaded also get achievements for the first time, on PC and console.",
+   "for": "Students, after hours",
+   "status": "Available in select markets",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/12/25-original-xbox-games-now-available-on-pc/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-playback",
+   "title": "Xbox Playback replays your Xbox story for the 25th anniversary",
+   "summary": "Xbox Playback is a personalised look back at your Xbox history: your first game, total time played, most-played game, top years and longest streak. Watch it on your console or at xbox.com/XBOXPlayback until 31 December, in 15 countries including Australia.",
+   "for": "Students, after hours",
+   "status": "Until 31 December 2026",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/12/xbox-playback-25th-anniversary-review/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Friday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on everything new from Microsoft."
+  },
+  {
+   "s": 15.0,
+   "t": "Level up. Students will soon rehearse presentations in Learning Activities, with Speaker Coach feedback on their delivery."
+  },
+  {
+   "s": 22.5,
+   "t": "Then practise again, with tips for clarity and confidence. It's due in December."
+  },
+  {
+   "s": 31.88,
+   "t": "For teachers, Learning Zone is getting Minecraft connected lessons that match curriculum goals to Build Challenges."
+  },
+  {
+   "s": 39.38,
+   "t": "Launch them from Learning Zone, mix in project work, and see who understood. It's due in February."
+  },
+  {
+   "s": 46.88,
+   "t": "And Microsoft now says Classroom will come to current A1 plans too, at no extra cost, next year."
+  },
+  {
+   "s": 53.91,
+   "t": "Teams is rolling out alt text for OneDrive images, so screen readers can describe them."
+  },
+  {
+   "s": 60.0,
+   "t": "For school IT, Entra's Hard Deletion Protection, in preview, keeps a deleted account restorable for seven days."
+  },
+  {
+   "s": 67.5,
+   "t": "It needs no extra licence, but once you protect an account, you can't undo it, so choose carefully."
+  },
+  {
+   "s": 75.0,
+   "t": "One Autopatch policy now manages Windows, .NET and quick machine recovery updates, each approved your way."
+  },
+  {
+   "s": 82.5,
+   "t": "And admins can now spot PCs with out-of-date Microsoft 365 apps, and repair them remotely."
+  },
+  {
+   "s": 90.0,
+   "t": "In preview, Copilot in Fabric's Database Hub lets university data teams ask, what should I fix first?"
+  },
+  {
+   "s": 97.5,
+   "t": "Studying databases?"
+  },
+  {
+   "s": 99.11,
+   "t": "Exam DP-800 earns Microsoft's SQL AI Developer certification."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? If November's Windows update won't install, Microsoft says affected PCs get repaired automatically."
+  },
+  {
+   "s": 112.5,
+   "t": "Exchange 2016 or 2019?"
+  },
+  {
+   "s": 114.24,
+   "t": "Microsoft says treat them as permanently vulnerable, and upgrade."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, for Xbox's 25th, 21 more original Xbox games landed on PC, 25 in all."
+  },
+  {
+   "s": 129.38,
+   "t": "And four originals, like Knights of the Old Republic and Conker, get achievements for the first time."
+  },
+  {
+   "s": 136.88,
+   "t": "Plus Xbox Playback replays your first game, top years and longest streak, until December 31."
+  },
+  {
+   "s": 143.91,
+   "t": "Practise the talk, build the lesson, guard the accounts, then play: level up."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: shipped today, and more on the way."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And it keeps on shipping."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-13/Microsoft-for-Education-Daily_2026-11-13.mp4",
+  "mb": 52.5,
+  "bytes": 52504459,
+  "seconds": 180.01
+ },
+ "links": {}
+}

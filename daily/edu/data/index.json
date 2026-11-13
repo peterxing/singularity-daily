@@ -1,13 +1,37 @@
 {
  "show": "Microsoft for Education Daily",
- "updated": "2026-11-11T18:53:08+00:00",
- "latest": "2026-11-12",
+ "updated": "2026-11-13T00:19:33+00:00",
+ "latest": "2026-11-13",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/education",
  "share": "https://peterxing.com/daily/education",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-13",
+   "ep": 18,
+   "hook": "LEVEL UP.",
+   "day": "Friday 13 November 2026",
+   "name": "Microsoft for Education Daily",
+   "stories": 13,
+   "edu": 4,
+   "titles": [
+    "Speaker Coach is coming to Learning Activities, so students can rehearse presentations",
+    "Learning Zone is getting Minecraft connected lessons",
+    "Microsoft Classroom will come to current A1 plans too, at no additional cost"
+   ],
+   "cover": "daily/edu/media/2026-11-13/cover.webp",
+   "thumb": "daily/edu/media/2026-11-13/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-13/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-13/Microsoft-for-Education-Daily_2026-11-13.mp4",
+    "mb": 52.5,
+    "bytes": 52504459,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-12",
    "ep": 17,
@@ -72,7 +96,7 @@
    "cover": "daily/edu/media/2026-11-10/cover.webp",
    "thumb": "daily/edu/media/2026-11-10/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/edu/media/2026-11-10/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-10/Microsoft-for-Education-Daily_2026-11-10.mp4",
     "mb": 50.7,
