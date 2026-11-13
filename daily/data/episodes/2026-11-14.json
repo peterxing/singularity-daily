@@ -1,0 +1,494 @@
+{
+ "date": "2026-11-14",
+ "ep": 41,
+ "hook": "LOST AND FOUND.",
+ "day": "Saturday 14 November 2026",
+ "chapters": [
+  "LOST AND FOUND",
+  "THE AGENTS",
+  "THE MONEY",
+  "THE FORECAST",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:20 AEDT, Sat 14 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: Amazon's 'World Product Graph' plan (a Reuters exclusive, from an internal document); Nvidia's board approaching Rene Haas (Financial Times); Anthropic's banks turning away orders from China (Bloomberg); OpenAI disbanding its robotics team (Fortune).",
+  "The Gödel figures are Jan von Plato's, as told to The Guardian: Claude worked from his transcriptions, and its 663 theorems were checked page by page and in the Coq proof checker (about 400 held as stated, about 200 were repaired, about 50 were false).",
+  "The 2083 crossover is one scenario of more than 4,000 in a study published on RealClearScience; ASUS's Gallop figures are targets, not results.",
+  "Screenshots are the publishers' public article pages as captured on 14 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "LOST AND FOUND. 🔎\n\nThe last 24h in superintelligence:\n- Claude helped find 663 theorems in Gödel's notebooks\n- ChatGPT got a wallet\n- Nvidia shed ~$1.6T in six weeks\n- Humanoids could outnumber us by ~2083, a study says\n\nWhat would you have AI dig up?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (14 Nov 2026), hosted by Claudia: Claude helping uncover 663 theorems in Kurt Gödel's notebooks, OpenAI's ChatGPT Wallet, Meta's Muse making phone calls, Amazon's reported product-data plan, Nvidia's $1.6 trillion slide and CEO search, Cerebras' surge, Anthropic's coming IPO, a study on humanoid robots outnumbering people, AI-powered cyberattacks, senators calling for testimony, Zoox's robotaxi in Atlanta, ASUS's Gallop robot and OpenAI's robotics team, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "THE GUARDIAN: GÖDEL'S 16 NOTEBOOKS RUN TO 1,009 PAGES, MUCH OF THEM IN GABELSBERGER SHORTHAND",
+  "JAN VON PLATO ON GÖDEL'S NOTEBOOKS: 'I WAS FLABBERGASTED'",
+  "VON PLATO: CLAUDE'S PROOF OF GÖDEL'S AXIOM-OF-CHOICE RESULT PASSED THE COQ PROOF CHECKER",
+  "CNBC: CHATGPT WALLET IS BUILT WITH AMERICAN EXPRESS, MASTERCARD AND VISA",
+  "CNBC: OPENAI ISN'T TAKING A CUT OF WALLET PURCHASES TO START",
+  "CNBC: CHATGPT HAS MORE THAN 1.2 BILLION WEEKLY ACTIVE USERS",
+  "ENGADGET: META SAYS MUSE HAS MORE THAN 10 MILLION USERS",
+  "REUTERS: AMAZON SAYS DRAFT DOCUMENTS 'DON'T NECESSARILY REFLECT OUR CURRENT PLANS'",
+  "CNBC: NVIDIA HAS FALLEN BELOW APPLE IN MARKET VALUE",
+  "CNBC: NVIDIA REPORTS QUARTERLY RESULTS ON TUESDAY",
+  "REUTERS: CEREBRAS PLANS TO TRIPLE ITS REVENUE IN 2027",
+  "KYODO: 'NUMERICAL CROSSOVER SHOULD NOT BE CONFUSED WITH SOCIAL, POLITICAL OR ECONOMIC DOMINANCE'",
+  "THE NEXT WEB: THE 2015 CYBERSECURITY INFORMATION SHARING ACT EXPIRES NEXT MONTH",
+  "NBC NEWS: COMMERCE SECRETARY LUTNICK HAS AGREED TO TESTIFY ABOUT NVIDIA",
+  "ZOOX: ATLANTA JOINS AUSTIN AND MIAMI AS A TEST CITY; PUBLIC RIDES RUN IN LAS VEGAS",
+  "ASUS: GALLOP CUSTOMER PILOTS IN 2027, ON SALE IN THE SECOND HALF OF 2028",
+  "WIRED: NVIDIA EMPLOYEES PETITION FOR JENSEN HUANG'S RETURN",
+  "REUTERS: SOUTH KOREA SAYS NVIDIA WILL KEEP ITS GPU PLEDGES",
+  "REUTERS: SMIC SAYS THE AI CHIP SUPPLY CHAIN WILL STAY TIGHT THROUGH 2027",
+  "NIKKEI ASIA: URANIUM HITS A RECORD AS AI DEMAND PROMPTS A NUCLEAR COMEBACK",
+  "THE INFORMATION: MUSK'S AI GROUP CUT ABOUT 60 JOBS FROM ITS GROK VIDEO TEAM",
+  "TOM'S HARDWARE: A 1994 JEEP CHEROKEE OWNER USED CLAUDE AND $15 OF HARDWARE TO HACK HIS CAR FOR CALIFORNIA SMOG TESTS",
+  "PHORONIX: OPENAI CODEX HELPED FIX A NEARLY 20-YEAR-OLD RADEON LINUX DRIVER BUG"
+ ],
+ "sources": [
+  "The Guardian",
+  "CNBC",
+  "Reuters",
+  "OpenAI",
+  "Engadget",
+  "Meta",
+  "The Express Tribune",
+  "Financial Times",
+  "MarketScreener",
+  "AOL",
+  "Bloomberg",
+  "Kyodo",
+  "Bangkok Post",
+  "The Next Web",
+  "Fortune",
+  "NBC News",
+  "Zoox",
+  "CBS News",
+  "ASUS",
+  "Unite.AI",
+  "TechFlow",
+  "WIRED",
+  "Nikkei Asia",
+  "The Information",
+  "Tom's Hardware",
+  "Phoronix"
+ ],
+ "scanned": 4200,
+ "stories": [
+  {
+   "id": "godel-notebooks-claude",
+   "title": "Claude helps uncover 663 theorems in Kurt Gödel's notebooks",
+   "summary": "Logician Jan von Plato used Claude to digest 1,009 pages of Gödel's 1940s notebooks, much of them in obsolete shorthand, in days. It found 663 theorems; in a proof checker about 400 held as stated, about 200 were repaired and about 50 were false, he told The Guardian.",
+   "chapter": "LOST AND FOUND",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Claude digested 1,009 pages in days on a project that had moved about a page a week; one project, not a field-wide speedup."
+    }
+   ]
+  },
+  {
+   "id": "chatgpt-wallet",
+   "title": "OpenAI launches ChatGPT Wallet so its agents can pay for you",
+   "summary": "Built with American Express, Mastercard and Visa, it lets OpenAI's 'dots' agents buy things with a one-time payment token, never the card number, and the user approves every purchase. It starts with US Pro subscribers aged 18 and over.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "OpenAI"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "muse-phone-calls",
+   "title": "Meta's Muse agent can now phone businesses for paid users",
+   "summary": "Muse can call businesses to make reservations, book appointments and handle the 'calls you don't want to make', Meta's Alexandr Wang said; it needs a paid Muse subscription. Meta says Muse has more than 10 million users.",
+   "chapter": "THE AGENTS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Engadget",
+     "url": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/"
+    },
+    {
+     "outlet": "Digital Trends"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amazon-world-product-graph",
+   "title": "Amazon reportedly plans a 'World Product Graph' to fend off AI shopping agents",
+   "summary": "According to an internal document reviewed by Reuters, Amazon aims to gather data on virtually every item for sale on Earth, with an aspirational date of 1 October 2027. Amazon said draft documents don't necessarily reflect its current plans.",
+   "chapter": "THE AGENTS",
+   "badge": "REPORTED",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "The Express Tribune (Reuters)",
+     "url": "https://tribune.com.pk/story/2640155/amazons-plan-to-own-the-worlds-product-data-and-fight-ai-shopping-agents"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-six-week-slide",
+   "title": "Nvidia has shed about $1.6 trillion in market value in six weeks",
+   "summary": "Nvidia was on track for a sixth straight weekly drop, its longest losing streak since 2012, down 29% over that stretch as of Thursday's close, CNBC reported. It fell below Apple, and its quarterly results are due on Tuesday.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-haas-approach",
+   "title": "Nvidia's board reportedly approached Arm CEO Rene Haas about the top job",
+   "summary": "The board approached Haas in its search for a successor to Jensen Huang, the Financial Times reported, citing people familiar with the matter. CFO Colette Kress is interim CEO.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "MarketScreener (Reuters)",
+     "url": "https://www.marketscreener.com/news/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports-ce785ed9d08cf322"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cerebras-surge",
+   "title": "Cerebras jumps about 17% on a surprise profit and a Microsoft deal",
+   "summary": "The AI chipmaker posted an adjusted profit of $29.82 million, raised its 2026 revenue forecast to $940 million to $960 million and signed a cloud deal with Microsoft, Reuters reported. It plans to triple revenue in 2027.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Reuters (via AOL)",
+     "url": "https://www.aol.com/articles/cerebras-shares-surge-profit-surprise-115258000.html"
+    },
+    {
+     "outlet": "Barron's"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-ipo-china",
+   "title": "Anthropic's IPO is due next week; banks reportedly turned away orders from China",
+   "summary": "Investors based in mainland China and Hong Kong were excluded from placing orders, Bloomberg reported. The listing, expected next week, targets a valuation of about $1.4 trillion.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "MarketScreener (Bloomberg)",
+     "url": "https://www.marketscreener.com/news/anthropic-ipo-share-orders-from-china-said-to-be-rebuffed-by-banks-bloomberg-reports-ce785ed9d181f121"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "early",
+     "note": "Anthropic's listing targets a valuation of about $1.4 trillion; the price isn't set until it lists."
+    }
+   ]
+  },
+  {
+   "id": "humanoids-outnumber-2083",
+   "title": "Study: humanoid robots could outnumber people by around 2083",
+   "summary": "In one of over 4,000 scenarios, researchers from the universities of Milan and Exeter and Rockefeller University project more than 10 billion humanoids by about 2083, if robots help build robots and power and parts suffice. About 10,000 exist today.",
+   "chapter": "THE FORECAST",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Bangkok Post (Kyodo)",
+     "url": "https://www.bangkokpost.com/life/tech/3354011/android-population-could-hit-10-billion-outnumbering-humans-by-2083-study"
+    },
+    {
+     "outlet": "Qazinform"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-cyberattack-reporting",
+   "title": "Trump's AI task force wants critical industries reporting AI-powered cyberattacks",
+   "summary": "The task force discussed national standards for AI developers to report safety incidents, and ways for critical infrastructure providers to report attacks without legal risk, The Next Web reported, citing Reuters. A key US cyber-sharing law expires next month.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/trump-ai-task-force-ai-cyberattacks-reporting"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "The White House task force discussed national standards for AI developers to report safety incidents; a discussion, not a mandate."
+    }
+   ]
+  },
+  {
+   "id": "senate-huang-lutnick",
+   "title": "Senate Banking chair asks Jensen Huang and Howard Lutnick to testify",
+   "summary": "Chairman Tim Scott sent letters asking the former Nvidia CEO and the Commerce Secretary to testify next month over 'significant national security concerns', or face subpoenas, Reuters and Fortune reported. Lutnick has agreed to testify.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Fortune"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "zoox-atlanta",
+   "title": "Zoox's steering-wheel-free robotaxi is now driving in Atlanta",
+   "summary": "Zoox's purpose-built robotaxi, with no steering wheel or driver's seat, began driving in northwest Atlanta, with rides only for employees, their families and friends at first. Its public service runs in Las Vegas.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/zoox-brings-purpose-built-robotaxi-to-atlanta-for-limited-testing/"
+    },
+    {
+     "outlet": "Zoox"
+    },
+    {
+     "outlet": "CBS News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "asus-gallop",
+   "title": "ASUS trains Gallop, its first humanoid robot, from skilled workers' demonstrations",
+   "summary": "Workers wear head-mounted cameras to show the job as Gallop learns to pack 15 motherboard accessories, aiming for 99.5% success within 20 seconds per board; those are targets. Customer pilots are planned for 2027.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "ASUS",
+     "url": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot/"
+    },
+    {
+     "outlet": "Unite.AI"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-robotics-team",
+   "title": "OpenAI reportedly disbands its robotics team, betting on general models",
+   "summary": "Fortune reported that OpenAI broke up its robotics research team and moved its researchers to other teams; OpenAI said it isn't abandoning robotics and aims to speed it up through general-purpose AI models.",
+   "chapter": "THE MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "TechFlow (citing Fortune)",
+     "url": "https://www.techflowpost.com/en-US/newsletter/144597"
+    },
+    {
+     "outlet": "Fortune"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Saturday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in superintelligence, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Today's about lost and found. Einstein's genius friend, Kurt Gödel, left notebooks almost nobody could read."
+  },
+  {
+   "s": 22.5,
+   "t": "Claude, an AI, went through them in days and found 663 theorems."
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, ChatGPT got a wallet. OpenAI's agents, called dots, can now shop and pay for you."
+  },
+  {
+   "s": 39.38,
+   "t": "The agent never sees your card number, and you still approve every single purchase."
+  },
+  {
+   "s": 45.94,
+   "t": "And Meta's agent, Muse, can now make the phone calls you don't want to make."
+  },
+  {
+   "s": 52.97,
+   "t": "Amazon's answer? Reportedly, a plan to gather data on nearly every product on Earth."
+  },
+  {
+   "s": 60.0,
+   "t": "Over on Wall Street, Nvidia has shed about $1.6 trillion in six weeks."
+  },
+  {
+   "s": 67.5,
+   "t": "Its board, hunting for a new boss, reportedly approached Rene Haas, who runs chip designer Arm."
+  },
+  {
+   "s": 75.0,
+   "t": "Rival chipmaker Cerebras jumped about 17%, on a surprise profit and a Microsoft deal."
+  },
+  {
+   "s": 82.5,
+   "t": "And Anthropic's giant stock debut is due next week."
+  },
+  {
+   "s": 86.02,
+   "t": "Its bankers reportedly turned away orders from China."
+  },
+  {
+   "s": 90.0,
+   "t": "Now, a long view."
+  },
+  {
+   "s": 91.25,
+   "t": "Researchers say humanoid robots could outnumber people by around 2083."
+  },
+  {
+   "s": 97.5,
+   "t": "That's if robots help build robots. Today, there are only about 10,000 of them."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? AI-powered cyberattacks."
+  },
+  {
+   "s": 107.39,
+   "t": "Trump's task force wants critical industries reporting them."
+  },
+  {
+   "s": 111.56,
+   "t": "And senators want Jensen Huang and Howard Lutnick to testify."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Out on the road, Zoox's robotaxi, with no steering wheel, is now driving in Atlanta."
+  },
+  {
+   "s": 129.38,
+   "t": "Taiwan's ASUS is teaching its first humanoid robot through cameras worn by skilled workers."
+  },
+  {
+   "s": 135.47,
+   "t": "And OpenAI reportedly broke up its robotics team, betting its general AI models can run robots."
+  },
+  {
+   "s": 142.5,
+   "t": "That's today's lost and found."
+  },
+  {
+   "s": 144.34,
+   "t": "Good ideas can wait eighty years for the right reader."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-14/Singularity-Daily_2026-11-14.mp4",
+  "mb": 70.1,
+  "bytes": 70127271,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

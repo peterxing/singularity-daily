@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T01:16:56+00:00",
- "latest": "2026-11-13",
+ "updated": "2026-11-13T18:14:07+00:00",
+ "latest": "2026-11-14",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -20,6 +20,34 @@
  },
  "data": "5c942421e452",
  "episodes": [
+  {
+   "date": "2026-11-14",
+   "ep": 41,
+   "hook": "LOST AND FOUND.",
+   "day": "Saturday 14 November 2026",
+   "stories": 14,
+   "forecasts": 3,
+   "links": {
+    "supports": 0,
+    "early": 3,
+    "challenges": 0
+   },
+   "titles": [
+    "Claude helps uncover 663 theorems in Kurt Gödel's notebooks",
+    "OpenAI launches ChatGPT Wallet so its agents can pay for you",
+    "Meta's Muse agent can now phone businesses for paid users"
+   ],
+   "cover": "daily/media/2026-11-14/cover.webp",
+   "thumb": "daily/media/2026-11-14/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-14/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-14/Singularity-Daily_2026-11-14.mp4",
+    "mb": 70.1,
+    "bytes": 70127271,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-13",
    "ep": 40,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-07/cover.webp",
    "thumb": "daily/media/2026-11-07/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-07/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-07/Singularity-Daily_2026-11-07.mp4",
     "mb": 71.5,
