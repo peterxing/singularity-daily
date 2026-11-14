@@ -1,0 +1,456 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-15",
+ "ep": 20,
+ "hook": "BACK TO CLASS.",
+ "day": "Sunday 15 November 2026",
+ "note": "FOR EDUCATION · SUNDAY 15 NOVEMBER 2026",
+ "tldr": "Microsoft 365 is back after the outage, fake outage notices are doing the rounds, and teachers get Minecraft and AI workshop news from Spain and Italy.",
+ "chapters": [
+  "BACK TO CLASS",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "THE LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, from the 80 hours to 05:00 AEDT, Sun 15 Nov 2026 (Wednesday 11 to Saturday 14 Nov in the US), plus This-week items.",
+ "notes": [
+  "This week: Valencia's Minecraft Education Challenge (announced 11 Nov; entries 9-22 Nov, Valencian schools only) and Rome's Elevate for Educators Day (17 Nov; free, limited places). The week's other education news (Microsoft Classroom, Speaker Coach, Learning Zone's Minecraft lessons) was covered 12-13 Nov.",
+  "Teams' impersonation warnings are rolling out (roadmap 573157); Facilitator's question help is in development, due February 2027 (558341); Power Platform's hourly alerts reach public preview by 20 Nov; Gemini 4 Hydrogen is rolling out gradually to Copilot Pro and up. The fake-notice details are Microsoft Threat Intelligence's, as reported by iTnews.",
+  "Screenshots are the publishers' public pages as captured on 15 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "BACK TO CLASS. 🎒\n\nThe week's best at Microsoft for education:\n- Valencia's Minecraft Education challenge adds special ed\n- Free AI workshops for teachers in Rome on Tuesday\n- Microsoft 365 restored; beware fake outage emails\n- Teams is rolling out impersonation warnings",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (15 Nov 2026): Microsoft 365 fully restored after the outage, fake outage notices, Valencia's Minecraft Education Challenge and its special education category, Rome's Elevate for Educators Day workshops, Teams impersonation warnings and Facilitator's question help, the out-of-band KMS activation fix, GitHub Enterprise Server in the GitHub Copilot app, Gemini 4 Hydrogen in GitHub Copilot, Power Platform hourly alerts, Microsoft's AI-assisted Linux kernel bug hunt, GitHub Copilot's December model retirements, the SCKit ScreenConnect attacks, Candy Crush's Xbox 25 season and Ranger's Path, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "SPAIN: VALENCIA'S MINECRAFT EDUCATION CHALLENGE HAS SEVEN CATEGORIES; ENTRIES CLOSE 22 NOVEMBER",
+  "VALENCIA'S CHALLENGE: STUDENT TEAMS BUILD CURRICULAR WORLDS IN MINECRAFT EDUCATION; 21 REACH THE FINAL",
+  "ROME, 17 NOVEMBER: ELEVATE FOR EDUCATORS DAY WORKSHOPS COVER MINECRAFT EDUCATION, THE HOUR OF AI AND AI FOUNDATIONS",
+  "ELEVATE FOR EDUCATORS DAY ALSO COVERS RECOGNISING DEEPFAKES AND AI TOOLS FOR INCLUSION",
+  "MUMBAI: AI EXPLORERS, SUPPORTED BY MICROSOFT PHILANTHROPIES INDIA, REACHED 9,087 CHILDREN AND TRAINED 80 TEACHERS",
+  "FAKE OUTAGE EMAILS USED SUBJECT LINES LIKE 'OUTAGE - [SIX-CHARACTER CODE]'",
+  "MICROSOFT: THE FAKE NOTICES REFERENCE THE REAL EXCHANGE ONLINE INCIDENT, EX1550543",
+  "MICROSOFT 365: OUTLOOK, TEAMS AND COPILOT ARE FULLY RESTORED; A POST-INCIDENT REPORT IS STILL TO COME",
+  "TEAMS IMPERSONATION PROTECTION: WARNINGS AND RISK INDICATORS ON ANDROID, DESKTOP, IOS, MAC AND WEB",
+  "KMS FIX: DEVICES THAT WERE ALREADY ACTIVATED STAYED ACTIVATED, MICROSOFT SAYS",
+  "SQL SERVER LINKED SERVER CONNECTIONS MAY STAY OPEN AFTER OCTOBER'S WINDOWS UPDATES; AN OUT-OF-BAND FIX IS DUE",
+  "COPILOT APP: CLOUD SESSIONS AREN'T AVAILABLE FOR GITHUB ENTERPRISE SERVER",
+  "GITHUB COPILOT: CLAUDE HAIKU 4.5 STAYS FOR INDIVIDUAL SUBSCRIBERS ON ANNUAL PLANS",
+  "GITHUB: THE WFX-LOOT CAMPAIGN USED 4,837 COMPROMISED ACCOUNTS TO PROBE 61,764 REPOSITORIES, BLEEPINGCOMPUTER REPORTS",
+  "CHECK FOR OPEN PULL REQUESTS TITLED 'DOCS: DEPENDENCY AUDIT NOTES' AND A 'WFX-DOCS' BRANCH",
+  "MICROSOFT'S LINUX BUG HUNT: 33 CVES ASSIGNED AND 38 FIXES MERGED INTO THE MAINLINE KERNEL",
+  "AZURE DATA SHARE WILL BE RETIRED ON 12 NOVEMBER 2029",
+  "AZURE SQL MANAGED INSTANCE: SQL PERFORMANCE MONITORING IS IN PUBLIC PREVIEW",
+  "AZURE FRONT DOOR PREMIUM WAF: RATE LIMIT GROUPING IS IN PUBLIC PREVIEW",
+  "XBOX, 19 NOVEMBER: GRAND THEFT AUTO VI, ON XBOX CLOUD GAMING AT LAUNCH",
+  "XBOX, 20 NOVEMBER: CATS IN WONDERLAND, A HIDDEN OBJECT GAME",
+  "CANDY CRUSH'S SIX XBOX THEMES WILL ALSO BE ON STREAMING PLATFORMS"
+ ],
+ "sources": [
+  "Microsoft",
+  "AP",
+  "Chicago Tribune",
+  "iTnews",
+  "Castellón Información",
+  "Orizzonte Scuola",
+  "Microsoft 365 Roadmap",
+  "Microsoft Support",
+  "GitHub Changelog",
+  "Power Platform Blog",
+  "Microsoft Security Blog",
+  "Xbox Wire",
+  "BleepingComputer",
+  "The Better India"
+ ],
+ "scanned": 2512,
+ "stories": [
+  {
+   "id": "m365-fully-restored",
+   "title": "Microsoft 365 is fully restored after this week's outage",
+   "summary": "Microsoft says Outlook, Teams and Copilot are fully restored: it has 'completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions'. A post-incident report is still to come.",
+   "for": "Everyone on campus",
+   "status": "Fully restored",
+   "edu": false,
+   "chapter": "BACK TO CLASS",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "AP (Chicago Tribune)",
+     "url": "https://www.chicagotribune.com/2026/11/14/microsoft-services-restored-after-outage/"
+    },
+    {
+     "outlet": "Illawarra Mercury",
+     "url": "https://www.illawarramercury.com.au/story/9391504/microsoft-services-fully-recover-after-global-outage/"
+    }
+   ]
+  },
+  {
+   "id": "fake-outage-notices",
+   "title": "Watch for fake Microsoft 365 outage notices",
+   "summary": "Microsoft Threat Intelligence saw emails posing as Microsoft 365 service health notices that claim mail held during the outage will be deleted within 24 hours unless you click, with subject lines like 'Outage - [code]', as reported by iTnews.",
+   "for": "Staff and students",
+   "status": "Security advisory",
+   "edu": false,
+   "chapter": "BACK TO CLASS",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "iTnews",
+     "url": "https://www.itnews.com.au/news/phishers-quick-to-exploit-extended-m365-outage-630347"
+    }
+   ]
+  },
+  {
+   "id": "valencia-minecraft-challenge",
+   "title": "Valencia's Minecraft Education Challenge adds a special education category",
+   "summary": "The Valencian Community's third Minecraft Education Challenge has student teams, tutored by a teacher, build curricular worlds in seven categories, now including special education. Secondary, basic vocational and special education schools in the region can apply until 22 November.",
+   "for": "Teachers in the Valencian Community",
+   "status": "Entries close 22 November",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": "THIS WEEK",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Castellón Información",
+     "url": "https://www.castelloninformacion.com/educacio-convoca-concurs-minecraft-education-nova-modalitat-centres-deducacio-especial/"
+    },
+    {
+     "outlet": "Generalitat Valenciana",
+     "url": "https://ceice.gva.es/va/web/innovacion-educacion/-/projecte-minecraft-education"
+    }
+   ]
+  },
+  {
+   "id": "elevate-educators-day-rome",
+   "title": "Elevate for Educators Day in Rome: free hands-on AI workshops for teachers",
+   "summary": "On Tuesday 17 November at Microsoft House in Rome, Microsoft and ANP host a morning for principals and three free afternoon workshops for teachers: Minecraft Education and the Hour of AI, safe AI and spotting deepfakes, and AI tools that include every student. Places are limited.",
+   "for": "Teachers and principals in Italy",
+   "status": "17 November, free",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": "THIS WEEK",
+   "date": "2026-11-10",
+   "sources": [
+    {
+     "outlet": "Orizzonte Scuola",
+     "url": "https://www.orizzontescuola.it/laboratori-pratici-e-gratuiti-sullia-a-scuola-microsoft-apre-la-sua-nuova-sede-di-roma-a-dirigenti-e-docenti-evento-a-numero-chiuso-iscriviti/"
+    },
+    {
+     "outlet": "Registration",
+     "url": "https://www.wattajob.it/elevate-educators-day-roma/"
+    }
+   ]
+  },
+  {
+   "id": "teams-impersonation-protection",
+   "title": "Teams meetings now flag possible impersonators",
+   "summary": "Impersonation Protection for Teams meetings surfaces warnings and risk indicators when Teams detects a potential impersonation attempt by a participant or organizer. Handy for an online class or a parent evening (our example).",
+   "for": "Teachers and staff who meet online",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573157"
+    }
+   ]
+  },
+  {
+   "id": "teams-facilitator-questions",
+   "title": "Teams' Facilitator is due to help with questions nobody answers in meetings",
+   "summary": "When someone asks a question in a Teams meeting and no one answers, Facilitator is due to offer to find an answer with web search; participants choose 'Yes' to get it.",
+   "for": "Teachers and lecturers",
+   "status": "Due February 2027",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=558341"
+    }
+   ]
+  },
+  {
+   "id": "kms-activation-fix",
+   "title": "Out-of-band updates fix November's KMS activation bug",
+   "summary": "Out-of-band updates such as KB5136483 fix slmgr.vbs licensing and activation commands failing with error 0x80041008 after November's updates. It mainly hit organisations scripting KMS activation; already-activated PCs stayed activated.",
+   "for": "School IT",
+   "status": "Fix available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/help/5136483"
+    }
+   ]
+  },
+  {
+   "id": "copilot-app-ghes",
+   "title": "The GitHub Copilot app now works with GitHub Enterprise Server",
+   "summary": "Add a GitHub Enterprise Server account to the GitHub Copilot app (version 1.2.0 and later) to work with remote repositories, issues and pull requests. Cloud sessions aren't available for GHES.",
+   "for": "University dev teams",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app"
+    }
+   ]
+  },
+  {
+   "id": "gemini-4-hydrogen-copilot",
+   "title": "Gemini 4 Hydrogen arrives in GitHub Copilot",
+   "summary": "Google's latest Flash model, built for fast agentic coding and tool use, is generally available in GitHub Copilot for Pro, Pro+, Max, Business and Enterprise users, rolling out gradually in VS Code, Visual Studio, the CLI and more.",
+   "for": "Coding classes and research teams",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"
+    }
+   ]
+  },
+  {
+   "id": "power-platform-hourly-alerts",
+   "title": "Power Platform alerts can check critical flows, apps and agents every hour",
+   "summary": "Monitor's new hourly alert rules check chosen health metrics every hour instead of every day, for Copilot Managed Runtime apps and supported Power Platform resources. It reaches public preview in all commercial clouds by 20 November.",
+   "for": "Campus app makers and IT",
+   "status": "Public preview by 20 November",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Power Platform Blog",
+     "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/11/act-faster-hourly-alerts-for-your-critical-flows-apps-and-agents/"
+    }
+   ]
+  },
+  {
+   "id": "forge-linux-bug-hunt",
+   "title": "Microsoft's AI-assisted Linux bug hunt: 59 reports from over 26,000 findings",
+   "summary": "In Microsoft's FORGE Lab, one researcher and one intern used AI to scan Linux kernel subsystems: 26,502 raw findings became 59 upstream reports and 33 CVEs, after months of expert checking with Linux maintainers.",
+   "for": "Computer science students",
+   "status": "Research",
+   "edu": false,
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/"
+    }
+   ]
+  },
+  {
+   "id": "copilot-model-retirements",
+   "title": "GitHub Copilot retires six models on 14 December",
+   "summary": "Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6 and Kimi K3 leave all Copilot experiences; move workflows to the suggested alternatives, such as Gemini 4 Hydrogen. Haiku 4.5 stays for individual subscribers on annual plans.",
+   "for": "Student and staff developers",
+   "status": "Retires 14 December 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+    }
+   ]
+  },
+  {
+   "id": "sckit-screenconnect",
+   "title": "Attackers abused ScreenConnect to spread the SCKit worm, Microsoft says",
+   "summary": "Microsoft Threat Intelligence confirmed attacks on managed service providers' cloud-hosted ScreenConnect instances that installed unauthorised remote-access clients and SCKit, which targets technicians' PCs. If your school's IT support uses ScreenConnect, check technician PCs and managed devices.",
+   "for": "School IT",
+   "status": "Security advisory",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/"
+    }
+   ]
+  },
+  {
+   "id": "candy-crush-xbox-25",
+   "title": "Candy Crush Saga celebrates Xbox's 25th with a Game On! Season",
+   "summary": "For four weeks, Candy Crush Saga has collectible pins from Halo, Fallout, Sea of Thieves, Forza, DOOM, Banjo-Kazooie, Crash and Spyro, plus six game themes reworked with an orchestra, the Bulgarian Voices Berlin choir and an accordion.",
+   "for": "Students, after hours",
+   "status": "Out now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/12/candy-crush-saga-game-on-halo-fallout-sea-of-thieves-xbox-25/"
+    }
+   ]
+  },
+  {
+   "id": "rangers-path-xbox",
+   "title": "Ranger's Path: National Park Simulator comes to Xbox on 17 November",
+   "summary": "Restore trails, assist visitors and document wildlife as a park ranger in Faremont National Park; it's an Xbox Play Anywhere game, and release dates are subject to change.",
+   "for": "Students, after hours",
+   "status": "Out 17 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/13/next-week-on-xbox-new-games-for-november-16-to-20/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Sunday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what shipped at Microsoft in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Back to class. Microsoft says Outlook, Teams and Copilot are fully restored after this week's outage."
+  },
+  {
+   "s": 22.5,
+   "t": "And watch for fake outage emails saying your held mail will be deleted."
+  },
+  {
+   "s": 31.88,
+   "t": "In Spain, Valencia's Minecraft Education challenge now has a category for special education schools."
+  },
+  {
+   "s": 39.38,
+   "t": "In Rome on Tuesday, Microsoft's Elevate for Educators Day runs free, hands-on AI workshops for teachers."
+  },
+  {
+   "s": 46.88,
+   "t": "Teaching online?"
+  },
+  {
+   "s": 47.78,
+   "t": "Teams is rolling out warnings that flag possible impersonators in your meetings."
+  },
+  {
+   "s": 53.91,
+   "t": "From February, Teams' Facilitator should spot unanswered questions and offer to look them up."
+  },
+  {
+   "s": 60.0,
+   "t": "For school IT, an out-of-band update fixes November's bug that broke KMS activation commands."
+  },
+  {
+   "s": 67.5,
+   "t": "University dev teams on GitHub Enterprise Server ca n now bring their repos into the GitHub Copilot app."
+  },
+  {
+   "s": 75.0,
+   "t": "Coding with Copilot?"
+  },
+  {
+   "s": 76.39,
+   "t": "Google's Gemini 4 Hydrogen is rolling out, for Pro plans and up."
+  },
+  {
+   "s": 82.5,
+   "t": "Campus app makers get hourly alerts for critical flows, apps and agents, in preview by November 20."
+  },
+  {
+   "s": 90.0,
+   "t": "In the lab, a Microsoft researcher and an intern used AI to hunt for Linux bugs."
+  },
+  {
+   "s": 97.5,
+   "t": "Over 26,000 raw findings became 59 bug reports, after months of expert checking."
+  },
+  {
+   "s": 105.0,
+   "t": "On December 14, GitHub Copilot retires six models, like Gemini 3.8 Flash."
+  },
+  {
+   "s": 112.5,
+   "t": "And if your school's IT support uses ScreenConnect, Microsoft says attackers abused it to spread malware."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Candy Crush celebrates Xbox's 25th with Halo, Fallout and Forza pins, for four weeks."
+  },
+  {
+   "s": 129.38,
+   "t": "Six game themes got the Candy Crush treatment, with an orchestra, a choir and, yes, an accordion."
+  },
+  {
+   "s": 136.88,
+   "t": "And from Tuesday, Ranger's Path lets you restore trails and document wildlife in a national park."
+  },
+  {
+   "s": 143.91,
+   "t": "Services restored, fakes spotted, fixes in: Monday's sorted. Back to class."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "On the release board: shipped, and still shipping."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours at Microsoft. Tomorrow, there's more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-15/Microsoft-for-Education-Daily_2026-11-15.mp4",
+  "mb": 55.4,
+  "bytes": 55372625,
+  "seconds": 180.01
+ },
+ "links": {}
+}
