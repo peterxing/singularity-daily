@@ -1,0 +1,454 @@
+{
+ "date": "2026-11-15",
+ "ep": 42,
+ "hook": "THE HUMAN TOUCH.",
+ "day": "Sunday 15 November 2026",
+ "chapters": [
+  "THE HANDSHAKE",
+  "THE BRAINS",
+  "THE PEOPLE",
+  "THE SKY",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:10 AEDT, Sun 15 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: the UK Treasury wargaming an AI tax (The Telegraph).",
+  "This week (older than the 24 h window): the CSIRO black hole result (Nature, 12 Nov), the lawsuit to freeze frontier AI (filed 12 Nov), Tesla's Cybercab orders (13 Nov) and Runway's Praxis-1 (released 11 Nov).",
+  "MathArena: Gemini 4 Carbon (high) 85.4%, Claude Fable 5.2 (max) 82.8%, GPT-6.1 Sol (max) 80.6%; the costs are for MathArena's settings. Praxis-1's 88 of 100 is Runway's own test. The $17-18 billion per Anthropic co-founder assumes the IPO prices at $70-78.",
+  "Screenshots are the publishers' public article pages as captured on 15 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "THE HUMAN TOUCH. 🤝\n\nThe last 24h in superintelligence:\n- Musk: many Nvidia deals were handshakes\n- Gemini 4 Carbon tops a math benchmark\n- Mukherjee: AI cuts early drug discovery to months\n- 6,000 march against AI data centres\n\nWhat still needs a human touch?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (15 Nov 2026), hosted by Claudia: Elon Musk on Nvidia's handshake deals, Gemini 4 Carbon topping the MathArena leaderboard, Siddhartha Mukherjee on AI drug discovery, Anthropic's co-founders ahead of the IPO, a reported UK AI tax plan, a Trump-Xi AI hotline, AI classes in Karnataka, CSIRO's black hole check, an Edinburgh march against AI data centres, a lawsuit to freeze AI, Tesla's Cybercab orders and Runway's open robot model, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "MUSK ON FRIDAY: 'A PETITION IS UNDERWAY TO REINSTATE JENSEN AND I'M SIGNING IT TOO'",
+  "MONEYCONTROL: THE PETITION TO REINSTATE HUANG HAS PASSED 80,000 SIGNATURES, ITS ORGANISERS SAY",
+  "THE DECODER: CLAUDE FABLE 5.2 COSTS ABOUT 40 TIMES AS MUCH AS GPT-6.1 SOL ON MATHARENA",
+  "THE DECODER: KIMI K3.1 PRO IS THE BEST OPEN MODEL ON MATHARENA, AT 54.3%",
+  "MINT: MANAS AI FINDS A TARGET ON A PANCREATIC CANCER PROTEIN IN TWO HOURS, NOT A DECADE",
+  "CNBC: EACH OF ANTHROPIC'S SEVEN CO-FOUNDERS HOLDS ABOUT 240 MILLION SHARES",
+  "CNBC: ANTHROPIC IS EXPECTED TO START TRADING ON NOV. 19",
+  "THE TELEGRAPH: OPTIONS DISCUSSED INCLUDE A 'ROBOT SERVICES TAX'",
+  "AFP: TRUMP AND XI AGREED IN SEPTEMBER ON A CHANNEL FOR URGENT AI INCIDENTS",
+  "PERTHNOW: THE BLACK HOLE AT THE HEART OF M87 IS 55 MILLION LIGHT YEARS AWAY",
+  "STV: 28 DATA CENTRE PROPOSALS, 8.9 GIGAWATTS, ARE QUEUED FOR SCOTLAND'S GRID",
+  "STV: PLACARDS IN EDINBURGH READ 'AI? AYE RIGHT'",
+  "DECRYPT: THE LAWSUIT TARGETS OPENAI, ANTHROPIC, GOOGLE, META AND SPACEX",
+  "THE VERGE: CYBERCAB BUYERS PUT DOWN A $1,000 NON-REFUNDABLE DEPOSIT",
+  "THE VERGE: MUSK SAYS THE CYBERCAB SUBSCRIPTION SHOULD BE ABOUT $115 A MONTH",
+  "THE DECODER: RUNWAY'S PRAXIS-1 IS OPEN UNDER THE APACHE 2.0 LICENCE",
+  "NYT: AGILE ROBOTS RAISED $500 MILLION AT AN $8.5 BILLION VALUATION, LED BY SOFTBANK WITH NVIDIA",
+  "PULSE 2.0: AGILE ROBOTS' FACTORY NEAR MUNICH CAN BUILD UP TO 10,000 HUMANOIDS A YEAR",
+  "YAHOO TECH: US USERS CAN NOW LINK GOOGLE WALLET TO THE GEMINI APP",
+  "THE MERCURY NEWS: SAN JOSE'S NEWEST CHEERLEADER IS AN AI ROBOT NAMED SIR KIT",
+  "CHICAGO TRIBUNE: MICROSOFT SAYS SERVICES ARE FULLY RESTORED AFTER ITS GLOBAL OUTAGE"
+ ],
+ "sources": [
+  "Reuters",
+  "Moneycontrol",
+  "The Decoder",
+  "MathArena",
+  "Mint",
+  "Hindustan Times",
+  "CNBC",
+  "The Telegraph",
+  "Yahoo Finance",
+  "AFP",
+  "Kuwait Times",
+  "Telegraph India",
+  "Careers360",
+  "PerthNow",
+  "CSIRO",
+  "Nature",
+  "STV News",
+  "BBC",
+  "Decrypt",
+  "The Verge",
+  "Runway",
+  "The New York Times",
+  "Pulse 2.0",
+  "The Mercury News",
+  "Chicago Tribune"
+ ],
+ "scanned": 3896,
+ "stories": [
+  {
+   "id": "musk-nvidia-handshake",
+   "title": "Elon Musk says many of Nvidia's supply deals were a handshake with Jensen Huang",
+   "summary": "On X on Saturday, Musk wrote that many of Nvidia's supply deals were \"a handshake with Jensen, not a written contract\" and that without Huang \"at least some of those critical deals will be lost\". He says he is signing a petition to reinstate Huang, which its organisers say passed 80,000 signatures.",
+   "chapter": "THE HANDSHAKE",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "Moneycontrol",
+     "url": "https://www.moneycontrol.com/world/elon-musk-warns-nvidia-could-lose-critical-deals-after-jensen-huang-s-exit-article-14080268.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gemini-4-carbon-matharena",
+   "title": "Gemini 4 Carbon tops the MathArena math leaderboard, at about 15 times GPT-6.1 Sol's cost",
+   "summary": "Google's Gemini 4 Carbon scored 85.4% on MathArena, ahead of Claude Fable 5.2 (82.8%) and OpenAI's GPT-6.1 Sol (80.6%), the first non-OpenAI model on top in a while. With MathArena's settings it costs about 15 times as much as GPT-6.1 Sol ($15.70 vs $1.07).",
+   "chapter": "THE BRAINS",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/"
+    },
+    {
+     "outlet": "MathArena"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mukherjee-ai-drug-discovery",
+   "title": "Siddhartha Mukherjee: AI cuts early drug discovery from nearly eight years to months",
+   "summary": "At the Hindustan Times Leadership Summit in New Delhi, the oncologist and Manas AI co-founder said AI is compressing early-stage drug discovery from nearly eight years to three or four months, but doesn't yet change the cost of trials or \"the regulatory clock\".",
+   "chapter": "THE BRAINS",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "Mint",
+     "url": "https://www.livemint.com/news/siddhartha-mukherjee-manas-ai-ai-drug-discovery-11794662166518.html"
+    },
+    {
+     "outlet": "Hindustan Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-co-founders",
+   "title": "Anthropic's seven co-founders could each be worth about $17-18 billion after its IPO",
+   "summary": "Each of Anthropic's seven co-founders holds about 240 million class A shares (about 1.4%), CNBC reports; at the expected $70-78 a share, each stake would be worth $17-18 billion. Trading is expected to start on Nov 19.",
+   "chapter": "THE PEOPLE",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uk-treasury-ai-tax",
+   "title": "UK Treasury is reportedly wargaming an AI tax in case of widespread job losses",
+   "summary": "The Telegraph reports that Treasury officials are analysing how AI job losses could cut income tax and National Insurance receipts, with options discussed including a tax on owning or operating AI and a \"robot services tax\". The planning is at an early stage and decisions are some way off.",
+   "chapter": "THE PEOPLE",
+   "badge": "REPORTED",
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "The Telegraph (via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/economy/policy/articles/treasury-wargaming-tax-ai-150000093.html"
+    },
+    {
+     "outlet": "AOL"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2029-5",
+     "key": "f0996ac5cc",
+     "relation": "early",
+     "note": "The Telegraph reports the UK Treasury is studying how AI job losses could erode income tax and National Insurance, with AI taxes among the options."
+    },
+    {
+     "id": "2032-5",
+     "key": "bd4b48a2c0",
+     "relation": "early",
+     "note": "Options reportedly discussed include a tax on owning or operating AI and a 'robot services tax'; decisions are some way off."
+    }
+   ]
+  },
+  {
+   "id": "trump-xi-ai-hotline",
+   "title": "Trump and Xi are set to discuss an AI crisis hotline at APEC in Shenzhen",
+   "summary": "According to AFP, the two presidents agreed in September to create a channel for urgent communication on AI incidents, with details to be worked out at APEC in Shenzhen on Nov 18-19.",
+   "chapter": "THE PEOPLE",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "AFP (via Kuwait Times)",
+     "url": "https://kuwaittimes.com/article/53568/world/trump-and-xi-to-discuss-ai-crisis-hotline-at-apec-as-concerns-grow-over-rogue-models/"
+    },
+    {
+     "outlet": "Khaleej Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "karnataka-ai-classes",
+   "title": "Karnataka brings AI education to Class 9 in 1,800 government high schools",
+   "summary": "India's Karnataka state is introducing AI education for Class 9 students in 1,800 government high schools in the 2026-27 school year, through its Department of School Education and Literacy.",
+   "chapter": "THE PEOPLE",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "Telegraph India",
+     "url": "https://www.telegraphindia.com/edugraph/news/karnataka-introduces-ai-education-for-class-9-students-in-1800-government-schools-details-here/cid/2189437"
+    },
+    {
+     "outlet": "Careers360"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "csiro-black-hole-ai",
+   "title": "A CSIRO AI trained on everyday photos confirms the ring in the first black hole image",
+   "summary": "A CSIRO team in Perth re-imaged the M87* black hole, 55 million light years away, with an AI model trained on everyday pictures such as animals and cars rather than astronomy, and confirmed the ring shape a rival group had questioned. The work was published in Nature.",
+   "chapter": "THE SKY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "PerthNow",
+     "url": "https://www.perthnow.com.au/news/technology/m87-black-hole-perth-csiro-teams-ai-trained-on-cats-and-dogs-confirms-event-horizon-telescope-image-c-23143356"
+    },
+    {
+     "outlet": "CSIRO"
+    },
+    {
+     "outlet": "Nature"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "edinburgh-ai-data-centre-march",
+   "title": "About 6,000 people march in Edinburgh against AI data centres",
+   "summary": "An estimated 6,000 people marched down the Royal Mile to the Scottish Parliament on Saturday, with placards such as \"We cannae drink data\". 28 data centre proposals totalling 8.9GW are queued for Scotland's grid, over twice its winter peak demand.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "STV News",
+     "url": "https://news.stv.tv/east-central/thousands-march-in-edinburgh-against-ai-data-centres"
+    },
+    {
+     "outlet": "BBC"
+    },
+    {
+     "outlet": "The Scotsman"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "About 6,000 marched in Edinburgh against AI data centres, as 28 proposals totalling 8.9GW, over twice Scotland's winter peak, queue for its grid."
+    }
+   ]
+  },
+  {
+   "id": "lawsuit-freeze-frontier-ai",
+   "title": "Four nonprofits sue OpenAI, Anthropic, Google, Meta and SpaceX to freeze frontier AI",
+   "summary": "Public Citizen, the Heat Initiative, Irreplaceable Education Fund and the Alliance for Secure AI filed a complaint in San Francisco Superior Court seeking an injunction against systems more capable than each company's best as of the filing date, Nov 12. These are allegations; no court has ruled.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Decrypt (via Yahoo)",
+     "url": "https://www.yahoo.com/news/politics/articles/openai-anthropic-google-other-ai-170102973.html"
+    },
+    {
+     "outlet": "Public Citizen"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tesla-cybercab-personal",
+   "title": "Tesla invites some buyers to order a Cybercab for personal use, at $29,990 plus $299 a month",
+   "summary": "The steering-wheel-free two-seater costs $29,990 plus a mandatory $299-a-month Autonomy Subscription, with a $1,000 non-refundable deposit, and works only in supported service areas. Musk called the subscription too high, saying it should be about $115 a month.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "AFP"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "runway-praxis-1",
+   "title": "Runway releases Praxis-1, an open robot-control model built on video AI",
+   "summary": "Runway's Praxis-1 is open under the Apache 2.0 licence. On a real robot arm, across ten tasks with ten tries each, it succeeded 88 times to FLUX 3 Action's 80, in Runway's own tests, which have not been independently verified.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/"
+    },
+    {
+     "outlet": "Runway"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Sunday, November 15, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "Today's about the human touch."
+  },
+  {
+   "s": 16.83,
+   "t": "Elon Musk says Nvidia's big deals were a handshake with Jensen Huang."
+  },
+  {
+   "s": 22.5,
+   "t": "Without him, Musk warns, some of those deals will be lost."
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, Google's Gemini 4 Carbon just took first place on a tough math leaderboard."
+  },
+  {
+   "s": 37.5,
+   "t": "Anthropic's Claude came second. OpenAI, the long-time leader, slipped to third."
+  },
+  {
+   "s": 43.12,
+   "t": "It isn't cheap, though: about fifteen times the cost per run."
+  },
+  {
+   "s": 47.34,
+   "t": "In New Delhi, cancer doctor Siddhartha Mukherjee said AI cuts early drug discovery from eight years to a few months."
+  },
+  {
+   "s": 55.78,
+   "t": "But trials, he said, still run on the regulator's clock."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the people."
+  },
+  {
+   "s": 61.22,
+   "t": "Anthropic's seven co-founders could soon be worth about $17 billion each."
+  },
+  {
+   "s": 67.5,
+   "t": "Britain's Treasury is reportedly war-gaming a tax on AI, in case it takes too many jobs."
+  },
+  {
+   "s": 75.0,
+   "t": "Next week, Trump and Xi are set to talk about a hotline for AI emergencies."
+  },
+  {
+   "s": 82.5,
+   "t": "And in India, Karnataka is adding AI classes for ninth graders in 1,800 public schools."
+  },
+  {
+   "s": 90.0,
+   "t": "This week in Perth, a CSIRO team checked the first-ever black hole photo with an AI trained on cats and dogs."
+  },
+  {
+   "s": 97.97,
+   "t": "It had never seen a black hole, so it couldn't be biased. It found the same ring."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? In Edinburgh, about 6,000 people marched against giant AI data centres."
+  },
+  {
+   "s": 111.09,
+   "t": "And four nonprofits are suing to freeze AI at this week's level."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Back to the machines. Tesla's inviting some buyers to own a Cybercab, with no steering wheel."
+  },
+  {
+   "s": 128.44,
+   "t": "It's $29,990, plus $299 a month. Even Musk calls that too high."
+  },
+  {
+   "s": 135.94,
+   "t": "This week, Runway turned a video AI into a robot brain, and gave it away free."
+  },
+  {
+   "s": 142.97,
+   "t": "That's the human touch. Machines keep getting smarter, but trust still starts with a handshake."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-15/Singularity-Daily_2026-11-15.mp4",
+  "mb": 73.4,
+  "bytes": 73432592,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
