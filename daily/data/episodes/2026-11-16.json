@@ -1,0 +1,417 @@
+{
+ "date": "2026-11-16",
+ "ep": 43,
+ "hook": "TEST WEEK.",
+ "day": "Monday 16 November 2026",
+ "chapters": [
+  "TEST WEEK",
+  "THE BETS",
+  "THE EXAM",
+  "THE HEART",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:26 AEDT, Mon 16 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: Sound Ventures' Anthropic stake (Bloomberg, from people familiar; about $7 billion at the $1.4 trillion target valuation is a Bloomberg estimate) and Alex Gerko's stake (The Telegraph's calculation: up to $3.5 billion before dilution).",
+  "This week (older than the 24 h window): the UC Berkeley heart-scan study in Nature (ScienceDaily, 14 Nov).",
+  "Meituan's benchmark scores are its own. The tax exam candidate confessed through his lawyer; Seoul police are investigating. Risk factors in a prospectus are standard legal disclosure. Anthropic's Nasdaq debut on Thursday is expected, not certain.",
+  "Screenshots are the publishers' public article pages as captured on 16 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "TEST WEEK. 📝\n\nThe last 24h in superintelligence:\n- Bessent: Nvidia needs an outside CEO\n- Anthropic: a $435M bet could be worth ~$7B\n- Korea's top tax-exam scorer admits AI cheating\n- Meituan trains a 1.6T model without Nvidia\n\nWhat would you test AI on?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (16 Nov 2026), hosted by Claudia: test week for Nvidia, Anthropic and Korea's college entrance exam, Scott Bessent on Nvidia's next CEO, early Anthropic backers' windfalls, Meituan's open model trained without Nvidia chips, a tax exam topper's AI cheating confession, an AI that spots sudden cardiac death risk in heart scans, the risks in Anthropic's IPO filing, Hong Kong airport's runway-painting robots and Penn's piano-playing robot muscles, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "REUTERS: BESSENT SAYS NVIDIA MUST 'GO OUTSIDE THE COMPANY' TO FIND A NEW CEO",
+  "INVESTING.COM: BESSENT WANTS ANSWERS FROM NVIDIA'S BOARD 'IN THE NEXT 10 DAYS'",
+  "BLOOMBERG: HOUSE CHAIRMAN SAYS HUANG AGREED TO TESTIFY, NO DATE SET YET",
+  "FT: CONGRESS MOVES TO PASS TIGHTER AI CHIP EXPORT RULES AFTER THE NVIDIA SCANDAL",
+  "REUTERS: MEGASPEED SAYS ALICE HUANG LEFT THE COMPANY IN AUGUST 2025",
+  "NBC NEWS: BOWEN YANG RETURNS TO 'SNL' TO PLAY EX-NVIDIA CEO JENSEN HUANG",
+  "TOM'S HARDWARE: THE PETITION TO REINSTATE JENSEN HUANG PASSES 130,000 SIGNATURES",
+  "BLOOMBERG: KUTCHER GOT SAM ALTMAN'S PERMISSION BEFORE BACKING ANTHROPIC, OSEARY SAYS",
+  "BLOOMBERG: SOUND VENTURES HAS ALSO PUT MORE THAN $400 MILLION INTO OPENAI",
+  "THE TELEGRAPH: LONDON-LISTED FUNDS HOLD ANTHROPIC SHARES WORTH AT LEAST $1.5BN",
+  "BUSINESS INSIDER: ACTIVISTS ARE PROTESTING ANTHROPIC'S MEGA-IPO",
+  "CNN: MEET BORIS CHERNY, THE MISO-MAKING ENGINEER BEHIND ANTHROPIC'S CODING AGENT",
+  "THE DECODER: A SAMPLE LONGCAT-2.5 SETUP RUNS ON 194 HUAWEI ASCEND CHIPS",
+  "THE GUARDIAN: THE TAX EXAM TOPPER SCORED 397.5 OUT OF 400 IN ROUND ONE",
+  "ANADOLU: THE TOP SCORER TURNED HIMSELF IN TO POLICE ON SUNDAY",
+  "THE GUARDIAN: KOREA'S PRESIDENTIAL OFFICE IS PREPARING COUNTERMEASURES FOR THURSDAY'S EXAM",
+  "SCIENCEDAILY: THE HEART-SCAN AI WORKS ON ORDINARY EKG IMAGES HOSPITALS ALREADY TAKE",
+  "NYT: ANTHROPIC'S PROSPECTUS IS 'UNPARALLELED IN ITS WILLINGNESS TO DISCUSS EXISTENTIAL RISK'",
+  "RTHK: THE RUNWAY ROBOTS SAVE HONG KONG'S AIRPORT HK$400,000 A YEAR IN PAINT",
+  "RTHK: THE RUNWAY ROBOTS STARTED OUT PAINTING LINES IN SPORTS STADIUMS",
+  "POPULAR SCIENCE: PENN'S ROBOT MUSCLES ALSO MOVED A PAIR OF ROBOT EYES TO HOLD A GAZE",
+  "ACTION NEWS 5: ABOUT 5,000 TO 6,000 GALLONS OF PROPYLENE GLYCOL SPILLED AT AN XAI SITE IN MISSISSIPPI",
+  "BUSINESS INSIDER: AI COULD ADD ALMOST 2 MILLION NEW JOBS ON NET BY 2030",
+  "SCIENTIFIC AMERICAN: SCIENTISTS MIGHT HAVE DISCOVERED WHAT MAKES AI SO EFFECTIVE AT CHESS"
+ ],
+ "sources": [
+  "Fox News",
+  "Investing.com",
+  "Yahoo Finance",
+  "Reuters",
+  "CoinCentral",
+  "Bloomberg",
+  "The Telegraph",
+  "AOL",
+  "The Decoder",
+  "Meituan",
+  "The Guardian",
+  "AFP",
+  "Anadolu",
+  "The Star",
+  "ScienceDaily",
+  "UC Berkeley",
+  "Nature",
+  "The New York Times",
+  "RTHK",
+  "South China Morning Post",
+  "Popular Science",
+  "University of Pennsylvania",
+  "Financial Times",
+  "NBC News",
+  "Tom's Hardware",
+  "Business Insider",
+  "CNN",
+  "Action News 5",
+  "Scientific American"
+ ],
+ "scanned": 3014,
+ "stories": [
+  {
+   "id": "test-week",
+   "title": "Test week: Nvidia reports Tuesday; Anthropic's debut and Korea's college exam come Thursday",
+   "summary": "Nvidia reports earnings on Tuesday, 17 November, its first results since Jensen Huang quit; Anthropic is expected to begin trading on the Nasdaq on Thursday, the day of South Korea's college entrance exam.",
+   "chapter": "TEST WEEK",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "CoinCentral",
+     "url": "https://coincentral.com/the-week-ahead-nvidia-earnings-anthropic-ipo-and-fed-minutes-set-to-shake-wall-street/"
+    },
+    {
+     "outlet": "Yahoo Finance"
+    },
+    {
+     "outlet": "The Guardian"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bessent-nvidia-outside-ceo",
+   "title": "Bessent says Nvidia needs 'a dramatic shakeup' and a CEO from outside",
+   "summary": "US Treasury Secretary Scott Bessent told Fox News that Nvidia's board should 'go outside the company' for its next leader, saying 'they needed a dramatic shakeup', and asked for answers within 10 days.",
+   "chapter": "TEST WEEK",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Investing.com via Yahoo Finance",
+     "url": "https://uk.finance.yahoo.com/news/bessent-says-nvidia-needs-dramatic-160958929.html"
+    },
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sound-ventures-anthropic",
+   "title": "A fund Ashton Kutcher co-founded could see its $435M Anthropic stake worth about $7B",
+   "summary": "Sound Ventures, run by Madonna's manager Guy Oseary and co-founded with Ashton Kutcher, has put $435 million into Anthropic; at the $1.4 trillion target IPO valuation its roughly 0.5% stake would be worth about $7 billion, Bloomberg reports, citing people familiar.",
+   "chapter": "THE BETS",
+   "badge": "REPORTED",
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Bloomberg via Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/vc-firm-run-madonna-manager-160005784.html"
+    },
+    {
+     "outlet": "Crypto Briefing"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "early",
+     "note": "Anthropic's IPO targets a valuation of about $1.4 trillion, a trillion-dollar-scale lab valuation; the story says nothing about political leverage."
+    }
+   ]
+  },
+  {
+   "id": "gerko-anthropic-bet",
+   "title": "A British trader's $10M Anthropic bet could be worth up to $3.5B",
+   "summary": "XTX founder Alex Gerko put $10 million into Anthropic through his venture fund three years ago; at the proposed IPO valuation it could be worth up to $3.5 billion before dilution, according to The Telegraph's calculations.",
+   "chapter": "THE BETS",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "The Telegraph via AOL",
+     "url": "https://www.aol.com/articles/british-trader-3-5bn-anthropic-063000000.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meituan-longcat-2-5",
+   "title": "Meituan releases a 1.6-trillion-parameter open model trained without Nvidia chips",
+   "summary": "Meituan released the weights of LongCat-2.5, a 1.6-trillion-parameter agent model trained entirely on Chinese hardware; it scores 88.4 on Terminal Bench v2.1 against Claude Opus 5's 89.1, by Meituan's own figures.",
+   "chapter": "THE BETS",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+    },
+    {
+     "outlet": "Phemex"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-exam-ai-cheating",
+   "title": "Korea's top tax exam scorer confesses to cheating with AI, days before the college entrance exam",
+   "summary": "The top scorer on South Korea's tax accountant exam, who missed one of 160 questions, confessed to photographing them with a microcamera and getting answers from an AI tool; police are investigating, and the president's office called an emergency meeting before Thursday's college exam.",
+   "chapter": "THE EXAM",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Anadolu"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-heart-signal",
+   "title": "An AI finds a hidden warning sign of sudden cardiac death in routine heart scans",
+   "summary": "UC Berkeley researchers, publishing in Nature, trained an AI on more than 440,000 EKGs; the group it flagged had a 7% annual sudden cardiac death rate, against 4.6% for the riskiest group standard checks found.",
+   "chapter": "THE HEART",
+   "badge": "THIS WEEK",
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230456.htm"
+    },
+    {
+     "outlet": "Nature"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-filing-risks",
+   "title": "Anthropic's IPO filing warns its models may take harmful actions nobody directed",
+   "summary": "Anthropic's prospectus says its 'A.I. models may behave in unintended, misaligned, or autonomous ways' and warns that advanced AI could pose 'catastrophic or existential risks to humanity', The New York Times reports.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/15/business/anthropic-ipo-filing-prospectus.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hong-kong-runway-robots",
+   "title": "Hong Kong's airport is the first to repaint its runway lines with robots",
+   "summary": "Hong Kong International Airport says it is the world's first to use robots to repaint airfield markings: a centre line now takes one hour instead of three and paint savings reach HK$400,000 a year, while staff still paint the curves.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "RTHK",
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877865-20261115.htm"
+    },
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "penn-robot-muscles",
+   "title": "Penn engineers build soft robot muscles that press piano keys and hold a robot's gaze",
+   "summary": "University of Pennsylvania engineers made artificial muscle fibres from a liquid crystal elastomer, graphene and a copper coil; a robot hand used them to press piano keys, and robot eyes used them to hold a steady gaze.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Popular Science",
+     "url": "https://www.popsci.com/technology/artificial-muscles-humanoid-robot-play-piano/"
+    },
+    {
+     "outlet": "University of Pennsylvania"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Monday, November 16."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in superintelligence, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "It's test week. Nvidia reports Tuesday. Thursday, Anthropic goes public, and Korea sits its big exam."
+  },
+  {
+   "s": 22.5,
+   "t": "And Treasury Secretary Scott Bessent wants an outsider running Nvidia."
+  },
+  {
+   "s": 31.88,
+   "t": "Now, the bets."
+  },
+  {
+   "s": 32.69,
+   "t": "Anthropic's early backers are about to see what their bets are worth."
+  },
+  {
+   "s": 38.44,
+   "t": "A fund Ashton Kutcher co-founded put in $435 million."
+  },
+  {
+   "s": 42.23,
+   "t": "Its stake could be worth about $7 billion."
+  },
+  {
+   "s": 46.41,
+   "t": "And a British trader's $10 million bet could be worth up to $3.5 billion."
+  },
+  {
+   "s": 52.97,
+   "t": "Meanwhile, China's Meituan released a giant open AI model trained without a single Nvidia chip."
+  },
+  {
+   "s": 60.0,
+   "t": "Speaking of exams. In Korea, the tax exam's top scorer missed one of 160 questions."
+  },
+  {
+   "s": 67.5,
+   "t": "He confessed on Sunday: a hidden camera, an AI tool, and the answers on his phone."
+  },
+  {
+   "s": 75.0,
+   "t": "He said the top score \"was not the result of fair effort.\" Police are now investigating."
+  },
+  {
+   "s": 82.5,
+   "t": "And with Korea's college entrance exam on Thursday, the president's office called an emergency meeting."
+  },
+  {
+   "s": 90.0,
+   "t": "This week in Nature, Berkeley researchers trained an AI on over 440,000 heart scans."
+  },
+  {
+   "s": 97.97,
+   "t": "It flagged people at risk of sudden cardi ac death that standard checks would miss."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch?"
+  },
+  {
+   "s": 105.64,
+   "t": "Anthropic's own filing warns its models could take harmful actions nobody directed."
+  },
+  {
+   "s": 111.09,
+   "t": "It even warns of \"existential risks to humanity.\" In a stock offering."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Back to the machines."
+  },
+  {
+   "s": 123.23,
+   "t": "Hong Kong's airport is the first to repaint its runways with robots."
+  },
+  {
+   "s": 128.91,
+   "t": "A centre line took three hours. Now it's one, and people still paint the curves."
+  },
+  {
+   "s": 135.94,
+   "t": "And Penn engineers made soft robot muscles."
+  },
+  {
+   "s": 138.92,
+   "t": "A robot hand used them to play piano."
+  },
+  {
+   "s": 142.97,
+   "t": "That's test week. AI can ace the test. Passing it honestly is still on us."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-16/Singularity-Daily_2026-11-16.mp4",
+  "mb": 69.3,
+  "bytes": 69296612,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
