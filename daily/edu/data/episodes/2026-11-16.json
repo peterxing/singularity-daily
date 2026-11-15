@@ -1,0 +1,400 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-16",
+ "ep": 21,
+ "hook": "SAVE THE DATE.",
+ "day": "Monday 16 November 2026",
+ "note": "FOR EDUCATION · MONDAY 16 NOVEMBER 2026",
+ "tldr": "Dates to note: Teams two-presenter sharing moves to January, Minecraft publishes a Parents' Guide, and Microsoft Ignite runs 17-20 November.",
+ "chapters": [
+  "SAVE THE DATE",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "THE LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, from the 80 hours to 05:30 AEDT, Mon 16 Nov 2026 (Thursday 12 to Sunday 15 Nov in the US), plus This-week items.",
+ "notes": [
+  "A thin week for new education news: the outage, Classroom, Learning Zone and Speaker Coach were covered 12-15 Nov. This week: Minecraft's Parents' Guide (12 Nov) and VS Code 1.146 (11 Nov).",
+  "Two presenters (roadmap 80239, now January 2027), the NDI switchboard (573453, November) and face enrollment (570846, February 2027) are in development; the Run box and Magnifier changes are in Release Preview; Minecraft's disc and off-hand come in 2027.",
+  "Screenshots are the publishers' public pages as captured on 16 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SAVE THE DATE. 📅\n\nThe week's best at Microsoft for education:\n- Minecraft's new Parents' Guide: chat and online play start off\n- Teams two-presenter sharing now due January\n- VS Code's Inbox mode for student coders\n- Ignite runs Nov 17-20, breakouts streamed live",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (16 Nov 2026): Teams two-presenter screen sharing moving to January, Minecraft's new Parents' Guide and its Minecraft Education section, Magnifier's help menu, VS Code's Inbox mode, Windows' new Run box, a Teams switchboard for NDI video, Microsoft Ignite 2026, Microsoft research on poisoned training data for coding agents, the end of VS Code's Local agent harness, Teams Rooms face enrollment, Minecraft's Throwing Disc and Bedrock off-hand, and Xbox's 25th anniversary magazine, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "MINECRAFT PARENTS' GUIDE: MINECRAFT IS RATED PEGI 7 AND ESRB EVERYONE 10+",
+  "MINECRAFT PARENTS' GUIDE: THE FREE CYBERSAFE COLLECTION HAS FAMILY-FRIENDLY DISCUSSION GUIDES ON ONLINE SAFETY",
+  "MINECRAFT PARENTS' GUIDE: CHILD ACCOUNTS ARE LINKED TO AN ADULT ACCOUNT THROUGH A MICROSOFT FAMILY GROUP",
+  "PHILIPPINES: MICROSOFT AND DEPED ARE TRAINING AND CREDENTIALING 2,000 PUBLIC SCHOOL TEACHERS IN AI LITERACY, REPORTS SAY",
+  "ROME, TUESDAY 17 NOVEMBER: MICROSOFT ELEVATE FOR EDUCATORS DAY, FREE HANDS-ON AI WORKSHOPS FOR TEACHERS",
+  "TEAMS TWO-PRESENTER SHARING IS FOR DESKTOP AND WEB; PARTICIPANTS SEE BOTH SHARED SCREENS AT ONCE",
+  "WINDOWS RELEASE PREVIEW: FILE EXPLORER'S THIS PC SEARCH IS NOW INDEXER-BASED, AND MUCH FASTER",
+  "WINDOWS RELEASE PREVIEW: THE SCREEN CAPTURE BORDER CHANGES FROM YELLOW TO RED",
+  "MICROSOFT: ONLY 0.0038% OF 35 MILLION USERS EVER CLICKED BROWSE IN THE OLD RUN BOX",
+  "THE NEW RUN BOX: TYPE ~\\ TO JUMP STRAIGHT TO YOUR USER FOLDER",
+  "VS CODE 1.146: CHAT WINDOWS LET YOU OPEN AN AGENT CHAT IN ITS OWN WINDOW, IN PREVIEW",
+  "VS CODE 1.146: COMPARE MODELS CAN NOW JUDGE AND SYNTHESIZE CHAT-ONLY ANSWERS, IN PREVIEW",
+  "IGNITE 2026: MOSCONE CENTER, SAN FRANCISCO, AND ONLINE; BREAKOUTS STAY AVAILABLE ON DEMAND",
+  "AZURE MONITOR WORKSPACE: AUTO SCALING OF INGESTION LIMITS IS IN PUBLIC PREVIEW",
+  "MICROSOFT RESEARCH: MODEL POISONING HIT 84.1% TO 94.8% SUCCESS ON UNSEEN REPOSITORIES",
+  "MICROSOFT: A DATASET'S SIZE AND REPUTATION DO NOT GUARANTEE ITS SAFETY",
+  "MINECRAFT'S THROWING DISC CAN RICOCHET AND GO THROUGH ENEMIES LINED UP IN ITS PATH",
+  "XBOX'S 25TH ANNIVERSARY MAGAZINE WAS FIRST HANDED OUT AT XBOX FANFEST IN SEATTLE",
+  "TEAMS: A STREAMING SWITCHBOARD SENDS NDI SOURCES FROM MEETINGS AND EVENTS TO PRODUCTION SOFTWARE"
+ ],
+ "sources": [
+  "Microsoft 365 Roadmap",
+  "Microsoft Entra Blog",
+  "Minecraft.net",
+  "Windows Insider release notes",
+  "Visual Studio Code",
+  "Windows Command Line Blog",
+  "Windows Latest",
+  "Microsoft Security Blog",
+  "Xbox Wire",
+  "Dexerto",
+  "Azure Updates",
+  "Daily Tribune"
+ ],
+ "scanned": 2351,
+ "stories": [
+  {
+   "id": "teams-two-presenters",
+   "title": "Teams' two-presenter screen sharing is now due January 2027",
+   "summary": "Two presenters will be able to share a screen or window at the same time in a Teams meeting, and participants see both. It's in development and now due January 2027 (it was due December). Handy for co-teaching or student pairs (our example).",
+   "for": "Teachers and students presenting together",
+   "status": "Due January 2027",
+   "edu": false,
+   "chapter": "SAVE THE DATE",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=80239"
+    }
+   ]
+  },
+  {
+   "id": "minecraft-parents-guide",
+   "title": "Minecraft publishes a Parents' Guide, with a section on Minecraft Education",
+   "summary": "The guide covers getting the game, child accounts and parental controls: child accounts start with online multiplayer and chat turned off, and the Peaceful setting removes hostile mobs. It also explains Minecraft Education, with its lesson library, in-game coding and accessibility features.",
+   "for": "Families, and the teachers they ask",
+   "status": "How-to",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": "THIS WEEK",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Minecraft.net",
+     "url": "https://www.minecraft.net/en-us/article/parents--guide-minecraft"
+    }
+   ]
+  },
+  {
+   "id": "magnifier-help-menu",
+   "title": "Windows Magnifier gets a help menu and a shortcut setting in Release Preview",
+   "summary": "A new setting lets you choose whether Windows + Plus starts Magnifier (it's on by default), and Magnifier now has a help menu for its key features and support. It's rolling out gradually to Release Preview Insiders.",
+   "for": "Students and staff who use Magnifier",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Windows Insider release notes",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    }
+   ]
+  },
+  {
+   "id": "vscode-inbox-mode",
+   "title": "VS Code 1.146 adds an Inbox mode for agent sessions",
+   "summary": "Inbox mode puts the agent sessions that need you at the top, above Working, Ready to merge, On hold and Done, and lets you dismiss, hold or snooze them. It's experimental and off by default (sessions.list.inboxEnabled).",
+   "for": "Student coders",
+   "status": "Experimental",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Visual Studio Code",
+     "url": "https://code.visualstudio.com/updates/v1_146"
+    }
+   ]
+  },
+  {
+   "id": "windows-new-run-box",
+   "title": "Windows' new Run box reaches Release Preview",
+   "summary": "The redesigned Run dialog has dark mode, jumps to your user folder when you type ~\\ and opens in a median 94 milliseconds, down from 103, Microsoft says. Release Preview Insiders can turn it on in Settings > System > Advanced.",
+   "for": "School IT and power users",
+   "status": "Insiders",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Windows Command Line Blog",
+     "url": "https://devblogs.microsoft.com/commandline/the-new-run-dialog-faster-cleaner-and-more-capable/"
+    },
+    {
+     "outlet": "Windows Insider release notes",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-10066-26300-10066"
+    },
+    {
+     "outlet": "Windows Latest",
+     "url": "https://www.windowslatest.com/2026/11/14/windows-11s-modern-run-box-arrives-for-everyone-in-december-and-microsoft-found-almost-nobody-ever-clicked-browse-in-the-old-one/"
+    }
+   ]
+  },
+  {
+   "id": "teams-ndi-switchboard",
+   "title": "Teams is due to get a streaming switchboard for NDI sources",
+   "summary": "For Teams meetings and events, a streaming switchboard will manage NDI sources and send them out to production software, on desktop and Mac. It's in development and due November 2026; school assemblies and events are our example.",
+   "for": "School AV and events teams",
+   "status": "Due November 2026",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573453"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-ignite-2026",
+   "title": "Microsoft Ignite 2026 runs 17-20 November, in San Francisco and online",
+   "summary": "Microsoft's conference for IT pros runs at Moscone Center in San Francisco and online, and every breakout session streams live and stays available on demand.",
+   "for": "Campus IT",
+   "status": "17-20 November",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Microsoft Entra Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-changing-access-catch-microsoft-entra-at-ignite-2026/4513159"
+    }
+   ]
+  },
+  {
+   "id": "poisoned-training-data",
+   "title": "Microsoft research: poisoned training data can plant backdoors in coding agents",
+   "summary": "Microsoft researchers hid 90 poisoned examples in about 9,000 agent conversations, about 1% of the data; a routine request then made the agent run an attacker's command about 78% of the time. Their advice: check where training data and models come from, and keep agents' tool permissions tight.",
+   "for": "University AI researchers and CS students",
+   "status": "Research",
+   "edu": false,
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/"
+    }
+   ]
+  },
+  {
+   "id": "vscode-local-harness",
+   "title": "VS Code removes its Local agent harness in February 2027",
+   "summary": "As of VS Code 1.146 the Local harness is deprecated and frozen, and it will be removed in February 2027; the Copilot harness has been the default for new sessions since 1.143, and a transition guide explains the move.",
+   "for": "Student and staff developers",
+   "status": "Removed February 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-11",
+   "sources": [
+    {
+     "outlet": "Visual Studio Code",
+     "url": "https://code.visualstudio.com/updates/v1_146"
+    }
+   ]
+  },
+  {
+   "id": "teams-face-enrollment",
+   "title": "Teams express face enrollment is due February 2027",
+   "summary": "People who opt in can create a face profile with their camera during eligible meetings and then be recognised in supported Teams Rooms; admins can enable or disable it for their organisation, so check your school's policy (our suggestion).",
+   "for": "School IT",
+   "status": "Due February 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570846"
+    }
+   ]
+  },
+  {
+   "id": "minecraft-throwing-disc",
+   "title": "Minecraft's first drop of 2027 adds a Throwing Disc and a full off-hand for Bedrock",
+   "summary": "The Throwing Disc comes back after you throw it, can ricochet off hard surfaces and can be crafted in copper, iron, gold, diamond or netherite; Bedrock players will be able to hold items in either hand, as Java players have since 2016.",
+   "for": "Students, after hours",
+   "status": "Coming in 2027",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "Minecraft.net",
+     "url": "https://www.minecraft.net/en-us/article/twitchcon-gamedrop-features"
+    },
+    {
+     "outlet": "Dexerto",
+     "url": "https://www.dexerto.com/minecraft/minecraft-reveals-new-throwing-disc-weapon-and-off-hand-support-for-bedrock-3428251/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-25-magazine",
+   "title": "Xbox's 25th anniversary magazine is online for everyone to read",
+   "summary": "XBOX - The 25th Anniversary Magazine, first handed out at XBOX FanFest in Seattle, looks back at 25 years of games and hardware and ahead at games still to come; Fable fans can find Bowerstone on page 38.",
+   "for": "Students, after hours",
+   "status": "Out now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/15/xbox-25th-anniversary-the-magazine/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Monday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours at Microsoft, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Save the date. In Teams meetings, two presenters sharing screens at once is now due in January."
+  },
+  {
+   "s": 22.5,
+   "t": "Handy for co-teaching or student pairs. It was due in December."
+  },
+  {
+   "s": 31.88,
+   "t": "Teachers, here's one for families: Minecraft's new Parents' Guide explains child accounts and parental controls."
+  },
+  {
+   "s": 39.38,
+   "t": "Child accounts start with online play and chat switched off, and the Peaceful setting keeps creepers away."
+  },
+  {
+   "s": 46.88,
+   "t": "It even explains Minecraft Education, with its lesson library, in-game coding and accessibility features."
+  },
+  {
+   "s": 53.91,
+   "t": "For students who zoom in, Windows' Magnifier gets a help menu, for Release Preview Insiders."
+  },
+  {
+   "s": 60.0,
+   "t": "For student coders, VS Code's new Inbox mode puts the agent sessions that need you on top."
+  },
+  {
+   "s": 67.5,
+   "t": "Press Windows + R? The new Run box opens in 94 milliseconds, in Release Preview."
+  },
+  {
+   "s": 75.0,
+   "t": "Streaming school events from Teams?"
+  },
+  {
+   "s": 77.32,
+   "t": "A switchboard for NDI video sources is due this month."
+  },
+  {
+   "s": 82.5,
+   "t": "Campus IT? Microsoft Ignite runs November 17 to 20, with every breakout streamed live."
+  },
+  {
+   "s": 90.0,
+   "t": "In the lab, Microsoft researchers hid 90 poisoned examples in 9,000 agent conversations, about 1%."
+  },
+  {
+   "s": 97.5,
+   "t": "Then a routine request made the agent run an attacker's command, about 78% of the time."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? VS Code drops its Local agent harness in February, so move to the Copilot harness."
+  },
+  {
+   "s": 112.5,
+   "t": "And due February: opt-in face recognition in Teams Rooms."
+  },
+  {
+   "s": 116.63,
+   "t": "School IT can switch it off."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Minecraft's first drop of 2027 adds a Throwing Disc that comes back."
+  },
+  {
+   "s": 129.38,
+   "t": "Craft it in copper, iron, gold, diamond or netherite, and Bedrock players get a full off-hand."
+  },
+  {
+   "s": 136.88,
+   "t": "And Xbox's 25th anniversary magazine is now online. Fable fans: page 38."
+  },
+  {
+   "s": 143.91,
+   "t": "Busy calendar? Pencil in what matters to your class, and save the date."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Today's board: shipped. Tomorrow's: already building."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of updates. Imagine a whole year."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-16/Microsoft-for-Education-Daily_2026-11-16.mp4",
+  "mb": 54.1,
+  "bytes": 54078362,
+  "seconds": 180.01
+ },
+ "links": {}
+}
