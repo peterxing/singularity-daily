@@ -1,0 +1,567 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-16",
+ "ep": 15,
+ "hook": "SECOND CHANCES.",
+ "day": "Monday 16 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · MONDAY 16 NOVEMBER 2026",
+ "tldr": "Second chances: a brain implant let a woman with ALS sing again, gene editing is rebuilding a Melbourne man's immune system, and SpaceX caught Starship back from orbit.",
+ "chapters": [
+  "SECOND CHANCES.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 72 hours to 06:03 AEDT, Mon 16 Nov 2026 (the weekend's best).",
+ "notes": [
+  "Evidence: the singing voice and the locked-in and iPhone results are early-trial conference reports; Matthew Rozek is one patient in an early US trial; the CRISPR result is in monkeys and company-funded; the NAD, Alzheimer's imaging and sleep findings are observational; the basic income result is a survey experiment.",
+  "Papers out before the window: Verve's CRISPR study (Nature, 6 Nov; covered 14 Nov), the NAD study (Nature Metabolism, 4 Nov; covered 13 Nov) and the organoid tests (Neuron, 11 Nov). This week: Yale's ageing-clock analysis (12 Nov).",
+  "Screenshots are the publishers' public pages as captured on 16 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SECOND CHANCES. 🔁\n\nThe weekend in transhumanism:\n- A brain implant let a woman with ALS sing again (early trial)\n- Gene editing is giving a Melbourne man a working immune system\n- One CRISPR infusion kept blood fats down 3 years (in monkeys)\n- SpaceX caught Starship from orbit",
+  "alt": "A 3-minute video recap of the weekend's best in transhumanism (16 Nov 2026): a brain implant that let a woman with ALS sing again, gene editing for a Melbourne man born without a working immune system, brain-to-text advances, a brain cap for extra robot arms, ChatGPT Wallet, soft robot muscles, CRISPR in monkeys, early Alzheimer's brain changes, ageing clocks, the brain's deep-sleep rinse, nature prescriptions, basic income messaging, NAD and age, tests for conscious organoids, Starship's first catch from orbit, energy-saving socks and a robot that rides updrafts, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "UC DAVIS: A 46-YEAR-OLD MAN WITH ALS ALSO GOT INTELLIGIBLE SPEECH FROM HIS BRAIN IMPLANT",
+  "THE SINGING BCI USES 384 ELECTRODES IN THE BRAIN'S SPEECH AREA",
+  "ABOUT SIX AUSTRALIAN BABIES A YEAR ARE DIAGNOSED WITH SCID THROUGH THE NEWBORN HEEL PRICK",
+  "WEHI HAS $5M TO TURN SCID GENE REPAIR INTO A SIMPLE INJECTION, 2-3 YEARS FROM TRIALS",
+  "IMPERIAL'S BRAIN CAP READS ATTENTION TO 4 TINY BUZZERS ON THE ARMS",
+  "CHATGPT WALLET SWAPS YOUR CARD FOR A PAYMENT TOKEN THE AGENT NEVER SEES",
+  "PENN'S ROBOT MUSCLES USE A COPPER COIL TO HEAT AND SENSE AT ONCE",
+  "VERVE'S HUMAN VERSION, VERVE-201, IS IN A PHASE 1B TRIAL",
+  "ALZHEIMER'S: THE ENTORHINAL CORTEX AND AMYGDALA SHRINK BEFORE THE HIPPOCAMPUS",
+  "YALE: NEWER AGEING CLOCKS RESPONDED BETTER THAN OLDER ONES",
+  "ABERDEEN: IN AGEING MICE, SEROTONIN SIGNALS DIAL DOWN THE URGE TO MOVE",
+  "MIT: OLDER BRAINS' BLOOD VESSELS RESPONDED LESS TO A FLICKERING CHECKERBOARD",
+  "THE RACGP BACKS 'THE NATURE DOSE': 20 MINUTES A DAY NOTICING NATURE",
+  "BASIC INCOME SURVEY: PERSONAL VALUES MATTERED MORE THAN PARTY LABELS",
+  "NAD WAS LOWEST IN PEOPLE WITH HIGH BLOOD PRESSURE",
+  "ORGANOID RESEARCHERS WANT AN INTERNATIONAL BOARD TO OVERSEE THE FIELD",
+  "STARSHIP'S SHIP 42 DEPLOYED 26 STARLINK V3 SATELLITES BEFORE ITS CATCH",
+  "SUPER HEAVY ABORTED ITS TOWER CATCH AFTER A LOW-FUEL ALARM",
+  "THE ARCH SOCKS STIFFENED THE FOOT'S ARCH BY 65%",
+  "FLOATY HELD STEADY IN WIND-TUNNEL GUSTS UP TO 10 M/S",
+  "OPENAI HAS FOLDED ITS STAND-ALONE ROBOTICS TEAM INTO ITS MAIN RESEARCH GROUPS, FORTUNE REPORTS"
+ ],
+ "sources": [
+  "The New York Times",
+  "La Voce di New York",
+  "Society for Neuroscience",
+  "UC Davis",
+  "The Sydney Morning Herald",
+  "WEHI",
+  "Medical Xpress",
+  "Massachusetts General Hospital",
+  "Emory University",
+  "Georgia Tech",
+  "PsyPost",
+  "Imperial College London",
+  "Nature Communications",
+  "The Verge",
+  "OpenAI",
+  "Popular Science",
+  "University of Pennsylvania",
+  "Nature",
+  "Verve Therapeutics",
+  "ScienceDaily",
+  "Johns Hopkins University",
+  "NeuroImage Reports",
+  "Yale School of Medicine",
+  "Nature Medicine",
+  "Lifespan.io",
+  "University of Aberdeen",
+  "MIT",
+  "Nature Aging",
+  "The Conversation",
+  "RACGP",
+  "American Politics Research",
+  "Vilnius University",
+  "Nature Metabolism",
+  "Ruhr University Bochum",
+  "Neuron",
+  "Space.com",
+  "SpaceX",
+  "ScienceAlert",
+  "UT Austin",
+  "Proceedings of the Royal Society B",
+  "New Atlas",
+  "Max Planck Institute for Intelligent Systems",
+  "npj Robotics",
+  "Fortune"
+ ],
+ "scanned": 1544,
+ "stories": [
+  {
+   "id": "bci-sing",
+   "title": "A brain implant let a woman with ALS sing a musical scale again",
+   "summary": "UC Davis turned a 58-year-old trained singer's attempts to sing into a synthetic voice that changes pitch, using 384 electrodes in her brain's speech area; she could sound happy, ask a question and sing a scale. Early-trial results presented at Neuroscience 2026, not yet in a journal.",
+   "pillar": "intelligence",
+   "evidence": "Early trial, conference report",
+   "chapter": "SECOND CHANCES.",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/14/science/brain-implants-als-voice.html"
+    },
+    {
+     "outlet": "La Voce di New York",
+     "url": "https://lavocedinewyork.com/en/news/2026/11/15/als-took-away-her-voice-at-58-she-sings-again-thanks-to-a-brain-implant/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A 384-electrode implant turned a woman's attempts to sing into a voice that changes pitch; early-trial results presented at a conference, not yet in a journal."
+    }
+   ]
+  },
+  {
+   "id": "scid",
+   "title": "Gene editing is giving a Melbourne man the immune system he was born without",
+   "summary": "Matthew Rozek, 29, born with SCID ('bubble boy disease'), had his own stem cells gene-edited at the US National Institutes of Health; he has gained 10 kg and his immune system is improving. One patient in an early trial; WEHI in Melbourne is working on a simpler injectable version.",
+   "pillar": "longevity",
+   "evidence": "One patient, early US trial",
+   "chapter": "SECOND CHANCES.",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "The Sydney Morning Herald",
+     "url": "https://www.smh.com.au/healthcare/out-of-the-bubble-how-a-world-first-gene-therapy-gave-matthew-a-second-chance-at-life-20261114-p61d9z.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bci-list",
+   "title": "A locked-in man communicated by implant for over a year, and brain-to-text ran on an iPhone",
+   "summary": "At Neuroscience 2026, a Mass General team reported a completely locked-in person communicating independently for more than a year with a brain implant, and Emory and Georgia Tech showed a portable brain-to-text system that runs even on an iPhone. Early-trial conference reports.",
+   "pillar": "intelligence",
+   "evidence": "Early trials, conference reports",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Society for Neuroscience)",
+     "url": "https://medicalxpress.com/news/2026-11-brain-interfaces-voice-people-paralysis.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A completely locked-in person communicated independently for more than a year through a brain implant, in an early trial reported at Neuroscience 2026."
+    }
+   ]
+  },
+  {
+   "id": "docock",
+   "title": "A Doctor Octopus-inspired brain cap picks commands for extra robot arms while your hands keep working",
+   "summary": "Imperial College London's non-invasive cap reads the brain's response to buzzes on the arm to pick one of four commands; after three days, 10 volunteers got it right about 70% of the time while balancing a tray with both hands. A small lab study.",
+   "pillar": "intelligence",
+   "evidence": "Lab study, 10 volunteers",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/scientists-created-a-doctor-octopus-inspired-brain-interface-for-controlling-robotic-arms/"
+    },
+    {
+     "outlet": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-026-75213-3"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-non-invasive-neural-symbiosis",
+     "key": "04fc97cca9",
+     "relation": "early",
+     "note": "A non-invasive EEG cap let 10 volunteers pick commands for extra robot arms about 70% of the time while both hands stayed busy, in a small lab study."
+    }
+   ]
+  },
+  {
+   "id": "wallet",
+   "title": "OpenAI's ChatGPT Wallet lets its AI agents shop for you",
+   "summary": "OpenAI's Dots agents can now buy things with a card stored in ChatGPT Wallet, checking with you and asking for Face ID or a fingerprint before every purchase; the card becomes a payment token the agent never sees. A product launch; some shops still block agents.",
+   "pillar": "intelligence",
+   "evidence": "Product launch",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/introducing-chatgpt-wallet"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "muscles",
+   "title": "Penn built soft robot muscles that tap piano keys gently or firmly and hold a steady gaze",
+   "summary": "University of Pennsylvania engineers made artificial muscle fibres from a liquid crystal elastomer, graphene and a copper coil that both heats and senses, modelled on the small muscles of our eyes and fingers. A lab prototype.",
+   "pillar": "frontier",
+   "evidence": "Lab prototype",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Popular Science",
+     "url": "https://www.popsci.com/technology/artificial-muscles-humanoid-robot-play-piano/"
+    },
+    {
+     "outlet": "Penn Engineering",
+     "url": "https://www.engineering.upenn.edu/stories/artificial-muscles-give-robots-precise-control/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "verve",
+   "title": "One gene-editing infusion kept blood fats lower in monkeys for three years",
+   "summary": "A CRISPR base editor that switches off the liver gene ANGPTL3 kept triglycerides 43% lower (LDL 13% lower) in 10 monkeys for three years. A company-funded monkey study from Verve Therapeutics, part of Eli Lilly; a human version is in an early trial.",
+   "pillar": "longevity",
+   "evidence": "Monkey study, company-funded",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "Nature",
+     "url": "https://www.nature.com/articles/s41586-026-11233-9"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-crispr-infusion-lowers-blood-fats.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "jhu",
+   "title": "Alzheimer's shrinks two brain areas up to a decade before symptoms, Johns Hopkins scans show",
+   "summary": "Hundreds of MRI and PET scans showed the entorhinal cortex and amygdala losing tissue earlier than the hippocampus, with changes as much as a decade before symptoms. An imaging study of group trends that could point to a window for treating sooner.",
+   "pillar": "longevity",
+   "evidence": "Imaging study, hundreds of scans",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "ScienceDaily (Johns Hopkins)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "yale",
+   "title": "Diet with exercise, and drugs like metformin, turned ageing clocks back; most supplements didn't",
+   "summary": "Yale pooled 51 studies and more than 110 DNA-methylation markers: diet plus exercise, metformin, semaglutide and anti-TNF drugs lowered epigenetic age, while over-the-counter supplements didn't measurably. Changes in these clocks don't yet prove longer lives.",
+   "pillar": "longevity",
+   "evidence": "Analysis of 51 studies",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "ScienceDaily (Yale)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sleep",
+   "title": "The brain's deep-sleep rinse runs weaker in older adults, MIT found",
+   "summary": "Scanning younger (18-39) and older (60-84) volunteers as they slept in an MRI, MIT found the waves of fluid that help clear the brain in deep sleep were much smaller in older adults, tied to fewer slow brain waves. Whether that raises dementia risk is the next question.",
+   "pillar": "wellbeing",
+   "evidence": "Imaging study, younger vs older adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Nature Aging",
+     "url": "https://www.nature.com/articles/s43587-026-01270-4"
+    },
+    {
+     "outlet": "Medical Xpress (MIT)",
+     "url": "https://medicalxpress.com/news/2026-11-brain-impaired-older-adults.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "naturerx",
+   "title": "Australia's GPs now have backing to prescribe time in nature",
+   "summary": "The Royal Australian College of GPs has endorsed resources for recommending 20 minutes a day noticing nature; a review of 47 trials with almost 3,800 people found mental-health gains in 17 of them. Whether a GP's prescription itself makes the difference is still being studied.",
+   "pillar": "wellbeing",
+   "evidence": "GP guidance; review of 47 trials",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "The Conversation (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-gps-nature-health.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ubi",
+   "title": "Pitching basic income as fairness lifted support among Americans who value equality",
+   "summary": "In a survey experiment with 2,024 US adults, people's values mattered more than their party: framing a universal basic income as fairness raised support among those who value equality, but backfired with those who oppose it. Modest shifts from a single survey.",
+   "pillar": "wellbeing",
+   "evidence": "Survey experiment, 2,024 US adults",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/the-right-message-can-shift-support-for-universal-basic-income-across-party-lines/"
+    },
+    {
+     "outlet": "American Politics Research",
+     "url": "https://doi.org/10.1177/1532673x261493505"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nad",
+   "title": "Blood NAD, which longevity supplements try to boost, didn't drop with age in healthy adults",
+   "summary": "In 1,068 adults, whole-blood NAD held steady with age in healthy people but was lower in those with heart disease, especially high blood pressure. An observational study of blood only; it says nothing yet about whether supplements help.",
+   "pillar": "longevity",
+   "evidence": "Observational, 1,068 adults",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Nature Metabolism",
+     "url": "https://www.nature.com/articles/s42255-026-01660-3"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-blood-nad-track-heart-disease.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "organoids",
+   "title": "Neuroscientists proposed eight tests for whether lab-grown mini brains could become conscious",
+   "summary": "Lucia Melloni and Stanislas Dehaene set out electrical-stimulation tests, such as whether the tissue notices a missing expected signal; Melloni doesn't think today's organoids are conscious and backs an international board to oversee the research. A proposal, with no experiment yet.",
+   "pillar": "intelligence",
+   "evidence": "Proposed framework, no experiment yet",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Ruhr University Bochum)",
+     "url": "https://medicalxpress.com/news/2026-11-brain-organoids-consciousness.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "starship",
+   "title": "SpaceX caught a Starship back from orbit for the first time, though its booster was lost",
+   "summary": "Ship 42 settled into the launch tower's arms in Texas about 22.5 hours after Flight 15 lifted off, a first for Starship's upper stage and a big step toward a fully reusable rocket. The Super Heavy booster aborted its own catch and was lost in the Gulf of Mexico.",
+   "pillar": "frontier",
+   "evidence": "Flight test",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "socks",
+   "title": "Socks that stiffen the arch cut the energy cost of walking by 2%",
+   "summary": "UT Austin's knitted band around the ball of the foot stiffened the arch by 65% and cut 12 young adults' energy use while walking by 2%, about like taking a 2 kg weight off the waist. A small lab study.",
+   "pillar": "frontier",
+   "evidence": "Lab study, 12 people",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/scientists-developed-foot-stiffening-socks-that-could-make-walking-less-tiring"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "floaty",
+   "title": "Floaty, a kestrel-inspired robot, rides updrafts like a bird to save battery",
+   "summary": "Max Planck and University of Stuttgart researchers built a flying robot that adjusts four wing flaps to hold its place in rising air, steady in wind-tunnel gusts up to 10 m/s. Early wind-tunnel tests.",
+   "pillar": "frontier",
+   "evidence": "Wind-tunnel tests",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/drones/floaty-flying-robot-updrafts/"
+    },
+    {
+     "outlet": "Max Planck Institute for Intelligent Systems",
+     "url": "https://is.mpg.de/en/news/flying-robot-rides-the-wind-like-a-bird"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Monday, November 16, and this is the Transhuman Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in transhumanism, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "The weekend's best is about second chances."
+  },
+  {
+   "s": 17.87,
+   "t": "Through a brain implant, a woman with ALS sang again."
+  },
+  {
+   "s": 22.03,
+   "t": "And gene editing is giving a Melbourne m an the immune system he was born without."
+  },
+  {
+   "s": 31.88,
+   "t": "A locked-in man communicated by implant for over a year, and brain-to-text even ran on an iPhone."
+  },
+  {
+   "s": 38.91,
+   "t": "Imperial took a cue from Doctor Octopus: a brain cap for extra robot arms, while your hands keep working."
+  },
+  {
+   "s": 45.94,
+   "t": "OpenAI's new ChatGPT Wallet lets its AI agents shop for you, checking with you before every purchase."
+  },
+  {
+   "s": 52.97,
+   "t": "And Penn built soft robot muscles that tap piano keys gently or firmly, and hold a steady gaze."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. In monkeys, a single gene-editing infusion kept blood fats lower for three years."
+  },
+  {
+   "s": 67.5,
+   "t": "And Johns Hopkins scans show Alzheimer's shrinks t wo brain areas up to a decade before memory slips."
+  },
+  {
+   "s": 75.0,
+   "t": "Yale found diet with exercise, and drugs like metformin, turned ageing clocks back. Most supplements didn't."
+  },
+  {
+   "s": 82.5,
+   "t": "And MIT found the brain's deep-sleep rinse runs weaker in older adults."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing."
+  },
+  {
+   "s": 91.1,
+   "t": "Australia's GPs now have backing to prescribe time in nature, 20 minutes a day."
+  },
+  {
+   "s": 97.5,
+   "t": "And a US survey found pitching basic income as fair ness lifted support among people who value equality."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. Blood NAD, which longevity supplements try to boost, didn't drop with age in healthy adults."
+  },
+  {
+   "s": 112.5,
+   "t": "And just in case, neuroscientists proposed eight tests for whether lab-grown mini brains could become conscious."
+  },
+  {
+   "s": 121.88,
+   "t": "SpaceX caught a Starship back from orbit for the first time, though its booster was lost."
+  },
+  {
+   "s": 128.91,
+   "t": "Back on the ground, socks that stiffen the arch cut the energy cost of walking by 2%."
+  },
+  {
+   "s": 135.94,
+   "t": "Oh, and Floaty, a kestrel-inspired robot, rides updrafts like a bird to save battery."
+  },
+  {
+   "s": 142.97,
+   "t": "A voice back, a life back, a rocket home. The future's full of second chances."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Live long. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-16/The-Transhuman-Daily_2026-11-16.mp4",
+  "mb": 54.6,
+  "bytes": 54569165,
+  "seconds": 180.01
+ },
+ "links": {}
+}

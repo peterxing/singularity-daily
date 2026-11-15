@@ -1,8 +1,50 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-11T20:11:42+00:00",
- "episodes": 11,
+ "updated": "2026-11-15T20:17:48+00:00",
+ "episodes": 12,
  "links": [
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A 384-electrode implant turned a woman's attempts to sing into a voice that changes pitch; early-trial results presented at a conference, not yet in a journal.",
+   "ep": 15,
+   "on": "2026-11-16",
+   "date": "2026-11-14",
+   "story": "bci-sing",
+   "title": "A brain implant let a woman with ALS sing a musical scale again",
+   "pillar": "intelligence",
+   "outlet": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/14/science/brain-implants-als-voice.html"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A completely locked-in person communicated independently for more than a year through a brain implant, in an early trial reported at Neuroscience 2026.",
+   "ep": 15,
+   "on": "2026-11-16",
+   "date": "2026-11-14",
+   "story": "bci-list",
+   "title": "A locked-in man communicated by implant for over a year, and brain-to-text ran on an iPhone",
+   "pillar": "intelligence",
+   "outlet": "Medical Xpress (Society for Neuroscience)",
+   "url": "https://medicalxpress.com/news/2026-11-brain-interfaces-voice-people-paralysis.html"
+  },
+  {
+   "fid": "horizon-non-invasive-neural-symbiosis",
+   "key": "04fc97cca9",
+   "relation": "early",
+   "note": "A non-invasive EEG cap let 10 volunteers pick commands for extra robot arms about 70% of the time while both hands stayed busy, in a small lab study.",
+   "ep": 15,
+   "on": "2026-11-16",
+   "date": "2026-11-14",
+   "story": "docock",
+   "title": "A Doctor Octopus-inspired brain cap picks commands for extra robot arms while your hands keep working",
+   "pillar": "intelligence",
+   "outlet": "PsyPost",
+   "url": "https://www.psypost.org/scientists-created-a-doctor-octopus-inspired-brain-interface-for-controlling-robotic-arms/"
+  },
   {
    "fid": "2037-1",
    "key": "53a8a671e5",

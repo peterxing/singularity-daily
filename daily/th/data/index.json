@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-11T20:11:42+00:00",
- "latest": "2026-11-12",
+ "updated": "2026-11-15T20:17:48+00:00",
+ "latest": "2026-11-16",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-16",
+   "ep": 15,
+   "hook": "SECOND CHANCES.",
+   "day": "Monday 16 November 2026",
+   "tldr": "Second chances: a brain implant let a woman with ALS sing again, gene editing is rebuilding a Melbourne man's immune system, and SpaceX caught Starship back from orbit.",
+   "stories": 17,
+   "forecasts": 2,
+   "links": {
+    "supports": 0,
+    "early": 3,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 5,
+    "wellbeing": 3,
+    "intelligence": 5,
+    "frontier": 4
+   },
+   "titles": [
+    "A brain implant let a woman with ALS sing a musical scale again",
+    "Gene editing is giving a Melbourne man the immune system he was born without",
+    "A locked-in man communicated by implant for over a year, and brain-to-text ran on an iPhone"
+   ],
+   "cover": "daily/th/media/2026-11-16/cover.webp",
+   "thumb": "daily/th/media/2026-11-16/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-16/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-16/The-Transhuman-Daily_2026-11-16.mp4",
+    "mb": 54.6,
+    "bytes": 54569165,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-12",
    "ep": 11,
@@ -105,7 +140,7 @@
    "cover": "daily/th/media/2026-11-10/cover.webp",
    "thumb": "daily/th/media/2026-11-10/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/th/media/2026-11-10/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-10/The-Transhuman-Daily_2026-11-10.mp4",
     "mb": 55.9,
