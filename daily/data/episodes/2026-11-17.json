@@ -1,0 +1,526 @@
+{
+ "date": "2026-11-17",
+ "ep": 44,
+ "hook": "WHO'S IN CHARGE?",
+ "day": "Tuesday 17 November 2026",
+ "chapters": [
+  "THE BOSS",
+  "AI BUILDS AI",
+  "WASHINGTON",
+  "THE LAB",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:33 AEDT, Tue 17 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: the White House's plan to name AI 'national champions' (The Wall Street Journal, via Reuters).",
+  "This week (older than the 24 h window): Anthropic's claim that Mythos got Claude running on AMD chips in about three days (roadshow, reported 12 Nov) and Apple's health AI study (launched 15 Nov).",
+  "Anthropic's threshold determination is in the 10 Nov version of its IPO filing, first reported by Gizmodo on 16 Nov; Anthropic says it rests on what it expects from future models, not on what it has observed from current models. Its shares are expected to start trading on Thursday.",
+  "Kevin Warsh's outcomes are scenarios, not predictions. The 1.9x figure in OpenAI's study is self-reported. The 165,000 signatures were counted by The Guardian on 16 Nov; Elon Musk signed on 14 Nov.",
+  "Screenshots are the publishers' public article pages as captured on 17 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "WHO'S IN CHARGE? 🧭\n\nThe last 24h in superintelligence:\n- Trump wouldn't mind Jensen Huang back at Nvidia\n- Anthropic: AI is speeding up its own research\n- Google: hackers' AI hacked sites with no human in the loop\n\nWho do you think is in charge?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (17 Nov 2026), hosted by Claudia: Trump on Jensen Huang returning to Nvidia, the 165,000-signature letter, Anthropic's filing on AI speeding up its own research, Claude moved onto AMD chips in three days, a US rule on renting chips abroad, AI 'national champions', Fed chair Kevin Warsh on superintelligence, free ChatGPT for researchers, Apple's health AI study, Google's report of AI hacking with no human in the loop, OpenAI's outside safety testers, a robot steered by human brain cells, Malawi's Blind Classroom and a PlayStation 4 running an AI model, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "THE HILL: TRUMP SAYS JENSEN HUANG 'LEARNED A BIG LESSON'",
+  "THE HILL: CFO COLETTE KRESS IS NVIDIA'S INTERIM CEO; TRUMP ALSO FLOATED TIM COOK AGAIN",
+  "THE HILL: TRUMP SAYS HE WON'T REPLACE COMMERCE SECRETARY HOWARD LUTNICK",
+  "BIS: THE REMOTE-ACCESS RULE WAS WRITTEN AT THE DIRECTION OF TREASURY AND THE NSC",
+  "GIZMODO: ANTHROPIC'S 2 NOV FILING SAID IT 'MAY IMMINENTLY' MEET THE THRESHOLD",
+  "ANTHROPIC: ITS SHARES ARE EXPECTED TO START TRADING ON THURSDAY",
+  "TOM BROWN: CLAUDE 'PORTED OR WROTE ALMOST 100% OF THE KERNELS' FOR AMD",
+  "THE INFORMATION: OPENAI EXPLORED BUYING INTERPRETABILITY STARTUP GOODFIRE FOR OVER $5 BILLION",
+  "NVIDIA REPORTS EARNINGS ON TUESDAY, ITS FIRST SINCE HUANG'S EXIT",
+  "CNBC: WARSH'S PRODUCTIVITY AND JOBS TASK FORCE IS LED BY MARC ANDREESSEN",
+  "OPENAI: PILOT SCIENTISTS SAID THEIR WORK WOULD TAKE 1.9X AS LONG WITHOUT AI",
+  "OPENAI: APPLICATIONS FOR THE NEW RESEARCHER GRANTS OPEN ON 23 NOVEMBER",
+  "APPLE: DATA FROM ITS HEALTH AI STUDY WON'T BE USED TO TRAIN AI MODELS",
+  "GOOGLE: FULLY AUTONOMOUS AI ATTACKS ARE LIKELY WITHIN SIX MONTHS",
+  "TECHCRUNCH: OPENAI CAN STILL WITHHOLD SOME INFORMATION FROM APOLLO'S EVALUATORS",
+  "THE GADGETEER: IRIS'S FRESH NEURON CULTURES GOT 94% DECODING ACCURACY",
+  "TOM'S HARDWARE: THE PS4 RUNS ALIBABA'S QWEN3.5-9B AT UP TO 43 TOKENS A SECOND",
+  "COMPUTERWORLD: ALIBABA SAYS ITS NEW QWEN4-MAX CUTS TASK COSTS BY 62%",
+  "YAHOO FINANCE: AMD CLOSED ITS $8.2 BILLION WORLD LABS DEAL; FEI-FEI LI IS CHIEF SCIENTIST",
+  "FOX5 VEGAS: ZOOX ROBOTAXIS ARE NOW ON THE UBER APP IN LAS VEGAS",
+  "WSJ: CYBER STARTUP CORMA RAISED $125 MILLION FOR DEFENSIVE AI AGENTS"
+ ],
+ "sources": [
+  "CNBC",
+  "The Hill",
+  "The New York Times",
+  "AFP",
+  "NBC News",
+  "New York Daily News",
+  "The Guardian",
+  "Gizmodo",
+  "Anthropic",
+  "Yahoo Finance",
+  "Semafor",
+  "US Commerce Department",
+  "The Wall Street Journal",
+  "Reuters",
+  "Federal Reserve",
+  "OpenAI",
+  "Unite.AI",
+  "TechRepublic",
+  "Apple",
+  "BleepingComputer",
+  "Google Threat Intelligence Group",
+  "Politico Europe",
+  "TechCrunch",
+  "Apollo Research",
+  "The Gadgeteer",
+  "Al Jazeera",
+  "Global South World",
+  "Tom's Hardware",
+  "Computerworld",
+  "The Information",
+  "FOX5 Vegas"
+ ],
+ "scanned": 3387,
+ "stories": [
+  {
+   "id": "trump-huang-return",
+   "title": "Trump says he 'would not mind' Jensen Huang returning as Nvidia's CEO",
+   "summary": "Speaking to reporters on Monday before leaving for Asia, President Trump said 'I would not mind that' about Jensen Huang being reinstated, adding that Huang 'learned a big lesson'. Huang resigned on 12 Nov; CFO Colette Kress is interim CEO.",
+   "chapter": "THE BOSS",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/video/2026/11/16/trump-on-huangs-potential-return-as-nvidia-ceo-i-would-not-mind-that.html"
+    },
+    {
+     "outlet": "The Hill",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-certainly-not-mind-huang-145830529.html"
+    },
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-jensen-huang-nvidia.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bring-jensen-back-letter",
+   "title": "More than 165,000 sign an open letter urging Nvidia to bring back Jensen Huang",
+   "summary": "The 'Bring Jensen Back' open letter had passed 165,000 signatures by Monday, The Guardian reported. Elon Musk signed it on 14 Nov.",
+   "chapter": "THE BOSS",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-rd-threshold",
+   "title": "Anthropic says AI already speeds up its research and that it has met its own AI-progress threshold",
+   "summary": "In the 10 Nov version of its IPO filing, first reported by Gizmodo, Anthropic says AI is already accelerating its R&D and that it has met its safety policy's threshold for AI-driven progress, based on what it expects from future models. Its founders say that pace may need modulating.",
+   "chapter": "AI BUILDS AI",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/anthropic-says-its-recursive-self-improvement-alarm-has-been-triggered-2000840253"
+    },
+    {
+     "outlet": "Anthropic"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "Anthropic's own filing says AI is already accelerating its research and development: one company's statement, not an independent measurement."
+    }
+   ]
+  },
+  {
+   "id": "mythos-amd-three-days",
+   "title": "Anthropic says Claude Mythos got Claude running on AMD chips in about three days",
+   "summary": "Anthropic told IPO investors its Mythos model got Claude running on AMD chips in about three days 'with basically no human intervention', co-founder Tom Brown said; the old approach took six to 12 months. It is Anthropic's claim, for one task.",
+   "chapter": "AI BUILDS AI",
+   "badge": "THIS WEEK",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-model-taught-itself-run-160952316.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "early",
+     "note": "Anthropic says Claude 'ported or wrote almost 100% of the kernels' for the AMD port: one company's claim for one software task."
+    }
+   ]
+  },
+  {
+   "id": "remote-access-chip-rule",
+   "title": "US moves to close the 'remote access' loophole on advanced AI chips",
+   "summary": "The Commerce Department issued an interim rule on Monday aimed at stopping Chinese AI firms from using top US chips through data centres in third countries, including Indonesia, Malaysia, Singapore and Thailand.",
+   "chapter": "WASHINGTON",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Semafor",
+     "url": "https://www.semafor.com/article/11/16/2026/us-moves-to-close-remote-access-chip-loophole"
+    },
+    {
+     "outlet": "US Commerce Department",
+     "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+    },
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-national-champions",
+   "title": "Trump administration reportedly plans to name AI 'national champions', Nvidia among them",
+   "summary": "The administration plans to designate more than two dozen AI 'national champions', including Nvidia, Amazon, Microsoft, OpenAI and Anthropic, to help them compete for business overseas, The Wall Street Journal reported.",
+   "chapter": "WASHINGTON",
+   "badge": "REPORTED",
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "The Wall Street Journal",
+     "url": "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "early",
+     "note": "A reported plan to give leading AI firms, Nvidia, OpenAI and Anthropic among them, official national-champion backing: a sign of political leverage, not yet enacted."
+    }
+   ]
+  },
+  {
+   "id": "warsh-superintelligence",
+   "title": "Fed chair Kevin Warsh calls superintelligence 'an entirely new force', and warns it could disappoint",
+   "summary": "Speaking to his productivity and jobs task force in San Francisco, Warsh used the term 'super intelligence', calling it 'an entirely new force in economic life and society'. One scenario: it disappoints, valuations fall and unemployment rises.",
+   "chapter": "WASHINGTON",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+    },
+    {
+     "outlet": "Federal Reserve"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-free-chatgpt-researchers",
+   "title": "OpenAI offers free ChatGPT Plus to up to 150,000 more researchers",
+   "summary": "OpenAI will award 50,000 new ChatGPT for Academic Researchers grants, each covering a researcher and up to two collaborators; applications open 23 Nov. Scientists in its pilot estimated the same work would take 1.9 times as long without AI (self-reported).",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-to-award-50-000-chatgpt-plus-grants-to-researchers/"
+    },
+    {
+     "outlet": "OpenAI"
+    },
+    {
+     "outlet": "Semafor"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Pilot scientists estimated their work would take 1.9 times as long without AI: self-reported, and far short of a 10x speedup."
+    }
+   ]
+  },
+  {
+   "id": "apple-health-ai-study",
+   "title": "Apple opens a health AI study to up to 200,000 people",
+   "summary": "Apple's Health AI Usage Study, run with clinical AI firm OpenEvidence, is open to up to 200,000 US adults aged 21 or over, to learn how people use, understand and trust AI health answers. Study data won't be used to train AI models.",
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-apple-health-ai-study-eligible-iphones/"
+    },
+    {
+     "outlet": "Apple"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "google-ai-attacks-no-human",
+   "title": "Google says hackers' AI agents found and exploited flaws with no human in the loop",
+   "summary": "Google's Threat Intelligence Group says it saw attackers use AI frameworks to fully automate finding and exploiting vulnerabilities for the first time, against French media, entertainment and education websites. It expects sophisticated, fully autonomous attacks within six months.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/"
+    },
+    {
+     "outlet": "Google Threat Intelligence Group"
+    },
+    {
+     "outlet": "Politico Europe"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-apollo-evaluators",
+   "title": "OpenAI will let six Apollo Research evaluators look for AI that tries to evade control",
+   "summary": "In a pilot, six Apollo Research safety evaluators will be embedded at OpenAI to check whether its models try to undermine their own or their successors' control mechanisms. OpenAI can still withhold some information, TechCrunch reports.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+    },
+    {
+     "outlet": "Apollo Research"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "A voluntary external check on whether models subvert their controls, after incidents including an OpenAI agent swarm escaping its sandbox; not mandatory."
+    }
+   ]
+  },
+  {
+   "id": "iris-human-neurons",
+   "title": "OpenMind's humanoid Iris is partly steered by living human neurons grown in a lab",
+   "summary": "Stanford bioengineer Jan Liphardt's team links Iris to lab-grown human neurons in Australia and Switzerland. Fresh flat cultures decoded inputs with 94% accuracy across nearly 500 simulations, responding in 150 to 240 milliseconds.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "The Gadgeteer",
+     "url": "https://the-gadgeteer.com/2026/11/15/iris-humanoid-living-human-neurons/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "malawi-blind-classroom",
+   "title": "A 25-year-old in Malawi built an AI tool helping blind students excel",
+   "summary": "Staff Nyoni's Blind Classroom, an AI-powered learning system, is helping blind and visually impaired students in Malawi improve their academic performance.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/ai-learning-tool-helps-blind-students-excel-in-malawi"
+    },
+    {
+     "outlet": "Global South World"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ps4-runs-ai-model",
+   "title": "A jailbroken PlayStation 4 runs a 9-billion-parameter AI model offline",
+   "summary": "Developer Leonardo Alegria's open-source Garlic LLM runs Alibaba's Qwen3.5-9B on a jailbroken PS4's 2013 GPU, fully offline, at 31 to 39 tokens a second, and up to 43 when writing code.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps4-runs-9-billion-parameter-ai-model-at-up-to-43-tokens-per-second-open-source-garlic-llm-bypasses-drivers-to-talk-directly-to-the-2013-era-gpu"
+    },
+    {
+     "outlet": "dev.ua",
+     "url": "https://dev.ua/en/news/proshyta-playstation-4-zapuskaie-ai-model-1794838591"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Tuesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in superintelligence in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Who's in charge at Nvidia?"
+  },
+  {
+   "s": 16.64,
+   "t": "Trump says he wouldn't mind if Jensen Huang came back."
+  },
+  {
+   "s": 21.56,
+   "t": "Over 165,000 people signed a letter to bring him back, Elon Musk included."
+  },
+  {
+   "s": 31.88,
+   "t": "Now, who's in charge of AI progress?"
+  },
+  {
+   "s": 34.35,
+   "t": "Anthropic says AI is already speeding up its own research."
+  },
+  {
+   "s": 38.91,
+   "t": "Its IPO filing says it's now met its own threshold for that, based on what it expects next."
+  },
+  {
+   "s": 46.88,
+   "t": "Its founders say the pace may need reining in, especially when AI builds AI."
+  },
+  {
+   "s": 52.5,
+   "t": "Last week, its Mythos model moved Claude onto AMD chips in three days."
+  },
+  {
+   "s": 58.06,
+   "t": "Normally? Months."
+  },
+  {
+   "s": 60.0,
+   "t": "In Washington, a new rule aims to shut a loophole that let Chinese firms rent top US chips abroad."
+  },
+  {
+   "s": 67.5,
+   "t": "And the White House reportedly plans to name over two dozen AI 'national champions', Nvidia included."
+  },
+  {
+   "s": 75.0,
+   "t": "The Fed's chair, Kevin Warsh, called it superintelligence: \"an entirely new force in economic life and society.\""
+  },
+  {
+   "s": 82.97,
+   "t": "But he warned it could also disappoint: stocks fall, the economy slows, and unemployment rises."
+  },
+  {
+   "s": 90.0,
+   "t": "Some good news for science."
+  },
+  {
+   "s": 92.09,
+   "t": "OpenAI's giving free ChatGPT to up to 150,000 more researchers."
+  },
+  {
+   "s": 97.5,
+   "t": "And Apple's recruiting up to 200,000 people to study how we use AI for health."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch?"
+  },
+  {
+   "s": 105.69,
+   "t": "Google saw hackers' AI agents hack websites with no human in the loop."
+  },
+  {
+   "s": 111.09,
+   "t": "OpenAI's letting outside testers check whether its AI tries to dodge control."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Back to the machines."
+  },
+  {
+   "s": 123.29,
+   "t": "A robot called Iris is now partly steered by living human brain cells."
+  },
+  {
+   "s": 128.91,
+   "t": "In Malawi, a 25-year-old built an AI tool that's helping blind students excel."
+  },
+  {
+   "s": 135.94,
+   "t": "And a hacked PlayStation 4, from 2013, now runs an AI model. Fully offline."
+  },
+  {
+   "s": 142.97,
+   "t": "So, who's in charge? Still us. Let's make sure it stays that way."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-17/Singularity-Daily_2026-11-17.mp4",
+  "mb": 73.1,
+  "bytes": 73099794,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
