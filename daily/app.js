@@ -3,6 +3,7 @@
   const SITE = 'https://peterxing.com/';
   const GUIDE = 'https://peterxing.com';
   const PAGES = 'https://peterxing.github.io/singularity-daily/';
+  const KINDLE = 'https://www.amazon.com.au/dp/B0HRRCXLRY';
   const host = location.hostname;
   const onPeterxing = /(^|\.)peterxing\.com$/.test(host) || /post-agi-planning/.test(host);
   const sameAsPages = host.endsWith('github.io') || host === 'localhost' || host === '127.0.0.1' || location.protocol === 'file:';
@@ -867,6 +868,8 @@
     $('authorBox').replaceChildren(
       h('p', { class: 'author-name', text: dec(a.name || 'Peter Xing') }),
       h('p', { class: 'author-head', text: dec(a.headline) }),
+      h('p', { class: 'author-book' }, 'Author of ', h('a', { href: KINDLE, target: '_blank', rel: 'noopener' },
+        h('em', { text: "The Hitchhiker's Guide to the Singularity" }), ', out now on Kindle \u2197')),
       roles.length ? h('ul', { class: 'roles' }, roles.map(r => h('li', null, h('b', { text: dec(r.org) }), r.detail ? dec(r.detail) : null))) : null,
       h('div', { class: 'bio' }, a.bio.map(p => h('p', { text: dec(p) }))),
       talks.length ? h('div', { class: 'talks' }, h('h4', { text: 'Recent talks' }), h('ul', null, talks.map(t => h('li', null,
@@ -909,7 +912,9 @@
 
   function readerEnd(c) {
     const [label, href] = c.route === 'risk' ? ['The futures beyond the timeline', '#/forecasts/beyond'] : ['The forecasts, year by year', '#/forecasts'];
-    return h('footer', { class: 'reader-end' }, h('a', { class: 'btn', href, text: label }), h('a', { class: 'btn', href: '#/scorecard', text: 'What it got right or wrong' }));
+    const last = guide.chapters[guide.chapters.length - 1] === c;
+    return h('footer', { class: 'reader-end' }, h('a', { class: 'btn', href, text: label }), h('a', { class: 'btn', href: '#/scorecard', text: 'What it got right or wrong' }),
+      h('a', { class: `btn btn-kindle${last ? ' solid' : ''}`, href: KINDLE, target: '_blank', rel: 'noopener', text: 'Get the book on Kindle \u2197' }));
   }
   function setStep(a, c, label) {
     a.hidden = !c;

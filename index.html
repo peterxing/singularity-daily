@@ -23,11 +23,11 @@
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261101a">
+<link rel="stylesheet" href="daily/app.css?v=20261116a">
 <link rel="stylesheet" href="daily/edu.css?v=20261101c">
 <link rel="stylesheet" href="daily/th.css?v=20261103a">
 <script src="daily/route.js?v=20261101a"></script>
-<script src="daily/app.js?v=20261103b" defer></script>
+<script src="daily/app.js?v=20261116a" defer></script>
 <script src="daily/th.js?v=20261103b" defer></script>
 <script src="daily/edu.js?v=20261101d" defer></script>
 </head>
@@ -82,6 +82,12 @@
       <a class="start-card s-score" id="startScore" href="#/scorecard">
         <span class="k" id="startScoreK">Is it holding up?</span>
         <span class="t" id="startScoreT">What it got right or wrong</span>
+      </a>
+      <a class="start-card s-kindle" id="startKindle" href="https://www.amazon.com.au/dp/B0HRRCXLRY" target="_blank" rel="noopener">
+        <span class="k">New · the book is out now on Kindle</span>
+        <span class="t">The Hitchhiker's Guide to the Singularity</span>
+        <span class="s">A practical handbook for post-AGI planning, by Peter Xing</span>
+        <span class="go">Buy on Kindle ↗</span>
       </a>
     </div>
     <p class="start-also" id="thAlso" hidden><a href="#/transhuman"><span class="th-mark" aria-hidden="true">h+</span>Also every morning: <b>The Transhuman Daily</b>, the last 24 hours in longevity, wellbeing and intelligence in 3 minutes, mapped to the same forecasts · <span id="thAlsoT">today's episode</span> →</a></p>
@@ -200,6 +206,7 @@
       <p class="guide-tag" id="guideTag">The future is still unwritten.</p>
       <p class="section-sub" id="guideDeck">A journey through artificial general intelligence, superintelligence, and the human choices in between.</p>
       <p class="section-sub">It's where the forecasts the show checks every morning come from.</p>
+      <p class="guide-buy"><a class="btn btn-kindle solid" href="https://www.amazon.com.au/dp/B0HRRCXLRY" target="_blank" rel="noopener">Buy the Kindle edition ↗</a><span>Read it free right here, or take it with you: the book is out now on Kindle.</span></p>
     </div>
     <div class="guide-key" id="guideKey">
       <p><b>AGI</b> Broad, human-level capability across tasks.</p>
@@ -225,6 +232,7 @@
       <div class="author" id="authorBox">
         <p class="author-name">Peter Xing</p>
         <p class="author-head">Futurist, keynote speaker and technologist.</p>
+        <p class="author-book">Author of <a href="https://www.amazon.com.au/dp/B0HRRCXLRY" target="_blank" rel="noopener"><em>The Hitchhiker's Guide to the Singularity</em>, out now on Kindle ↗</a></p>
         <p><a href="https://www.linkedin.com/in/peter-xing/" rel="noopener">About Peter on LinkedIn ↗</a></p>
       </div>
     </div>
@@ -247,7 +255,7 @@
         <p>The same pipeline also makes <a href="#/transhuman"><strong>The Transhuman Daily</strong></a>, the last 24 hours in super longevity, super wellbeing, super intelligence and the frontier tech that gets us there, with Transhumanism Australia, its stories checked against the same forecasts; and <a href="#/education"><strong>Microsoft for Education Daily</strong></a>: the latest Microsoft updates for schools, universities and TAFEs, every morning, with who each one is for, its status and its source.</p>
       </div>
       <div>
-        <p>The forecasts come from <a href="#/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? <a href="#/guide/read">Read the Guide</a> right here, then see <a href="#/scorecard">what it got right or wrong</a>.</p>
+        <p>The forecasts come from <a href="#/guide"><em>The Hitchhiker's Guide to the Singularity</em></a>, Peter's living guide to the post-AGI transition. Want the long view? <a href="#/guide/read">Read the Guide</a> right here, then see <a href="#/scorecard">what it got right or wrong</a>. Prefer to read on a Kindle? <a href="https://www.amazon.com.au/dp/B0HRRCXLRY" target="_blank" rel="noopener">The book is out now ↗</a></p>
         <p>Follow along: <a href="daily/weekly.xml">the weekly by RSS</a> · <a href="daily/feed.xml">every episode by RSS</a> · <a href="https://x.com/peterxing" rel="noopener">X</a> · <a href="https://www.linkedin.com/in/peter-xing/" rel="noopener">LinkedIn</a> · <a href="https://www.facebook.com/peterxingularity" rel="noopener">Facebook</a> · <a id="repoLink" href="https://github.com/peterxing/singularity-daily" rel="noopener">source on GitHub</a></p>
       </div>
     </div>
@@ -361,6 +369,7 @@
 </main>
 
 <footer class="foot wrap">
+  <p>The book: <a href="https://www.amazon.com.au/dp/B0HRRCXLRY" target="_blank" rel="noopener"><em>The Hitchhiker's Guide to the Singularity</em> is out now on Kindle ↗</a></p>
   <p>© 2026 Peter Xing · Hosted by Claudia (claudia.gallery) · News belongs to the publishers linked on each story.</p>
   <p class="mono" id="footUpdated"></p>
 </footer>

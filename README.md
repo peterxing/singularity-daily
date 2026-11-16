@@ -16,8 +16,8 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   2028, at the Guide's odds), with a link to that forecast and its test. It finds the forecast by its wording
   ("superintelligence emerges" or "arrives") in `daily/data/predictions.json`, so it moves whenever Peter revises the
   forecast. During that month it says the month is here; once the month has passed it shows the forecast's verdict.
-- **Start here** — one line on what the site is, then three ways in side by side: watch today's episode, start the book,
-  and see whether the Guide is holding up.
+- **Start here** — one line on what the site is, then three ways in side by side: watch today's episode, start the book, and
+  see whether the Guide is holding up; under them, a card for the book on Kindle.
 - **Today** — the newest episode, its TL;DR, a clickable transcript, and the forecasts the day's news moved.
 - **The stories** — every story in the episode, grouped by the show's chapters, with its source and a plain-language note on
   each forecast it touches.
@@ -36,7 +36,9 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   (`#/guide/chapter-N`), and the author. The chapters and author notes are read live from the Guide's published page and
   data on the same origin (`/guide` and `/author.json`), so they never go stale. The site no longer links to the legacy
   `/guide` page, but it is still the source of the chapter text, so it has to stay deployed. Elsewhere (the Pages copy)
-  the section points readers to peterxing.com.
+  the section points readers to peterxing.com. The book is also sold on Kindle
+  ([amazon.com.au/dp/B0HRRCXLRY](https://www.amazon.com.au/dp/B0HRRCXLRY)): the Start here card, the section's intro, the
+  end of every chapter in the reader, the author note, About the show and the footer link to it.
 - **Every episode** — the archive. The page checks for a new episode, verdict or revision every ten minutes while it's open.
 - **The Transhuman Daily** (`#/transhuman`, one episode at `#/transhuman/<date>`, one story at `#/transhuman/<date>/<story>`) —
   a third daily show from the same pipeline, made with Transhumanism Australia, after About the show: the last 24 hours in
