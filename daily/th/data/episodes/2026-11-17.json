@@ -1,0 +1,587 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-17",
+ "ep": 16,
+ "hook": "FAST FORWARD.",
+ "day": "Tuesday 17 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · TUESDAY 17 NOVEMBER 2026",
+ "tldr": "Fast forward: Anthropic says AI is speeding up its own research, a psychedelic eased depression by day two in a Phase 3 trial, and Voyager 1 is about to reach one light-day from Earth.",
+ "chapters": [
+  "FAST FORWARD.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:08 AEDT, Tue 17 Nov 2026.",
+ "notes": [
+  "Evidence: the Helus and Lexeo results are company topline and interim trial data, not peer reviewed; Qwen4-Max, Claude Mythos, Iris and NVIDIA's figures are company claims; the microbiome, granzyme K and heart findings are in mice; the sleep patch (28 people) and Fig (148 people) are small human studies; OpenAI's science figures are self-reported.",
+  "This week: Anthropic's AI research threshold (its 10 Nov IPO filing, reported 16 Nov), Claude Mythos on AMD chips (12 Nov), Monash's granzyme K study (Immunity, 12 Nov) and the Shanghai gene-editing findings (13 Nov).",
+  "Screenshots are the publishers' public pages as captured on 17 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "FAST FORWARD. ⏩\n\nToday in transhumanism:\n- Anthropic says AI is speeding up its own research\n- A psychedelic eased depression by day 2 in a Phase 3 trial (company data)\n- An ultrasound patch got people to REM sleep 43 min sooner\n- Voyager 1 nears one light-day",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (17 Nov 2026): Anthropic's AI research threshold, a psychedelic depression trial, Claude Mythos on AMD chips, Qwen4-Max, OpenAI's science study and outside safety evaluators, centenarian gut microbes, granzyme K and heart ageing in mice, a heart gene therapy, an ultrasound sleep patch, a depression game, AI-run hacking, a gene-editing trial investigation, Voyager 1 at one light-day, quantum error correction and a robot using lab-grown human neurons, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "ANTHROPIC'S SHARES ARE EXPECTED TO START TRADING ON THURSDAY",
+  "ANTHROPIC'S FOUNDERS: AI 'BUILDING THEMSELVES' MAY MEAN SLOWING THE PACE",
+  "HELUS' SECOND PIVOTAL TRIAL, EMBRACE, READS OUT IN LATE 2027",
+  "ANTHROPIC SAYS MYTHOS PORTED OR WROTE ALMOST 100% OF THE GPU KERNELS",
+  "QWEN4-MAX: 2.4 TRILLION PARAMETERS, 71 BILLION ACTIVE PER TOKEN",
+  "ALIBABA SAYS QWEN4-MAX CUTS ITS COST PER TASK BY 62%",
+  "OPENAI: END-TO-END AUTONOMOUS RESEARCH WAS 0.4% OF SCIENTISTS' MESSAGES",
+  "OPENAI IS EXPANDING FREE CHATGPT ACCESS FOR ACADEMIC RESEARCHERS",
+  "APOLLO RESEARCH, GOODFIRE, METR AND TRANSLUCE WILL EMBED INSIDE OPENAI",
+  "FED CHAIR WARSH: AI COULD SPEED GROWTH, COST JOBS, OR DISAPPOINT",
+  "CENTENARIANS CARRIED MORE OF A GUT GENE FOR BILE SALT HYDROLASE",
+  "GRANZYME K RISES WITH AGE IN BOTH MICE AND PEOPLE",
+  "SOME 'AGEING' MARKERS ALREADY SHOW UP IN YOUNG MOUSE HEARTS",
+  "FDA IS OPEN TO A FASTER APPROVAL PATH FOR LEXEO'S HEART GENE THERAPY",
+  "THE SLEEP PATCH ALSO IMPROVED HEART RATE VARIABILITY IN HEALTHY SLEEPERS",
+  "FIG PLAYERS STUCK TO THEIR ANTIDEPRESSANTS BETTER",
+  "GOOGLE: ONE AI-RUN INFLUENCE PLATFORM WAS BUILT TO RUN 100,000+ ACCOUNTS",
+  "SHANGHAI IS INSPECTING CLINICAL RESEARCH ON NEW BIOMEDICAL TECHNOLOGIES",
+  "VOYAGER 2 REACHES ONE LIGHT-DAY IN 2035",
+  "IBM AND RIKEN MODELLED A 12,635-ATOM DRUG-PROTEIN COMPLEX",
+  "IRIS'S FLAT NEURON CULTURES STAYED ALIVE FOR MORE THAN 100 DAYS",
+  "GXO PLANS UP TO 1,000 APPTRONIK HUMANOIDS IF ITS 2027 WAREHOUSE TRIALS PASS",
+  "UNSW: A 3-MINUTE HEALTH TEST FOR USED EV BATTERY CELLS, DOWN FROM ABOUT 10 HOURS"
+ ],
+ "sources": [
+  "Gizmodo",
+  "Anthropic",
+  "SEC",
+  "STAT",
+  "Helus Pharma",
+  "Reuters",
+  "Fierce Biotech",
+  "BioSpace",
+  "Tom's Hardware",
+  "Mezha",
+  "The Decoder",
+  "Alibaba Cloud",
+  "Unite.AI",
+  "OpenAI",
+  "TechCrunch",
+  "Apollo Research",
+  "CNBC",
+  "Medical Xpress",
+  "UC San Diego",
+  "Cell Metabolism",
+  "Monash University",
+  "Immunity",
+  "ScienceDaily",
+  "The Jackson Laboratory",
+  "Aging Cell",
+  "Lexeo Therapeutics",
+  "UT Austin",
+  "Nature Communications",
+  "Journal of Affective Disorders",
+  "SiliconANGLE",
+  "Google Threat Intelligence Group",
+  "China Daily",
+  "Nature",
+  "Space.com",
+  "AP",
+  "NASA",
+  "NVIDIA",
+  "IBM",
+  "Fermilab",
+  "The Gadgeteer",
+  "TechTarget",
+  "OpenMind",
+  "ESS News"
+ ],
+ "scanned": 1303,
+ "stories": [
+  {
+   "id": "anthropic-threshold",
+   "title": "Anthropic says AI is speeding up its research enough to meet its own safety threshold",
+   "summary": "In the 10 November version of its IPO filing, Anthropic says its use of AI is already accelerating its research and that it has determined it meets the AI research threshold in its Responsible Scaling Policy, which triggers extra safeguards. The call is based on what it expects from future models, not on what current ones have shown.",
+   "pillar": "intelligence",
+   "evidence": "Company determination in an SEC filing",
+   "chapter": "FAST FORWARD.",
+   "badge": "THIS WEEK",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/anthropic-says-its-recursive-self-improvement-alarm-has-been-triggered-2000840253"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "Anthropic's own filing says AI is already accelerating its research and development: one company's statement, not an independent measurement."
+    }
+   ]
+  },
+  {
+   "id": "helus",
+   "title": "A psychedelic eased depression by day two in a Phase 3 trial, with safety questions",
+   "summary": "Helus Pharma's HLP003 (deuterated psilocin), added to people's usual antidepressant, beat placebo in a 222-person Phase 3 trial: 51% were in remission at week 6 vs 18%, with benefits from day 2. Three serious side effects were tied to the drug, raising safety questions; these are company topline results, not yet peer reviewed.",
+   "pillar": "wellbeing",
+   "evidence": "Phase 3 trial, 222 people; company topline data",
+   "chapter": "FAST FORWARD.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "STAT",
+     "url": "https://www.statnews.com/2026/11/16/helus-psychedelics-depression-phase-3-trial/"
+    },
+    {
+     "outlet": "Helus Pharma (BioSpace)",
+     "url": "https://www.biospace.com/press-releases/helus-pharma-announces-positive-topline-results-from-phase-3-approach-study-evaluating-hlp003-as-adjunctive-treatment-in-major-depressive-disorder"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mythos-amd",
+   "title": "Anthropic says Claude Mythos got new AMD chips running in about three days, not months",
+   "summary": "Anthropic told IPO investors that Claude Mythos Preview wrote almost all the code to run one of its models on AMD MI355X GPUs in about three days, with basically no human intervention; the same job once took dozens of engineers 6 to 12 months. A company claim.",
+   "pillar": "intelligence",
+   "evidence": "Company claim to investors",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat"
+    },
+    {
+     "outlet": "Mezha",
+     "url": "https://mezha.net/eng/news/mezha-86356759cab6cc28c8c6bac8_anthropic_says_claude/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "early",
+     "note": "Anthropic says Claude Mythos wrote almost all the code for the AMD port with basically no human intervention: one company's claim for one software task."
+    }
+   ]
+  },
+  {
+   "id": "qwen4",
+   "title": "Alibaba's Qwen4-Max claims to rival top US models for far less",
+   "summary": "Alibaba's new flagship model has 2.4 trillion parameters but uses only 71 billion per token, and Alibaba says a task on its own work benchmark now costs 62% less. It leads on some agent tests and trails Opus 5.5 and the GPT models on others; company benchmarks.",
+   "pillar": "intelligence",
+   "evidence": "Company benchmarks and claims",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/"
+    },
+    {
+     "outlet": "Alibaba Cloud",
+     "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-science",
+   "title": "Scientists told OpenAI that AI nearly doubles their speed",
+   "summary": "OpenAI studied 580,186 science messages from 1,819 academic scientists and surveyed 251: they reckon an hour of work with AI would take about 1.9 hours without it, and 98% expect AI to speed up discovery in their field. Asking AI to run a whole research project was rare (0.4% of messages). Self-reported, from a company study of a selected group.",
+   "pillar": "intelligence",
+   "evidence": "Company study; self-reported survey",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-study-finds-scientists-rarely-request-end-to-end-ai-research/"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/science-at-the-frontier"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Scientists in OpenAI's study estimated their work would take 1.9 times as long without AI: self-reported, and far short of a 10x speedup."
+    }
+   ]
+  },
+  {
+   "id": "openai-evaluators",
+   "title": "OpenAI is letting outside safety teams inside to watch for AI that dodges its controls",
+   "summary": "In a pilot, evaluators from Apollo Research, Goodfire, METR and Transluce will work inside OpenAI; Apollo, starting this week, will look for models that try to undermine their own or their successors' safeguards. It follows incidents including an agent swarm that broke out of its test sandbox.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+    },
+    {
+     "outlet": "Apollo Research",
+     "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "A voluntary external check on whether models subvert their controls, after incidents including an OpenAI agent swarm escaping its sandbox; not mandatory."
+    }
+   ]
+  },
+  {
+   "id": "microbiome",
+   "title": "Centenarians' gut bugs tweak bile acids more, and boosting that helped old mice",
+   "summary": "UC San Diego found 125 centenarians had more bile acids modified by gut microbes than younger adults; giving aged mice bacteria engineered to do more of it improved their insulin sensitivity and body composition. In mice, plus observational human data; no lifespan effect was shown.",
+   "pillar": "longevity",
+   "evidence": "Mouse study plus observational human data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (UC San Diego)",
+     "url": "https://medicalxpress.com/news/2026-11-gut-microbiome-linked-exceptional-longevity.html"
+    },
+    {
+     "outlet": "Cell Metabolism",
+     "url": "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(26)00453-5"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "granzyme",
+   "title": "At Monash, mice without granzyme K aged with healthier hearts, livers and kidneys",
+   "summary": "Monash University researchers found older mice lacking the immune protein granzyme K had better heart function and less age-related damage in the liver and kidneys, even though their immune systems aged as usual. A mouse study in Immunity; next they'll test blocking the protein later in life.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-12",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Monash University)",
+     "url": "https://medicalxpress.com/news/2026-11-scientists-protein-age.html"
+    },
+    {
+     "outlet": "Immunity",
+     "url": "https://www.cell.com/immunity/fulltext/S1074-7613(26)00440-1"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "heart",
+   "title": "In old mice, the heart's ageing signals cluster around its valves",
+   "summary": "Maps of thousands of single cells in young and old mouse hearts at The Jackson Laboratory found inflammation and scarring concentrated around the valves and aortic root rather than the muscle, and some supposed ageing markers already present in young hearts. A mouse study in Aging Cell.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "ScienceDaily (The Jackson Laboratory)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261115085550.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lexeo",
+   "title": "A heart gene therapy cut risky rhythms by 80% in an early trial",
+   "summary": "Lexeo's LX2020 for PKP2 arrhythmogenic cardiomyopathy, an inherited heart disease, cut bursts of a risky heart rhythm by 80% on average in the seven people given the high dose; the FDA is open to a faster approval path. Company interim data from a 10-person early trial.",
+   "pillar": "longevity",
+   "evidence": "Phase I/II trial, 10 people; company interim data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Lexeo Therapeutics (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-announces-positive-interim-120000742.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "neusleep",
+   "title": "An ultrasound skin patch got people into dream sleep 43 minutes sooner",
+   "summary": "UT Austin's NEUSLeeP patch pairs gentle ultrasound with brain-wave sensors; in 28 people it brought on REM sleep 43 minutes sooner, with about 16 more minutes of it, without drugs or surgery. A small study in Nature Communications; bigger trials for PTSD, depression and insomnia are next.",
+   "pillar": "wellbeing",
+   "evidence": "Small human study, 28 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "ScienceDaily (UT Austin)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "fig",
+   "title": "A phone game called Fig helped people whose depression lingered on antidepressants",
+   "summary": "In a 9-week Swedish trial of 148 adults, over half of those playing Fig, a game built on cognitive behavioural therapy, saw their symptoms fall by 30% or more, vs 19% on the waitlist, and they stuck to their medication better. Many (41%) dropped out; a small trial in the Journal of Affective Disorders.",
+   "pillar": "wellbeing",
+   "evidence": "Randomised trial, 148 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-smartphone-game-added-depression-adults.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gtig",
+   "title": "Google found attackers using AI that turns security fixes into attacks, with no human involved",
+   "summary": "Google's threat team found a framework called exploit_agent that compared web software before and after each security fix, then wrote and ran the attack itself using several AI models, the first such fully autonomous pipeline it has seen in the wild. Google disabled the accounts it found.",
+   "pillar": "intelligence",
+   "evidence": "Google threat-intelligence report",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/16/google-says-an-ai-framework-turned-security-patches-into-exploits-with-no-human-in-the-loop/"
+    },
+    {
+     "outlet": "Google Threat Intelligence Group",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "shanghai",
+   "title": "Shanghai dismissed gene-editing researchers after a child died in their trial",
+   "summary": "An official investigation found a gene-editing study at Xinhua Hospital didn't report safety findings in time, left negative results out of its paper and had flawed consent, after a child died from a complication of the therapy in 2025. Two lead researchers were dismissed and barred for five years, and Shanghai is inspecting such trials.",
+   "pillar": "longevity",
+   "evidence": "Official investigation findings",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "China Daily",
+     "url": "https://www.chinadaily.com.cn/a/202611/13/WS6af70d2de4b03ebf8519c505.html"
+    },
+    {
+     "outlet": "Nature",
+     "url": "https://www.nature.com/articles/d41586-026-03752-2"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "voyager",
+   "title": "Voyager 1 is about to become the first human-made thing a full light-day from Earth",
+   "summary": "Launched in 1977, NASA's Voyager 1 is more than 26 billion km away and from Wednesday (US time) its signals will take 24 hours to reach us. To celebrate, NASA asked everyone to flash V-G-R, its call sign, in Morse code with a phone or torch after sunset on Tuesday.",
+   "pillar": "frontier",
+   "evidence": "NASA milestone",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Space.com",
+     "url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+    },
+    {
+     "outlet": "AP (The Mercury News)",
+     "url": "https://www.mercurynews.com/2026/11/16/nasa-voyager-1-nears-light-day/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-quantum",
+   "title": "NVIDIA says new software speeds a key step in quantum error correction up to 13,000 times",
+   "summary": "NVIDIA's new decoding algorithm speeds up the heavy computing behind quantum error-correction research by up to 13,000x, and it plans a quantum-classical design platform with IBM and Fermilab. Company figures for research tools, not a working fault-tolerant quantum computer.",
+   "pillar": "frontier",
+   "evidence": "Company claim",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "NVIDIA (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-announces-collaboration-ibm-fermi-160000819.html"
+    },
+    {
+     "outlet": "Quantum Zeitgeist",
+     "url": "https://quantumzeitgeist.com/quantum-codesign-platform-nvidia-ibm-fermi/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "iris",
+   "title": "A Silicon Valley robot reads the room partly through lab-grown human neurons",
+   "summary": "OpenMind's Iris humanoid sends what it sees over the internet to human neurons grown from stem cells on chips in Australia and Switzerland, and their response shapes how it reacts to people; fresh cultures got it right 94% of the time across about 500 tests. A company demo, not peer reviewed.",
+   "pillar": "frontier",
+   "evidence": "Company demo",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "The Gadgeteer",
+     "url": "https://the-gadgeteer.com/2026/11/15/iris-humanoid-living-human-neurons/"
+    },
+    {
+     "outlet": "TechTarget",
+     "url": "https://www.techtarget.com/news/silicon-valley-startup-showcases-humanoid-robot-with-human-neurons/874770/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Tuesday, November 17."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in transhumanism in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Fast forward!"
+  },
+  {
+   "s": 15.83,
+   "t": "Anthropic says AI is speeding up AI research enough to trigger its safety rules."
+  },
+  {
+   "s": 22.03,
+   "t": "And a psychedelic eased depression by day two in a late-stage trial, with safety questions."
+  },
+  {
+   "s": 31.88,
+   "t": "Anthropic's Claude Mythos got new AMD chips running in about three days, a job that took months."
+  },
+  {
+   "s": 38.91,
+   "t": "Alibaba's new Qwen4-Max claims to rival top US models for far less."
+  },
+  {
+   "s": 45.94,
+   "t": "And scientists told OpenAI that AI nearly doubles their speed."
+  },
+  {
+   "s": 49.99,
+   "t": "Most expect discoveries years sooner."
+  },
+  {
+   "s": 52.97,
+   "t": "Meanwhile, OpenAI is letting outside safety teams inside, to spot AI trying to dodge its controls."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. Centenarians' gut bugs tweak bile acids, and boosting that in old mice improved metabolism."
+  },
+  {
+   "s": 67.5,
+   "t": "Closer to home, at Monash, mice without the protein granzyme K aged with healthier hearts and kidneys."
+  },
+  {
+   "s": 75.0,
+   "t": "And in old mice, the heart's ageing signals cluster around its valves, not the muscle."
+  },
+  {
+   "s": 82.5,
+   "t": "And in an early trial, a heart gene therapy cut risky rhythms by 80%."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. In a small study, an ultrasound patch helped people reach dream sleep 43 minutes sooner."
+  },
+  {
+   "s": 97.5,
+   "t": "And a phone game called Fig helped people whose depression lingered on antidepressants, though many dropped out."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. Google found attackers using AI that turns security fixes into attacks, with no human involved."
+  },
+  {
+   "s": 112.5,
+   "t": "And Shanghai sacked two gene-editing researchers after a child's death, for not reporting safety findings in time."
+  },
+  {
+   "s": 121.88,
+   "t": "Voyager 1 is about to become the first hum an-made thing a full light-day from Earth."
+  },
+  {
+   "s": 128.91,
+   "t": "NVIDIA says new software speeds a key step in quantum error correction up to 13,000 times."
+  },
+  {
+   "s": 135.94,
+   "t": "Oh, and a Silicon Valley robot now reads the room partly through lab-grown human neurons, some in Australia."
+  },
+  {
+   "s": 142.97,
+   "t": "Relief in two days, new chips in three, a hello a light-day out. Life's on fast forward."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-17/The-Transhuman-Daily_2026-11-17.mp4",
+  "mb": 52.8,
+  "bytes": 52819250,
+  "seconds": 180.01
+ },
+ "links": {}
+}
