@@ -1,0 +1,344 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-17",
+ "ep": 22,
+ "hook": "PRESS START.",
+ "day": "Tuesday 17 November 2026",
+ "note": "FOR EDUCATION · TUESDAY 17 NOVEMBER 2026",
+ "tldr": "Durham switches on Microsoft 365 Copilot for every student (reported), Windows gets a remote lock for lost laptops in preview, and Windows Server 2016's last security update lands in January.",
+ "chapters": [
+  "PRESS START",
+  "THE STUDENTS",
+  "CAMPUS IT",
+  "THE LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Tue 17 Nov 2026 (Monday 16 Nov in the US), plus This-week items.",
+ "notes": [
+  "Durham's Copilot rollout is as reported by Palatinate, Durham's student newspaper (the University's own site was unreachable). This week: Remote lock for Windows (Insider build 29708, 13 Nov, reported 15-16 Nov), in preview for Insiders.",
+  "Bulk AI Scan is in public preview; Windows Server 2016's extended support ends in January 2027 (Microsoft's pages give 12 or 13 January); The Humblers Awaken is due 1 December. Xbox's Startup setting is as reported.",
+  "Screenshots are the publishers' public pages as captured on 17 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "PRESS START. 🎮\n\nThe last 24h at Microsoft for education:\n- Durham gives every student Microsoft 365 Copilot, reports say\n- Windows remote lock for lost laptops, in preview\n- GitHub AI Scan on up to 20 repos at once (preview)\n- Windows Server 2016's last update is in January",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (17 Nov 2026): Durham University's Microsoft 365 Copilot rollout to all students, Microsoft's Digital Innovation Center in Kuwait, remote lock for lost Windows laptops in preview, GitHub's bulk AI Scan, UC Berkeley and Microsoft's TokenEconomizer plugin for coding agents, the end of Windows Server 2016 support, Xbox's classic boot-up animations and Minecraft Dungeons II: The Humblers Awaken, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "DURHAM UNIVERSITY: STUDENTS CAN FIND AI TRAINING AND ADVICE ON MY DIGITAL DURHAM, REPORTS PALATINATE",
+  "DURHAM: CHECK THE GENERATIVE AI POLICY FRAMEWORK BEFORE USING COPILOT FOR ASSESSED WORK",
+  "DURHAM: MODULE LEADERS AND HEADS OF DEPARTMENT ARE ANSWERING STUDENTS' COPILOT QUESTIONS",
+  "KUWAIT'S MICROSOFT DIGITAL INNOVATION CENTER PLANS WORKSHOPS, DEMOS, OPEN-HOUSE SESSIONS AND DEVELOPER EVENTS",
+  "REMOTE LOCK: LOCKREASON AND RECOVERYHINT PUT YOUR OWN MESSAGE AND HELP DESK CONTACT ON THE LOCK SCREEN",
+  "REMOTE LOCK DOESN'T TOUCH THE USER'S ACCOUNT: USE MICROSOFT ENTRA ID TO DISABLE IT OR REVOKE SESSIONS",
+  "WINDOWS INSIDER BUILD 29708: WINDOWS HELLO PINS FOR PERSONAL ACCOUNTS NEED SIX DIGITS, WITH A FOUR-DIGIT OPTION",
+  "WINDOWS INSIDER BUILD 29708: UNICODE 17.0 TEXT SUPPORT, WITH 4,803 NEW CHARACTERS AND FOUR NEW SCRIPTS",
+  "WINDOWS INSIDER BUILD 29708: FILE EXPLORER CAN NOW TAG WEBP IMAGES",
+  "GITHUB AI SCAN COVERS LANGUAGES CODEQL DOESN'T SUPPORT, AND NO GITHUB COPILOT LICENCE IS NEEDED",
+  "TOKENECONOMIZER: 16 OF THE 23 TOOLS AN AGENT LOADED ON EVERY TURN WERE NEVER CALLED",
+  "TOKENECONOMIZER: THE 17% OF TASKS THAT FAILED ACCOUNTED FOR 32% OF THE SPENDING",
+  "WINDOWS SERVER 2016 ESSENTIALS FEATURES, INCLUDING REMOTE WEB ACCESS, END WITH EXTENDED SUPPORT",
+  "WINDOWS SERVER 2025 HAS A FREE 180-DAY EVALUATION",
+  "MICROSOFT IGNITE 2026 RUNS 17-20 NOVEMBER IN SAN FRANCISCO AND ONLINE",
+  "MICROSOFT'S PRELIMINARY REPORT: A BUG IN A FIX FIRST ROLLED OUT IN JULY SET OFF LAST WEEK'S OUTLOOK OUTAGE",
+  "THE ORIGINAL XBOX LAUNCHED ON 15 NOVEMBER 2001"
+ ],
+ "sources": [
+  "Palatinate",
+  "Al Bawaba",
+  "Tbreak",
+  "Microsoft Learn",
+  "Windows Insider release notes",
+  "Windows Latest",
+  "Help Net Security",
+  "GitHub Changelog",
+  "Microsoft Research Blog",
+  "BleepingComputer",
+  "Xbox",
+  "Xbox Wire",
+  "Sportskeeda",
+  "GeekWire"
+ ],
+ "scanned": 1323,
+ "stories": [
+  {
+   "id": "durham-copilot",
+   "title": "Durham University gives all its students Microsoft 365 Copilot, reports say",
+   "summary": "From 16 November, in phase one of a rollout, Durham students can use Microsoft 365 Copilot in Word, Outlook and Excel through their existing accounts, where assessment rules allow: to summarise notes, plan towards deadlines or structure presentations. Durham says it only sees what a student's account already could, and entries won't train AI models.",
+   "for": "University students and leaders",
+   "status": "Phase one, from 16 November (reported)",
+   "edu": true,
+   "chapter": "PRESS START",
+   "badge": "REPORTED",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Palatinate",
+     "url": "https://www.palatinate.org.uk/breaking-durham-rolls-out-microsoft-copilot-ai-for-all-students/"
+    }
+   ]
+  },
+  {
+   "id": "kuwait-mdic",
+   "title": "Microsoft opens a Digital Innovation Center in Kuwait, with programs for students",
+   "summary": "Built with the State of Kuwait, the centre lets government teams, startups, developers and students try Microsoft's AI, cloud and cybersecurity tools and build skills, through workshops, demonstrations, open-house sessions and student-focused programming.",
+   "for": "Students, developers and startups in Kuwait",
+   "status": "Open",
+   "edu": false,
+   "chapter": "THE STUDENTS",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Al Bawaba (Microsoft announcement)",
+     "url": "https://www.albawaba.com/business/pr/microsoft-opens-its-digital-innovation-1641423"
+    },
+    {
+     "outlet": "Tbreak",
+     "url": "https://tbreak.com/microsoft-kuwait-digital-innovation-centre/"
+    }
+   ]
+  },
+  {
+   "id": "remote-lock",
+   "title": "Remote lock for Windows: lock a lost laptop from Intune without wiping it",
+   "summary": "In preview for Windows Insiders, IT can lock a lost, stolen or compromised Windows device from Microsoft Intune: everyone is signed out and sign-in is hidden until an admin lifts it, and nothing is erased. It needs Windows Education, Pro or Enterprise; keep BitLocker on, as USB boot and Safe Mode aren't blocked.",
+   "for": "School IT",
+   "status": "Preview (Insiders)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/remote-lock-for-windows"
+    },
+    {
+     "outlet": "Windows Insider release notes",
+     "url": "https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental-future-platforms/preview-build-29708-1001"
+    },
+    {
+     "outlet": "Windows Latest",
+     "url": "https://www.windowslatest.com/2026/11/16/your-windows-11-work-laptop-can-now-be-locked-remotely-and-no-password-pin-or-admin-account-can-get-you-back-in-only-it-can/"
+    }
+   ]
+  },
+  {
+   "id": "github-ai-scan-bulk",
+   "title": "GitHub can start AI Scan on up to 20 repositories at once",
+   "summary": "AI Scan for repositories looks for security vulnerabilities, including in languages CodeQL doesn't cover, and its findings sit alongside CodeQL alerts. Organisations can now start it on up to 20 repositories at once; bulk start is in public preview and doesn't need a GitHub Copilot licence.",
+   "for": "University dev and research software teams",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories/"
+    }
+   ]
+  },
+  {
+   "id": "tokeneconomizer",
+   "title": "UC Berkeley and Microsoft's TokenEconomizer cuts coding agents' costs",
+   "summary": "The open-source plugin learns from an AI coding agent's past sessions in a repository, with short repository notes, pruned tools and help when the agent gets stuck, without changing the agent or its model. On 277 real bug fixes it cut costs by 18.4-30.9%, with success rates broadly stable.",
+   "for": "CS students and researchers",
+   "status": "Research, open source",
+   "edu": false,
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Microsoft Research Blog",
+     "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/"
+    }
+   ]
+  },
+  {
+   "id": "server-2016-eos",
+   "title": "Windows Server 2016 gets its last security update in January 2027",
+   "summary": "All editions reach the end of extended support in January 2027, and that month's security update is the last; after that, updates continue only with Extended Security Updates. Microsoft suggests moving to Windows Server 2025, which has a free 180-day evaluation.",
+   "for": "School and university IT",
+   "status": "Support ends January 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Microsoft Lifecycle",
+     "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2016"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-boot",
+   "title": "Xbox brings back the original Xbox boot-up animation for its 25th anniversary",
+   "summary": "A free update brings the original Xbox boot-up animation, plus two Xbox 360 boot-up animations, to Xbox Series X|S and Xbox One; reports say you pick one under System > Startup.",
+   "for": "Students, after hours",
+   "status": "Out now",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Xbox (on X)",
+     "url": "https://x.com/XBOX/status/2122043347078672876"
+    },
+    {
+     "outlet": "Tbreak",
+     "url": "https://tbreak.com/xbox-original-boot-up-animation-returns/"
+    }
+   ]
+  },
+  {
+   "id": "dungeons-dlc",
+   "title": "Minecraft Dungeons II: The Humblers Awaken arrives 1 December",
+   "summary": "The Humblers Awaken, a DLC for Minecraft Dungeons II with new enemies, artifacts and talismans, arrives on 1 December.",
+   "for": "Students, after hours",
+   "status": "Coming 1 December 2026",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/16/minecraft-dungeons-ii-the-humblers-awaken-arrives-on-december-1/"
+    },
+    {
+     "outlet": "Sportskeeda",
+     "url": "https://www.sportskeeda.com/minecraft/minecraft-dungeons-ii-the-humblers-awaken-dlc-release-date-announced-new-enemies-artifacts-talismans"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Tuesday."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on everything new from Microsoft."
+  },
+  {
+   "s": 15.0,
+   "t": "Press start."
+  },
+  {
+   "s": 15.89,
+   "t": "Every Durham University student now has Microsoft 365 Copilot, reports say."
+  },
+  {
+   "s": 22.5,
+   "t": "Phase one puts Copilot in Word, Outlook and Excel, on existing accounts."
+  },
+  {
+   "s": 31.88,
+   "t": "Where assessment rules allow, students can summarise notes, plan towards deadlines and structure presentations."
+  },
+  {
+   "s": 39.38,
+   "t": "Durham says Copilot only sees what students could already see, and their entries won't train AI."
+  },
+  {
+   "s": 46.88,
+   "t": "And the university's line for students: your thinking, knowledge, expertise and judgement come first."
+  },
+  {
+   "s": 53.91,
+   "t": "In Kuwait, a new Microsoft innovation centre plans AI workshops and student programs."
+  },
+  {
+   "s": 60.0,
+   "t": "In preview, school IT can lock a lost or stolen Windows laptop from Intune, without wiping it."
+  },
+  {
+   "s": 67.5,
+   "t": "Everyone's signed out, sign-in disappears, and the lock holds through restarts, even offline."
+  },
+  {
+   "s": 75.0,
+   "t": "Works on Windows Education, Pro or Enterprise."
+  },
+  {
+   "s": 78.38,
+   "t": "Keep BitLocker on, though: USB boot isn't blocked."
+  },
+  {
+   "s": 82.5,
+   "t": "For university code teams, GitHub can now start AI Scans on up to 20 repos at once."
+  },
+  {
+   "s": 90.0,
+   "t": "In the lab, UC Berkeley and Microsoft built an open-source plugin that helps coding agents learn."
+  },
+  {
+   "s": 97.5,
+   "t": "On 277 real bug fixes, it cut costs 18 to 31%."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Windows Server 2016 gets its last security update in January."
+  },
+  {
+   "s": 112.5,
+   "t": "After that, it's Extended Security Updates only, so plan the move to Server 2025."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Xbox brought back its original boot-up animation, for Series X|S and Xbox One."
+  },
+  {
+   "s": 129.38,
+   "t": "Two Xbox 360 boot screens came back too, free, for Xbox's 25th birthday."
+  },
+  {
+   "s": 136.88,
+   "t": "And Minecraft Dungeons II's DLC, The Humblers Awaken, arrives December 1."
+  },
+  {
+   "s": 143.91,
+   "t": "Whatever you're starting this week, a course, a rollout or a game: press start."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: shipped today, and more on the way."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And it keeps on shipping."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-17/Microsoft-for-Education-Daily_2026-11-17.mp4",
+  "mb": 54.7,
+  "bytes": 54719357,
+  "seconds": 180.01
+ },
+ "links": {}
+}
