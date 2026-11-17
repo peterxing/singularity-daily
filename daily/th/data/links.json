@@ -1,8 +1,22 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-16T20:37:55+00:00",
- "episodes": 13,
+ "updated": "2026-11-17T20:25:05+00:00",
+ "episodes": 14,
  "links": [
+  {
+   "fid": "2027-2",
+   "key": "041b303e2d",
+   "relation": "early",
+   "note": "OpenAI's own system card rates Astra High for AI self-improvement, like giving each of its researchers an extra research engineer: a company rating, not a measured speedup.",
+   "ep": 17,
+   "on": "2026-11-18",
+   "date": "2026-11-17",
+   "story": "gpt62-astra",
+   "title": "OpenAI's GPT-6.2 Astra is the first model it has released that it rates High for AI self-improvement",
+   "pillar": "intelligence",
+   "outlet": "Unite.AI",
+   "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/"
+  },
   {
    "fid": "2027-2",
    "key": "041b303e2d",

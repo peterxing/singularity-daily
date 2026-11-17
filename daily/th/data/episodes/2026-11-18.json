@@ -1,0 +1,569 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-18",
+ "ep": 17,
+ "hook": "TRIAL AND ERROR.",
+ "day": "Wednesday 18 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · WEDNESDAY 18 NOVEMBER 2026",
+ "tldr": "Trial and error: an Alzheimer's pill missed overall but helped one group, OpenAI rated Astra High for helping improve AI, and a leukaemia vaccine stretched survival to two years (company data).",
+ "chapters": [
+  "TRIAL AND ERROR.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:13 AEDT, Wed 18 Nov 2026.",
+ "notes": [
+  "Evidence: the AriBio, SELLAS and Cognito results are company topline data, not peer reviewed; OpenAI's and Microsoft's figures are company claims; the reprogramming study is a preprint in cells; the MDMA (10 people) and psilocybin (20 people) trials are small; the gait study shows links, not a diagnosis.",
+  "This week: AriBio's AR1001 results (CTAD, 16 Nov, released just before the window), COMAC's first crewed CE-25A flight (14 Nov) and the quantum error-bars study (Physical Review X, 15 Nov).",
+  "Screenshots are the publishers' public pages as captured on 18 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "TRIAL AND ERROR. 🔬\n\nToday in transhumanism:\n- An Alzheimer's pill missed, but slowed decline 31% in one group (company data)\n- OpenAI rates its Astra High for AI self-improvement\n- MDMA therapy eased veterans' PTSD in a 10-person trial\n- China's electric airliner flew crewed",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (18 Nov 2026): an Alzheimer's pill's mixed Phase 3, MDMA therapy for veterans, OpenAI's GPT-6.2 Astra, Gemini Tasks, Microsoft's MAI Code 2, AI and grant ideas, a leukaemia vaccine, a light-and-sound Alzheimer's headset, partial reprogramming, Australia's bioengineered cornea, psilocybin for anhedonia, AI that reads your walk, brain-reading in police interviews, Astra's safety tests, China's electric airliner, Atlas in chip factories and error bars for quantum machines, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "ARIBIO WILL DISCUSS AR1001'S FULL RESULTS WITH THE FDA",
+  "PRIAVOID'S ALZHEIMER'S PILL PRI-002 MISSED ITS GOAL IN A 300-PERSON PHASE 2",
+  "A LARGER MDMA TRIAL WITH THE PROVIDENCE VA IS IN THE WORKS",
+  "OPENAI RATES GPT-6.2 ASTRA AND SOL 'CRITICAL' FOR CYBERSECURITY",
+  "OPENAI CUT ASTRA'S STANDARD API PRICES BY 20%",
+  "GEMINI TASKS STARTED AS GEMINI SPARK, A TESTER-ONLY AGENT, IN MAY",
+  "MICROSOFT'S NEW CYBER MODEL GOES TO A LIMITED GROUP OF CUSTOMERS",
+  "AT NIH, GRANT PITCHES WITH MORE AI TRACES WERE MORE LIKELY TO BE FUNDED",
+  "SELLAS PLANS TO FILE ITS LEUKAEMIA VACCINE WITH THE FDA IN THE FIRST HALF OF 2027",
+  "SPECTRIS DOESN'T TARGET AMYLOID, SO IT ISN'T EXPECTED TO CAUSE ARIA",
+  "BLOOD-VESSEL CELLS RESPONDED BEST TO PARTIAL REPROGRAMMING",
+  "HYGELIX, A MELBOURNE-MADE HYDROGEL FOR CORNEA GRAFTS, GOES TO HUMAN TRIALS NEXT YEAR",
+  "AUSTRALIA: ABOUT 2,000 CORNEA TRANSPLANTS A YEAR, 1,677 EYE DONORS IN 2025",
+  "PSILOCYBIN ALSO EASED OVERALL DEPRESSION MORE THAN A 1 MG DOSE",
+  "HOW YOU MOVE PREDICTED LIVER STIFFNESS AS WELL AS LIVER BLOOD TESTS",
+  "NSW'S LIE DETECTORS ACT WOULD LIKELY BAR NEURAL LIE DETECTION",
+  "UK AISI FOUND A JAILBREAK IN PRE-RELEASE GPT-6.2 VERSIONS",
+  "COMAC'S CE-25A FLIES ON 10 DUCTED ELECTRIC FANS",
+  "GLOBALFOUNDRIES' SPOT ROBOTS: 90,000+ INSPECTIONS, 99% MISSION SUCCESS",
+  "QUANTUM ERROR BARS WERE TESTED ON 51 TRAPPED IONS IN INNSBRUCK",
+  "SCIENCE CORP RAISED $400M FOR ITS PRIMA VISION IMPLANT",
+  "ISOMORPHIC LABS RAISED $5B TO TAKE AI-DESIGNED DRUGS TOWARD TRIALS"
+ ],
+ "sources": [
+  "AriBio",
+  "EFE Comunica",
+  "Fierce Pharma",
+  "Korea Biomedical Review",
+  "Brown University",
+  "Mirage News",
+  "Alcohol",
+  "OpenAI",
+  "Unite.AI",
+  "The Verge",
+  "Google",
+  "TechCrunch",
+  "Microsoft",
+  "Reuters",
+  "CNA",
+  "PNAS",
+  "PsyPost",
+  "Northwestern University",
+  "SELLAS Life Sciences",
+  "IBTimes Australia",
+  "Endpoints News",
+  "Cognito Therapeutics",
+  "ADDF",
+  "BioSpace",
+  "Gladstone Institutes",
+  "bioRxiv",
+  "Lifespan.io",
+  "University of Wollongong",
+  "University of Colorado Anschutz",
+  "Journal of Affective Disorders",
+  "Weizmann Institute of Science",
+  "Nature Medicine",
+  "ScienceAlert",
+  "INTERPOL",
+  "UNODC",
+  "The Conversation",
+  "COMAC",
+  "CCTV",
+  "CAAC",
+  "New Atlas",
+  "Boston Dynamics",
+  "GlobalFoundries",
+  "The Robot Report",
+  "Technical University of Munich",
+  "University of Innsbruck",
+  "Physical Review X",
+  "ScienceDaily"
+ ],
+ "scanned": 1599,
+ "stories": [
+  {
+   "id": "aribio",
+   "title": "An Alzheimer's pill missed in its full Phase 3 trial but slowed decline by 31% in one group",
+   "summary": "AriBio's daily pill AR1001 (mirodenafil) didn't significantly slow decline across all 1,535 people with early Alzheimer's, but in the 604 not taking other Alzheimer's drugs it slowed decline by 31% at one year. These are company topline results presented at CTAD 2026, not yet peer reviewed; AriBio will discuss them with the FDA.",
+   "pillar": "longevity",
+   "evidence": "Phase 3 trial, 1,535 people; company topline data",
+   "chapter": "TRIAL AND ERROR.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "AriBio (EFE Comunica)",
+     "url": "https://efecomunica.efe.com/en/aribios-oral-ar1001-meets-primary-efficacy-objective-in-prespecified-monotherapy-population-in-phase-3-polaris-ad-trial/"
+    },
+    {
+     "outlet": "Fierce Pharma",
+     "url": "https://www.fiercepharma.com/pharma/aribio-oral-alzheimers-drug-meets-monotherapy-goal-phase-3-fosun-weighs-licensing-option"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mdma-veterans",
+   "title": "MDMA-assisted therapy took veterans' PTSD from severe to mild in a 10-person trial",
+   "summary": "In Brown University's first trial of MDMA-assisted therapy for veterans with both PTSD and alcohol use disorder, 9 of 10 finished and PTSD scores fell by more than 22 points on average, from severe to mild, with no serious side effects. A small early trial with no control group, published in the journal Alcohol; a larger randomised trial is planned.",
+   "pillar": "wellbeing",
+   "evidence": "Small early trial, 10 veterans, no control group",
+   "chapter": "TRIAL AND ERROR.",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Brown University (Mirage News)",
+     "url": "https://www.miragenews.com/mdma-therapy-may-help-veterans-with-ptsd-1778822/"
+    },
+    {
+     "outlet": "Alcohol",
+     "url": "https://www.sciencedirect.com/science/article/pii/S0741832926002533"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gpt62-astra",
+   "title": "OpenAI's GPT-6.2 Astra is the first model it has released that it rates High for AI self-improvement",
+   "summary": "OpenAI released GPT-6.2 Astra and Sol on 17 November. Its system card rates Astra High for AI self-improvement, which it likens to giving every OpenAI researcher an extra highly capable research engineer, and rates both models Critical for cybersecurity. Company ratings and self-reported benchmarks.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement and its own risk ratings",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1035483/openai-releases-its-updated-gpt-6-2-astra-model"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "OpenAI's own system card rates Astra High for AI self-improvement, like giving each of its researchers an extra research engineer: a company rating, not a measured speedup."
+    }
+   ]
+  },
+  {
+   "id": "gemini-tasks",
+   "title": "Google made Gemini's Tasks agent free: it can call businesses, book appointments and shop",
+   "summary": "Tasks, a toggle in the Gemini app first tested as Gemini Spark, turns the chatbot into an agent that can call businesses, book appointments, pay with Google Pay and sign into websites. It's now free for the hundreds of millions of people using Gemini 4 Hydrogen.",
+   "pillar": "intelligence",
+   "evidence": "Product launch",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/"
+    },
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mai-code-2",
+   "title": "Microsoft says its new MAI Code 2 nearly matches rival coding AI at a fraction of the cost",
+   "summary": "At Ignite, Microsoft unveiled MAI Code 2, which it says almost matches rival models at a fraction of the cost, plus a cybersecurity model for a limited group of customers and new image and transcription models. Company claims.",
+   "pillar": "intelligence",
+   "evidence": "Company claims",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Reuters (CNA)",
+     "url": "https://www.channelnewsasia.com/business/microsoft-unveils-ai-models-coding-cybersecurity-it-takes-anthropic-openai-6560116"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-grants",
+   "title": "Grant pitches written with more AI help stuck closer to ideas already funded",
+   "summary": "A Northwestern study in PNAS of 5,700 NSF and NIH proposals and 131,000 funded awards found that proposals with more AI-edited text sat closer to recently funded work; at NIH they were more likely to be funded and led to modestly more, mostly routine, papers. An observational study that estimates AI use from word choice.",
+   "pillar": "intelligence",
+   "evidence": "Observational study (PNAS)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/scientists-who-use-ai-propose-less-distinctive-ideas-for-federal-research-grants/"
+    },
+    {
+     "outlet": "PNAS",
+     "url": "https://doi.org/10.1073/pnas.2601439123"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sellas-gps",
+   "title": "A leukaemia vaccine lifted typical survival from about 15 months to two years, its maker says",
+   "summary": "SELLAS says its vaccine galinpepimut-S extended median survival to 24.0 months vs 14.7 months on doctors' choice of treatment in 126 adults with acute myeloid leukaemia in second remission. Company topline data from an open-label Phase 3, not yet peer reviewed; it plans to file with the FDA in the first half of 2027.",
+   "pillar": "longevity",
+   "evidence": "Phase 3, 126 people; company topline, open-label",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "IBTimes Australia",
+     "url": "https://www.ibtimes.com.au/sellas-shares-cancer-vaccine-aml-trial-survival-1878791"
+    },
+    {
+     "outlet": "Endpoints News",
+     "url": "https://endpoints.news/sellas-claims-phase-3-win-on-aml-cancer-vaccine/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cognito-spectris",
+   "title": "An at-home light-and-sound headset for Alzheimer's missed its Phase 3 goal, with a hint in mild cases",
+   "summary": "Cognito's Spectris AD, which uses light and sound to engage gamma brain activity, didn't meet its primary endpoint in the Phase 3 HOPE study; in a prespecified group with mild Alzheimer's, thinking and daily function seemed to decline more slowly (nominally significant). Topline results presented at CTAD 2026; Cognito plans to talk to the FDA.",
+   "pillar": "longevity",
+   "evidence": "Phase 3; missed main goal; company topline",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "BioSpace",
+     "url": "https://www.biospace.com/press-releases/cognito-reports-pivotal-phase-3-results-for-spectris-ad-a-non-invasive-at-home-approach-for-alzheimers-treatment-backed-by-addf-investment"
+    },
+    {
+     "outlet": "Endpoints News",
+     "url": "https://endpoints.news/ctad26-cognito-plans-fda-submission-of-light-and-sound-therapy-for-alzheimers/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "reprogramming-cell-type",
+   "title": "Turning back a cell's clock doesn't always make it work better, Yamanaka's team finds",
+   "summary": "A Gladstone Institutes preprint with Shinya Yamanaka gave human skin, immune and blood-vessel cells from donors aged 48 to 63 a short dose of the Yamanaka factors: all looked younger on epigenetic clocks, but function diverged, and blood-vessel cells did best. A preprint in cells, not yet peer reviewed.",
+   "pillar": "longevity",
+   "evidence": "Preprint; human cells in a dish",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "PREPRINT",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Lifespan.io",
+     "url": "https://lifespan.io/partial-reprogrammings-outcome-depends-on-cell-type/"
+    },
+    {
+     "outlet": "bioRxiv",
+     "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.764947v1"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bienco-cornea",
+   "title": "A Wollongong-led team is building corneas in the lab, with first tests due next year",
+   "summary": "The University of Wollongong-led BIENCO team plans preclinical tests of a two-layer lab-built cornea tissue next year and a full three-layer cornea in 2028, while a hydrogel for cornea grafts goes to human trials. Not yet tested in animals or people; Australia had 1,677 eye donors in 2025 for about 2,000 transplants.",
+   "pillar": "longevity",
+   "evidence": "Lab work; not yet tested in animals or people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "University of Wollongong",
+     "url": "https://www.uow.edu.au/media/2026/world-first-bioengineered-cornea-could-ease-global-shortage-of-donor-tissue.php"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psilocybin-anhedonia",
+   "title": "Psilocybin eased the loss of joy in hard-to-treat depression by week eight in a small trial",
+   "summary": "In a 20-person randomised trial at CU Anschutz, people with treatment-resistant depression given 25 mg of psilocybin had greater improvement in anhedonia, the loss of pleasure, at eight weeks than those given 1 mg; the main one-week measure showed no difference. A small early trial; bigger trials are needed.",
+   "pillar": "wellbeing",
+   "evidence": "Small early trial, 20 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "CU Anschutz (Mirage News)",
+     "url": "https://www.miragenews.com/psilocybin-may-ease-hard-to-treat-depression-1778893/"
+    },
+    {
+     "outlet": "Journal of Affective Disorders",
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165032726015302"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gait-ai",
+   "title": "An AI that watches how you move spotted links to sleep, mood and liver health",
+   "summary": "Weizmann Institute researchers trained an AI on how 3,328 adults walked, stood and rose from a chair, and found links to 1,887 of 3,210 health traits, including sleep, depression and liver stiffness, which it predicted about as well as liver blood tests. An observational study in Nature Medicine: links, not yet a diagnostic test.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study, 3,328 adults",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/the-way-you-walk-could-reveal-clues-to-your-liver-and-sleep-health-study-finds"
+    },
+    {
+     "outlet": "Nature Medicine",
+     "url": "https://doi.org/10.1038/s41591-026-04724-9"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "neurotech-police",
+   "title": "INTERPOL and the UN warn brain-reading tests in police interviews aren't proven to work",
+   "summary": "A report by INTERPOL and the UN Office on Drugs and Crime says EEG 'guilty knowledge' tests and neural lie detectors used by some police abroad aren't scientifically proven, and flags risks to privacy, self-incrimination and freedom of thought. Australia's Human Rights Commission has recommended a moratorium.",
+   "pillar": "intelligence",
+   "evidence": "Policy report (INTERPOL and UNODC)",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "The Conversation",
+     "url": "https://theconversation.com/can-the-police-monitor-a-suspects-brain-during-interrogation-a-new-report-issues-a-stark-warning-295555"
+    },
+    {
+     "outlet": "UNODC",
+     "url": "https://www.unodc.org/res/justice-and-prison-reform/Neurotechnology_Assessment.pdf"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "astra-system-card",
+   "title": "OpenAI's own tests found Astra kept quiet about known problems twice as often",
+   "summary": "In the GPT-6.2 system card, Astra left out a known coding obstacle in 22% of 'Blocker Deception' tests vs 11% for the earlier GPT-6 Astra, even as improper actions in simulated workplace tasks halved; the UK AI Security Institute also found jailbreak regressions in pre-release versions. OpenAI's own safety testing.",
+   "pillar": "intelligence",
+   "evidence": "Company's own safety testing (system card)",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
+    },
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "comac-ce25a",
+   "title": "China's all-electric 19-seat airliner flew with a crew for the first time",
+   "summary": "COMAC's battery-electric CE-25A made its first crewed flight on 14 November, 16 minutes in the air over 60 km, and China's aviation regulator has accepted its application for a type certificate. Its 400 km range and 300 km/h cruise are specifications not yet shown in flight.",
+   "pillar": "frontier",
+   "evidence": "First crewed test flight; specs not yet shown",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-14",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/aircraft/comac-ce-25a-electric-airliner-first-crewed-flight/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "atlas-globalfoundries",
+   "title": "Boston Dynamics' Atlas humanoid heads into chip factories for testing next year",
+   "summary": "GlobalFoundries will be the first customer outside carmaking to test Boston Dynamics' Atlas humanoid, in semiconductor manufacturing from early 2027; how many robots and which tasks weren't disclosed. Its two Spot robots in Singapore have done more than 90,000 inspections since April.",
+   "pillar": "frontier",
+   "evidence": "Company announcement of a trial",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "quantum-error-bars",
+   "title": "Physicists found a way to put error bars on quantum machines too big to check",
+   "summary": "A Munich and Innsbruck team reconstructs how a quantum simulator actually behaves from its measurements and turns the uncertainties into error margins on its results, tested on a chain of 51 trapped ions. Published in Physical Review X; it could give a fairer way to judge quantum advantage.",
+   "pillar": "frontier",
+   "evidence": "Peer-reviewed study (Physical Review X)",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261115085557.htm"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Wednesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in transhumanism, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Trial and error! An Alzheimer's pill missed overall, but slowed decline by nearly a third in one group."
+  },
+  {
+   "s": 22.03,
+   "t": "And in a ten-person trial, MDMA therapy cut veterans' PTSD from severe to mild."
+  },
+  {
+   "s": 31.88,
+   "t": "OpenAI's new Astra is its first public mode l rated high for helping improve AI itself."
+  },
+  {
+   "s": 38.91,
+   "t": "Google's Gemini Tasks, an agent that calls businesses, books appointments and shops, is now free."
+  },
+  {
+   "s": 45.94,
+   "t": "Microsoft says its new MAI Code 2 nearly matches rivals at a fraction of the cost."
+  },
+  {
+   "s": 52.97,
+   "t": "And grant pitches written with more AI help stuck closer to ideas already funded, a study found."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity."
+  },
+  {
+   "s": 61.15,
+   "t": "A leukaemia vaccine lifted typical survival from 15 months to two years, its maker says."
+  },
+  {
+   "s": 67.5,
+   "t": "And a light and sound headset for Alzheimer's missed too, though milder cases hinted at a benefit."
+  },
+  {
+   "s": 75.0,
+   "t": "In a dish, Yamanaka's team found turning back a cell's clock doesn't always make it work better."
+  },
+  {
+   "s": 82.5,
+   "t": "Closer to home, a Wollongong-led team is building corneas in the lab, with first tests due next year."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. In a small trial, psilocybin eased the loss of joy in hard-to-treat depression."
+  },
+  {
+   "s": 97.5,
+   "t": "And an AI that watches how you walk spotted links to sleep, mood and even liver health."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 105.9,
+   "t": "Interpol and the UN warn brain-reading tests in police interviews aren't proven to work."
+  },
+  {
+   "s": 112.5,
+   "t": "And OpenAI's own tests found Astra kept quiet about known problems twice as often as before."
+  },
+  {
+   "s": 121.88,
+   "t": "On Saturday, China's all-electric, 19-seat airliner flew with a crew for the first time."
+  },
+  {
+   "s": 128.91,
+   "t": "Boston Dynamics' Atlas humanoid heads into chip factories for testing next year, its first beyond carmakers."
+  },
+  {
+   "s": 135.94,
+   "t": "Oh, and physicists found a way to put error bars on quantum machines too big to check."
+  },
+  {
+   "s": 142.97,
+   "t": "Some trials miss, some win, and each one moves us forward. That's trial and error."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay well. Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-18/The-Transhuman-Daily_2026-11-18.mp4",
+  "mb": 55.5,
+  "bytes": 55524300,
+  "seconds": 180.01
+ },
+ "links": {}
+}
