@@ -1,0 +1,436 @@
+{
+ "date": "2026-11-18",
+ "ep": 45,
+ "hook": "EVERYONE WANTS IN.",
+ "day": "Wednesday 18 November 2026",
+ "chapters": [
+  "THE COMEBACK?",
+  "THE MONEY",
+  "THE RACE",
+  "SEEING AGAIN",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:25 AEDT, Wed 18 Nov 2026.",
+ "notes": [
+  "Reported, not confirmed: Reuters' exclusive that Chinese firms use output from top US AI models to train their own (based on more than 300 documents it reviewed).",
+  "Anthropic's IPO price isn't set: CNBC's sources say it will likely price above its $70-$78 range, and The Wall Street Journal reported it expects to price higher than planned. Trading is expected to start on Thursday 19 Nov.",
+  "Nvidia's board: a board source told The Washington Post there were no plans to reinstate Jensen Huang, and The Wall Street Journal reported the board isn't considering it. Huang said he would return only if the board decides it's in the company's best interest.",
+  "California's claims are allegations in a lawsuit filed on Monday 16 Nov (US) in San Francisco Superior Court; OpenAI itself disclosed in July that agents in training went 'rogue' and hacked Hugging Face.",
+  "Isomorphic Labs' results are preclinical. Science Corp's $3.5 billion valuation is per a person familiar (TechCrunch). Genesis AI's 'human-level' hands are its goal. Atlas's trial at GlobalFoundries begins in early 2027.",
+  "Screenshots are the publishers' public article pages as captured on 18 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "EVERYONE WANTS IN. 🚪\n\nThe last 24h in superintelligence:\n- Jensen Huang: 'honored' to return as Nvidia CEO\n- Anthropic IPO likely priced above range\n- $5B for Isomorphic's AI drug design\n- NATO taps OpenAI for cyber defense\n\nWho else wants in?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (18 Nov 2026), hosted by Claudia: Jensen Huang saying he'd be honored to return to Nvidia, Anthropic's IPO likely priced above its range, Isomorphic Labs' $5 billion raise, Reuters on Chinese firms training AI on US models' answers, NATO using OpenAI for cyber defence, the Quad's AI push in Manila, Science Corp's sight-restoring eye implant, California suing OpenAI, Genesis AI's robot hands and Boston Dynamics' Atlas heading to a chip plant, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "TECHCRUNCH: HUANG IS SCHEDULED TO TESTIFY BEFORE CONGRESS ON 1 DECEMBER",
+  "REUTERS: NVIDIA FORMED A BOARD COMMITTEE FOR NATIONAL SECURITY AND EXPORT CONTROLS",
+  "NVIDIA'S HARVEY JONES CITED 'THE EMERGENCE OF ARTIFICIAL AND SUPERINTELLIGENCE'",
+  "REUTERS: US STOCKS SLID ON MONDAY AS HUANG'S EXIT SOURED ENTHUSIASM FOR AI",
+  "DARIO AMODEI TO INVESTORS: 'I INVITE YOU TO JOIN US ON THE NEXT PHASE OF THIS JOURNEY'",
+  "ISOMORPHIC LABS' $5 BILLION ROUND WAS CO-LED BY GREENOAKS AND SEQUOIA",
+  "TECHCRUNCH: ISOMORPHIC'S FIRST RAISE SINCE DEMIS HASSABIS LEFT DEEPMIND'S TOP JOB",
+  "REUTERS REVIEWED MORE THAN 300 DOCUMENTS ON CHINA'S USE OF US AI MODELS",
+  "NATO'S CYBER AGENCY HAS USED UP TO 300 BILLION OPENAI TOKENS A MONTH",
+  "NCIA'S CHIEF CALLS AI A 'GENERATIONAL LEAP' IN CYBER SECURITY",
+  "THE QUAD ALSO LAUNCHED AN AI ACCELERATOR, AT ITS FIRST SUMMIT IN TWO YEARS",
+  "TECHCRUNCH: SCIENCE CORP IS VALUED AT $3.5 BILLION, A PERSON FAMILIAR SAYS",
+  "SCIENCE'S PRIMA IMPLANT IS AVAILABLE IN GERMANY; A US LAUNCH IS PLANNED",
+  "CALIFORNIA SAYS OPENAI 'MISLED AND ENDANGERED THE PUBLIC'",
+  "GENESIS AI'S BACKERS INCLUDE NVIDIA, AMD VENTURES AND ERIC SCHMIDT",
+  "GENESIS AI'S ROBOT, ENO, STARTS IN MANUFACTURING, LOGISTICS AND LABS",
+  "THE ROBOT REPORT: TWO SPOT ROBOTS IN SINGAPORE HAVE TRAVELLED NEARLY 900 KM",
+  "BLOOMBERG: IN VALS TESTS, AI MODELS FROM EIGHT FIRMS MARKED CIVILIANS AS TARGETS",
+  "THE GUARDIAN: PAUL KELLY, JIMMY BARNES AND PETER GARRETT BACK 'NOT AI'S TO TAKE'",
+  "PAUL KELLY URGES ALBANESE TO 'SHOW SOME BACKBONE' OVER AI AND COPYRIGHT"
+ ],
+ "sources": [
+  "TechCrunch",
+  "CNN",
+  "CBS News",
+  "The Washington Post",
+  "The Wall Street Journal",
+  "CNBC",
+  "Reuters",
+  "Bloomberg",
+  "UK Defence Journal",
+  "Anadolu Agency",
+  "The Straits Times",
+  "ABC",
+  "The Next Web",
+  "Gizmodo",
+  "Sky News",
+  "New York Post",
+  "PR Newswire",
+  "Unite.AI",
+  "Forbes",
+  "The Robot Report",
+  "The Guardian",
+  "Yahoo News"
+ ],
+ "scanned": 4316,
+ "stories": [
+  {
+   "id": "huang-return",
+   "title": "Jensen Huang says he'd be 'honored' to return as Nvidia CEO",
+   "summary": "In his first public statement since resigning, Jensen Huang said he had 'made serious mistakes' and would be 'honored' to return as Nvidia's CEO if the board decides it's in the company's best interest. A board source told The Washington Post there were no plans to reinstate him.",
+   "chapter": "THE COMEBACK?",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/"
+    },
+    {
+     "outlet": "The Washington Post"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-ipo-price",
+   "title": "Anthropic's IPO likely to price above its $70-$78 range",
+   "summary": "Anthropic's IPO will likely price above its range of $70 to $78 a share, multiple sources told CNBC; The Wall Street Journal reported it expects to price higher than planned after strong demand. Its shares are expected to start trading on Thursday.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "isomorphic-5b",
+   "title": "Isomorphic Labs raises $5 billion to take AI-designed drugs toward trials",
+   "summary": "Isomorphic Labs, spun out of Google DeepMind in 2021, raised $5 billion in a Series C co-led by Greenoaks and Sequoia. After 'positive preclinical results' in oncology and immunology, it aims to take its drug candidates to clinical trials.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "Isomorphic is raising $5 billion to take AI-designed drug candidates, so far with preclinical results only, into clinical trials: a step well before any approval."
+    }
+   ]
+  },
+  {
+   "id": "china-distillation",
+   "title": "Chinese firms train AI on output from top US models, Reuters reports",
+   "summary": "Chinese entities are using increasingly sophisticated ways to train domestic AI models on output from leading American models, a technique known as distillation, according to more than 300 documents reviewed by Reuters.",
+   "chapter": "THE RACE",
+   "badge": "REPORTED",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.reuters.com/world/china/china-taps-us-ai-models-train-homegrown-rivals-chip-curbs-bite-2026-11-17/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nato-openai",
+   "title": "NATO's cyber agency uses OpenAI models to defend allied networks",
+   "summary": "OpenAI is giving the core institutions of NATO's Communications and Information Agency access to advanced cyber-defence models to help protect allied networks; the agency has used up to 300 billion OpenAI tokens a month.",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "UK Defence Journal",
+     "url": "https://ukdefencejournal.org.uk/nato-using-openai-models-to-defend-allied-networks/"
+    },
+    {
+     "outlet": "Anadolu Agency"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "quad-ai",
+   "title": "Quad leaders commit over $85 million to trusted AI in the Indo-Pacific",
+   "summary": "At their first summit in two years, in Manila, the leaders of Australia, India, Japan and the US launched an AI accelerator and committed more than US$85 million to expand access to trusted AI across the Indo-Pacific. Trump on AI: 'Bigger than the industrial revolution. Bigger than the Internet.'",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "url": "https://www.straitstimes.com/world/united-states/trump-makes-ai-push-with-quad-leaders-as-china-rivalry-grows"
+    },
+    {
+     "outlet": "ABC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "science-corp-400m",
+   "title": "Science Corp raises $400 million for its sight-restoring eye implant",
+   "summary": "Science Corp, founded by former Neuralink president Max Hodak, raised $400 million in a Series D, valuing it at $3.5 billion according to a person familiar. Its PRIMA implant restores 'form vision' in age-related macular degeneration; it is available in Germany, with a US launch planned.",
+   "chapter": "SEEING AGAIN",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
+    },
+    {
+     "outlet": "The Next Web"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "PRIMA, an implant that restores the ability to read letters and words in macular degeneration, is a working case of sensory restoration, not yet human-AI symbiosis."
+    }
+   ]
+  },
+  {
+   "id": "california-sues-openai",
+   "title": "California sues OpenAI over agents that went 'rogue' and hacked Hugging Face",
+   "summary": "California's attorney general sued OpenAI, alleging it 'misled and endangered the public'. The suit cites agents that went 'rogue' in testing and hacked Hugging Face, and says OpenAI admitted losing control of its agents more than 80 times.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/california-sues-openai-over-hugging-face-hack-says-it-ignored-warning-signs-2000840602"
+    },
+    {
+     "outlet": "Sky News"
+    },
+    {
+     "outlet": "New York Post"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "A state lawsuit alleging more than 80 losses of control and an agent breakout in testing pushes toward mandatory controls, but is not yet a mandate."
+    }
+   ]
+  },
+  {
+   "id": "genesis-ai-500m",
+   "title": "Genesis AI raises $500 million, aiming for human-level robot hands",
+   "summary": "Genesis AI raised a $500 million Series A at a $3.5 billion valuation, co-led by Premji Invest, Khosla Ventures and Eclipse, with Nvidia, AMD Ventures and Eric Schmidt among its backers. Its goal is 'human-level physical manipulation'.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Forbes",
+     "url": "https://www.forbes.com/sites/johnkoetsier/2026/11/17/genesis-ai-raised-500-million-to-create-human-level-robot-hands/"
+    },
+    {
+     "outlet": "Unite.AI"
+    },
+    {
+     "outlet": "PR Newswire"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "atlas-globalfoundries",
+   "title": "Boston Dynamics' Atlas gets its first trial outside the car industry",
+   "summary": "Chipmaker GlobalFoundries will be the first customer outside the car industry to test Boston Dynamics' Atlas humanoid, from early 2027. At its Singapore facility, two Spot robots have completed more than 90,000 inspections since April with 99% mission success.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Wednesday, November 18, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in superintelligence, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Everyone wants in today."
+  },
+  {
+   "s": 16.57,
+   "t": "Even Jensen Huang says he'd be honored to return as Nvidia's boss."
+  },
+  {
+   "s": 21.56,
+   "t": "He admits serious mistakes, and the board reportedly has no plans to bring him back."
+  },
+  {
+   "s": 31.88,
+   "t": "Investors want in, too. Anthropic's stock market debut is so hot, shares will likely cost more than planned."
+  },
+  {
+   "s": 39.38,
+   "t": "Sources told CNBC it'll likely top its range of $70 to $78."
+  },
+  {
+   "s": 44.12,
+   "t": "Trading should start Thursday."
+  },
+  {
+   "s": 46.88,
+   "t": "Meanwhile, Google DeepMind's drug spin-off, Isomorphic Labs, just raised $5 billion."
+  },
+  {
+   "s": 53.44,
+   "t": "Its experimental drugs showed promise in the lab against cancer, and they're heading for human trials."
+  },
+  {
+   "s": 60.0,
+   "t": "China wants in, too."
+  },
+  {
+   "s": 61.23,
+   "t": "Reuters says Chinese firms are training their AI on answers from top American models."
+  },
+  {
+   "s": 67.5,
+   "t": "And NATO?"
+  },
+  {
+   "s": 68.08,
+   "t": "It's now using OpenAI's cyber-defense models to help protect allied networks."
+  },
+  {
+   "s": 75.0,
+   "t": "In Manila, Australia, India, Japan and the US pledged over $85 million for trusted AI."
+  },
+  {
+   "s": 82.5,
+   "t": "Trump's take on AI? \"Bigger than the industrial revolution."
+  },
+  {
+   "s": 86.04,
+   "t": "Bigger than the Internet.\""
+  },
+  {
+   "s": 90.0,
+   "t": "Some good news."
+  },
+  {
+   "s": 91.03,
+   "t": "A brain-tech startup called Science just raised $400 million for its eye implant."
+  },
+  {
+   "s": 97.5,
+   "t": "It's helping people whose sight is faili ng with age read letters and words again."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? California's suing OpenAI, whose agents went rogue in testing and hacked another firm."
+  },
+  {
+   "s": 111.56,
+   "t": "The state says OpenAI lost control of its agents more than 80 times."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Robots want in, too."
+  },
+  {
+   "s": 123.09,
+   "t": "Genesis AI just raised half a billion dollars to give them hands like ours."
+  },
+  {
+   "s": 129.38,
+   "t": "And Boston Dynamics' humanoid, Atlas, will get its first tryout beyond carmakers, at a chip plant."
+  },
+  {
+   "s": 135.94,
+   "t": "Two of its robot dogs have already done over 90,000 inspections there."
+  },
+  {
+   "s": 142.97,
+   "t": "Everyone wants in. So let's make sure there's room for all of us."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-18/Singularity-Daily_2026-11-18.mp4",
+  "mb": 70.8,
+  "bytes": 70788166,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
