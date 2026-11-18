@@ -1,0 +1,381 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-18",
+ "ep": 23,
+ "hook": "YOUR CLASS, YOUR RULES.",
+ "day": "Wednesday 18 November 2026",
+ "note": "FOR EDUCATION · WEDNESDAY 18 NOVEMBER 2026",
+ "tldr": "Teachers can now assign Copilot's Study and Learn with their own AI rules, Microsoft Classroom gets roadmap dates, and Ignite brings admin rights per task to Windows.",
+ "chapters": [
+  "YOUR RULES",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "SKILLS AT WORK",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 17:15 AEDT, Wed 18 Nov 2026 (Tuesday 17 Nov in the US: Microsoft Ignite day one).",
+ "notes": [
+  "Study and Learn in Assignments: Microsoft's post (17 Nov) says educators can now assign it; roadmap 577172 still lists it as in development for November. Microsoft Classroom's dates are roadmap targets (preview February 2027, rollout from June 2027).",
+  "Copilot's PC diagnostics and file actions are coming soon to Copilot+ PCs; the Azure SQL Database container is in public preview; Hela arrives on Game Pass on 1 December.",
+  "Screenshots are the publishers' public pages as captured on 18 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "YOUR CLASS, YOUR RULES. 🎓\n\nThe last 24h at Microsoft for education:\n- Teachers can assign Study and Learn with their own AI rules\n- Microsoft Classroom: preview Feb, rollout from June\n- MAI Code 2 Flash in GitHub Copilot Student\n- Windows PowerShell 5.1 is deprecated",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (18 Nov 2026): teachers assigning Copilot's Study and Learn with their own AI rules, Microsoft Classroom's roadmap dates, Windows administrator protection, MAI Code 2 Flash in GitHub Copilot, the Azure SQL Database container, Office in the Copilot app, CAPEability AI in South Africa's Western Cape, the deprecation of Windows PowerShell 5.1, Copilot's coming PC diagnostics and file actions and Hela on Game Pass, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "STUDY AND LEARN IN ASSIGNMENTS: STUDENTS CAN TURN THE CONVERSATION INTO A PRACTICE QUIZ, FLASHCARDS OR A FILL-IN-THE-BLANK EXERCISE",
+  "TEACHERS CAN TRY STUDY AND LEARN THEMSELVES IN STUDENT PREVIEW BEFORE PUBLISHING AN ASSIGNMENT",
+  "ASSIGNING STUDY AND LEARN WORKS ON STANDARD TEAMS ASSIGNMENTS, NOT QUIZ OR LEARNING ACCELERATOR ASSIGNMENTS",
+  "PICK COPILOT INSTEAD AND STUDENTS GET COPILOT CHAT WITH YOUR STARTER PROMPT, BUT NOT THE ASSIGNMENT FILES",
+  "STUDENT AI GUIDELINES SHOW YOUR EXPECTATIONS BUT DON'T BLOCK AI OUTSIDE THE ASSIGNMENT",
+  "MICROSOFT CLASSROOM'S ROADMAP ENTRY COVERS WEB, DESKTOP, IOS, ANDROID AND MAC",
+  "CAPEABILITY AI FOCUSES ON YOUNG PEOPLE AGED 18 TO 35 AND INCLUDES AN AI-SUPPORTED CV BUILDER",
+  "MICROSOFT SAYS ITS SOUTH AFRICAN AI SKILLING INITIATIVE HAS TRAINED MORE THAN 1.9 MILLION PEOPLE",
+  "WINDOWS BASELINE PROTECTION, ONE YES-OR-NO SECURITY CHECK FOR EVERY PC, IS IN PREVIEW FOR WINDOWS INSIDERS",
+  "THE WINDOWS ENDPOINT SECURITY PLATFORM IS GENERALLY AVAILABLE, MOVING SECURITY TOOLS OUT OF THE KERNEL",
+  "WINDOWS AUTOPATCH: FEWER INTERRUPTIONS, WITH ONE REBOOT A MONTH, SAYS MICROSOFT",
+  "INTUNE PREVIEW: AUTOMATIC UPDATES FOR APPS PEOPLE INSTALL THEMSELVES",
+  "MICROSOFT SAYS IT SHIPPED FIXES FOR MORE THAN 1,100 WINDOWS VULNERABILITIES IN OCTOBER ALONE",
+  "WINDOWS SERVER 2028 IS IN PUBLIC PREVIEW",
+  "MAI CODE 2, THE BIGGER MODEL, IS ON COPILOT PRO, PRO+, MAX, BUSINESS AND ENTERPRISE",
+  "OPENAI'S GPT-6.2 ASTRA AND GPT-6.2 SOL ARE NOW IN GITHUB COPILOT AND MICROSOFT FOUNDRY",
+  "AZURE SQL DATABASE CONTAINER RUNS ON X64 OR ARM64, INCLUDING APPLE SILICON, AND WORKS OFFLINE",
+  "COPILOT TODAY, A COMMAND CENTRE FOR MAIL, CALENDAR AND TEAMS, IS IN PRIVATE PREVIEW",
+  "COPILOT WORKSPACES, FOR PEOPLE AND AGENTS WORKING TOGETHER, IS AVAILABLE IN THE FRONTIER PROGRAM",
+  "COPILOT CODE, FOR BUILDING APPS IN PLAIN LANGUAGE, IS DUE IN THE COMING WEEKS",
+  "DATABASE HUB IN MICROSOFT FABRIC IS GENERALLY AVAILABLE",
+  "MICROSOFT PERCEPTION, SECURITY AGENTS THAT FIND AND FIX VULNERABILITIES, IS GENERALLY AVAILABLE",
+  "COBALT 200 VMS ARE GENERALLY AVAILABLE, WITH UP TO 50% BETTER PERFORMANCE THAN THE LAST GENERATION",
+  "POWERSHELL 7 IN WINDOWS COMES AS AN MSIX PACKAGE: SYSTEM-ACCOUNT AND DISM SUPPORT ARE STILL BEING FINISHED",
+  "WINDOWS 11 26H2 AND WINDOWS SERVER 2025 ARE THE LAST WITH POWERSHELL 5.1 ON BY DEFAULT",
+  "GAME PASS ADDS PAW PATROL: DINO WORLD, A CO-OP DINO RESCUE ADVENTURE"
+ ],
+ "sources": [
+  "Microsoft Education (Tech Community)",
+  "Microsoft 365 Roadmap",
+  "Windows Experience Blog",
+  "GitHub Changelog",
+  "Azure SQL Blog",
+  "Microsoft Copilot Blog",
+  "Microsoft Source",
+  "Microsoft Source EMEA",
+  "Microsoft Support",
+  "PowerShell Team Blog",
+  "Xbox Wire",
+  "Microsoft Foundry Blog",
+  "Microsoft Fabric Blog",
+  "Windows Central",
+  "ZDNET",
+  "Ars Technica"
+ ],
+ "scanned": 1988,
+ "stories": [
+  {
+   "id": "study-and-learn-assign",
+   "title": "Teachers can assign Copilot's Study and Learn from Assignments, with their own AI rules",
+   "summary": "Educators can now assign Study and Learn or Copilot from Assignments in Teams or an LMS and set a Student AI Guideline: AI allowed, editing or brainstorming only, or no AI. Study and Learn reads the assignment and coaches with questions, hints and feedback. For students 13+ on A1, A3 or A5; IT enables it for ages 13-17.",
+   "for": "Teachers, students 13+ and school IT",
+   "status": "Available now, says Microsoft",
+   "edu": true,
+   "chapter": "YOUR RULES",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://techcommunity.microsoft.com/blog/educationblog/assign-study-and-learn-or-copilot-from-assignments/4572691"
+    },
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/education/copilot/assign-study-learn-students-microsoft-teams"
+    }
+   ]
+  },
+  {
+   "id": "classroom-roadmap",
+   "title": "Microsoft Classroom on the roadmap: preview from February 2027, rollout from June 2027",
+   "summary": "Microsoft Classroom, a standalone Microsoft 365 space for teaching and learning that brings Assignments, Grades, OneNote Class Notebook, Learning Accelerators and Insights together, is in development on the roadmap: preview from February 2027, rollout from June 2027. Admins can register for the preview at aka.ms/classroompreview.",
+   "for": "Schools, universities and education IT",
+   "status": "Preview from February 2027",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580883"
+    },
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://techcommunity.microsoft.com/blog/educationblog/introducing-microsoft-classroom-a-new-experience-built-for-teaching-and-learning/4571185"
+    }
+   ]
+  },
+  {
+   "id": "admin-protection",
+   "title": "Windows administrator protection is generally available",
+   "summary": "IT can have local administrators run as standard users by default: when a task needs admin rights, Windows Hello verifies the person and grants them for that task alone, and they end when it ends. Announced at Microsoft Ignite alongside Windows baseline protection, in preview for Windows Insiders.",
+   "for": "School and university IT",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Windows Experience Blog",
+     "url": "https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/"
+    },
+    {
+     "outlet": "Windows Experience Blog",
+     "url": "https://blogs.windows.com/windowsexperience/2026/11/17/windows-security-at-ignite-2026-start-secure-protect-what-matters-prepare-for-ai/"
+    }
+   ]
+  },
+  {
+   "id": "mai-code-2-flash",
+   "title": "MAI Code 2 Flash, Microsoft's lightweight coding model, comes to GitHub Copilot",
+   "summary": "Microsoft AI's MAI Code 2 and MAI Code 2 Flash are in GitHub Copilot's model picker in VS Code, Visual Studio, the CLI, github.com and more. GitHub lists Flash for Copilot Free and Student as well as paid plans, and MAI Code 2 for Pro and above; both use usage-based billing.",
+   "for": "Coding students and dev teams",
+   "status": "Available in GitHub Copilot",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+    }
+   ]
+  },
+  {
+   "id": "azure-sql-container",
+   "title": "Azure SQL Database container runs the Azure SQL Database engine on your laptop",
+   "summary": "In public preview, it runs locally in Docker or Podman on x64 or ARM64, including Apple Silicon, works offline once downloaded and needs no Azure subscription for local development: handy for database classes and student projects (our example). It's for development and testing, not production.",
+   "for": "Database students and dev teams",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Azure SQL Blog",
+     "url": "https://devblogs.microsoft.com/azure-sql/build-locally-with-azure-sql-database-container-now-in-public-preview/"
+    },
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=579525"
+    }
+   ]
+  },
+  {
+   "id": "office-in-copilot",
+   "title": "Office in Copilot: Word, Excel and PowerPoint inside the Copilot app",
+   "summary": "Generally available from Microsoft Ignite, with Home, where Chat and Cowork meet: people with a Microsoft 365 Copilot licence can create, edit and co-author Word, Excel and PowerPoint files in the Copilot app. Today is in private preview, Workspaces is in the Frontier program and Code is due in the coming weeks.",
+   "for": "Staff with Microsoft 365 Copilot",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "SKILLS AT WORK",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft Copilot Blog",
+     "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/"
+    },
+    {
+     "outlet": "Microsoft Source",
+     "url": "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/"
+    }
+   ]
+  },
+  {
+   "id": "capeability-ai",
+   "title": "CAPEability AI brings AI and job skills to the Western Cape's libraries and e-Centres",
+   "summary": "The Western Cape Government and Microsoft, with Microsoft Elevate, launched CAPEability AI: pathways from digital literacy to Copilot, employability and entrepreneurship, plus an AI-supported CV builder, through 375 public library service points and 83 e-Centres, with a focus on young people aged 18 to 35.",
+   "for": "Young people and jobseekers in the Western Cape",
+   "status": "Launched",
+   "edu": true,
+   "chapter": "SKILLS AT WORK",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft Source EMEA",
+     "url": "https://news.microsoft.com/source/emea/2026/11/western-cape-government-partners-with-microsoft-to-prepare-residents-for-the-ai-economy"
+    }
+   ]
+  },
+  {
+   "id": "powershell-51-deprecated",
+   "title": "Windows PowerShell 5.1 is deprecated; PowerShell 7 comes with the next Windows",
+   "summary": "5.1 stays part of Windows, supported and patched, but gets no new features; Windows 11 26H2 and Server 2025 are the last with it on by default. The next Windows includes PowerShell 7, so find the scripts, tasks and tools that launch powershell.exe (5.1) and test them in pwsh.exe (7).",
+   "for": "School and university IT",
+   "status": "Deprecated, still supported",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft Support (KB5137172)",
+     "url": "https://support.microsoft.com/help/5137172"
+    },
+    {
+     "outlet": "PowerShell Team Blog",
+     "url": "https://devblogs.microsoft.com/powershell/powershell-7-coming-to-windows/"
+    }
+   ]
+  },
+  {
+   "id": "copilot-pc-diagnostics",
+   "title": "Copilot on Copilot+ PCs will soon explain PC problems and tidy your files",
+   "summary": "Coming soon to Copilot+ PCs: Copilot can run a read-only scan to find the root cause of errors or slowdowns and explain it in clear terms, and find, organise, move, copy or rename files when you ask in plain language.",
+   "for": "Students, staff and help desks",
+   "status": "Coming soon (Copilot+ PCs)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Windows Experience Blog",
+     "url": "https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/"
+    }
+   ]
+  },
+  {
+   "id": "hela-game-pass",
+   "title": "Hela: of Mice & Magic joins Game Pass on 1 December",
+   "summary": "A 3D co-op adventure where you see the world as a brave little mouse, solving puzzles in landscapes inspired by Northern Sweden; day one on Game Pass Ultimate and PC Game Pass, for Xbox Series X|S, PC and cloud.",
+   "for": "Students, after hours",
+   "status": "Out 1 December",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/17/xbox-game-pass-november-2026-wave-2/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Wednesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in Microsoft updates, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Your class, your rules. Teachers can now assign Copilot's Study and Learn, right inside a Teams assignment."
+  },
+  {
+   "s": 22.5,
+   "t": "You set the AI rule: allowed, editing or brainstorming only, or none."
+  },
+  {
+   "s": 31.88,
+   "t": "Study and Learn reads the assignment, its instructions and files, then coaches with questions, hints and feedback."
+  },
+  {
+   "s": 39.38,
+   "t": "Students can turn it into a practice quiz, flashcards or a matching activity, and it stays in tutoring mode."
+  },
+  {
+   "s": 46.88,
+   "t": "For students 13 and up, on A1, A3 or A5. IT enables it for under-18s."
+  },
+  {
+   "s": 53.91,
+   "t": "And Microsoft Classroom hit the roadmap: preview next February, rollout starting next June."
+  },
+  {
+   "s": 60.0,
+   "t": "For school IT, Windows administrator protection is now generally available."
+  },
+  {
+   "s": 67.5,
+   "t": "Admins run as standard users. When a task needs more, Windows Hello approves that task alone."
+  },
+  {
+   "s": 75.0,
+   "t": "Coding students can now pick MAI Code 2 Flash, Microsoft's new lightweight model, in GitHub Copilot."
+  },
+  {
+   "s": 82.5,
+   "t": "And database students can run Azure SQL Database on a laptop, in preview, with no Azure subscription."
+  },
+  {
+   "s": 90.0,
+   "t": "Got Microsoft 365 Copilot? Word, Excel and PowerPoint now work right inside the Copilot app."
+  },
+  {
+   "s": 97.5,
+   "t": "In South Africa, CAPEability AI brings AI and job skills to the Western Cape's libraries and e-Centres."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Windows PowerShell 5.1 is deprecated, though it's still supported and patched."
+  },
+  {
+   "s": 112.5,
+   "t": "The next Windows brings PowerShell 7, so check which scripts still launch powershell.exe."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Copilot on Copilot+ PCs will soon run a read-only scan to explain what's wrong."
+  },
+  {
+   "s": 129.38,
+   "t": "And it'll tidy a messy Downloads folder, finding, moving or renaming files when you ask."
+  },
+  {
+   "s": 136.88,
+   "t": "Oh, and on December 1, Game Pass adds Hela, a co-op adventure starring a brave little mouse."
+  },
+  {
+   "s": 143.91,
+   "t": "However much AI arrives this week, it's still your class, your rules."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "Some of it's shipped. The rest is on its way."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-18/Microsoft-for-Education-Daily_2026-11-18.mp4",
+  "mb": 56.0,
+  "bytes": 55999027,
+  "seconds": 180.01
+ },
+ "links": {}
+}
