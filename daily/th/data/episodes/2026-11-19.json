@@ -1,0 +1,593 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-19",
+ "ep": 18,
+ "hook": "REMEMBER THIS.",
+ "day": "Thursday 19 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · THURSDAY 19 NOVEMBER 2026",
+ "tldr": "Remember this: Sydney nose drops sharpened old mice's memory, chronic loneliness was tied to dementia risk, Genie 4 opened its AI worlds, and Voyager 1 reached one light-day.",
+ "chapters": [
+  "REMEMBER THIS.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:10 AEDT, Thu 19 Nov 2026.",
+ "notes": [
+  "Evidence: the nose drops and the UCLA vesicles are mouse studies; the loneliness, cold sore virus, heart-vest and social media findings are observational links; Biogen's two-year diranersen figures (Phase 2, open-label extension) and Osmo's 'human-level' nose are company claims; the exercise trial is small (74 finished); the forgetting paper is a review.",
+  "Voyager 1's one light-day distance is NASA's estimate for 18 Nov, with confirmation due on 19 Nov.",
+  "Screenshots are the publishers' public pages as captured on 19 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "REMEMBER THIS. 🧠\n\nToday in transhumanism:\n- Sydney nose drops restored memory in old mice\n- Chronic loneliness linked to a 38% higher dementia risk\n- Google's Genie 4 AI worlds open to subscribers\n- Voyager 1 is now one light-day from Earth",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (19 Nov 2026): Sydney's memory nose drops in mice, chronic loneliness and dementia, Google's Genie 4, Osmo's AI nose, Will Wright's memory game, forgetting in AI and brains, Biogen's tau drug, the cold sore virus and dementia, UCL's heart-mapping vest, stem-cell nanoparticles against type 1 diabetes in mice, social media and young adults' mood, exercise before talk therapy, chatbot safety tests, Lilly's missed Alzheimer's trial, a fast soft robot, UNSW's battery check, Voyager 1 at one light-day and Cambridge's word of the year, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "CAMBRIDGE DICTIONARY'S WORD OF THE YEAR IS 'HUMAN'; 'AGENT' AND 'WHOLESOME' WERE ALSO IN THE RUNNING",
+  "SYDNEY'S NOSE DROPS USE THE MRNA BACKBONE OF BIONTECH'S COVID-19 VACCINE",
+  "THE DROPS PROTECTED NEURONS WITHOUT CLEARING AMYLOID PLAQUES",
+  "29.6% OF THE CHRONICALLY LONELY IN THE FRENCH STUDY DID NOT LIVE ALONE",
+  "ALL PROJECT GENIE VIDEO AND AUDIO CARRIES SYNTHID WATERMARKS",
+  "GOOGLE AI PRO MEMBERS CAN JOIN THE GENIE 4 WAITLIST",
+  "OSMO SAYS ITS MODEL OUTPERFORMED IN-HOUSE PERFUMERS AT A BIG CONSUMER GOODS COMPANY",
+  "MYMEMS RUNS ON ARTIFICIAL AGENCY'S BEHAVIOR ENGINE AND IS DUE IN 2027",
+  "BIOGEN: DIRANERSEN ALSO LOWERED TAU ON PET SCANS AND IN BLOOD AND SPINAL FLUID",
+  "MAYO CLINIC: A P-TAU217 BLOOD TEST HELPS ESTIMATE 5- AND 10-YEAR RISK OF MEMORY DECLINE",
+  "ABOUT TWO-THIRDS OF PEOPLE UNDER 50 CARRY HSV-1; ANTIVIRAL TRIALS IN ALZHEIMER'S ARE UNDER WAY",
+  "ABOUT 70% OF 402 OLDER PEOPLE IN THE UCL VEST STUDY HAD HEART SCARRING",
+  "UCLA'S VESICLES WERE INSPIRED BY HOW EMBRYOS AVOID REJECTION IN PREGNANCY",
+  "ABOUT 14% OF THE STRUGGLING YOUNG ADULTS BECAME INFREQUENT SOCIAL MEDIA USERS",
+  "GOOGLE SAYS THE GAO TESTED EARLIER GEMINI MODELS",
+  "SEN. MAGGIE HASSAN PLANS A HEARING ON AI RISKS IN JANUARY",
+  "MEVIDALEN RAISED SYSTOLIC BLOOD PRESSURE BY ABOUT 8-11 MMHG AFTER DOSES",
+  "UC SAN DIEGO'S SOFT ROBOT ALSO SWIMS AND WALKS UNDERWATER",
+  "UNSW'S BATTERY CHECK COULD CUT TESTING FROM ABOUT $120 TO UNDER $25 A PACK",
+  "NASA PLANS TO CONFIRM VOYAGER 1'S LIGHT-DAY MILESTONE ON 19 NOV",
+  "VOYAGER 1 LAUNCHED ON 5 SEPTEMBER 1977 AND CARRIES THE GOLDEN RECORD"
+ ],
+ "sources": [
+  "University of Sydney",
+  "Advanced Science",
+  "ScienceAlert",
+  "Medical Xpress",
+  "Université de Bordeaux",
+  "Aging & Mental Health",
+  "News-Medical",
+  "Google",
+  "Google DeepMind",
+  "Unite.AI",
+  "MIT Technology Review",
+  "The Verge",
+  "Gallium Studios",
+  "University of Groningen",
+  "KU Leuven",
+  "Trends in Cognitive Sciences",
+  "Biogen",
+  "BioSpace",
+  "Reuters",
+  "USC Keck School of Medicine",
+  "Open Forum Infectious Diseases",
+  "CIDRAP",
+  "University College London",
+  "American Heart Association",
+  "UCLA",
+  "Nature Nanotechnology",
+  "Phys.org",
+  "Emory University",
+  "JAMA Pediatrics",
+  "HealthDay",
+  "University of São Paulo",
+  "Mental Health and Physical Activity",
+  "US Government Accountability Office",
+  "The Washington Post",
+  "Associated Press",
+  "EMS1",
+  "Eli Lilly",
+  "NeurologyLive",
+  "UC San Diego",
+  "Science Robotics",
+  "Tech Xplore",
+  "UNSW Sydney",
+  "The Driven",
+  "NASA",
+  "Popular Science",
+  "Cambridge Dictionary",
+  "ABC",
+  "AFP",
+  "Mayo Clinic",
+  "JAMA Neurology"
+ ],
+ "scanned": 1744,
+ "stories": [
+  {
+   "id": "nose-drops",
+   "title": "Sydney's mRNA nose drops brought old mice's memory back to youthful levels",
+   "summary": "University of Sydney researchers delivered mRNA in nose drops so cells make BDNF, a protein that supports neurons. Aged mice then matched young mice on memory tests, and Alzheimer's-model mice were protected from decline without any drop in amyloid plaques. A mouse study in Advanced Science; the team hopes to move to human trials.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "REMEMBER THIS.",
+   "badge": "IN MICE",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "University of Sydney (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-algernon-experimental-nose-memory-mice.html"
+    },
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/experimental-nose-drops-restored-fading-memory-and-boosted-neuron-growth-in-mice"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "loneliness",
+   "title": "Chronic loneliness, not the occasional kind, was linked to a 38% higher dementia risk",
+   "summary": "A Université de Bordeaux team followed French adults aged 65 and over for 30 years. People lonely at three or four of four check-ins had a 38% higher risk of dementia over the next 20 years than those never lonely; occasional loneliness showed no clear link. An observational study in Aging & Mental Health: a link, not proof of cause.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study, 30 years",
+   "chapter": "REMEMBER THIS.",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "News-Medical",
+     "url": "https://www.news-medical.net/news/20261117/Chronic-loneliness-linked-to-3825-higher-risk-of-dementia.aspx"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-chronic-loneliness-dementia-occasional-harmless.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "genie4",
+   "title": "Google opened Genie 4, its AI that builds walk-through worlds, to top-tier subscribers",
+   "summary": "Google's Project Genie now gives eligible Google AI Ultra subscribers Genie 4, a world model that generates explorable worlds with their own sound; you can type mid-session to change the weather or add a character. Pro members can join a waitlist. Google still calls it frontier research: details can drift in longer sessions.",
+   "pillar": "intelligence",
+   "evidence": "Product launch",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+    },
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/google-brings-genie-4-to-project-genie-for-eligible-ai-ultra-users/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "osmo",
+   "title": "Startup Osmo claims its AI nose now smells about as well as the average person",
+   "summary": "Osmo, spun out of Google Brain in 2023, says its model has reached 'human-level olfactory intelligence': about as good as an average person at detecting and telling smells apart, and as good as a junior perfumer at creating them. It built a dataset of more than 10 million human smell labels. A company claim, by its own definition.",
+   "pillar": "intelligence",
+   "evidence": "Company claim",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mymems",
+   "title": "SimCity creator Will Wright is building a game that turns your memories into an AI world",
+   "summary": "In MyMems, from Will Wright's Gallium Studios, players speak short stories to their phone and those memories become pieces of a world they build, alongside AI avatars of people in their lives. It runs on Artificial Agency's Behavior Engine and is due in 2027.",
+   "pillar": "intelligence",
+   "evidence": "Game in development, due 2027",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview"
+    },
+    {
+     "outlet": "Gallium Studios (GlobeNewswire)",
+     "url": "https://www.globenewswire.com/news-release/2026/11/18/3405705/0/en/gallium-studios-founded-by-the-sims-creator-will-wright-partners-with-artificial-agency-to-power-characters-in-new-simulation-game.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "forgetting",
+   "title": "AIs briefly forget old skills while learning new ones; researchers ask whether brains do too",
+   "summary": "Researchers at the University of Groningen and KU Leuven describe a 'stability gap': neural networks dip on an old task when they start a new one, then recover. They found no direct match in human studies yet and propose tests; finding one would hint that our brains learn more like machines than we think. A review in Trends in Cognitive Sciences.",
+   "pillar": "intelligence",
+   "evidence": "Review and proposal",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "University of Groningen (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-neural-networks-humans.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "diranersen",
+   "title": "Biogen says its tau drug slowed early Alzheimer's decline by 38% at two years",
+   "summary": "In Biogen's Phase 2 CELIA study, people on diranersen 60 mg twice a year (60 people), given by spinal injection to lower tau, declined 38% more slowly on the CDR-SB scale at two years than those first given placebo (115). The two-year comparison comes from an open-label extension; company data presented at CTAD 2026, with a Phase 3 next.",
+   "pillar": "longevity",
+   "evidence": "Phase 2 trial; company data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Biogen (GlobeNewswire)",
+     "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/biogens-diranersen-demonstrates-increasing-clinical-benefit-at-two-years-in-early-alzheimers-disease/2472594"
+    },
+    {
+     "outlet": "BioSpace",
+     "url": "https://www.biospace.com/drug-development/ctad-2026-biogen-aribio-lead-the-way-in-slowing-cognitive-decline-in-alzheimers"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hsv1",
+   "title": "A review linked the cold sore virus to a 48% higher risk of dementia",
+   "summary": "Pooling 11 studies, a USC-led meta-analysis in Open Forum Infectious Diseases found infection with herpes simplex virus 1, which about two-thirds of under-50s carry, was linked to a 48% higher risk of Alzheimer's or other dementia. Observational studies: a link, not proof the virus causes dementia; antiviral trials are under way.",
+   "pillar": "longevity",
+   "evidence": "Meta-analysis of 11 observational studies",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (CIDRAP)",
+     "url": "https://medicalxpress.com/news/2026-11-people-herpes-infections-higher-alzheimer.html"
+    },
+    {
+     "outlet": "Open Forum Infectious Diseases",
+     "url": "https://academic.oup.com/ofid/advance-article/doi/10.1093/ofid/ofag707/9062375"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "vest",
+   "title": "A 256-electrode vest maps an ageing heart's electrical wiring in five minutes",
+   "summary": "University College London's washable ECG imaging vest mapped the hearts of 402 older people (average age 76). About 70% had scarring, even without a heart attack, and poorer electrical signals were linked to hospital admission for heart disease, so it could help flag who needs closer monitoring. Presented at the American Heart Association meeting.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 402 older people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "UCL (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-vest-heart-electrical-flag-health.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "vesicles",
+   "title": "Nanoparticles from stem cells calmed the immune attack and delayed type 1 diabetes in mice",
+   "summary": "UCLA researchers found that extracellular vesicles from reprogrammed stem cells boosted calming regulatory T cells. In mice primed to develop type 1 diabetes, two treatments delayed it, and 55% of mice given the vesicles in a slow-release gel were still diabetes-free after 90 days. A mouse study in Nature Nanotechnology.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "UCLA (Phys.org)",
+     "url": "https://phys.org/news/2026-11-stem-cellderived-nanoparticles-modulate-immune.html"
+    },
+    {
+     "outlet": "Nature Nanotechnology",
+     "url": "https://www.nature.com/articles/s41565-026-02320-z"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "social-media",
+   "title": "Struggling young adults who cut back on social media saw depression and anxiety ease",
+   "summary": "An Emory-led study in JAMA Pediatrics followed nearly 2,400 US 18- to 24-year-olds with elevated symptoms and frequent social media use. The roughly 14% who became infrequent users saw their depression, anxiety and stress improve. Observational data, not a randomised trial.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study, ~2,400 young adults",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (HealthDay)",
+     "url": "https://medicalxpress.com/news/2026-11-social-media-ease-depression-anxiety.html"
+    },
+    {
+     "outlet": "JAMA Pediatrics",
+     "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2856566"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "exercise-cbt",
+   "title": "Exercise before talk therapy for depression came with sharper memory and learning",
+   "summary": "In a small international trial, adults with depression did 12 weeks of exercise, or none, before 12 weeks of cognitive behavioural therapy. Exercise raised fitness and IGF-1, a hormone that helps neurons, and memory and learning gains showed up during therapy. 120 people started and 74 finished; published in Mental Health and Physical Activity.",
+   "pillar": "wellbeing",
+   "evidence": "Small trial, 74 people finished",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (FAPESP)",
+     "url": "https://medicalxpress.com/news/2026-11-physical-brain-psychotherapy-treatment-depression.html"
+    },
+    {
+     "outlet": "Mental Health and Physical Activity",
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S1755296626000694"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gao",
+   "title": "US auditors got four top chatbots past their safeguards to produce attack plans",
+   "summary": "In covert tests by the US Government Accountability Office, ChatGPT, Claude, Gemini and Grok each produced attack plans in under 12 hours once testers got around their safeguards. Senator Maggie Hassan plans a hearing on AI risks in January; Anthropic said it couldn't verify the results and Google said earlier models were tested.",
+   "pillar": "intelligence",
+   "evidence": "Government audit tests",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "The Washington Post",
+     "url": "https://www.washingtonpost.com/technology/2026/11/18/chatbots-helped-plan-terrorist-attacks-tests-by-congressional-watchdog/"
+    },
+    {
+     "outlet": "EMS1",
+     "url": "https://www.ems1.com/terrorism/gao-ai-generated-attack-plans-raise-preparedness-questions-for-responders"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mevidalen",
+   "title": "Lilly's dopamine pill for Alzheimer's missed its goal in a 304-person trial",
+   "summary": "Eli Lilly's mevidalen, taken daily, showed no clear benefit on the main thinking-and-function score over 24 weeks in the Phase 2 PRESENCE-ALZ trial of 304 people with mild to moderate Alzheimer's, and it raised blood pressure after doses. Full results came at CTAD 2026; Lilly had already stopped developing it for Alzheimer's.",
+   "pillar": "longevity",
+   "evidence": "Phase 2 trial, 304 people; missed",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "NeurologyLive",
+     "url": "https://www.neurologylive.com/view/mevidalen-misses-primary-endpoint-phase-2-alzheimer-trial"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "soft-robot",
+   "title": "A soft robot with no electronics runs at 4.72 metres a second",
+   "summary": "UC San Diego engineers 3D-printed a six-legged, air-powered robot in one piece from a single soft material. Using a compound steam engine design, it runs at up to 4.72 metres a second, more than 100 times faster than their 2022 version, and can swim. It's still tethered to compressed air; uses could include places electronics can't go.",
+   "pillar": "frontier",
+   "evidence": "Lab prototype",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "UC San Diego (Tech Xplore)",
+     "url": "https://techxplore.com/news/2026-11-fastest-soft-robot-built-doesnt.html"
+    },
+    {
+     "outlet": "Science Robotics",
+     "url": "https://www.science.org/doi/10.1126/scirobotics.aei1264"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "unsw-battery",
+   "title": "UNSW can check a retired EV battery cell's health in under three minutes",
+   "summary": "A UNSW Sydney prototype uses short electrical pulses and statistical models to estimate a cell's health in under three minutes, versus about 10 hours for a full test, with over 90% accuracy in the lab. A $1.3 million project with DY New Energy will test it on more than 500 batteries, so more can get a second life storing energy.",
+   "pillar": "frontier",
+   "evidence": "Lab prototype",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "The Driven",
+     "url": "https://thedriven.io/2026/11/18/unsw-develops-ev-battery-health-test-that-takes-under-three-minutes-per-cell/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "voyager",
+   "title": "Voyager 1 became the first spacecraft a full light-day from Earth",
+   "summary": "Nearly 50 years after its 1977 launch, NASA's Voyager 1 reached about 25.9 billion km from Earth on 18 November by NASA's estimate, so its radio signals now take a full day to reach us. It still carries the Golden Record of sights and sounds from Earth; NASA planned to confirm the milestone on 19 November.",
+   "pillar": "frontier",
+   "evidence": "NASA estimate",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/its-official-voyager-1-is-the-first-spacecraft-to-reach-one-light-day-from-earth"
+    },
+    {
+     "outlet": "Popular Science",
+     "url": "https://www.popsci.com/science/voyager-1-one-light-day-away-from-earth-nasa-estimate/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cambridge-human",
+   "title": "Cambridge Dictionary's word of the year is 'human'",
+   "summary": "Cambridge Dictionary named 'human' its Word of the Year for 2026, as AI changes how people see themselves; its definition contrasts people with gods, animals and machines. 'Agent', 'wholesome' and 'dusking' were also in the running.",
+   "pillar": "intelligence",
+   "evidence": "Dictionary announcement",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "ABC (AFP)",
+     "url": "https://www.abc.net.au/news/2026-11-18/cambridge-dictionary-word-of-the-year-human/107398132"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Thursday, November 19, and this is the Transhuman Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in transhumanism."
+  },
+  {
+   "s": 15.0,
+   "t": "Remember this! In old mice, Sydney scientists' nose drops brought memory back to youthful levels."
+  },
+  {
+   "s": 22.03,
+   "t": "And over 30 years, chronic loneliness came with a 38% higher dementia risk."
+  },
+  {
+   "s": 31.88,
+   "t": "Google's Genie 4, an AI that builds worlds you can walk through, just opened to top-tier subscribers."
+  },
+  {
+   "s": 38.91,
+   "t": "A startup called Osmo claims its AI nose now smells about as well as the average person."
+  },
+  {
+   "s": 45.94,
+   "t": "SimCity's creator Will Wright is building a g ame that turns your memories into an AI world."
+  },
+  {
+   "s": 52.97,
+   "t": "And AIs briefly forget old skills while learning new ones."
+  },
+  {
+   "s": 56.73,
+   "t": "Researchers now ask if we do too."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity."
+  },
+  {
+   "s": 61.19,
+   "t": "Biogen says its tau drug slowed early Alzheimer's decline by 38% at two years."
+  },
+  {
+   "s": 67.5,
+   "t": "And a review of 11 studies linked the cold sore virus to a 48% higher dementia risk."
+  },
+  {
+   "s": 75.0,
+   "t": "In London, a vest with 256 electrodes maps an ageing heart's wiring in five minutes."
+  },
+  {
+   "s": 82.5,
+   "t": "And in mice, tiny particles from stem cells calmed the immune attack and delayed type 1 diabetes."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing."
+  },
+  {
+   "s": 90.94,
+   "t": "Young adults who cut back on social media saw their depression and anxiety ease."
+  },
+  {
+   "s": 97.5,
+   "t": "And in a small trial, 12 weeks of exercise before talk therapy for depression sharpened memory and learning."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 105.96,
+   "t": "US auditors talked four top chatbots past their safeguards into making attack plans."
+  },
+  {
+   "s": 112.5,
+   "t": "And Lilly's dopamine pill for Alzheimer's missed its goal in a 300-person trial."
+  },
+  {
+   "s": 121.88,
+   "t": "A soft robot with no electronics, printed in one piece, now runs nearly five metres a second."
+  },
+  {
+   "s": 128.91,
+   "t": "Closer to home, UNSW can check an old EV battery cell's health in under three minutes."
+  },
+  {
+   "s": 135.94,
+   "t": "And Voyager 1 just became the first spacecraft a full light-day from Earth, nearly 50 years after launch."
+  },
+  {
+   "s": 142.97,
+   "t": "Cambridge Dictionary's word of the year?"
+  },
+  {
+   "s": 145.37,
+   "t": "Human. Whatever we build next, remember this."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build the future. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-19/The-Transhuman-Daily_2026-11-19.mp4",
+  "mb": 54.8,
+  "bytes": 54802292,
+  "seconds": 180.01
+ },
+ "links": {}
+}
