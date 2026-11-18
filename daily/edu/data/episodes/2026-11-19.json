@@ -1,0 +1,380 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-19",
+ "ep": 24,
+ "hook": "START BUILDING.",
+ "day": "Thursday 19 November 2026",
+ "note": "FOR EDUCATION · THURSDAY 19 NOVEMBER 2026",
+ "tldr": "Hour of AI is out with a free Microsoft Elevate course for teachers, Minecraft Education adds a free Field Agent lesson, and Baseline security mode 2026 rolls out.",
+ "chapters": [
+  "START BUILDING",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "SKILLS UP",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Thu 19 Nov 2026 (Wednesday 18 Nov in the US: Microsoft Ignite day two), plus this week's education news.",
+ "notes": [
+  "This week: Hour of AI and its Microsoft Elevate teacher module (17 Nov), Minecraft Education's Field Agent (16 Nov), AI Skills Navigator's labs (16 Nov), Baseline security mode 2026 (17 Nov, phased rollout) and The Deep Freeze (15 Nov, no date yet). Ignite's day-one education news was covered on 18 Nov.",
+  "Learning Agent's Teams nudges are a roadmap item (preview November, rollout from December). VS Code's visual answers are off by default and native visuals are experimental. The agent-framework facts come from security researchers and The Register.",
+  "Screenshots are the publishers' public pages as captured on 19 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "START BUILDING. 🎓\n\nThis week at Microsoft for education:\n- Hour of AI is out, plus a free 30-min Microsoft Elevate course for teachers\n- Minecraft Education's free Field Agent lesson\n- Free hands-on labs in AI Skills Navigator\n- Baseline security mode 2026 is rolling out",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (19 Nov 2026): Hour of AI 2026 and its free Microsoft Elevate course for teachers, Minecraft Education's Field Agent lesson, Microsoft Baseline security mode 2026, visual answers in VS Code 1.147, the Foundry Dev Pack, free labs in AI Skills Navigator, Learning Agent's coming Teams tips, the hijacked agent-framework releases on PyPI and Minecraft's The Deep Freeze, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "HOUR OF AI 2026: OVER 250 SHORT ACTIVITIES FROM GROUPS LIKE NASA, LEGO EDUCATION, COMMON SENSE MEDIA AND BRAINPOP",
+  "CODEAI'S QUEST BUILDER (GRADES 3-8) HAS STUDENTS BUILD THEIR OWN GAME; AI MAKERSPACE (GRADES 9-12) BUILDS A WEB APP",
+  "COMPUTER SCIENCE EDUCATION WEEK RUNS 7-13 DECEMBER 2026",
+  "ELEVATE YOUR HOUR OF AI: A FREE 30-MINUTE MODULE FROM CODEAI AND MICROSOFT ON MICROSOFT ELEVATE FOR EDUCATORS",
+  "FIELD AGENT: AFTER THE THREE CHALLENGES, STUDENTS CAN CODE WITH BLOCKS OR PYTHON IN AN OPEN BUILD AREA",
+  "FIELD AGENT COMES WITH A FACILITATOR GUIDE, A CLASSROOM-READY POWERPOINT AND A PRINTABLE CERTIFICATE",
+  "MINECRAFT EDUCATION IS PART OF MOST MICROSOFT 365 SCHOOL SUBSCRIPTIONS, ITS BLOG SAYS; OTHERWISE TRY THE FREE DEMO",
+  "GOODWALL AND THE NEXTGEN AI ALLIANCE (FOUNDED BY HP, COGNIZANT AND MICROSOFT): 9 IN 10 YOUNG PEOPLE USE AI AT LEAST WEEKLY",
+  "THE SAME SURVEY OF 22,000+ PEOPLE AGED 16-34: 47% ARE MOST INTERESTED IN AI'S POTENTIAL TO IMPROVE LEARNING AND EDUCATION",
+  "AI SKILLS NAVIGATOR ADDS JAPANESE, SPANISH, GERMAN, FRENCH, BRAZILIAN PORTUGUESE, INDONESIAN, CHINESE, KOREAN AND ITALIAN",
+  "AI SKILLS NAVIGATOR'S PRACTICE BOOST, WITH AI QUESTIONS, HINTS AND FEEDBACK, IS IN PUBLIC PREVIEW",
+  "LEARNING AGENT IN MICROSOFT COPILOT CAN NOW RECOMMEND FEATURED SKILLING PLAYLISTS",
+  "BASELINE SECURITY MODE 2026 ADDS INTUNE, PURVIEW AND DYNAMICS 365; AZURE AND WINDOWS ARE IN PRIVATE PREVIEW",
+  "BASELINE SECURITY MODE CAN BLOCK CLASSIC SHAREPOINT PAGES AND COM ADD-INS THAT AREN'T ON YOUR ALLOW LIST",
+  "VS CODE 1.147: SCHEDULE CHAT REQUESTS WITH SEND LATER AND KEEP DRAFTS (BOTH EXPERIMENTAL)",
+  "THE FOUNDRY SKILL FOR CODING AGENTS WORKS WITH GITHUB COPILOT, CLAUDE CODE AND CURSOR",
+  "EDGE FOR BUSINESS: COWORK CAN NOW COMPLETE MULTI-STEP TASKS ACROSS WEBSITES (MICROSOFT 365 COPILOT WITH USAGE-BASED BILLING)",
+  "EDGE FOR BUSINESS SKILLS RECORDER, WHICH TURNS A RECORDED WORKFLOW INTO A COWORK SKILL, IS DUE IN PREVIEW BY YEAR END",
+  "GITHUB: SECURITY RISK ASSESSMENTS NOW RUN AUTOMATICALLY ON GITHUB TEAM",
+  "POWER BI AND FABRIC HAVE POSTED THEIR NOVEMBER 2026 FEATURE SUMMARIES",
+  "AGENT-FRAMEWORK 1.26.0 AND EARLIER ARE NOT AFFECTED BY THE PYPI HIJACK",
+  "MICROSOFT ON THE AGENT-FRAMEWORK INCIDENT: 'WE HAVE MADE SOME REPOSITORIES PRIVATE WHILE WE INVESTIGATE MALICIOUS CONTENT'",
+  "THE DEEP FREEZE ALSO BRINGS A NEW MUSIC DISC BY HYPER POTIONS AND JUKEBOX PLAYLISTS",
+  "THE DEEP FREEZE'S BABY FROSTBITES ARE AS QUICK AS THEY ARE ADORABLE, SAYS MOJANG"
+ ],
+ "sources": [
+  "PR Newswire",
+  "CodeAI",
+  "Minecraft Education",
+  "Microsoft Tech Community: The Skills Hub Blog",
+  "Microsoft 365 Roadmap",
+  "Microsoft 365 Blog",
+  "Visual Studio Code",
+  "Microsoft Foundry Blog",
+  "The Register",
+  "JFrog Security Research",
+  "Beacon Lab",
+  "Minecraft.net",
+  "Microsoft Edge Blog",
+  "EIN Presswire (Goodwall)",
+  "GitHub Changelog",
+  "Power BI Blog",
+  "Microsoft Fabric Blog"
+ ],
+ "scanned": 2083,
+ "stories": [
+  {
+   "id": "hour-of-ai",
+   "title": "Hour of AI 2026 is out: free 'Start Building' activities for grades 3-12",
+   "summary": "CodeAI (formerly Code.org) launched this year's Hour of AI activities, with over 250 short activities from groups like NASA, LEGO Education, Common Sense Media and BrainPOP, ahead of Computer Science Education Week, 7-13 December 2026.",
+   "for": "Students in grades 3-12 and their teachers",
+   "status": "Available now",
+   "edu": true,
+   "chapter": "START BUILDING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/start-building-hour-of-ai-gives-students-a-hands-on-first-step-into-understanding-technology-302941388.html"
+    },
+    {
+     "outlet": "Hour of AI",
+     "url": "https://hourofai.org/en-US/activities"
+    }
+   ]
+  },
+  {
+   "id": "elevate-hour",
+   "title": "A free 30-minute Microsoft Elevate course gets K-12 teachers ready to lead an Hour of AI",
+   "summary": "Elevate Your Hour of AI is a free, 30-minute module from CodeAI and Microsoft on the Microsoft Elevate for Educators platform: preview the activities, pick up facilitation tips and earn an Hour of AI Educator credential.",
+   "for": "K-12 teachers",
+   "status": "Available now",
+   "edu": true,
+   "chapter": "START BUILDING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/start-building-hour-of-ai-gives-students-a-hands-on-first-step-into-understanding-technology-302941388.html"
+    },
+    {
+     "outlet": "CodeAI",
+     "url": "https://code.org/"
+    }
+   ]
+  },
+  {
+   "id": "field-agent",
+   "title": "Minecraft Education's free Hour of AI lesson, Field Agent, teaches why good data matters",
+   "summary": "Students help a farm agent build better barns, meet different animals' fencing needs and harvest crops at peak ripeness, then spot and fix results that come from bad data. No AI is used in play; it runs with a Microsoft 365 Education account or the free demo, with a facilitator guide, a PowerPoint and a certificate.",
+   "for": "Teachers and students",
+   "status": "Available now (free)",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": "THIS WEEK",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "Minecraft Education",
+     "url": "https://education.minecraft.net/en-us/blog/minecraft-hour-of-ai-field-agent"
+    }
+   ]
+  },
+  {
+   "id": "bsm-2026",
+   "title": "Microsoft Baseline security mode 2026 is rolling out, with 24 new recommended settings",
+   "summary": "Generally available in a phased rollout across Microsoft 365 cloud environments worldwide. It adds Intune, Purview and Dynamics 365, a new Applications category and settings such as MFA for guests and a Teams lobby for external users; admins can apply each one or run it in simulation mode first.",
+   "for": "School and university IT",
+   "status": "Rolling out (phased)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Blog",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/ignite-26-spotlight-announcing-microsoft-baseline-security-mode/ba-p/4572694"
+    }
+   ]
+  },
+  {
+   "id": "vscode-1147",
+   "title": "VS Code 1.147: agents can answer with a chart, table or mockup",
+   "summary": "In the Agents window, agents can show HTML previews (reports, diagrams, mockups) and native visuals such as metrics, tables and bar charts right in their answers. Both are off by default; native visuals are experimental, as are the new Send Later and drafts features.",
+   "for": "Coding students and dev teams",
+   "status": "Available, off by default",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Visual Studio Code",
+     "url": "https://code.visualstudio.com/updates/v1_147"
+    }
+   ]
+  },
+  {
+   "id": "foundry-devpack",
+   "title": "The Foundry Dev Pack puts Microsoft Foundry's agent-building tools in one install",
+   "summary": "Now generally available, it combines the Foundry CLI (azd ai) and the Microsoft Foundry Skill, and adds the Foundry Toolkit for VS Code and the Foundry plugin for the GitHub Copilot app when those are installed. The skill also works with coding agents such as Claude Code and Cursor.",
+   "for": "Campus builders and research developers",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/"
+    }
+   ]
+  },
+  {
+   "id": "skills-navigator",
+   "title": "AI Skills Navigator adds free hands-on labs, with no subscription or licence needed",
+   "summary": "New at Ignite 2026: free on-demand labs with Microsoft products; practice boost (public preview), where AI asks questions and gives hints and feedback; a refreshed For you page with skilling playlists; and nine more languages, from Japanese to Italian.",
+   "for": "Students and campus staff",
+   "status": "Available; practice boost in preview",
+   "edu": true,
+   "chapter": "SKILLS UP",
+   "badge": "THIS WEEK",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "The Skills Hub Blog",
+     "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/ai-skills-navigator-at-microsoft-ignite-2026-learn-practice-apply/4502647"
+    }
+   ]
+  },
+  {
+   "id": "rm-learning",
+   "title": "Learning Agent will send personalised Copilot skills tips in Teams",
+   "summary": "On the Microsoft 365 roadmap (in development): Learning Agent will proactively send AI and Copilot upskilling notifications in Teams, tailored to each person's role, Copilot adoption stage and usage. The roadmap lists a preview in November 2026 and rollout from December 2026.",
+   "for": "Campus staff",
+   "status": "Coming soon (roadmap)",
+   "edu": false,
+   "chapter": "SKILLS UP",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579905"
+    }
+   ]
+  },
+  {
+   "id": "agent-framework",
+   "title": "Two hijacked releases of Microsoft's agent-framework Python package carried a credential stealer",
+   "summary": "Versions 1.26.1 and 1.26.2, published to PyPI without authorization on 17 November and since removed, ran a stealer whenever Python started. 1.26.0 and earlier are not affected. If you installed either, treat the machine as exposed, roll back to 1.26.0 and rotate the credentials it could reach, including CI secrets.",
+   "for": "University research and dev teams",
+   "status": "Malicious versions removed",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858"
+    },
+    {
+     "outlet": "JFrog Security Research",
+     "url": "https://research.jfrog.com/post/agent-framework-hijack/"
+    }
+   ]
+  },
+  {
+   "id": "deep-freeze",
+   "title": "Minecraft's upcoming winter drop is The Deep Freeze",
+   "summary": "Named at TwitchCon: ice caves with falling icicles and glowing crystals, brittle ice over crevasses, the frostbite (a frozen zombie whose ice balls slow you down), snow and packed ice brick sets, a full calcite set, a Hyper Potions music disc and jukebox playlists. No release date yet.",
+   "for": "Students, after the bell",
+   "status": "Coming soon (no date yet)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-15",
+   "sources": [
+    {
+     "outlet": "Minecraft.net",
+     "url": "https://www.minecraft.net/en-us/article/twitchcon-gamedrop-name"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Thursday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what shipped at Microsoft in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Start building. This year's free Hour of AI activities are out, for grades 3 to 12."
+  },
+  {
+   "s": 22.5,
+   "t": "For teachers, a free 30-minute Microsoft Elevate course gets you ready."
+  },
+  {
+   "s": 31.88,
+   "t": "In class, Minecraft Education's free new lesson, Field Agent, shows how data steers an AI agent."
+  },
+  {
+   "s": 39.38,
+   "t": "Students help a farm agent build better barns, fence different animals and harvest crops at peak ripeness."
+  },
+  {
+   "s": 46.88,
+   "t": "A door too small for a cow?"
+  },
+  {
+   "s": 48.65,
+   "t": "Minecraft Education calls that a debugging opportunity."
+  },
+  {
+   "s": 53.91,
+   "t": "No AI runs while they play, and there's a free demo, plus teacher guides."
+  },
+  {
+   "s": 60.0,
+   "t": "For school IT, Baseline security mode 2026 is rolling out: 24 new settings."
+  },
+  {
+   "s": 67.5,
+   "t": "Guests need MFA, outsiders wait in the Teams lobby, and simulation mode tests it first."
+  },
+  {
+   "s": 75.0,
+   "t": "Coding students? VS Code agents can now reply with a chart or mockup, if you turn it on."
+  },
+  {
+   "s": 82.5,
+   "t": "And for campus builders, the Foundry Dev Pack installs Microsoft's agent tools in one go."
+  },
+  {
+   "s": 90.0,
+   "t": "Want to practise?"
+  },
+  {
+   "s": 91.13,
+   "t": "AI Skills Navigator now has free hands-on labs, no licence needed."
+  },
+  {
+   "s": 97.5,
+   "t": "And soon, Learning Agent will send staff tips in Teams to build their Copilot skills."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print?"
+  },
+  {
+   "s": 105.92,
+   "t": "Two hijacked releases of Microsoft's agent-framework Python package carried a credential stealer."
+  },
+  {
+   "s": 112.5,
+   "t": "Installed either? Roll back to 1.26.0, and change every key it could reach."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Minecraft's upcoming winter drop is The Deep Freeze, with ice caves and ice that cracks."
+  },
+  {
+   "s": 129.38,
+   "t": "Watch out for the frostbite, a frozen zombie whose ice balls slow you down."
+  },
+  {
+   "s": 136.88,
+   "t": "Then build with new snow and packed ice bricks, and a full calcite set."
+  },
+  {
+   "s": 143.91,
+   "t": "A farm, an app or a snow castle: whatever it is, start building."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "On the release board: shipped, and still shipping."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours at Microsoft. Tomorrow, there's more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-19/Microsoft-for-Education-Daily_2026-11-19.mp4",
+  "mb": 57.7,
+  "bytes": 57693299,
+  "seconds": 180.01
+ },
+ "links": {}
+}

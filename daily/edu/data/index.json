@@ -1,13 +1,37 @@
 {
  "show": "Microsoft for Education Daily",
- "updated": "2026-11-18T07:45:14+00:00",
- "latest": "2026-11-18",
+ "updated": "2026-11-18T19:03:22+00:00",
+ "latest": "2026-11-19",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/education",
  "share": "https://peterxing.com/daily/education",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-19",
+   "ep": 24,
+   "hook": "START BUILDING.",
+   "day": "Thursday 19 November 2026",
+   "name": "Microsoft for Education Daily",
+   "stories": 10,
+   "edu": 4,
+   "titles": [
+    "Hour of AI 2026 is out: free 'Start Building' activities for grades 3-12",
+    "A free 30-minute Microsoft Elevate course gets K-12 teachers ready to lead an Hour of AI",
+    "Minecraft Education's free Hour of AI lesson, Field Agent, teaches why good data matters"
+   ],
+   "cover": "daily/edu/media/2026-11-19/cover.webp",
+   "thumb": "daily/edu/media/2026-11-19/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-19/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-19/Microsoft-for-Education-Daily_2026-11-19.mp4",
+    "mb": 57.7,
+    "bytes": 57693299,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-18",
    "ep": 23,
@@ -72,7 +96,7 @@
    "cover": "daily/edu/media/2026-11-16/cover.webp",
    "thumb": "daily/edu/media/2026-11-16/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/edu/media/2026-11-16/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-16/Microsoft-for-Education-Daily_2026-11-16.mp4",
     "mb": 54.1,
