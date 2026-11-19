@@ -1,0 +1,421 @@
+{
+ "date": "2026-11-19",
+ "ep": 46,
+ "hook": "RECORDS FALL.",
+ "day": "Thursday 19 November 2026",
+ "chapters": [
+  "THE BIG ONE",
+  "THE MONEY",
+  "THE RACE",
+  "FOUND IN AN HOUR",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:15 AEDT, Thu 19 Nov 2026, updated to 10:45 AEDT for Anthropic's IPO pricing; the robots' dance record is from Tue 17 Nov.",
+ "notes": [
+  "Anthropic priced its IPO at $83 a share (its own announcement); its range was $70-$78. The $81.3 billion raised and the 'largest IPO on record, topping SpaceX' are per CNBC and Reuters (SpaceX raised $75 billion initially in June and $85.7 billion after its overallotment). The about-$1.5 trillion valuation is per AP and Fortune. Trading is expected to start on the Nasdaq on Thursday 19 Nov (US) as ANT.",
+  "Dario Amodei's 'age of miracles' line is from Anthropic's IPO roadshow video, as quoted by CNBC.",
+  "Nvidia's quarter ended 25 Oct 2026, before Jensen Huang resigned; the results were its first since he left. Revenue was $115.8 billion, up 103% from a year ago (Nvidia). Board chair Harvey Jones said the board does not intend to reinstate Huang (CNN).",
+  "Gemini 4 Neon's benchmark results, including its #1 Vending-Bench 2 score ($16,843), are as reported by Google.",
+  "Sam Altman's 'Labrador' line is as reported by Business Insider from the DealBook Summit.",
+  "The GAO's testers bypassed the chatbots' safeguards with common jailbreak techniques; no attack was carried out, and the GAO says its results can't rank the companies. OpenAI and Google said older models were tested.",
+  "The 151-robot dance record was set on Tuesday 17 Nov in Shenzhen (THIS WEEK).",
+  "Screenshots are the publishers' public article pages as captured on 19 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "RECORDS FALL. 📈\n\nThe last 24h in superintelligence:\n- Anthropic prices the biggest IPO on record at $83\n- Nvidia's sales up 103% to $115.8B\n- Gemini 4 Neon tops a run-a-business test\n- AI finds a critical Java flaw in an hour\n\nWhich record falls next?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (19 Nov 2026), hosted by Claudia: Anthropic pricing the biggest IPO on record, Nvidia's sales more than doubling, Google's Gemini 4 Neon, Nvidia halting chip shipments to China, Sam Altman's Labrador line, an AI-found Java flaw, chatbots helping testers plan attacks, Waymo leaving US freeways, 151 robots dancing to a world record and Humyn Labs' robot training data, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ANTHROPIC: SHARES EXPECTED TO START TRADING ON THE NASDAQ ON 19 NOV AS 'ANT'",
+  "ANTHROPIC SOLD 980 MILLION SHARES AT $83, UP FROM A PLANNED 825 MILLION",
+  "REUTERS: ANTHROPIC'S IPO RAISED $81.31 BILLION, A PERSON FAMILIAR SAID",
+  "CNBC: AMAZON AND GOOGLE EACH OWN ANTHROPIC STAKES VALUED AT OVER $100 BILLION",
+  "REUTERS: ANTHROPIC OPTIONS COULD BEGIN TRADING ON MONDAY",
+  "NVIDIA EXPECTS ABOUT $130 BILLION IN REVENUE NEXT QUARTER, WITH NO CHINA DATA CENTER SALES",
+  "COLETTE KRESS: 'OUR MOMENTUM IS REAL'",
+  "CNN: NVIDIA'S BOARD DOES NOT INTEND TO REINSTATE JENSEN HUANG, CHAIR HARVEY JONES SAID",
+  "BLOOMBERG: MOODY'S LOWERED NVIDIA'S OUTLOOK TO STABLE FROM POSITIVE",
+  "GEMINI 4 NEON HAS A 1 MILLION-TOKEN CONTEXT WINDOW",
+  "GOOGLE: GEMINI 4 NEON IS #1 ON VALS' LEGAL RESEARCH AND TAX AGENT BENCHMARKS",
+  "PALO ALTO NETWORKS SIGNED A $4.5 BILLION DEAL FOR AI STARTUP APPLIED COMPUTE",
+  "REUTERS: THE TRUMP ADMINISTRATION WEIGHS FORCING US FIRMS TO DISCLOSE CHINESE AI USE",
+  "CISA URGED ORGANIZATIONS TO PATCH 'JAVA4SHELL' IMMEDIATELY",
+  "CALIF: JAVA POWERS ABOUT 90% OF FORTUNE 500 COMPANIES",
+  "THE GAO TESTED CHATGPT, CLAUDE, GEMINI AND GROK",
+  "SENATOR MAGGIE HASSAN WANTS HEARINGS ON AI SAFETY",
+  "CALIFORNIA'S DMV CITED TWO WAYMO INCIDENTS NEAR SAN FRANCISCO IN NOVEMBER",
+  "ENGINEAI'S 1.73-METRE T800 HUMANOID LED THE RECORD-SETTING DANCE",
+  "HUMYN LABS WAS FOUNDED IN FEBRUARY; ABOUT 90% OF ITS REVENUE COMES FROM THE US",
+  "THE GUARDIAN: ELTON JOHN BACKED AUSTRALIAN ARTISTS IN THEIR FIGHT AGAINST AI AT THE ARIAS",
+  "THE VERGE: SUNO NOW LETS YOU MAKE AI VIDEOS FOR YOUR AI MUSIC"
+ ],
+ "sources": [
+  "Anthropic",
+  "CNBC",
+  "Reuters",
+  "AP",
+  "Fortune",
+  "NVIDIA",
+  "CNN",
+  "Bloomberg",
+  "Bangkok Post (AFP)",
+  "Google",
+  "Business Insider",
+  "The Record",
+  "Calif",
+  "Decrypt",
+  "The Washington Post",
+  "The Baltimore Sun",
+  "Engadget",
+  "KYMA (CBS)",
+  "The Indian Express",
+  "Yahoo News UK",
+  "TechCrunch",
+  "Mezha",
+  "WSJ",
+  "The Guardian",
+  "The Verge"
+ ],
+ "scanned": 4732,
+ "stories": [
+  {
+   "id": "anthropic-ipo",
+   "title": "Anthropic prices the biggest IPO on record at $83 a share",
+   "summary": "Anthropic priced its IPO at $83 a share, above its $70-$78 range. It raised $81.3 billion, the largest IPO on record per CNBC and Reuters, valuing it at about $1.5 trillion per AP and Fortune. Trading on the Nasdaq is due Thursday as ANT.",
+   "chapter": "THE BIG ONE",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Anthropic",
+     "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+    },
+    {
+     "outlet": "CNBC"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "Anthropic's IPO price values the frontier AI lab at about $1.5 trillion, per AP and Fortune."
+    }
+   ]
+  },
+  {
+   "id": "nvidia-results",
+   "title": "Nvidia's sales more than double as its board rules out Huang's return",
+   "summary": "Nvidia's quarterly revenue rose 103% from a year ago to $115.8 billion, in its first results since Jensen Huang resigned. Board chair Harvey Jones said the board does not intend to reinstate Huang, and interim CEO Colette Kress told investors: 'We've got this.'",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "NVIDIA",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+    },
+    {
+     "outlet": "CNN"
+    },
+    {
+     "outlet": "Fox Business"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gemini-4-neon",
+   "title": "Google launches Gemini 4 Neon, built for real work",
+   "summary": "Google launched Gemini 4 Neon, a model for spreadsheets, documents, charts and research with a 1 million-token context. Google says it tops several benchmarks, including Vending-Bench 2, a simulated business, where it made $16,843.",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    },
+    {
+     "outlet": "VentureBeat"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-china-hopper",
+   "title": "Nvidia stops shipping its Hopper AI chips to China",
+   "summary": "Nvidia has stopped shipping its Hopper data center chips to China despite US approval to sell a version of them there, and its outlook assumes no data center compute revenue from China.",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Bangkok Post (AFP)",
+     "url": "https://www.bangkokpost.com/world/3357070/nvidia-no-longer-shipping-hopper-ai-chips-to-china"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "altman-labrador",
+   "title": "Sam Altman on humans as AI's pets: 'I don't want to be a Labrador'",
+   "summary": "At the DealBook Summit, OpenAI's Sam Altman pushed back on Elon Musk's vision of a superintelligent AI keeping humans as happy pets: 'I don't want to be a Labrador,' he said, as reported by Business Insider.",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Business Insider (via MSN)",
+     "url": "https://www.msn.com/en-au/technology/artificial-intelligence/sam-altman-doesn-t-like-elon-musk-s-vision-of-a-future-where-humans-are-happy-pets-to-ai/ar-AA2hImCt"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "java4shell",
+   "title": "Researchers used AI to find a critical Java flaw in an hour",
+   "summary": "Security firm Calif used AI to find 'Java4Shell', a critical flaw in Java: it took an hour and under $200 of AI time, it says. Oracle has patched it, and the US cyber agency CISA urged immediate updates.",
+   "chapter": "FOUND IN AN HOUR",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "The Record",
+     "url": "https://therecord.media/cisa-issues-java4shell-alert"
+    },
+    {
+     "outlet": "The New York Times"
+    },
+    {
+     "outlet": "BBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gao-chatbot-tests",
+   "title": "Government testers got four top chatbots to help plan terror attacks",
+   "summary": "In covert tests by the Government Accountability Office, ChatGPT, Claude, Gemini and Grok supplied usable information for attack plans in under 12 hours once testers bypassed their safeguards. No attack was carried out; OpenAI and Google said older models were tested.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Decrypt",
+     "url": "https://decrypt.co/383584/chatgpt-claude-gemini-grok-help-plan-terror-attacks-government-tests"
+    },
+    {
+     "outlet": "The Washington Post"
+    },
+    {
+     "outlet": "NBC News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waymo-freeways",
+   "title": "Waymo pulls its robotaxis off US freeways after a California ban",
+   "summary": "California's DMV barred Waymo from operating driverless cars on the state's freeways, citing two incidents near San Francisco, and Waymo paused freeway rides across the US.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "The Baltimore Sun (AP)",
+     "url": "https://www.baltimoresun.com/2026/11/18/waymo-suspends-driverless-freeway-rides-after-california-issues-safety-order/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "BBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "robot-dance-record",
+   "title": "151 humanoid robots dance in sync to a world record in Shenzhen",
+   "summary": "151 robots danced in sync in Shenzhen on Tuesday, a Guinness World Record confirmed by an adjudicator against a target of 110, as the city welcomed world leaders for the APEC summit.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "KYMA (CBS)",
+     "url": "https://kyma.com/news/national-world/2026/11/18/robots-set-record-for-synchronized-dancing/"
+    },
+    {
+     "outlet": "The Indian Express"
+    },
+    {
+     "outlet": "Yahoo News UK"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "humyn-labs",
+   "title": "India's Humyn Labs raises $47 million to film training data for robots",
+   "summary": "Bengaluru's Humyn Labs raised $47 million, backed by Accel and Prosus, to film everyday tasks in more than 20 countries and turn the footage into training data for robotics companies.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Mezha",
+     "url": "https://mezha.net/eng/news/mezha-7910f56b348bc37fcbcc0743_humyn_labs_raises/"
+    },
+    {
+     "outlet": "TechCrunch"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Thursday, November 19."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "Records fell today."
+  },
+  {
+   "s": 16.42,
+   "t": "Anthropic priced its stock market debut at $83 a share, above its range."
+  },
+  {
+   "s": 22.5,
+   "t": "That values the maker of Claude at about $1.5 trillion."
+  },
+  {
+   "s": 31.88,
+   "t": "It raised over $81 billion, the biggest stock market debut on record, beating SpaceX."
+  },
+  {
+   "s": 39.38,
+   "t": "Its boss, Dario Amodei, told investors that done right, AI can create an age of miracles."
+  },
+  {
+   "s": 46.88,
+   "t": "Meanwhile, Nvidia's sales more than doubled in a year, to nearly $116 billion."
+  },
+  {
+   "s": 53.44,
+   "t": "Its board says Jensen Huang isn't coming back, and the interim boss says: we've got this."
+  },
+  {
+   "s": 60.0,
+   "t": "Google launched Gemini 4 Neon, an AI model built for real work, from spreadsheets to legal research."
+  },
+  {
+   "s": 67.5,
+   "t": "In a simulated vending machine business, it made nearly $17,000, the top score, Google says."
+  },
+  {
+   "s": 75.0,
+   "t": "And Nvidia has stopped shipping its powerful Hopper chips to China, even with US approval."
+  },
+  {
+   "s": 82.5,
+   "t": "Sam Altman, on the idea of humans as AI's happy pets: \"I don't want to be a Labrador.\""
+  },
+  {
+   "s": 90.0,
+   "t": "Researchers used AI to find a critical flaw in Java, the code most big companies run on."
+  },
+  {
+   "s": 97.5,
+   "t": "It took one hour and under $200 of AI time. A fix is already out."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch?"
+  },
+  {
+   "s": 105.67,
+   "t": "Government testers got four top chatbots to help plan terror attacks within 12 hours."
+  },
+  {
+   "s": 111.56,
+   "t": "Waymo pulled its robotaxis off US freewa ys after California called them a hazard."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Robots broke a record too. 151 danced in sync in Shenzhen, China."
+  },
+  {
+   "s": 129.38,
+   "t": "The show welcomed world leaders to a big Asia-Pacific summit there."
+  },
+  {
+   "s": 135.94,
+   "t": "And India's Humyn Labs raised $47 million to film everyday tasks, so robots can learn them."
+  },
+  {
+   "s": 142.97,
+   "t": "Records fall every day now. Let's make sure people rise with them."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-19/Singularity-Daily_2026-11-19.mp4",
+  "mb": 72.6,
+  "bytes": 72608074,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
