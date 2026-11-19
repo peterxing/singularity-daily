@@ -1,0 +1,551 @@
+{
+ "date": "2026-11-20",
+ "ep": 47,
+ "hook": "GOING PUBLIC.",
+ "day": "Friday 20 November 2026",
+ "chapters": [
+  "GOING PUBLIC",
+  "THE BIG STAGE",
+  "THE RACE",
+  "THE CURE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:20 AEDT, Fri 20 Nov 2026; Science Corp's raise is from Tue 17 Nov.",
+ "notes": [
+  "Anthropic's shares opened at $111.50 on Thursday 19 Nov (US), 34% above the $83 IPO price, valuing it at about $2 trillion (The Register; Reuters). Moves during the day varied; the closing price wasn't known when this edition was made.",
+  "Dario Amodei's pledge and his father's story are from his Nasdaq opening-bell speech, as reported by TechCrunch.",
+  "President Trump's quotes are from his speech to the APEC leaders' meeting in Shenzhen on 19 Nov, as transcribed by ANI.",
+  "Reported, not confirmed: Nvidia's search firm approaching Arm's Rene Haas (Bloomberg, via The Guardian).",
+  "The Commission called the attack an 'AI-generated cyber campaign'; the tool (ARTEX) and the payroll disruption are per Politico and The Record.",
+  "Meta's figures are from its 2026 sustainability report, as reported by Axios and Mezha.",
+  "Science Corp's $400 million raise was announced on Tue 17 Nov (THIS WEEK); its PRIMA implant restores reading vision in some people blinded by late-stage macular degeneration.",
+  "Screenshots are the publishers' public article pages as captured on 20 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "GOING PUBLIC. 📈\n\nThe last 24h in superintelligence:\n- Anthropic opens 34% up, worth about $2T\n- Its CEO vows to pace AI\n- South Korea's exports pass $1T on AI chips\n- Google books a rocket for AI satellites\n\nWho should get a say?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (20 Nov 2026), hosted by Claudia: Anthropic's Nasdaq debut and its CEO's pledge to pace AI, President Trump calling the US the world leader in superintelligence, South Korea's $1 trillion in exports, Alibaba's own chips, Nvidia's CEO search, ChatGPT's live dictation, Merck and Isomorphic Labs' cancer drug deal, a UK brain-implant centre, an AI-assisted cyberattack on the EU, Meta's emissions, Google's AI satellites, Tesla's wheel-less Model Y and Science Corp's sight-restoring implant, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ANTHROPIC SOLD 980 MILLION SHARES; WITH A $26 BILLION PRIVATE PLACEMENT, IT RAISED $107.3 BILLION IN TOTAL",
+  "CBS NEWS: ANTHROPIC'S 7 CO-FOUNDERS HOLD STAKES WORTH ABOUT $20 BILLION EACH AT THE IPO PRICE",
+  "AMODEI: 'THE MOST DIFFICULT SAFETY WORK LIES AHEAD OF US'",
+  "AMODEI TO CNBC ON COMPUTE SPENDING: 'HISTORICALLY, WE'VE SEEN THAT IT PAYS OFF'",
+  "TRUMP: THE US OPPOSES 'ANY FORM OF GLOBALIST REGULATION OR ANYTHING TO CONTROL OR STIFLE SI'",
+  "SOUTH KOREA JOINS THE US, CHINA AND GERMANY AS A $1 TRILLION-A-YEAR EXPORTER",
+  "ALIBABA CEO EDDIE WU: AFTER 2027, MOST OF ITS NEW AI CHIPS SHOULD BE ITS OWN T-HEAD CHIPS",
+  "ALIBABA'S QUARTERLY REVENUE ROSE 10% TO 271.5 BILLION YUAN ($40.7 BILLION)",
+  "THE GUARDIAN: IAN BUCK, LISA SU AND JOHNY SROUJI ARE ALSO REPORTED NVIDIA CEO CANDIDATES",
+  "OPENAI ALSO LAUNCHED CHATGPT FOR SALES AND CHATGPT FOR ACCOUNTING",
+  "ISOMORPHIC LABS RAISED $5 BILLION THIS WEEK, CO-LED BY GREENOAKS AND SEQUOIA",
+  "POLITICO: CERT-EU FOUND THE ATTACKERS USED ARTEX, AN OPEN-SOURCE AI HACKING PLATFORM",
+  "EU COMMISSION: NO KNOWN RANSOM DEMAND; THE INVESTIGATION REMAINS OPEN",
+  "META HAS CONTRACTED OVER 30 GIGAWATTS OF CLEAN ENERGY; LESS THAN HALF IS GENERATING SO FAR",
+  "CANVA: A SECOND NEW SETTING SHOWS LESS AI-GENERATED CONTENT",
+  "GOOGLE'S FIRST AI SATELLITE FLEW ON A SPACEX FALCON 9 RIDESHARE",
+  "TESLA'S ONLY CAR WITHOUT DRIVER CONTROLS TODAY IS THE TWO-SEAT CYBERCAB",
+  "SCIENCE CORP HAS RAISED MORE THAN $900 MILLION SINCE 2021",
+  "CHOSUN ILBO REPORTS GEMINI SOLVED KOREA'S 2027 CSAT KOREAN AND MATH PAPERS IN ABOUT 20 SECONDS EACH"
+ ],
+ "sources": [
+  "The Register",
+  "Reuters",
+  "Euronews",
+  "CBS News",
+  "TechCrunch",
+  "CNBC",
+  "ANI",
+  "The Times of India",
+  "The Straits Times",
+  "Yonhap",
+  "Global Times",
+  "Bloomberg",
+  "The Guardian",
+  "Nikkei Asia",
+  "AFP (Tech Xplore)",
+  "The Verge",
+  "Digital Trends",
+  "Merck",
+  "Isomorphic Labs",
+  "Business Wire",
+  "BBC",
+  "The Record",
+  "Politico Europe",
+  "Sky News",
+  "Axios",
+  "Mezha",
+  "Meta",
+  "Google",
+  "Blue Origin",
+  "EVXL",
+  "InsideEVs",
+  "Science Corp",
+  "Tech Funding News",
+  "Engadget",
+  "TechRepublic",
+  "Gadgets 360",
+  "The Chosun Ilbo"
+ ],
+ "scanned": 4799,
+ "stories": [
+  {
+   "id": "anthropic-debut",
+   "title": "Anthropic's shares open 34% above their IPO price, valuing it at about $2 trillion",
+   "summary": "Anthropic's shares opened at $111.50 in their Nasdaq debut on 19 November, 34% above the $83 IPO price, valuing the maker of Claude at around $2 trillion, per The Register and Reuters.",
+   "chapter": "GOING PUBLIC",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Euronews"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "A frontier AI lab, Anthropic, was valued at about $2 trillion at its first trade on the Nasdaq."
+    }
+   ]
+  },
+  {
+   "id": "amodei-pace-pledge",
+   "title": "At the opening bell, Dario Amodei pledges to pace AI so it stays under human control",
+   "summary": "In his Nasdaq opening-bell speech, Anthropic's CEO said 'we will pace the training and deployment of AI systems', taking as long as needed to be confident they are safe and stay under human control. He began with his father, who died of a disease that became curable a few years later.",
+   "chapter": "THE BIG STAGE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/"
+    },
+    {
+     "outlet": "CNBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "trump-si-leader",
+   "title": "Trump tells APEC the US leads the world in superintelligence and opposes global rules on it",
+   "summary": "Speaking to the APEC leaders' meeting in Shenzhen, President Trump called the US 'the world leader in superintelligence', said it is 'almost completely good, but it's got some bad elements', and said the US opposes 'any form of globalist regulation' to control or stifle it, per ANI.",
+   "chapter": "THE BIG STAGE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "ANI (Asianet Newsable)",
+     "url": "https://newsable.asianetnews.com/world/trump-opposes-global-superintelligence-regulations-at-apec-meeting-articleshow-rgf0cup"
+    },
+    {
+     "outlet": "The Times of India"
+    },
+    {
+     "outlet": "The Straits Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-6",
+     "key": "3f3dfc17f1",
+     "relation": "challenges",
+     "note": "The US president told APEC leaders the US opposes any form of globalist regulation to control or stifle superintelligence."
+    },
+    {
+     "id": "2029-4",
+     "key": "56b2e5c01c",
+     "relation": "challenges",
+     "note": "The US rejected global rules for superintelligence in front of Asia-Pacific leaders, a setback for a multilateral framework."
+    }
+   ]
+  },
+  {
+   "id": "korea-1-trillion-exports",
+   "title": "South Korea's exports pass $1 trillion this year on the AI chip boom",
+   "summary": "South Korea's exports so far this year exceeded $1 trillion as of 19 November, driven by the AI chip boom, making it the fourth country to reach the milestone after the US, China and Germany.",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202611/1374665.shtml"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Yonhap"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alibaba-own-chips",
+   "title": "Alibaba is training its next Qwen model on its own chips as US curbs tighten",
+   "summary": "Alibaba CEO Eddie Wu said on its earnings call that the company is training the next generation of its flagship Qwen model on its own T-Head chips, and that after 2027 most of its new AI chip supply should be its own.",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/technology/alibaba-trains-next-gen-ai-model-on-own-chips-amid-tighter-us-curbs"
+    },
+    {
+     "outlet": "AFP (Tech Xplore)",
+     "url": "https://techxplore.com/news/2026-11-china-tech-giant-alibaba-domestic.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-haas",
+   "title": "Nvidia's headhunters reportedly approach Arm boss Rene Haas to succeed Jensen Huang",
+   "summary": "Heidrick & Struggles, the search firm hired by Nvidia's board, has reportedly approached Arm CEO Rene Haas, who spent seven years at Nvidia, as it looks for Jensen Huang's successor, according to Bloomberg.",
+   "chapter": "THE RACE",
+   "badge": "REPORTED",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/19/nvidia-new-ceo-search-jensen-huang-arm-rene-haas"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chatgpt-live-dictation",
+   "title": "ChatGPT's Live Dictation now types as you speak, with no 10-minute limit",
+   "summary": "OpenAI updated ChatGPT's Live Dictation so transcribed words appear in real time as you talk, and removed the previous 10-minute recording limit.",
+   "chapter": "THE RACE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+    },
+    {
+     "outlet": "Digital Trends"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "merck-isomorphic",
+   "title": "Merck and Isomorphic Labs team up to design cancer drug candidates with AI",
+   "summary": "Merck and Isomorphic Labs, the AI drug-design company led by Demis Hassabis, announced a research collaboration to discover small-molecule candidates against a cancer target, with Merck running any clinical development. No candidate has been tested in people yet.",
+   "chapter": "THE CURE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Business Wire (via Yahoo Finance)",
+     "url": "https://uk.finance.yahoo.com/news/merck-isomorphic-labs-enter-strategic-114500965.html"
+    },
+    {
+     "outlet": "MarketScreener"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "A major drugmaker signed on to have Isomorphic's AI design cancer drug candidates; none has reached human trials yet."
+    }
+   ]
+  },
+  {
+   "id": "newcastle-brain-implant-centre",
+   "title": "Britain's first brain-implant centre, in Newcastle, gets more than £6m to grow",
+   "summary": "The National Centre for Neurotechnology and Neurorestoration in Newcastle, the UK's first centre dedicated to brain implant technology, secured more than £6m to expand treatments, recruit staff and grow its facilities.",
+   "chapter": "THE CURE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ck7v2evr10yvo"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "eu-commission-ai-cyberattack",
+   "title": "The European Commission confirms an AI-assisted cyberattack hit it last month",
+   "summary": "The European Commission confirmed it was hit by what it called an 'AI-generated cyber campaign', first detected on 22 October. Politico reported the attackers used the open-source AI hacking platform ARTEX, and staff systems such as payroll were reportedly disrupted.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "The Record",
+     "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai"
+    },
+    {
+     "outlet": "Politico Europe"
+    },
+    {
+     "outlet": "Sky News"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meta-emissions",
+   "title": "Meta's emissions jump 45% as it builds for AI; it is re-evaluating its 2030 net-zero goal",
+   "summary": "Meta's 2026 sustainability report shows its emissions rose 45% and its electricity use 35% in a year as it expanded AI infrastructure, and executives said they are 're-evaluating' its 2030 net-zero goal.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Mezha",
+     "url": "https://mezha.net/eng/news/mezha-51767058c5f60540ea0cc762_meta_reconsiders_2030/"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-5",
+     "key": "1e2c8f439a",
+     "relation": "early",
+     "note": "Meta's AI build-out raised its electricity use 35% and pushed it to reconsider its climate goal, and it may use gas plants."
+    }
+   ]
+  },
+  {
+   "id": "google-suncatcher-blue-origin",
+   "title": "Google picks Blue Origin's New Glenn to launch its AI server satellites in early 2029",
+   "summary": "Google and Blue Origin announced that New Glenn will launch Project Suncatcher satellites carrying Google's TPUs into orbit in the first quarter of 2029, with computing capacity at roughly the scale of a data center rack.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
+    },
+    {
+     "outlet": "Google"
+    },
+    {
+     "outlet": "Blue Origin"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-8",
+     "key": "885506950d",
+     "relation": "supports",
+     "note": "Google's next orbital-compute step is a rack-scale launch planned for 2029, so its orbital AI chips stay at demonstrator scale for now."
+    },
+    {
+     "id": "horizon-orbital-compute-to-proto-dyson",
+     "key": "f1cd4d6370",
+     "relation": "early",
+     "note": "Google booked a dedicated heavy-lift launch for satellites carrying a data center rack's worth of AI chips."
+    }
+   ]
+  },
+  {
+   "id": "tesla-model-y-no-wheel",
+   "title": "Musk says Tesla plans a Model Y with no steering wheel or pedals, for six or seven riders",
+   "summary": "At the DealBook Summit, Elon Musk said Tesla plans an autonomous Model Y without a steering wheel or pedals, sized for six or seven people. He gave no date or price.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "EVXL",
+     "url": "https://evxl.co/2026/11/19/tesla-model-y-no-steering-wheel-six-seven-seats-musk/"
+    },
+    {
+     "outlet": "InsideEVs"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "science-corp-prima",
+   "title": "Science Corp raises $400 million for an eye implant that restores reading vision",
+   "summary": "Science Corp, founded by former Neuralink president Max Hodak, raised a $400 million Series D for PRIMA, a tiny implant under the retina that restores reading vision in some people blinded by late-stage macular degeneration and is CE-marked in Europe.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
+    },
+    {
+     "outlet": "Tech Funding News"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A CE-marked retinal implant that restores reading vision raised $400 million to expand in Europe and seek US approval."
+    }
+   ]
+  },
+  {
+   "id": "canva-ai-off",
+   "title": "Canva adds a switch to turn off most of its generative AI",
+   "summary": "Canva now lets users turn off most of its generative AI features in their settings, and a second setting shows less AI-generated content.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
+    },
+    {
+     "outlet": "Engadget"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Friday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in superintelligence, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Anthropic went public today, and its shares opened at $111.50, up 34%."
+  },
+  {
+   "s": 22.5,
+   "t": "At that price, Claude's maker is worth about $2 trillion."
+  },
+  {
+   "s": 31.88,
+   "t": "At the opening bell, its boss Dario Amodei promised to pace AI and keep it under human control."
+  },
+  {
+   "s": 39.38,
+   "t": "He started with his dad, who died of a disease that became curable just a few years later."
+  },
+  {
+   "s": 46.88,
+   "t": "In Shenzhen, President Trump told Asia-Pacific leaders America leads the world in superintelligence."
+  },
+  {
+   "s": 53.44,
+   "t": "His take: \"It's almost completely good, but it's got some bad elements.\""
+  },
+  {
+   "s": 60.0,
+   "t": "South Korea's exports just passed $1 trillion this year, on the back of AI chips."
+  },
+  {
+   "s": 67.5,
+   "t": "Over in China, Alibaba says it's training its next Qwen model on its own chips."
+  },
+  {
+   "s": 75.0,
+   "t": "And Nvidia's headhunters have reportedly approached Arm's boss, Rene Haas, about replacing Jensen Huang."
+  },
+  {
+   "s": 82.5,
+   "t": "Oh, and ChatGPT now types your words as you say them, with no 10-minute limit."
+  },
+  {
+   "s": 90.0,
+   "t": "Merck teamed up with Isomorphic Labs, Demis Hassabis's drug company, to design cancer drug candidates with AI."
+  },
+  {
+   "s": 97.5,
+   "t": "And Britain's first brain implant centre, in Newcastle, just got over £6 million to grow."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? The European Commission says hackers used AI to attack it last month."
+  },
+  {
+   "s": 110.62,
+   "t": "Meta's emissions jumped 45%. Now it's rethinking its climate goal."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Google picked Blue Origin's New Glenn rocket to launch its AI server satellites in early 2029."
+  },
+  {
+   "s": 129.38,
+   "t": "Elon Musk says Tesla plans a Model Y with no steering wheel, for six or seven riders."
+  },
+  {
+   "s": 136.88,
+   "t": "Science Corp raised $400 million for an eye implant that helps some blind people read."
+  },
+  {
+   "s": 143.44,
+   "t": "Superintelligence is going public. So the public should get a say."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-20/Singularity-Daily_2026-11-20.mp4",
+  "mb": 67.1,
+  "bytes": 67136073,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
