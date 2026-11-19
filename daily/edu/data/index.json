@@ -1,13 +1,37 @@
 {
  "show": "Microsoft for Education Daily",
- "updated": "2026-11-18T19:03:22+00:00",
- "latest": "2026-11-19",
+ "updated": "2026-11-19T20:03:18+00:00",
+ "latest": "2026-11-20",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/education",
  "share": "https://peterxing.com/daily/education",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-20",
+   "ep": 25,
+   "hook": "PLAN AHEAD.",
+   "day": "Friday 20 November 2026",
+   "name": "Microsoft for Education Daily",
+   "stories": 9,
+   "edu": 1,
+   "titles": [
+    "Microsoft To Do retires on 30 June 2027, and school accounts move to Planner",
+    "Teams' redesigned meeting controls are rolling out broadly",
+    "The roadmap now shows Study and Learn assignments rolling out"
+   ],
+   "cover": "daily/edu/media/2026-11-20/cover.webp",
+   "thumb": "daily/edu/media/2026-11-20/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/edu/media/2026-11-20/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-20/Microsoft-for-Education-Daily_2026-11-20.mp4",
+    "mb": 55.1,
+    "bytes": 55050577,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-19",
    "ep": 24,
@@ -72,7 +96,7 @@
    "cover": "daily/edu/media/2026-11-17/cover.webp",
    "thumb": "daily/edu/media/2026-11-17/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/edu/media/2026-11-17/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-17/Microsoft-for-Education-Daily_2026-11-17.mp4",
     "mb": 54.7,

@@ -1,0 +1,375 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-20",
+ "ep": 25,
+ "hook": "PLAN AHEAD.",
+ "day": "Friday 20 November 2026",
+ "note": "FOR EDUCATION · FRIDAY 20 NOVEMBER 2026",
+ "tldr": "Microsoft To Do will retire in June 2027 as school accounts move to Planner, Study and Learn assignments are rolling out, and Teams' new meeting controls and Windows' room captions are on their way.",
+ "chapters": [
+  "PLAN AHEAD",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "GET ORGANISED",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 06:08 AEDT, Fri 20 Nov 2026 (Thursday 19 Nov in the US).",
+ "notes": [
+  "To Do's retirement and Planner's new colours come from Microsoft's Planner post of 18 Nov (US time). Study and Learn assignments were covered on 18 Nov: today's news is the roadmap's switch to Rolling out.",
+  "The Windows features are in the optional November preview update (KB5132057), rolling out gradually; Foundry's cost controls are in preview; the hotpatch issue is Microsoft's admin alert as reported by BleepingComputer.",
+  "Screenshots are the publishers' public pages as captured on 20 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "PLAN AHEAD. 🎓\n\nThe last 24h at Microsoft for education:\n- To Do retires 30 June 2027; school accounts move to Planner\n- Study and Learn assignments now rolling out\n- Teams' new meeting controls are rolling out\n- Live captions can caption voices in the room",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (20 Nov 2026): the retirement of Microsoft To Do and the move to Planner, Teams' new meeting controls, Study and Learn assignments rolling out, Windows Live captions and passwordless web sign-in, cost controls in Microsoft Foundry, Planner's colour rules, a Windows hotpatch issue, and Windows Hello and Search updates, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "ROADMAP 577172: ASSIGNING STUDY AND LEARN IN TEAMS AND LMS ASSIGNMENTS IS NOW ROLLING OUT (GA NOVEMBER 2026)",
+  "ROADMAP 577173: A COPILOT STARTER PROMPT IN TEAMS AND LMS ASSIGNMENTS IS ROLLING OUT TOO",
+  "STUDY AND LEARN IN ASSIGNMENTS: STUDENTS 13+ WITH A1, A3 OR A5 AND COPILOT CHAT; IT TURNS IT ON FOR AGES 13-17",
+  "TO DO TASKS ARE ALREADY VISIBLE IN PLANNER, BUT THEY WON'T MOVE INTO THE NEW PRIVATE PLAN",
+  "APPS THAT CONNECT TO TO DO TASKS KEEP WORKING PAST JUNE 2027; MICROSOFT WILL GIVE SEPARATE NOTICE BEFORE THAT ENDS",
+  "PLANNER CAN NOW BE ADDED AS A TAB IN PRIVATE AND SHARED TEAMS CHANNELS",
+  "A REDESIGNED MY TASKS EXPERIENCE IN PLANNER IS DUE TO ROLL OUT SOON",
+  "NARRATOR NOW READS MATHS IN GREEK, HUNGARIAN, INDONESIAN, NORWEGIAN, POLISH, RUSSIAN, SWEDISH AND VIETNAMESE",
+  "WINDOWS POINTER INDICATOR HELPS PEOPLE WITH LOW VISION FIND THE MOUSE: WINDOWS + CTRL + SHIFT + X",
+  "MAGNIFIER ADDS A HELP MENU AND A SETTING FOR ITS WINDOWS + PLUS SHORTCUT",
+  "FILE EXPLORER'S 'THIS PC' SEARCH IS NOW INDEXER-BASED AND MUCH FASTER",
+  "THE NEW WINDOWS SEARCH STARTS IN ENGLISH AND COPES BETTER WITH TYPOS AND SYNONYMS",
+  "ON PCS WITH AN NFC READER IN THE DISPLAY, WINDOWS NOW SHOWS WHERE TO TAP YOUR SECURITY KEY",
+  "FOUNDRY'S COST, FLEET AND OPERATIONS VIEWS ARE IN PREVIEW",
+  "FOUNDRY PROMPT CACHING: CACHED INPUT COSTS A TENTH AS MUCH FOR GPT-6 SOL AT DATA ZONE LIST PRICES",
+  "EXTERNAL AGENTS IN MICROSOFT FOUNDRY ARE NOW GENERALLY AVAILABLE",
+  "GEMINI 4 NEON IS IN GITHUB COPILOT FOR PRO+, MAX, BUSINESS AND ENTERPRISE",
+  "AZURE DATABASE FOR POSTGRESQL: A DATABASE AGENT IS IN PUBLIC PREVIEW",
+  "AZURE FRONT DOOR PREMIUM WAF: AN AI BOT RULESET IS IN PUBLIC PREVIEW",
+  "GITHUB CLI CAN NOW WAIT FOR PULL REQUEST EVENTS",
+  "ON THE ROADMAP: TEAMS FACILITATOR ON MOBILE TAKES NOTES WITH SPEAKER ATTRIBUTION",
+  "ON THE ROADMAP: TEAMS MEETING ARTIFACTS INHERIT SENSITIVITY LABELS (MICROSOFT PURVIEW)",
+  "ON THE ROADMAP: SPRINTS AND BACKLOGS IN PLANNER'S UNIFIED PLANS",
+  "13 JANUARY 2027: WINDOWS 10 ENTERPRISE LTSC 2021 ENDS MAINSTREAM SUPPORT, WINDOWS SERVER 2016 ENDS EXTENDED SUPPORT",
+  "HOTPATCH ISSUE: DEVICES WITH THE STANDARD NOVEMBER PATCH TUESDAY UPDATE AREN'T AFFECTED, MICROSOFT SAYS"
+ ],
+ "sources": [
+  "Microsoft Planner Blog",
+  "Microsoft Support",
+  "The Register",
+  "Microsoft Teams Blog",
+  "Microsoft 365 Roadmap",
+  "Microsoft Education Blog",
+  "Windows message center",
+  "Windows IT Pro Blog",
+  "Microsoft Foundry Blog",
+  "BleepingComputer",
+  "GitHub Changelog",
+  "Azure Updates"
+ ],
+ "scanned": 1910,
+ "stories": [
+  {
+   "id": "todo-retires",
+   "title": "Microsoft To Do retires on 30 June 2027, and school accounts move to Planner",
+   "summary": "The To Do apps on the web, Windows, Mac, iOS and Android retire on 30 June 2027 as Microsoft brings personal task management into Planner. With a work or school account, Planner keeps your own tasks; existing To Do tasks are visible in Planner but won't move into the new private plan, and personal Microsoft accounts will need another app.",
+   "for": "Students and staff who use To Do",
+   "status": "Retiring 30 June 2027",
+   "edu": false,
+   "chapter": "PLAN AHEAD",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Microsoft Planner Blog",
+     "url": "https://techcommunity.microsoft.com/blog/plannerblog/introducing-unified-tasks-and-plans-for-copilot-and-microsoft-365/4573958"
+    },
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/planner/to-do-to-planner"
+    },
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/personal-tech/2026/11/19/microsoft-to-do-will-soon-become-microsoft-done/5310973"
+    }
+   ]
+  },
+  {
+   "id": "teams-controls",
+   "title": "Teams' redesigned meeting controls are rolling out broadly",
+   "summary": "The new meeting toolbar lets people pin, unpin and rearrange controls, keeps frequently needed actions within reach and sets Leave apart from common controls. A teacher could keep Record or Raise hand right where they want them (our example).",
+   "for": "Teachers running lessons and staff meetings in Teams",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft Teams Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/the-designs-we-didnt-ship-how-user-feedback-shaped-the-new-teams-meeting-control/4573046"
+    },
+    {
+     "outlet": "Microsoft Adoption",
+     "url": "https://adoption.microsoft.com/en-us/microsoft-teams/new-meeting-controls-experience/"
+    }
+   ]
+  },
+  {
+   "id": "study-learn-rolling",
+   "title": "The roadmap now shows Study and Learn assignments rolling out",
+   "summary": "Roadmap item 577172 moved to Rolling out (GA November 2026): teachers can assign Copilot's Study and Learn from Student AI Guidelines in Teams and LMS assignments, and students get guided help grounded in the assignment. Students need to be 13 or older, with a Microsoft 365 Education A1, A3 or A5 licence and Copilot Chat; IT turns it on for ages 13-17.",
+   "for": "Teachers and students aged 13 and over",
+   "status": "Rolling out (GA November 2026)",
+   "edu": true,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577172"
+    },
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://techcommunity.microsoft.com/t5/education-blog/assign-study-and-learn-or-copilot-from-assignments/ba-p/4572691"
+    }
+   ]
+  },
+  {
+   "id": "live-captions",
+   "title": "Windows Live captions can now caption your microphone, for conversations in the room",
+   "summary": "In Windows 11's November preview update (KB5132057), rolling out gradually, Live captions can caption system audio, microphone audio or both, which makes it easier to caption an in-person conversation. Narrator also reads maths in eight more languages.",
+   "for": "Students who are deaf or hard of hearing, and their classes",
+   "status": "Rolling out (optional preview update)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132057-windows-11-25h2-26h2-update"
+    },
+    {
+     "outlet": "Windows message center",
+     "url": "https://learn.microsoft.com/en-us/windows/release-health/windows-message-center"
+    }
+   ]
+  },
+  {
+   "id": "web-signin-hybrid",
+   "title": "Passwordless web sign-in now reaches Microsoft Entra hybrid joined PCs",
+   "summary": "Web sign-in, previously only for Entra joined devices, now supports Entra hybrid joined devices on Windows 11 Pro and Enterprise: sign in at the lock screen with a passkey on your phone, a FIDO2 security key or a Temporary Access Pass, and on-premises file shares keep working. It's in the November preview update, rolling out gradually.",
+   "for": "School IT running shared PCs",
+   "status": "Rolling out (optional preview update)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Windows IT Pro Blog",
+     "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/expand-passwordless-access-with-confidence/4572666"
+    },
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132057-windows-11-25h2-26h2-update"
+    }
+   ]
+  },
+  {
+   "id": "foundry-cost-controls",
+   "title": "Microsoft Foundry's cost controls put a budget on AI projects and agents",
+   "summary": "In preview: a cost control is a budget in US dollars or tokens for a Foundry resource, project, model deployment, agent or hosted agent session, and at a threshold it sends an alert or blocks new requests until the next reset. Cost, Fleet and Operations views, also in preview, show token spend by project, agent and model.",
+   "for": "University IT and research teams building agents",
+   "status": "Preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/finops-in-microsoft-foundry-see-your-token-spend-hit-your-quality-bar-for-less-a/4570010"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/azure/foundry/concepts/cost-controls"
+    }
+   ]
+  },
+  {
+   "id": "planner-colours",
+   "title": "Planner adds colour rules, bucket colours and task history",
+   "summary": "In Planner's unified plans, conditional colouring (rolling out, in Grid view) highlights tasks by fields such as due date, priority or status, like conditional formatting in Excel; buckets can be colour-coded, with 25 colours to pick from; and task history, also rolling out, shows what changed and when. Custom views and task hierarchy are still to come.",
+   "for": "Students and teachers running group projects",
+   "status": "Rolling out",
+   "edu": false,
+   "chapter": "GET ORGANISED",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Microsoft Planner Blog",
+     "url": "https://techcommunity.microsoft.com/blog/plannerblog/introducing-unified-tasks-and-plans-for-copilot-and-microsoft-365/4573958"
+    },
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/planner/use-conditional-colors-unified-plans"
+    }
+   ]
+  },
+  {
+   "id": "hotpatch-issue",
+   "title": "November's Windows 11 hotpatch can stop some apps installing or opening",
+   "summary": "Microsoft says devices with the November 2026 hotpatch (Windows 11 24H2 and later) might hit errors such as 0xC0000099 when installing, launching or running some apps; the standard Patch Tuesday update isn't affected. Until a fix, back up the registry, set HotPatchTableSize to 2000 and restart. No December 2026 non-security preview update is planned.",
+   "for": "School IT",
+   "status": "Known issue; workaround available",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/"
+    },
+    {
+     "outlet": "Windows message center",
+     "url": "https://learn.microsoft.com/en-us/windows/release-health/windows-message-center"
+    }
+   ]
+  },
+  {
+   "id": "windows-hello-search",
+   "title": "Windows Hello brightens your screen in the dark, and Windows Search gets a new look",
+   "summary": "Also rolling out gradually in the November preview update: Windows Hello can briefly brighten the screen to recognise your face in a dim room (turn it on in Settings), the new Windows Search can switch on dark mode or Bluetooth from the results and preview files (in English first), and the screen-capture border turns red instead of yellow.",
+   "for": "Students, after the bell",
+   "status": "Rolling out (optional preview update)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132057-windows-11-25h2-26h2-update"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Friday."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours at Microsoft, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Plan ahead. Microsoft's To Do apps retire on June 30, 2027, on every device."
+  },
+  {
+   "s": 22.5,
+   "t": "School accounts move to Planner; personal accounts will need another app."
+  },
+  {
+   "s": 31.88,
+   "t": "Teaching on Teams? Its new meeting controls are rolling out, and you can make them yours."
+  },
+  {
+   "s": 39.38,
+   "t": "Pin Record or Raise hand where you want them, and Leave sits apart from the rest."
+  },
+  {
+   "s": 46.41,
+   "t": "The roadmap now shows Study and Learn assignments rolling out, for students 13 plus."
+  },
+  {
+   "s": 52.5,
+   "t": "On Windows, Live captions can now caption voices in the room, as the update rolls out."
+  },
+  {
+   "s": 60.0,
+   "t": "For school IT, shared PCs on hybrid setups can now sign in with no password at all."
+  },
+  {
+   "s": 67.5,
+   "t": "Use a passkey on your phone or a security key, on Windows 11 Pro and Enterprise."
+  },
+  {
+   "s": 75.0,
+   "t": "Building with AI? Microsoft Foundry's new cost controls, in preview, put a budget on a project or agent."
+  },
+  {
+   "s": 82.5,
+   "t": "Set it in dollars or tokens, then get an alert, or block new requests until it resets."
+  },
+  {
+   "s": 90.0,
+   "t": "For group projects, Planner's colour rules are rolling out: highlight tasks by due date, priority or status."
+  },
+  {
+   "s": 97.5,
+   "t": "Buckets get colours too, and task history, also rolling out, shows what changed and when."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print?"
+  },
+  {
+   "s": 105.91,
+   "t": "Microsoft says November's Windows hotpatch can stop some apps installing or opening."
+  },
+  {
+   "s": 112.5,
+   "t": "There's a registry workaround for now, and no optional Windows preview update this December."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Windows Hello can now brighten your screen to see your face in a dark room."
+  },
+  {
+   "s": 129.38,
+   "t": "And the new Windows Search turns on dark m ode or Bluetooth straight from the results."
+  },
+  {
+   "s": 136.88,
+   "t": "Plus, when something's capturing your screen, its border now turns red, not yellow."
+  },
+  {
+   "s": 143.91,
+   "t": "Tasks, budgets, updates: whatever next year brings, plan ahead."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "Today's board: shipped. Tomorrow's: already building."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of updates. Imagine a whole year."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-20/Microsoft-for-Education-Daily_2026-11-20.mp4",
+  "mb": 55.1,
+  "bytes": 55050577,
+  "seconds": 180.01
+ },
+ "links": {}
+}
