@@ -1,0 +1,558 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-21",
+ "ep": 20,
+ "hook": "SHOW YOUR WORKING.",
+ "day": "Saturday 21 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · SATURDAY 21 NOVEMBER 2026",
+ "tldr": "Show your working: a claimed AI-assisted proof of the Riemann hypothesis, a pig kidney-thymus trial's first transplant, and Tasmania's record-battery electric ferries.",
+ "chapters": [
+  "SHOW YOUR WORKING.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:14 AEDT, Sat 21 Nov 2026.",
+ "notes": [
+  "This week: the Incat ferry batteries (16 Nov), OpenAI's AMD chip results and the NeuroAxis implant (Nature, 18 Nov), and the Alzheimer's stem-cell trial (CTAD, 19 Nov, just before the window).",
+  "Evidence: the Riemann proof is a claim posted as Lean code, not yet peer reviewed; the stem-cell (6 people) and pig-kidney (1 patient) trials are early; the psychedelic study is in mice, NeuroAxis in rats and the hand map in monkeys; OpenAI's chip gains and AYK's 'largest' are company claims; the AI-companion findings are links and the blood-pressure result is a model.",
+  "Screenshots are the publishers' public pages as captured on 21 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SHOW YOUR WORKING. 🧮\n\nToday in transhumanism:\n- Anthropic's Alpöge says he and Claude proved the Riemann hypothesis (unverified)\n- First transplant in a pig kidney-thymus trial\n- In mice, psychedelics cut habit-driven mistakes\n- Tasmania's Incat builds 55 MWh electric ferries",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (21 Nov 2026): an Anthropic mathematician's claimed proof of the Riemann hypothesis with Claude, the first transplant in a pig kidney-thymus trial, OpenAI's AI-assisted chip design for AMD, METR's tests of AI judgement, a Rutgers brain cap with an AI helper, a 3D hand map in monkey brains, stem cells for Alzheimer's, an Alzheimer's blood test, blood pressure pills and falls, exercise after 70, psychedelics and habits in mice, AI companions and loneliness, life after psychedelic therapy, Signal's block on AI agents, a sugar-powered implant, Tasmania's electric ferries and a single atom's flipped nucleus, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "ALPÖGE SAYS HIS METHOD ALSO RESOLVES THE GENERALIZED RIEMANN HYPOTHESIS",
+  "CLAY RULES: A MILLENNIUM PRIZE NEEDS PUBLICATION AND TWO YEARS OF SCRUTINY",
+  "THE RIEMANN HYPOTHESIS WAS FIRST PROPOSED IN 1859",
+  "UNITED THERAPEUTICS PLANS SIX THYMOKIDNEY TRANSPLANTS BEFORE A SAFETY REVIEW",
+  "OPENAI SAYS ITS AI DID ABOUT A YEAR OF CHIP-DESIGN PROGRESS IN UNDER FIVE MONTHS",
+  "METR: OPUS 5.5 REACHED 'BORDERLINE ABOVE THE BAR' AT DESIGNING EVALUATIONS",
+  "RUTGERS' CHATBCI RUNS ITS LANGUAGE MODEL LOCALLY, NOT IN THE CLOUD",
+  "CAS: 36% OF MONKEY MOTOR-CORTEX NEURONS TRACKED WHERE THE HAND WAS",
+  "STEM-CELL ALZHEIMER'S TRIAL: AMYLOID SCANS FELL 23.6% AT 12 WEEKS; NO PLACEBO GROUP",
+  "LUND'S BLOOD TEST HELD UP IN PRIMARY CARE AS WELL AS MEMORY CLINICS",
+  "OXFORD: FRAIL MEN IN THEIR 80S: 47 HEART ATTACKS OR STROKES PREVENTED VS 9 FALLS",
+  "FINLAND: STICKING WITH STRENGTH TRAINING PREDICTED WHO GAINED MOST",
+  "NORWAY: STUDENTS WHO EXERCISED MORE OFTEN WERE LESS LIKELY TO MEET ANXIETY OR DEPRESSION CRITERIA A YEAR LATER",
+  "DURHAM RESEARCHERS SAY AI COMPANIONS SHOULD COMPLEMENT, NOT REPLACE, PEOPLE",
+  "EMORY IS TRACKING PEOPLE WITH POST-PSYCHEDELIC TROUBLES FOR A YEAR",
+  "SIGNAL SAYS IT CAN'T YET BLOCK AI AGENTS ON MACOS",
+  "NEUROAXIS STIMULATES THE VAGUS NERVE FOR 3 MINUTES AFTER 2.5 HOURS OF HIGH SUGAR",
+  "INCAT'S CHINA ZORRILLA, WITH 43 MWH OF BATTERIES, STARTED CARRYING PASSENGERS IN OCTOBER",
+  "DELFT'S TITANIUM-47 NUCLEUS FLIPPED AT ABOUT 50 AND 85 MHZ",
+  "REUTERS: THE FDA HAS SET UP A COUNCIL FOR POST-MARKET REVIEW OF VACCINES AND GENE THERAPIES"
+ ],
+ "sources": [
+  "Scientific American",
+  "The Verge",
+  "Levent Alpöge",
+  "United Therapeutics",
+  "Business Wire",
+  "BioSpace",
+  "OpenAI",
+  "Unite.AI",
+  "Forbes",
+  "Tom's Hardware",
+  "MIT Technology Review",
+  "METR",
+  "Rutgers University",
+  "Newswise",
+  "IEEE Transactions on Biomedical Engineering",
+  "Global Times",
+  "Chinese Academy of Sciences",
+  "Journal of Neuroscience",
+  "The Telegraph",
+  "Yahoo",
+  "Alzheimer's Research UK",
+  "Lund University",
+  "Nature Aging",
+  "Medical Xpress",
+  "University of Oxford",
+  "Nature Communications",
+  "University of Jyväskylä",
+  "European Journal of Applied Physiology",
+  "Boston University",
+  "Science Advances",
+  "Durham University",
+  "Psychology & Marketing",
+  "Phys.org",
+  "NPR",
+  "KAZU",
+  "Signal",
+  "Nature",
+  "xenospectrum",
+  "New Atlas",
+  "AYK Energy",
+  "Maritime Battery Forum",
+  "Incat Tasmania",
+  "TU Delft",
+  "ScienceDaily",
+  "Reuters"
+ ],
+ "scanned": 1675,
+ "stories": [
+  {
+   "id": "riemann",
+   "title": "An Anthropic mathematician says he and Claude proved the Riemann hypothesis, maths' most famous problem",
+   "summary": "Levent Alpöge posted a note and Lean code (a language that checks every step) claiming a proof of the 1859 Riemann hypothesis, a $1 million Millennium Prize problem, and its generalised form. MIT's Andrew Sutherland compiled it and called it historic, but it isn't peer reviewed; the Clay prize needs publication and two years of scrutiny.",
+   "pillar": "intelligence",
+   "evidence": "A claim posted as Lean code; not yet peer reviewed",
+   "chapter": "SHOW YOUR WORKING.",
+   "badge": "PREPRINT",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An Anthropic mathematician says Claude helped him prove the 167-year-old Riemann hypothesis; the proof, posted as Lean code, is not yet verified."
+    }
+   ]
+  },
+  {
+   "id": "thymokidney",
+   "title": "New York surgeons did the first transplant in a trial of gene-edited pig kidneys with built-in thymus tissue",
+   "summary": "United Therapeutics' EXTEND trial is the first clinical trial of a pig 'thymokidney': a kidney from a pig with one gene edit, carrying pig thymus tissue meant to teach the recipient's immune system to accept it. The first transplant was at NYU Langone; six patients come first, then an independent safety review. No outcome data yet.",
+   "pillar": "longevity",
+   "evidence": "Early trial; first patient, no results yet",
+   "chapter": "SHOW YOUR WORKING.",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "United Therapeutics (BioSpace)",
+     "url": "https://www.biospace.com/press-releases/united-therapeutics-corporation-announces-first-transplant-in-extend-clinical-trial-of-uthymokidney-in-patients-with-end-stage-renal-disease"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amd",
+   "title": "OpenAI says its models improved parts of AMD's upcoming flagship chip by up to 14%",
+   "summary": "OpenAI says its models rewrote circuit code for AMD flagship GPU designs, gaining up to 14% in power, performance and area on selected blocks, with Synopsys tools checking that every rewrite kept the circuit's behaviour. Some rewrites are in a design sent for manufacturing; OpenAI calls it a year of progress in under five months.",
+   "pillar": "intelligence",
+   "evidence": "Company claim",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-reports-model-driven-gains-in-amd-flagship-chip-designs/"
+    },
+    {
+     "outlet": "Forbes",
+     "url": "https://www.forbes.com/sites/jonmarkman/2026/11/20/openai-says-its-ai-models-improved-amds-flagship-gpu-design-by-up-to-14/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-0",
+     "key": "43b95a548c",
+     "relation": "early",
+     "note": "OpenAI says its models rewrote circuit code for AMD flagship GPU designs, up to 14% better, with some rewrites sent to manufacturing; a company claim."
+    }
+   ]
+  },
+  {
+   "id": "metr",
+   "title": "An independent tester found AI still trails people on judgement calls, like designing useful research tests",
+   "summary": "METR's updated 'time horizon' report adds fuzzy, judgement-heavy tasks that matter for automating AI research. Not one AI-designed evaluation was good enough for METR's own research, and models fell short of people at scoring philosophical arguments; the newest, such as Opus 5.5, reached 'borderline above the bar'. Few such tasks were tested.",
+   "pillar": "intelligence",
+   "evidence": "Independent evaluation; not peer reviewed",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "METR found no AI-designed evaluation good enough for its own research, though the newest models are edging closer on these judgement-heavy research tasks."
+    }
+   ]
+  },
+  {
+   "id": "chatbci",
+   "title": "A Rutgers brain cap with an AI helper built sentences nearly twice as fast, in healthy volunteers",
+   "summary": "Rutgers' ChatBCI-Assist pairs a no-surgery EEG cap with a local language model that suggests words and phrases, so users pick what they mean instead of spelling every letter. Healthy volunteers got sentences across nearly twice as fast as with a standard predictive speller; trials with people with ALS are planned.",
+   "pillar": "intelligence",
+   "evidence": "Lab study in healthy volunteers",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Rutgers University (Newswise)",
+     "url": "https://www.newswise.com/articles/how-rutgers-engineers-made-a-noninvasive-brain-computer-communication-system"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-non-invasive-neural-symbiosis",
+     "key": "04fc97cca9",
+     "relation": "early",
+     "note": "A no-surgery EEG cap with an AI helper let healthy volunteers get sentences across nearly twice as fast; trials with people with ALS are planned."
+    }
+   ]
+  },
+  {
+   "id": "macaque",
+   "title": "In monkeys, Chinese scientists found brain cells that track the hand in 3D, which could simplify implants",
+   "summary": "A Chinese Academy of Sciences team recorded macaques' motor cortex during free 3D reaching and found many neurons tuned to where the hand is. Just the 17.7% of premotor neurons tracking hand position gave 94.1% of the decoding power of all recorded neurons, a shortcut for future brain-computer interfaces. Journal of Neuroscience; in monkeys.",
+   "pillar": "intelligence",
+   "evidence": "In monkeys",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202611/1374669.shtml"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "stemcells",
+   "title": "In a first six-person trial, stem cells put into the brain briefly improved Alzheimer's test scores",
+   "summary": "Neurosurgeon Christopher Duma reported a phase 1 trial at the CTAD conference: patients' own fat-derived stem cells, given through a port under the scalp. Five of six improved on a memory-and-thinking test at 12 weeks and amyloid scans fell 23.6%, but the gains faded over the year and there was no placebo group. A phase 2 trial is cleared.",
+   "pillar": "longevity",
+   "evidence": "Early trial, 6 people, no placebo; conference",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "The Telegraph (Yahoo)",
+     "url": "https://www.yahoo.com/news/science/articles/stem-cells-injected-brain-alzheimer-162318421.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bloodtest",
+   "title": "In Sweden, an approved blood test matched a spinal tap at spotting Alzheimer's changes",
+   "summary": "Lund University researchers found an FDA-approved, CE-marked Alzheimer's blood test was as accurate as the established spinal fluid test, at least 90%, checked against PET scans, using the predefined cutoffs doctors actually use. It held up in a US research group, a Swedish memory clinic and Swedish primary care. Published in Nature Aging.",
+   "pillar": "longevity",
+   "evidence": "Peer-reviewed diagnostic study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-blood-invasive-alzheimer-disease.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bp",
+   "title": "Oxford's model says blood pressure pills prevent about four heart attacks or strokes per serious fall caused",
+   "summary": "Using 5.5 million NHS health records, Oxford researchers estimated that for every 1,000 people treated for 10 years, blood pressure drugs prevent about 8 heart attacks or strokes and cause about 2 serious falls; for frail men in their 80s, 47 vs 9. Some milder side effects were more finely balanced. A modelling study in Nature Communications.",
+   "pillar": "longevity",
+   "evidence": "Modelling study of health records",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-blood-pressure-medication-heart-falls.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "exercise70",
+   "title": "In Finland, a year of exercise training helped nearly half of over-70s on several fronts",
+   "summary": "University of Jyväskylä researchers followed 314 people over 70 through a 12-month exercise programme. On average strength, walking speed and walking endurance improved, and nearly half made meaningful gains across several measures, though responses varied widely; sticking with strength training predicted success. European Journal of Applied Physiology.",
+   "pillar": "longevity",
+   "evidence": "Exercise programme, 314 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-adults-benefited-areas-physical-function.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psychedelics",
+   "title": "In mice, psilocybin or ketamine cut habit-driven mistakes, a clue to how psychedelics help",
+   "summary": "Boston University researchers trained mice to use light cues to find a reward. After psilocybin or ketamine, the mice made fewer mistakes, leaning less on habit and more on the cues that mattered, which may explain part of the drugs' therapeutic effect. Published in Science Advances; a mouse study, not a human result.",
+   "pillar": "wellbeing",
+   "evidence": "In mice",
+   "chapter": "SUPER WELLBEING",
+   "badge": "IN MICE",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-psychedelics-decision.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "companions",
+   "title": "Across five studies, people who found their AI companion attentive and non-judgmental felt less lonely",
+   "summary": "Durham University Business School, with Cardiff and Manchester, ran five studies with 1,447 people in the UK and US. AI companions that felt attentive, non-judgmental and responsive went with more belonging, higher self-esteem and less loneliness. The researchers say companions should complement, not replace, people. Psychology & Marketing; associations.",
+   "pillar": "wellbeing",
+   "evidence": "Associations across five studies",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Phys.org",
+     "url": "https://phys.org/news/2026-11-ai-companions-loneliness.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "npr",
+   "title": "NPR reports some people struggle for months after psychedelic therapy, and trials may miss it",
+   "summary": "NPR heard from trial participants who had anxiety, panic attacks and long recoveries after psychedelic doses, even when their depression lifted. Researchers say serious harms seem rare in trials but are under-reported because people aren't followed long enough; Emory is tracking such cases for a year. NPR says US approval of psilocybin could come next year.",
+   "pillar": "wellbeing",
+   "evidence": "News report: personal accounts and expert views",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "NPR (KAZU)",
+     "url": "https://www.kazu.org/2026-11-19/for-some-patients-psychedelic-treatment-brings-new-troubles-in-its-aftermath"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "signal",
+   "title": "Signal now blocks screenshots on phones to stop built-in AI agents reading private chats",
+   "summary": "Signal is restricting screenshots in its app on iOS 27 and Android so assistants like Siri and Gemini can't read on-screen messages. Users can switch screenshots back on, but Signal warns that exposes their chats; president Meredith Whittaker calls the fix incomplete and asks Apple, Google and Microsoft for tools to limit AI agents' access.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Signal",
+     "url": "https://signal.org/blog/protecting-your-privacy/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "neuroaxis",
+   "title": "An implant that runs on blood sugar brought diabetic rats' levels near normal",
+   "summary": "NeuroAxis uses a glucose fuel cell both to power itself and to sense blood sugar; when sugar stays high for 2.5 hours it stimulates the vagus nerve for three minutes. In type 2 diabetic rats, blood sugar came close to normal within two weeks, with better insulin sensitivity and less inflammation. Published in Nature; in rats, not people.",
+   "pillar": "frontier",
+   "evidence": "In rats",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-high-blood-sugar-powers-experimental.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ferries",
+   "title": "In Tasmania, Incat is building three electric fast ferries with 55 megawatt-hours of batteries each",
+   "summary": "Incat Tasmania is building three 129 m electric catamarans for Denmark's Molslinjen, each carrying 55 MWh of AYK Energy batteries, the largest ever ordered for commercial vessels, AYK says. They're designed to carry up to 1,500 people and 500 cars at up to 40 knots on battery power; the first should enter service in early 2028.",
+   "pillar": "frontier",
+   "evidence": "Contract announcement",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-16",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/transport/ayk-energy-molslinjen-incat-electric-ferry-batteries/"
+    },
+    {
+     "outlet": "Maritime Battery Forum",
+     "url": "https://www.maritimebatteryforum.com/news/energy-storage-manufacturer-ayk-energy-wins-biggest-marine-battery-contractnbsp-in-ferry-history"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "atom",
+   "title": "Delft physicists flipped the magnetic heart of a single atom, in a way theory said shouldn't happen",
+   "summary": "A TU Delft team led by Sander Otte used a scanning tunnelling microscope to flip the nuclear spin of single titanium-47 atoms, an effect their models said the microscope's signals shouldn't cause. Nobody knows yet how it works, but it could lead to single-atom scans and sturdier quantum bits. Published in Nature Communications.",
+   "pillar": "frontier",
+   "evidence": "Peer-reviewed physics experiment",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/physics/physicists-flip-atom-experiment/"
+    },
+    {
+     "outlet": "TU Delft",
+     "url": "https://www.tudelft.nl/en/2026/tnw/delft-researchers-control-the-magnetic-core-of-a-single-atom-against-expectations"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Saturday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in transhumanism in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Show your working!"
+  },
+  {
+   "s": 16.12,
+   "t": "An Anthropic mathematician says he and Claude cracked maths' most famous problem."
+  },
+  {
+   "s": 22.03,
+   "t": "And New York surgeons did the first transplant in a trial of pig kidneys with built-in thymus tissue."
+  },
+  {
+   "s": 31.88,
+   "t": "OpenAI says its models improved parts of AMD's upcoming flagship chip by up to 14%."
+  },
+  {
+   "s": 38.91,
+   "t": "But an independent tester found AI still trails people on judgement calls, like designing useful research tests."
+  },
+  {
+   "s": 45.94,
+   "t": "In healthy volunteers, a Rutgers brain cap with an AI helper built sentences nearly twice as fast."
+  },
+  {
+   "s": 52.97,
+   "t": "And in monkeys, Chinese scientists found brain cells that track the hand in 3D, handy for implants."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. In a first six-person trial, stem cells put into the brain briefly improved Alzheimer's test scores."
+  },
+  {
+   "s": 67.5,
+   "t": "And in Sweden, a blood test matched a spinal tap at spotting Alzheimer's changes, at least 90% accurate."
+  },
+  {
+   "s": 75.0,
+   "t": "Oxford's model says blood pressure pills prevent about four heart attacks or strokes per serious fall caused."
+  },
+  {
+   "s": 82.5,
+   "t": "And in Finland, a year of exercise training helped nearly half of over-70s on several fronts."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. In mice, psilocybin or ketamine cut habit-driven mistakes, a clue to how they help."
+  },
+  {
+   "s": 97.5,
+   "t": "And across five studies, people who found their AI companion attentive and non-judgmental felt less lonely."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. NPR reports some people struggle for months after psychedelic therapy, and trials may miss it."
+  },
+  {
+   "s": 112.5,
+   "t": "And Signal now blocks screenshots on phones, to stop built-in AI agents reading your private chats."
+  },
+  {
+   "s": 121.88,
+   "t": "Out on the frontier, an implant that runs on blood sugar brought diabetic rats' levels near normal."
+  },
+  {
+   "s": 128.91,
+   "t": "In Tasmania, Incat is building three electric fast ferries with 55 megawatt-hours of batteries each."
+  },
+  {
+   "s": 135.94,
+   "t": "And Delft physicists flipped the magnetic heart of a single atom, in a way theory said shouldn't happen."
+  },
+  {
+   "s": 142.5,
+   "t": "An MIT expert re-ran the proof and calls it historic."
+  },
+  {
+   "s": 146.47,
+   "t": "Next, everyone checks. Show your working!"
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-21/The-Transhuman-Daily_2026-11-21.mp4",
+  "mb": 53.6,
+  "bytes": 53623105,
+  "seconds": 180.01
+ },
+ "links": {}
+}
