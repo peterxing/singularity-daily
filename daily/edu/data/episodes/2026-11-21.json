@@ -1,0 +1,398 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-21",
+ "ep": 26,
+ "hook": "USE WHAT YOU HAVE.",
+ "day": "Saturday 21 November 2026",
+ "note": "FOR EDUCATION · SATURDAY 21 NOVEMBER 2026",
+ "tldr": "Wales' Hwb gets a new look with Microsoft 365 still free at home, GitHub Desktop handles more than one account, and new Teams releases need iOS or iPadOS 18 from mid-December.",
+ "chapters": [
+  "USE WHAT YOU HAVE",
+  "IN CLASS",
+  "CAMPUS BUILDERS",
+  "QUIET WINS",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Sat 21 Nov 2026 (Friday 20 Nov in the US).",
+ "notes": [
+  "A quiet day for education-specific news: Hwb is the window's education story; the week's other education news (Microsoft Classroom, Study and Learn assignments, Hour of AI) was covered 18-20 Nov. This week: Teams' iOS 17 and iPadOS 17 notice (MC1556088, 17 Nov, as reported by Neowin and XDA), automatic Windows 11 26H2 delivery (18 Nov) and RDMA over USB4 (19 Nov).",
+  "Coming, not shipped: Teams' last-read channels (due February 2027), the notetaker bot list and Edge's idle updates (due January 2027) are roadmap items in development; RDMA over USB4 is a developer preview coming soon to Windows Insiders; Edge's Prompt API is an origin trial; Teams guest-invite reporting is rolling out.",
+  "Screenshots are the publishers' public pages as captured on 21 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "USE WHAT YOU HAVE. 💻\n\nThe last 24h at Microsoft for education:\n- Wales' Hwb gets a new look; Microsoft 365 at home stays free\n- GitHub Desktop: more than one account per host\n- Foundry Managed Compute is generally available\n- Teams needs iOS/iPadOS 18+ from mid-Dec",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (21 Nov 2026): Wales' revamped Hwb platform and free Microsoft 365 at home, Teams channels that open at your last read message, reporting suspicious guest invitations in Teams, more than one account in GitHub Desktop, RDMA over USB4 for linking PCs to run larger AI models, Foundry Managed Compute, Edge's on-device Aion model and Prompt API trial, a Teams list for allowed notetaker bots, Edge updates while idle, the end of Teams support for iOS 17 and iPadOS 17, automatic Windows 11 26H2 updates and next week's Xbox puzzle games, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "HWB: MORE THAN 1,450 SCHOOLS AND 122,000 FAMILIES IN WALES USE THE PLATFORM",
+  "HWB'S NEW LOOK: CLEARER NAVIGATION AND A MORE PERSONAL EXPERIENCE, IN WELSH AND ENGLISH",
+  "HWB: WORD, POWERPOINT, EXCEL AND TEAMS AT NO COST ON LEARNERS' AND TEACHERS' PERSONAL DEVICES",
+  "TEAMS ON IOS 17 AND IPADOS 17: INSTALLED COPIES KEEP WORKING, WITH NO BLOCK ON OPENING OR SIGNING IN",
+  "TEAMS ADMINS: UPDATE MDM POLICIES THAT STILL REQUIRE IOS 17 OR IPADOS 17",
+  "ON THE ROADMAP: TEAMS VOICE PHISHING DETECTION FOR ONE-TO-ONE CALLS WITH OUTSIDERS, DUE DECEMBER",
+  "ON THE ROADMAP: RUN PYTHON AS A STEP IN COPILOT STUDIO WORKFLOWS, DUE NOVEMBER",
+  "ON THE ROADMAP: SHARE COPILOT STUDIO WORKFLOWS WITH CO-OWNERS, DUE DECEMBER",
+  "GITHUB: PIN UP TO 25 FAVOURITE REPOSITORIES ON THE NEW DASHBOARD, SYNCED WITH GITHUB MOBILE",
+  "GITHUB: ENTERPRISE LIVE MIGRATIONS FROM AZURE DEVOPS ARE GENERALLY AVAILABLE",
+  "GITHUB ACTIONS: RED HAT ENTERPRISE LINUX RUNNER IMAGES ARE GENERALLY AVAILABLE",
+  "EDGE: AION INSTRUCT (2.3B PARAMETERS) REPLACES PHI-4-MINI AS THE BUILT-IN MODEL; YOU CAN TURN ON-DEVICE AI OFF",
+  "EDGE: THE DECISIONS API IS IN DEVELOPER PREVIEW IN CANARY AND DEV",
+  "FOUNDRY MANAGED COMPUTE: NVIDIA A100, H100 OR H200, OR AMD MI300X GPUS, WITH US AND EU DATA ZONES",
+  "RDMA OVER USB4: ABOUT 4X LOWER LATENCY THAN ETHERNET OVER THE SAME USB4 LINK, MICROSOFT SAYS",
+  "RDMA OVER USB4: THE NETWORKDIRECT PROVIDER AND THE LLAMA.CPP TESTBED ARE OPEN SOURCE",
+  "AZURE: ZONE RESILIENCE FOR VMS AND POSTGRESQL 19 ARE IN PUBLIC PREVIEW",
+  "AZURE COMPUTE GALLERY: SOFT DELETE IS GENERALLY AVAILABLE",
+  "WINDOWS 11 26H2: ANY ELIGIBLE PC CAN STILL GET IT NOW FROM SETTINGS > WINDOWS UPDATE",
+  "NEXT WEEK ON XBOX ALSO: MANIC MINER, THE PLATFORMING CLASSIC, IS BACK ON NOVEMBER 26"
+ ],
+ "sources": [
+  "Welsh Government",
+  "Microsoft 365 Roadmap",
+  "GitHub Changelog",
+  "Microsoft USB Blog",
+  "Microsoft Foundry Blog",
+  "Microsoft Edge Blog",
+  "Neowin",
+  "XDA",
+  "Windows release health",
+  "BleepingComputer",
+  "Xbox Wire",
+  "Azure Updates",
+  "Guru3D"
+ ],
+ "scanned": 1752,
+ "stories": [
+  {
+   "id": "hwb-wales",
+   "title": "Wales' Hwb platform gets a new look, and Microsoft 365 at home stays free",
+   "summary": "Hwb, Wales' education web platform, has been redesigned with feedback from teachers and learners: clearer navigation, easier access to key services and a more personal experience in Welsh and English. Learners and teachers can still install Microsoft 365 (Word, PowerPoint, Excel and Teams) on personal devices at no cost.",
+   "for": "Learners, teachers and families in Wales",
+   "status": "Live",
+   "edu": true,
+   "chapter": "USE WHAT YOU HAVE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Welsh Government",
+     "url": "https://www.gov.wales/schools-education-web-platform-revamped-free-microsoft-365-access"
+    }
+   ]
+  },
+  {
+   "id": "teams-last-read",
+   "title": "Teams will open busy channels at your last read message",
+   "summary": "Roadmap item 579890, in development: on Teams for desktop and Mac you'll be able to choose to open a channel at your last read message instead of the newest one, so it's easier to catch up on a busy class channel without losing your place. Due February 2027.",
+   "for": "Students and teachers in class channels",
+   "status": "Due February 2027 (in development)",
+   "edu": false,
+   "chapter": "IN CLASS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579890"
+    }
+   ]
+  },
+  {
+   "id": "teams-guest-report",
+   "title": "Report suspicious guest invitations straight from Teams",
+   "summary": "When an unexpected or possibly malicious guest invitation arrives in Teams, people can report it to their IT admin for review, on desktop, Mac and web. The roadmap lists it as rolling out, with general availability due in November 2026.",
+   "for": "Students and staff, with school IT reviewing reports",
+   "status": "Rolling out (GA November 2026)",
+   "edu": false,
+   "chapter": "IN CLASS",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571297"
+    }
+   ]
+  },
+  {
+   "id": "github-desktop-accounts",
+   "title": "GitHub Desktop now signs in to more than one account on the same host",
+   "summary": "GitHub Desktop 3.7.0 lets you add more than one account for GitHub.com, GitHub Enterprise Server or GHE.com, with no fixed limit, and ties each repository to the right account for cloning, publishing and other Git operations. A student could keep a personal and a university account side by side (our example).",
+   "for": "Coding students and teachers",
+   "status": "Available (GitHub Desktop 3.7.0)",
+   "edu": false,
+   "chapter": "IN CLASS",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host"
+    }
+   ]
+  },
+  {
+   "id": "rdma-usb4",
+   "title": "A coming Windows preview links PCs over USB4 to run one bigger AI model",
+   "summary": "RDMA over USB4 lets two or more USB4 PCs, joined by cables, split one AI model and combine their memory and GPUs, with no RDMA network card or switch. In Microsoft's lab, three mini PCs ran a 235-billion-parameter model at about 18.5 tokens a second. The developer preview is coming soon to Windows Insiders; use dedicated test PCs.",
+   "for": "University AI labs and researchers",
+   "status": "Developer preview coming soon",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft USB Blog",
+     "url": "https://techcommunity.microsoft.com/blog/microsoftusbblog/introducing-rdma-over-usb4%C2%AE-on-windows-run-larger-local-ai-models-across-pcs/4574602"
+    },
+    {
+     "outlet": "Guru3D",
+     "url": "https://www.guru3d.com/story/microsoft-previews-usb4-links-that-let-windows-pcs-pool-memory-and-gpu-resources/"
+    }
+   ]
+  },
+  {
+   "id": "foundry-managed-compute",
+   "title": "Foundry Managed Compute is generally available for open models",
+   "summary": "Microsoft Foundry's Managed Compute serves 150+ open models on dedicated NVIDIA A100, H100 or H200 or AMD MI300X GPUs, with Global and US or EU Data Zone deployments. You pick the model and pay hourly per GPU; Microsoft provisions the GPUs and runs the serving software.",
+   "for": "University research and IT teams",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://devblogs.microsoft.com/foundry/managed-compute-ga/"
+    }
+   ]
+  },
+  {
+   "id": "edge-aion-prompt-api",
+   "title": "Web developers can now try Edge's built-in AI model, Aion, on live sites",
+   "summary": "Aion Instruct, a 2.3-billion-parameter open-weights model, is now generally available as Edge's built-in small language model, replacing Phi-4-mini, and a Prompt API origin trial lets developers use it on their live sites. A Decisions API is in developer preview, and users can turn on-device AI off in Edge settings.",
+   "for": "Student and campus web developers",
+   "status": "Aion GA; Prompt API origin trial",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft Edge Blog",
+     "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/"
+    }
+   ]
+  },
+  {
+   "id": "teams-bot-allowlist",
+   "title": "Teams will let admins choose which outside notetaker bots join meetings",
+   "summary": "Roadmap item 580451, in development: admins will be able to list the external meeting notetaker bots allowed to join meetings their organisation hosts, and block all others or keep them in the lobby. Allowed bots are treated like any external participant. Due January 2027.",
+   "for": "School and university IT",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "QUIET WINS",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580451"
+    }
+   ]
+  },
+  {
+   "id": "edge-idle-updates",
+   "title": "Edge will install pending updates while the browser is idle",
+   "summary": "Roadmap item 581801, in development: Microsoft Edge applies pending updates when the browser is idle, and the Relaunch Notification policy lets IT manage those idle restarts. Due January 2027.",
+   "for": "School IT managing shared devices",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "QUIET WINS",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581801"
+    }
+   ]
+  },
+  {
+   "id": "teams-ios17",
+   "title": "New Teams releases will need iOS or iPadOS 18 from mid-December",
+   "summary": "Microsoft told admins (MC1556088) that Teams support for iOS 17 and iPadOS 17 ends from mid-December 2026, completing in early January 2027. Copies already installed keep working, with no block on opening or signing in, but newer releases need iOS or iPadOS 18 or later. Admins should find devices on 17 and update MDM minimum-OS policies.",
+   "for": "School IT with older iPads and iPhones",
+   "status": "From mid-December 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Neowin",
+     "url": "https://www.neowin.net/news/microsoft-teams-is-dropping-support-for-ios-17/"
+    }
+   ]
+  },
+  {
+   "id": "win11-26h2-auto",
+   "title": "Windows 11 26H2 now installs automatically on PCs that IT doesn't manage",
+   "summary": "Since 18 November, Microsoft has been gradually expanding automatic delivery of Windows 11 version 26H2 to PCs on 24H2 and 25H2 that aren't managed by an IT department, such as students' and staff's own PCs. Anyone eligible can still get it now from Settings > Windows Update.",
+   "for": "Students and staff with their own PCs",
+   "status": "Rolling out gradually",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Windows release health",
+     "url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-26h2"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-next-week",
+   "title": "Next week on Xbox: cozy factories, mirrored cats and slime puzzles",
+   "summary": "Coming to Xbox: Jaden Industries: Cozy Automation Puzzler, a relaxing factory-building puzzle game, on 23 November; Cat Mirror, where you steer two cats with every move mirrored, and Sokobear Goo, with 40 puzzle levels, on 25 November; and Gravity SWITCH, with 50 stages, on 26 November. Release dates are subject to change.",
+   "for": "Students, after the bell",
+   "status": "Out 23-26 November (dates may change)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/20/next-week-on-xbox-new-games-for-november-23-to-27/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Saturday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on everything new from Microsoft."
+  },
+  {
+   "s": 15.0,
+   "t": "Use what you have. In Wales, the schools platform Hwb just got a fresh, simpler look."
+  },
+  {
+   "s": 22.5,
+   "t": "Plus, learners and teachers still get Microsoft 365 free on their own devices."
+  },
+  {
+   "s": 31.88,
+   "t": "In class, Teams will let you open a busy channel at your last read message, due February."
+  },
+  {
+   "s": 39.38,
+   "t": "Odd guest invite?"
+  },
+  {
+   "s": 40.32,
+   "t": "You can now report it to IT straight from Teams, as it rolls out."
+  },
+  {
+   "s": 46.41,
+   "t": "Coding class?"
+  },
+  {
+   "s": 47.25,
+   "t": "GitHub Desktop now signs in to more than one account on the same site."
+  },
+  {
+   "s": 53.91,
+   "t": "Keep personal and uni accounts side by side; each repo knows which to use."
+  },
+  {
+   "s": 60.0,
+   "t": "For university AI labs, a coming Windows preview links PCs with USB4 cables."
+  },
+  {
+   "s": 67.5,
+   "t": "In Microsoft's lab, three mini PCs ran a 235-billion-parameter model together."
+  },
+  {
+   "s": 75.0,
+   "t": "Prefer the cloud? Foundry's Managed Compute, for open models, is now generally available."
+  },
+  {
+   "s": 82.5,
+   "t": "And web developers can now try Edge's built-in AI model, Aion, on a live site."
+  },
+  {
+   "s": 90.0,
+   "t": "For school IT, Teams will let you pick which outside notetaker bots join your meetings, due January."
+  },
+  {
+   "s": 97.5,
+   "t": "And Edge will install waiting updates when the browser's idle, also due January."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? From mid-December, new Teams releases need iOS or iPadOS 18 or later."
+  },
+  {
+   "s": 112.5,
+   "t": "And personal Windows 11 PCs are now getting 26H2 automatically, bit by bit."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, build tiny factories on floating islands in Jaden Industries, out November 23."
+  },
+  {
+   "s": 129.38,
+   "t": "Then Cat Mirror has you steer two cats at once, and every move is mirrored."
+  },
+  {
+   "s": 136.88,
+   "t": "Plus Sokobear Goo, with 40 puzzle levels, and Gravity SWITCH, with 50 stages."
+  },
+  {
+   "s": 143.91,
+   "t": "A home laptop, spare PCs, the accounts you've got: use what you have."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: shipped today, and more on the way."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And it keeps on shipping."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-21/Microsoft-for-Education-Daily_2026-11-21.mp4",
+  "mb": 53.8,
+  "bytes": 53849117,
+  "seconds": 180.01
+ },
+ "links": {}
+}
