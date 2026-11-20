@@ -1,0 +1,556 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-20",
+ "ep": 19,
+ "hook": "BUYING TIME.",
+ "day": "Friday 20 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · FRIDAY 20 NOVEMBER 2026",
+ "tldr": "Buying time: a Sydney team reports a human liver kept alive outside the body for seven weeks, Anthropic went public vowing to pace its AI, and UQ sent a message using gravity.",
+ "chapters": [
+  "BUYING TIME.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 07:39 AEDT, Fri 20 Nov 2026.",
+ "notes": [
+  "This week: the Lembaz approval and the 151-robot dance (17 Nov), Reuters' Muse report and UQ's gravity message (18 Nov); the brain-stimulation paper went online on 18 Nov, just before the window.",
+  "Evidence: the liver record is reported and awaits publication; Actinogen's results are company topline data, a subgroup after a missed goal; Gemini 4 Neon's scores are Google's; the disc protein is in cells and rodents; the exercise review shows links, not proof; the floss and brain-stimulation trials are small.",
+  "Screenshots are the publishers' public pages as captured on 20 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "BUYING TIME. ⏳\n\nToday in transhumanism:\n- Sydney team reports a human liver kept alive outside the body for 7 weeks\n- Anthropic went public, vowing to pace its AI\n- Gentle scalp currents eased mild depression in a small trial\n- UQ sent a message through a wall using gravity",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (20 Nov 2026): a human liver kept alive outside the body for seven weeks in Sydney, the first drug shown to help children with NPC live longer, Anthropic's IPO and pledge to pace AI, Google's Gemini 4 Neon and its fake-internet test bed for agents, the brain's blueprint for spoken words, Actinogen's Alzheimer's pill, genes that shift Alzheimer's onset, a protein that protects spinal discs, exercise versus diet, gentle brain stimulation for low mood, a racing game that calms kids before surgery, a commission on problematic internet use, Meta's Muse privacy mix-ups, a message sent by gravity, 151 dancing robots and smart floss, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "ANTHROPIC PRICED ITS IPO AT $83 A SHARE AND OPENED ABOUT 33% HIGHER",
+  "TECHCRUNCH ESTIMATES ANTHROPIC'S IPO COULD STEER UP TO $156 BILLION TO CHARITY",
+  "AMODEI: 'WE WILL PACE THE TRAINING AND DEPLOYMENT OF AI SYSTEMS'",
+  "THE SYDNEY LIVER TEAM PLANS A TRIAL OF LIVERS KEPT ON PERFUSION FOR FOUR DAYS",
+  "THE PREVIOUS RECORD FOR AN ORGAN OUTSIDE THE BODY WAS A SWISS LIVER: ABOUT TWO WEEKS",
+  "LEMBAZ: MEDIAN SURVIVAL 8.5 YEARS VS 4.9 IN MATCHED CONTROLS; IT CARRIES A HEARING-LOSS WARNING",
+  "GEMINI 4 NEON REPLACES GEMINI 4 ARGON IN THE GEMINI APP",
+  "GOOGLE SAYS MIRROR DIMENSION MAKES 1,000+ TEST ATTACKS PER ENGINEER PER DAY",
+  "UCSF: A SPOT IN WERNICKE'S AREA PLANS EACH WORD ABOUT A QUARTER-SECOND BEFORE WE SAY IT",
+  "XANAMEM: 40% VS 22% OF OVER-75S SHOWED NO PROGRESSION OVER 36 WEEKS",
+  "APOE E2 WAS LINKED TO LATER ALZHEIMER'S ONSET, E4 TO EARLIER",
+  "BACK PAIN IS THE THIRD-BIGGEST CAUSE OF DISABILITY, SAYS UTAH'S ROBBY BOWLES",
+  "REVIEW: 11,000-16,000 STEPS A DAY LINKED TO 45-67% LOWER MORTALITY THAN 2,000-5,000",
+  "BRAIN STIMULATION AT 10 HZ BOOSTED REWARD LEARNING; 5 HZ DIDN'T",
+  "FLINDERS UNIVERSITY'S ZSOLT DEMETROVICS HELPED WRITE THE LANCET PSYCHIATRY COMMISSION",
+  "META SAYS STAFF TEST DIFFERENT VERSIONS OF MUSE THAN THE PUBLIC",
+  "UQ'S GRAVITY LINK SENT 1 BIT PER MINUTE: AN HOUR FOR ONE WORD",
+  "EACH ENGINEAI T800 HUMANOID STANDS 1.73 M TALL AND WEIGHS ABOUT 75 KG",
+  "SMART FLOSS ALSO MEASURES URIC ACID, PH AND HYDROGEN PEROXIDE"
+ ],
+ "sources": [
+  "MIT Technology Review",
+  "US FDA",
+  "NIH",
+  "Medical Xpress",
+  "TechCrunch",
+  "Reuters",
+  "BBC",
+  "Google",
+  "Jagran Josh",
+  "WIRED",
+  "Unite.AI",
+  "Science",
+  "UCSF",
+  "Actinogen Medical",
+  "BiotechDispatch",
+  "GlobeNewswire",
+  "Alzheimer's & Dementia",
+  "Sant Pau Research Institute",
+  "Aging Cell",
+  "University of Utah",
+  "Mayo Clinic Proceedings",
+  "Arizona State University",
+  "Science Translational Medicine",
+  "Chinese Academy of Sciences",
+  "Journal of Clinical Anesthesia",
+  "Yale University",
+  "The Lancet Psychiatry",
+  "Flinders University",
+  "The Irish Times",
+  "University of Queensland",
+  "Science Advances",
+  "The Guardian",
+  "Guinness World Records",
+  "CBS",
+  "KYMA",
+  "EngineAI",
+  "HKUST",
+  "ScienceAlert"
+ ],
+ "scanned": 1753,
+ "stories": [
+  {
+   "id": "liver",
+   "title": "A Sydney team reports keeping a human liver alive outside the body for a record seven weeks",
+   "summary": "Researchers in Sydney say machine perfusion at body temperature kept a human liver alive outside the body for seven weeks; the previous record, set in Switzerland, was about two weeks. Of 55 livers they perfused, those on an automated system lasted about four weeks on average. Reported by MIT Technology Review; the work awaits formal publication.",
+   "pillar": "longevity",
+   "evidence": "Reported; awaits formal publication",
+   "chapter": "BUYING TIME.",
+   "badge": "REPORTED",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lembaz",
+   "title": "The FDA approved Lembaz, the first drug shown to help people with infantile-onset NPC live longer",
+   "summary": "Niemann-Pick disease type C stops cells handling cholesterol and fats, causing dementia-like decline in children. In 36 treated patients compared with a matched external control group, Lembaz (adrabetadex) cut the risk of death by 55%, with median survival of 8.5 vs 4.9 years. Given into the spinal canal every two weeks; it carries a hearing-loss warning.",
+   "pillar": "longevity",
+   "evidence": "Approved by the FDA",
+   "chapter": "BUYING TIME.",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "US FDA",
+     "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-shown-help-patients-infantile-onset-niemann-pick-disease-type-c-live-longer"
+    },
+    {
+     "outlet": "NIH (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-fda-drug-infantile-onset-niemann.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic",
+   "title": "Anthropic, the maker of Claude, went public in the biggest IPO ever and vowed to pace its AI",
+   "summary": "Anthropic began trading on Nasdaq on 19 Nov in the largest IPO in history, raising over $81 billion. At the opening bell, CEO Dario Amodei said it would 'pace the training and deployment of AI systems' until confident they're safe and under human control, and that powerful AI could compress a century of scientific and medical progress into a decade.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/"
+    },
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-2",
+     "key": "101bd5ff4a",
+     "relation": "supports",
+     "note": "A frontier AI lab, Anthropic, was valued at about $2 trillion at its first trade on the Nasdaq."
+    }
+   ]
+  },
+  {
+   "id": "neon",
+   "title": "Google's new Gemini 4 Neon claims top marks on tough science and maths tests",
+   "summary": "Google launched Gemini 4 Neon, a faster mid-tier model that replaces Gemini 4 Argon in the Gemini app. Google says it is best in class on HLE-Diamond (71.3%), RiemannBench (84%) and Terminal-Bench Science (70.5%). Independent testing reported it about twice as fast as Gemini 4 Carbon but with a higher hallucination rate (13.9% vs 11.4%).",
+   "pillar": "intelligence",
+   "evidence": "Company claim",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    },
+    {
+     "outlet": "Jagran Josh",
+     "url": "https://www.jagranjosh.com/general-knowledge/what-is-gemini-4-neon-features-pricing-benchmarks-1820013960-1"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mirror",
+   "title": "Google built a whole fake internet to test its AI browsing agents safely",
+   "summary": "Google's Chrome security team detailed 'Mirror Dimension', an isolated web of thousands of simulated sites, from social media to bank dashboards, built by AI agents. It tests Chrome's auto browse agents against hidden prompt-injection attacks without touching the real web; Chrome says it now makes more than 1,000 test attacks per engineer a day.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/"
+    },
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/chrome-security-builds-a-synthetic-web-to-test-ai-browsing-agents/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "speech",
+   "title": "UCSF found where the brain drafts each word before we say it",
+   "summary": "Edward Chang's lab at UC San Francisco showed that neurons in part of Wernicke's area fire about a quarter-second before a word is spoken, planning its length and syllables. In a person with severe paralysis, the region's activity helped decode attempted words, pointing to a new target for speech brain-computer interfaces. Published in Science.",
+   "pillar": "intelligence",
+   "evidence": "Brain recordings in people (Science)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Science",
+     "url": "https://www.science.org/doi/10.1126/science.aef8963"
+    },
+    {
+     "outlet": "UCSF (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-scientists-brain-blueprint-spoken-words.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "In a person with severe paralysis, activity in a newly mapped speech-planning region helped decode attempted words, a possible new target for speech implants."
+    }
+   ]
+  },
+  {
+   "id": "xanamem",
+   "title": "Sydney's Actinogen says its Alzheimer's pill missed its main goal, though more over-75s held steady",
+   "summary": "In the 247-person XanaMIA trial, Xanamem, a daily pill that curbs cortisol made in tissues, did not slow Alzheimer's significantly overall. In a prespecified group over 75, 40% showed no progression at 36 weeks vs 22% on placebo; a 30% slower decline there wasn't statistically significant. Company topline data, not yet peer reviewed.",
+   "pillar": "longevity",
+   "evidence": "Phase 2b/3 trial, company topline data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "BiotechDispatch",
+     "url": "https://biotechdispatch.com.au/news/actinogens-xanamem-misses-primary-endpoint-in-pivotal-alzheimers-trial-as-company-turns-to-older"
+    },
+    {
+     "outlet": "Actinogen Medical (GlobeNewswire)",
+     "url": "https://finance.yahoo.com/healthcare/articles/actinogen-pivotal-alzheimer-disease-trial-124500793.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "genes",
+   "title": "Other genes can shift when Alzheimer's starts by about a decade in people with Down syndrome",
+   "summary": "A Sant Pau-led study of 1,057 people with an extra copy of the APP gene (957 with Down syndrome, 100 with an APP duplication) found APOE and 77 other risk variants shift the age Alzheimer's begins. Modelled median onset differed by about 10 years between the highest- and lowest-risk profiles. Published in Alzheimer's & Dementia; not an individual forecast.",
+   "pillar": "longevity",
+   "evidence": "Genetic study, 1,057 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Sant Pau (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-genetics-year-difference-onset-alzheimer.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "blst",
+   "title": "Boosting a little-known protein reduced signs of ageing in human spinal disc cells",
+   "summary": "University of Utah researchers found BLST (ZNF865) is lower in older and damaged spinal discs. Restoring it with CRISPR in human disc cells reduced cellular ageing and DNA damage, while lowering it in rodents led to disc degeneration and pain-related behaviour. A lab study in Aging Cell; back pain is a leading cause of disability.",
+   "pillar": "longevity",
+   "evidence": "Cell and rodent study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN CELLS",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "University of Utah (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-protein-spinal-disks-aging.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "exercise",
+   "title": "A review found fitness tracks with a longer life far more strongly than diet does",
+   "summary": "Arizona State University and Kaiser Permanente researchers compared decades of studies in Mayo Clinic Proceedings. The poorest diets were linked to a 3-20% higher risk of death; inactivity and sitting most of the day to 46% to over 163% higher, and fitness seemed to largely offset a poorer diet. A review of observational studies: links, not proof.",
+   "pillar": "longevity",
+   "evidence": "Review of observational studies",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Arizona State University (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-analysis-longevity.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ttis",
+   "title": "Gentle currents from scalp electrodes eased mild depression in a small trial",
+   "summary": "Chinese Academy of Sciences researchers used temporal interference stimulation, which steers currents from scalp electrodes to a deep reward circuit without surgery. In a randomised, sham-controlled trial of 69 people with mild depressive symptoms, three days of 10 Hz stimulation cut depression scores more than sham. In Science Translational Medicine.",
+   "pillar": "wellbeing",
+   "evidence": "Randomised trial, 69 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Science Translational Medicine",
+     "url": "https://www.science.org/doi/10.1126/scitranslmed.adz9823"
+    },
+    {
+     "outlet": "Chinese Academy of Sciences (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-noninvasive-deep-brain-subclinical-depression.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "yale",
+   "title": "Kids who played a racing game as anaesthesia began were calmer before surgery",
+   "summary": "In a Yale randomised trial, children aged 4 to 14 played a Lego Batman racing game on a bedside projector as the anaesthesia mask went on. They had a significantly smaller rise in anxiety before going under than children given usual care, and cooperated better. Published in the Journal of Clinical Anesthesia.",
+   "pillar": "wellbeing",
+   "evidence": "Randomised controlled trial",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Yale (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-video-games-presurgery-anxiety-children.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pui",
+   "title": "A Lancet commission says over one in ten people may have problematic internet use",
+   "summary": "The Lancet Psychiatry Commission, with Flinders University among its authors, estimates problematic internet use, from compulsive social media and gaming to online gambling, may affect over 10% of people. It calls for algorithm transparency, independent audits and limits on design features like infinite scroll and autoplay.",
+   "pillar": "wellbeing",
+   "evidence": "Expert commission report",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "The Irish Times",
+     "url": "https://www.irishtimes.com/health/2026/11/18/problematic-internet-use-should-be-treated-as-a-global-health-concern-researchers-say/"
+    },
+    {
+     "outlet": "Flinders University (Medical Xpress)",
+     "url": "https://medicalxpress.com/news/2026-11-infinite-scroll-autoplay-fueling-global.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "muse",
+   "title": "Reuters reports Meta's AI agent Muse mixed up staff chats and surfaced others' private data",
+   "summary": "According to internal posts reviewed by Reuters, Meta employees testing Muse saw messages, orders and bank balances that weren't theirs, and one got a reminder about a Signal message she says it never had access to. Meta says employee testing is there to surface problems and that staff use different versions than the public.",
+   "pillar": "intelligence",
+   "evidence": "Reported (Reuters)",
+   "chapter": "THE CATCH",
+   "badge": "REPORTED",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gravity",
+   "title": "UQ physicists sent a message through a brick wall using gravity and an old lift",
+   "summary": "University of Queensland physicists moved a 1950s lift's 1.8-tonne counterweight between two floors as binary 0s and 1s, and a gravimeter in a neighbouring bathroom read the word 'Gravity'. At 1 bit a minute it took an hour, but walls can't block the signal; quantum sensors might one day reach about 500 metres. Published in Science Advances.",
+   "pillar": "frontier",
+   "evidence": "Physics experiment (Science Advances)",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "University of Queensland",
+     "url": "https://news.uq.edu.au/2026-11-uq-researchers-send-unblockable-message-using-gravity"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "robots",
+   "title": "151 humanoid robots danced in sync in Shenzhen for a Guinness World Record",
+   "summary": "On 17 Nov, 151 robots completed a synchronised dance in Shenzhen, beating the record target of 110, as confirmed by a Guinness adjudicator. Twenty full-size EngineAI T800 humanoids, 1.73 m tall, led the performance, on the eve of the APEC leaders' meeting in the city.",
+   "pillar": "frontier",
+   "evidence": "Record confirmed by Guinness",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "KYMA (CBS)",
+     "url": "https://kyma.com/news/national-world/2026/11/18/robots-set-record-for-synchronized-dancing/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "floss",
+   "title": "In early tests, a Hong Kong smart floss tracked blood sugar using fluid from around the gums",
+   "summary": "HKUST researchers built a flosser that collects gingival crevicular fluid into a chamber of biosensors, measuring glucose, uric acid, pH and hydrogen peroxide within minutes and sending results to a phone. In small early tests, its glucose and uric acid readings closely tracked blood tests. Published in Science Advances; it still needs work.",
+   "pillar": "frontier",
+   "evidence": "Small early tests",
+   "chapter": "THE FRONTIER",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/scientists-developed-smart-floss-that-uses-gunk-between-your-teeth-to-track-metabolism"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Friday, November 20."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in transhumanism, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Buying time!"
+  },
+  {
+   "s": 15.76,
+   "t": "Sydney researchers report keeping a human liver alive outside the body for a record seven weeks."
+  },
+  {
+   "s": 22.03,
+   "t": "And a newly approved US drug helps kids wi th a rare brain disease live years longer."
+  },
+  {
+   "s": 31.88,
+   "t": "Anthropic, the maker of Claude, went public in the biggest IPO ever, and vowed to pace its AI."
+  },
+  {
+   "s": 38.91,
+   "t": "Google's new Gemini 4 Neon, a faster mid-size model, claims top marks on tough science and maths tests."
+  },
+  {
+   "s": 45.94,
+   "t": "Google also built a whole fake internet to test its web-browsing AI agents against hidden tricks."
+  },
+  {
+   "s": 52.97,
+   "t": "And UCSF found where the brain drafts each word b efore we speak: a new target for speech implants."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. Sydney's Actinogen says its Alzheimer's pill missed overall, but more over-75s held steady."
+  },
+  {
+   "s": 67.5,
+   "t": "In people with Down syndrome, other genes can shift when Alzheimer's starts by about a decade."
+  },
+  {
+   "s": 75.0,
+   "t": "And in human spinal disc cells, boosting one little-known protein cut signs of ageing and DNA damage."
+  },
+  {
+   "s": 82.5,
+   "t": "And a big review found activity and fitness tr ack with a longer life far more than diet does."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. In a small trial, gentle currents from scalp electrodes eased mild depression, no surgery needed."
+  },
+  {
+   "s": 97.5,
+   "t": "And at Yale, kids who played a Lego Batman racing game right before surgery stayed calmer."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 106.02,
+   "t": "A Lancet commission says over one in ten people may have problematic internet use."
+  },
+  {
+   "s": 112.5,
+   "t": "And Reuters reports Meta's AI agent Muse mixed up staff chats, surfacing other people's private data."
+  },
+  {
+   "s": 121.88,
+   "t": "In Brisbane, UQ physicists sent a message through a brick wall using gravity and an old lift."
+  },
+  {
+   "s": 128.91,
+   "t": "In Shenzhen, 151 humanoid robots danced in sync for a Guinness world record."
+  },
+  {
+   "s": 135.94,
+   "t": "And in early tests, a Hong Kong smart floss tracked blood sugar using fluid from around the gums."
+  },
+  {
+   "s": 142.97,
+   "t": "Anthropic's boss thinks AI could fit a century of progress into a decade."
+  },
+  {
+   "s": 147.91,
+   "t": "Until then? Buying time."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Live long. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-20/The-Transhuman-Daily_2026-11-20.mp4",
+  "mb": 54.2,
+  "bytes": 54195380,
+  "seconds": 180.01
+ },
+ "links": {}
+}

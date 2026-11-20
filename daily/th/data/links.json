@@ -1,8 +1,36 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-18T20:25:07+00:00",
- "episodes": 15,
+ "updated": "2026-11-20T00:37:12+00:00",
+ "episodes": 16,
  "links": [
+  {
+   "fid": "2026-2",
+   "key": "101bd5ff4a",
+   "relation": "supports",
+   "note": "A frontier AI lab, Anthropic, was valued at about $2 trillion at its first trade on the Nasdaq.",
+   "ep": 19,
+   "on": "2026-11-20",
+   "date": "2026-11-19",
+   "story": "anthropic",
+   "title": "Anthropic, the maker of Claude, went public in the biggest IPO ever and vowed to pace its AI",
+   "pillar": "intelligence",
+   "outlet": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "In a person with severe paralysis, activity in a newly mapped speech-planning region helped decode attempted words, a possible new target for speech implants.",
+   "ep": 19,
+   "on": "2026-11-20",
+   "date": "2026-11-19",
+   "story": "speech",
+   "title": "UCSF found where the brain drafts each word before we say it",
+   "pillar": "intelligence",
+   "outlet": "Science",
+   "url": "https://www.science.org/doi/10.1126/science.aef8963"
+  },
   {
    "fid": "2027-2",
    "key": "041b303e2d",
