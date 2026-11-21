@@ -472,7 +472,7 @@
     const thisMonth = (state.score.month || (state.index.latest || '').slice(0, 7));
     const inMonth = items.filter(r => (r.on || '').slice(0, 7) === thisMonth).length;
     const last = items[0];
-    $('changesIntro').textContent = `The Guide's odds move only when Peter revises them, and every revision is dated, with its reason. ${inMonth
+    $('changesIntro').textContent = `The Guide's odds move only when Peter revises them, and its dates only when he does or when the daily date review finds verified news that a best guess has clearly moved; every revision is dated, with its reason. ${inMonth
       ? `${inMonth} revision${inMonth === 1 ? '' : 's'} so far this month.`
       : last ? `Nothing revised so far this month; the latest revisions were on ${dayMonthYear(last.on)}.` : 'No revisions recorded yet.'}`;
     const groups = new Map();
