@@ -1,0 +1,522 @@
+{
+ "date": "2026-11-21",
+ "ep": 48,
+ "hook": "THE PROOF IS IN.",
+ "day": "Saturday 21 November 2026",
+ "chapters": [
+  "THE PROOF",
+  "THE CHECK",
+  "THE MONEY",
+  "THE MIND",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 10:30 AEDT, Sat 21 Nov 2026; OpenAI's AMD report is from Wed 18 Nov and the robot dance record from Tue 17 Nov.",
+ "notes": [
+  "Levent Alpöge's claimed proof of the Riemann hypothesis, made with Claude and released as Lean code, had not been peer reviewed when this edition was made. Brian Conrey's quote is from AFP; Andrew Sutherland's is from Scientific American, which reported that a final 'comparator run' check was still pending.",
+  "METR's finding is per The Information and MIT Technology Review; METR says its human time estimates for very long tasks are less reliable, and models still lag on judgment-heavy tasks.",
+  "Market figures are Friday 20 Nov closes, per Reuters.",
+  "OpenAI's AMD figures are from its own report (Wed 18 Nov, THIS WEEK): up to 14% better power, performance and area on AMD GPU circuit designs, not 14% faster chips.",
+  "The Columbia ICU study is as reported by Earth.com: 13 of 41 seemingly unresponsive patients changed the beep.",
+  "Amazon attributes the university hack to suspected China-linked actors; the campaign ran in September and the flaw has since been fixed.",
+  "Reported, not confirmed: Cursor's plans, per a House report reviewed by CNBC.",
+  "Screenshots are the publishers' public article pages as captured on 21 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "THE PROOF IS IN. 🧮\n\nThe last 24h in superintelligence:\n- A claimed Riemann proof, made with Claude\n- MIT: 'approximately zero' chance it's fishy\n- Nasdaq wipes out 2026's gains\n- A Neuralink patient plays GTA VI\n\nWhich surprised you most?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (21 Nov 2026), hosted by Claudia: an Anthropic mathematician's claimed proof of the Riemann hypothesis made with Claude and its independent checks, METR's week-long AI tasks, the Nasdaq's AI sell-off, Mistral's Singapore HQ, OpenAI's chip work for AMD, a brain-computer study in an ICU, a Neuralink patient playing GTA VI, AI agents hacking a university, Signal's screenshot block, Waymo's recalls, John Deere's AI cameras and 151 dancing robots, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ALPÖGE SAYS HE HAS NOT YET MASTERED ALL THE MATHS IN THE PROOF AND PLANS A FULL WRITE-UP",
+  "ALPÖGE SAYS THE METHOD ALSO PROVES THE GENERALIZED RIEMANN HYPOTHESIS",
+  "THE $1 MILLION MILLENNIUM PRIZE NEEDS A PUBLISHED PROOF THAT SURVIVES TWO YEARS OF SCRUTINY",
+  "SCIENTIFIC AMERICAN: A FINAL 'COMPARATOR RUN' CHECK OF THE LEAN PROOF WAS STILL PENDING",
+  "METR: NO MODEL YET DESIGNED AN AI EVALUATION ITS STAFF FOUND USEFUL",
+  "THE S&P 500 AND THE DOW BOTH CONFIRMED CORRECTIONS; THE S&P FELL FOR A 7TH STRAIGHT DAY",
+  "ANTHROPIC'S FIRST DAY CLOSED 17.1% ABOVE ITS $83 IPO PRICE",
+  "COREWEAVE FELL 12.1% AND NEBIUS 16.1% ON FRIDAY",
+  "TRUMP ON JENSEN HUANG: 'WE'RE A COUNTRY OF SECOND CHANCES'",
+  "REUTERS: BIG DRUGMAKERS SAY AI IS SHRINKING DRUG DISCOVERY TIMELINES",
+  "MISTRAL'S SINGAPORE HUB WILL BUILD SOVEREIGN AI FOR GOVERNMENTS, FACTORIES AND ROBOTS",
+  "OPENAI: SOME AI-OPTIMISED CIRCUITS ARE ALREADY IN AN AMD DESIGN SENT FOR MANUFACTURING",
+  "OPENAI LAUNCHED MEDCHEMBENCH, A TEST OF AI ON EARLY DRUG DISCOVERY",
+  "COLUMBIA: 4 OF THE 13 PATIENTS WHO MOVED THE BEEP REGAINED CONSCIOUSNESS BY DISCHARGE, VS 1 OF 28",
+  "NEURALINK'S IMPLANTS ARE STILL INVESTIGATIONAL, NOT FDA-APPROVED",
+  "AMAZON: THE AGENTS RAN ON CAIRN, AN OPEN-SOURCE HACKING FRAMEWORK; THE FLAW IS NOW FIXED",
+  "SIGNAL'S CEO: SCREENSHOT BLOCKING IS ONLY A PARTIAL FIX AGAINST AI AGENTS",
+  "WAYMO PAUSED DRIVERLESS FREEWAY RIDES NATIONWIDE AFTER CALIFORNIA'S BAN",
+  "GOOGLE ROLLED OUT GEMINI 4 NEON THIS WEEK",
+  "THE OLD ROBOT DANCE RECORD WAS 110, SET IN JINAN ON 24 OCTOBER"
+ ],
+ "sources": [
+  "AFP",
+  "Phys.org",
+  "Scientific American",
+  "New Scientist",
+  "The Information",
+  "MIT Technology Review",
+  "Reuters",
+  "The Nightly",
+  "W.Media",
+  "Mistral",
+  "OpenAI",
+  "Wccftech",
+  "Earth.com",
+  "Columbia University",
+  "Neuralink",
+  "Tesla North",
+  "The Register",
+  "Amazon",
+  "Signal",
+  "The Verge",
+  "AgFunderNews",
+  "John Deere",
+  "VnExpress International",
+  "CNBC",
+  "GamesIndustry.biz",
+  "IGN"
+ ],
+ "scanned": 4848,
+ "stories": [
+  {
+   "id": "riemann-claude",
+   "title": "An Anthropic mathematician says he and Claude proved the Riemann hypothesis",
+   "summary": "Levent Alpöge said he believes that, working with Claude, he found a proof of the 1859 Riemann hypothesis, released for now only as Lean code; it is not yet peer reviewed. Expert Brian Conrey called it 'the biggest thing' in mathematics.",
+   "chapter": "THE PROOF",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "AFP (Phys.org)",
+     "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html"
+    },
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+    },
+    {
+     "outlet": "New Scientist",
+     "url": "https://www.newscientist.com/article/2600235-mathematicians-are-amazed-by-holy-grail-proof-of-riemann-hypothesis/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "A claimed AI-assisted proof of a 167-year-old problem is one striking result in one field, not yet a measured speedup of science."
+    }
+   ]
+  },
+  {
+   "id": "riemann-lean-check",
+   "title": "Independent mathematicians re-run the Lean proof of the Riemann hypothesis",
+   "summary": "MIT's Andrew Sutherland and others compiled Alpöge's Lean proof independently without issues; Sutherland put the chance that anything is fishy at 'approximately zero'. A final comparator check was still pending.",
+   "chapter": "THE CHECK",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "metr-work-week",
+   "title": "METR: AI models now finish tasks that take a person about a work week",
+   "summary": "The nonprofit METR said recent models, including GPT-6 Astra, complete tasks that would take a human around a full work week, according to The Information; on judgment-heavy tasks they still lag, and none designed an AI evaluation its staff found useful.",
+   "chapter": "THE CHECK",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+    },
+    {
+     "outlet": "The Information"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "METR finds models handle week-long technical tasks but still can't design useful AI evaluations, a judgment-heavy research step."
+    }
+   ]
+  },
+  {
+   "id": "nasdaq-ai-selloff",
+   "title": "The Nasdaq falls 5% and erases its 2026 gains as Anthropic and Nvidia slide",
+   "summary": "On Friday the Nasdaq fell 5.28% to 22,617.73, wiping out its gains for the year, and the S&P 500 and Dow confirmed corrections. Anthropic fell 9.1% on its second day of trading and Nvidia 13.8%, per Reuters.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Reuters (via The Nightly)",
+     "url": "https://thenightly.com.au/business/wall-street-ends-sharply-lower-on-ai-selloff-as-markets-see-worst-day-since-covid-c-23193504"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mistral-singapore",
+   "title": "Mistral opens its Asia-Pacific headquarters in Singapore",
+   "summary": "Europe's Mistral opened its Asia-Pacific HQ in Singapore as an extended science hub, building sovereign AI for the public sector, high-tech manufacturing and robotics.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "W.Media",
+     "url": "https://w.media/mistral-establishes-asia-pacific-headquarters-in-singapore/"
+    },
+    {
+     "outlet": "Fortune"
+    },
+    {
+     "outlet": "Singapore EDB"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-amd-chip-design",
+   "title": "OpenAI says its models improved AMD's flagship GPU designs by up to 14%",
+   "summary": "OpenAI says its models rewrote AMD circuit code for up to 14% better power, performance and area on its flagship GPU designs, roughly a year of progress in under five months; some changes are in a design sent for manufacturing.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Wccftech",
+     "url": "https://wccftech.com/openai-models-deliver-up-to-14-ppa-gains-on-amd-flagship-gpu-designs-with-some-changes-already-sent-to-manufacturing/"
+    },
+    {
+     "outlet": "OpenAI"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-0",
+     "key": "43b95a548c",
+     "relation": "early",
+     "note": "OpenAI's models optimised AMD GPU circuit designs, with some changes already sent to manufacturing: one company's step, not most of chip R&D."
+    }
+   ]
+  },
+  {
+   "id": "columbia-icu-bci",
+   "title": "A third of seemingly unresponsive ICU patients changed a beep with their brain waves",
+   "summary": "In a Columbia study, 13 of 41 seemingly unresponsive patients sped up a beep by trying to move a hand, read from scalp electrodes by a bedside computer; those 13 were likelier to regain consciousness.",
+   "chapter": "THE MIND",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Earth.com",
+     "url": "https://www.earth.com/science/some-patients-who-appear-unresponsive-can-control-a-computer-with-their-thoughts/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-non-invasive-neural-symbiosis",
+     "key": "04fc97cca9",
+     "relation": "early",
+     "note": "Scalp EEG let some seemingly unresponsive patients control a sound, a small first step toward non-invasive communication."
+    }
+   ]
+  },
+  {
+   "id": "neuralink-gta-vi",
+   "title": "A Neuralink trial participant plays GTA VI with his brain implant",
+   "summary": "Neuralink shared a two-minute video of a trial participant steering a speedboat in GTA VI using only the implant, a day after the game came out; its implants remain investigational.",
+   "chapter": "THE MIND",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Tesla North",
+     "url": "https://teslanorth.com/2026/11/20/neuralink-gta-6-brain-implant/"
+    },
+    {
+     "outlet": "Neuralink"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A participant played a fast 3D game with only an implant: a demo of rich control, not yet bidirectional symbiosis."
+    }
+   ]
+  },
+  {
+   "id": "cairn-agents-university-hack",
+   "title": "Amazon: suspected spies' AI agents found a zero-day and took over a university server",
+   "summary": "Amazon's security chief says suspected China-linked attackers used open-source Cairn AI agents that found a flaw in a medical imaging app on their own and took over a university server, in a September campaign.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
+    },
+    {
+     "outlet": "Amazon"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "signal-blocks-screenshots",
+   "title": "Signal blocks screenshots by default to keep AI assistants out of chats",
+   "summary": "Signal's iOS and Android apps now block Siri, Gemini and other AI agents from taking screenshots of chats by default; its CEO Meredith Whittaker calls it only a partial fix.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Engadget"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waymo-freeway-recalls",
+   "title": "Waymo recalls software on 3,871 robotaxis after California's freeway ban",
+   "summary": "Waymo is issuing two software recalls across its 3,871 robotaxis so they avoid closed highway lanes and follow police directions, after California banned them from freeways.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/transportation/1039153/waymo-issues-recalls-to-fix-its-highway-problems"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "deere-orchard-robotics",
+   "title": "John Deere buys Orchard Robotics and its tractor-mounted AI cameras",
+   "summary": "John Deere acquired Orchard Robotics, whose AI camera systems ride on tractors and capture millions of images in orchards; terms were not disclosed.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "AgFunderNews",
+     "url": "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og"
+    },
+    {
+     "outlet": "GeekWire"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "robot-dance-record",
+   "title": "151 humanoid robots set a dancing world record in Shenzhen",
+   "summary": "On 17 Nov, 151 humanoid robots from makers including EngineAI, Unitree and AgiBot danced in sync in Shenzhen, a Guinness World Record; the previous record was 110.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "VnExpress International",
+     "url": "https://e.vnexpress.net/news/tech/tech-news/151-humanoid-robots-in-china-set-guinness-world-record-with-synchronized-dance-5146907.html"
+    },
+    {
+     "outlet": "heise"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "cursor-chinese-models",
+   "title": "SpaceX-owned Cursor is reportedly considering phasing out Chinese AI models",
+   "summary": "Cursor is considering phasing out Chinese-developed open-weight models over geopolitical risk, according to a House report reviewed by CNBC.",
+   "chapter": "THE MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "CNBC (via MSN)",
+     "url": "https://www.msn.com/en-us/technology/tech-companies/spacex-s-subsidiary-cursor-tells-lawmakers-it-s-considering-phasing-out-chinese-ai-models/ar-AA2hRHDE"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ubisoft-motherbrain",
+   "title": "Ubisoft launches Motherbrain, a generative-AI game studio, as it cuts 166 jobs",
+   "summary": "Ubisoft unveiled Motherbrain, a new subsidiary focused on AI for gameplay, on the same day it cut 166 jobs.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Geeks + Gamers",
+     "url": "https://geeksandgamers.com/ubisoft-launches-generative-ai-studio-motherbrain-as-it-cuts-166-more-jobs/"
+    },
+    {
+     "outlet": "GamesIndustry.biz"
+    },
+    {
+     "outlet": "IGN"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Saturday, November 21, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in superintelligence in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "The proof is in."
+  },
+  {
+   "s": 16.05,
+   "t": "An Anthropic mathematician says he and Claude proved the Riemann hypothesis."
+  },
+  {
+   "s": 21.56,
+   "t": "It's math's most famous open problem, about prime numbers, unsolved since 1859."
+  },
+  {
+   "s": 31.88,
+   "t": "Leading expert Brian Conrey called it \"the biggest thing I think that's ever happened in mathematics.\""
+  },
+  {
+   "s": 39.38,
+   "t": "Here's the clever bit: the proof is written as code, so a computer can check every step."
+  },
+  {
+   "s": 46.88,
+   "t": "MIT's Andrew Sutherland re-ran it: the chan ce anything's fishy is \"approximately zero.\""
+  },
+  {
+   "s": 52.97,
+   "t": "Meanwhile, testers at METR say AI can now finish tasks that take people about a work week."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. The Nasdaq fell 5% on Friday, wiping out its gains for the year."
+  },
+  {
+   "s": 67.5,
+   "t": "Anthropic's brand-new shares slid 9% on day two, and Nvidia almost 14%."
+  },
+  {
+   "s": 75.0,
+   "t": "Over in Singapore, Mistral, Europe's big AI lab, just opened its Asia headquarters."
+  },
+  {
+   "s": 82.5,
+   "t": "Oh, and OpenAI says its models gave AMD a year's worth of chip-design progress in under five months."
+  },
+  {
+   "s": 90.0,
+   "t": "In a New York hospital, a third of seemingly unresponsive patients changed a beep with their brain waves."
+  },
+  {
+   "s": 97.5,
+   "t": "And a day after GTA VI came out, a Neuralink patient played it with his brain implant."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch?"
+  },
+  {
+   "s": 105.67,
+   "t": "Amazon says suspected spies let AI agents hack a university server on their own."
+  },
+  {
+   "s": 111.56,
+   "t": "Signal now blocks screenshots, to keep AI assistants out of your chats."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Waymo's recalling software on nearly 4,000 robotaxis, after California's freeway ban."
+  },
+  {
+   "s": 128.44,
+   "t": "John Deere bought Orchard Robotics, whose AI cameras ride on tractors, scanning orchards tree by tree."
+  },
+  {
+   "s": 135.0,
+   "t": "And this week in Shenzhen, 151 robots danced in sync. World record."
+  },
+  {
+   "s": 141.56,
+   "t": "The proof is in. Now comes the fun part: understanding it."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-21/Singularity-Daily_2026-11-21.mp4",
+  "mb": 70.2,
+  "bytes": 70239077,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
