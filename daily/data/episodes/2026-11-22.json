@@ -318,7 +318,8 @@
    "date": "2026-11-21",
    "sources": [
     {
-     "outlet": "Los Angeles Times"
+     "outlet": "Los Angeles Times",
+     "url": "https://www.latimes.com/california/story/2026-11-21/uc-openai-chatgpt-deal"
     }
    ],
    "predictions": []
@@ -332,7 +333,8 @@
    "date": "2026-11-20",
    "sources": [
     {
-     "outlet": "Reuters"
+     "outlet": "Reuters",
+     "url": "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/"
     }
    ],
    "predictions": []
