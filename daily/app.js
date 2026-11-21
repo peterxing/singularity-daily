@@ -84,11 +84,12 @@
   const verdictOf = p => (state.score.due.find(d => d.id === p.id) || {}).verdict || 'pending';
   const resolve = link => state.byKey.get(link.key) || state.byId.get(link.id);
   const ymLabel = (s, withYear = true) => { const [y, m] = s.split('-').map(Number); return withYear ? `${MONTHS[m - 1]} ${y}` : MONTHS[m - 1]; };
-  const when = p => (p.kind === 'horizon' ? 'Undated' : p.m ? `${MONTHS[p.m - 1]} ${p.year}` : String(p.year));
-  const spread = p => (p.kind === 'dated' && p.band ? `±${p.band} mo` : '');
+  const when = p => (p.kind === 'horizon' ? (p.year ? `~${p.year}` : 'Undated') : p.m ? `${MONTHS[p.m - 1]} ${p.year}` : String(p.year));
+  const spread = p => (p.kind === 'dated' && p.band ? `±${p.band} mo` : p.kind === 'horizon' && p.band ? `±${Math.round(p.band / 12)} yrs` : '');
   const windowText = p => {
     if (!p.win) return String(p.year || '');
     const [a, b] = p.win;
+    if (p.kind === 'horizon') return `${a.slice(0, 4)}–${b.slice(0, 4)}`;
     return `${ymLabel(a, a.slice(0, 4) !== b.slice(0, 4))}–${ymLabel(b)}`;
   };
   const odds = p => (p.kind === 'horizon' ? `${p.cond}% conditional` : `${p.prob}%`);
@@ -450,6 +451,7 @@
   function revChange(r) {
     if (r.kind === 'prob') return { dir: r.to > r.from ? 'up' : 'down', text: `${r.from}% → ${r.to}%` };
     if (r.kind === 'month') return { dir: '', text: `${ymLabel(r.from)} → ${ymLabel(r.to)}` };
+    if (r.kind === 'dated') return { dir: '', text: `Dated: around ${String(r.to).slice(0, 4)}` };
     if (r.kind === 'wording') return { dir: '', text: 'Reworded' };
     if (r.kind === 'added') return { dir: '', text: 'New forecast' };
     if (r.kind === 'removed') return { dir: '', text: 'Retired' };
@@ -536,9 +538,9 @@
     $('scoreboard').replaceChildren(...tiles, h('div', { class: 'domains' }, doms));
     const dated = live.filter(p => p.kind === 'dated'), first = dated.slice().sort((a, b) => order(a) - order(b))[0];
     const eps = state.index.episodes.length, due = state.score.due.length, thEps = thOn() ? state.th.episodes || 0 : 0;
-    $('forecastIntro').textContent = `The Guide's ${dated.length} live dated forecasts, from ${first ? when(first) : 'now'} to 2040, plus ${live.length - dated.length} undated ones beyond superintelligence, each with its best-guess month, its odds and the test it will be judged against. Every morning, each story in ${thEps ? 'the Singularity Daily and the Transhuman Daily' : 'the show'} is checked against them, across ${eps} episode${eps === 1 ? '' : 's'}${thEps ? ` of the Singularity Daily and ${thEps} of the Transhuman Daily` : ''} so far.${due ? ` ${due} more ${due === 1 ? 'has' : 'have'} fallen due and ${due === 1 ? 'is' : 'are'} judged in What it got right or wrong.` : ''}`;
+    $('forecastIntro').textContent = `The Guide's ${dated.length} live dated forecasts, from ${first ? when(first) : 'now'} to 2040, plus ${live.length - dated.length} beyond superintelligence, dated on the condition that aligned superintelligence and their prerequisites arrive first, each with its best-guess date, its odds and, for the dated ones, the test it will be judged against. Every morning, each story in ${thEps ? 'the Singularity Daily and the Transhuman Daily' : 'the show'} is checked against them, across ${eps} episode${eps === 1 ? '' : 's'}${thEps ? ` of the Singularity Daily and ${thEps} of the Transhuman Daily` : ''} so far.${due ? ` ${due} more ${due === 1 ? 'has' : 'have'} fallen due or come true and ${due === 1 ? 'is' : 'are'} judged in What it got right or wrong.` : ''}`;
   }
-  const order = p => (p.kind === 'horizon' ? 1e7 : (p.year * 12 + (p.m || 12)) * 100) + (state.order.get(p.id) || 0);
+  const order = p => (p.kind === 'horizon' ? 1e7 + (p.year ? (p.year * 12 + (p.m || 6)) * 100 : 0) : (p.year * 12 + (p.m || 12)) * 100) + (state.order.get(p.id) || 0);
 
   function renderMoving() {
     const latest = state.index.latest;
@@ -647,14 +649,14 @@
       for (const rel of Object.keys(REL)) sum[rel] += r[rel] || 0;
     }
     const note = beyond
-      ? 'Some futures don\u2019t have a date. These horizons are possibilities to examine, not events with an invented year: each probability assumes aligned superintelligence and every prerequisite listed with it.'
+      ? 'Beyond superintelligence. Each horizon is conditional: its best-guess date says when it could arrive if aligned superintelligence and every prerequisite listed with it arrive first, with a window of several years either side, and its probability assumes the same.'
       : (state.preds.years || {})[k];
     const det = h('details', { class: `yr${beyond ? ' beyond' : ''}`, id: `y-${k}`, 'data-year': k });
     det.open = isOpen;
     det.append(
       h('summary', null,
         h('span', { class: 'y', text: beyond ? 'Beyond' : k }),
-        h('span', { class: 'yc' }, beyond ? `${list.length} undated horizon${list.length === 1 ? '' : 's'}` : `${list.length} live forecast${list.length === 1 ? '' : 's'}`,
+        h('span', { class: 'yc' }, beyond ? `${list.length} conditional horizon${list.length === 1 ? '' : 's'}` : `${list.length} live forecast${list.length === 1 ? '' : 's'}`,
           h('small', { text: withNews ? `${withNews} with news from ${theShows()}` : `No news from ${theShows()} yet` })),
         h('span', { class: 'tally' }, tallyPills(sum))),
       note ? h('p', { class: 'ysum', text: note }) : null,
@@ -686,6 +688,7 @@
     return h('div', { class: 'fc-body' },
       test ? fact('The test', h('p', { text: test.test }), test.stale ? h('p', { class: 'note', text: 'Written for an earlier wording of this forecast; it will be rewritten.' }) : null) : null,
       p.kind === 'dated' ? fact('When', h('p', { text: `Best guess ${LONG_MONTHS[p.m - 1]} ${p.year}${p.band ? `, give or take ${p.band} months (window ${windowText(p)})` : ''}.${p.why ? ` Why then: ${p.why}` : ''}` })) : null,
+      p.kind === 'horizon' && p.year ? fact('When', h('p', { text: `If aligned superintelligence and every prerequisite below arrive first: best guess around ${p.year}${p.band ? `, give or take ${Math.round(p.band / 12)} years (${windowText(p)})` : ''}.${p.why ? ` Why then: ${p.why}` : ''}` })) : null,
       p.deps ? fact('Depends on', list(p.deps)) : null,
       p.signs ? fact('Signs to watch', list(p.signs)) : null,
       p.caveat ? fact('Caveat', h('p', { text: p.caveat })) : null,

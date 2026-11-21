@@ -25,10 +25,13 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   the outlook for a forecast, and one practical implication. It has its own feed, `daily/weekly.xml`.
 - **What it got right or wrong** (`#/scorecard`) — every forecast whose best-guess month has passed, judged against a test
   written before it fell due: **right**, **partly right**, **wrong**, or **not settled yet** while its window is open, with
-  what happened and the sources; the forecasts falling due next with their tests; and **what changed in the forecasts**, a
-  dated log of every revision to the Guide's odds, months and wording with Peter's reasons.
-- **Predictions vs reality** (`#/forecasts`) — the Guide's live forecasts year by year (`#/forecasts/2027`) and the undated
-  horizons beyond the timeline (`#/forecasts/beyond`). Each forecast shows its best-guess month and the Guide's ± band, its
+  what happened and the sources (a forecast that has plainly come true before its month is judged **right** early); the
+  forecasts falling due next with their tests; and **what changed in the forecasts**, a dated log of every revision to the
+  Guide's odds, dates and wording with Peter's reasons.
+- **Predictions vs reality** (`#/forecasts`) — the Guide's live forecasts year by year (`#/forecasts/2027`; a forecast whose
+  best guess the Guide has moved to another year keeps its id and shows in that year) and the horizons beyond the timeline
+  (`#/forecasts/beyond`), each with a conditional best-guess date (since 22 November 2026: when it could arrive if aligned
+  superintelligence and its prerequisites arrive first). Each forecast shows its best-guess month and the Guide's ± band, its
   odds and their history, the test it will be judged against, why the Guide expects it then, and every story that is
   **evidence for** it, an **early sign**, or **evidence against** it. Filters by domain and signal, a "moving now" view, and
   "latest news" and "most news" orderings.

@@ -64,7 +64,7 @@
     state.byKey = new Map((preds.items || []).map(p => [p.key, p]));
   }
   const resolve = l => state.byKey.get(l.key) || state.byId.get(l.id);
-  const when = p => (p.kind === 'horizon' ? 'Undated' : p.m ? `${MONTHS[p.m - 1]} ${p.year}` : String(p.year));
+  const when = p => (p.kind === 'horizon' ? (p.year ? `~${p.year}` : 'Undated') : p.m ? `${MONTHS[p.m - 1]} ${p.year}` : String(p.year));
   const odds = p => (p.kind === 'horizon' ? `${p.cond}% conditional` : `${p.prob}%`);
   const domainName = d => (state.preds && state.preds.domains && state.preds.domains[d]) || d;
   const relPill = (rel, extra) => h('span', { class: `rel ${rel}` }, h('span', { 'aria-hidden': 'true', text: REL[rel].icon }), extra != null ? extra : REL[rel].label);
