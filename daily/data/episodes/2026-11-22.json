@@ -1,0 +1,471 @@
+{
+ "date": "2026-11-22",
+ "ep": 49,
+ "hook": "SHOW YOUR WORK.",
+ "day": "Sunday 22 November 2026",
+ "chapters": [
+  "THE PROOFS",
+  "THE TESTS",
+  "THE HUSTLE",
+  "THE TINY ONE",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:16 AEDT, Sun 22 Nov 2026; the Navier-Stokes proof, Korea's AI exam scores and Oracle's funding note are from Fri 20 Nov, and Zoox's Santa Monica launch from Thu 19 Nov.",
+ "notes": [
+  "Both Riemann claims are unverified: Levent Alpöge's Claude-assisted proof (released as Lean code) and Alessandro Masullo's all-human draft of the Generalized Riemann Hypothesis, posted by Ravi Vakil. Vakil reported that problems in Masullo's draft were flagged with the help of AI models; they had not been resolved when this edition was made.",
+  "The 250,000-page figure is Alpöge's estimate of Claude's proof printed out, as reported by The Decoder.",
+  "The Navier-Stokes proof by Tristan Buckmaster and Levent Alpöge was posted on Fri 20 Nov (THIS WEEK); Scientific American reports that its certificate had not yet been released.",
+  "Korea's 450/450 scores come from one student's API test of AI models on this year's college entrance exam (Aju Press), not an official score.",
+  "The ABC found cheating gear on sale online; experts say it has reached Australian exam halls, but how common it is isn't known.",
+  "Screenshots are the publishers' public article pages as captured on 22 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "SHOW YOUR WORK. ✏️\n\nThe last 24h in superintelligence:\n- An all-human Riemann proof, flagged with AI's help\n- Two AIs score 450/450 on Korea's college exam\n- A $30M LA mansion takes Anthropic shares\n- Killer-robot talks: more talks\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (22 Nov 2026), hosted by Claudia: a rival all-human Riemann proof flagged with AI's help, Claude's 250,000-page proof, a new AI-aided Navier-Stokes proof, two AI models acing Korea's college exam, high-tech exam cheating, Australia on AI shopping agents, a mansion for Anthropic shares, a $1,800 hoodie, ChatGPT on a Super Nintendo, the UN's killer-robot talks, a lifelike training robot and Zoox's robotaxis, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "RAVI VAKIL ON MASULLO'S DRAFT: 'IT IS ALL HUMAN, WITH NO AI'",
+  "STANFORD'S BRIAN CONRAD HAD REVIEWED THE ALL-HUMAN DRAFT FOR MONTHS",
+  "VAKIL: ALL ISSUES MUST BE RESOLVED 'TO THE SATISFACTION OF THE COMMUNITY'",
+  "ALPÖGE RELEASED CLAUDE'S RIEMANN PROOF AS LEAN CODE, IN 14 DATA PACKAGES",
+  "NAVIER-STOKES: BUCKMASTER AND ALPÖGE SAY A CERTIFICATE OF THE RESULT IS COMING",
+  "KOREA'S TOP HOMEGROWN MODEL ON THE EXAM: LG'S K-EXAONE 2.5, WITH 414.7",
+  "SOGANG UNIVERSITY ASKS APPLICANTS TO AVOID CLOTHES WITH BUTTONS",
+  "SOUTH KOREA SENT ALERTS TO EVERY PHONE DURING ITS COLLEGE EXAM TO EXPOSE HIDDEN DEVICES",
+  "MONASH'S PHILLIP DAWSON: ANY LIST OF WHAT AI CAN'T DO IS ON SOME DEVELOPER'S WHITEBOARD",
+  "ANDREW LEIGH: 'WE WANT AUSTRALIANS TO GET THE VERY BEST DEAL IN THE AI AGE'",
+  "THE BRENTWOOD MANSION IS LISTED AT $29,995,000, WITH A 110-FOOT GLASS WALL",
+  "ON EBAY: A CLAUDE TOTE BAG FOR $100, AND A BASEBALL SAID TO BE SIGNED BY DARIO AMODEI FOR $2,099",
+  "ANTHROPIC DOESN'T SELL MERCH, AND WARNS AGAINST BUYING API KEYS FROM THIRD PARTIES",
+  "CHATGPT FOR SNES IS DISTILLED FROM OPENAI'S OPEN-WEIGHT GPT-OSS-120B",
+  "NEARLY 100 NATIONS WANTED BINDING KILLER-ROBOT RULES; THE US, RUSSIA AND ISRAEL OPPOSED",
+  "STOP KILLER ROBOTS CALLED THE NEW UN MANDATE 'WATERED DOWN'",
+  "FACEYBOT REACHES SINGAPORE TRAINEES IN EARLY 2027, FROM $10,000",
+  "ZOOX SAYS IT HAS CARRIED OVER 1 MILLION RIDERS IN SAN FRANCISCO AND LAS VEGAS",
+  "UC'S SYSTEMWIDE OPENAI DEAL GIVES HUNDREDS OF THOUSANDS ACCESS TO CHATGPT",
+  "ORACLE SAYS ITS OPENAI CONTRACT IS FULLY FUNDED",
+  "FORTUNE THIS WEEKEND: 'WELCOME TO THE SINGULARITY'"
+ ],
+ "sources": [
+  "Ravi Vakil",
+  "The Decoder",
+  "Scientific American",
+  "Aju Press",
+  "ABC",
+  "Bloomberg",
+  "The Straits Times",
+  "Business Insider",
+  "The Register",
+  "Al Jazeera",
+  "AFP",
+  "Los Angeles Times",
+  "Reuters"
+ ],
+ "scanned": 4449,
+ "stories": [
+  {
+   "id": "all-human-riemann-rival",
+   "title": "A Stanford professor posts an all-human rival Riemann proof, and AI helps flag problems in it",
+   "summary": "Ravi Vakil, Stanford mathematician and AMS president, posted Alessandro Masullo's draft proof of the Generalized Riemann Hypothesis: 'It is all human, with no AI.' About eight hours later he said people had reported problems in it, identified with the assistance of different AI models.",
+   "chapter": "THE PROOFS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Ravi Vakil's blog",
+     "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
+    },
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "AI models helped mathematicians flag problems in a months-reviewed proof draft within about eight hours of its release."
+    }
+   ]
+  },
+  {
+   "id": "claude-proof-250000-pages",
+   "title": "Claude's claimed Riemann proof would top 250,000 pages if printed",
+   "summary": "Anthropic mathematician Levent Alpöge says Claude's argument would run to over 250,000 printed pages, so he released it only as Lean code a computer can check, in 14 data packages. The claim has not yet been verified.",
+   "chapter": "THE TESTS",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/"
+    },
+    {
+     "outlet": "Scientific American"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "navier-stokes-no-loophole",
+   "title": "NYU and Anthropic mathematicians claim an AI-aided Navier-Stokes proof without OpenAI's loophole",
+   "summary": "Tristan Buckmaster of NYU and Anthropic's Levent Alpöge posted an AI-aided proof that the Navier-Stokes fluid equations can blow up without the 'finely tuned force' in OpenAI's September proof. It is a claim, posted unpolished, and its certificate had not been released.",
+   "chapter": "THE TESTS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/"
+    },
+    {
+     "outlet": "The Next Web"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "A second claimed AI-aided proof on a $1 million Millennium problem in a single week, still awaiting its certificate."
+    }
+   ]
+  },
+  {
+   "id": "korea-exam-ai-450",
+   "title": "Two AI models score a perfect 450 on Korea's college entrance exam in a student's test",
+   "summary": "In tests run by student Gu Yu-gyeom through the models' APIs right after this year's questions were released, OpenAI's GPT-6.2 Astra and Google's Gemini 4 Neon both scored 450 out of 450, according to Aju Press. It is not an official score.",
+   "chapter": "THE TESTS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Aju Press",
+     "url": "https://www.ajupress.com/view/20261121123430977"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-universities-own-pens",
+   "title": "After 100+ cheating cases, Korean universities tighten exam rules and Seoul National hands out its own pens",
+   "summary": "More than 100 cheating cases were found in this year's entrance exam amid concerns over AI and hidden devices. Seoul National University will provide applicants' writing materials, Sogang warned against clothes with buttons and Sungkyunkwan restricted hats and hoodies.",
+   "chapter": "THE TESTS",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Aju Press",
+     "url": "https://www.ajupress.com/view/20261121123430977"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "australia-exam-spy-tech",
+   "title": "Hidden cameras, tiny earpieces and AI: high-tech exam cheating reaches Australia",
+   "summary": "The ABC found tiny wireless earpieces and cameras disguised as buttons, pens, water bottles and car keys on sale online, where a few hundred dollars buys a cheating set-up. Macquarie University's Kane Murdoch says such tools have reached Australian exam halls.",
+   "chapter": "THE HUSTLE",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "ABC",
+     "url": "https://www.abc.net.au/news/2026-11-21/inside-the-new-high-tech-era-of-exam-cheating-australia/107403692"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "leigh-surveillance-pricing",
+   "title": "Australia reviews competition law for AI shopping agents and surveillance pricing",
+   "summary": "Assistant minister Andrew Leigh said the government is checking whether competition laws keep pace as more consumers shop with AI agents: 'We don't want Australians mucked around by surveillance pricing, powered by AI.'",
+   "chapter": "THE HUSTLE",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "The Straits Times (Bloomberg)",
+     "url": "https://www.straitstimes.com/asia/australianz/australia-vows-to-manage-ai-agent-shoppers-surveillance-pricing"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mansion-for-anthropic-shares",
+   "title": "A $30 million LA mansion will take Anthropic or OpenAI shares instead of cash",
+   "summary": "Developer Phillip Braunstein has listed his Brentwood home for $29,995,000 and says he would accept equity in Anthropic or OpenAI as payment.",
+   "chapter": "THE HUSTLE",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-hoodie-ebay",
+   "title": "An 'employees-only' Anthropic hoodie is listed on eBay for $1,800",
+   "summary": "After Anthropic's IPO, eBay sellers listed Anthropic and Claude items, including a hoodie its seller calls employees-only, with a $1,800 buy-now price, and a $100 Claude tote bag. Anthropic doesn't sell merchandise.",
+   "chapter": "THE HUSTLE",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/anthropic-ebay-items-ant-ipo-claude-thinking-cap-tech-fashion-2026-11"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chatgpt-for-snes",
+   "title": "A tiny ChatGPT now runs on a 35-year-old Super Nintendo",
+   "summary": "Tech writer Benj Edwards built ChatGPT for SNES, a 2.2-million-parameter model distilled from OpenAI's GPT-OSS-120b that knows about 8,000 words and often gets things wrong. He designed it; AI coding agents wrote the software.",
+   "chapter": "THE TINY ONE",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "early",
+     "note": "A human set the goals and design while AI agents wrote the code, but it is one hobby project, not production software."
+    }
+   ]
+  },
+  {
+   "id": "un-killer-robot-talks",
+   "title": "UN killer-robot talks end with 128 countries agreeing only to 'elaborate' rules within two years",
+   "summary": "At the Convention on Certain Conventional Weapons in Geneva, 128 countries agreed to elaborate a possible accord on lethal autonomous weapons in the next two years. Nearly 100 nations wanted swift binding rules; the US, Russia and Israel opposed them, and Human Rights Watch said 'the technology is racing ahead'.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "AFP"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-5",
+     "key": "e33f689bfd",
+     "relation": "early",
+     "note": "128 countries agreed to elaborate an accord on autonomous weapons within two years, but key arms producers opposed binding rules."
+    }
+   ]
+  },
+  {
+   "id": "faceybot-singapore",
+   "title": "FaceyBot, a lifelike robot face, will train Singapore care and service staff in tough conversations",
+   "summary": "Straits Interactive is bringing FaceyBot, a silicone-faced robot with more than a dozen major expressions and hundreds of subtler ones, to eldercare and customer-service trainees from early 2027, priced from $10,000.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "url": "https://www.straitstimes.com/tech/reading-a-faint-smile-or-raised-eyebrow-lifelike-robots-to-train-spore-staff-in-tough-conversations"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "zoox-santa-monica",
+   "title": "Zoox's robotaxis with no steering wheel start rolling in Santa Monica",
+   "summary": "Amazon-owned Zoox put its purpose-built robotaxis, with no steering wheel or pedals and seats facing each other, on the road in Santa Monica for employees and their friends and families; a public wait list opens next year.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Los Angeles Times",
+     "url": "https://www.latimes.com/business/story/2026-11-21/zoox-launches-its-first-robotaxi-rides-in-la-county"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uc-openai-deal",
+   "title": "The University of California signs a systemwide OpenAI deal as faculty urge caution",
+   "summary": "The deal gives hundreds of thousands of UC students, faculty and staff access to ChatGPT; faculty leaders said they had asked the administration to move with more caution.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Los Angeles Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "oracle-openai-funded",
+   "title": "Oracle says its OpenAI infrastructure contract is fully funded",
+   "summary": "Oracle said its infrastructure contract with OpenAI is fully funded following a final capital raise earlier this month, according to Reuters.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Sunday, November 22."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in superintelligence, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Show your work. Hours after Claude's claimed Riemann proof, a Stanford professor posted an all-human rival."
+  },
+  {
+   "s": 22.03,
+   "t": "Within about eight hours, people using AI models had flagged problems in it."
+  },
+  {
+   "s": 31.88,
+   "t": "Printed out, the Anthropic mathematician's proof with Claude would top 250,000 pages."
+  },
+  {
+   "s": 39.38,
+   "t": "This week, he and an NYU professor also posted an AI-aided proof about how fluids swirl."
+  },
+  {
+   "s": 46.88,
+   "t": "Over in Korea, two AI models scored a perfect 450 on this year's college entrance exam."
+  },
+  {
+   "s": 53.44,
+   "t": "After more than 100 cheating cases, Seoul National University will hand out its own pens."
+  },
+  {
+   "s": 60.0,
+   "t": "Here in Australia, the ABC found cheating kits online, button cameras and tiny earpieces, for a few hundred dollars."
+  },
+  {
+   "s": 67.5,
+   "t": "Canberra's eyeing AI shopping agents too."
+  },
+  {
+   "s": 69.82,
+   "t": "Andrew Leigh doesn't want Australians mucked around by surveillance pricing."
+  },
+  {
+   "s": 75.0,
+   "t": "Oh, and in LA, a $30 million mansion will take Anthropic or OpenAI shares instead of cash."
+  },
+  {
+   "s": 82.5,
+   "t": "And on eBay, an 'employees-only' Anthropic hoodie is listed at $1,800."
+  },
+  {
+   "s": 90.0,
+   "t": "Meanwhile, a tech writer squeezed a tiny ChatGPT onto a 35-year-old Super Nintendo."
+  },
+  {
+   "s": 97.5,
+   "t": "It knows about 8,000 words, often gets things wrong, and AI agents wrote its code."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? At UN killer-robot talks, 128 countries agreed only to keep talking."
+  },
+  {
+   "s": 112.03,
+   "t": "Human Rights Watch says the technology is racing ahead."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "In Singapore, a robot face with hundreds of expressions will help trainees practise tough conversations."
+  },
+  {
+   "s": 128.44,
+   "t": "Why not a screen?"
+  },
+  {
+   "s": 129.51,
+   "t": "\"A physical face creates real emotional pressure,\" says its Singapore backer."
+  },
+  {
+   "s": 135.0,
+   "t": "And this week in Santa Monica, Zoox robotaxis with no steering wheel started giving staff rides."
+  },
+  {
+   "s": 141.56,
+   "t": "Proofs, exams, robots: the same rule as school. Show your work."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-22/Singularity-Daily_2026-11-22.mp4",
+  "mb": 72.5,
+  "bytes": 72539052,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
