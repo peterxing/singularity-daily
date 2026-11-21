@@ -1,8 +1,50 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-20T20:19:24+00:00",
- "episodes": 17,
+ "updated": "2026-11-21T23:15:08+00:00",
+ "episodes": 18,
  "links": [
+  {
+   "fid": "2037-0",
+   "key": "7413d2bddc",
+   "relation": "early",
+   "note": "The Lean and Mathlib communities certified an Anthropic mathematician's Claude-assisted, 17-million-line Lean proof of the Riemann hypothesis as correct; one result, not a measured speedup.",
+   "ep": 21,
+   "on": "2026-11-22",
+   "date": "2026-11-21",
+   "story": "riemann",
+   "title": "Proof checkers confirm the Riemann proof an Anthropic mathematician wrote with Claude",
+   "pillar": "intelligence",
+   "outlet": "Lean community blog",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+  },
+  {
+   "fid": "2034-5",
+   "key": "e33f689bfd",
+   "relation": "challenges",
+   "note": "UN talks on lethal autonomous weapons ended on 21 Nov without binding rules, only an agreement to keep talking through 2028.",
+   "ep": 21,
+   "on": "2026-11-22",
+   "date": "2026-11-21",
+   "story": "robots",
+   "title": "UN talks on killer robots ended without binding rules; talks run to 2028",
+   "pillar": "intelligence",
+   "outlet": "Gizmodo",
+   "url": "https://gizmodo.com/international-talks-on-autonomous-killer-robots-achieve-historic-deal-to-think-it-over-for-2-more-years-2000843554"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A Neuralink trial participant played GTA 6 by imagining small movements, in a company video with no published latency or accuracy figures.",
+   "ep": 21,
+   "on": "2026-11-22",
+   "date": "2026-11-20",
+   "story": "neuralink",
+   "title": "In a Neuralink video, a paralysed trial participant plays GTA 6 with his brain implant",
+   "pillar": "intelligence",
+   "outlet": "IGN",
+   "url": "https://www.ign.com/articles/neuralink-participant-showcases-what-its-like-to-play-gta-6-with-his-mind"
+  },
   {
    "fid": "2037-0",
    "key": "7413d2bddc",

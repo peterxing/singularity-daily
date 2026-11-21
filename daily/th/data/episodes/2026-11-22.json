@@ -1,0 +1,580 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-22",
+ "ep": 21,
+ "hook": "IT CHECKS OUT.",
+ "day": "Sunday 22 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · SUNDAY 22 NOVEMBER 2026",
+ "tldr": "It checks out: proof checkers confirm the AI-assisted Riemann proof, a Neuralink user plays GTA 6 by thought, and Monash finds rogue ageing immune cells in mice.",
+ "chapters": [
+  "IT CHECKS OUT.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the week's best, mostly the 72 hours to 08:50 AEDT, Sun 22 Nov 2026.",
+ "notes": [
+  "This week: the insula atlas and the PACER trial (19 Nov); Amazon's AI-agent report, Monash's immune map, the fly study, the sleep-and-art study and EPFL's fusion model (20 Nov).",
+  "Evidence: the Riemann proof is machine-checked by the Lean community, not yet peer reviewed; Neuralink's clip and Amazon's report are company accounts; the immune, tumour and wiring studies are in mice and the lifespan result in flies; the meal-timing link is observational; the fusion result is a model; the patch (13 people) and the bacteria computer are early tests.",
+  "Screenshots are the publishers' public pages as captured on 22 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "IT CHECKS OUT. ✅\n\nThe week in transhumanism:\n- Lean's checkers confirm the Claude-assisted Riemann proof\n- A paralysed man plays GTA 6 with a Neuralink implant\n- Monash finds rogue ageing immune cells (in mice)\n- A battery-free sticker shows your pulse in colour",
+  "alt": "A 3-minute video recap of the week's best in transhumanism (22 Nov 2026): the Lean community's check of an AI-assisted Riemann proof, a Neuralink participant playing GTA 6, a test of how brain-like AI really is, faster brain-wiring maps, an atlas of the insula and pain, AI agents finding a software flaw, rogue ageing immune cells in mice, a gut enzyme and lifespan in flies, meal timing and mortality, a tumour-clearing drug pair in mice, online therapy with a peer coach, sleep loss and beauty, the FDA's second rejection of a Duchenne cell therapy, UN talks on killer robots, a battery-free pulse sticker, a fusion heating threshold and a bacteria-powered computer, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "LEAN COMMUNITY: ALPÖGE'S RIEMANN PROOF RUNS TO 17 MILLION LINES OF LEAN CODE",
+  "THE PROOF PASSED LEAN'S KERNEL AND SEVERAL INDEPENDENT PROOF CHECKERS",
+  "CLAY PRIZE RULES: JOURNAL PUBLICATION, THEN TWO YEARS OF SCRUTINY",
+  "NYT: AN ITALIAN MATHEMATICIAN POSTED AN INCOMPLETE, AI-FREE RIEMANN PROOF THE SAME DAY",
+  "NEURALINK: ITS DEVICES ARE INVESTIGATIONAL AND NOT FDA-APPROVED",
+  "NEURALINK'S GTA 6 PLAYER ONCE USED A MOUTH STICK AND AN IPAD",
+  "YORK UNIVERSITY'S 'REVERSE PREDICTIVITY' TOOLKIT IS FREE FOR AI DEVELOPERS",
+  "HARVARD'S IMAGING SPOTTED ELECTRICAL SYNAPSES THAT WIRING MAPS USUALLY MISS",
+  "THE INSULA ATLAS DRAWS ON 15 YEARS OF BRAIN RECORDINGS AT STANFORD",
+  "AMAZON: THE SAME AI AGENTS TRIED 30,000+ PASSWORD COMBINATIONS ELSEWHERE, AND FAILED",
+  "MONASH'S IMMUNE-AGEING MAP LAID THE GROUNDWORK FOR ITS GRANZYME K FINDING",
+  "FLIES WITHOUT ADAR IN THEIR GUT STEM CELLS SHOWED FAST TISSUE AGEING",
+  "MEAL TIMING: A LAST MEAL AFTER MIDNIGHT WENT WITH A 27% HIGHER DEATH RISK",
+  "PACER: THERAPIST-LED TELEHEALTH CBT DIDN'T BEAT A REFERRAL ON THE MAIN ANXIETY SCORE",
+  "SLEEP LOSS DIDN'T CHANGE JUDGMENTS BASED ON AN ARTIST'S APPARENT RACE OR GENDER",
+  "CAPRICOR SAYS ITS HOPE-2 AND HOPE-3 TRIALS MET THEIR PRIMARY ENDPOINTS",
+  "THE RED CROSS HAD ASKED FOR BINDING RULES ON AUTONOMOUS WEAPONS WITHIN A YEAR",
+  "NTNU'S PATCH PICKED UP ARTERY-STIFFNESS SIGNS IN 12 OF 13 VOLUNTEERS",
+  "EPFL'S MODEL: ITER NEEDS AT LEAST 43 MW OF HEATING FOR H-MODE; IT'S BUILT FOR 73",
+  "MCGILL'S FASTER BACTERIA TOOK A WRONG TURN AT JUST 0.3% OF JUNCTIONS",
+  "GALLUP: A THIRD OF 15-22-YEAR-OLDS IN 16 COUNTRIES HAVE USED AI AS A COMPANION",
+  "AUSTRALIA IS REVIEWING COMPETITION RULES AS AI AGENTS START SHOPPING FOR PEOPLE",
+  "MUSK SAYS SPACEX WILL RETIRE THE FIRST STARSHIP UPPER STAGE ITS TOWER CAUGHT"
+ ],
+ "sources": [
+  "Lean community blog",
+  "Lean FRO",
+  "Mathlib Initiative",
+  "The Guardian",
+  "The New York Times",
+  "IGN",
+  "Tech Times",
+  "Interesting Engineering",
+  "Neuralink",
+  "ScienceDaily",
+  "York University",
+  "Nature Machine Intelligence",
+  "Medical Xpress",
+  "Harvard Medical School",
+  "Nature Methods",
+  "Nature",
+  "Neuroscience News",
+  "Heinrich Heine University Düsseldorf",
+  "AWS Security Blog",
+  "The Register",
+  "Hacked.com",
+  "Monash University",
+  "Science Immunology",
+  "Science Signaling",
+  "ScienceAlert",
+  "European Journal of Clinical Nutrition",
+  "Nature Communications",
+  "JAMA Internal Medicine",
+  "Regenstrief Institute",
+  "PsyPost",
+  "Journal of Sleep Research",
+  "Capricor Therapeutics",
+  "BioSpace",
+  "Gizmodo",
+  "AP",
+  "New Atlas",
+  "NTNU",
+  "EPFL",
+  "Physical Review Letters",
+  "McGill University",
+  "Microsystems & Nanoengineering",
+  "The Straits Times",
+  "Space.com"
+ ],
+ "scanned": 1847,
+ "stories": [
+  {
+   "id": "riemann",
+   "title": "Proof checkers confirm the Riemann proof an Anthropic mathematician wrote with Claude",
+   "summary": "The Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative, say they have full confidence that Levent Alpöge's 17-million-line Lean proof of the 1859 Riemann hypothesis is correct, after independent checkers verified it. It's machine-checked, not yet in a journal; mathematicians still have to understand its ideas.",
+   "pillar": "intelligence",
+   "evidence": "Machine-checked proof; not yet peer reviewed",
+   "chapter": "IT CHECKS OUT.",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Lean community blog",
+     "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "The Lean and Mathlib communities certified an Anthropic mathematician's Claude-assisted, 17-million-line Lean proof of the Riemann hypothesis as correct; one result, not a measured speedup."
+    }
+   ]
+  },
+  {
+   "id": "neuralink",
+   "title": "In a Neuralink video, a paralysed trial participant plays GTA 6 with his brain implant",
+   "summary": "Neuralink posted a two-minute clip of an unnamed trial participant driving, flying a plane and fighting in GTA 6 by imagining small movements, such as tapping a ring finger. He used to play with a mouth stick and an iPad. No latency or accuracy figures were published, and the device is investigational, not FDA-approved.",
+   "pillar": "intelligence",
+   "evidence": "Company video of one trial participant",
+   "chapter": "IT CHECKS OUT.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "IGN",
+     "url": "https://www.ign.com/articles/neuralink-participant-showcases-what-its-like-to-play-gta-6-with-his-mind"
+    },
+    {
+     "outlet": "Tech Times",
+     "url": "https://www.techtimes.com/articles/331237/20261121/neuralink-posts-gta-vi-demo-adapter-firmware-bridges-implant-controller-latency-unpublished.htm"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A Neuralink trial participant played GTA 6 by imagining small movements, in a company video with no published latency or accuracy figures."
+    }
+   ]
+  },
+  {
+   "id": "york",
+   "title": "'Brain-like' vision AI works quite differently inside, a York University test finds",
+   "summary": "A new 'reverse predictivity' test in Nature Machine Intelligence found AI vision models predicted recorded primate brain cells well, but the cells predicted far less of the models' insides, unlike one brain compared with another. Matching the brain's outputs doesn't mean working like it; the team released a free toolkit to check models.",
+   "pillar": "intelligence",
+   "evidence": "Peer-reviewed study of primate brain recordings",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "ScienceDaily (York University)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "wiring",
+   "title": "Faster nanoscale imaging of mouse brain wiring suggests neurons nibble on their neighbours",
+   "summary": "Harvard Medical School and UC San Diego made electron tomography practical for brain wiring maps: about 50 times fewer images, on slices 20 times thicker, at around 15-nanometre detail. In mouse brain tissue it showed electrical synapses that maps often miss, and signs that neurons 'nibble' neighbouring cells. Whole brains are a long-term goal.",
+   "pillar": "intelligence",
+   "evidence": "Methods study in mouse brain tissue",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "IN MICE",
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Harvard Medical School)",
+     "url": "https://medicalxpress.com/news/2026-11-view-brain-wiring.html"
+    },
+    {
+     "outlet": "Nature Methods",
+     "url": "https://www.nature.com/articles/s41592-026-03345-x"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "insula",
+   "title": "Electrodes in 87 people's brains map the insula, and a possible route for expectations to dial pain down",
+   "summary": "Using 15 years of recordings from 87 people with electrodes implanted to locate epileptic seizures, a Nature study split the insula into four zones: a pain-and-temperature body map, diffuse sensations, gut feelings with anxiety, and a front tip for attention that strongly steers the pain zones, a possible circuit for the placebo effect.",
+   "pillar": "wellbeing",
+   "evidence": "Peer-reviewed brain-mapping study, 87 people",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Neuroscience News",
+     "url": "https://neurosciencenews.com/insula-pain-emotion-placebo-32429/"
+    },
+    {
+     "outlet": "Nature",
+     "url": "https://www.nature.com/articles/s41586-026-11175-2"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amazon",
+   "title": "Amazon says hackers' AI agents found a new hole in medical imaging software in 11 minutes",
+   "summary": "Amazon Threat Intelligence says a China-linked actor (moderate confidence) gave AI agents running the open-source Cairn framework one goal: 'obtain shell access'. In a September campaign against universities they found a zero-day in a medical-imaging AI app, going from mapping it to writing files in about 11 minutes; a later session got root.",
+   "pillar": "intelligence",
+   "evidence": "Company threat report",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "AWS Security Blog",
+     "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
+    },
+    {
+     "outlet": "Hacked.com",
+     "url": "https://hacked.com/news/amazon-cairn-ai-zero-day-monai-label/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "monash",
+   "title": "Monash maps how immune cells age in mice, including a rogue group that holds the others back",
+   "summary": "In mice, Monash Biomedicine Discovery Institute researchers found three ways ageing disrupts the genetic instructions of CD8 T cells, the immune system's hunters of infected and cancerous cells, plus a newly identified group of ageing cells that suppresses other immune cells (Science Immunology). It could point to targets for keeping immunity strong.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Monash University)",
+     "url": "https://medicalxpress.com/news/2026-11-immune-aging-blueprint-clues-cancer.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "adar",
+   "title": "In fruit flies, an RNA-editing enzyme kept gut stem cells calm, and flies with extra lived longer",
+   "summary": "A Science Signaling study from China found flies lacking the enzyme ADAR in gut stem cells had runaway stem-cell growth and fast tissue ageing, while flies with extra ADAR lived longer with healthier guts. Ageing human colon samples had less of a relative, ADAR2: an association, not yet a treatment.",
+   "pillar": "longevity",
+   "evidence": "Fruit fly study, with human and mouse tissue",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-gut-stem-cells-overdrive-age.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "meals",
+   "title": "Among 31,000 Americans, a first meal after noon was linked to dying sooner",
+   "summary": "In 31,044 US adults aged 40+ followed for a median 8.6 years, a first meal after noon went with a 29% higher risk of death from any cause than eating first at 7-8am, and a last meal after midnight with 27% (European Journal of Clinical Nutrition). It's an association from one-day food recalls, not proof and not advice.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 31,044 adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/a-massive-study-links-the-time-you-eat-breakfast-to-how-long-youll-live"
+    },
+    {
+     "outlet": "European Journal of Clinical Nutrition",
+     "url": "https://doi.org/10.1038/s41430-026-01796-1"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tumour",
+   "title": "In mice, a drug duo cleared breast tumours in all nine and left an immune memory of the cancer",
+   "summary": "Regeneron researchers paired the cancer drug Enhertu with an experimental antibody that switches on T cells through CD28 (Nature Communications). It cleared breast tumours in all nine mice, against under half on Enhertu alone, and weeks later the mice rejected the same cancer cells without more treatment. A company study in engineered mice.",
+   "pillar": "longevity",
+   "evidence": "Mouse study by a drug company",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/experimental-drug-combination-cleared-tumors-in-mice-and-left-them-resistant-to-the-same-cancer"
+    },
+    {
+     "outlet": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-026-79192-3"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pacer",
+   "title": "After chest-pain scares, online therapy with a peer coach eased anxiety more than a referral",
+   "summary": "In the PACER trial of 375 adults with low-risk chest pain and anxiety at six US emergency departments, self-paced online CBT with a certified peer support specialist cut anxiety scores 1.2 points more than a primary-care referral over a year, and 2.8 more in severe anxiety (JAMA Internal Medicine). A modest but real gain.",
+   "pillar": "wellbeing",
+   "evidence": "Randomised trial, 375 adults",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Regenstrief Institute)",
+     "url": "https://medicalxpress.com/news/2026-11-pacer-trial-online-cognitive-behavioral.html"
+    },
+    {
+     "outlet": "JAMA Internal Medicine",
+     "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2854603"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sleepart",
+   "title": "Two short nights of sleep left students finding paintings a touch less beautiful",
+   "summary": "In a Baylor lab study of 68 students, two nights of about 5 hours' sleep instead of 8 lowered liking and beauty ratings of abstract paintings by about 4%, along with alertness and positive mood (Journal of Sleep Research). Small and subtle, but as Michael Scullin puts it, rest brings 'a touch more beauty'.",
+   "pillar": "wellbeing",
+   "evidence": "Small lab study, 68 students",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/mild-sleep-loss-can-dull-how-much-people-enjoy-art-and-perceive-beauty/"
+    },
+    {
+     "outlet": "Journal of Sleep Research",
+     "url": "https://doi.org/10.1111/jsr.70451"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "capricor",
+   "title": "The FDA turned down Capricor's Duchenne cell therapy again, saying the evidence falls short",
+   "summary": "The FDA sent a second Complete Response Letter for deramiocel, donor heart-derived cells for Duchenne muscular dystrophy, saying the data don't establish substantial evidence of effectiveness. Capricor says its two placebo-controlled trials met their main goals and it is reviewing its costs; Duchenne affects about 15,000 people in the US.",
+   "pillar": "longevity",
+   "evidence": "Regulatory decision (FDA rejection)",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Capricor Therapeutics",
+     "url": "https://www.capricor.com/investors/news-events/press-releases/detail/360/capricor-therapeutics-provides-regulatory-update-on"
+    },
+    {
+     "outlet": "BioSpace",
+     "url": "https://www.biospace.com/fda/capricors-regulatory-odyssey-for-dmd-cell-therapy-hits-second-fda-rejection"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "robots",
+   "title": "UN talks on killer robots ended without binding rules; talks run to 2028",
+   "summary": "The UN Convention on Certain Conventional Weapons review conference in Geneva closed on 21 Nov with no binding rules on lethal autonomous weapons, only an agreement to keep talking through 2028. The Red Cross had urged binding rules within a year; activists said big militaries, including the US and Russia, blocked more.",
+   "pillar": "intelligence",
+   "evidence": "Policy outcome",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/international-talks-on-autonomous-killer-robots-achieve-historic-deal-to-think-it-over-for-2-more-years-2000843554"
+    },
+    {
+     "outlet": "AP",
+     "url": "https://apnews.com/article/un-drones-robots-un-lethal-ai-weapons-ebe057d2a47cde53100970c8f648e7fa"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-5",
+     "key": "e33f689bfd",
+     "relation": "challenges",
+     "note": "UN talks on lethal autonomous weapons ended on 21 Nov without binding rules, only an agreement to keep talking through 2028."
+    }
+   ]
+  },
+  {
+   "id": "patch",
+   "title": "A battery-free sticker shifts colour with each heartbeat, and a phone films it",
+   "summary": "NTNU's OptoPatch is a thin silicone film with nanoscale grooves and octopus-style suction cups, and no electronics. Filmed by an ordinary phone, its colour shifts rebuilt a pulse waveform closely matching a clinical monitor in 13 seated volunteers. It doesn't shine light through skin, so skin tone shouldn't skew it; it still needs an app and clinical tests.",
+   "pillar": "frontier",
+   "evidence": "Early test, 13 volunteers",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/medical-devices/color-shifting-pulse-patch-no-electronics/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "fusion",
+   "title": "Swiss physicists modelled a 40-year fusion puzzle: how much heating flips plasma into high gear",
+   "summary": "EPFL's Swiss Plasma Center built a model, in Physical Review Letters, for the heating power that switches tokamak plasma into high-confinement H-mode, first seen in 1982. It says ITER needs at least 43 MW (it's built for 73) and SPARC 26 MW (it expects 25). It was checked against existing machines; others still have to test it.",
+   "pillar": "frontier",
+   "evidence": "A model, in Physical Review Letters",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "EPFL",
+     "url": "https://actu.epfl.ch/news/solving-a-40-year-puzzle-in-fusion-energy/"
+    },
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/physicists-finally-solve-a-40-year-old-mystery-about-fusion-plasma-2000843128"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bacteria",
+   "title": "At McGill, bacteria in a maze chip solved small maths puzzles, multiplying as they worked",
+   "summary": "McGill researchers built a microfluidic maze in which swimming bacteria test answers to subset-sum puzzles in parallel, solving ones of up to seven numbers. One species, Vibrio natriegens, can double every 9-12 minutes, adding 'processors' mid-calculation (Microsystems & Nanoengineering). A proof of concept; claims for bigger problems rest partly on models.",
+   "pillar": "frontier",
+   "evidence": "Lab proof of concept",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/computers/biological-computer-living-bacteria/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Sunday, November 22, and this is the Transhuman Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in transhumanism, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "It checks out!"
+  },
+  {
+   "s": 15.8,
+   "t": "The week's biggest story: computer checkers confirm the Riemann proof Claude helped write."
+  },
+  {
+   "s": 22.03,
+   "t": "And in a Neuralink video, a paralysed man plays GTA 6 with his mind."
+  },
+  {
+   "s": 31.88,
+   "t": "In Toronto, a new test found 'brain-like' vision AI works quite differently inside."
+  },
+  {
+   "s": 38.91,
+   "t": "At Harvard, faster nanoscale imaging of mouse brain wiring suggests neurons nibble on their neighbours."
+  },
+  {
+   "s": 45.94,
+   "t": "Electrodes in 87 people's brains revealed a pos sible route for expectations to dial pain down."
+  },
+  {
+   "s": 52.97,
+   "t": "And Amazon says hackers' AI agents found a new hole in medical imaging software in 11 minutes."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. Closer to home, Monash found a rogue gang of ageing immune cells in mice."
+  },
+  {
+   "s": 67.5,
+   "t": "In fruit flies, one enzyme kept gut stem cells from running wild, and flies with extra lived longer."
+  },
+  {
+   "s": 75.0,
+   "t": "Among 31,000 Americans, a first meal after noon was linked to dying sooner."
+  },
+  {
+   "s": 82.5,
+   "t": "And in mice, a drug duo cleared tumours in all 9 and left an immune memory of the cancer."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. After chest-pain scares, online therapy with a peer coach beat a referral for anxiety."
+  },
+  {
+   "s": 97.5,
+   "t": "And two short nights of sleep left student s finding paintings a touch less beautiful."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. The FDA turned down a Duchenne cell therapy again, saying the evidence falls short."
+  },
+  {
+   "s": 112.5,
+   "t": "And UN talks on killer robots ended without binding rules; talks run to 2028."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, a battery-free sticker shifts colour with each heartbeat, and a phone films it."
+  },
+  {
+   "s": 128.91,
+   "t": "Swiss physicists modelled a 40-year fusion puzzl e: how much heating flips plasma into high gear."
+  },
+  {
+   "s": 135.94,
+   "t": "At McGill, bacteria in a maze chip solved small maths puzzles, multiplying as they worked."
+  },
+  {
+   "s": 142.5,
+   "t": "Machines checked all 17 million lines."
+  },
+  {
+   "s": 145.22,
+   "t": "Understanding it is our job now. It checks out!"
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay well. Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-22/The-Transhuman-Daily_2026-11-22.mp4",
+  "mb": 54.1,
+  "bytes": 54124117,
+  "seconds": 180.01
+ },
+ "links": {}
+}
