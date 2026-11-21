@@ -1,0 +1,453 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-22",
+ "ep": 27,
+ "hook": "ON THE SAME PAGE.",
+ "day": "Sunday 22 November 2026",
+ "note": "FOR EDUCATION · SUNDAY 22 NOVEMBER 2026",
+ "tldr": "Teams will let you pop out a sign language interpreter, Edge 158 puts workspaces in one window, Foundry previews Programmed Training, and a Cornell-LSU team wins a $200,000 quantum prize.",
+ "chapters": [
+  "ON THE SAME PAGE",
+  "THE CLASSROOM",
+  "CAMPUS BUILDERS",
+  "THE BIG PICTURE",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, from the 80 hours to 06:38 AEDT, Sun 22 Nov 2026 (Wednesday 18 to Saturday 21 Nov in the US), plus This-week items.",
+ "notes": [
+  "A thin week for new education-specific news: the week's education stories (Microsoft Classroom, Study and Learn in assignments, Hour of AI, Hwb) were covered 18-21 Nov. Cornell's Quantum Pioneers story (19 Nov) adapts an October LSU release. This week: the AI Transparency Initiative (announced 17 Nov; the education press covered it 19 Nov).",
+  "Coming, not shipped: the sign language interpreter pop-out (preview December, due January 2027), Teams meeting AI controls and Teams Rooms timers (due January 2027), Exchange HVE external sending (preview December, due March 2027) and the AI Interpreter (now due February 2027) are roadmap items in development; Programmed Training and multi-turn evaluation are in public preview; LE Audio stereo and the People widget are in the Experimental channel for Windows Insiders. Edge 158 reached Stable on 19 Nov.",
+  "Screenshots are the publishers' public pages as captured on 22 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ON THE SAME PAGE. 🤝\n\nThe week's best at Microsoft for education:\n- Teams: pop out a sign language interpreter (preview Dec)\n- Cornell-LSU team wins a $200K Quantum Pioneers prize\n- Edge 158: workspaces in one window\n- Foundry Programmed Training (preview)",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (22 Nov 2026): Teams' coming pop-out for sign language interpreters, organizer controls for AI in Teams meetings, a shared timer for Teams Rooms, Edge 158's workspaces and Remix, Programmed Training and multi-turn evaluation in Microsoft Foundry, High Volume Email to outside addresses in Exchange, a Cornell-LSU Quantum Pioneers prize, the AI Transparency Initiative, the Teams AI Interpreter's new February date, the end of support for the Azure Functions OpenAI extension, LE Audio stereo and the People widget for Windows Insiders and Polterguys on Xbox Free Play Days, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "CORNELL AND LSU: ONE OF FIVE HARDWARE TRACK WINNERS IN MICROSOFT'S 2026 QUANTUM PIONEERS PROGRAM",
+  "QUANTUM PIONEERS: THE PRIZE BACKS FASTER, HIGHER-SIGNAL PARITY MEASUREMENTS FOR TOPOLOGICAL QUBITS",
+  "ON THE ROADMAP: TEAMS' SIGN LANGUAGE INTERPRETER POP-OUT WILL STAY VISIBLE ACROSS MONITORS AND APPS",
+  "EDGE 158: IMPORT PASSWORDS, BOOKMARKS, HISTORY AND AUTOFILL FROM A GOOGLE ACCOUNT ANY TIME IN SETTINGS, ON WINDOWS",
+  "EDGE 158: WORKSPACES V1 IS OFF BY DEFAULT, AND EDGE 159 WILL REMOVE IT",
+  "EDGE 159 WILL TURN OFF BROWSER-NATIVE XSLT BY DEFAULT; THE XSLTENABLED POLICY CAN KEEP IT ON FOR NOW",
+  "EDGE 158: INTUNE CAN SEND EDGE FOR BUSINESS DOWNLOADS TO ONEDRIVE WITH PROTECTED DOWNLOADS",
+  "ON THE ROADMAP: TEAMS VOICE PHISHING DETECTION FOR EXTERNAL CALLS, NOW DUE JANUARY",
+  "ON THE ROADMAP: EDGE'S SELECT PASSWORD ON RIGHT-CLICK, NOW DUE DECEMBER",
+  "ON THE ROADMAP: MANAGED-DEVICE USERS CHOOSE WHETHER EDGE STARTS WITH WINDOWS, DUE DECEMBER",
+  "ON THE ROADMAP: EDGE'S SIMPLER ENERGY SAVER, ON AT LOW BATTERY BY DEFAULT, DUE MARCH",
+  "ON THE ROADMAP: CHAT WITH TEAMS FACILITATOR WITHOUT TAGGING IT, PREVIEW IN DECEMBER",
+  "EXCHANGE HVE EXTERNAL SENDING: ADMINS TURN IT ON FOR SPECIFIC HVE ACCOUNTS WITH A CMDLET",
+  "FOUNDRY: GOVERNANCE POLICY GUIDANCE IN FOUNDRY CANVAS AND VS CODE IS GENERALLY AVAILABLE",
+  "FOUNDRY TOOLKIT FOR VS CODE: COPILOT HARNESS SUPPORT IS IN PUBLIC PREVIEW",
+  "FOUNDRY: REINFORCEMENT LEARNING ENVIRONMENTS FOR PROGRAMMED TRAINING ARE IN PRIVATE PREVIEW",
+  "AZURE FIREWALL FOR CONTAINERS IS IN PUBLIC PREVIEW",
+  "AZURE DATABASE FOR POSTGRESQL: A DATABASE AGENT FOR HEALTH AND PERFORMANCE IS IN PUBLIC PREVIEW",
+  "GITHUB: SECURITY ADVISORY PERMISSIONS ARE GENERALLY AVAILABLE",
+  "GITHUB ENTERPRISE SERVER 3.23 IS OUT AS A RELEASE CANDIDATE",
+  "AI TRANSPARENCY INITIATIVE PARTNERS INCLUDE ACCENTURE, ADOBE, KPMG, MASTERCARD AND VOLVO CARS",
+  "XBOX FREE PLAY DAYS ALSO INCLUDE DEADLINK AND SLAYERS X, FOR GAME PASS ULTIMATE, PREMIUM AND ESSENTIAL MEMBERS"
+ ],
+ "sources": [
+  "Microsoft 365 Roadmap",
+  "Microsoft Edge release notes",
+  "Microsoft Foundry Blog",
+  "Azure Updates",
+  "Cornell Chronicle",
+  "Microsoft (PR Newswire)",
+  "EdTech Innovation Hub",
+  "Windows Insider Blog",
+  "Xbox Wire",
+  "GitHub Changelog",
+  "Quantum Zeitgeist"
+ ],
+ "scanned": 2464,
+ "stories": [
+  {
+   "id": "teams-signlang",
+   "title": "Teams will let you pop out a sign language interpreter's video",
+   "summary": "Roadmap item 571387, in development: in Teams on desktop and Mac you'll be able to pop out a sign language interpreter into a separate, resizable window that stays visible across monitors and apps while you share content or change layouts. It's designed to support Deaf and hard of hearing users.",
+   "for": "Deaf and hard-of-hearing students, staff and interpreters",
+   "status": "Preview from December, due January 2027",
+   "edu": false,
+   "chapter": "ON THE SAME PAGE",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571387"
+    }
+   ]
+  },
+  {
+   "id": "teams-ai-controls",
+   "title": "Teams meeting organizers will decide who can use Copilot and AI",
+   "summary": "Roadmap item 577399, in development: Teams meetings get enhanced Copilot and AI controls. Organizers manage who can enable and access AI in their meetings, and IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences.",
+   "for": "Teachers who run class and parent meetings, and school IT",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577399"
+    }
+   ]
+  },
+  {
+   "id": "teams-rooms-timer",
+   "title": "A shared countdown timer is coming to Teams Rooms on Windows",
+   "summary": "Roadmap item 581893, in development: start, pause, resume or cancel a countdown timer from the room's touch console, with the countdown on the front-of-room display and in participants' meeting views. It needs a Teams Rooms Pro licence.",
+   "for": "Campus seminar and meeting rooms with Teams Rooms Pro",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581893"
+    }
+   ]
+  },
+  {
+   "id": "edge-158-workspaces",
+   "title": "Edge 158: switch workspaces in one window, and pin them with an emoji",
+   "summary": "Microsoft Edge 158 reached the Stable channel on 19 November. You can switch between workspaces inside your current window instead of opening one window each, pin the workspaces you use most and give each pinned one an emoji. A workspace per subject is one way to use it (our example).",
+   "for": "Students and teachers juggling classes",
+   "status": "Available (Edge 158)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft Edge release notes",
+     "url": "https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"
+    }
+   ]
+  },
+  {
+   "id": "edge-158-remix",
+   "title": "Edge 158's Remix lets you restyle supported pages",
+   "summary": "Remix in Edge 158 lets you personalise supported webpages with built-in appearance controls or plain-language requests. Changes stay in your own browser profile, with visible controls to pause or remove them, and organisations can turn it off with the RemixAvailability policy.",
+   "for": "Students and staff; school IT can manage it",
+   "status": "Available (Edge 158)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft Edge release notes",
+     "url": "https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"
+    }
+   ]
+  },
+  {
+   "id": "foundry-programmed-training",
+   "title": "Programmed Training in Microsoft Foundry: you write the loop, Foundry runs the GPUs",
+   "summary": "In public preview, by request: a Python API (the Fine-Tuning Sessions SDK) where your code decides what to sample, how to score responses and when to update model weights, while Foundry runs the GPUs. It offers LoRA training for four open-weight models, billed by the tokens your loop processes.",
+   "for": "University AI labs and research students",
+   "status": "Public preview (access by request)",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/programmed-training-you-write-the-loop-foundry-runs-the-gpus/4573299"
+    },
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=581713"
+    }
+   ]
+  },
+  {
+   "id": "foundry-multiturn-eval",
+   "title": "Foundry can now evaluate whole agent conversations",
+   "summary": "Multi-turn evaluation, in public preview in Microsoft Foundry, assesses complete agent conversations against your quality standards, not only single responses, because an answer can look right on its own inside a conversation that goes wrong. A student help agent is one thing to test this way (our example).",
+   "for": "University teams building agents for students and staff",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=581746"
+    }
+   ]
+  },
+  {
+   "id": "exchange-hve-external",
+   "title": "Exchange's High Volume Email will reach outside addresses too",
+   "summary": "Roadmap item 581778, in development: High Volume Email in Exchange Online, which today only sends inside your organisation, will also deliver bulk notifications, alerts and required messages to external recipients, but not marketing. Admins turn it on per HVE account, and billing is per external recipient.",
+   "for": "School IT (our example: required notices to families)",
+   "status": "Preview from December, due March 2027",
+   "edu": false,
+   "chapter": "CAMPUS BUILDERS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581778"
+    }
+   ]
+  },
+  {
+   "id": "quantum-pioneers",
+   "title": "A Cornell-LSU team wins a $200,000 Microsoft Quantum Pioneers prize",
+   "summary": "Cornell's Valla Fatemi and LSU's Constantin Schrade won a $200,000 prize in Microsoft's 2026 Quantum Pioneers Program, one of five winning submissions in its Hardware Track. The prize supports their work on faster ways, with a higher signal-to-noise ratio, to measure the parity of a qubit device.",
+   "for": "University researchers",
+   "status": "Awarded",
+   "edu": true,
+   "chapter": "THE BIG PICTURE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Cornell Chronicle",
+     "url": "https://news.cornell.edu/stories/2026/11/cornell-lsu-team-wins-microsoft-quantum-pioneers-prize"
+    },
+    {
+     "outlet": "Quantum Zeitgeist",
+     "url": "https://quantumzeitgeist.com/microsoft-quantum-helps-cornell-louisiana-200k/"
+    }
+   ]
+  },
+  {
+   "id": "ai-transparency-initiative",
+   "title": "Microsoft's AI Transparency Initiative aims to make AI agents easier to audit",
+   "summary": "Announced at Ignite on 17 November, it has Microsoft working with more than 40 organisations, including Accenture, Adobe, KPMG, Mastercard and Volvo Cars, on open standards for AI transparency, security and governance across models and providers. It's at the standards stage, with a sign-up for organisations that want to help.",
+   "for": "University IT, security and compliance teams",
+   "status": "Standards in development",
+   "edu": false,
+   "chapter": "THE BIG PICTURE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft (PR Newswire)",
+     "url": "https://www.prnewswire.com/news-releases/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents-302942624.html"
+    },
+    {
+     "outlet": "EdTech Innovation Hub",
+     "url": "https://www.edtechinnovationhub.com/news/microsoft-enlists-more-than-40-organizations-to-make-ai-agents-easier-to-audit"
+    }
+   ]
+  },
+  {
+   "id": "teams-ai-interpreter-date",
+   "title": "Teams' AI Interpreter for town halls and webinars is now due in February",
+   "summary": "Roadmap item 576711, in development: real-time, AI-powered audio interpretation for Teams town halls and webinars, with organisers choosing the supported languages. It's now listed for February 2027; when we covered it on 1 November it was due in December 2026. Open days and parent nights are two places it could help (our examples).",
+   "for": "Schools and universities running town halls and webinars",
+   "status": "Due February 2027 (in development)",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576711"
+    }
+   ]
+  },
+  {
+   "id": "functions-openai-retirement",
+   "title": "Support for the Azure Functions OpenAI extension ends 20 April 2027",
+   "summary": "Microsoft will end support for the Azure Functions OpenAI extension on 20 April 2027. Apps that use it should move to the OpenAI, Microsoft Foundry or Azure AI Search SDKs directly, depending on the scenario, before then.",
+   "for": "Campus developers and student projects that use it",
+   "status": "Retiring 20 April 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=579952"
+    }
+   ]
+  },
+  {
+   "id": "insider-le-audio",
+   "title": "Windows Insiders: full stereo on Bluetooth LE Audio earbuds, even with the mic on",
+   "summary": "In the Experimental channel, Bluetooth LE Audio devices can play full-range stereo while also using their microphone, for game chat, voice calls, voice typing and voice chat in Copilot Chat, on PCs that support Super Wideband Stereo with devices that support 48kHz playback.",
+   "for": "Students on calls and in game chat",
+   "status": "Windows Insiders (Experimental)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Windows Insider Blog",
+     "url": "https://blogs.windows.com/windows-insider/2026/11/20/announcing-new-builds-for-20-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "insider-people-widget",
+   "title": "Windows Insiders get a People widget",
+   "summary": "Also in the Experimental channel: a People widget on the Widgets board (Windows key + W) brings together contacts from supported communication apps, so you can jump back into a conversation. Set up Phone Link, WhatsApp or both first.",
+   "for": "Students and staff on Windows Insider builds",
+   "status": "Windows Insiders (Experimental)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Windows Insider Blog",
+     "url": "https://blogs.windows.com/windows-insider/2026/11/20/announcing-new-builds-for-20-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-free-play-days",
+   "title": "Polterguys: Possession Party is on Xbox Free Play Days",
+   "summary": "Game Pass Ultimate, Premium and Essential members can play Polterguys: Possession Party, a party game for up to 8 players who play ghosts possessing everyday objects, from 19 to 22 November. Deadlink and Slayers X are also in this round of Free Play Days.",
+   "for": "Students with Game Pass, after the bell",
+   "status": "Free Play Days until 22 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/19/free-play-days-11-19-2026/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Sunday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in Microsoft updates, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "On the same page: this week's best. Soon, Teams lets you pop out a sign language interpreter."
+  },
+  {
+   "s": 22.5,
+   "t": "Their video stays in view while you share or switch layouts."
+  },
+  {
+   "s": 31.88,
+   "t": "In class, Teams will let meeting organizers decide who can use Copilot and AI, due January."
+  },
+  {
+   "s": 39.38,
+   "t": "Got Teams Rooms Pro? A shared countdown timer for the room is due in January."
+  },
+  {
+   "s": 46.41,
+   "t": "Edge 158 is out: switch workspaces in one window, and pin them with an emoji."
+  },
+  {
+   "s": 53.91,
+   "t": "Its new Remix lets you restyle supported pages w ith built-in controls or plain-language requests."
+  },
+  {
+   "s": 60.0,
+   "t": "For university AI labs, Foundry's Programmed Training is in preview: your code, Foundry's GPUs."
+  },
+  {
+   "s": 67.5,
+   "t": "Your Python decides what to sample, how to score it and when to update the weights."
+  },
+  {
+   "s": 75.0,
+   "t": "Building a student help agent?"
+  },
+  {
+   "s": 76.81,
+   "t": "Foundry can now test whole conversations, not single answers, in preview."
+  },
+  {
+   "s": 82.5,
+   "t": "School IT? Exchange's High Volume Email will also reach outside addresses, previewing in December."
+  },
+  {
+   "s": 90.0,
+   "t": "A Cornell and LSU team won $200,000 from Microsoft's Quantum Pioneers Program."
+  },
+  {
+   "s": 97.5,
+   "t": "And Microsoft's AI Transparency Initiative, with over 40 organisations, aims to make agents easier to audit."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print?"
+  },
+  {
+   "s": 106.05,
+   "t": "Teams' live AI interpreter for webinars is now due February, not December."
+  },
+  {
+   "s": 112.5,
+   "t": "And the Azure Functions OpenAI extension loses support next April, so plan your move."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Insiders get full stereo on Bluetooth LE Audio earbuds, even with the mic on."
+  },
+  {
+   "s": 129.38,
+   "t": "There's a new People widget too, to jump back into chats from Phone Link or WhatsApp."
+  },
+  {
+   "s": 136.88,
+   "t": "And this weekend, Game Pass members can try Polterguys, a ghostly party game for eight."
+  },
+  {
+   "s": 143.91,
+   "t": "Shared timers, a visible interpreter, clear AI rules: everyone on the same page."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Some of it's shipped. The rest is on its way."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-22/Microsoft-for-Education-Daily_2026-11-22.mp4",
+  "mb": 54.0,
+  "bytes": 53998104,
+  "seconds": 180.01
+ },
+ "links": {}
+}
