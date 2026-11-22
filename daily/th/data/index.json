@@ -1,13 +1,48 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-21T23:15:08+00:00",
- "latest": "2026-11-22",
+ "updated": "2026-11-22T20:53:43+00:00",
+ "latest": "2026-11-23",
  "site": "https://peterxing.com/",
  "section": "https://peterxing.com/#/transhuman",
  "share": "https://peterxing.com/daily/transhuman",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "videosOnPages": 3,
  "episodes": [
+  {
+   "date": "2026-11-23",
+   "ep": 22,
+   "hook": "STILL WORKING.",
+   "day": "Monday 23 November 2026",
+   "tldr": "Still working: a woman passes a year with a gene-edited pig kidney, OpenAI's chief scientist proposes shared AI limits, and a Sydney astronomer redraws part of the Milky Way.",
+   "stories": 17,
+   "forecasts": 4,
+   "links": {
+    "supports": 0,
+    "early": 4,
+    "challenges": 0
+   },
+   "pillars": {
+    "longevity": 5,
+    "wellbeing": 3,
+    "intelligence": 6,
+    "frontier": 3
+   },
+   "titles": [
+    "A woman passes a year with a kidney from a gene-edited pig",
+    "OpenAI's chief scientist proposes shared limits on AI development, measured by 'perplexity'",
+    "Two mathematicians claim an AI-aided proof that fluid equations can blow up on their own"
+   ],
+   "cover": "daily/th/media/2026-11-23/cover.webp",
+   "thumb": "daily/th/media/2026-11-23/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/th/media/2026-11-23/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-23/The-Transhuman-Daily_2026-11-23.mp4",
+    "mb": 56.3,
+    "bytes": 56264698,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-22",
    "ep": 21,
@@ -105,7 +140,7 @@
    "cover": "daily/th/media/2026-11-20/cover.webp",
    "thumb": "daily/th/media/2026-11-20/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/th/media/2026-11-20/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-20/The-Transhuman-Daily_2026-11-20.mp4",
     "mb": 54.2,

@@ -1,0 +1,590 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-23",
+ "ep": 22,
+ "hook": "STILL WORKING.",
+ "day": "Monday 23 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · MONDAY 23 NOVEMBER 2026",
+ "tldr": "Still working: a woman passes a year with a gene-edited pig kidney, OpenAI's chief scientist proposes shared AI limits, and a Sydney astronomer redraws part of the Milky Way.",
+ "chapters": [
+  "STILL WORKING.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the week's best, mostly the 72 hours to 06:46 AEDT, Mon 23 Nov 2026.",
+ "notes": [
+  "This week: the Navier-Stokes claim, Frostbite, MedChemBench, the ChatGPT translation study, the Norma arm and REV1 (20 Nov), the Berkeley compound (19 Nov) and the meal study (21 Nov).",
+  "Evidence: the pig kidney is one experimental patient; OpenAI's figures, Architect Labs' chip and SCU's factory are company accounts; the Navier-Stokes proof is an unchecked claim and the black hole a preprint; the sugar link is observational; the compound is in mice; the meal, knee, breathing and THC studies are small.",
+  "Screenshots are the publishers' public pages as captured on 23 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "STILL WORKING. 💚\n\nThe week in transhumanism:\n- A Boston woman marks a year with a gene-edited pig kidney\n- OpenAI's chief scientist proposes shared AI limits\n- Fast breathing felt psychedelic to 48 therapists (small study)\n- A Sydney astronomer redraws part of the galaxy map",
+  "alt": "A 3-minute video recap of the week's best in transhumanism (23 Nov 2026): a woman's year with a gene-edited pig kidney, OpenAI's proposal for shared AI limits, an AI-aided Navier-Stokes claim, an AI-designed processor, OpenAI's drug-chemistry test, why brain wiring crosses, sugar rationing and biological age, ultraprocessed meals and insulin, a fat-burning compound in mice, core exercise for knee arthritis, breathwork and altered states, low-dose THC and stressful memories, ChatGPT's inconsistent translations of mental-health checklists, banks and AI agents, the Milky Way's Norma arm, a black hole made of logic gates and a reusable space factory, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "MGB: TWO MORE PATIENTS HAVE HAD PIG KIDNEYS SINCE MOLLY FALCO, AND SHE SAYS BOTH ARE DOING WELL",
+  "TIM ANDREWS' PIG KIDNEY WORKED FOR 271 DAYS BEFORE A HUMAN KIDNEY REPLACED IT",
+  "PACHOCKI: OPENAI'S MODELS PASSED BELOW 0.8 LOG-PERPLEXITY AS MATHS AND CYBER SKILLS EMERGED",
+  "OPENAI'S CHIEF SCIENTIST: AN AVALANCHE OF PRETRAINING ADVANCES IS CONCEIVABLE AS SOON AS 2027",
+  "NAVIER-STOKES: OPENAI'S SEPTEMBER PROOF RELIED ON A FINELY TUNED OUTSIDE FORCE",
+  "ARCHITECT LABS: FROSTBITE BEAT ITS REFERENCE CORE 3.83X ON 15 HELD-OUT WORKLOADS",
+  "MEDCHEMBENCH DRAWS ON 117 PAPERS AND PATENTS AND 761 MOLECULES",
+  "BRAIN WIRING: TRUE MAMMALS ARRIVED ABOUT 165 MILLION YEARS AGO, ON ALREADY-CROSSED CIRCUITS",
+  "SUGAR RATIONING IN BRITAIN ENDED IN SEPTEMBER 1953",
+  "SUGAR STUDY: 22% LOWER RISK OF CHRONIC KIDNEY DISEASE, 17% LOWER RISK OF CATARACT",
+  "MEAL STUDY: BOTH ~300-CALORIE MEALS MATCHED WITHIN 1.6% ON A DOZEN NUTRITION MEASURES",
+  "BERKELEY'S TOFA ALSO BOOSTED GLP-1 DRUGS IN MICE",
+  "KNEE TRIAL: BOTH GROUPS HAD LESS PAIN AT REST AFTER 12 WEEKS",
+  "BREATHWORK: THERAPISTS RATED ITS POTENTIAL 68/100 AND ITS RISKS 28/100",
+  "CHATGPT STUDY: ONE CAREFULLY ENGINEERED PROMPT GAVE NOTICEABLY BETTER TRANSLATIONS",
+  "JPMORGAN CHASE BANNED THIRD-PARTY AI AGENTS FROM LOGGING IN WITH YOUR PASSWORD IN OCTOBER",
+  "AMAZON BLOCKED META'S MUSE AGENT FROM BUYING; UNITED IS BLOCKING BOTS FROM BOOKING FLIGHTS",
+  "THE MILKY WAY'S CENTRAL BAR STRETCHES ABOUT 14,000 LIGHT-YEARS FROM THE CENTRE",
+  "KEIO'S DIGITAL BLACK HOLE RUNS ON ABOUT 604 MILLION BITS",
+  "REV1 IS DESIGNED TO BRING A TONNE OF CARGO HOME AND FLY ABOUT 20 TIMES",
+  "MERCK'S KEYTRUDA CRYSTALS GROWN ON THE ISS CAME OUT A UNIFORM ~39 MICROMETRES"
+ ],
+ "sources": [
+  "The New York Times",
+  "WCVB",
+  "Quartz",
+  "Mass General Brigham",
+  "OpenAI",
+  "OfficeChai",
+  "Seeking Alpha",
+  "Scientific American",
+  "The Next Web",
+  "Architect Labs",
+  "Notebookcheck",
+  "Tom's Hardware",
+  "ScienceAlert",
+  "Frontiers in Neuroanatomy",
+  "University of Minnesota",
+  "Nature Communications",
+  "Chinese University of Hong Kong",
+  "PsyPost",
+  "Nature Metabolism",
+  "Virginia Tech",
+  "ScienceDaily",
+  "UC Berkeley",
+  "Science Advances",
+  "Scientific Reports",
+  "npj Mental Health Research",
+  "Humboldt-Universität zu Berlin",
+  "Psychopharmacology",
+  "University of Chicago",
+  "University of Canterbury",
+  "Medical Xpress",
+  "WIRED",
+  "Wells Fargo",
+  "University of Sydney",
+  "Nature Astronomy",
+  "Mirage News",
+  "Tech Explorist",
+  "Keio University",
+  "arXiv",
+  "Space Cargo Unlimited",
+  "Thales Alenia Space",
+  "New Atlas"
+ ],
+ "scanned": 1564,
+ "stories": [
+  {
+   "id": "kidney",
+   "title": "A woman passes a year with a kidney from a gene-edited pig",
+   "summary": "Molly Falco, 58, has lived a year with a kidney from a gene-edited pig at Mass General Brigham, the longest any known recipient has, and is off dialysis. It's one patient and still experimental; her doctor hopes an approved option could come in about five years if a trial next year goes well.",
+   "pillar": "longevity",
+   "evidence": "One patient; experimental transplant",
+   "chapter": "STILL WORKING.",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "WCVB",
+     "url": "https://www.wcvb.com/article/patient-at-boston-hospital-sets-new-record-after-one-year-with-pig-kidney-transplant/74481454"
+    },
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/22/well/pig-kidney-transplant-milestone.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "perplexity",
+   "title": "OpenAI's chief scientist proposes shared limits on AI development, measured by 'perplexity'",
+   "summary": "Jakub Pachocki published OpenAI's internal perplexity scores (how well a model predicts text) and proposed that AI labs agree on limits they won't cross until they can monitor AI behaviour better. It's one company's proposal and its own measurements, not an agreement.",
+   "pillar": "intelligence",
+   "evidence": "Company proposal; OpenAI's own measurements",
+   "chapter": "STILL WORKING.",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/perplexity-and-intelligence/"
+    },
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/openai-wants-perplexity-to-become-the-industrys-shared-yardstick-for-ai-progress-and-safety-limits/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2035-1",
+     "key": "372f343532",
+     "relation": "early",
+     "note": "OpenAI's chief scientist proposed shared limits labs would not cross until AI monitoring reaches a set milestone; a proposal from one company, not a pause."
+    },
+    {
+     "id": "2031-3",
+     "key": "e514b72403",
+     "relation": "early",
+     "note": "He called for shared norms to evaluate new models and red-team their safety cases by first use; one company's proposal, not a requirement."
+    }
+   ]
+  },
+  {
+   "id": "navier",
+   "title": "Two mathematicians claim an AI-aided proof that fluid equations can blow up on their own",
+   "summary": "Anthropic's Levent Alpöge and NYU's Tristan Buckmaster posted an AI-aided proof that the Navier-Stokes equations for fluid flow can blow up with no outside push, closing a loophole in OpenAI's September proof of the $1M prize problem. It's an unchecked claim; its certificate isn't out yet.",
+   "pillar": "intelligence",
+   "evidence": "Claimed proof; not yet checked or peer reviewed",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "PREPRINT",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/"
+    },
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An NYU mathematician and an Anthropic mathematician posted an AI-aided proof that fluid equations blow up unaided; one unchecked result, not a measured speedup."
+    }
+   ]
+  },
+  {
+   "id": "frostbite",
+   "title": "A start-up says its AI agents designed a new processor from scratch",
+   "summary": "Architect Labs says AI agents designed Frostbite, from its instruction set to its layout, with 4.59 times the performance per watt of a conventional core across 25 workloads. It's the company's own pre-silicon simulation, against an unnamed core; no chip exists yet.",
+   "pillar": "intelligence",
+   "evidence": "Company claim; simulation only",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/AMD-and-Intel-move-over-AI-designed-an-all-new-CPU-and-claims-it-is-4-6x-more-efficient.1455225.0.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-0",
+     "key": "43b95a548c",
+     "relation": "early",
+     "note": "AI agents doing a chip's architecture, design and layout is the forecast's work, but this is one start-up's own pre-silicon claim."
+    }
+   ]
+  },
+  {
+   "id": "medchem",
+   "title": "OpenAI's new test of AI drug-design reasoning: its best model earns 84.5%",
+   "summary": "MedChemBench tests AI on 99 medicinal-chemistry problems drawn from 117 papers and patents. OpenAI's best model, GPT-6.2 Astra, earned 84.5% of the credit. It's the company's own test of its own models, a step towards AI that helps chemists choose which molecules to make.",
+   "pillar": "intelligence",
+   "evidence": "Company benchmark of its own models",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/introducing-medchembench/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "brain",
+   "title": "Why the left brain runs the right body: a theory points to ancient fish eyes",
+   "summary": "University of Minnesota neuroscientists propose that the brain's crossed wiring began in vision, in jawless fish over 500 million years ago, with touch and pain pathways following its lead. It's a theory built from existing studies in Frontiers in Neuroanatomy, with no new experiments.",
+   "pillar": "intelligence",
+   "evidence": "Theory paper; no new experiments",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/new-theory-explains-why-the-right-side-of-the-brain-controls-the-left-side-of-the-body"
+    },
+    {
+     "outlet": "Frontiers in Neuroanatomy",
+     "url": "https://doi.org/10.3389/fnana.2026.1937941"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sugar",
+   "title": "Britons conceived under sugar rationing test biologically younger in their 50s",
+   "summary": "Among 54,201 UK Biobank adults, those conceived under Britain's sugar rationing, which ended in 1953, had a blood-test biological age up to about five months lower in their 50s, and 22% less chronic kidney disease. It's an observational natural experiment, a link rather than proof.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 54,201 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/people-exposed-to-sugar-rationing-in-early-life-appear-biologically-younger-in-their-50s"
+    },
+    {
+     "outlet": "Nature Communications",
+     "url": "https://doi.org/10.1038/s41467-026-79639-7"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "upf",
+   "title": "With nutrients matched, an ultraprocessed meal still brought a bigger insulin surge",
+   "summary": "In a Virginia Tech trial, 32 adults ate two ~300-calorie meals matched within 1.6% on a dozen nutrition measures. Blood sugar was similar, but insulin ran higher from 40 to 120 minutes after the ultraprocessed meal. A small trial of single meals in healthy young adults.",
+   "pillar": "longevity",
+   "evidence": "Small crossover trial, 32 adults",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/even-when-calories-and-nutrients-match-ultraprocessed-foods-trigger-a-larger-insulin-surge/"
+    },
+    {
+     "outlet": "Nature Metabolism",
+     "url": "https://doi.org/10.1038/s42255-026-01619-4"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tofa",
+   "title": "In mice, a Berkeley compound burned fat but spared muscle",
+   "summary": "UC Berkeley's compound TOFA blocks fat-making and switches on fat-burning genes. In obese mice it raised energy use by up to 18% and cut fat without a significant loss of muscle, and it boosted GLP-1 drugs. It hasn't been tested in people.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "knee",
+   "title": "Adding core exercises helped people with knee arthritis more than knee exercises alone",
+   "summary": "In a randomised trial in India, 100 people aged 40-80 with mild to moderate knee osteoarthritis did 12 weeks of rehab; adding core work such as planks and glute bridges improved function, pain on movement and quality of life more. A small trial in one country.",
+   "pillar": "longevity",
+   "evidence": "Randomised trial, 100 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/one-type-of-exercise-could-be-an-overlooked-treatment-for-knee-osteoarthritis-clinical-trial-finds"
+    },
+    {
+     "outlet": "Scientific Reports",
+     "url": "https://doi.org/10.1038/s41598-026-78773-y"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "breathwork",
+   "title": "Therapists who tried fast breathing reported psychedelic-like bliss",
+   "summary": "In Berlin, 48 psychiatrists and psychotherapists tried 30 minutes of fast, continuous breathing; their bliss and unity scores looked similar to moderate psychedelic doses in other studies. A small exploratory study with no control group: it shows their impressions, not that it treats anything.",
+   "pillar": "wellbeing",
+   "evidence": "Small exploratory study, 48 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/breathwork-can-induce-altered-states-comparable-to-moderate-psychedelic-doses-study-finds/"
+    },
+    {
+     "outlet": "npj Mental Health Research",
+     "url": "https://doi.org/10.1038/s44184-026-00246-x"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "thc",
+   "title": "Low-dose THC made people feel high but didn't ease a stressful memory",
+   "summary": "In a University of Chicago lab study of 36 healthy adults, low oral doses of THC made people feel high but didn't ease their distress when reminded of a stressful task, then or a week later. A small study in healthy volunteers, not people with PTSD.",
+   "pillar": "wellbeing",
+   "evidence": "Small lab study, 36 adults",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/low-dose-thc-makes-people-feel-high-without-relieving-distress-from-stressful-memories/"
+    },
+    {
+     "outlet": "Psychopharmacology",
+     "url": "https://doi.org/10.1007/s00213-026-07064-1"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chatgpt",
+   "title": "ChatGPT's Mandarin versions of mental-health checklists changed from user to user",
+   "summary": "A University of Canterbury study had ChatGPT translate two mental-health screening scales into Mandarin for New Zealand. One well-crafted prompt worked better, but colleagues running the same prompt got different wording, and screening tools need to work the same way every time.",
+   "pillar": "wellbeing",
+   "evidence": "Small exploratory translation study",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-chatgpt-mental-health-questionnaires-mandarin.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "banks",
+   "title": "US banks crack down on AI agents logging into customers' accounts",
+   "summary": "WIRED reports Wells Fargo's new terms say using an AI agent is at your own risk, and JPMorgan Chase bans third-party agents that log in with your password; Bank of America, Citibank and PNC have also warned customers. A brake on handing everyday money tasks to AI agents, for now.",
+   "pillar": "intelligence",
+   "evidence": "Bank terms, reported by WIRED",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "norma",
+   "title": "Part of the Milky Way's Norma arm may not be a spiral arm at all",
+   "summary": "University of Sydney astronomer Hillary Davis found that stars form along a shock front of the Milky Way's central bar, which is unusual among nearby galaxies, so at least part of the Norma spiral arm may not be an arm. Published in Nature Astronomy, comparing simulations with observations.",
+   "pillar": "frontier",
+   "evidence": "Peer-reviewed: simulations and observations",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Tech Explorist",
+     "url": "https://www.techexplorist.com/milky-way-oddball-nearby-galaxies-new-stars-differently/106262/"
+    },
+    {
+     "outlet": "University of Sydney via Mirage News",
+     "url": "https://www.miragenews.com/discovery-challenges-understanding-of-milky-way-1781191/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "blackhole",
+   "title": "A physicist built a mock black hole from logic gates, then made it leak",
+   "summary": "Keio University's Antonino Flachi built an analogue black hole out of logic gates, about 604 million bits, where ripples get trapped at a horizon; when he poked it, it leaked. A preprint, not yet peer reviewed, and a model in digital logic rather than a real black hole.",
+   "pillar": "frontier",
+   "evidence": "Preprint",
+   "chapter": "THE FRONTIER",
+   "badge": "PREPRINT",
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/a-physicist-built-a-black-hole-on-a-chip-then-it-started-to-leak"
+    },
+    {
+     "outlet": "arXiv",
+     "url": "https://doi.org/10.48550/arXiv.2611.10540"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "rev1",
+   "title": "A reusable space factory for growing drug crystals aims to fly by 2030",
+   "summary": "Luxembourg's Space Cargo Unlimited showed a full-size model of REV1, a reusable space factory built to bring a tonne of cargo home and fly about 20 times, for things like drug crystals that grow more evenly in orbit. A company plan: it's targeting flight readiness in 2030.",
+   "pillar": "frontier",
+   "evidence": "Company plan",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/space-systems/space-cargo-unlimited-rev1-reusable-space-factory/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Monday, November 23."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in transhumanism."
+  },
+  {
+   "s": 15.0,
+   "t": "Still working!"
+  },
+  {
+   "s": 15.93,
+   "t": "The week's best: a woman in Boston has lived a year with a pig kidney."
+  },
+  {
+   "s": 22.03,
+   "t": "And OpenAI's chief scientist wants AI lab s to agree on limits they won't cross yet."
+  },
+  {
+   "s": 31.88,
+   "t": "And Anthropic's Riemann mathematician is back, now claiming an AI-aided fluid-flow proof."
+  },
+  {
+   "s": 38.91,
+   "t": "A startup says AI agents designed a new processor from scratch, though no chip exists yet."
+  },
+  {
+   "s": 45.94,
+   "t": "OpenAI built a drug-design exam for AI; its best model scored about 85%."
+  },
+  {
+   "s": 52.97,
+   "t": "And why is the brain wired crosswise?"
+  },
+  {
+   "s": 55.58,
+   "t": "A new theory traces it to ancient fish eyes."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity."
+  },
+  {
+   "s": 61.02,
+   "t": "Britons born under sugar rationing look up to 5 months younger in blood tests."
+  },
+  {
+   "s": 67.5,
+   "t": "And with calories matched, an ultraprocessed meal still sparked a bigger insulin surge in 32 volunteers."
+  },
+  {
+   "s": 75.0,
+   "t": "In mice, a Berkeley compound burned fat but spared muscle, lifting energy use up to 18%."
+  },
+  {
+   "s": 82.5,
+   "t": "And in 100 people with knee arthritis, adding core workouts helped more than knee exercises alone."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing."
+  },
+  {
+   "s": 91.1,
+   "t": "48 therapists tried fast breathing; their bliss scores resembled moderate psychedelic doses."
+  },
+  {
+   "s": 97.5,
+   "t": "Meanwhile, in 36 adults, low-dose THC made people feel high but didn't ease a stressful memory."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch. In New Zealand, ChatGPT's Mandarin versions of mental-health checklists changed from user to user."
+  },
+  {
+   "s": 112.5,
+   "t": "And big US banks now say: let an AI agent into your account at your own risk."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, a Sydney astronomer may have redrawn part of our galaxy's map."
+  },
+  {
+   "s": 128.91,
+   "t": "In Japan, a physicist built a mock black hole from logic gates, then made it leak."
+  },
+  {
+   "s": 135.94,
+   "t": "And a reusable space factory for growing dr ug crystals aims to be flight-ready by 2030."
+  },
+  {
+   "s": 142.5,
+   "t": "One year, one pig kidney, no dialysis."
+  },
+  {
+   "s": 145.53,
+   "t": "Every extra year is the point. Still working!"
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build the future. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-23/The-Transhuman-Daily_2026-11-23.mp4",
+  "mb": 56.3,
+  "bytes": 56264698,
+  "seconds": 180.01
+ },
+ "links": {}
+}
