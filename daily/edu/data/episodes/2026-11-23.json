@@ -1,0 +1,353 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-23",
+ "ep": 28,
+ "hook": "IN SAFE HANDS.",
+ "day": "Monday 23 November 2026",
+ "note": "FOR EDUCATION · MONDAY 23 NOVEMBER 2026",
+ "tldr": "OneDrive gives every file and folder one link that follows your sharing settings, GitHub and Power Pages get handy previews, and Edge tests a Lockdown Mode.",
+ "chapters": [
+  "IN SAFE HANDS",
+  "SHARE AND CODE",
+  "CAMPUS IT",
+  "THE LAB",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the week's best, from the 80 hours to 06:03 AEDT, Mon 23 Nov 2026 (Thursday 19 to Sunday 22 Nov in the US), plus This-week items.",
+ "notes": [
+  "A thin week for new education-specific news: the week's education stories (Microsoft Classroom, Study and Learn in assignments, Hour of AI, Hwb, Quantum Pioneers) were covered 18-22 Nov, so today's stories are campus-wide updates. This week: OneDrive hero links (Ignite, 17 Nov), Decision-1 as a Foundry judge (18 Nov) and Edge Lockdown Mode (Microsoft's post 13 Nov, press coverage 18-20 Nov).",
+  "Status: GitHub's pull request Overview, Power Pages inventory and Decision-1 as a judge are in public preview; Edge Lockdown Mode is an experiment in Edge Canary behind a flag; GPT-6.2 in Microsoft 365 Copilot (from an admin notice) and Windows Server 2028's optional WoW64 (from Windows Central) are as reported; Bungle Brawl's 24 Nov date is subject to change.",
+  "Screenshots are the publishers' public pages as captured on 23 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "IN SAFE HANDS. 🔐\n\nThe week's best at Microsoft for education:\n- OneDrive: one link per file or folder that updates when you change access\n- GitHub's clearer pull request page (preview)\n- Power Pages sites in one inventory (preview)\n- Edge tests Lockdown Mode",
+  "alt": "A 3-minute motion-graphics showreel of the week's best Microsoft updates for education (23 Nov 2026): OneDrive's hero links, GPT-6.2 Sol in Microsoft 365 Copilot as reported, GitHub's improved pull request Overview, Power Pages sites in Power Platform inventory, Windows Server 2028's optional 32-bit support as reported, Microsoft-Decision-1 as a judge in Foundry Evaluations, the fixed Entra Connect Health flaw, Edge Lockdown Mode in Canary and Bungle Brawl on Xbox, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "MICROSOFT CLASSROOM: SCHOOL ADMINS CAN REGISTER AT AKA.MS/CLASSROOMPREVIEW FOR THE PREVIEW PLANNED FOR EARLY 2027",
+  "EDUCATORS CAN SHARE EARLY FEEDBACK ON MICROSOFT CLASSROOM THROUGH THE EDU INSIDERS PROGRAM (AKA.MS/JOINEIP)",
+  "STUDY AND LEARN IN ASSIGNMENTS NEEDS STUDENTS 13+ WITH A1, A3 OR A5 AND COPILOT CHAT; IT ENABLES IT FOR AGES 13-17",
+  "ONEDRIVE: A NEW HERO LINK USUALLY STARTS AT 'ONLY PEOPLE ADDED'; ADMINS CAN RESTRICT OPTIONS SUCH AS 'ANYONE'",
+  "ONEDRIVE: COPILOT IN ONEDRIVE IS GENERALLY AVAILABLE, MICROSOFT SAID AT IGNITE",
+  "ONEDRIVE SYNC SUPPORTS UP TO ONE MILLION ITEMS ON WINDOWS AND MACOS",
+  "ONEDRIVE: EDIT HTML WITH A LIVE PREVIEW, AND MARKDOWN WITH REAL-TIME COAUTHORING",
+  "MICROSOFT 365 COPILOT: GPT-6.2 ASTRA NEEDS USAGE-BASED BILLING, PER AN ADMIN NOTICE AS REPORTED",
+  "GITHUB: LOCK OR UNLOCK PULL REQUEST CONVERSATIONS RIGHT FROM THE NEW OVERVIEW PAGE (PREVIEW)",
+  "GITHUB: FORCE-PUSH ACTIVITY NOW LINKS TO THE OLD AND NEW COMMITS IN THE PULL REQUEST OVERVIEW PREVIEW",
+  "POWER PAGES INVENTORY: QUERY IT THROUGH AZURE RESOURCE GRAPH OR THE POWER PLATFORM API, OR EXPORT A CSV",
+  "WINDOWS 11 KEEPS 32-BIT APP SUPPORT BY DEFAULT; THE WOW64 CHANGE IS FOR WINDOWS SERVER 2028, AS REPORTED",
+  "MICROSOFT-DECISION-1 IS BUILT ON QWEN3.5-9B AND HAS BEEN IN PUBLIC PREVIEW IN FOUNDRY SINCE 9 OCTOBER",
+  "ENTRA CONNECT HEALTH: NO PASSWORDS, TOKENS OR VALID KEYS WERE EXPOSED, MICROSOFT SAYS",
+  "ENTRA CONNECT HEALTH: MICROSOFT'S SCRIPT AT AKA.MS/CONNECTHEALTH/SCRIPTS SHOWS WHICH TYPES OF DATA COULD HAVE BEEN EXPOSED",
+  "EDGE LOCKDOWN MODE: TRY IT IN CANARY WITH THE #EDGE-SDSM-PLUS FLAG; GAMES AND MAPS MAY BREAK",
+  "VISUAL STUDIO SUBSCRIBERS: UP TO $900 OFF VSLIVE! TRAINING, INCLUDING A FOUNDRY AGENT COURSE FROM 4 FEBRUARY",
+  "GEEKWIRE: MICROSOFT'S FINAL REPORT ON THE NOVEMBER OUTLOOK OUTAGE LISTS 13 FIXES",
+  "NEXT WEEK ON XBOX: THE SPOTTER: DIG OR DIE (23 NOV) AND STORAGE HUNTER SIMULATOR (24 NOV)"
+ ],
+ "sources": [
+  "Microsoft Support",
+  "Microsoft Tech Community",
+  "Startup Fortune",
+  "GitHub Changelog",
+  "Microsoft Power Platform Blog",
+  "Windows Central",
+  "Microsoft Foundry Blog",
+  "BleepingComputer",
+  "Microsoft Edge Vulnerability Research",
+  "Xbox Wire",
+  "Visual Studio Blog",
+  "GeekWire"
+ ],
+ "scanned": 2043,
+ "stories": [
+  {
+   "id": "onedrive-hero-link",
+   "title": "OneDrive gives every file and folder one main link",
+   "summary": "In OneDrive for work or school, every file or folder now has one hero link, shown under File link settings, and Copy link copies it. Change who it works for (only people added, people in your organisation, or anyone, if your IT team allows it) and you don't get a new link: the change applies to everyone who already has it.",
+   "for": "Teachers, students and staff sharing class work",
+   "status": "Available (OneDrive for work or school)",
+   "edu": false,
+   "chapter": "IN SAFE HANDS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/onedrive/share-files-and-folders-in-microsoft-onedrive"
+    },
+    {
+     "outlet": "Microsoft Tech Community (SharePoint blog)",
+     "url": "https://techcommunity.microsoft.com/blog/spblog/sharepoint-and-onedrive-at-microsoft-ignite-2026-putting-ai-powered-content-to-w/4535416"
+    }
+   ]
+  },
+  {
+   "id": "copilot-gpt62",
+   "title": "GPT-6.2 Sol is reportedly included with Microsoft 365 Copilot",
+   "summary": "According to Microsoft's admin notice, as reported by Startup Fortune and Business Upturn, OpenAI's GPT-6.2 Sol ships with the Microsoft 365 Copilot licence, while GPT-6.2 Astra needs usage-based billing and an enabled OpenAI subprocessor setting. Nothing says it reaches student Copilot Chat.",
+   "for": "Staff with Microsoft 365 Copilot licences",
+   "status": "Reported (from Microsoft's admin notice)",
+   "edu": false,
+   "chapter": "SHARE AND CODE",
+   "badge": "REPORTED",
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Startup Fortune",
+     "url": "https://startupfortune.com/microsoft-puts-openais-gpt-62-sol-in-copilot-worldwide-as-mai-models-push-in/"
+    }
+   ]
+  },
+  {
+   "id": "gh-pr-overview",
+   "title": "GitHub's new pull request page shows more clearly what's blocking a merge",
+   "summary": "GitHub's new pull request Overview page, in public preview since 5 November, now shows clearer merge status and next steps: failed optional checks no longer make a mergeable pull request look blocked, resolved review threads collapse, and force-pushes link to the old and new commits. You can switch back to the classic view during the preview.",
+   "for": "Coding students and teachers",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "SHARE AND CODE",
+   "badge": null,
+   "date": "2026-11-19",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview"
+    }
+   ]
+  },
+  {
+   "id": "pp-inventory",
+   "title": "Power Pages sites now show up in Power Platform inventory",
+   "summary": "In public preview, admins can find Power Pages sites in Manage > Inventory in the Power Platform admin center, alongside apps, flows and agents. They can spot sites that allow anonymous access or are owned by people who are leaving, query the inventory through Azure Resource Graph or the Power Platform API, and export it to CSV.",
+   "for": "University portal admins",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Microsoft Power Platform Blog",
+     "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/discover-and-review-power-pages-sites-with-power-platform-inventory-public-preview/"
+    }
+   ]
+  },
+  {
+   "id": "wow64-server",
+   "title": "Windows Server 2028 reportedly won't run 32-bit apps by default",
+   "summary": "As reported by Windows Central, the next Windows Server, Windows Server 2028, will make the WoW64 compatibility layer an optional component, so 32-bit apps won't run out of the box. Microsoft's Elden Christensen said 32-bit malware won't be able to run on it. Windows 11 keeps WoW64 by default.",
+   "for": "University server admins",
+   "status": "Reported; due with Windows Server 2028",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": "REPORTED",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Windows Central",
+     "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-is-removing-32-bit-app-support-from-the-next-version-of-windows-server-wow64-subsystem-to-become-optional-component-to-reduce-malware-attack-surface"
+    }
+   ]
+  },
+  {
+   "id": "decision1-judge",
+   "title": "Foundry can use Microsoft's Decision-1 model as an evaluation judge",
+   "summary": "In public preview, Microsoft-Decision-1 can be the judge in Foundry Evaluations, returning a probability for each possible answer instead of a written reason. In Microsoft's tests it took a median of 0.59 seconds and cost $0.12 per 1,000 calls, against $0.70 to $34.39 for 12 chat judges, though it was less accurate than most.",
+   "for": "University teams testing AI agents for students and staff",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/microsoft-decision-1-as-a-judge-in-foundry-evaluations/4572676"
+    }
+   ]
+  },
+  {
+   "id": "entra-connect-health",
+   "title": "Microsoft fixed an Entra Connect Health flaw that exposed admin emails and tenant details",
+   "summary": "Attackers exploited a flaw in the Entra Connect Health API to read admin and technical contact emails and tenant details. Microsoft fixed it on 19 November and notified affected customers through Azure Service Health. No patch is needed, but it advises watching for targeted phishing and using phishing-resistant MFA for privileged accounts.",
+   "for": "School and university IT",
+   "status": "Fixed 19 Nov; no customer action needed",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+    },
+    {
+     "outlet": "Cyber Security News",
+     "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/"
+    }
+   ]
+  },
+  {
+   "id": "edge-lockdown",
+   "title": "Edge is testing a Lockdown Mode for people most at risk",
+   "summary": "The first version of Edge Lockdown Mode is in Edge Canary behind a flag. It blocks WebGL, WebGL2 and WebGPU on web pages, and Microsoft says today's Canary version would have mitigated roughly 60% of privilege escalation exploits seen in the wild since February 2022. Games, maps and design tools may break, so it isn't meant for everyone.",
+   "for": "Staff most at risk: IT admins, researchers, leaders",
+   "status": "Edge Canary experiment, behind a flag",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-13",
+   "sources": [
+    {
+     "outlet": "Microsoft Edge Vulnerability Research",
+     "url": "https://microsoftedge.github.io/edgevr/posts/Lockdown-Mode/"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/"
+    }
+   ]
+  },
+  {
+   "id": "bungle-brawl",
+   "title": "Bungle Brawl brings wobbly couch co-op to Xbox on 24 November",
+   "summary": "Bungle Brawl: Couch Co-op Party is a wobbly physics party brawler for 1 to 4 players on one screen, with bots to fill every match, and costumes like a Banana, a Shark or a Hot Dog. Xbox Wire lists it for 24 November; release dates are subject to change.",
+   "for": "Students, after the bell",
+   "status": "Coming 24 November (subject to change)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/20/next-week-on-xbox-new-games-for-november-23-to-27/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Monday."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what shipped at Microsoft in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "In safe hands: more of the week's best."
+  },
+  {
+   "s": 17.76,
+   "t": "OneDrive now gives every file and folder one main link."
+  },
+  {
+   "s": 22.5,
+   "t": "Change who it works for, and that same link updates for everyone."
+  },
+  {
+   "s": 31.88,
+   "t": "Teachers, keep a link to the people you added, or open it to everyone at your school."
+  },
+  {
+   "s": 39.38,
+   "t": "With Microsoft 365 Copilot, GPT-6.2 Sol is reportedly included."
+  },
+  {
+   "s": 46.41,
+   "t": "Coding class? GitHub's new pull request page, in preview, shows more clearly what's blocking a merge."
+  },
+  {
+   "s": 53.91,
+   "t": "Failed optional checks no longer make it look blocked, and resolved threads fold away."
+  },
+  {
+   "s": 60.0,
+   "t": "Run student portals on Power Pages?"
+  },
+  {
+   "s": 62.45,
+   "t": "Admins can now find every site in one inventory, in preview."
+  },
+  {
+   "s": 67.5,
+   "t": "Spot sites that allow anonymous visitors, or ones owned by staff who are leaving."
+  },
+  {
+   "s": 75.0,
+   "t": "For server admins, Windows Server 2028 reportedly won't run 32-bit apps by default."
+  },
+  {
+   "s": 82.5,
+   "t": "You can add that back, and Microsoft says 32-bit malware won't run."
+  },
+  {
+   "s": 90.0,
+   "t": "Testing a student help agent?"
+  },
+  {
+   "s": 91.78,
+   "t": "Foundry can now use Microsoft's Decision-1 model as the judge, in preview."
+  },
+  {
+   "s": 97.5,
+   "t": "In Microsoft's tests it took under a second, at 12 cents per thousand checks."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? An Entra Connect Health flaw exposed admin emails and tenant details, and it's now fixed."
+  },
+  {
+   "s": 112.5,
+   "t": "No patch is needed, but check Azure Service Health and watch for targeted phishing."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Edge Canary is testing a Lockdown Mode for people most at risk, like IT admins."
+  },
+  {
+   "s": 129.38,
+   "t": "Microsoft says it would have mitigated roughly 60% of real-world privilege escalation exploits."
+  },
+  {
+   "s": 136.88,
+   "t": "Plus, Bungle Brawl hits Xbox on the 24th: wobbly brawling for four, on one screen."
+  },
+  {
+   "s": 143.91,
+   "t": "One link, a locked-down browser, clear checks: your campus, in safe hands."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "On the release board: shipped, and still shipping."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours at Microsoft. Tomorrow, there's more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-23/Microsoft-for-Education-Daily_2026-11-23.mp4",
+  "mb": 54.5,
+  "bytes": 54462994,
+  "seconds": 180.01
+ },
+ "links": {}
+}

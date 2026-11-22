@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00:01.880 --> 00:00:05.210
+This is the Microsoft for Education Daily, for Monday.
+
+00:00:06.560 --> 00:00:09.920
+Here's what shipped at Microsoft in the last 24 hours.
+
+00:00:15.000 --> 00:00:17.760
+In safe hands: more of the week's best.
+
+00:00:17.760 --> 00:00:21.730
+OneDrive now gives every file and folder one main link.
+
+00:00:22.500 --> 00:00:26.550
+Change who it works for, and that same link updates for everyone.
+
+00:00:31.880 --> 00:00:34.290
+Teachers, keep a link to the people you added,
+
+00:00:34.290 --> 00:00:36.340
+or open it to everyone at your school.
+
+00:00:39.380 --> 00:00:45.880
+With Microsoft 365 Copilot, GPT-6.2 Sol is reportedly included.
+
+00:00:46.410 --> 00:00:49.430
+Coding class? GitHub's new pull request page,
+
+00:00:49.430 --> 00:00:53.190
+in preview, shows more clearly what's blocking a merge.
+
+00:00:53.910 --> 00:00:56.910
+Failed optional checks no longer make it look blocked,
+
+00:00:56.910 --> 00:00:58.690
+and resolved threads fold away.
+
+00:01:00.000 --> 00:01:02.450
+Run student portals on Power Pages?
+
+00:01:02.450 --> 00:01:06.720
+Admins can now find every site in one inventory, in preview.
+
+00:01:07.500 --> 00:01:10.170
+Spot sites that allow anonymous visitors,
+
+00:01:10.170 --> 00:01:12.780
+or ones owned by staff who are leaving.
+
+00:01:15.000 --> 00:01:16.290
+For server admins,
+
+00:01:16.290 --> 00:01:20.970
+Windows Server 2028 reportedly won't run 32-bit apps by default.
+
+00:01:22.500 --> 00:01:26.620
+You can add that back, and Microsoft says 32-bit malware won't run.
+
+00:01:30.000 --> 00:01:31.780
+Testing a student help agent?
+
+00:01:31.780 --> 00:01:36.400
+Foundry can now use Microsoft's Decision-1 model as the judge, in preview.
+
+00:01:37.500 --> 00:01:42.290
+In Microsoft's tests it took under a second, at 12 cents per thousand checks.
+
+00:01:45.000 --> 00:01:50.700
+The fine print? An Entra Connect Health flaw exposed admin emails and tenant details,
+
+00:01:50.700 --> 00:01:52.050
+and it's now fixed.
+
+00:01:52.500 --> 00:01:53.570
+No patch is needed,
+
+00:01:53.570 --> 00:01:57.160
+but check Azure Service Health and watch for targeted phishing.
+
+00:02:01.880 --> 00:02:07.050
+After hours, Edge Canary is testing a Lockdown Mode for people most at risk,
+
+00:02:07.050 --> 00:02:08.140
+like IT admins.
+
+00:02:09.380 --> 00:02:12.440
+Microsoft says it would have mitigated roughly
+
+00:02:12.440 --> 00:02:15.700
+60% of real-world privilege escalation exploits.
+
+00:02:16.880 --> 00:02:21.870
+Plus, Bungle Brawl hits Xbox on the 24th: wobbly brawling for four,
+
+00:02:21.870 --> 00:02:22.990
+on one screen.
+
+00:02:23.910 --> 00:02:29.000
+One link, a locked-down browser, clear checks: your campus, in safe hands.
+
+00:02:30.000 --> 00:02:33.020
+Day after day, the updates keep stacking up.
+
+00:02:33.750 --> 00:02:36.690
+On the release board: shipped, and still shipping.
+
+00:02:37.500 --> 00:02:41.410
+That was 24 hours at Microsoft. Tomorrow, there's more.
+
+00:02:45.000 --> 00:02:47.720
+This has been the Microsoft for Education Daily.
+
+00:02:48.750 --> 00:02:51.310
+Stay curious. See you tomorrow.
