@@ -27,8 +27,8 @@
   const state = {
     index: null, preds: null, tracker: null, byId: new Map(), byKey: new Map(), order: new Map(), episodes: new Map(),
     score: { tests: {}, due: [], soon: [] }, dueIds: new Set(), revs: { items: [] }, weekly: { items: [] },
-    current: null, lastSync: 0, filters: { q: '', domain: 'all', rel: 'all', view: 'year' },
-    sdTracker: null, th: null,
+    current: null, lastSync: 0, filters: { q: '', domain: 'all', rel: 'all', view: 'year', who: 'all' },
+    sdTracker: null, th: null, musk: null, muskById: new Map(),
   };
 
   const $ = id => document.getElementById(id);
@@ -127,6 +127,28 @@
   const theShows = () => (thOn() ? 'the shows' : 'the show');
   const itemHref = i => (i.show === 'th' ? `#/transhuman/${i.on}/${i.story}` : `#/ep/${i.on}/${i.story}`);
   const itemEp = i => (i.show === 'th' ? `Transhuman Daily EP.${pad3(i.ep)}` : `EP.${pad3(i.ep)}`);
+
+  // ------------------------------------------------------------------ Elon Musk's predictions, on the same timeline
+  // engine\build\musk.py checks PROJECT\musk.json and publish.py writes daily/data/musk.json: his dated predictions on the
+  // Guide's subjects, in his own words, each placed in the year he gave and judged like the Guide's once his date passes.
+  // The Guide's own timeline (peterxing.com/guide#timeline) reads the same file.
+  function setMusk(m) {
+    state.musk = m && Array.isArray(m.items) ? m : null;
+    state.muskById = new Map(state.musk ? state.musk.items.map(x => [x.id, x]) : []);
+  }
+  const muskItems = () => (state.musk ? state.musk.items : []);
+  const muskJudged = x => Boolean(x.verdict); // his date has passed (judged or awaiting a verdict), or it came true early
+  const muskLive = () => muskItems().filter(x => !muskJudged(x));
+  const muskDue = () => muskItems().filter(muskJudged);
+  const muskFor = id => muskItems().filter(x => x.forecast === id);
+  const topicName = t => (state.musk && state.musk.topics && state.musk.topics[t]) || t;
+  const longYm = s => `${LONG_MONTHS[Number(s.slice(5, 7)) - 1]} ${s.slice(0, 4)}`;
+  const muskYear = x => (Number(x.by.slice(0, 4)) > 2040 ? 'beyond' : x.by.slice(0, 4));
+  const muskOrder = x => (Number(x.by.slice(0, 4)) * 12 + Number(x.by.slice(5, 7))) * 100 + 99; // after the Guide's in the same month
+  const muskSpan = x => `By the end of ${longYm(x.by)}${x.until ? `, and no later than the end of ${longYm(x.until)}` : ''}`;
+  const muskHref = x => `#/musk/${x.id}`;
+  const muskPill = () => h('span', { class: 'who-pill', text: 'Elon Musk' });
+  const outLink = (href, text) => h('a', { href, target: '_blank', rel: 'noopener', text });
 
   // ------------------------------------------------------------------ episode
   async function showEpisode(date) {
@@ -401,7 +423,43 @@
     $('verdictList').replaceChildren(...due.map(verdictCard));
     if (!due.length) $('verdictList').append(h('li', { class: 'empty', text: 'No forecast has fallen due yet.' }));
     renderSoon(soonIds);
+    renderMuskDue();
     renderRevisions();
+  }
+
+  // Elon Musk's predictions whose date has passed: judged against their tests, like the Guide's
+  function renderMuskDue() {
+    const box = $('muskDue');
+    if (!box) return;
+    box.hidden = !muskItems().length;
+    if (box.hidden) return;
+    const due = muskDue().sort((a, b) => b.by.localeCompare(a.by) || a.id.localeCompare(b.id)), live = muskLive();
+    const n = k => due.filter(x => x.verdict === k).length;
+    const kinds = ['right', 'partly', 'wrong', 'open', 'pending'].filter(k => k !== 'pending' || n(k));
+    box.replaceChildren(
+      h('h3', { class: 'sub-h', text: 'Elon Musk\u2019s predictions, judged the same way' }),
+      h('p', { class: 'section-sub' }, `His own dated predictions on the same subjects, in his words, sit on the timeline next to the Guide's forecasts. Each gets a test when it is added here, and once the date he gave has passed it is judged against it: right, partly right, wrong, or not settled while the outer limit he gave is still open. ${live.length} more ${live.length === 1 ? 'is' : 'are'} still to come: `,
+        h('a', { href: '#/musk', text: 'see them on the timeline \u2192' })),
+      due.length ? h('div', { class: 'vtally' }, kinds.map(k => h('div', { class: `vt ${k}` }, h('b', { text: String(n(k)) }), h('span', { text: VERDICT[k].many })))) : null,
+      h('ol', { class: 'verdicts' }, due.length ? due.map(muskCard) : h('li', { class: 'empty', text: 'None of his dated predictions has fallen due yet.' })));
+  }
+
+  function muskCard(x) {
+    const row = (label, ...kids) => h('div', { class: 'vc-row' }, h('span', { class: 'lab mono', text: label }), h('div', null, ...kids));
+    const p = x.forecast ? state.byId.get(x.forecast) : null;
+    return h('li', { class: `vc musk ${x.verdict}`, id: `mv-${x.id}` },
+      h('div', { class: 'vc-top' }, verdictPill(x.verdict), muskPill(),
+        h('span', { class: 'vc-when mono', text: `${muskSpan(x)} · said ${dayMonthYear(x.said)} · ${topicName(x.topic)}` }),
+        x.on ? h('span', { class: 'vc-on mono', text: `Judged ${dayMonthYear(x.on)}` }) : null),
+      h('p', { class: 'vc-t', text: x.claim }),
+      row('His words', h('p', { class: 'mq', text: `\u201c${x.quote}\u201d` }),
+        h('p', { class: 'note' }, `${x.where}. `, outLink(x.source.url, `${x.source.outlet} \u2197`))),
+      row('The test', h('p', { text: x.test })),
+      row('What happened', h('p', { text: x.finding || 'The date he gave has passed. The verdict will be written against its test, from the evidence, within a few days.' })),
+      (x.evidence || []).length ? row('Sources', h('ul', { class: 'vc-src' }, x.evidence.map(evidenceItem))) : null,
+      (x.was || []).length ? h('details', { class: 'vc-was' }, h('summary', { text: 'Earlier verdicts' }),
+        h('ul', null, x.was.map(w => h('li', null, `${VERDICT[w.verdict] ? VERDICT[w.verdict].label : w.verdict}${w.on ? ` (${dayMonthYear(w.on)})` : ''}${w.finding ? `: ${w.finding}` : ''}`)))) : null,
+      p ? row('The Guide', h('p', null, h('a', { href: forecastHref(p), text: p.t }), h('small', { class: 'mono', text: ` · ${when(p)} · ${odds(p)}` }))) : null);
   }
 
   function verdictCard(d) {
@@ -538,7 +596,7 @@
     $('scoreboard').replaceChildren(...tiles, h('div', { class: 'domains' }, doms));
     const dated = live.filter(p => p.kind === 'dated'), first = dated.slice().sort((a, b) => order(a) - order(b))[0];
     const eps = state.index.episodes.length, due = state.score.due.length, thEps = thOn() ? state.th.episodes || 0 : 0;
-    $('forecastIntro').textContent = `The Guide's ${dated.length} live dated forecasts, from ${first ? when(first) : 'now'} to 2040, plus ${live.length - dated.length} beyond superintelligence, dated on the condition that aligned superintelligence and their prerequisites arrive first, each with its best-guess date, its odds and, for the dated ones, the test it will be judged against. Every morning, each story in ${thEps ? 'the Singularity Daily and the Transhuman Daily' : 'the show'} is checked against them, across ${eps} episode${eps === 1 ? '' : 's'}${thEps ? ` of the Singularity Daily and ${thEps} of the Transhuman Daily` : ''} so far.${due ? ` ${due} more ${due === 1 ? 'has' : 'have'} fallen due or come true and ${due === 1 ? 'is' : 'are'} judged in What it got right or wrong.` : ''}`;
+    $('forecastIntro').textContent = `The Guide's ${dated.length} live dated forecasts, from ${first ? when(first) : 'now'} to 2040, plus ${live.length - dated.length} beyond superintelligence, dated on the condition that aligned superintelligence and their prerequisites arrive first, each with its best-guess date, its odds and, for the dated ones, the test it will be judged against. Every morning, each story in ${thEps ? 'the Singularity Daily and the Transhuman Daily' : 'the show'} is checked against them, across ${eps} episode${eps === 1 ? '' : 's'}${thEps ? ` of the Singularity Daily and ${thEps} of the Transhuman Daily` : ''} so far.${due ? ` ${due} more ${due === 1 ? 'has' : 'have'} fallen due or come true and ${due === 1 ? 'is' : 'are'} judged in What it got right or wrong.` : ''}${muskLive().length ? ` Alongside them, in the year he gave, ${muskLive().length} of Elon Musk's own dated predictions on the same subjects, quoted from public sources and judged the same way once his date has passed.` : ''}`;
   }
   const order = p => (p.kind === 'horizon' ? 1e7 + (p.year ? (p.year * 12 + (p.m || 6)) * 100 : 0) : (p.year * 12 + (p.m || 12)) * 100) + (state.order.get(p.id) || 0);
 
@@ -583,6 +641,7 @@
     sel.addEventListener('change', e => setDomain(e.target.value));
     $('fr').addEventListener('change', e => { f.rel = e.target.value; renderForecasts(); });
     $('fs').addEventListener('change', e => { f.view = e.target.value; renderForecasts(); });
+    if ($('fw')) $('fw').addEventListener('change', e => { f.who = e.target.value; renderForecasts(); });
   }
   function setDomain(d) {
     state.filters.domain = d;
@@ -591,14 +650,16 @@
     renderForecasts();
   }
   function clearFilters() {
-    Object.assign(state.filters, { q: '', domain: 'all', rel: 'all', view: 'year' });
+    Object.assign(state.filters, { q: '', domain: 'all', rel: 'all', view: 'year', who: 'all' });
     $('fq').value = ''; $('fd').value = 'all'; $('fr').value = 'all'; $('fs').value = 'year';
+    if ($('fw')) $('fw').value = 'all';
     renderScoreboard();
     renderForecasts();
   }
 
   function forecastRows() {
     const f = state.filters;
+    if (f.who === 'musk') return [];
     const words = f.q ? f.q.split(/\s+/) : [];
     const keep = liveItems().map(p => ({ p, r: trackerFor(p.id) })).filter(({ p, r }) => {
       if (f.domain !== 'all' && p.d !== f.domain) return false;
@@ -620,27 +681,46 @@
     return keep;
   }
 
+  // Musk's predictions still to come, for the year-by-year view: only when no domain or signal filter is on (they have neither)
+  function muskRows() {
+    const f = state.filters;
+    if (f.who === 'guide' || f.domain !== 'all' || f.rel !== 'all' || f.view !== 'year') return [];
+    const words = f.q ? f.q.split(/\s+/) : [];
+    return muskLive().filter(x => !words.length || words.every(w =>
+      `${x.claim} ${x.quote} ${x.when} ${x.where} ${topicName(x.topic)} elon musk ${ymLabel(x.by)}`.toLowerCase().includes(w)));
+  }
+
   function renderForecasts() {
-    const f = state.filters, rows = forecastRows(), host = $('forecastList'), live = liveItems();
-    const filtered = Boolean(f.q) || f.domain !== 'all' || f.rel !== 'all';
-    $('forecastCount').textContent = `Showing ${rows.length} of ${live.length} live forecasts · ${rows.filter(x => x.r).length} with news${f.view === 'year' ? ' · open a year to read it' : ''}`;
-    if (!rows.length) { host.replaceChildren(h('p', { class: 'empty', text: 'No forecasts match. Try another search or filter.' })); return; }
+    const f = state.filters, rows = forecastRows(), host = $('forecastList'), live = liveItems(), musk = muskRows();
+    const filtered = Boolean(f.q) || f.domain !== 'all' || f.rel !== 'all' || f.who !== 'all';
+    const mAll = muskLive().length, mText = mAll && f.view === 'year' && f.who !== 'guide' ? ` · ${musk.length} of Elon Musk's ${mAll} predictions` : '';
+    $('forecastCount').textContent = f.who === 'musk'
+      ? `Showing ${musk.length} of Elon Musk's ${mAll} predictions still to come, in the year he gave · ${muskDue().length} more ${muskDue().length === 1 ? 'has' : 'have'} fallen due (What it got right or wrong)`
+      : `Showing ${rows.length} of ${live.length} live forecasts · ${rows.filter(x => x.r).length} with news${mText}${f.view === 'year' ? ' · open a year to read it' : ''}`;
+    if (!rows.length && !musk.length) { host.replaceChildren(h('p', { class: 'empty', text: f.who === 'musk' && f.view !== 'year' ? 'Elon Musk\u2019s predictions show in the year-by-year view.' : 'No forecasts match. Try another search or filter.' })); return; }
     if (f.view !== 'year') { host.replaceChildren(h('ol', { class: 'forecasts' }, rows.map(({ p, r }) => forecastRow(p, r)))); return; }
     const wasOpen = new Set([...host.querySelectorAll('details.yr[open]')].map(d => d.dataset.year));
     const first = !host.dataset.ready;
     host.dataset.ready = '1';
     const now = Number((state.score.month || state.index.latest || '').slice(0, 4));
-    const groups = new Map();
+    const groups = new Map(), mgroups = new Map();
     for (const x of rows) {
       const k = x.p.kind === 'horizon' ? 'beyond' : String(x.p.year);
       if (!groups.has(k)) groups.set(k, []);
       groups.get(k).push(x);
     }
-    host.replaceChildren(...[...groups].map(([k, list]) => yearGroup(k, list,
-      filtered || (first ? k !== 'beyond' && Number(k) <= now + 1 : wasOpen.has(k)))));
+    for (const x of musk) {
+      const k = muskYear(x);
+      if (!groups.has(k)) groups.set(k, []);
+      if (!mgroups.has(k)) mgroups.set(k, []);
+      mgroups.get(k).push(x);
+    }
+    const keys = [...groups.keys()].sort((a, b) => (a === 'beyond') - (b === 'beyond') || Number(a) - Number(b));
+    host.replaceChildren(...keys.map(k => yearGroup(k, groups.get(k),
+      filtered || (first ? k !== 'beyond' && Number(k) <= now + 1 : wasOpen.has(k)), mgroups.get(k) || [])));
   }
 
-  function yearGroup(k, list, isOpen) {
+  function yearGroup(k, list, isOpen, musk = []) {
     const beyond = k === 'beyond', sum = { supports: 0, early: 0, challenges: 0 };
     let withNews = 0;
     for (const { r } of list) {
@@ -649,19 +729,56 @@
       for (const rel of Object.keys(REL)) sum[rel] += r[rel] || 0;
     }
     const note = beyond
-      ? 'Beyond superintelligence. Each horizon is conditional: its best-guess date says when it could arrive if aligned superintelligence and every prerequisite listed with it arrive first, with a window of several years either side, and its probability assumes the same.'
+      ? [list.length ? 'Beyond superintelligence. Each horizon is conditional: its best-guess date says when it could arrive if aligned superintelligence and every prerequisite listed with it arrive first, with a window of several years either side, and its probability assumes the same.' : '',
+        musk.length ? 'After them, Elon Musk\u2019s predictions dated after 2040, in his own words.' : ''].filter(Boolean).join(' ')
       : (state.preds.years || {})[k];
+    const count = [list.length ? (beyond ? `${list.length} conditional horizon${list.length === 1 ? '' : 's'}` : `${list.length} live forecast${list.length === 1 ? '' : 's'}`) : '',
+      musk.length ? `${musk.length} from Elon Musk` : ''].filter(Boolean).join(' · ');
+    const rows = [...list.map(({ p, r }) => ({ o: order(p), el: () => forecastRow(p, r) })),
+      ...musk.map(x => ({ o: (beyond ? 2e7 : 0) + muskOrder(x), el: () => muskRow(x) }))].sort((a, b) => a.o - b.o);
     const det = h('details', { class: `yr${beyond ? ' beyond' : ''}`, id: `y-${k}`, 'data-year': k });
     det.open = isOpen;
     det.append(
       h('summary', null,
         h('span', { class: 'y', text: beyond ? 'Beyond' : k }),
-        h('span', { class: 'yc' }, beyond ? `${list.length} conditional horizon${list.length === 1 ? '' : 's'}` : `${list.length} live forecast${list.length === 1 ? '' : 's'}`,
-          h('small', { text: withNews ? `${withNews} with news from ${theShows()}` : `No news from ${theShows()} yet` })),
+        h('span', { class: 'yc' }, count,
+          h('small', { text: withNews ? `${withNews} with news from ${theShows()}` : list.length ? `No news from ${theShows()} yet` : 'Elon Musk\u2019s predictions' })),
         h('span', { class: 'tally' }, tallyPills(sum))),
       note ? h('p', { class: 'ysum', text: note }) : null,
-      h('ol', { class: 'forecasts' }, list.map(({ p, r }) => forecastRow(p, r))));
+      h('ol', { class: 'forecasts' }, rows.map(x => x.el())));
     return det;
+  }
+
+  function muskRow(x) {
+    const det = h('details', { class: 'fc musk', id: `m-${x.id}` });
+    det.append(h('summary', null,
+      h('span', { class: 'meta' }, h('span', { class: 'fy', text: ymLabel(x.by).toUpperCase() }),
+        h('span', { class: 'pr', text: `said ${ymLabel(x.said.slice(0, 7))}` })),
+      h('span', { class: 'tx' }, x.claim, h('small', null, `Elon Musk · ${topicName(x.topic)}${x.until ? ` · at the latest ${ymLabel(x.until)}` : ''}`)),
+      h('span', { class: 'sig' }, muskPill())));
+    det.addEventListener('toggle', () => {
+      if (det.open && !det.dataset.filled) {
+        det.dataset.filled = '1';
+        det.append(muskBody(x));
+      }
+    });
+    return h('li', null, det);
+  }
+
+  function muskBody(x) {
+    const fact = (label, ...kids) => h('div', { class: 'vc-row' }, h('span', { class: 'lab mono', text: label }), h('div', null, ...kids));
+    const p = x.forecast ? state.byId.get(x.forecast) : null;
+    return h('div', { class: 'fc-body' },
+      fact('His words', h('p', { class: 'mq', text: `\u201c${x.quote}\u201d` }),
+        h('p', { class: 'note' }, `Said ${dayMonthYear(x.said)}, ${x.where}. `, outLink(x.source.url, `${x.source.outlet} \u2197`),
+          x.primary ? [' · ', outLink(x.primary, 'The original \u2197')] : null)),
+      fact('When', h('p', { text: `${muskSpan(x)}. In his words: \u201c${x.when}\u201d.` })),
+      fact('The test', h('p', { text: x.test }), h('p', { class: 'note', text: `Written ${dayMonthYear(x.added)}, when it was added here; it is judged once the date he gave has passed.` })),
+      x.latest ? fact('Latest', h('p', { text: x.latest.text }),
+        h('p', { class: 'note' }, `${dayMonthYear(x.latest.date)} · `, outLink(x.latest.url, `${x.latest.outlet} \u2197`))) : null,
+      p ? fact('The Guide', h('p', null, h('a', { href: forecastHref(p), text: p.t }),
+        h('small', { class: 'mono', text: ` · ${when(p)} · ${odds(p)}${isDue(p) ? ` · judged: ${VERDICT[verdictOf(p)].label.toLowerCase()}` : ''}` }))) : null,
+      h('div', { class: 'fc-foot' }, h('a', { href: muskHref(x), text: 'Link to this prediction' })));
   }
 
   function forecastRow(p, r) {
@@ -692,6 +809,8 @@
       p.deps ? fact('Depends on', list(p.deps)) : null,
       p.signs ? fact('Signs to watch', list(p.signs)) : null,
       p.caveat ? fact('Caveat', h('p', { text: p.caveat })) : null,
+      muskFor(p.id).length ? fact('Elon Musk', h('ul', null, muskFor(p.id).map(x => h('li', null, h('a', { href: muskHref(x), text: x.claim }),
+        h('small', { class: 'mono', text: ` · said ${dayMonthYear(x.said)}${x.verdict && x.verdict !== 'pending' ? ` · ${VERDICT[x.verdict].label.toLowerCase()}` : ''}` }))))) : null,
       revisionNote(p),
       r ? trail(r) : h('p', { class: 'empty', text: `No story in ${theShows()} has been linked to this forecast yet.` }),
       h('div', { class: 'fc-foot' }, h('a', { href: `#/forecasts/${p.id}`, text: 'Link to this forecast' })));
@@ -735,6 +854,34 @@
   function openVerdict(id) {
     const el = $(`v-${id}`);
     if (!el) return $('scorecard');
+    flash(el);
+    return el;
+  }
+  // #/musk: the timeline showing only Elon Musk's predictions; #/musk/<id>: one of them, wherever it is now
+  function showMusk() {
+    clearFilters();
+    state.filters.who = 'musk';
+    if ($('fw')) $('fw').value = 'musk';
+    renderForecasts();
+    return $('forecasts');
+  }
+  function openMusk(id) {
+    const x = state.muskById.get(id);
+    if (!x) return $('forecasts');
+    if (muskJudged(x)) {
+      const v = $(`mv-${id}`);
+      if (v) flash(v);
+      return v || $('scorecard');
+    }
+    let el = $(`m-${id}`);
+    if (!el) {
+      clearFilters();
+      el = $(`m-${id}`);
+    }
+    if (!el) return $('forecasts');
+    const yr = el.closest('details.yr');
+    if (yr) yr.open = true;
+    el.open = true;
     flash(el);
     return el;
   }
@@ -1069,7 +1216,7 @@
     } else if (parts[0] === 'today') {
       date = state.index.latest;
       target = 'now';
-    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'transhuman', 'education'].includes(parts[0])) {
+    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'transhuman', 'education', 'musk'].includes(parts[0])) {
       target = parts[0];
     } else {
       date = state.index.latest;
@@ -1081,6 +1228,7 @@
     }
     let el = null;
     if (parts[0] === 'forecasts' && parts[1]) el = /^(\d{4}|beyond)$/.test(parts[1]) ? openYear(parts[1]) : openForecast(parts[1]);
+    else if (parts[0] === 'musk') el = parts[1] ? openMusk(parts[1]) : showMusk();
     else if (parts[0] === 'scorecard' && parts[1]) el = parts[1] === 'changes' ? $('changes') : openVerdict(parts[1]);
     else if (parts[0] === 'weekly' && parts[1]) el = openWeek(parts[1]);
     else if (parts[0] === 'guide') el = guideRoute(parts[1]);
@@ -1113,10 +1261,11 @@
         }
         return;
       }
-      const [preds, tracker, score, revs, weekly, th] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json'),
-        getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'), getOptional('daily/th/data/links.json')]);
+      const [preds, tracker, score, revs, weekly, th, musk] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json'),
+        getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'), getOptional('daily/th/data/links.json'),
+        getOptional('daily/data/musk.json')]);
       const fresh = index.latest !== state.index.latest;
-      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly);
+      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setMusk(musk);
       state.episodes.clear();
       renderAll();
       if (fresh) {
@@ -1194,11 +1343,11 @@
   async function init() {
     wireStatic();
     try {
-      const [index, preds, tracker, score, revs, weekly, th] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
+      const [index, preds, tracker, score, revs, weekly, th, musk] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
         getJSON('daily/data/tracker.json'), getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'),
-        getOptional('daily/th/data/links.json')]);
+        getOptional('daily/th/data/links.json'), getOptional('daily/data/musk.json')]);
       if (!index.episodes || !index.episodes.length) throw new Error('no episodes yet');
-      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly);
+      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setMusk(musk);
     } catch (e) {
       showLoadError(e);
       return;

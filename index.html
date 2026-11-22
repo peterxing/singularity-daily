@@ -23,11 +23,11 @@
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261116a">
+<link rel="stylesheet" href="daily/app.css?v=20261123a">
 <link rel="stylesheet" href="daily/edu.css?v=20261101c">
 <link rel="stylesheet" href="daily/th.css?v=20261103a">
 <script src="daily/route.js?v=20261101a"></script>
-<script src="daily/app.js?v=20261122b" defer></script>
+<script src="daily/app.js?v=20261123a" defer></script>
 <script src="daily/th.js?v=20261122a" defer></script>
 <script src="daily/edu.js?v=20261101d" defer></script>
 </head>
@@ -162,6 +162,7 @@
     <div class="vtally" id="verdictTally"></div>
     <ol class="verdicts" id="verdictList"></ol>
     <div class="soon" id="soonBox" hidden></div>
+    <div class="musk-due" id="muskDue" hidden></div>
     <div class="changes" id="changes" aria-labelledby="changesTitle">
       <h3 class="sub-h" id="changesTitle">What changed in the forecasts</h3>
       <p class="section-sub" id="changesIntro">The Guide's odds move only when Peter revises them, and every revision is dated, with its reason.</p>
@@ -174,7 +175,7 @@
     <div class="section-head">
       <p class="mono eyebrow">The Hitchhiker's Guide to the Singularity</p>
       <h2 id="forecastsTitle">Predictions vs reality</h2>
-      <p class="section-sub" id="forecastIntro">The Guide's live forecasts, year by year from now to 2040 and beyond, each with its best-guess month, its odds and the test it will be judged against, and every story in the show that bears on it.</p>
+      <p class="section-sub" id="forecastIntro">The Guide's live forecasts, year by year from now to 2040 and beyond, each with its best-guess month, its odds and the test it will be judged against, and every story in the show that bears on it, with Elon Musk's own dated predictions on the same subjects alongside them.</p>
     </div>
     <div class="scoreboard" id="scoreboard"></div>
     <div class="moving" id="moving"></div>
@@ -193,10 +194,15 @@
         <option value="latest">Latest news first</option>
         <option value="most">Most news first</option>
       </select></label>
+      <label class="field"><span>Whose</span><select id="fw">
+        <option value="all">The Guide and Elon Musk</option>
+        <option value="guide">The Guide only</option>
+        <option value="musk">Elon Musk only</option>
+      </select></label>
     </div>
     <p class="mono count" id="forecastCount" aria-live="polite"></p>
     <div id="forecastList" class="fyears"></div>
-    <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the shows' reading, not an independent assessment.</p>
+    <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the shows' reading, not an independent assessment. Elon Musk's predictions are his own words, quoted from public sources with the date he gave; including one is not an endorsement, and each is judged against a test written when it was added here.</p>
   </section>
 
   <section id="guide" class="wrap section guide" aria-labelledby="guideTitle">
@@ -217,6 +223,7 @@
       <a href="#/guide/read">Chapters</a>
       <a href="#/forecasts">The forecasts, year by year</a>
       <a href="#/scorecard">What it got right or wrong</a>
+      <a href="#/musk">Elon Musk's predictions</a>
       <a href="#/guide/author">The author</a>
     </nav>
 

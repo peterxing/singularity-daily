@@ -74,8 +74,8 @@ production project:
 1. web-encodes the video (1080p H.264, about 65–70 MB) and uploads it as the release `ep-YYYY-MM-DD`;
 2. writes the episode (`daily/data/episodes/<date>.json`), cover, thumbnail and captions (`daily/media/<date>/`);
 3. regenerates `daily/data/index.json`, the forecast snapshot (`daily/data/predictions.json`, fetched from the Guide's live
-   `predictions.json`), the tracker (`daily/data/tracker.json`), the revision log, the scorecard, the weekly digest and the
-   feeds (`daily/feed.xml`, `daily/weekly.xml`);
+   `predictions.json`), the tracker (`daily/data/tracker.json`), the revision log, the scorecard, the weekly digest, Elon
+   Musk's predictions (`daily/data/musk.json`) and the feeds (`daily/feed.xml`, `daily/weekly.xml`);
 4. commits and pushes; [`.github/workflows/pages.yml`](.github/workflows/pages.yml) then builds GitHub Pages with
    [`tools/assemble_pages.py`](tools/assemble_pages.py).
 
@@ -84,6 +84,13 @@ The tests and verdicts live in the production project's `scorecard.json`, and th
 rules (in `publish.py`'s docstring) say when a story counts as evidence for a forecast: only when it shows the forecast's
 own claim happening, at its threshold and scope. A voluntary, single-company or single-country step toward something the
 forecast says becomes standard is an early sign, not evidence for it.
+
+Elon Musk's dated predictions on the same subjects (since 23 Nov 2026, Peter's request) live in the production project's
+`musk.json`, checked by `engine/build/musk.py` (his words verbatim from a page that carries them, the date he gave, a test
+written when each is added). They sit in Predictions vs reality in the year he gave (`#/musk` shows only his; the "Whose"
+filter switches), each Guide forecast lists the ones that compare with it, and once his date has passed they are judged
+under What it got right or wrong. The Guide's own month-by-month timeline reads the same file at
+peterxing.com/daily/data/musk.json.
 
 Videos stay out of git. GitHub serves release assets as downloads (`application/octet-stream`), which Safari on iPhone
 won't play inline, so the newest seven episodes' videos are copied into the Pages site, where they're served as `video/mp4`.
@@ -129,6 +136,7 @@ site too. `daily/transhuman.html` is its share link's page (`daily/th/index.html
 | `daily/data/scorecard.json` | every forecast's test; every due forecast with its verdict, finding and sources; the forecasts falling due next |
 | `daily/data/revisions.json` | the dated log of revisions to the forecasts (odds, month, wording, added, retired) and the Guide's latest reassessment note |
 | `daily/data/weekly.json` | every Friday digest, newest first |
+| `daily/data/musk.json` | Elon Musk's predictions: claim, his words, when and where he said it, the source, the date he gave (`by`, and `until` when he gave an outer limit), the Guide forecast it compares with, its test, its state (`live` or `due`) and, once due, its verdict, finding and sources |
 | `daily/edu/data/index.json` | Microsoft for Education Daily: every episode (newest first), hook, counts, cover, video location |
 | `daily/edu/data/episodes/<date>.json` | one of its episodes: updates (title, summary, who it's for, status, education-specific or not, chapter, date, sources), TL;DR, transcript, ticker, notes, post links |
 | `daily/th/data/index.json` | The Transhuman Daily: every episode (newest first), hook, counts by pillar, forecasts touched, cover, video location |
