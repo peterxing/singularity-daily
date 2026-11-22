@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T21:15:53+00:00",
- "latest": "2026-11-22",
+ "updated": "2026-11-22T18:06:07+00:00",
+ "latest": "2026-11-23",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -20,6 +20,34 @@
  },
  "data": "41ba2bbffde0",
  "episodes": [
+  {
+   "date": "2026-11-23",
+   "ep": 50,
+   "hook": "GIVE IT AWAY.",
+   "day": "Monday 23 November 2026",
+   "stories": 18,
+   "forecasts": 4,
+   "links": {
+    "supports": 0,
+    "early": 3,
+    "challenges": 1
+   },
+   "titles": [
+    "Anthropic's seven co-founders pledge to give away 80% of their equity",
+    "Thinking Machines releases Inkling 2 Mini, a free open-weights model that runs on laptops",
+    "Architect Labs says its AI agents designed a new CPU, Frostbite, end to end"
+   ],
+   "cover": "daily/media/2026-11-23/cover.webp",
+   "thumb": "daily/media/2026-11-23/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-23/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-23/Singularity-Daily_2026-11-23.mp4",
+    "mb": 69.5,
+    "bytes": 69496923,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-22",
    "ep": 49,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-16/cover.webp",
    "thumb": "daily/media/2026-11-16/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-16/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-16/Singularity-Daily_2026-11-16.mp4",
     "mb": 69.3,

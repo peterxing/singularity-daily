@@ -1,0 +1,539 @@
+{
+ "date": "2026-11-23",
+ "ep": 50,
+ "hook": "GIVE IT AWAY.",
+ "day": "Monday 23 November 2026",
+ "chapters": [
+  "THE GIFT",
+  "THE CODE",
+  "THE MONEY",
+  "THE PEOPLE",
+  "THE CATCH",
+  "THE HELPERS"
+ ],
+ "window": "Window: the 24 hours to 04:09 AEDT, Mon 23 Nov 2026; Inkling 2 Mini (Fri 20 Nov), Frostbite (Wed 18 Nov), SpaceX's chip lenders (Ars Technica, Fri 20 Nov) and Google's IIT Kharagpur grant (Sat 21 Nov) are from earlier in the week.",
+ "notes": [
+  "Anthropic's co-founders' pledge to give away 80% of their equity, and the $112 billion figure at the IPO price, are as reported by the AP; many Anthropic employees can't sell or gift most of their shares until next spring.",
+  "Frostbite's 4.59x performance per watt is Architect Labs' own claim, from pre-silicon tests against a dual-issue, in-order CPU core.",
+  "SWE-CoWork is a preprint (arXiv, 15 Nov), as reported by The Decoder. Tencent's Hy4 results come from its own 82-page safety report with outside evaluators Fangcun AI and Alice, as reported by the South China Morning Post.",
+  "Musk's warning was a post on X. UBS's $1.4 trillion is a forecast for global AI investment in 2027.",
+  "The loneliness study is a preprint (arXiv, 18 Nov), not yet peer-reviewed; the reduction in loneliness was modest, and OpenAI helped fund participants' payments.",
+  "OpenAI's silent-speech earbuds are a published US patent application, not a product. Gobano's 99.5% success rate is the company's own figure.",
+  "Screenshots are the publishers' public article pages as captured on 23 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "GIVE IT AWAY. 🎁\n\nThe last 24h in superintelligence:\n- Anthropic's co-founders pledge 80% of their shares\n- A free AI model for your laptop\n- Musk: next year's cash shortage will be 'nuts'\n- 2 weeks off chatbots: a bit less lonely\n\nWhat would you give away?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (23 Nov 2026), hosted by Claudia: Anthropic's co-founders pledging 80% of their shares, a free laptop-sized model, an AI-designed chip, coding agents in a simulated office, Tencent's outside safety tests, Musk's cash warning, SpaceX's chip lenders, UBS's $1.4 trillion forecast, Google's grant to IIT Kharagpur, a chatbot-break study, AI-written texts, South Korea's minister quitting, a London march for an AI pause, a library robot, a towel-folding robot and OpenAI's silent-speech earbuds, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "PETER SINGER: 'A ONCE-IN-A-LIFETIME KIND OF OPPORTUNITY' TO TACKLE EXTREME POVERTY",
+  "GIVEDIRECTLY IS BUILDING A SUPPLY CHAIN OF ~$15 PHONES TO SEND CASH TO MORE FAMILIES",
+  "AP: ANTHROPIC'S 5,300 STAFF GET COMPANY-MATCHED GIFTS OF SHARES TO CHARITY",
+  "BUSINESS INSIDER: THE IPO MADE ANTHROPIC'S 7 FOUNDERS' STAKES WORTH ABOUT $141 BILLION",
+  "INKLING 2 MINI IS APACHE 2.0 LICENSED AND TOPPED 1,000 POINTS ON HACKER NEWS",
+  "FROSTBITE: AI AGENTS DID THE COMPILER, INSTRUCTION SET, MICROARCHITECTURE AND LAYOUT",
+  "SWE-CoWork: EVEN CLAUDE OPUS 5.5 AND GPT-6 ASTRA FULLY FINISHED FEWER THAN 1 IN 10 TASKS",
+  "TENCENT: AN 82-PAGE SAFETY REPORT FOR HY4, WITH EVALUATORS FANGCUN AI AND ALICE",
+  "MUSK: 'HUNDREDS OF BILLIONS OF INCREMENTAL DOLLARS JUST FOR WORKING CAPITAL'",
+  "SPACEX'S $43 BILLION CHIP LEASE IS 'HELL-OR-HIGH-WATER' FOR FIVE YEARS",
+  "UBS: ABOUT 80% OF 2027'S AI INVESTMENT FROM ALPHABET, AMAZON, META, MICROSOFT AND SPACEX",
+  "GOOGLE'S $5M FOR IIT KHARAGPUR: INDIC LANGUAGES, MATERIALS SCIENCE, FARMING AND EDTECH",
+  "LONELINESS STUDY: 625 US CHATGPT USERS, PAID $40 A WEEK TO STAY OFF AI",
+  "POLLY HUDSON'S PHONE EVEN SUGGESTED HER OWN NICKNAME FOR HER HUSBAND",
+  "CHOI KYO-JIN: 'I TAKE FULL RESPONSIBILITY AND HEREBY OFFER MY RESIGNATION'",
+  "KOREA FOUND 111 CASES OF MISCONDUCT WITH ELECTRONIC DEVICES ON EXAM DAY",
+  "PAUSEAI UK PLACARDS: 'IT'S NOT TOO LATE TO REGULATE' AND 'MIND THE AI SAFETY GAP'",
+  "ALTAS: EIGHT LIBRARIANS COACHED ITS LITHUANIAN PRONUNCIATION",
+  "GOBANO'S TOWEL ROBOT MANAGES 68% OF A HUMAN'S THROUGHPUT OVER AN 18-HOUR SHIFT",
+  "OPENAI FILED THE EARBUD PATENT IN MAY 2025; IT HAS NOT BEEN GRANTED",
+  "BLOOMBERG: CHINA'S $1.7 TRILLION AI ROUT TURNS A HOT TRADE INTO A LOSING BET",
+  "FT: AMAZON CLOSES IN ON A $7.5BN DEAL TO BUY AI START-UP DECART"
+ ],
+ "sources": [
+  "AP",
+  "The Seattle Times",
+  "VentureBeat",
+  "Architect Labs",
+  "Tom's Hardware",
+  "The Decoder",
+  "South China Morning Post",
+  "Yahoo Finance",
+  "Ars Technica",
+  "The Economic Times",
+  "Indian Startup News",
+  "The Jerusalem Post",
+  "The Guardian",
+  "France 24",
+  "Türkiye Today",
+  "LRT",
+  "Robotics & Automation News",
+  "Tbreak",
+  "CNN"
+ ],
+ "scanned": 3451,
+ "stories": [
+  {
+   "id": "anthropic-founders-pledge",
+   "title": "Anthropic's seven co-founders pledge to give away 80% of their equity",
+   "summary": "Anthropic's seven co-founders say they'll give away 80% of their equity, a commitment worth about $112 billion at the IPO price, the AP reports; charities such as GiveDirectly are preparing to scale up.",
+   "chapter": "THE GIFT",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://apnews.com/article/anthropic-ipo-philanthropy-044fd361f0a5899dcf6756205711aa13"
+    },
+    {
+     "outlet": "The Seattle Times"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "inkling-2-mini",
+   "title": "Thinking Machines releases Inkling 2 Mini, a free open-weights model that runs on laptops",
+   "summary": "Mira Murati's Thinking Machines Lab released Inkling 2 Mini on 20 Nov under the Apache 2.0 licence: a looped transformer small enough to run locally on a laptop, per VentureBeat.",
+   "chapter": "THE CODE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "VentureBeat",
+     "url": "https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "frostbite-ai-designed-cpu",
+   "title": "Architect Labs says its AI agents designed a new CPU, Frostbite, end to end",
+   "summary": "Start-up Architect Labs says its AI systems designed Frostbite, from compiler and instruction set to layout, and that it reached 4.59 times the performance per watt of a dual-issue, in-order core in its own pre-silicon tests.",
+   "chapter": "THE CODE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-18",
+   "sources": [
+    {
+     "outlet": "Architect Labs",
+     "url": "https://architectlabs.com/blog/frostbite"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2034-0",
+     "key": "43b95a548c",
+     "relation": "early",
+     "note": "AI agents doing a chip's architecture, design and layout is the forecast's work, but this is one start-up's own pre-silicon claim."
+    }
+   ]
+  },
+  {
+   "id": "swe-cowork",
+   "title": "In a simulated software company, top coding agents finish fewer than one task in ten",
+   "summary": "In SWE-CoWork, a preprint test that puts AI coding agents to work in a simulated company with colleagues, project boards and handoffs, even Claude Opus 5.5 and GPT-6 Astra fully completed fewer than one in ten tasks, The Decoder reports.",
+   "chapter": "THE CODE",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "challenges",
+     "note": "Leading agents completed fewer than one in ten tasks in a simulated workplace, far from writing most production software end to end."
+    }
+   ]
+  },
+  {
+   "id": "tencent-hy4-safety",
+   "title": "Tencent had outside evaluators test its open-weight Hy4 model before release",
+   "summary": "Tencent published an 82-page safety report on Hy4 with outside evaluators Fangcun AI and Alice, who rated its hacking skills 'limited'; SCMP says it is the first time a leading Chinese tech firm has disclosed such third-party testing before a release.",
+   "chapter": "THE CODE",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.scmp.com/tech/tech-trends/article/3375374/tencent-touts-latest-ai-model-hy4s-performance-independent-safety-assessment"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-3",
+     "key": "e514b72403",
+     "relation": "early",
+     "note": "A voluntary, single-company safety report with outside evaluators, short of external review being required."
+    }
+   ]
+  },
+  {
+   "id": "musk-cash-shortage",
+   "title": "Elon Musk warns the AI industry's cash shortage next year 'is going to be nuts'",
+   "summary": "On X, Elon Musk wrote that delays between paying for compute and earning revenue from it will mean 'hundreds of billions of incremental dollars just for working capital' next year, asking: 'Where will that come from?'",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/musk-warns-ai-cash-shortage-135029530.html"
+    },
+    {
+     "outlet": "X (Elon Musk)",
+     "url": "https://x.com/elonmusk/status/2124271725927903388"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "spacex-chip-lenders",
+   "title": "SpaceX's lenders don't want their $43 billion of Nvidia chips launched into space",
+   "summary": "SpaceX is financing about $43 billion of Nvidia chips through a five-year lease with the chips as collateral; lenders worry they could end up in orbit, and SpaceX says they'll be used only on Earth, Ars Technica reports.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ubs-ai-investment-2027",
+   "title": "UBS expects global AI investment to reach $1.4 trillion in 2027",
+   "summary": "UBS projects global AI investment rising to $1.4 trillion in 2027 from $1 trillion in 2026, about 80% of it from Alphabet, Amazon, Meta, Microsoft and SpaceX, while warning that the returns remain uncertain.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "The Economic Times",
+     "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/ai-investment-to-reach-1-4-trillion-in-2027-profitability-remains-key-concern-report/136068208"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-4",
+     "key": "ee51ff9514",
+     "relation": "early",
+     "note": "A bank's projection of $1.4 trillion in global AI investment for 2027; a forecast, and broader than data-centre construction alone."
+    }
+   ]
+  },
+  {
+   "id": "google-iit-kharagpur",
+   "title": "Google gives IIT Kharagpur, Sundar Pichai's alma mater, $5 million for AI research",
+   "summary": "Google is giving IIT Kharagpur $5 million for advanced AI research, education and capacity building, announced at the institute's 75th anniversary; Pichai, an alumnus, said it shaped his own path.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "Indian Startup News",
+     "url": "https://indianstartupnews.com/news/just-as-iit-kharagpur-shaped-my-own-pichais-google-pledges-5-million-to-the-institute-12829676"
+    },
+    {
+     "outlet": "Google",
+     "url": "https://blog.google/intl/en-in/company-news/supporting-ai-research-and-talent-development-with-iit-kharagpur/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "chatbot-break-loneliness",
+   "title": "Two weeks off AI chatbots left people a little less lonely, a study finds",
+   "summary": "In a preprint study of 625 US ChatGPT users, those paid to skip AI assistants for two weeks reported a modest drop in loneliness and more time with people face to face, The Jerusalem Post reports; it is not yet peer-reviewed.",
+   "chapter": "THE PEOPLE",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "The Jerusalem Post",
+     "url": "https://www.jpost.com/science/ai-news/article-915733"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "guardian-ai-texts",
+   "title": "A Guardian columnist answered her husband's texts with AI replies, and he didn't notice",
+   "summary": "Polly Hudson writes that she answered her husband's texts with her phone's suggested AI replies and he didn't notice; it even suggested her own nickname for him.",
+   "chapter": "THE PEOPLE",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-minister-resigns",
+   "title": "South Korea's education minister resigns over AI-cheating measures before its college exam",
+   "summary": "Education Minister Choi Kyo-jin resigned, taking responsibility for confusion over last-minute measures against AI-assisted cheating before the Suneung; officials found 111 cases of device misconduct on exam day.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-21",
+   "sources": [
+    {
+     "outlet": "France 24",
+     "url": "https://www.france24.com/en/asia-pacific/20261122-south-korea-education-chief-resigns-amid-ai-cheating-scandal"
+    },
+    {
+     "outlet": "BBC"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pauseai-london-march",
+   "title": "Hundreds march to Downing Street calling for a pause on the most advanced AI",
+   "summary": "Hundreds of protesters marched from the BBC to Downing Street on Saturday in a march organised by PauseAI UK, calling for a pause on the most advanced AI systems and tighter rules.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Türkiye Today",
+     "url": "https://www.turkiyetoday.com/region/hundreds-march-to-downing-street-with-a-warning-on-ai-3232969"
+    },
+    {
+     "outlet": "MENAFN"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "altas-library-robot",
+   "title": "A Lithuanian-speaking robot, ALTAS, joins a library's staff to get children reading",
+   "summary": "Gargždai Public Library in western Lithuania says its humanoid robot ALTAS starts in the New Year, answering questions about books; eight staff coached its pronunciation, and the director says 'it can read, tell stories'.",
+   "chapter": "THE HELPERS",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "LRT",
+     "url": "https://www.lrt.lt/en/news-in-english/19/3116253/lithuanian-speaking-robot-joins-library-staff-it-can-read-tell-stories"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gobano-towel-robot",
+   "title": "Gobano says its towel-folding robot succeeds 99.5% of the time at a French laundry",
+   "summary": "French start-up Gobano Robotics says its system folds and inspects towels on its own at the Henri Wartner Group's industrial laundry with a 99.5% task success rate, at 68% of a human worker's throughput over an 18-hour shift.",
+   "chapter": "THE HELPERS",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Robotics & Automation News",
+     "url": "https://roboticsandautomationnews.com/2026/11/22/gobano-robotics-reports-99-5-percent-success-rate-for-autonomous-laundry-robot/107447/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-silent-speech-earbuds",
+   "title": "An OpenAI patent application describes earbuds that read silently mouthed words",
+   "summary": "A published OpenAI patent application describes earbuds that sense movement in the ear canal to read words you only mouth, for an AI assistant; it is not a product and has not been granted.",
+   "chapter": "THE HELPERS",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Tbreak",
+     "url": "https://tbreak.com/openai-patent-silent-speech-earbuds/"
+    },
+    {
+     "outlet": "PPC Land",
+     "url": "https://ppc.land/openai-patent-describes-earbuds-that-read-silently-mouthed-words/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dni-china-nvidia-chips",
+   "title": "US intelligence chief expects China has found ways to get Nvidia's advanced AI chips",
+   "summary": "Asked on CNN to reassure Americans that China didn't get Nvidia's advanced AI chips, Director of National Intelligence Jay Clayton said he expects China has found ways to get hold of them.",
+   "chapter": "THE HELPERS",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "CNN",
+     "url": "https://www.cnn.com/2026/11/22/politics/video/clayton-china-nvidia-ai-chips-vrtc"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tiny-floppy-model",
+   "title": "A developer fits a free AI question-answering model on a floppy for 1990s DOS PCs",
+   "summary": "Tiny 2.1, by developer WollyMonjac, is a 367,000-parameter question-answering transformer that runs on 486DX and Pentium PCs from a floppy disk; it is MIT-licensed and 'makes things up confidently', Tom's Hardware reports.",
+   "chapter": "THE HELPERS",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Tom's Hardware",
+     "url": "https://tomshardware.com/tech-industry/artificial-intelligence/dev-squeezes-an-ai-language-model-onto-a-floppy-for-486dx-and-pentium-pc-stalwarts-tiny-2-1-needs-540kb-of-memory-and-speaks-via-pc-speaker-is-a-question-answering-transformer-with-367k-parameters"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Monday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "Give it away."
+  },
+  {
+   "s": 15.9,
+   "t": "Anthropic's seven co-founders say they'll donate 80% of their shares."
+  },
+  {
+   "s": 22.03,
+   "t": "That's about $112 billion, and charities are gearing up."
+  },
+  {
+   "s": 31.88,
+   "t": "This week, Mira Murati's Thinking Machines released a free model, Inkling 2 Mini, that runs on a laptop."
+  },
+  {
+   "s": 39.38,
+   "t": "A startup says its AI agents designed a new chip from scratch, 4.5 times as efficient."
+  },
+  {
+   "s": 46.88,
+   "t": "But in a pretend software office, even top coding agents finished fewer than one task in ten."
+  },
+  {
+   "s": 53.44,
+   "t": "In China, Tencent let outside safety testers check its new model."
+  },
+  {
+   "s": 58.14,
+   "t": "Hacking skills? Limited."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money."
+  },
+  {
+   "s": 60.93,
+   "t": "Elon Musk warns that next year's cash shortage is going to be nuts."
+  },
+  {
+   "s": 67.5,
+   "t": "SpaceX is borrowing $43 billion for Nvidia chips, and its lenders don't want them launched into space."
+  },
+  {
+   "s": 75.0,
+   "t": "UBS sees AI investment hitting $1.4 trillion next year. The returns? Uncertain."
+  },
+  {
+   "s": 82.5,
+   "t": "And Google's giving Sundar Pichai's old college, IIT Kharagpur, $5 million for AI research."
+  },
+  {
+   "s": 90.0,
+   "t": "In a new study, people who quit AI chatbots for two weeks felt a bit less lonely, and socialised more."
+  },
+  {
+   "s": 97.5,
+   "t": "Meanwhile, a Guardian columnist answered her husband's texts with her phone's AI replies."
+  },
+  {
+   "s": 103.02,
+   "t": "He didn't notice."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? South Korea's education minister quit, after rushed rules on AI cheating caused confusion."
+  },
+  {
+   "s": 112.03,
+   "t": "In London, hundreds marched for an AI pause."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "In Lithuania, a robot called ALTAS joins a library's staff in the New Year, to get kids reading."
+  },
+  {
+   "s": 128.44,
+   "t": "In France, a towel-folding robot gets the job right 99.5% of the time."
+  },
+  {
+   "s": 135.0,
+   "t": "And an OpenAI patent filing describes ea rbuds that read the words you only mouth."
+  },
+  {
+   "s": 141.56,
+   "t": "Give away the money, give away the code, and once in a while, give the chatbot a rest."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-23/Singularity-Daily_2026-11-23.mp4",
+  "mb": 69.5,
+  "bytes": 69496923,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
