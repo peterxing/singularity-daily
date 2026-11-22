@@ -23,11 +23,11 @@
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261123a">
+<link rel="stylesheet" href="daily/app.css?v=20261123b">
 <link rel="stylesheet" href="daily/edu.css?v=20261101c">
 <link rel="stylesheet" href="daily/th.css?v=20261103a">
 <script src="daily/route.js?v=20261101a"></script>
-<script src="daily/app.js?v=20261123a" defer></script>
+<script src="daily/app.js?v=20261123b" defer></script>
 <script src="daily/th.js?v=20261122a" defer></script>
 <script src="daily/edu.js?v=20261101d" defer></script>
 </head>
@@ -41,6 +41,7 @@
       <a href="#/stories">Stories</a>
       <a href="#/scorecard">Right or wrong</a>
       <a href="#/forecasts">Predictions vs reality</a>
+      <a href="#/paths">Which path?</a>
       <a href="#/episodes">Episodes</a>
       <a href="#/transhuman" title="The Transhuman Daily">Transhuman</a>
       <a href="#/education" title="Microsoft for Education Daily">Microsoft Edu</a>
@@ -162,7 +163,7 @@
     <div class="vtally" id="verdictTally"></div>
     <ol class="verdicts" id="verdictList"></ol>
     <div class="soon" id="soonBox" hidden></div>
-    <div class="musk-due" id="muskDue" hidden></div>
+    <div class="musk-due" id="fcDue" hidden></div>
     <div class="changes" id="changes" aria-labelledby="changesTitle">
       <h3 class="sub-h" id="changesTitle">What changed in the forecasts</h3>
       <p class="section-sub" id="changesIntro">The Guide's odds move only when Peter revises them, and every revision is dated, with its reason.</p>
@@ -171,11 +172,24 @@
     </div>
   </section>
 
+  <section id="paths" class="wrap section paths" aria-labelledby="pathsTitle" hidden>
+    <div class="section-head">
+      <p class="mono eyebrow">The Guide and the leading forecasters, weighed against the evidence</p>
+      <h2 id="pathsTitle">Which path are we on?</h2>
+      <p class="section-sub" id="pathsIntro">Four questions decide what happens next. Where the Guide and the leading forecasters stand on each, what the evidence says so far, and the paths their answers make.</p>
+    </div>
+    <div class="paths-lead" id="pathsLead"></div>
+    <div class="dims" id="pathsDims"></div>
+    <h3 class="sub-h">The paths, weighed</h3>
+    <ol class="path-list" id="pathsList"></ol>
+    <details class="basis"><summary>How this is worked out</summary><p id="pathsMethod"></p></details>
+  </section>
+
   <section id="forecasts" class="wrap section" aria-labelledby="forecastsTitle">
     <div class="section-head">
       <p class="mono eyebrow">The Hitchhiker's Guide to the Singularity</p>
       <h2 id="forecastsTitle">Predictions vs reality</h2>
-      <p class="section-sub" id="forecastIntro">The Guide's live forecasts, year by year from now to 2040 and beyond, each with its best-guess month, its odds and the test it will be judged against, and every story in the show that bears on it, with Elon Musk's own dated predictions on the same subjects alongside them.</p>
+      <p class="section-sub" id="forecastIntro">The Guide's live forecasts, year by year from now to 2040 and beyond, each with its best-guess month, its odds and the test it will be judged against, and every story in the show that bears on it, with the dated predictions of leading forecasters, from Elon Musk and Ray Kurzweil to the AI 2027 team, alongside them.</p>
     </div>
     <div class="scoreboard" id="scoreboard"></div>
     <div class="moving" id="moving"></div>
@@ -195,14 +209,14 @@
         <option value="most">Most news first</option>
       </select></label>
       <label class="field"><span>Whose</span><select id="fw">
-        <option value="all">The Guide and Elon Musk</option>
+        <option value="all">The Guide and the forecasters</option>
         <option value="guide">The Guide only</option>
-        <option value="musk">Elon Musk only</option>
+        <option value="others">All the leading forecasters</option>
       </select></label>
     </div>
     <p class="mono count" id="forecastCount" aria-live="polite"></p>
     <div id="forecastList" class="fyears"></div>
-    <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the shows' reading, not an independent assessment. Elon Musk's predictions are his own words, quoted from public sources with the date he gave; including one is not an endorsement, and each is judged against a test written when it was added here.</p>
+    <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the shows' reading, not an independent assessment. The leading forecasters' predictions are their own words, quoted from public sources with the date they gave; including one is not an endorsement, and each is judged against a test written when it was added here.</p>
   </section>
 
   <section id="guide" class="wrap section guide" aria-labelledby="guideTitle">
@@ -223,7 +237,7 @@
       <a href="#/guide/read">Chapters</a>
       <a href="#/forecasts">The forecasts, year by year</a>
       <a href="#/scorecard">What it got right or wrong</a>
-      <a href="#/musk">Elon Musk's predictions</a>
+      <a href="#/paths">Which path are we on?</a>
       <a href="#/guide/author">The author</a>
     </nav>
 

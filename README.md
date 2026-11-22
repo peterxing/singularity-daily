@@ -74,8 +74,9 @@ production project:
 1. web-encodes the video (1080p H.264, about 65–70 MB) and uploads it as the release `ep-YYYY-MM-DD`;
 2. writes the episode (`daily/data/episodes/<date>.json`), cover, thumbnail and captions (`daily/media/<date>/`);
 3. regenerates `daily/data/index.json`, the forecast snapshot (`daily/data/predictions.json`, fetched from the Guide's live
-   `predictions.json`), the tracker (`daily/data/tracker.json`), the revision log, the scorecard, the weekly digest, Elon
-   Musk's predictions (`daily/data/musk.json`) and the feeds (`daily/feed.xml`, `daily/weekly.xml`);
+   `predictions.json`), the tracker (`daily/data/tracker.json`), the revision log,    the scorecard, the weekly digest, the
+   leading forecasters' predictions and the path map (`daily/data/forecasters.json`, `daily/data/paths.json`) and the feeds
+   (`daily/feed.xml`, `daily/weekly.xml`);
 4. commits and pushes; [`.github/workflows/pages.yml`](.github/workflows/pages.yml) then builds GitHub Pages with
    [`tools/assemble_pages.py`](tools/assemble_pages.py).
 
@@ -85,12 +86,17 @@ rules (in `publish.py`'s docstring) say when a story counts as evidence for a fo
 own claim happening, at its threshold and scope. A voluntary, single-company or single-country step toward something the
 forecast says becomes standard is an early sign, not evidence for it.
 
-Elon Musk's dated predictions on the same subjects (since 23 Nov 2026, Peter's request) live in the production project's
-`musk.json`, checked by `engine/build/musk.py` (his words verbatim from a page that carries them, the date he gave, a test
-written when each is added). They sit in Predictions vs reality in the year he gave (`#/musk` shows only his; the "Whose"
-filter switches), each Guide forecast lists the ones that compare with it, and once his date has passed they are judged
-under What it got right or wrong. The Guide's own month-by-month timeline reads the same file at
-peterxing.com/daily/data/musk.json.
+Leading forecasters' dated predictions on the same subjects (since 23 Nov 2026, Peter's request: Elon Musk first, then
+the AI 2027 team one by one, Ray Kurzweil, Dario Amodei, Jakub Pachocki, Noam Brown, Eliezer Yudkowsky, Sam Altman, Demis
+Hassabis, Shane Legg, Geoffrey Hinton, Yann LeCun and Leopold Aschenbrenner) live in the production project's
+`forecasters.json`, checked by `engine/build/forecasters.py` (their words verbatim from a page that carries them, the date
+they gave, any probability they put on it, a test written when each is added). They sit in Predictions vs reality in the
+year each gave (the "Whose" filter, `#/forecasters`, `#/people/<id>`, `#/predictions/<id>`; `#/musk` still works), each
+Guide forecast lists the ones that compare with it, and once their date has passed they are judged under What it got right
+or wrong. `paths.json` maps "Which path are we on?" (`#/paths`): four questions that decide the future, where each
+forecaster and the Guide stand on them (with the source for each position), today's evidence reading of each question, and
+eight named paths weighed by the forecasters' odds and then by the evidence; the method is in `forecasters.py`. The
+Guide's own month-by-month timeline reads the same files at peterxing.com/daily/data/.
 
 Videos stay out of git. GitHub serves release assets as downloads (`application/octet-stream`), which Safari on iPhone
 won't play inline, so the newest seven episodes' videos are copied into the Pages site, where they're served as `video/mp4`.
@@ -136,7 +142,9 @@ site too. `daily/transhuman.html` is its share link's page (`daily/th/index.html
 | `daily/data/scorecard.json` | every forecast's test; every due forecast with its verdict, finding and sources; the forecasts falling due next |
 | `daily/data/revisions.json` | the dated log of revisions to the forecasts (odds, month, wording, added, retired) and the Guide's latest reassessment note |
 | `daily/data/weekly.json` | every Friday digest, newest first |
-| `daily/data/musk.json` | Elon Musk's predictions: claim, his words, when and where he said it, the source, the date he gave (`by`, and `until` when he gave an outer limit), the Guide forecast it compares with, its test, its state (`live` or `due`) and, once due, its verdict, finding and sources |
+| `daily/data/forecasters.json` | the tracked people (name, role, group) and their predictions: who, claim, their words, when and where they said it, the source, the date they gave (`by`, and `until` when they gave an outer limit), any probability they put on it, the Guide forecast it compares with, its test, its state (`live` or `due`) and, once due, its verdict, finding and sources |
+| `daily/data/paths.json` | "Which path are we on?": the four dimensions with each state's forecasters' odds and evidence-weighted odds, the voices on each state and today's reading with its sources; the eight paths with their shares, matched readings, holders and signposts; every voice's positions with their basis; the method; a daily history |
+| `daily/data/musk.json` | Elon Musk's predictions alone, in the earlier shape, for Guide builds deployed before 23 Nov 2026 (retired once the Guide reads `forecasters.json`) |
 | `daily/edu/data/index.json` | Microsoft for Education Daily: every episode (newest first), hook, counts, cover, video location |
 | `daily/edu/data/episodes/<date>.json` | one of its episodes: updates (title, summary, who it's for, status, education-specific or not, chapter, date, sources), TL;DR, transcript, ticker, notes, post links |
 | `daily/th/data/index.json` | The Transhuman Daily: every episode (newest first), hook, counts by pillar, forecasts touched, cover, video location |
