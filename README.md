@@ -144,7 +144,6 @@ site too. `daily/transhuman.html` is its share link's page (`daily/th/index.html
 | `daily/data/weekly.json` | every Friday digest, newest first |
 | `daily/data/forecasters.json` | the tracked people (name, role, group) and their predictions: who, claim, their words, when and where they said it, the source, the date they gave (`by`, and `until` when they gave an outer limit), any probability they put on it, the Guide forecast it compares with, its test, its state (`live` or `due`) and, once due, its verdict, finding and sources |
 | `daily/data/paths.json` | "Which path are we on?": the four dimensions with each state's forecasters' odds and evidence-weighted odds, the voices on each state and today's reading with its sources; the eight paths with their shares, matched readings, holders and signposts; every voice's positions with their basis; the method; a daily history |
-| `daily/data/musk.json` | Elon Musk's predictions alone, in the earlier shape, for Guide builds deployed before 23 Nov 2026 (retired once the Guide reads `forecasters.json`) |
 | `daily/edu/data/index.json` | Microsoft for Education Daily: every episode (newest first), hook, counts, cover, video location |
 | `daily/edu/data/episodes/<date>.json` | one of its episodes: updates (title, summary, who it's for, status, education-specific or not, chapter, date, sources), TL;DR, transcript, ticker, notes, post links |
 | `daily/th/data/index.json` | The Transhuman Daily: every episode (newest first), hook, counts by pillar, forecasts touched, cover, video location |
