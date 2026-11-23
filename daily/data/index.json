@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T23:49:16+00:00",
- "latest": "2026-11-23",
+ "updated": "2026-11-23T18:27:13+00:00",
+ "latest": "2026-11-24",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -18,8 +18,36 @@
   "price": "Free",
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2004177230046"
  },
- "data": "b9f6580d9e9b",
+ "data": "679c618da36e",
  "episodes": [
+  {
+   "date": "2026-11-24",
+   "ep": 51,
+   "hook": "THE COMEBACK.",
+   "day": "Tuesday 24 November 2026",
+   "stories": 15,
+   "forecasts": 4,
+   "links": {
+    "supports": 0,
+    "early": 3,
+    "challenges": 1
+   },
+   "titles": [
+    "Nvidia reinstates Jensen Huang as CEO, and its shares jump 33% at the open",
+    "Meta's AI chief Alexandr Wang: 'Superintelligence is arriving'",
+    "Z.ai's GLM-5.4 runs its layers twice to rival much bigger models"
+   ],
+   "cover": "daily/media/2026-11-24/cover.webp",
+   "thumb": "daily/media/2026-11-24/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-24/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-24/Singularity-Daily_2026-11-24.mp4",
+    "mb": 73.3,
+    "bytes": 73313502,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-23",
    "ep": 50,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-17/cover.webp",
    "thumb": "daily/media/2026-11-17/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-17/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-17/Singularity-Daily_2026-11-17.mp4",
     "mb": 73.1,

@@ -1,0 +1,457 @@
+{
+ "date": "2026-11-24",
+ "ep": 51,
+ "hook": "THE COMEBACK.",
+ "day": "Tuesday 24 November 2026",
+ "chapters": [
+  "THE COMEBACK",
+  "THE MINDS",
+  "THE MONEY",
+  "THE CLINIC",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:31 AEDT, Tue 24 Nov 2026; the Lean and Mathlib check of Levent Alpöge's Riemann proof (Sat 21 Nov) is from earlier in the week.",
+ "notes": [
+  "Alexandr Wang's comments were a post on X, as reported by Al Jazeera. Levent Alpöge's Claude-assisted proof of the Riemann hypothesis was certified as Lean code by the Lean and Mathlib communities on 21 Nov; it has not been peer reviewed.",
+  "Z.ai's claim that GLM-5.4 matches models with 2 to 3 trillion parameters is its own; it published no benchmark scores for the model. Nikkei Asia's tenfold rise is for Japanese companies and organisations using Claude over the past year.",
+  "Amazon's $7.5 billion for Decart's optimisation technology and team is as reported by Bloomberg. CrowdStrike's all-stock deal for Zscaler is valued at $43.9 billion and still needs regulatory approval.",
+  "Oregon's and Virginia's lawsuits against SpaceX and X Corp. are allegations. Reuters' report on US banks' AI-agent controls is a single-source exclusive. Novartis CEO Vas Narasimhan's view is as reported by the Financial Times.",
+  "Screenshots are the publishers' public article pages as captured on 24 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "THE COMEBACK. 🔁\n\nThe last 24h in superintelligence:\n- Nvidia rehires Jensen Huang; stock +33%\n- Meta's AI chief: 'Superintelligence is arriving'\n- CrowdStrike buys Zscaler for $44B\n- NHS: AI breast screening for 700,000 women\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (24 Nov 2026), hosted by Claudia: Jensen Huang's return as Nvidia's CEO and the stock's 33% jump, Meta's Alexandr Wang saying superintelligence is arriving, Z.ai's looped GLM-5.4, Claude's growth in Japan, Amazon's Decart deal, CrowdStrike buying Zscaler, Ant Group's bet on Simplexity, the NHS's AI breast-screening trial, a brain implant shrinking with Nvidia's help, two states suing SpaceX over Grok deepfakes, the push to pull AI toys, Unitree's 20% jump, China's care-robot plan and Türkiye's humanoid-robot grants, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "HUANG: 'I CAN'T WAIT TO GET BACK TO WORK'",
+  "NVIDIA'S CHAIR HARVEY JONES: 'THE BOARD BELIEVES JENSEN IS THE RIGHT PERSON TO LEAD NVIDIA'",
+  "TRUMP ON NVIDIA'S BOARD: 'THE BOARD DECIDED TO DO WHAT WE WANTED THEM TO DO'",
+  "HUANG IS DUE TO SIT FOR AN INTERVIEW WITH THREE HOUSE COMMITTEES NEXT WEEK",
+  "SCHUMER: THE RUSH TO REINSTATE HUANG 'UNDERSCORES THE NEED FOR CONGRESS TO ACT'",
+  "INTERIM CEO COLETTE KRESS RETURNS TO HER ROLE AS NVIDIA'S CFO",
+  "NVIDIA OPENED AT $165.57, STILL WELL BELOW LAST MONTH'S RECORD OF $239.24",
+  "WANG: 'WE SHOULD NOT BE OKAY WITH A HANDOVER OF SOCIETY TO AI'",
+  "GLM-5.4: OPEN WEIGHTS PROMISED AFTER SAFETY HARDENING; Z.AI ADMITS 'MARATHON THINKING' LOOPS",
+  "AMAZON'S PETER DESANTIS: 'EVERY LEAP FORWARD IN AI STARTS WITH GETTING MORE OUT OF EVERY CHIP'",
+  "CROWDSTRIKE-ZSCALER IS ALL-STOCK AND EXPECTED TO CLOSE AROUND THIS TIME NEXT YEAR",
+  "EDITH TRIAL: AI STANDS IN FOR ONE OF THE TWO HUMAN READERS OF EACH MAMMOGRAM, AT 30 UK SITES",
+  "PARADROMICS' IMPLANT IS ABOUT THE SIZE OF A DIME, WITH MORE THAN 400 ELECTRODES",
+  "THE AI-TOY LETTER WENT TO AMAZON'S ANDY JASSY AND EBAY'S JAMIE IANNONE",
+  "ABOUT 50 AI TOYS WERE RECENTLY FOUND ON SALE ON AMAZON IN THE US",
+  "UNITREE CLOSED AT 708 YUAN, A MARKET VALUE OF ABOUT 286 BILLION YUAN",
+  "TÜRKIYE'S HUMANOID-ROBOT GRANTS WERE ANNOUNCED BY INDUSTRY MINISTER MEHMET FATIH KACIR"
+ ],
+ "sources": [
+  "TechCrunch",
+  "AP",
+  "Al Jazeera",
+  "The Next Web",
+  "Nikkei Asia",
+  "Bloomberg",
+  "Reuters",
+  "BBC",
+  "Wired",
+  "Financial Times",
+  "The Guardian",
+  "Global Times",
+  "Unite.AI",
+  "CNBC"
+ ],
+ "scanned": 3721,
+ "stories": [
+  {
+   "id": "huang-back",
+   "title": "Nvidia reinstates Jensen Huang as CEO, and its shares jump 33% at the open",
+   "summary": "Nvidia's board reinstated Jensen Huang as president and CEO on Monday, days after rejecting his offer to return; its shares opened 33% higher at $165.57, the AP reports. President Trump said his intervention was 'very important'.",
+   "chapter": "THE COMEBACK",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://apnews.com/article/nvidia-jensen-huang-39d4b34ffaa867b4e669893b5fd5028f"
+    },
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-3",
+     "key": "013f852364",
+     "relation": "early",
+     "note": "Trump said his intervention was 'very important' in the board's decision to bring back the CEO of the leading AI chipmaker."
+    }
+   ]
+  },
+  {
+   "id": "wang-superintelligence-arriving",
+   "title": "Meta's AI chief Alexandr Wang: 'Superintelligence is arriving'",
+   "summary": "After a mathematician said he used Claude to prove the Riemann hypothesis, Meta's chief AI officer Alexandr Wang posted on X that 'superintelligence is arriving' and that how humanity acts over the next year will have great consequence, Al Jazeera reports.",
+   "chapter": "THE MINDS",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "glm-5-4",
+   "title": "Z.ai's GLM-5.4 runs its layers twice to rival much bigger models",
+   "summary": "Z.ai released GLM-5.4, a 750-billion-parameter 'looped' model that runs 28 layers of its GLM-5 base twice. The company says it matches models with 2 to 3 trillion parameters, but it published no benchmark scores.",
+   "chapter": "THE MINDS",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/zai-glm-5-4-loop-transformer-coding-model"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "claude-japan-tenfold",
+   "title": "Claude use by Japanese companies is up tenfold in a year",
+   "summary": "Use of Anthropic's Claude by Japanese companies and organisations has increased tenfold over the past year, Nikkei Asia reports.",
+   "chapter": "THE MINDS",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/anthropic-claude-use-by-japanese-companies-up-10-fold-in-1-year"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "amazon-decart",
+   "title": "Amazon buys Decart's chip-optimisation tech and team, reportedly for $7.5 billion",
+   "summary": "Amazon is acquiring the technology behind Decart's optimisation stack, which helps AI models run efficiently on Nvidia, Amazon and Google chips, plus its founders and researchers, for $7.5 billion according to Bloomberg, as it prepares to sell its Trainium chips to customers.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "crowdstrike-zscaler",
+   "title": "CrowdStrike agrees to buy Zscaler in a $43.9 billion all-stock deal",
+   "summary": "CrowdStrike agreed to buy Zscaler in a $43.9 billion all-stock deal, the biggest cybersecurity acquisition on record according to Reuters; the companies say it will help customers adopt AI safely.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "simplexity-ant",
+   "title": "Ant Group leads a $100 million round in humanoid robot maker Simplexity",
+   "summary": "Chinese physical AI startup Simplexity Robotics received $100 million in a funding round led by Jack Ma-backed Ant Group, Bloomberg reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nhs-edith-trial",
+   "title": "NHS invites nearly 700,000 women to the world's largest AI breast-screening trial",
+   "summary": "Nearly 700,000 women across the UK will be invited to the EDITH trial, in which AI replaces one of the two human readers of each mammogram, the BBC reports; recruitment has begun at Cambridge, the first of 30 sites.",
+   "chapter": "THE CLINIC",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo"
+    },
+    {
+     "outlet": "The BMJ"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "paradromics-nvidia",
+   "title": "Paradromics teams up with Nvidia to shrink its brain-implant speech decoder",
+   "summary": "Brain-computer interface company Paradromics will use Nvidia hardware and software to turn the cart of electronics that decodes a Michigan woman's speech implant into a small box on her wheelchair within a year, Wired reports.",
+   "chapter": "THE CLINIC",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Wired",
+     "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A speech-decoding brain implant is set to move from a cart of electronics to a box on the user's wheelchair, using Nvidia hardware."
+    }
+   ]
+  },
+  {
+   "id": "grok-deepfake-lawsuits",
+   "title": "Oregon and Virginia sue SpaceX and X over Grok's sexual deepfakes",
+   "summary": "The attorneys general of Oregon and Virginia sued SpaceX and X Corp., alleging they broke consumer protection laws by misleading users about Grok's safety and about stopping child sexual abuse material and nonconsensual intimate images.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Wired",
+     "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-toys-letter",
+   "title": "Over 150 child safety groups urge Amazon and eBay to stop selling AI toys",
+   "summary": "More than 150 child safety groups and experts across six continents asked Amazon and eBay to stop selling AI toys this Christmas until they are proved safe, and to offer refunds, the Guardian reports.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/23/child-safety-groups-urge-amazon-ebay-stop-selling-ai-toys-until-proved-safe"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "unitree-limit-up",
+   "title": "Unitree shares jump the 20% daily limit as China backs care robots",
+   "summary": "Unitree Robotics shares rose by the 20% daily limit on Monday to close at 708 yuan, as four Chinese government departments released a plan encouraging service robots and exoskeletons for elderly care, the Global Times reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202611/1374872.shtml"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "turkiye-humanoid-grants",
+   "title": "Türkiye opens grants covering half the cost of industrial humanoid robot projects",
+   "summary": "Türkiye opened applications on 23 November for humanoid-robot development projects for industrial use, with grants covering 50% of project budgets, Industry and Technology Minister Mehmet Fatih Kacır announced.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/turkiye-opens-humanoid-robot-call-covering-50-of-project-budgets/"
+    },
+    {
+     "outlet": "Yeni Şafak"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "novartis-no-cancer-cure",
+   "title": "Novartis CEO rejects hopes that AI will cure cancer within five to 10 years",
+   "summary": "Novartis chief executive Vas Narasimhan, who sits on Anthropic's board, rejected the idea that AI will cure cancer within five to 10 years, the Financial Times reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Financial Times",
+     "url": "https://www.ft.com/content/1e5a9d70-221d-461d-ae03-dc235b1db340"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-1",
+     "key": "53a8a671e5",
+     "relation": "challenges",
+     "note": "Novartis's CEO, an Anthropic board member, rejects the idea that AI will cure cancer within five to 10 years."
+    }
+   ]
+  },
+  {
+   "id": "banks-ai-agent-controls",
+   "title": "Some US banks tighten controls on their own AI agents, Reuters reports",
+   "summary": "Several large and mid-sized US banks are tightening controls around their own AI agents to stop them going rogue, over concern that models could escape safeguards, according to a Reuters exclusive.",
+   "chapter": "THE MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2031-4",
+     "key": "b354838c73",
+     "relation": "early",
+     "note": "Banks are voluntarily tightening controls on their own AI agents over concern that the models could escape safeguards."
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Tuesday, November 24, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in superintelligence, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "What a comeback. Days after saying no, Nvidia just gave Jensen Huang his job back."
+  },
+  {
+   "s": 22.03,
+   "t": "The stock jumped 33% at the opening bell."
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, Meta's AI chief, Alexandr Wang, put it in three words: superintelligence is arriving."
+  },
+  {
+   "s": 38.91,
+   "t": "He says what we do over the next year will shape the world we live in."
+  },
+  {
+   "s": 45.94,
+   "t": "In China, Z.ai says its new model runs its layers twice, to match models 3 times bigger."
+  },
+  {
+   "s": 52.97,
+   "t": "And in Japan, companies are using Anthropic's Claude 10 times as much as a year ago."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. Amazon's buying Decart's chip-tuning tech, reportedly for $7.5 billion."
+  },
+  {
+   "s": 67.5,
+   "t": "Why? Amazon's getting ready to sell its own AI chips, right up against Nvidia."
+  },
+  {
+   "s": 74.06,
+   "t": "And CrowdStrike is buying Zscaler for $44 billion, the biggest cybersecurity deal on record."
+  },
+  {
+   "s": 82.03,
+   "t": "Plus, Ant Group led a $100 million bet on Simplexity, a Chinese humanoid robot startup."
+  },
+  {
+   "s": 90.0,
+   "t": "Over in Britain, nearly 700,000 women are being invited into the biggest AI breast-screening trial yet."
+  },
+  {
+   "s": 97.5,
+   "t": "Mary talks through a brain implant, and Nvidia's chips will shrink its computer cart to a small box."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Oregon and Virginia are suing SpaceX over Grok's sexual deepfakes."
+  },
+  {
+   "s": 110.62,
+   "t": "And over 150 child-safety groups want AI toys pulled from sale."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "In China, robot maker Unitree's shares jumped 20%, the most allowed in a day."
+  },
+  {
+   "s": 128.44,
+   "t": "The same day, Beijing unveiled a plan to bring care robots and exoskeletons into nursing homes."
+  },
+  {
+   "s": 135.0,
+   "t": "And Türkiye will now cover half the cost of p rojects building humanoid robots for industry."
+  },
+  {
+   "s": 141.56,
+   "t": "Nothing's final. Not a firing, not a sell-off, and not our say in what comes next."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-24/Singularity-Daily_2026-11-24.mp4",
+  "mb": 73.3,
+  "bytes": 73313502,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
