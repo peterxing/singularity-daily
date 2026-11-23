@@ -1,0 +1,368 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-24",
+ "ep": 29,
+ "hook": "ON YOUR TERMS.",
+ "day": "Tuesday 24 November 2026",
+ "note": "FOR EDUCATION · TUESDAY 24 NOVEMBER 2026",
+ "tldr": "School IT can now lock Copilot Chat to Study and Learn, university leaders get a new AI guide, and Fabric adds a pay-as-you-go F0 capacity in preview.",
+ "chapters": [
+  "ON YOUR TERMS",
+  "SET UP, SCALE UP",
+  "BUILDERS",
+  "PAY AS YOU GO",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 06:30 AEDT, Tue 24 Nov 2026 (Monday 23 Nov in the US), plus This-week items.",
+ "notes": [
+  "This week: the Study & Learn lock and the Copilot Chat webinars come from Microsoft Education's post of 22 Nov (19:03 UTC, just before the window). The show called the lock coming soon on 3 Nov; this is the first word that it has fully rolled out.",
+  "Status: Insights Optimization in Foundry and Fabric's on-demand billing with F0 are in preview; the Wi-Fi driver move (2027) is as reported by Windows Latest; Sea of Remnants' closed beta runs 3-18 Dec for Xbox Insiders on Series X; the 84% figure is self-reported by University of South Carolina pilot users.",
+  "Screenshots are the publishers' public pages as captured on 24 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ON YOUR TERMS. 🎓\n\nThe last 24h at Microsoft for education:\n- School IT can lock Copilot Chat to Study and Learn (fully rolled out)\n- A new AI guide for university leaders\n- Llama on Windows: open models on your own PC\n- Fabric's F0: no upfront capacity (preview)",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (24 Nov 2026): the Study and Learn lock for Copilot Chat, Copilot Chat webinars for school IT, Microsoft's guide for higher education leaders, Llama on Windows for .NET developers, Insights Optimization in Microsoft Foundry, Fabric's on-demand billing and F0 capacity, a Forcepoint printing issue after Windows hotpatching, Azure AI Content Safety retirements, Wi-Fi drivers leaving the Windows kernel as reported and the Sea of Remnants beta on Xbox, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "STUDY & LEARN LOCK: MICROSOFT EDUCATION SAYS IT HAS BEEN THE #1 REQUEST FROM K-12 SCHOOLS GLOBALLY",
+  "COPILOT CHAT WEBINARS FOR SCHOOL IT: 9 DEC, 13 JAN AND 3 FEB, 8AM PACIFIC; EACH COVERS THE SAME GUIDANCE",
+  "THE WEBINARS COVER OPTIONS FOR STUDENTS 13+, CSV, SDS AND POWERSHELL UPLOADS, AGENTS, LICENSING AND SECURITY CONTROLS",
+  "HIGHER ED: MICROSOFT'S WHITE PAPER 'EMPOWERING EVERY LEADER AND LEARNER' COLLECTS AI USE CASES FOR UNIVERSITIES",
+  "RESEARCH: MICROSOFT AND THE RESEARCH DATA ALLIANCE PUBLISHED GLOBAL COMMUNITY PRIORITIES FOR AGENTIC AI IN RESEARCH",
+  "UNIVERSITY OF SOUTH CAROLINA: 8 IN 10 COPILOT PILOT USERS REPORTED SATISFACTION, MICROSOFT SAYS",
+  "BAHRAIN SAYS IT RANKS FIRST GLOBALLY IN MICROSOFT SHOWCASE SCHOOLS FOR A SECOND YEAR",
+  "LLAMA ON WINDOWS IS OPEN SOURCE, FROM THE HUGGING FACE AND LLAMA.CPP TEAMS: GET IT AT LLAMA.APP OR IN THE MICROSOFT STORE",
+  "LLAMA ON WINDOWS UNLOADS A MODEL AFTER FIVE IDLE MINUTES; MODEL DOWNLOADS CAN BE SEVERAL GB",
+  "FOUNDRY: AN AGENT INSIGHT IS AN AI-GENERATED FINDING TO INVESTIGATE, NOT PROOF, MICROSOFT SAYS",
+  "FABRIC: ON-DEMAND RATES ARE 1X TO 3X THE PAY-AS-YOU-GO CU PRICE, BY WORKLOAD; STORAGE IS BILLED SEPARATELY",
+  "FABRIC: AUTOSCALE BILLING FOR SPARK IS NOW 'ON-DEMAND BILLING FOR APACHE SPARK', STILL GA WITH UNCHANGED PRICING",
+  "FABRIC DATA WAREHOUSE: SCALAR USER-DEFINED FUNCTIONS ARE GENERALLY AVAILABLE",
+  "FORCEPOINT PRINTING ISSUE: ONLY HOTPATCHED PCS ARE AFFECTED, NOT THE STANDARD NOVEMBER UPDATES",
+  "CONTENT SAFETY: ANALYZE MULTIMODAL, RAPID CUSTOM CATEGORIES AND THE TEXT AND IMAGE CONTAINERS ARE AMONG THE RETIREMENTS",
+  "AZURE: WAF INSIGHTS IS GENERALLY AVAILABLE FOR APPLICATION GATEWAY AND FRONT DOOR",
+  "AZURE DATABASE FOR POSTGRESQL: THE ENHANCED BURSTABLE TIER (BASV2) IS IN PUBLIC PREVIEW",
+  "AZURE SQL DATABASE: GIVE EACH DATABASE ITS OWN IDENTITY FOR STORAGE ACCESS, IN PREVIEW",
+  "GITHUB CODE QUALITY: COVERAGE UPLOADS THAT AREN'T COBERTURA XML NOW FAIL WITH A CLEAR ERROR",
+  "WINDOWS: MICROSOFT'S DRIVER QUALITY INITIATIVE COVERS ARCHITECTURE, TRUST, LIFECYCLE AND QUALITY MEASURES",
+  "SEA OF REMNANTS: PRE-DOWNLOAD FROM 1 DECEMBER; SERIES S SUPPORT IS PLANNED FOR THE GLOBAL LAUNCH"
+ ],
+ "sources": [
+  "Microsoft Tech Community",
+  "Microsoft Education Blog",
+  ".NET Blog",
+  "Microsoft Foundry Blog",
+  "Microsoft Fabric Blog",
+  "BleepingComputer",
+  "Azure Updates",
+  "Windows Latest",
+  "Notebookcheck",
+  "Xbox Wire",
+  "GitHub Changelog",
+  "Gulf Daily News"
+ ],
+ "scanned": 1330,
+ "stories": [
+  {
+   "id": "study-lock",
+   "title": "School IT can now lock Copilot Chat to just the Study and Learn agent",
+   "summary": "Microsoft Education says IT admins can now lock Copilot Chat so it only uses the Study & Learn agent. It calls this the number one request from K-12 schools globally, and says the feature is now fully rolled out.",
+   "for": "K-12 school IT and leaders",
+   "status": "Fully rolled out",
+   "edu": true,
+   "chapter": "ON YOUR TERMS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Microsoft Tech Community (Education Blog)",
+     "url": "https://techcommunity.microsoft.com/t5/education-blog/3-webinars-for-it-admins-enable-copilot-chat-for-education-plus/ba-p/4575632"
+    }
+   ]
+  },
+  {
+   "id": "edu-webinars",
+   "title": "Copilot Chat webinars for school IT on 9 December, 13 January and 3 February",
+   "summary": "Microsoft Education is running three live webinars for IT admins on deploying and managing Copilot Chat in education, each at 8am Pacific and covering the same guidance: options for students 13+, CSV, SDS and PowerShell uploads, agents, licensing and security controls, and the Study & Learn lock.",
+   "for": "School and university IT admins",
+   "status": "Registration open",
+   "edu": true,
+   "chapter": "SET UP, SCALE UP",
+   "badge": "THIS WEEK",
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "Microsoft Tech Community (Education Blog)",
+     "url": "https://techcommunity.microsoft.com/t5/education-blog/3-webinars-for-it-admins-enable-copilot-chat-for-education-plus/ba-p/4575632"
+    }
+   ]
+  },
+  {
+   "id": "higher-ed-guide",
+   "title": "A new Microsoft guide helps university leaders move AI from pilots to impact",
+   "summary": "How to Unlock Intelligence in Higher Education is built around three conversations: where AI can advance university priorities, what information it needs to connect to, and how to build trust. Microsoft cites the University of South Carolina, where 84% of pilot users reported saving one to five hours a week.",
+   "for": "University leaders, from academic to IT and finance",
+   "status": "Available to download",
+   "edu": true,
+   "chapter": "SET UP, SCALE UP",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Microsoft Education Blog",
+     "url": "https://www.microsoft.com/en-us/education/blog/2026/11/how-higher-education-leaders-can-turn-institutional-intelligence-into-impact/"
+    }
+   ]
+  },
+  {
+   "id": "llama-dotnet",
+   "title": "Run open AI models on your own PC with Llama on Windows",
+   "summary": "Llama on Windows, a free, open-source tray app from the Hugging Face and llama.cpp teams, finds, downloads and runs open models that fit your PC. Microsoft's .NET Blog shows how a C# app can call it through an OpenAI-format API on localhost, offline once a model is downloaded and with no API key.",
+   "for": "Coding students and teachers",
+   "status": "Available (free, open source)",
+   "edu": false,
+   "chapter": "BUILDERS",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": ".NET Blog",
+     "url": "https://devblogs.microsoft.com/dotnet/local-models-dotnet-llama-windows/"
+    }
+   ]
+  },
+  {
+   "id": "foundry-insights",
+   "title": "Microsoft Foundry can suggest fixes for problems your agent keeps repeating",
+   "summary": "In public preview, Insights Optimization takes recurring issues that agent insights finds and asks the agent optimizer to propose and test changes to the agent's instructions and tool descriptions. Nothing deploys automatically, but the tests run the agent's real tools, so Microsoft advises read-only access or test resources.",
+   "for": "University teams building agents for students and staff",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "BUILDERS",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Microsoft Foundry Blog",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-agent-insights-into-improvements/ba-p/4575204"
+    }
+   ]
+  },
+  {
+   "id": "fabric-f0",
+   "title": "Fabric adds on-demand billing and an F0 capacity with no upfront charge",
+   "summary": "Microsoft Fabric's new F0 capacity has no upfront compute-capacity charge: workloads are billed only for what they use, at 1x to 3x the pay-as-you-go rate depending on the workload. Admins can set spend limits over a rolling 24 hours; at the limit, new jobs pause while running ones finish.",
+   "for": "University data and analytics teams",
+   "status": "Preview",
+   "edu": false,
+   "chapter": "PAY AS YOU GO",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Microsoft Fabric Updates Blog",
+     "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-on-demand-billing-and-Zero-provisioned-F0-Capacity/ba-p/5377585"
+    }
+   ]
+  },
+  {
+   "id": "forcepoint-printing",
+   "title": "November's Windows hotpatch can break printing on PCs running Forcepoint DLP",
+   "summary": "Microsoft confirmed that after the November 2026 Windows 11 hotpatch (KB5132043), PCs running the Forcepoint DLP Endpoint Agent may find the print option greyed out or get errors, because the Print Spooler fails to start. It affects Windows 11 24H2 and later on hotpatched devices only; there's no fix yet, but Forcepoint has a workaround.",
+   "for": "School IT using Windows hotpatching",
+   "status": "Known issue; no fix yet",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/"
+    },
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/help/5132043"
+    }
+   ]
+  },
+  {
+   "id": "content-safety-retire",
+   "title": "Six Azure AI Content Safety preview features retire on 30 April 2027",
+   "summary": "Retiring: Analyze Multimodal, rapid custom categories, connected and disconnected containers, the embedded Content Safety SDK, and groundedness detection in Azure AI Content Safety and Azure OpenAI. Microsoft says to review the recommended alternatives and plan your migration before the date.",
+   "for": "University teams filtering student-facing AI apps",
+   "status": "Retiring 30 April 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/en-us/updates?id=577474"
+    }
+   ]
+  },
+  {
+   "id": "wifi-drivers",
+   "title": "Windows is reportedly moving Wi-Fi drivers out of the kernel in 2027",
+   "summary": "Windows Latest reports that Microsoft plans to move Wi-Fi drivers from the Windows kernel into user mode in 2027, under its Driver Quality Initiative, so a faulty Wi-Fi driver is less able to crash the whole PC. A Microsoft product manager said at Ignite that the Wi-Fi work will be released in 2027.",
+   "for": "School and university device teams",
+   "status": "Reported; planned for 2027",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": "REPORTED",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Windows Latest",
+     "url": "https://www.windowslatest.com/2026/11/23/one-broken-wi-fi-driver-can-still-blue-screen-your-entire-windows-11-pc-and-microsoft-is-fixing-it-by-moving-wi-fi-drivers-out-of-windows-core-in-2027/"
+    },
+    {
+     "outlet": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Windows-11-to-move-Wi-Fi-drivers-out-of-the-kernel-in-2027.1457987.0.html"
+    }
+   ]
+  },
+  {
+   "id": "sea-of-remnants",
+   "title": "Sea of Remnants opens a closed beta on Xbox Series X from 3 December",
+   "summary": "Sea of Remnants, a free-to-play turn-based roguelike in a puppetfolk world, runs its Dawnbreaker closed beta for Xbox Insiders on Series X from 3 to 18 December (US time). Places are limited: grab a launch-day spot through the Xbox Insider Hub or enter the access draw.",
+   "for": "Students, after the bell",
+   "status": "Closed beta 3-18 December",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/23/sea-of-remnants-set-sail-for-the-dawnbreaker-closed-beta-on-xbox-series-x/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Tuesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours at Microsoft, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "On your terms: school IT can now lock Copi lot Chat to just the Study and Learn agent."
+  },
+  {
+   "s": 22.5,
+   "t": "K-12 schools asked for it most, and it's fully rolled out."
+  },
+  {
+   "s": 31.88,
+   "t": "Setting it up? Webinars for school IT run December 9, January 13 and February 3."
+  },
+  {
+   "s": 39.38,
+   "t": "For university leaders, a new Microsoft guide moves AI from pilots to impact through three conversations."
+  },
+  {
+   "s": 45.94,
+   "t": "Where AI helps most, what it needs to connect to, and what builds trust."
+  },
+  {
+   "s": 52.5,
+   "t": "At the University of South Carolina, 84% of pilot users reported saving one to five hours weekly."
+  },
+  {
+   "s": 60.0,
+   "t": "Coding class?"
+  },
+  {
+   "s": 60.88,
+   "t": "The free Llama on Windows app runs open AI models right on your own PC."
+  },
+  {
+   "s": 67.5,
+   "t": "Microsoft's .NET team shows your apps can call it too, offline and with no API key."
+  },
+  {
+   "s": 75.0,
+   "t": "Building agents for students?"
+  },
+  {
+   "s": 76.72,
+   "t": "Microsoft Foundry can now suggest fixes for problems your agent keeps repeating, in preview."
+  },
+  {
+   "s": 82.5,
+   "t": "You review every change, but the tests run your agent's real tools, so point them at test data."
+  },
+  {
+   "s": 90.0,
+   "t": "University data teams can now try Fabric, Microsoft's data platform, with no upfront capacity charge, in preview."
+  },
+  {
+   "s": 97.5,
+   "t": "You pay for what you use, and when your rolling spend limit is hit, new jobs pause."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print?"
+  },
+  {
+   "s": 106.01,
+   "t": "November's Windows hotpatch can break printing on PCs running Forcepoint's DLP agent."
+  },
+  {
+   "s": 112.5,
+   "t": "And six preview features in Azure AI Content Safety retire on April 30, 2027."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Windows is moving Wi-Fi drivers out of its core in 2027, Windows Latest reports."
+  },
+  {
+   "s": 129.38,
+   "t": "Plus, Sea of Remnants, a free puppet pirate adventure, opens a closed beta on Xbox on December 3."
+  },
+  {
+   "s": 136.88,
+   "t": "Xbox Insiders can grab a launch-day spot or enter the draw, but places are limited."
+  },
+  {
+   "s": 143.91,
+   "t": "Your rules, your budget, your own PC: AI at school, on your terms."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "Today's board: shipped. Tomorrow's: already building."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of updates. Imagine a whole year."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-24/Microsoft-for-Education-Daily_2026-11-24.mp4",
+  "mb": 54.1,
+  "bytes": 54107936,
+  "seconds": 180.01
+ },
+ "links": {}
+}
