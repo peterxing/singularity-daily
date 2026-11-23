@@ -1,8 +1,50 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-22T20:53:43+00:00",
- "episodes": 19,
+ "updated": "2026-11-23T23:00:03+00:00",
+ "episodes": 20,
  "links": [
+  {
+   "fid": "2037-0",
+   "key": "7413d2bddc",
+   "relation": "early",
+   "note": "Gemini 4 agent teams cut a fusion-simulation circuit's cost 11.8x and sped one routine 290x, each proved in Lean; one company's result.",
+   "ep": 23,
+   "on": "2026-11-24",
+   "date": "2026-11-23",
+   "story": "deepmind",
+   "title": "Google DeepMind's AI agent teams found faster quantum algorithms and proved each one",
+   "pillar": "intelligence",
+   "outlet": "Google DeepMind",
+   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A speech-decoding brain implant is set to move from a cart of electronics to a box on the user's wheelchair, using Nvidia hardware.",
+   "ep": 23,
+   "on": "2026-11-24",
+   "date": "2026-11-23",
+   "story": "paradromics",
+   "title": "Paradromics and Nvidia aim to shrink a speech brain implant's cart of electronics to a box",
+   "pillar": "intelligence",
+   "outlet": "WIRED",
+   "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/"
+  },
+  {
+   "fid": "2027-1",
+   "key": "4e36729c6b",
+   "relation": "early",
+   "note": "Claude's new agents fix failing code checks and can approve routine changes where a team's policy allows; a beta launch by one company.",
+   "ep": 23,
+   "on": "2026-11-24",
+   "date": "2026-11-23",
+   "story": "claudeship",
+   "title": "Anthropic's Claude can now fix failing code checks and approve routine changes",
+   "pillar": "intelligence",
+   "outlet": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+  },
   {
    "fid": "2035-1",
    "key": "372f343532",

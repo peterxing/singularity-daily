@@ -1,0 +1,552 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-24",
+ "ep": 23,
+ "hook": "UP TO SPEED.",
+ "day": "Tuesday 24 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · TUESDAY 24 NOVEMBER 2026",
+ "tldr": "Up to speed: DeepMind's agents prove faster quantum algorithms, a muscle-wasting disease gets its first approved drug, and robots learn when to stop.",
+ "chapters": [
+  "UP TO SPEED.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 07:40 AEDT, Tue 24 Nov 2026.",
+ "notes": [
+  "This week: the leukaemia study (Nature, 17 Nov) and Thomas Nagel's WIRED interview (last week; MIT Technology Review's analysis is from 23 Nov).",
+  "Evidence: DeepMind's paper and the Paradromics and Anthropic plans are company accounts; Welgemda's approval rests on 12-month interim phase 3 data; the pollution, singles, students and drivers findings are associations; the robot-safety and drone papers are preprints; the pollution mechanism is in mice.",
+  "Screenshots are the publishers' public pages as captured on 24 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "UP TO SPEED. ⚡\n\nThe last 24 hours in transhumanism:\n- DeepMind's AI agents found faster quantum algorithms, all proved\n- A rare muscle-wasting disease gets its first approved drug\n- 1 in 4 students used AI for mental-health support (survey)\n- Robots that stop when unsure",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (24 Nov 2026): DeepMind's proof-checked quantum algorithms, the first approved drug for limb-girdle muscular dystrophy, a speech brain implant going portable with Nvidia, Claude Ship, Meta's superintelligence warning, Thomas Nagel on AI consciousness, air pollution and dementia, leukaemia's early start, digital brain twins, older drivers in South Australia, what makes singles happy, students using AI for mental-health support, Australia's peptide inquiry, AI robot safety, a folding drone, a Chernobyl fungus against nerve agents and robots that stop when unsure, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "DEEPMIND: AGENT TEAMS CUT A FUSION CIRCUIT'S MEMORY FROM 5,650 TO 4,338 ERROR-CORRECTED QUBITS",
+  "DEEPMIND: A DRUG-METABOLISM ENZYME SIMULATION GOT 2.5X CHEAPER; ONE GROVER SEARCH 2.57X FASTER",
+  "DEEPMIND IS OPEN-SOURCING ITS LEAN LIBRARY FOR QUANTUM ALGORITHMS",
+  "WELGEMDA: ABOUT 7,000 PEOPLE IN THE US AND EUROPE HAVE LGMD2I/R9 OR RELATED CONDITIONS",
+  "BRIDGEBIO HAS TWO MORE FDA DECISIONS DUE BY MAY 2027",
+  "PARADROMICS' CEO: ONE DAY THE SPEECH DECODER COULD FIT IN A PHONE",
+  "CLAUDE SHIP WORKS WITH GITHUB, FOR CLAUDE TEAM AND ENTERPRISE CUSTOMERS",
+  "WANG: 'HOW HUMANITY ACTS OVER THE NEXT YEAR WILL HAVE GREAT CONSEQUENCE'",
+  "A 2020 SURVEY: 39% OF 1,092 PHILOSOPHERS SAID SOME FUTURE AI WILL BE CONSCIOUS",
+  "POLLUTION STUDY: MICE BREATHED CONCENTRATED CLEVELAND AIR FOR FIVE MONTHS",
+  "LEUKAEMIA STUDY: WITH FOUR DRIVER MUTATIONS, CLONES COULD DOUBLE IN WEEKS",
+  "BRAIN TWINS: CODE AND MODEL PARAMETERS ARE SHARED FOR OTHER LABS",
+  "SA: LICENSED DRIVERS AGED 70+ ROSE FROM ~125,000 IN 2014 TO ~200,000 IN 2023",
+  "SINGLES STUDY: 14 WAVES OF GERMAN DATA LINKED HIGHER OPENNESS WITH BEING SINGLE",
+  "BATH IS NOW RUNNING A NATIONAL STUDY OF STUDENTS' AI MENTAL-HEALTH USE",
+  "PEPTIDES: POISONS CENTRES LOGGED 345 CASES IN THE FIRST HALF OF 2026, TRIPLE ALL OF 2025",
+  "ROBORISK: ONE ROBOT API GAVE HARMFUL OUTCOMES IN 59% OF TRIALS",
+  "FOLDING DRONE: ITS FLEXIBLE ARMS COST UNDER 1% EXTRA POWER",
+  "CHERNOBYL-FUNGUS SPHERES BROKE DOWN ~10X MORE STAND-IN UNDER A BRIGHT LAMP",
+  "TUM'S ROBOTS KEEP EACH NEW SKILL IN ITS OWN ADAPTER, SO OLD ONES AREN'T FORGOTTEN",
+  "CAPRICOR SAYS IT WILL CHALLENGE THE FDA'S REJECTION OF ITS DUCHENNE CELL THERAPY",
+  "BOOM SUPERSONIC FIRED UP ITS ENGINE CORE ON 21 NOV; AI DATA-CENTRE TURBINES GET IT FIRST"
+ ],
+ "sources": [
+  "Google DeepMind",
+  "Google Quantum AI",
+  "The Next Web",
+  "NeurologyLive",
+  "STAT",
+  "Reuters",
+  "Endpoints News",
+  "BridgeBio",
+  "WIRED",
+  "Paradromics",
+  "The Verge",
+  "Anthropic",
+  "Al Jazeera",
+  "MIT Technology Review",
+  "Neuroscience News",
+  "Medical Xpress",
+  "Case Western Reserve University",
+  "Journal of Neuroinflammation",
+  "Nature",
+  "University of Cambridge",
+  "UCL",
+  "ScienceDaily",
+  "Nature Biomedical Engineering",
+  "Adelaide University",
+  "Mirage News",
+  "Hebrew University of Jerusalem",
+  "JMIR Mental Health",
+  "University of Bath",
+  "The Conversation",
+  "ABC News",
+  "arXiv",
+  "Tech Xplore",
+  "Phys.org",
+  "ACS Nano",
+  "Technical University of Munich",
+  "New Atlas"
+ ],
+ "scanned": 1536,
+ "stories": [
+  {
+   "id": "deepmind",
+   "title": "Google DeepMind's AI agent teams found faster quantum algorithms and proved each one",
+   "summary": "Teams of Gemini 4 agents improved known quantum algorithms, cutting a fusion-simulation circuit's cost 11.8x and speeding one routine 290x, each result proved in the Lean proof checker. It's Google's own paper, and the circuits still need more than early error-corrected quantum computers will offer.",
+   "pillar": "intelligence",
+   "evidence": "Company paper; results machine-checked",
+   "chapter": "UP TO SPEED.",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Google DeepMind",
+     "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "Gemini 4 agent teams cut a fusion-simulation circuit's cost 11.8x and sped one routine 290x, each proved in Lean; one company's result."
+    }
+   ]
+  },
+  {
+   "id": "welgemda",
+   "title": "The FDA approves the first drug for a limb-girdle muscular dystrophy",
+   "summary": "BridgeBio's Welgemda (ribitol), a twice-daily oral drug, is the first approved treatment for any form of limb-girdle muscular dystrophy, for type 2I/R9. In its phase 3 trial of 112 people, walking speed rose 0.14 m/s on the drug as it fell 0.12 m/s on placebo; the approval rests on 12-month interim data.",
+   "pillar": "longevity",
+   "evidence": "Approved by the FDA; interim phase 3 data",
+   "chapter": "UP TO SPEED.",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "NeurologyLive",
+     "url": "https://www.neurologylive.com/view/fda-approves-bbp-418-first-treatment-limb-girdle-muscular-dystrophy-type-2i-r9"
+    },
+    {
+     "outlet": "STAT",
+     "url": "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "paradromics",
+   "title": "Paradromics and Nvidia aim to shrink a speech brain implant's cart of electronics to a box",
+   "summary": "Mary, a Michigan woman with motor neuron disease, speaks through a dime-sized Paradromics implant with more than 400 electrodes, its signals decoded by AI on a cart of electronics. With Nvidia hardware and software, the company aims to fit that on her wheelchair within a year.",
+   "pillar": "intelligence",
+   "evidence": "Company plan; early clinical trial",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A speech-decoding brain implant is set to move from a cart of electronics to a box on the user's wheelchair, using Nvidia hardware."
+    }
+   ]
+  },
+  {
+   "id": "claudeship",
+   "title": "Anthropic's Claude can now fix failing code checks and approve routine changes",
+   "summary": "Claude Ship adds two beta agents for Claude Team and Enterprise customers on GitHub: PR Steward fixes failing checks, merge conflicts and review feedback, and Claude Approvals can approve routine changes where a team's policy allows.",
+   "pillar": "intelligence",
+   "evidence": "Product launch (beta)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-1",
+     "key": "4e36729c6b",
+     "relation": "early",
+     "note": "Claude's new agents fix failing code checks and can approve routine changes where a team's policy allows; a beta launch by one company."
+    }
+   ]
+  },
+  {
+   "id": "wang",
+   "title": "Meta's AI chief Alexandr Wang says superintelligence is arriving",
+   "summary": "Alexandr Wang posted on X that 'superintelligence is arriving' and that how humanity acts over the next year 'will have great consequence', warning against a 'handover' of society to AI and calling for urgent safety, alignment and security work. It's an opinion, not a study.",
+   "pillar": "intelligence",
+   "evidence": "Opinion on X",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nagel",
+   "title": "Philosopher Thomas Nagel says fluent language doesn't make an AI conscious",
+   "summary": "Thomas Nagel, famous for his 1974 essay on what it's like to be a bat, told WIRED that producing language isn't enough for an AI to count as conscious, and criticised AI welfare work at Anthropic and elsewhere. Anthropic's view is that we can't yet be sure either way.",
+   "pillar": "intelligence",
+   "evidence": "Opinion and debate",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "pollution",
+   "title": "Dirtier air is linked to more dementia, and in mice it rewired brain immune cells",
+   "summary": "In about 500,000 UK adults followed up to 14 years, those in the most polluted third were 25% more likely to develop Alzheimer's or a related dementia. In mice, five months of polluted air reprogrammed brain immune cells and harmed memory. The human part is a link, not proof.",
+   "pillar": "longevity",
+   "evidence": "Observational study plus a mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Neuroscience News",
+     "url": "https://neurosciencenews.com/air-pollution-neuroinflammation-dementia-32433/"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-air-pollution-reprograms-brain-immune.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "aml",
+   "title": "Leukaemia's first mutation often arises before age 20, decades before diagnosis",
+   "summary": "Using blood stored for up to 15 years before diagnosis, Cambridge and UCL researchers found that in two-thirds of 47 women who later developed acute myeloid leukaemia, the first driver mutation arose before age 20. A single dominant clone showed up years early in at least a third: a possible warning sign.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 47 cases",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-17",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "braintwins",
+   "title": "Digital twins of 6,986 brains model ageing, dementia and the environment",
+   "summary": "Researchers built biophysical models of 6,986 people's brains, aged 18 to 100 in 16 countries, each tuned to the person's MRI. Age, dementia and surroundings such as air pollution and democratic conditions were linked to how the simulated brains behaved: associations, not causes.",
+   "pillar": "longevity",
+   "evidence": "Computer models of brain scans",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Nature Biomedical Engineering",
+     "url": "https://www.nature.com/articles/s41551-026-01823-3"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-scientists-digital-brain-twins-explore.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "drivers",
+   "title": "Older South Australian drivers' crash rate fell after medical checks were relaxed",
+   "summary": "After South Australia swapped a compulsory medical check at 70 for a self-assessment at 75 in 2015, injury crashes per licensed older driver fell and medical licence suspensions rose, an Adelaide University review of 1997-2023 data found. Drivers aged 70+ grew from about 125,000 to 200,000.",
+   "pillar": "longevity",
+   "evidence": "Observational review of crash data",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Adelaide University",
+     "url": "https://casr.adelaide.edu.au/casrpubfile/3535/CASR268.pdf"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-older-drivers-roads-unsafe.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "singles",
+   "title": "Singles who feel free are more satisfied with life, in five countries",
+   "summary": "In a survey of 5,017 singles aged 30 and over in the US, UK, Japan, Mexico and Spain, a sense of freedom and independence went with higher life satisfaction, and 'singlism', stigma for being single, with lower. It shows links rather than causes.",
+   "pillar": "wellbeing",
+   "evidence": "Survey of 5,017 singles",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Mirage News",
+     "url": "https://www.miragenews.com/what-keeps-some-people-singleand-happy-new-1782199/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "students",
+   "title": "One in four Bath students used AI for mental-health support",
+   "summary": "In a survey of 2,020 University of Bath students, one in four had used generative AI for mental-health support in six months, including more than a third of those with very low wellbeing. It measured use, not benefit; the researchers flag wrong advice, privacy and crisis responses as risks.",
+   "pillar": "wellbeing",
+   "evidence": "Survey at one university",
+   "chapter": "SUPER WELLBEING",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "JMIR Mental Health",
+     "url": "https://mental.jmir.org/2026/1/e96196"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-students-ai-mental-health.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "peptides",
+   "title": "Australia orders an inquiry into unapproved peptides sold online",
+   "summary": "Health Minister Mark Butler ordered a parliamentary inquiry into peptides sold online and through telehealth for weight loss, anti-ageing and muscle. Monthly NSW hospital visits linked to unapproved peptides rose from 5 in July 2025 to 217 in September 2026.",
+   "pillar": "wellbeing",
+   "evidence": "Government inquiry; hospital data",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "The Conversation",
+     "url": "https://theconversation.com/peptides-are-everywhere-online-now-the-government-is-taking-a-closer-look-at-prescribing-297268"
+    },
+    {
+     "outlet": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-11-22/health-minister-mark-butler-orders-peptide-inquiry/107414136"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "roborisk",
+   "title": "Top AI models steering robots often caused harm in tests, and a safety harness helped",
+   "summary": "The RoboRisk benchmark put six frontier models through 92 simulated and 13 real robot tasks and found they 'typically produced high rates of harmful outcomes'. A safety harness called LEASH cut harm for all six without ending it. It's a preprint, not yet peer reviewed.",
+   "pillar": "intelligence",
+   "evidence": "Preprint",
+   "chapter": "THE CATCH",
+   "badge": "PREPRINT",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "arXiv",
+     "url": "https://arxiv.org/abs/2611.14115"
+    },
+    {
+     "outlet": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-leash-ai-robots-actions.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "drone",
+   "title": "A drone folds its springy arms to squeeze through gaps about half its width",
+   "summary": "Its spring-loaded, 3D-printed arms fold on contact, shrinking it 55%, from 31.3 cm to 14.1 cm, with no folding motors, and it flew through a 15 cm gap at about 2 m/s. It's a preprint and a prototype.",
+   "pillar": "frontier",
+   "evidence": "Preprint; prototype",
+   "chapter": "THE FRONTIER",
+   "badge": "PREPRINT",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "arXiv",
+     "url": "https://arxiv.org/abs/2611.09272"
+    },
+    {
+     "outlet": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-drone-prototype-gaps-width-flight.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "fungus",
+   "title": "A pigment like a Chernobyl fungus's breaks down a nerve-agent stand-in",
+   "summary": "Researchers made allomelanin, the pore-filled pigment of a mould that thrives at Chernobyl, into tiny spheres with zirconium clusters; the best broke down half of a nerve-agent stand-in in under 10 minutes. The aim is protective gear that destroys toxic chemicals; so far it's lab work.",
+   "pillar": "frontier",
+   "evidence": "Lab study with a chemical stand-in",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Phys.org",
+     "url": "https://phys.org/news/2026-11-fungus-survive-chernobyl-materials-nerve.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tum",
+   "title": "Munich's robots stop when they're unsure, then learn the new move from a person",
+   "summary": "TUM's 'self-reflective' robots use a vision-language-action model that pauses when unsure so a person can demonstrate. Retraining on those moments cut the training needed by up to 20%, and each new skill goes into its own adapter so old ones aren't forgotten.",
+   "pillar": "frontier",
+   "evidence": "Lab research",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-robot-limitations.html"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Tuesday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in transhumanism, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Up to speed! Google DeepMind's AI agents found faster quantum algorithms, and proved every one."
+  },
+  {
+   "s": 22.03,
+   "t": "And a rare muscle-wasting disease got its firs t approved drug; patients on it walked faster."
+  },
+  {
+   "s": 31.88,
+   "t": "A brain implant gives Mary a voice. With Nvidia, its computer cart should shrink to a box."
+  },
+  {
+   "s": 38.91,
+   "t": "Anthropic's Claude can now fix failing code checks itself, and approve routine changes if teams allow."
+  },
+  {
+   "s": 45.94,
+   "t": "Meta's AI chief says superintelligence is arriving, and warns against handing society over to it."
+  },
+  {
+   "s": 52.97,
+   "t": "And philosopher Thomas Nagel, famous for his bat essay, says fluent words don't make AI conscious."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. In half a million Britons, the dirtiest air came with a quarter more dementia risk."
+  },
+  {
+   "s": 67.5,
+   "t": "And a Cambridge study found leukaemia's first mutation often appears before age 20, decades before diagnosis."
+  },
+  {
+   "s": 75.0,
+   "t": "Scientists built digital twins of almost 7,000 brains, to see how ageing and surroundings shape them."
+  },
+  {
+   "s": 82.5,
+   "t": "Closer to home, after South Australia relaxed medical checks for older drivers, their crash rate actually fell."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. Across 5,000 singles in 5 countries, feeling free went with feeling happier."
+  },
+  {
+   "s": 97.5,
+   "t": "Meanwhile, 1 in 4 students at Bath turned to AI for mental-health support; more among those struggling."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 105.96,
+   "t": "Australia's health minister ordered an inquiry into peptides sold online as anti-ageing shortcuts."
+  },
+  {
+   "s": 112.5,
+   "t": "And a preprint found top AI models steering robot s often did harm in tests; a safety leash helped."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, a drone folds its springy arms to squeeze through gaps half its width."
+  },
+  {
+   "s": 128.91,
+   "t": "A fungus that thrives at Chernobyl inspired tiny sphe res that break down a nerve-agent stand-in in minutes."
+  },
+  {
+   "s": 135.94,
+   "t": "And Munich's self-reflective robots simply stop when unsure, then learn the new move from a human."
+  },
+  {
+   "s": 142.5,
+   "t": "Faster maths, faster legs, and robots that know when to brake. Now you're up to speed!"
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Live long. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-24/The-Transhuman-Daily_2026-11-24.mp4",
+  "mb": 55.9,
+  "bytes": 55885473,
+  "seconds": 180.01
+ },
+ "links": {}
+}
