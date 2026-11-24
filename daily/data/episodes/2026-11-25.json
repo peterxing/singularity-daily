@@ -1,0 +1,465 @@
+{
+ "date": "2026-11-25",
+ "ep": 52,
+ "hook": "WHO'S DRIVING?",
+ "day": "Wednesday 25 November 2026",
+ "chapters": [
+  "NO DRIVER",
+  "THE MINDS",
+  "THE MONEY",
+  "THE LAB",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:27 AEDT, Wed 25 Nov 2026; OpenAI's speed-limit post (Sun 22 Nov), OpenWorks (Mon 23 Nov) and Amazon's report on hackers' AI agents (Fri 20 Nov) are from earlier in the week.",
+ "notes": [
+  "Axios's report on staff at Anthropic and OpenAI rests on more than two dozen unnamed sources; the 'trick us' line is one researcher's, as quoted by Axios and The Next Web.",
+  "Jakub Pachocki's 'Perplexity and Intelligence' post (22 Nov) proposes shared limits but sets no threshold; Sam Altman's praise was posted on X, as reported by TechCrunch.",
+  "Anthropic's share moves are intraday on Tue 24 Nov, as reported by CNBC and Reuters. TSMC's one-day gain is as reported by Fortune and Mint. Singapore's forecast is the trade ministry's, as reported by The Straits Times and Bloomberg.",
+  "Amazon attributes the AI-agent intrusion to a 'China-nexus' actor; the campaign ran 8 to 10 Sep 2026 and Amazon's report is from 20 Nov. Tidal's figures are its own.",
+  "Teledroid reached orbit on 24 Nov and is due to dock with the station on 26 Nov. SoftBank's purchase of the RAI Institute is as reported by The Robot Report; terms were not disclosed.",
+  "Screenshots are the publishers' public article pages as captured on 25 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "WHO'S DRIVING? 🚗\n\nThe last 24h in superintelligence:\n- Uber robotaxis test with no driver\n- AI lab staff reportedly fear their own models\n- Anthropic dips below its $83 IPO price\n- AlphaFold's 'impossible' knot is real\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (25 Nov 2026), hosted by Claudia: Uber's driverless robotaxi tests, AI-lab staff's reported fears about unreleased models, OpenAI's proposed speed limit, Meta's Muse shopping agent, Anthropic slipping below its IPO price, TSMC's $158 billion day, Singapore's AI boom, OpenAI's OpenWorks, an 'impossible' protein knot predicted by AlphaFold, hackers' AI agents, Tidal's AI-music ban, Russia's Teledroid robot heading for the space station and SoftBank buying Marc Raibert's robot lab, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "NURO'S DRIVERLESS TESTS RUN IN PALO ALTO, MOUNTAIN VIEW, LOS ALTOS AND SUNNYVALE",
+  "THE LUCID GRAVITY ROBOTAXI'S ROOF 'HALO' FLASHES A RIDER'S INITIALS",
+  "ANTHROPIC SPOKESPERSON: 'KEEPING A MODEL INTERNAL DOESN'T MAKE IT SAFE'",
+  "PACHOCKI: MODELS BELOW 0.8 PERPLEXITY BROUGHT 'TRANSFORMATIVE CAPABILITIES' IN CYBERSECURITY AND MATHS",
+  "MUSE'S UK PARTNERS INCLUDE MARKS & SPENCER, CURRYS, SAINSBURY'S AND EASYJET",
+  "ANTHROPIC OPENED AT $111.50 ON DEBUT DAY, AFTER RAISING $81.3 BILLION",
+  "CANACCORD GENUITY STARTS ANTHROPIC AT BUY, WITH A $135 TARGET",
+  "TSMC'S JUMP CLAWED BACK PART OF A 17.5% WEEKLY SLIDE, TAIPEI'S WORST SINCE 1991",
+  "SINGAPORE'S THIRD-QUARTER GROWTH: 6.1%; ITS 2027 FORECAST: 2.5% TO 4.5%",
+  "OPENWORKS STARTS IN 20 US COMMUNITIES, INCLUDING NEW YORK, LOS ANGELES, CHICAGO AND ATLANTA",
+  "THE KNOTTED 'EIGHT' PROTEIN FAMILY IS DESCRIBED IN PNAS",
+  "THE HACKED APP WAS MONAI LABEL, A MEDICAL-IMAGING TOOL; ITS FLAW RATES 9.8 OUT OF 10",
+  "TIDAL: AI MADE UP 43% OF TRACKS DISTRIBUTED TO IT IN THE LAST 90 DAYS",
+  "PROGRESS MS-36 CARRIED MORE THAN 2.4 TONNES OF CARGO, TELEDROID INCLUDED",
+  "MARC RAIBERT STARTED THE RAI INSTITUTE IN 2022 WITH MORE THAN $400 MILLION FROM HYUNDAI",
+  "AUSTRALIA'S PARLIAMENTARY AI COMMITTEE TABLED A 400-PAGE REPORT ON TUESDAY",
+  "BLOOMBERG: DEEPSEEK FOUNDER LIANG WENFENG'S FORTUNE HITS $55 BILLION AFTER A FUNDRAISE",
+  "GOOGLE DEEPMIND'S GEMINI AGENTS CUT ONE QUANTUM ROUTINE'S COST UP TO 290-FOLD"
+ ],
+ "sources": [
+  "The Verge",
+  "Bloomberg",
+  "Axios",
+  "The Next Web",
+  "TechCrunch",
+  "OpenAI",
+  "The Guardian",
+  "CNBC",
+  "Reuters",
+  "Fortune",
+  "Mint",
+  "The Straits Times",
+  "Decrypt",
+  "Science in Poland",
+  "PNAS",
+  "Ars Technica",
+  "Amazon",
+  "Roscosmos",
+  "Unite.AI",
+  "The Robot Report",
+  "The Washington Post"
+ ],
+ "scanned": 4918,
+ "stories": [
+  {
+   "id": "uber-nuro-driverless",
+   "title": "Uber, Nuro and Lucid start fully driverless robotaxi testing in the Bay Area",
+   "summary": "Nuro, Lucid and Uber have begun fully driverless public-road testing of Lucid Gravity robotaxis, with no safety operator, in Palo Alto, Mountain View, Los Altos and Sunnyvale, with employee-only rides to follow. Lucid has delivered more than 100 of the SUVs, and the public launch is now slated for early 2027, The Verge reports.",
+   "chapter": "NO DRIVER",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/transportation/1040676/uber-nuro-lucid-driverless-robotaxi-testing-bay-area"
+    },
+    {
+     "outlet": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/uber-nuro-to-start-driverless-testing-of-lucid-robotaxis-in-the-bay-area"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lab-staff-fear-unreleased-models",
+   "title": "Staff at Anthropic and OpenAI reportedly doubt their most powerful unreleased models can be released safely",
+   "summary": "Many employees at Anthropic and OpenAI no longer believe their most powerful unreleased models can be released safely, Axios reports, citing more than two dozen people familiar with the debates. 'They will in fact be able to trick us successfully,' one researcher told Axios.",
+   "chapter": "THE MINDS",
+   "badge": "REPORTED",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Axios",
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    },
+    {
+     "outlet": "The Next Web",
+     "url": "https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-1",
+     "key": "11e2a25b0e",
+     "relation": "early",
+     "note": "Insiders at two frontier labs reportedly debate whether their strongest models should stay internal-only, as staff doubt they can be released safely; the report says nothing about compute shares."
+    }
+   ]
+  },
+  {
+   "id": "openai-speed-limit",
+   "title": "OpenAI's chief scientist proposes shared limits on AI development, measured by perplexity",
+   "summary": "In a post titled 'Perplexity and Intelligence', OpenAI chief scientist Jakub Pachocki proposed perplexity as a shared benchmark that AI labs could use to agree common limits on development until monitoring catches up; he set no threshold. Sam Altman called it 'the most important thing OpenAI has published in a while', TechCrunch reports.",
+   "chapter": "THE MINDS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-22",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/perplexity-and-intelligence/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-6",
+     "key": "3f3dfc17f1",
+     "relation": "early",
+     "note": "OpenAI's chief scientist proposed that AI labs agree common limits on development; it is one company's proposal, with no negotiations or agreement yet."
+    }
+   ]
+  },
+  {
+   "id": "meta-muse-uk",
+   "title": "Meta launches its Muse AI agent in the UK, to do tasks like Christmas shopping",
+   "summary": "Meta launched its Muse AI assistant in the UK as an app and inside WhatsApp, pitching it for tasks such as Christmas shopping and booking travel; it cannot make a purchase or send an email without the user's permission, The Guardian reports. UK regulators say they are watching the launch.",
+   "chapter": "THE MINDS",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-below-ipo-price",
+   "title": "Anthropic's shares slip below their $83 IPO price",
+   "summary": "Anthropic's shares fell on Tuesday to below their $83 IPO price, after opening at $111.50 on their Nasdaq debut last Thursday, when the company raised $81.3 billion in the largest offering of all time, CNBC reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tsmc-158-billion-day",
+   "title": "TSMC adds $158 billion in market value in a day after Huang's return to Nvidia",
+   "summary": "TSMC's shares jumped about 10% in Taipei after Nvidia reinstated Jensen Huang as CEO, adding $158 billion in market value in one day and clawing back part of a 17.5% weekly slide, Fortune reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Fortune",
+     "url": "https://www.msn.com/en-us/technology/tech-companies/tsmc-gains-158-billion-in-value-in-one-day-as-jensen-huang-returns-as-nvidia-ceo/ar-AA2i5A3N"
+    },
+    {
+     "outlet": "Mint"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "singapore-growth-forecast",
+   "title": "Singapore raises its 2026 growth forecast to about 6% on AI demand",
+   "summary": "Singapore raised its 2026 growth forecast to around 6% after third-quarter growth of 6.1%, and expects 2.5% to 4.5% growth in 2027 as AI investment eases, The Straits Times reports.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Straits Times",
+     "url": "https://www.straitstimes.com/business/economy/singapore-hikes-2026-gdp-growth-forecast-to-around-6-sees-2-5-to-4-5-growth-in-2027"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "openai-openworks",
+   "title": "OpenAI's OpenWorks will pay local experts up to $8,000 a month to help small businesses use AI",
+   "summary": "OpenAI's OpenWorks pilot pays local AI experts stipends of up to $8,000 a month to help small businesses in 20 US communities, including New York, Los Angeles, Chicago and Atlanta; the businesses pay nothing and get three months of ChatGPT Business.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Decrypt",
+     "url": "https://decrypt.co/383848/openai-will-pay-8k-preach-ai-gospel-small-businesses"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alphafold-protein-knot",
+   "title": "An 'impossible' protein knot predicted by AlphaFold turns out to be real",
+   "summary": "A University of Warsaw team led by Prof. Joanna Sułkowska found a protein with an eight-crossing knot, the most complex protein knot identified to date, after AlphaFold predicted it; 'At first, we thought it might be a hallucination by the model,' she said. The team found it in gut bacteria and confirmed its structure, published in PNAS.",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Science in Poland",
+     "url": "https://scienceinpoland.pl/en/news/news%2C115830%2Cscientists-discover-protein-knot-once-thought-impossible-thanks-ai.html"
+    },
+    {
+     "outlet": "PNAS",
+     "url": "https://www.pnas.org/doi/10.1073/pnas.2523017123"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hackers-ai-agents-zero-day",
+   "title": "Amazon says hackers' AI agents found and exploited a new flaw with a one-line instruction",
+   "summary": "Amazon says hackers gave AI agents a list of targets and a one-line goal, 'obtain shell access'; the agents found a previously unknown flaw in a medical-imaging app on an East Asian university server in about 11 minutes, but failed against hardened servers for over 16 hours, Ars Technica reports.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Ars Technica",
+     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+    },
+    {
+     "outlet": "Amazon"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tidal-ai-music-ban",
+   "title": "Tidal will ban fully AI-generated music and delete around 29 million songs",
+   "summary": "Tidal will ban fully AI-generated music from 9 December, deleting around 29 million AI-generated songs and rejecting an estimated 80,000 to 85,000 a day; '96% of all AI-generated songs receive zero plays at all,' said Tidal's Robert Andersen, The Verge reports.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "teledroid-iss",
+   "title": "Russia launches its Teledroid humanoid robot to the International Space Station",
+   "summary": "Roscosmos launched the Progress MS-36 cargo ship from Baikonur on 24 Nov carrying Teledroid, a humanoid robot avatar meant to work outside the space station: an operator wears a special suit and the robot copies the movements, to cut cosmonauts' spacewalk time. Docking is planned for 26 Nov.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/roscosmos-launches-teledroid-humanoid-robot-on-progress-ms-36/"
+    },
+    {
+     "outlet": "Roscosmos"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "softbank-rai-institute",
+   "title": "SoftBank completes its purchase of Marc Raibert's Robotics and AI Institute",
+   "summary": "SoftBank has completed its acquisition of the Robotics and AI Institute, founded in 2022 by Boston Dynamics founder Marc Raibert, from Hyundai Motor Group; terms were not disclosed, The Robot Report reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Robot Report",
+     "url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "artists-australia-ai-copyright",
+   "title": "Kate Bush, Grace Jones and 7,000 artists urge Australia not to weaken copyright for AI",
+   "summary": "Kate Bush, Grace Jones and Sir Ian Rankin are among more than 7,000 artists urging the Australian government not to 'legalise the theft' of creators' work for AI training, The Guardian reports; the same day, a parliamentary committee recommended strengthening Australia's copyright protections.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bostrom-intelligence-explosion",
+   "title": "Philosopher Nick Bostrom says an intelligence explosion may be close",
+   "summary": "In a Washington Post opinion interview, philosopher Nick Bostrom says an intelligence explosion may be close, and discusses the moral status of machines and how people might find meaning when work disappears.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Washington Post",
+     "url": "https://www.washingtonpost.com/opinions/2026/11/24/philosopher-nick-bostrom-says-an-intelligence-explosion-may-be-close/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Wednesday, November 25."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what happened in superintelligence in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Who's driving? In four Silicon Valley towns, Uber's new robotaxis are now testing with nobody at the wheel."
+  },
+  {
+   "s": 22.03,
+   "t": "Lucid has delivered over 100, and the public gets to ride early next year."
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, many at Anthropic and OpenAI reportedly doubt their most powerful unreleased models can be released safely."
+  },
+  {
+   "s": 38.91,
+   "t": "One researcher told Axios: make them smarter than us, and they'll be able to trick us."
+  },
+  {
+   "s": 45.94,
+   "t": "This week, OpenAI's chief scientist asked labs to agree on a speed limit, and how to measure it."
+  },
+  {
+   "s": 52.97,
+   "t": "And in Britain, Meta's assistant Muse will now do your Christmas shopping, but it asks before it buys."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. Anthropic's shares slipped below their $83 IPO price, just days after a record listing."
+  },
+  {
+   "s": 67.5,
+   "t": "Over in Taiwan, chipmaker TSMC added $158 billion in value in a day."
+  },
+  {
+   "s": 74.06,
+   "t": "And Singapore raised its growth forecast to about 6%, thanks to the AI boom."
+  },
+  {
+   "s": 82.03,
+   "t": "Plus, OpenAI will pay local experts up to $8,000 a month to coach small businesses, free."
+  },
+  {
+   "s": 90.0,
+   "t": "In Warsaw, scientists thought AI was hallucinating when AlphaFold predicted an impossibly knotted protein."
+  },
+  {
+   "s": 97.5,
+   "t": "It wasn't. They found it in gut bacteria: eight crossings, the most complex protein knot yet."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Hackers gave AI agents one sentence, and they found a brand-new way in."
+  },
+  {
+   "s": 110.62,
+   "t": "And Tidal will delete 29 million AI songs. Almost none were ever played."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Russia just launched a humanoid robot to the space station, to work outside it."
+  },
+  {
+   "s": 128.44,
+   "t": "Its operator wears a special suit, and the robot copies every move."
+  },
+  {
+   "s": 135.0,
+   "t": "And SoftBank bought the robot lab founded by Boston Dynamics' Marc Raibert."
+  },
+  {
+   "s": 141.56,
+   "t": "The cars can drive themselves now. Where we're all going is still up to us."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: the future is running early."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours. Tomorrow will be faster."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more on November 27."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-25/Singularity-Daily_2026-11-25.mp4",
+  "mb": 72.0,
+  "bytes": 71968882,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T18:27:13+00:00",
- "latest": "2026-11-24",
+ "updated": "2026-11-24T18:12:56+00:00",
+ "latest": "2026-11-25",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -18,8 +18,36 @@
   "price": "Free",
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2004177230046"
  },
- "data": "679c618da36e",
+ "data": "b4af67e4bc10",
  "episodes": [
+  {
+   "date": "2026-11-25",
+   "ep": 52,
+   "hook": "WHO'S DRIVING?",
+   "day": "Wednesday 25 November 2026",
+   "stories": 15,
+   "forecasts": 2,
+   "links": {
+    "supports": 0,
+    "early": 2,
+    "challenges": 0
+   },
+   "titles": [
+    "Uber, Nuro and Lucid start fully driverless robotaxi testing in the Bay Area",
+    "Staff at Anthropic and OpenAI reportedly doubt their most powerful unreleased models can be released safely",
+    "OpenAI's chief scientist proposes shared limits on AI development, measured by perplexity"
+   ],
+   "cover": "daily/media/2026-11-25/cover.webp",
+   "thumb": "daily/media/2026-11-25/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-25/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-25/Singularity-Daily_2026-11-25.mp4",
+    "mb": 72.0,
+    "bytes": 71968882,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-24",
    "ep": 51,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-18/cover.webp",
    "thumb": "daily/media/2026-11-18/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-18/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-18/Singularity-Daily_2026-11-18.mp4",
     "mb": 70.8,
