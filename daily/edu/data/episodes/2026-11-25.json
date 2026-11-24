@@ -1,0 +1,407 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-25",
+ "ep": 30,
+ "hook": "YOUR CALL.",
+ "day": "Wednesday 25 November 2026",
+ "note": "FOR EDUCATION · WEDNESDAY 25 NOVEMBER 2026",
+ "tldr": "School IT gets the full how-to for the Study and Learn lock, Intune can now keep Windows updates to set hours, and Copilot app search is changing for people without a Copilot licence, as reported.",
+ "chapters": [
+  "YOUR CALL",
+  "HANDS UP",
+  "CAMPUS IT",
+  "SMALL WINS",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 06:52 AEDT, Wed 25 Nov 2026 (Tuesday 24 Nov in the US).",
+ "notes": [
+  "A quiet day for education-specific news: Microsoft Education's Study and Learn how-to (23 Nov, 22:39 UTC) is the window's education story; the lock itself, the webinars and the higher-ed guide were covered on 24 Nov.",
+  "Status: the Copilot app search refresh is as reported by The Register (rolling out; Deferred Release by mid-January 2027). Teams raised hands and reactions (December), voice phishing detection (preview December, GA January), PowerPoint for Mac's Presenter view (January), Outlook flag descriptions and Edge's profile picker (February) are roadmap items in development; GitHub issue statuses are in public preview.",
+  "Screenshots are the publishers' public pages as captured on 25 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "YOUR CALL. 🎓\n\nThe last 24h at Microsoft for education:\n- Study and Learn lock: students only; teachers keep Copilot\n- New Copilot app search without a licence (reported)\n- Intune maintenance windows for updates\n- Teams raised hands at 100K-seat events (due Dec)",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (25 Nov 2026): the Microsoft 365 Copilot app's new search for people without a Copilot licence, as reported, Microsoft's how-to for locking Copilot Chat to Study and Learn, raised hands and reactions for Teams events of up to 100,000 people, Intune maintenance windows, Teams voice phishing detection, GitHub issue statuses and boards, PowerPoint for Mac's Presenter view, Outlook flag descriptions, the Azure API Management flaw, Windows' Family Safety and Bluetooth transfer deprecations, Edge's profile picker and the Global Jet in Flight Simulator 2024, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "STUDY AND LEARN LOCK: MICROSOFT 365 ADMIN CENTER > SETTINGS > ORG SETTINGS > MICROSOFT EDUCATION",
+  "THE STUDY AND LEARN LOCK COVERS THE WHOLE TENANT FOR NOW; GROUP-LEVEL CONTROL ISN'T AVAILABLE YET",
+  "STUDY AND LEARN IS PRE-SELECTED BY DEFAULT FOR K-12 TENANTS AND OFF BY DEFAULT FOR HIGHER EDUCATION",
+  "STUDY AND LEARN COMES WITH MICROSOFT 365 EDUCATION A1, A3 AND A5 FOR USERS 13 AND OLDER, IN 48 LANGUAGES",
+  "CHECK THE LOCK WITH A STUDENT ACCOUNT BEFORE YOU ANNOUNCE IT: CHANGES TAKE TIME TO REACH STUDENTS",
+  "COPILOT APP SEARCH: RESULTS STILL ONLY SHOW WHAT EACH USER HAS PERMISSION TO SEE, THE REGISTER REPORTS",
+  "TEAMS EVENTS: REACTIONS AT UP TO 100,000 ATTENDEES ARE ALSO DUE IN DECEMBER, ON DESKTOP AND MAC",
+  "ON THE ROADMAP: COPILOT IN WORD, EXCEL AND POWERPOINT WILL USE MEMORY TO LEARN YOUR WORK PATTERNS",
+  "INTUNE MAINTENANCE WINDOWS CAN BE ONE-TIME OR REPEATING; APP UPDATES WILL FOLLOW LATER",
+  "TEAMS VOICE PHISHING DETECTION COVERS ONE-TO-ONE CALLS ON ANDROID, DESKTOP, IOS, MAC AND MOBILE",
+  "GITHUB: ASSIGNING AN AGENT TO AN ISSUE MOVES IT TO IN PROGRESS; LINKING A PULL REQUEST MOVES IT TO IN REVIEW",
+  "POWER BI: WORKSPACE OUTBOUND ACCESS PROTECTION FOR SEMANTIC MODELS AND REPORTS IS GENERALLY AVAILABLE",
+  "POWER BI: PAGINATED REPORTS NOW SUPPORT OUTBOUND ACCESS PROTECTION, IN PREVIEW",
+  ".NET: DOCUMENTEXTRACTIONCLIENT, FOR EXTRACTING DOCUMENT CONTENT IN .NET APPS, IS IN PREVIEW",
+  "AZURE SITE RECOVERY: ZONAL DISASTER RECOVERY FOR ULTRA DISKS IS GENERALLY AVAILABLE",
+  "AZURE API MANAGEMENT: ONLY CLASSIC TIERS WERE AFFECTED, NOT THE V2 TIERS, MICROSOFT SAYS",
+  "NORWAY'S NSM ADVISES EVERY AZURE API MANAGEMENT USER TO ROTATE ALL TOKENS AND SECRETS",
+  "WINDOWS: FAMILY SAFETY FEATURES STAY AVAILABLE IN THE MOBILE APP AND ON THE WEB",
+  "EDGE'S STARTUP PROFILE PICKER CAN BE SWITCHED OFF WITH THE 'SHOW ON STARTUP' SETTING",
+  "FLIGHT SIMULATOR 2024: THE GLOBAL JET CRUISES AT UP TO MACH 0.88 WITH A 51,000-FOOT CEILING",
+  "REUTERS: MICROSOFT DECLARED AN INTERNAL 'CODE RED' AFTER THIS MONTH'S HISTORIC OUTAGE, MEMOS SHOW"
+ ],
+ "sources": [
+  "The Register",
+  "Microsoft Tech Community",
+  "Microsoft 365 Roadmap",
+  "Windows IT Pro Blog",
+  "Windows Central",
+  "GitHub Changelog",
+  "Help Net Security",
+  "The Hacker News",
+  "Microsoft Learn",
+  "Xbox Wire",
+  "FSElite",
+  "Power BI Blog",
+  "Reuters"
+ ],
+ "scanned": 1815,
+ "stories": [
+  {
+   "id": "copilot-search",
+   "title": "Search in the Microsoft 365 Copilot app is getting a refresh for people without a Copilot licence",
+   "summary": "The Register reports that Microsoft is rolling out a new search in the Microsoft 365 Copilot app for people with Microsoft 365 but no Copilot licence. It's on by default, with a toggle to switch back to classic search; results still only show what each person can access, and Microsoft advises IT to brief users and help desks.",
+   "for": "School and university IT and help desks",
+   "status": "Rolling out (as reported)",
+   "edu": false,
+   "chapter": "YOUR CALL",
+   "badge": "REPORTED",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/personal-tech/2026/11/24/microsoft-refreshes-copilot-app-search-for-users-without-an-ai-subscription/5311895"
+    }
+   ]
+  },
+  {
+   "id": "study-lock-howto",
+   "title": "The Study and Learn lock applies to students only, and covers Edge, Teams and Outlook too",
+   "summary": "Microsoft Education's how-to shows where the setting lives in the Microsoft 365 admin center (Settings > Org settings > Microsoft Education). The lock applies only to students, so teachers, staff and admins keep the Copilot they use today, and it also locks Copilot Chat in Edge, Teams and Outlook; for now it covers the whole tenant, with no group targeting.",
+   "for": "School IT turning on Copilot Chat for students 13 and older",
+   "status": "Available now",
+   "edu": true,
+   "chapter": "HANDS UP",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Microsoft Tech Community (Education Blog)",
+     "url": "https://techcommunity.microsoft.com/t5/education-blog/lock-copilot-chat-to-study-and-learn-for-students/ba-p/4576011"
+    }
+   ]
+  },
+  {
+   "id": "teams-raisehand",
+   "title": "Teams events for up to 100,000 people will get raised hands and reactions",
+   "summary": "Two Microsoft 365 roadmap items, both in development and due in December 2026 on desktop and Mac: attendees at events with up to 100,000 people can raise a hand, and organizers can let them turn on their mic and camera to ask a question; everyone can send and see reactions. A university-wide town hall is our example.",
+   "for": "University events and communications teams",
+   "status": "Due December 2026 (in development)",
+   "edu": false,
+   "chapter": "HANDS UP",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581720"
+    },
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581719"
+    }
+   ]
+  },
+  {
+   "id": "intune-maintenance-windows",
+   "title": "Intune can now set maintenance windows for Windows updates",
+   "summary": "School IT can now configure maintenance windows in Microsoft Intune, so the update actions you choose, such as installs and restarts, only start inside the hours you set. Microsoft recommends it for kiosks and other userless or critical-use devices running Windows 11, version 24H2 or later, with the February 2026 security update or later.",
+   "for": "School IT managing kiosks and shared devices",
+   "status": "Available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Windows IT Pro Blog",
+     "url": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/maintenance-windows-for-cloud-managed-systems/ba-p/4508203"
+    }
+   ]
+  },
+  {
+   "id": "teams-voice-phishing",
+   "title": "Teams will warn you when a call from outside your organization looks like a scam",
+   "summary": "Voice phishing detection uses AI to look for signs of social engineering in one-to-one Teams calls with people outside your organization, and alerts you when something looks suspicious. It's on the Microsoft 365 roadmap, in development, with a preview due in December 2026 and general availability in January 2027.",
+   "for": "Staff and students who take calls in Teams",
+   "status": "Preview Dec 2026; GA Jan 2027",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580443"
+    }
+   ]
+  },
+  {
+   "id": "github-issue-statuses",
+   "title": "GitHub issues get statuses and drag-and-drop boards",
+   "summary": "Issues can now carry statuses from Backlog to Done, some set automatically when you link a pull request or assign someone, and repository views can show a board where you drag issues between columns to update them. A student team project is our example.",
+   "for": "Coding students and teachers",
+   "status": "Public preview",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview"
+    }
+   ]
+  },
+  {
+   "id": "powerpoint-presenter-view",
+   "title": "PowerPoint for Mac will let you move, resize and enlarge speaker notes in Presenter view",
+   "summary": "A Microsoft 365 roadmap item, in development and due January 2027 for Mac: new Presenter view controls to reposition and resize speaker notes, set their text size and arrange slides and notes the way you like. The current layout stays the default.",
+   "for": "Teachers presenting from a Mac",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "SMALL WINS",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579892"
+    }
+   ]
+  },
+  {
+   "id": "outlook-flag-descriptions",
+   "title": "Outlook will let you add your own note to a follow-up flag",
+   "summary": "You'll be able to add custom text to an email's follow-up flag describing what you need to do, so you remember why you flagged it. It's on the roadmap for the new Outlook for Windows and the web, in development and due February 2027.",
+   "for": "Teachers and staff",
+   "status": "Due February 2027 (in development)",
+   "edu": false,
+   "chapter": "SMALL WINS",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580885"
+    }
+   ]
+  },
+  {
+   "id": "apim-classic-flaw",
+   "title": "Azure API Management Classic flaw is fixed, but rotate your secrets",
+   "summary": "Microsoft told customers it found a security issue in Azure API Management's Classic tiers on 18 November and closed the access path the next day, but credentials and secrets stored by some customers may have been accessed, and the fix doesn't invalidate them. Rotate them; the v2 tiers aren't affected.",
+   "for": "University IT teams running Azure API Management",
+   "status": "Fixed; rotate your secrets",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/"
+    }
+   ]
+  },
+  {
+   "id": "windows-deprecations",
+   "title": "Windows deprecates the Family Safety app and file transfers over Bluetooth",
+   "summary": "Microsoft's list of deprecated Windows features now includes the Family Safety app for Windows, planned for removal in a future release (families can keep using the Family Safety mobile app or the web), and MTP over Bluetooth (MTP over USB still works).",
+   "for": "Families and school IT",
+   "status": "Deprecated; removal in a future release",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features"
+    }
+   ]
+  },
+  {
+   "id": "edge-profile-picker",
+   "title": "Edge will let you pick a profile when it starts",
+   "summary": "A roadmap item, in development and due February 2027: Edge will show a profile picker at startup, so you can choose a work, personal or other profile, add one, or browse as a guest; the 'Show on startup' setting turns it off.",
+   "for": "Students and staff who keep separate browser profiles",
+   "status": "Due February 2027 (in development)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581721"
+    }
+   ]
+  },
+  {
+   "id": "flight-sim-global-jet",
+   "title": "The iniBuilds Global Jet lands in Microsoft Flight Simulator 2024",
+   "summary": "A new business-jet add-on, exclusive to the Flight Simulator 2024 Marketplace on PC, Xbox and PS5 for US$59.99, with a range of up to 6,000 nautical miles and a head-up display with Synthetic Vision.",
+   "for": "Flight-sim fans, after the bell",
+   "status": "Available now (paid add-on)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/24/microsoft-flight-simulator-announces-a-marketplace-exclusive-the-inibuilds-global-jet/"
+    },
+    {
+     "outlet": "FSElite",
+     "url": "https://fselite.net/content/inibuilds-global-jet-available-now-msfs-2024/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Wednesday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on everything new from Microsoft."
+  },
+  {
+   "s": 15.0,
+   "t": "Your call: without a Copilot licence, search in the Microsoft 365 Copilot app is getting a refresh."
+  },
+  {
+   "s": 22.5,
+   "t": "It's on by default, with a switch back to classic search, The Register reports."
+  },
+  {
+   "s": 31.88,
+   "t": "Locking Copilot Chat to Study and Learn?"
+  },
+  {
+   "s": 34.29,
+   "t": "Microsoft's new how-to says the lock is for students only."
+  },
+  {
+   "s": 39.38,
+   "t": "Teachers keep their Copilot, while students get Study and Learn in Edge, Teams and Outlook too."
+  },
+  {
+   "s": 45.94,
+   "t": "Big town hall?"
+  },
+  {
+   "s": 46.93,
+   "t": "Teams events for up to 100,000 people get raised hands, due December."
+  },
+  {
+   "s": 52.5,
+   "t": "Organizers can let a raised hand turn on their mic and camera, and everyone can send reactions."
+  },
+  {
+   "s": 60.0,
+   "t": "School IT can now set maintenance windows in Intune, so automatic updates only start in hours you pick."
+  },
+  {
+   "s": 67.5,
+   "t": "Microsoft suggests it for kiosks and critical devices, on Windows 11, version 24H2 or later."
+  },
+  {
+   "s": 75.0,
+   "t": "Teams will flag likely scams on calls from outside your organization, with a preview due in December."
+  },
+  {
+   "s": 82.5,
+   "t": "Student team project on GitHub?"
+  },
+  {
+   "s": 84.42,
+   "t": "Issues now get statuses and a drag-and-drop board, in public preview."
+  },
+  {
+   "s": 90.0,
+   "t": "Teaching from a Mac? PowerPoint's Presenter view will let you move, resize and enlarge your notes, due January."
+  },
+  {
+   "s": 97.5,
+   "t": "And Outlook's follow-up flags will take your own words, so you remember why, due February."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? Attackers stole secrets via an Azure API Management flaw."
+  },
+  {
+   "s": 110.3,
+   "t": "It's fixed; rotate them."
+  },
+  {
+   "s": 112.5,
+   "t": "And Windows deprecated its Family Safety app and Bluet ooth file transfers; the phone app and USB still work."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Edge will let you pick a profile when it starts, work, personal or guest, due February."
+  },
+  {
+   "s": 129.38,
+   "t": "And flight-sim fans can now fly the Global Jet, a new add-on for Flight Simulator 2024."
+  },
+  {
+   "s": 136.88,
+   "t": "It's a business jet with a head-up display and a range of 6,000 nautical miles."
+  },
+  {
+   "s": 143.91,
+   "t": "Search, updates, profiles, even who speaks next: more of it is your call."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Check the board: shipped today, and more on the way."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And it keeps on shipping."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-25/Microsoft-for-Education-Daily_2026-11-25.mp4",
+  "mb": 54.3,
+  "bytes": 54254773,
+  "seconds": 180.01
+ },
+ "links": {}
+}
