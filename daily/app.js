@@ -163,9 +163,66 @@
   const onlyForecasters = () => !['all', 'guide'].includes(state.filters.who);
   function whoLabel() {
     const w = state.filters.who;
+    if (w === 'members') return 'Transhumanism Australia members';
     if (w.startsWith('person:')) return personName(w.slice(7));
     if (w.startsWith('group:')) return ((state.fc && state.fc.groups) || {})[w.slice(6)] || 'the group';
     return 'the leading forecasters';
+  }
+
+  // ------------------------------------------------------------------ Transhumanism Australia members' own predictions
+  // members.js loads the members API's public feed (approved predictions only) and fires 'sdm:data'; they sit on the
+  // same timeline in green, under the member's chosen name. They are the members' own, never the Guide's, and not judged.
+  const memItems = () => (window.SDM && SDM.live && Array.isArray(SDM.data.predictions) ? SDM.data.predictions : []);
+  const memYear = x => (Number(x.by.slice(0, 4)) > 2040 ? 'beyond' : x.by.slice(0, 4));
+  const memOrder = x => (Number(x.by.slice(0, 4)) * 12 + Number(x.by.slice(5, 7))) * 100 + 99.5; // after the forecasters' in the same month
+  const memWho = x => (x.tier === 'sponsor' ? 'Timeline sponsor' : 'Transhumanism Australia member');
+  function memRows() {
+    const f = state.filters;
+    if (!['all', 'members'].includes(f.who) || f.domain !== 'all' || f.rel !== 'all' || f.view !== 'year') return [];
+    const words = f.q ? f.q.split(/\s+/) : [];
+    return memItems().filter(x => !words.length || words.every(w =>
+      `${x.claim} ${x.why || ''} ${x.name} ${ymLabel(x.by)} ${x.topic ? domainName(x.topic) : ''} member`.toLowerCase().includes(w)));
+  }
+  function memRow(x) {
+    const det = h('details', { class: 'fc ext mem', id: `mp-${x.id}` });
+    det.append(h('summary', null,
+      h('span', { class: 'meta' }, h('span', { class: 'fy', text: ymLabel(x.by).toUpperCase() }),
+        h('span', { class: 'pr', text: `${x.prob ? `${x.prob}% · ` : ''}posted ${ymLabel(x.posted.slice(0, 7))}` })),
+      h('span', { class: 'tx' }, x.claim, h('small', null, `${x.name} · ${memWho(x)}${x.topic ? ` · ${domainName(x.topic)}` : ''}`)),
+      h('span', { class: 'sig' }, h('span', { class: 'who-pill mem', text: 'Member' }))));
+    det.addEventListener('toggle', () => {
+      if (det.open && !det.dataset.filled) {
+        det.dataset.filled = '1';
+        det.append(memBody(x));
+      }
+    });
+    return h('li', null, det);
+  }
+  function memBody(x) {
+    const fact = (label, ...kids) => h('div', { class: 'vc-row' }, h('span', { class: 'lab mono', text: label }), h('div', null, ...kids));
+    const link = x.link && safeHttps(x.link);
+    return h('div', { class: 'fc-body' },
+      fact('Their prediction', h('p', { text: x.claim }),
+        h('p', { class: 'note' }, `${x.name}, ${x.tier === 'sponsor' ? 'a timeline sponsor and Transhumanism Australia member' : 'a Transhumanism Australia member'}. Posted ${dayMonthYear(x.posted)}. `,
+          link ? h('a', { href: link, target: '_blank', rel: 'nofollow ugc noopener', text: 'Their link \u2197' }) : null)),
+      fact('When', h('p', { text: `By the end of ${longYm(x.by)}.${x.prob ? ` They put ${x.prob}% on it.` : ''}` })),
+      x.why ? fact('Why', h('p', { text: x.why })) : null,
+      fact('Note', h('p', { class: 'note', text: 'A member\u2019s own prediction, shown as they posted it once it was checked for being on topic and civil. It isn\u2019t the Guide\u2019s, and it isn\u2019t judged here.' })),
+      h('div', { class: 'fc-foot' }, h('a', { href: `#/members/p/${x.id}`, text: 'Link to this prediction' }), h('a', { href: '#/members', text: 'Add your own' })));
+  }
+  async function openMember(id) {
+    if (window.SDM) await SDM.ready;
+    const x = memItems().find(m => m.id === id);
+    if (!x) { toast('That prediction isn\u2019t on the timeline (any more).'); return $('forecasts'); }
+    const f = state.filters;
+    if (!['all', 'members'].includes(f.who) || f.domain !== 'all' || f.rel !== 'all' || f.view !== 'year' || f.q) clearFilters();
+    const yr = $(`y-${memYear(x)}`);
+    if (yr) yr.open = true;
+    const el = $(`mp-${id}`);
+    if (!el) return $('forecasts');
+    el.open = true;
+    flash(el);
+    return el;
   }
 
   // ------------------------------------------------------------------ episode
@@ -731,6 +788,10 @@
     [...sel.querySelectorAll('option[data-dyn]')].forEach(o => o.remove());
     const counts = new Map();
     for (const x of fcItems()) counts.set(x.who, (counts.get(x.who) || 0) + 1);
+    const mem = memItems().length;
+    const all = sel.querySelector('option[value="all"]');
+    if (all) all.textContent = mem ? 'Everyone: the Guide, forecasters and members' : 'The Guide and the forecasters';
+    if (mem) sel.append(h('option', { value: 'members', 'data-dyn': '1', text: `Transhumanism Australia members (${mem})` }));
     for (const [g, name] of Object.entries((state.fc && state.fc.groups) || {})) sel.append(h('option', { value: `group:${g}`, 'data-dyn': '1', text: name }));
     [...state.people.values()].filter(p => counts.get(p.id)).sort((a, b) => a.name.localeCompare(b.name))
       .forEach(p => sel.append(h('option', { value: `person:${p.id}`, 'data-dyn': '1', text: `${p.name} (${counts.get(p.id)})` })));
@@ -785,21 +846,25 @@
   }
 
   function renderForecasts() {
-    const f = state.filters, rows = forecastRows(), host = $('forecastList'), live = liveItems(), fc = fcRows();
+    const f = state.filters, rows = forecastRows(), host = $('forecastList'), live = liveItems(), fc = fcRows(), mem = memRows();
     const filtered = Boolean(f.q) || f.domain !== 'all' || f.rel !== 'all' || f.who !== 'all';
     const fcAll = fcLive().filter(whoMatches).length;
-    const fcText = fcLive().length && f.view === 'year' && f.who === 'all' ? ` · ${fc.length} of ${fcLive().length} from leading forecasters` : '';
+    const memAll = memItems().length;
+    const fcText = (fcLive().length && f.view === 'year' && f.who === 'all' ? ` · ${fc.length} of ${fcLive().length} from leading forecasters` : '')
+      + (memAll && f.view === 'year' && f.who === 'all' ? ` · ${mem.length} from members` : '');
     const dueN = fcDue().filter(whoMatches).length;
-    $('forecastCount').textContent = onlyForecasters()
+    $('forecastCount').textContent = f.who === 'members'
+      ? `Showing ${mem.length} of ${memAll} predictions from Transhumanism Australia members, in the year they gave · their own, not the Guide\u2019s`
+      : onlyForecasters()
       ? `Showing ${fc.length} of ${fcAll} predictions still to come from ${whoLabel()}, in the year they gave · ${dueN} more ${dueN === 1 ? 'has' : 'have'} fallen due (What it got right or wrong)`
       : `Showing ${rows.length} of ${live.length} live forecasts · ${rows.filter(x => x.r).length} with news${fcText}${f.view === 'year' ? ' · open a year to read it' : ''}`;
-    if (!rows.length && !fc.length) { host.replaceChildren(h('p', { class: 'empty', text: onlyForecasters() && f.view !== 'year' ? 'The forecasters\u2019 predictions show in the year-by-year view.' : 'No forecasts match. Try another search or filter.' })); return; }
+    if (!rows.length && !fc.length && !mem.length) { host.replaceChildren(h('p', { class: 'empty', text: onlyForecasters() && f.view !== 'year' ? 'These predictions show in the year-by-year view.' : 'No forecasts match. Try another search or filter.' })); return; }
     if (f.view !== 'year') { host.replaceChildren(h('ol', { class: 'forecasts' }, rows.map(({ p, r }) => forecastRow(p, r)))); return; }
     const wasOpen = new Set([...host.querySelectorAll('details.yr[open]')].map(d => d.dataset.year));
     const first = !host.dataset.ready;
     host.dataset.ready = '1';
     const now = Number((state.score.month || state.index.latest || '').slice(0, 4));
-    const groups = new Map(), fgroups = new Map();
+    const groups = new Map(), fgroups = new Map(), mgroups = new Map();
     for (const x of rows) {
       const k = x.p.kind === 'horizon' ? 'beyond' : String(x.p.year);
       if (!groups.has(k)) groups.set(k, []);
@@ -811,12 +876,18 @@
       if (!fgroups.has(k)) fgroups.set(k, []);
       fgroups.get(k).push(x);
     }
+    for (const x of mem) {
+      const k = memYear(x);
+      if (!groups.has(k)) groups.set(k, []);
+      if (!mgroups.has(k)) mgroups.set(k, []);
+      mgroups.get(k).push(x);
+    }
     const keys = [...groups.keys()].sort((a, b) => (a === 'beyond') - (b === 'beyond') || Number(a) - Number(b));
     host.replaceChildren(...keys.map(k => yearGroup(k, groups.get(k),
-      filtered || (first ? k !== 'beyond' && Number(k) <= now + 1 : wasOpen.has(k)), fgroups.get(k) || [])));
+      filtered || (first ? k !== 'beyond' && Number(k) <= now + 1 : wasOpen.has(k)), fgroups.get(k) || [], mgroups.get(k) || [])));
   }
 
-  function yearGroup(k, list, isOpen, fc = []) {
+  function yearGroup(k, list, isOpen, fc = [], mem = []) {
     const beyond = k === 'beyond', sum = { supports: 0, early: 0, challenges: 0 };
     let withNews = 0;
     for (const { r } of list) {
@@ -826,19 +897,21 @@
     }
     const note = beyond
       ? [list.length ? 'Beyond superintelligence. Each horizon is conditional: its best-guess date says when it could arrive if aligned superintelligence and every prerequisite listed with it arrive first, with a window of several years either side, and its probability assumes the same.' : '',
-        fc.length ? 'After them, leading forecasters\u2019 predictions dated after 2040, in their own words.' : ''].filter(Boolean).join(' ')
+        fc.length ? 'After them, leading forecasters\u2019 predictions dated after 2040, in their own words.' : '',
+        mem.length ? 'And members\u2019 own predictions dated after 2040.' : ''].filter(Boolean).join(' ')
       : (state.preds.years || {})[k];
     const count = [list.length ? (beyond ? `${list.length} conditional horizon${list.length === 1 ? '' : 's'}` : `${list.length} live forecast${list.length === 1 ? '' : 's'}`) : '',
-      fc.length ? `${fc.length} from leading forecasters` : ''].filter(Boolean).join(' · ');
+      fc.length ? `${fc.length} from leading forecasters` : '', mem.length ? `${mem.length} from members` : ''].filter(Boolean).join(' · ');
     const rows = [...list.map(({ p, r }) => ({ o: order(p), el: () => forecastRow(p, r) })),
-      ...fc.map(x => ({ o: (beyond ? 2e7 : 0) + fcOrder(x), el: () => fcRow(x) }))].sort((a, b) => a.o - b.o);
+      ...fc.map(x => ({ o: (beyond ? 2e7 : 0) + fcOrder(x), el: () => fcRow(x) })),
+      ...mem.map(x => ({ o: (beyond ? 2e7 : 0) + memOrder(x), el: () => memRow(x) }))].sort((a, b) => a.o - b.o);
     const det = h('details', { class: `yr${beyond ? ' beyond' : ''}`, id: `y-${k}`, 'data-year': k });
     det.open = isOpen;
     det.append(
       h('summary', null,
         h('span', { class: 'y', text: beyond ? 'Beyond' : k }),
         h('span', { class: 'yc' }, count,
-          h('small', { text: withNews ? `${withNews} with news from ${theShows()}` : list.length ? `No news from ${theShows()} yet` : 'Leading forecasters\u2019 predictions' })),
+          h('small', { text: withNews ? `${withNews} with news from ${theShows()}` : list.length ? `No news from ${theShows()} yet` : fc.length ? 'Leading forecasters\u2019 predictions' : 'Members\u2019 predictions' })),
         h('span', { class: 'tally' }, tallyPills(sum))),
       note ? h('p', { class: 'ysum', text: note }) : null,
       h('ol', { class: 'forecasts' }, rows.map(x => x.el())));
@@ -1314,7 +1387,7 @@
     } else if (parts[0] === 'today') {
       date = state.index.latest;
       target = 'now';
-    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'transhuman', 'education', 'musk', 'forecasters', 'people', 'predictions', 'paths'].includes(parts[0])) {
+    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'transhuman', 'education', 'musk', 'forecasters', 'people', 'predictions', 'paths', 'members'].includes(parts[0])) {
       target = parts[0];
     } else {
       date = state.index.latest;
@@ -1331,6 +1404,8 @@
     else if (parts[0] === 'forecasters') el = showWho(parts[1] ? `group:${parts[1]}` : 'others');
     else if (parts[0] === 'people') el = showWho(parts[1] ? `person:${parts[1]}` : 'others');
     else if (parts[0] === 'paths' && parts[1]) { el = $(`path-${parts[1]}`) || $(`dim-${parts[1]}`) || $('paths'); if (el !== $('paths')) flash(el); }
+    else if (parts[0] === 'members' && parts[1] === 'p' && parts[2]) el = await openMember(parts[2]);
+    else if (parts[0] === 'members') el = window.SDM ? await SDM.route(parts.slice(1)) : null;
     else if (parts[0] === 'scorecard' && parts[1]) el = parts[1] === 'changes' ? $('changes') : openVerdict(parts[1]);
     else if (parts[0] === 'weekly' && parts[1]) el = openWeek(parts[1]);
     else if (parts[0] === 'guide') el = guideRoute(parts[1]);
@@ -1368,6 +1443,7 @@
         getOptional('daily/data/forecasters.json'), getOptional('daily/data/paths.json')]);
       const fresh = index.latest !== state.index.latest;
       state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setForecasters(fcData, pathsData);
+      if (window.SDM) SDM.setDomains(state.preds.domains);
       fillWho();
       state.episodes.clear();
       renderAll();
@@ -1445,12 +1521,15 @@
 
   async function init() {
     wireStatic();
+    // members' predictions arrive from the members API on their own time (members.js): fold them into the timeline
+    document.addEventListener('sdm:data', () => { if (state.preds) { fillWho(); renderForecasts(); } });
     try {
       const [index, preds, tracker, score, revs, weekly, th, fcData, pathsData] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
         getJSON('daily/data/tracker.json'), getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'),
         getOptional('daily/th/data/links.json'), getOptional('daily/data/forecasters.json'), getOptional('daily/data/paths.json')]);
       if (!index.episodes || !index.episodes.length) throw new Error('no episodes yet');
       state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setForecasters(fcData, pathsData);
+      if (window.SDM) SDM.setDomains(state.preds.domains);
     } catch (e) {
       showLoadError(e);
       return;

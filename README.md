@@ -131,6 +131,16 @@ pushes. `daily/app.js` folds `links.json` into the tracker in the browser, resol
 its id, so the Singularity Daily's own `tracker.json` stays its own. The newest three of its videos are copied into the Pages
 site too. `daily/transhuman.html` is its share link's page (`daily/th/index.html` is an alias).
 
+Members' predictions and timeline sponsors (`daily/members.js`, `#/members`) come from a separate members API, the Vercel
+project `peterxing-members` (https://peterxing-members.vercel.app/api/members; source in `C:\Users\peterxing\code\peterxing-members`).
+Members of Transhumanism Australia (its A$5-a-month Stripe Payment Link) sign in with a one-time link sent to the email on their
+membership, which the API checks with Stripe on every sign-in and post, and add their own dated predictions; once an admin
+approves one it shows on this timeline in green (`#/members/p/<id>`), under the member's chosen name, with "Transhumanism
+Australia members" in the Whose filter. Timeline sponsors (a higher Stripe tier the admin page creates) upload a logo, which
+shows in the strip at the top of Predictions vs reality once approved and comes down if their subscription lapses. Nothing
+shows until the API reports `live` (its Stripe key, email sender and admins set); the index's Content-Security-Policy allows
+the API's origin for `connect-src` and `img-src`. Members' predictions are theirs, not the Guide's, and aren't judged.
+
 ## Data
 
 | File | What it holds |

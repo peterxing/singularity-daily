@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Singularity Daily · the last 24 hours in superintelligence, every day</title>
 <meta name="description" content="A 3-minute show on the last 24 hours in superintelligence, published every morning, with every story checked against the forecasts in The Hitchhiker's Guide to the Singularity, which you can read here too.">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://peterxing.github.io; media-src 'self' https://peterxing.github.io https://github.com https://release-assets.githubusercontent.com https://objects.githubusercontent.com; connect-src 'self'; font-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://peterxing.github.io https://peterxing-members.vercel.app; media-src 'self' https://peterxing.github.io https://github.com https://release-assets.githubusercontent.com https://objects.githubusercontent.com; connect-src 'self' https://peterxing-members.vercel.app; font-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
 <meta name="theme-color" content="#0b0b0c">
 <meta name="color-scheme" content="dark">
 <link rel="canonical" href="https://peterxing.com/">
@@ -23,11 +23,12 @@
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261123b">
+<link rel="stylesheet" href="daily/app.css?v=20261124a">
 <link rel="stylesheet" href="daily/edu.css?v=20261101c">
 <link rel="stylesheet" href="daily/th.css?v=20261103a">
 <script src="daily/route.js?v=20261101a"></script>
-<script src="daily/app.js?v=20261123b" defer></script>
+<script src="daily/members.js?v=20261124a" defer></script>
+<script src="daily/app.js?v=20261124a" defer></script>
 <script src="daily/th.js?v=20261122a" defer></script>
 <script src="daily/edu.js?v=20261101d" defer></script>
 </head>
@@ -191,8 +192,10 @@
       <h2 id="forecastsTitle">Predictions vs reality</h2>
       <p class="section-sub" id="forecastIntro">The Guide's live forecasts, year by year from now to 2040 and beyond, each with its best-guess month, its odds and the test it will be judged against, and every story in the show that bears on it, with the dated predictions of leading forecasters, from Elon Musk and Ray Kurzweil to the AI 2027 team, alongside them.</p>
     </div>
+    <div class="sponsors" id="sponsorStrip" hidden></div>
     <div class="scoreboard" id="scoreboard"></div>
     <div class="moving" id="moving"></div>
+    <div class="mcta" id="membersCta" hidden></div>
     <div class="controls" role="group" aria-label="Filter forecasts">
       <label class="field"><span>Search</span><input type="search" id="fq" placeholder="robots, chips, jobs…" autocomplete="off"></label>
       <label class="field"><span>Domain</span><select id="fd"><option value="all">All domains</option></select></label>
@@ -217,6 +220,17 @@
     <p class="mono count" id="forecastCount" aria-live="polite"></p>
     <div id="forecastList" class="fyears"></div>
     <p class="fineprint">This tracks the news, not the odds. The odds are the Guide's own and move only when Peter revises them. "Evidence for" means a story shows part of a forecast's claim happening, not that the forecast has come true: that is settled only by its test, once its month has passed. The months are the Guide's best guesses, and the "±" is how far either side the Guide allows. The tests and the links are the shows' reading, not an independent assessment. The leading forecasters' predictions are their own words, quoted from public sources with the date they gave; including one is not an endorsement, and each is judged against a test written when it was added here.</p>
+  </section>
+
+  <section id="members" class="wrap section members" aria-labelledby="membersTitle" hidden>
+    <div class="section-head">
+      <p class="mono eyebrow">Transhumanism Australia members</p>
+      <h2 id="membersTitle">Add your prediction</h2>
+      <p class="section-sub">Members of Transhumanism Australia can put their own dated predictions on the timeline above, in green, next to the Guide's and the leading forecasters'. Timeline sponsors put their logo on it.</p>
+    </div>
+    <div id="membersMain"></div>
+    <div id="membersAdmin"></div>
+    <p class="fineprint">Members' predictions are their own, shown under the name they choose once they've been checked for being on topic and civil. They aren't the Guide's, aren't endorsed by it, and aren't judged here. You sign in with a one-time link sent to the email on your Transhumanism Australia membership, which is checked with Stripe each time you sign in or post. We keep your email, the name and link you give and your predictions, and you can withdraw your predictions at any time. Sponsors' logos link to their own sites and are checked before they go up.</p>
   </section>
 
   <section id="guide" class="wrap section guide" aria-labelledby="guideTitle">
