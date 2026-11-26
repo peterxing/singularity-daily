@@ -1,0 +1,387 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-27",
+ "ep": 32,
+ "hook": "TIDY UP.",
+ "day": "Friday 27 November 2026",
+ "note": "FOR EDUCATION · FRIDAY 27 NOVEMBER 2026",
+ "tldr": "Copilot Chat reaches shared inboxes, Teams pages and Markdown are on the way, school IT gets a tidier WinGet, and Telnet and old Java versions head out.",
+ "chapters": [
+  "TIDY UP",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "THE BOOKS",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:22 AEDT, Fri 27 Nov 2026 (Wednesday 25 to Thursday 26 Nov in the US, Thanksgiving).",
+ "notes": [
+  "A quiet US Thanksgiving: no new Microsoft Education posts or [Education] roadmap items in the window, so today's stories are campus-wide updates framed for schools and universities. This week: GitHub's 'Art of play' post (25 Nov, 16:00 UTC); WinGet 1.30's release candidate came out on 24 Nov, with press coverage in the window.",
+  "Status: Copilot Chat in shared mailboxes is rolling out; Pages in Teams (January) and expanded Markdown in Teams (December preview) are roadmap items in development; WinGet 1.30 is a release candidate; Excel's accounting skills are in the Frontier early-access program.",
+  "Screenshots are the publishers' public pages as captured on 27 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "TIDY UP. 🧹\n\nThe last 24h at Microsoft for education:\n- Copilot Chat in shared and delegate inboxes (rolling out)\n- Pages you can edit together in Teams (due Jan)\n- WinGet keeps installing when an app's missing (preview)\n- Telnet Client on its way out of Windows",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (27 Nov 2026): Copilot Chat in shared and delegate mailboxes in classic Outlook, Pages in Teams, more Markdown in Teams, WinGet 1.30's release candidate, Microsoft's guide to Copilot Studio agent costs, accounting skills in Copilot in Excel, GitHub's change to Copilot code review billing, the deprecation of Windows' Telnet Client, the end of Java 8, 11 and 17 support in Azure Functions, Xbox Free Play Days and GitHub's 'Art of play' post, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "OUTLOOK: COPILOT CHAT IN SHARED AND DELEGATE MAILBOXES NEEDS FULL ACCESS OR FOLDER-LEVEL PERMISSION",
+  "OUTLOOK: ADD THE SHARED MAILBOX AS A RESOURCE IN CLASSIC OUTLOOK TO USE COPILOT CHAT THERE",
+  "TEAMS: OPEN A SHARED PAGE IN YOUR MAIN TEAMS WINDOW OR A NEW ONE, DUE JANUARY",
+  "TEAMS: MORE MARKDOWN IN THE COMPOSE BOX, PREVIEW DUE DECEMBER, GENERAL AVAILABILITY JANUARY",
+  "TEAMS: THE ROADMAP NOW SHOWS EXTERNAL BOT REPORTS IN PREVIEW IN JANUARY, GENERALLY AVAILABLE IN FEBRUARY",
+  "WINGET 1.30: SOURCE PRIORITY NO LONGER NEEDS AN EXPERIMENTAL FLAG",
+  "WINGET 1.30: --OUTPUT-LOCALE SHOWS WINGET'S OWN MESSAGES IN ONE OF 11 LANGUAGES",
+  "COPILOT STUDIO: AN ALLOCATION RESERVES CREDITS; A LIMIT CAPS AN AGENT WITHOUT RESERVING ANY",
+  "COPILOT STUDIO: IDENTITY-SCOPED SPENDING POLICIES ARE COMING SOON TO AGENT 365 COST MANAGEMENT",
+  "EXCEL: GPT-6.2 SOL IS NOW IN THE MODEL PICKER IN COPILOT IN EXCEL",
+  "EXCEL INSIDERS: SHOW CHANGES NOW GROUPS COPILOT'S EDITS INTO SUMMARY CARDS",
+  "GITHUB: ORGANIZATION BILLING FOR CODE REVIEW NEEDS AI CREDITS PAID USAGE AND CAN RAISE SPENDING",
+  "GITHUB: AN EXISTING MEMBER OR ORGANIZATION BILLING CHOICE STAYS IN EFFECT",
+  "TELNET CLIENT IS AN OPTIONAL WINDOWS FEATURE AND ISN'T INSTALLED BY DEFAULT, BETANEWS NOTES",
+  "AZURE FUNCTIONS: APPS ON JAVA 8, 11 AND 17 KEEP RUNNING AFTER 1 SEPTEMBER 2027, WITHOUT SECURITY UPDATES",
+  "AZURE FUNCTIONS: MICROSOFT SAYS UPGRADE TO JAVA 25 BEFORE 1 SEPTEMBER 2027",
+  "AZURE VIRTUAL NETWORK: ECMP ROUTING ACROSS 2 TO 16 NEXT HOPS IS IN PUBLIC PREVIEW",
+  "POWER PLATFORM: FILTER-BASED SECURITY FILTERS IN THE MAKER PORTAL, PREVIEW DUE DECEMBER",
+  "VIVA INSIGHTS: ACCESS MANAGEMENT FOR COPILOT ANALYTICS, DUE JANUARY",
+  "GITHUB: OCTOVERSE SAYS 40% OF PULL REQUESTS WERE STARTED BY AGENTS BY SEPTEMBER, UP FROM 17% IN MARCH",
+  "GITHUB: BEFORE YOU CONTRIBUTE, READ THE GUIDELINES, CHECK EXISTING ISSUES AND LEARN WHAT THE PROJECT NEEDS",
+  "XBOX: LITTLE ROCKET LAB IS 30% OFF DURING FREE PLAY DAYS",
+  "XBOX: WARHAMMER 40,000: MECHANICUS IS 90% OFF UNTIL 7 DECEMBER"
+ ],
+ "sources": [
+  "Microsoft 365 Roadmap",
+  "WinGet on GitHub",
+  "BetaNews",
+  "Neowin",
+  "Microsoft Copilot Studio Blog",
+  "Microsoft Excel Blog",
+  "GitHub Changelog",
+  "Microsoft Learn",
+  "Azure Updates",
+  "GitHub Blog",
+  "Xbox Wire",
+  "Windows Report"
+ ],
+ "scanned": 1749,
+ "stories": [
+  {
+   "id": "outlook-shared",
+   "title": "Copilot Chat comes to shared and delegate mailboxes in classic Outlook",
+   "summary": "Shared mailbox users and delegates with full access or folder-level permission can now use Copilot Chat right from those mailboxes in classic Outlook, once the mailbox is added as a resource. It's rolling out, with general availability listed for November 2026. A school office's shared inbox is our example.",
+   "for": "School office staff and delegates managing inboxes",
+   "status": "Rolling out (classic Outlook)",
+   "edu": false,
+   "chapter": "TIDY UP",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573698"
+    }
+   ]
+  },
+  {
+   "id": "teams-pages",
+   "title": "Pages shared in Teams chats and channels will open right in Teams",
+   "summary": "When someone shares a page in a chat or channel, you'll be able to open it in Teams, in the main window or a new one, then edit it and discuss it with others. It's a roadmap item in development, with preview and general availability due January 2027. Student group projects are our example.",
+   "for": "Teachers and students working together in Teams",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580886"
+    }
+   ]
+  },
+  {
+   "id": "teams-markdown",
+   "title": "Teams is getting more Markdown in the compose box",
+   "summary": "Teams is expanding Markdown support in the compose box, so you can structure and format messages with familiar Markdown syntax. It's a roadmap item in development, with a preview due in December 2026 and general availability in January 2027. Coding classes are our example.",
+   "for": "Coding classes and anyone who formats messages",
+   "status": "Preview from December; due January 2027",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576199"
+    }
+   ]
+  },
+  {
+   "id": "winget-130",
+   "title": "WinGet 1.30's release candidate keeps installing when one app is missing",
+   "summary": "Windows Package Manager 1.30.310, a release candidate published on 24 November, adds an --ignore-unavailable flag so a multi-app install carries on when one package isn't found, and an experimental option that shows numbered choices when a name matches several packages. Setting up lab PCs is our example.",
+   "for": "School IT setting up lab and classroom PCs",
+   "status": "Release candidate (preview)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "WinGet on GitHub",
+     "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.310"
+    },
+    {
+     "outlet": "BetaNews",
+     "url": "https://betanews.com/article/microsoft-winget-interactive-package-selection/"
+    }
+   ]
+  },
+  {
+   "id": "copilot-studio-costs",
+   "title": "Microsoft's guide to keeping Copilot Studio agent costs in check",
+   "summary": "Makers can see estimated credits while they build, test and evaluate an agent, and admins can set aside credits per environment, cap an individual agent and get alerts near capacity. Microsoft now recommends Agent 365 cost management in the Microsoft 365 admin center, with identity-scoped policies coming soon.",
+   "for": "University IT and teams building AI agents",
+   "status": "Guidance; identity policies coming soon",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Microsoft Copilot Studio Blog",
+     "url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/4576413"
+    }
+   ]
+  },
+  {
+   "id": "excel-accounting",
+   "title": "Copilot in Excel gets accounting skills for reconciliations and journal entries",
+   "summary": "Through the Frontier early-access program, Copilot in Excel and Cowork can reconcile accounts and prepare reconciling items for you to review, draft journal entries such as accruals and reversals, and explain performance against plan. GPT-6.2 Sol is also now in the model picker in Copilot in Excel.",
+   "for": "University and school finance teams",
+   "status": "Frontier program (early access)",
+   "edu": false,
+   "chapter": "THE BOOKS",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Excel Blog",
+     "url": "https://techcommunity.microsoft.com/blog/excelblog/whats-new-in-excel-november-2026/4573867"
+    }
+   ]
+  },
+  {
+   "id": "gh-review-billing",
+   "title": "GitHub will bill Copilot code reviews to the organization from 30 December unless you choose Member",
+   "summary": "For organizations and enterprises on Copilot Business or Enterprise that haven't chosen how to bill Copilot code review for licensed members, reviews will be billed to the organization from 30 December 2026. Select Member before then to keep using members' own Copilot; organization billing needs AI Credits paid usage and can raise spending.",
+   "for": "University GitHub admins on Copilot Business or Enterprise",
+   "status": "Changes on 30 December 2026",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization/"
+    }
+   ]
+  },
+  {
+   "id": "win-telnet",
+   "title": "Windows' Telnet Client is deprecated and will be removed",
+   "summary": "Microsoft has added Telnet Client (telnet.exe) to its list of deprecated Windows features: it's no longer being developed and will be removed in a future release, with no date yet. It's an optional feature that isn't installed by default, BetaNews notes. Scripts and networking lab guides that still use it are our example.",
+   "for": "School IT and networking classes",
+   "status": "Deprecated; removal in a future release",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features"
+    },
+    {
+     "outlet": "BetaNews",
+     "url": "https://betanews.com/article/microsoft-depractes-telnet-family-safety-mtp-over-bluetooth/"
+    }
+   ]
+  },
+  {
+   "id": "az-functions-java",
+   "title": "Azure Functions support for Java 8, 11 and 17 ends on 1 September 2027",
+   "summary": "Apps on Java 8, 11 and 17 will keep running on Azure Functions after 1 September 2027, but they'll no longer get security updates or customer support. Microsoft says to upgrade function apps to Java 25 before then.",
+   "for": "Campus developers and student projects on Azure",
+   "status": "Support ends 1 September 2027",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=568586"
+    }
+   ]
+  },
+  {
+   "id": "xbox-fpd",
+   "title": "Little Rocket Lab and Warhammer 40,000: Mechanicus are free to play on Xbox this weekend",
+   "summary": "Game Pass Ultimate, Premium and Essential members can play both games free from Thursday 26 to Sunday 29 November. Little Rocket Lab has you build factories and finish a rocket ship, and it's 30% off; Warhammer 40,000: Mechanicus is 90% off until 7 December. Discounts vary by region.",
+   "for": "Students and staff with Game Pass, after hours",
+   "status": "Free to play until Sunday 29 November",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/26/free-play-days-11-26-2026/"
+    }
+   ]
+  },
+  {
+   "id": "gh-play",
+   "title": "GitHub: give yourself permission to play, and call it learning",
+   "summary": "In 'Art of play in the age of AI', GitHub says AI makes room to experiment again, quoting Martin Woodward: give yourself permission to play, call it learning, and time-box it. Its hackable Universe badges now have a colour screen, motion sensors and game controls; he trained a simple model in his browser to make his a pedometer.",
+   "for": "Student coders and computer science classes",
+   "status": "Blog post (GitHub)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": "THIS WEEK",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "GitHub Blog",
+     "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Microsoft for Education Daily, Friday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's what shipped at Microsoft in the last 24 hours."
+  },
+  {
+   "s": 15.0,
+   "t": "Time to tidy up the office inbox: Copilot Chat is rolling out to shared mailboxes in classic Outlook."
+  },
+  {
+   "s": 22.5,
+   "t": "Delegates get it too: run the principal's inbox, and Copilot's right there."
+  },
+  {
+   "s": 31.88,
+   "t": "For classes, a page shared in a Teams chat or channel will open right in Teams, due January."
+  },
+  {
+   "s": 39.38,
+   "t": "Edit it together and talk it through in t he same window: handy for group projects."
+  },
+  {
+   "s": 45.94,
+   "t": "Teams is also getting more Markdown in the compose box, with a preview due in December."
+  },
+  {
+   "s": 52.5,
+   "t": "Good news for coding classes: format messages the way you'd write a README file."
+  },
+  {
+   "s": 60.0,
+   "t": "School IT building lab PCs?"
+  },
+  {
+   "s": 61.8,
+   "t": "WinGet's new release candidate can keep installing when one app is missing."
+  },
+  {
+   "s": 67.5,
+   "t": "And when one name matches several apps, an experimental prompt lets you pick by number."
+  },
+  {
+   "s": 75.0,
+   "t": "Building AI agents on campus?"
+  },
+  {
+   "s": 76.83,
+   "t": "Microsoft's new guide shows how to keep Copilot Studio costs in check."
+  },
+  {
+   "s": 82.5,
+   "t": "Makers see estimated credits as they build, and admins can cap each agent and get alerts."
+  },
+  {
+   "s": 90.0,
+   "t": "Something calmer for the finance office: Copilot in Excel can now reconcile accounts, in early access."
+  },
+  {
+   "s": 97.5,
+   "t": "It drafts journal entries and explains what changed against the plan, all ready for you to review."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print? From December 30, GitHub bills Copilot code reviews to your organization, unless you pick Member."
+  },
+  {
+   "s": 112.5,
+   "t": "Also on the way out: Windows' Telnet Client, and Java 8, 11 and 17 on Azure Functions."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours on Xbox, Game Pass members can play Little Rocket Lab free until Sunday."
+  },
+  {
+   "s": 129.38,
+   "t": "And GitHub's advice for coders, students included: give yourself permission to play, and call it learning."
+  },
+  {
+   "s": 136.88,
+   "t": "Four years in, its conference badges have colour screens and game controls; one even became a pedometer."
+  },
+  {
+   "s": 143.91,
+   "t": "Old tools out, budgets clear, a little play: a good week to tidy up."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the changelog gets a little longer."
+  },
+  {
+   "s": 153.75,
+   "t": "On the release board: shipped, and still shipping."
+  },
+  {
+   "s": 157.5,
+   "t": "That was 24 hours at Microsoft. Tomorrow, there's more."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Microsoft for Education Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay curious. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-27/Microsoft-for-Education-Daily_2026-11-27.mp4",
+  "mb": 53.1,
+  "bytes": 53059296,
+  "seconds": 180.01
+ },
+ "links": {
+  "x": "https://x.com/peterxing/status/2126034868853444669",
+  "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7531802490405666816/",
+  "facebook": "https://www.facebook.com/peterxingularity/"
+ }
+}

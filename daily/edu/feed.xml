@@ -6,6 +6,14 @@
   <description>The latest Microsoft updates for schools, universities and TAFEs in three minutes, every morning, with who each update is for, its status and its sources. An independent recap, not an official Microsoft channel.</description>
   <language>en-au</language>
   <item>
+   <title>EP.032 · TIDY UP.</title>
+   <link>https://peterxing.com/#/education/2026-11-27</link>
+   <guid isPermaLink="false">microsoft-for-education-daily-2026-11-27</guid>
+   <pubDate>Fri, 27 Nov 2026 07:00:00 +1100</pubDate>
+   <description>Copilot Chat reaches shared inboxes, Teams pages and Markdown are on the way, school IT gets a tidier WinGet, and Telnet and old Java versions head out.</description>
+   <enclosure url="https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-27/Microsoft-for-Education-Daily_2026-11-27.mp4" length="53059296" type="video/mp4"/>
+  </item>
+  <item>
    <title>EP.031 · LESS GUESSWORK.</title>
    <link>https://peterxing.com/#/education/2026-11-26</link>
    <guid isPermaLink="false">microsoft-for-education-daily-2026-11-26</guid>
