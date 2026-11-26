@@ -1,0 +1,414 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-26",
+ "ep": 31,
+ "hook": "LESS GUESSWORK.",
+ "day": "Thursday 26 November 2026",
+ "note": "FOR EDUCATION · THURSDAY 26 NOVEMBER 2026",
+ "tldr": "Excel on Windows is starting to explain formula errors, Teams Rooms will put your laptop on both screens, and Microsoft 365 Backup can keep OneDrive and SharePoint backups for up to ten years.",
+ "chapters": [
+  "LESS GUESSWORK",
+  "THE CLASSROOM",
+  "CAMPUS IT",
+  "SECOND SOURCE",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 07:40 AEDT, Thu 26 Nov 2026 (Wednesday 25 Nov in the US).",
+ "notes": [
+  "A quiet day for education-specific news: no new Microsoft Education posts or [Education] roadmap items in the window, so today's stories are campus-wide updates framed for schools and universities.",
+  "Status: Excel's error cards and Copilot in read-only workbooks are rolling out; Teams Rooms dual-screen sharing and external bot reports (January) and SharePoint page templates (December) are roadmap items in development; the Windows memory savings are as Microsoft described them at Ignite 2026, reported by Windows Latest.",
+  "Screenshots are the publishers' public pages as captured on 26 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "LESS GUESSWORK. 🧩\n\nThe last 24h at Microsoft for education:\n- Excel now explains formula errors (rolling out)\n- Teams Rooms: your laptop on both screens (due Jan)\n- 10-year backups for OneDrive and SharePoint\n- Windows apps use less memory on 8 GB PCs (reported)",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (26 Nov 2026): Excel's descriptive error cards, Teams Rooms sharing to both displays, Copilot in read-only Excel workbooks, faster chat in VS Code, ten-year recovery windows in Microsoft 365 Backup, Teams reports on external bots, SharePoint's organization-wide page templates, Microsoft's test of AI coding agents on contradictory docs, the sign-in issue after November's Windows updates, Microsoft's ARTEX warning, Windows apps using less memory and the first player to reach 10 million Gamerscore, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "EXCEL'S DESCRIPTIVE ERROR CARDS NEED EXCEL FOR WINDOWS VERSION 2611 OR LATER; EXCEL FOR THE WEB ALREADY HAD THEM",
+  "EXCEL: SELECT 'FIX THIS ERROR' TO ASK COPILOT TO DIAGNOSE AND REPAIR A SUPPORTED FORMULA ERROR",
+  "EXCEL INSIDERS CAN ASK COPILOT TO GROUP PIVOTTABLE DATA BY DATES OR NUMBER RANGES",
+  "EXCEL ON IPHONE: COPILOT KEEPS WORKING ON A BACKGROUND TASK AFTER YOU PUT YOUR PHONE AWAY",
+  "TEAMS ROOMS: ADMINS CAN MANAGE HOW SHARING TO BOTH ROOM DISPLAYS WORKS IN THEIR ROOMS",
+  "VS CODE 1.148 CAN KEEP A PLUGGED-IN PC AWAKE WHILE AN AGENT WORKS, IN PREVIEW",
+  "VS CODE 1.148: A NEW TROUBLESHOOT PAGE EXPLAINS FAILED REMOTE CONNECTIONS",
+  "SSMS 22.12.1: GITHUB COPILOT AGENT MODE CAN SUGGEST FIXES FOR SLOW QUERIES, IN PREVIEW; IT DOESN'T APPLY THEM",
+  "MICROSOFT 365 BACKUP: RESTORES ARE FREE; LIST PRICE IS US$0.15 PER GIB PER MONTH OF PROTECTED CONTENT",
+  "MICROSOFT 365 BACKUP: A LONGER WINDOW DOESN'T BRING BACK RECOVERY POINTS THAT HAVE ALREADY EXPIRED",
+  "MICROSOFT 365 BACKUP: PREMIUM BACKUP FOR MICROSOFT ENTRA DIRECTORY OBJECTS IS IN PUBLIC PREVIEW",
+  "SHAREPOINT'S ORGANIZATION-WIDE PAGE TEMPLATES WILL BE MANAGED IN YOUR BRAND CENTER SITE",
+  "DOCS STUDY: A REVIEW OF 3,827 FACTS IN DEV PROXY'S DOCS FOUND 79 PLACES WHERE TWO PAGES DISAGREED",
+  "DOCS STUDY: WHEN A WRONG PAGE BROKE SOMETHING VISIBLE, AGENTS RECOVERED, AT UP TO 38% MORE TOKENS",
+  "NTLM WORKAROUND: MICROSOFT SAYS THE REGISTRY SETTING IS SHORT-TERM; UPDATE THE PRODUCT OR USE KERBEROS",
+  "ARTEX: MICROSOFT RECOMMENDS AUTOMATIC ATTACK DISRUPTION IN DEFENDER XDR",
+  "MICROSOFT FIXED A KNOWN ISSUE THAT LEFT SOME OFFICE APPS STUCK BEHIND A BLANK WINDOW, BLEEPINGCOMPUTER REPORTS",
+  "WINDOWS: MICROSOFT SAYS ITS WORK FOR 8 GB PCS ALSO HELPS PCS WITH MORE MEMORY",
+  "WINDOWS: MICROSOFT'S OCTOBER BUILD RAN ITS TEST WORKLOAD ABOUT 21% FASTER THAN JANUARY'S",
+  "XBOX: SIEGFRIEDX HAS UNLOCKED AT LEAST ONE ACHIEVEMENT EVERY DAY SINCE 2020"
+ ],
+ "sources": [
+  "Microsoft Excel Blog",
+  "Microsoft 365 Roadmap",
+  "Visual Studio Code",
+  "The Register",
+  "Microsoft Learn",
+  "Microsoft Developer Blog",
+  "BleepingComputer",
+  "Microsoft Security Blog",
+  "Windows Latest",
+  "PCWorld",
+  "Xbox Wire",
+  "Azure SQL Blog",
+  "Neowin"
+ ],
+ "scanned": 1829,
+ "stories": [
+  {
+   "id": "excel-errors",
+   "title": "Excel on Windows now explains formula errors and how to fix them",
+   "summary": "Hover over a cell's error indicator and Excel explains what an error like #REF! or #VALUE! means, its likely causes and how to fix it; for supported errors, 'Fix this error' asks Copilot to repair the formula. Already in Excel for the web, it's rolling out to Excel for Windows (Version 2611 or later), handy for students learning formulas.",
+   "for": "Students and teachers working with formulas",
+   "status": "Rolling out (Windows, Version 2611+)",
+   "edu": false,
+   "chapter": "LESS GUESSWORK",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Excel Blog",
+     "url": "https://techcommunity.microsoft.com/blog/excelblog/whats-new-in-excel-november-2026/4573867"
+    }
+   ]
+  },
+  {
+   "id": "rooms-dual",
+   "title": "Teams Rooms on Android will show your shared laptop on both room displays",
+   "summary": "On Microsoft Teams Rooms on Android with dual displays, content shared over HDMI will be able to appear on both screens at once, even when you're not in a Teams meeting; you start or stop it from the room controls and admins manage the setting. It's a roadmap item in development, due January 2027. A lecture theatre with two screens is our example.",
+   "for": "Teachers in two-screen rooms, and campus AV and IT teams",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=582052"
+    }
+   ]
+  },
+  {
+   "id": "excel-readonly",
+   "title": "Copilot in Excel now works in read-only workbooks",
+   "summary": "You can now open Copilot in a read-only workbook and ask about it, such as what the data shows or which figures stand out. It's rolling out to Excel for Windows, Mac and the web and needs Copilot in Excel. A shared report from the school office is our example.",
+   "for": "Staff and teachers reading shared reports",
+   "status": "Rolling out (Windows, Mac and web)",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Excel Blog",
+     "url": "https://techcommunity.microsoft.com/blog/excelblog/whats-new-in-excel-november-2026/4573867"
+    }
+   ]
+  },
+  {
+   "id": "vscode-148",
+   "title": "VS Code 1.148 starts chat answers about 30% faster",
+   "summary": "Visual Studio Code 1.148, released on 25 November, makes chat responses in the Agent Host begin about 30% faster on average than the previous Stable version. It can also keep a plugged-in PC awake while an agent works (a preview setting) and adds a Troubleshoot page for failed remote connections.",
+   "for": "Student coders and computer science classes",
+   "status": "Available now; keep-awake in preview",
+   "edu": false,
+   "chapter": "THE CLASSROOM",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Visual Studio Code",
+     "url": "https://code.visualstudio.com/updates/v1_148"
+    }
+   ]
+  },
+  {
+   "id": "m365-backup",
+   "title": "Microsoft 365 Backup can now keep OneDrive and SharePoint recovery points for up to ten years",
+   "summary": "SharePoint and OneDrive backup policies now support recovery windows of 3 or 6 months, or any whole number of years from 1 to 10, up from a maximum of two. The one-year default is unchanged, single-file and folder restores only go back 14 days, and Exchange stays at up to two years; longer windows can raise costs, while restores stay free.",
+   "for": "School and university IT teams that use Microsoft 365 Backup",
+   "status": "Available now (since 31 October 2026)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/microsoft-365/backup/backup-whats-new"
+    },
+    {
+     "outlet": "The Register",
+     "url": "https://www.theregister.com/saas/2026/11/25/microsoft-365-backup-stretches-recovery-window-to-ten-years/5312043"
+    }
+   ]
+  },
+  {
+   "id": "teams-bots",
+   "title": "Teams admins will be able to see which outside bots joined their meetings",
+   "summary": "A Microsoft 365 roadmap item in development, due January 2027, adds external bot detection and activity reports to the Teams admin center, so admins can track which external bots were detected in and got into meetings and events hosted in their tenant. Outside AI notetakers joining class or staff meetings are our example.",
+   "for": "School and university IT and Teams admins",
+   "status": "Due January 2027 (in development)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=582050"
+    }
+   ]
+  },
+  {
+   "id": "sp-templates",
+   "title": "SharePoint is getting organization-wide page templates",
+   "summary": "Organizations will be able to offer reusable, approved page templates across all their SharePoint sites, managed centrally in the site linked to their brand center, so authors skip repetitive setup and pages stay consistent. It's a roadmap item in development, due December 2026. School and faculty news pages are our example.",
+   "for": "School comms teams and SharePoint admins",
+   "status": "Due December 2026 (in development)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581865"
+    }
+   ]
+  },
+  {
+   "id": "docs-agents",
+   "title": "When two docs pages disagree, AI coding agents often follow the wrong one",
+   "summary": "Microsoft tested three real contradictions from its Dev Proxy docs with three models in about 140 agent runs. Agents often noticed the pages disagreed but followed the wrong one first, and detours cost up to 38% more tokens. Agents that checked a second source weren't misled at all, a good habit for students too.",
+   "for": "Computer science teachers and student coders",
+   "status": "Research (Microsoft developer blog)",
+   "edu": false,
+   "chapter": "SECOND SOURCE",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Developer Blog",
+     "url": "https://developer.microsoft.com/blog/do-inconsistent-docs-hurt-ai-coding-agents/"
+    }
+   ]
+  },
+  {
+   "id": "ntlm-issue",
+   "title": "November's Windows security updates can break NTLM sign-ins with some third-party tools",
+   "summary": "Microsoft confirms November's security updates, the first phase of NTLM signing changes (CVE-2026-118737), can break authentication with some third-party apps and devices, such as authentication proxies, single sign-on and app-packaging tools. Its registry workaround is temporary; updating the product or using Kerberos is the long-term fix.",
+   "for": "School and university IT",
+   "status": "Known issue; temporary workaround",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/servicing/os/windows/docs/2026/11/kb5135557-ntlm-signing-security-improvements"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/"
+    }
+   ]
+  },
+  {
+   "id": "artex",
+   "title": "Microsoft warns attackers are abusing ARTEX, an AI pen-testing tool",
+   "summary": "Microsoft Threat Intelligence says state-sponsored and financially motivated groups use ARTEX, an AI penetration testing framework released in July 2026, to automate attacks that can reach privileged access within minutes. It advises cutting internet exposure, securing secrets and credentials, and turning on automatic attack disruption in Defender XDR.",
+   "for": "University and school security teams",
+   "status": "Threat intelligence",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
+    }
+   ]
+  },
+  {
+   "id": "win-ram",
+   "title": "Microsoft says its own apps now use less memory on Windows 11",
+   "summary": "At an Ignite 2026 session, as reported by Windows Latest, Microsoft said Microsoft 365 now uses about 360 MB less memory and Defender, Purview and OneDrive save over half a gigabyte combined, with a focus on 8 GB and 16 GB PCs; Windows Latest totals it at over 860 MB. Good news for 8 GB school laptops.",
+   "for": "School IT and anyone on an 8 GB or 16 GB laptop",
+   "status": "As reported by Windows Latest",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": "REPORTED",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Windows Latest",
+     "url": "https://www.windowslatest.com/2026/11/25/microsoft-admits-nearly-900mb-of-your-windows-11-pcs-ram-was-being-quietly-eaten-by-its-own-apps-like-defender-onedrive-and-microsoft-365-and-its-freed-it-up/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-10m",
+   "title": "The first Xbox player to reach 10 million Gamerscore",
+   "summary": "Xbox Wire interviewed SiegfriedX, Brazilian player Marcello Malta, who reached 10 million Gamerscore on 9 September 2026, the first Xbox player to do it, after 20 years and more than 6,400 games. He has unlocked at least one achievement every day since 2020.",
+   "for": "Gamers on campus, after hours",
+   "status": "Interview (Xbox Wire)",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/25/achievements-10-million-gamerscore-interview/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Microsoft for Education Daily, for Thursday."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in Microsoft updates, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Less guesswork for students: when a formula breaks, Excel on Windows now explains what went wrong."
+  },
+  {
+   "s": 22.5,
+   "t": "Hover over the error for causes and fixes, or let Copilot repair it."
+  },
+  {
+   "s": 31.88,
+   "t": "Lecture theatre with two screens?"
+  },
+  {
+   "s": 33.95,
+   "t": "Teams Rooms on Android will show your shared laptop on both, due January."
+  },
+  {
+   "s": 39.38,
+   "t": "Plug in over HDMI and the back row sees it too, even outside a Teams meeting."
+  },
+  {
+   "s": 45.94,
+   "t": "Opened a read-only report from the office?"
+  },
+  {
+   "s": 48.79,
+   "t": "Copilot in Excel now works there too, rolling out."
+  },
+  {
+   "s": 52.5,
+   "t": "Student coders? This week's VS Code starts chat answers about 30% faster."
+  },
+  {
+   "s": 60.0,
+   "t": "School IT?"
+  },
+  {
+   "s": 60.8,
+   "t": "Microsoft 365 Backup now keeps OneDrive and SharePoint backups up to ten years."
+  },
+  {
+   "s": 67.5,
+   "t": "The default stays one year, single-file restores only go back 14 days, and Exchange stops at two."
+  },
+  {
+   "s": 75.0,
+   "t": "Due January, Teams admins should see which outside bots turned up in their meetings and events."
+  },
+  {
+   "s": 82.5,
+   "t": "And SharePoint gets organization-wide page templates, due December: approved starting points for school news pages."
+  },
+  {
+   "s": 90.0,
+   "t": "Something calmer for coding classes: when two docs pages disagree, AI agents often follow the wrong one."
+  },
+  {
+   "s": 97.5,
+   "t": "In Microsoft's test, agents that checked a second source weren't misled at all."
+  },
+  {
+   "s": 102.22,
+   "t": "Good advice for students too."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print?"
+  },
+  {
+   "s": 105.91,
+   "t": "November's Windows security updates can break sign-ins through some proxies and single sign-on tools."
+  },
+  {
+   "s": 112.5,
+   "t": "And Microsoft warns attackers are abusing ARTEX, an AI pen-testing tool that can break in within minutes."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, good news for 8 GB laptops: Microsoft says its own apps now use less memory."
+  },
+  {
+   "s": 129.38,
+   "t": "Office uses 360 MB less; Defender, Purview and OneDrive save over half a gig."
+  },
+  {
+   "s": 136.88,
+   "t": "On Xbox, a Brazilian player is the first to hit 10 million Gamerscore, after 20 years."
+  },
+  {
+   "s": 143.91,
+   "t": "Clearer errors, lighter laptops, longer backups: a little less guesswork all round."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the updates keep stacking up."
+  },
+  {
+   "s": 153.75,
+   "t": "Some of it's shipped. The rest is on its way."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-26/Microsoft-for-Education-Daily_2026-11-26.mp4",
+  "mb": 54.5,
+  "bytes": 54458468,
+  "seconds": 180.01
+ },
+ "links": {
+  "x": "https://x.com/peterxing/status/2125735909517910391",
+  "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7531506720603443200/",
+  "facebook": "https://www.facebook.com/peterxingularity/"
+ }
+}
