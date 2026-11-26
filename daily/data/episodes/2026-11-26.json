@@ -1,0 +1,543 @@
+{
+ "date": "2026-11-26",
+ "ep": 53,
+ "hook": "HEADS IN THE CLOUDS.",
+ "day": "Thursday 26 November 2026",
+ "chapters": [
+  "THE CLOUDS",
+  "THE DEBATE",
+  "THE MONEY",
+  "THE LAB",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 07:23 AEDT, Thu 26 Nov 2026; the sketchbook find (posted Tue 24 Nov), OpenAI's protein-design results (Tue 24 Nov) and Figure's apple video (Mon 23 Nov) are from earlier in the week.",
+ "notes": [
+  "The FCC authorized SpaceX's Starmind constellation of up to 1 million satellites on Wed 25 Nov; Amazon's 'lofty ambition' and 'centuries' remarks are from its March petition to deny, as reported by CNBC.",
+  "Amazon and Meta's talks over Muse are as reported by Fortune (people familiar with the discussions); ElevenLabs' $33 billion talks are as reported by Bloomberg.",
+  "Anthropic's $74 is an intraday low ($73.85) on Wed 25 Nov, as reported by Reuters and the Irish Examiner; JPMorgan's 8,200 is its S&P 500 target for the end of 2027.",
+  "The sketchbook identification is historian Mark Humphries' own account, as reported by Business Insider. OpenAI's protein results: 35 of 322 lab-tested designs bound their targets, with help from specialist tools (TechRepublic).",
+  "XPeng's specifications and timeline are the company's own. Figure's apple video was posted by its CEO on 23 Nov.",
+  "Screenshots are the publishers' public article pages as captured on 26 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "HEADS IN THE CLOUDS. ☁️\n\nThe last 24h in superintelligence:\n- SpaceX cleared for a million AI satellites\n- Amodei: handing AI our free will is 'absurd'\n- ChatGPT names an 1808 sketchbook's artist\n- New York bans AI chatbot toys\n\nWhich one surprised you?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (26 Nov 2026), hosted by Claudia: SpaceX's approval for up to a million AI data-center satellites, Dario Amodei's reply to his rivals, Amazon and Meta's reported Muse talks, a Thanksgiving guide to AI doom, Anthropic's dip and its 5,100 paper millionaires, JPMorgan's 8,200 forecast, ElevenLabs' reported $33 billion talks, ChatGPT naming the artist of an 1808 sketchbook, OpenAI's lab-tested proteins, New York's ban on AI chatbot toys, John Motson's AI-recreated voice, XPeng's Iron humanoid and Figure's moved-table apple test, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "FCC CHAIR BRENDAN CARR: STARMIND 'WILL USE SOLAR POWER TO EXTEND AMERICA'S LEAD'",
+  "MUSK ON THE APPROVAL: 'A GREAT ASSET TO AMERICA AND THE WORLD'",
+  "AMAZON, VIASAT AND THE AMERICAN ASTRONOMICAL SOCIETY HAD PETITIONED THE FCC TO DENY STARMIND",
+  "AMODEI: 'TURNING OVER GOVERNANCE TO AI IS A BAD IDEA'",
+  "FORTUNE: ANY AMAZON-META DEAL ON MUSE WOULD NEED BOTH CEOS' APPROVAL",
+  "ANTHROPIC TRADED AS LOW AS $73.85, 11% BELOW ITS IPO PRICE, BEFORE SWINGING HIGHER",
+  "CNBC: AT LEAST 400 ANTHROPIC STAFF ARE NOW WORTH MORE THAN $100 MILLION, ON PAPER",
+  "WSJ: ANTHROPIC'S NEW MILLIONAIRES ARE TURBOCHARGING SAN FRANCISCO'S HOUSING MARKET",
+  "THE SKETCHBOOK'S ARTIST: THE VICOMTE DE CHABOT, WHOSE OWN DIARY MATCHED ITS DATES",
+  "TECHREPUBLIC: 128 OF 182 OF GPT-6.2'S ANTIBODY REDESIGNS SHOWED BINDING",
+  "COMMON SENSE MEDIA: ABOUT A QUARTER OF US PARENTS OF UNDER-8S OWN OR ARE CONSIDERING AN AI TOY",
+  "NEW YORK'S AI-TOY BAN TAKES EFFECT 90 DAYS AFTER SIGNING; FINES ARE $15,000 A DAY",
+  "XPENG: IRON HAS 76 DEGREES OF FREEDOM AND THREE OF ITS OWN TURING AI CHIPS",
+  "XPENG PLANS ITS YOYO-01 ROBOTAXI FOR LATER IN 2027",
+  "FIGURE: ITS ROBOTS FINISHED 237 OF 420 CHORE TRIALS IN 30 UNSEEN HOMES",
+  "MUSK SAYS AN 'AUTHENTIC' OPTIMUS DEMO COULD COME IN 'A MONTH OR TWO'",
+  "TENCENT'S OPEN HY-MT3 TRANSLATION MODEL NOW COVERS 102 LANGUAGES, UP FROM 38",
+  "OPENAI: HEAVY CHATGPT USERS MAY HIT LIMITS SOONER AS CHAT AND WORK MERGE",
+  "REUTERS: NVIDIA AGREES TO SETTLE A 2018 INVESTOR CLASS ACTION FOR $290 MILLION",
+  "REUTERS: S&P GLOBAL PUTS NVIDIA ON 'CREDITWATCH NEGATIVE' OVER GOVERNANCE RISKS",
+  "YANN LECUN ON AI GATEKEEPING: 'LIKE THE OTTOMAN EMPIRE BANNING THE PRINTING PRESS'"
+ ],
+ "sources": [
+  "The Verge",
+  "CNBC",
+  "FCC",
+  "TechCrunch",
+  "Fortune",
+  "The New York Times",
+  "Reuters",
+  "Irish Examiner",
+  "The Wall Street Journal",
+  "Bloomberg",
+  "Business Insider",
+  "OpenAI",
+  "TechRepublic",
+  "Common Sense Media",
+  "BBC",
+  "The AI Insider",
+  "XPeng",
+  "Interesting Engineering",
+  "The Guardian"
+ ],
+ "scanned": 5189,
+ "stories": [
+  {
+   "id": "spacex-starmind-fcc",
+   "title": "FCC authorizes SpaceX's Starmind: up to 1 million AI data-center satellites",
+   "summary": "FCC Chairman Brendan Carr said SpaceX may put up to 1 million AI computing satellites in orbit, powered by the sun. Amazon, in its March petition to deny, had called the plan 'a lofty ambition rather than a real plan'.",
+   "chapter": "THE CLOUDS",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-orbital-compute-to-proto-dyson",
+     "key": "f1cd4d6370",
+     "relation": "early",
+     "note": "The FCC authorized up to 1 million solar-powered AI computing satellites: an approval for orbital data centres at scale, far from a self-growing network."
+    }
+   ]
+  },
+  {
+   "id": "amodei-absurd",
+   "title": "Dario Amodei calls claims he'd surrender human control to AI 'absurd'",
+   "summary": "In a long post on X, Anthropic's CEO called the suggestion 'absurd' and said 'turning over governance to AI is a bad idea'. On AI that improves itself, he wrote: 'we may want limits on this process'.",
+   "chapter": "THE DEBATE",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+    },
+    {
+     "outlet": "Forbes"
+    },
+    {
+     "outlet": "Axios"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2028-6",
+     "key": "3f3dfc17f1",
+     "relation": "early",
+     "note": "Anthropic's CEO suggested limits on AI that improves itself; it is one executive's view, with no negotiations or agreement yet."
+    }
+   ]
+  },
+  {
+   "id": "amazon-meta-muse-talks",
+   "title": "Amazon and Meta reportedly in talks to lift Amazon's blockade of Meta's Muse shopping agent",
+   "summary": "According to Fortune, the companies have held multiple rounds of talks that would let Muse connect directly to Amazon's store; Muse users haven't been able to check out on Amazon for two months. Search results and ads are still open issues.",
+   "chapter": "THE DEBATE",
+   "badge": "REPORTED",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+    },
+    {
+     "outlet": "Fortune",
+     "url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/"
+    },
+    {
+     "outlet": "The Verge"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nyt-ai-doom-thanksgiving",
+   "title": "The New York Times publishes a guide to talking about AI doom at Thanksgiving",
+   "summary": "The New York Times ran 'How to Talk With Your Family About A.I. Doom at Thanksgiving', a guide for the holiday table.",
+   "chapter": "THE DEBATE",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/25/technology/thanksgiving-ai-doom-family.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-stock-rout-anthropic-74",
+   "title": "AI stocks fall for a second straight day as Anthropic dips to $74",
+   "summary": "AI-linked stocks were hammered for a second straight day on Wednesday, Reuters reported, and Anthropic traded as low as $73.85 shortly after the open, 11% below its $83 IPO price. The Wall Street Journal said stocks pared losses as Anthropic's shares swung higher.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-us/news/other/ai-stock-rout-deepens-with-anthropic-hitting-74/ar-AA2idMCA"
+    },
+    {
+     "outlet": "Irish Examiner",
+     "url": "https://www.msn.com/en-ie/money/general/markets-rout-of-ai-stock-deepens/ar-AA2idETn"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "jpmorgan-sp500-8200",
+   "title": "JPMorgan sees the S&P 500 at 8,200 by the end of 2027 on the 'AI supercycle'",
+   "summary": "JPMorgan's Dubravko Lakos-Bujas set an S&P 500 target of 8,200 for the end of 2027, saying AI is 'in its early innings'. It is a forecast.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-paper-millionaires",
+   "title": "Anthropic's IPO made about 5,100 staff millionaires, on paper",
+   "summary": "About 5,100 non-founder Anthropic employees, known as 'Ants', became paper millionaires in the company's 19 Nov IPO, CNBC reported; at least 400 are worth more than $100 million on paper.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/25/anthropic-ipo-employee-millionaires-sudden-wealth.html"
+    },
+    {
+     "outlet": "The Wall Street Journal"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "elevenlabs-33b-talks",
+   "title": "ElevenLabs reportedly in early talks to raise money at a $33 billion valuation",
+   "summary": "AI voice maker ElevenLabs is in preliminary talks for a 2027 funding round at a $33 billion valuation, according to Bloomberg.",
+   "chapter": "THE MONEY",
+   "badge": "REPORTED",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "StreetInsider",
+     "url": "https://www.streetinsider.com/Investing/ElevenLabs+targets+%2433B+valuation+in+early+2027+funding+talks%2C+Bloomberg+reports/27402374.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gpt-sketchbook-1808",
+   "title": "GPT-6.2 Astra named the artist of an anonymous 1808 sketchbook in 22 minutes",
+   "summary": "Historian Mark Humphries says GPT-6.2 Astra identified the vicomte de Chabot as the artist of an unsigned 1808 sketchbook held at Yale's Beinecke library; Chabot's own diary matched the dates.",
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/historian-openai-mystery-sketchbook-yale-2026-11"
+    },
+    {
+     "outlet": "TechRadar"
+    },
+    {
+     "outlet": "Yahoo Tech"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gpt-6-2-proteins",
+   "title": "OpenAI says GPT-6.2 designed proteins that bound five targets in lab tests",
+   "summary": "In lab tests with partner Onava, 35 of 322 GPT-6.2-designed minibinders (10.9%) bound their targets, five proteins linked to cancer and immune disorders; specialist tools such as SolubleMPNN made the sequences.",
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-lab-binding-results/"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "GPT-6.2 designed protein binders, 35 of 322 of which bound their targets in lab tests: early lab results, far from an approved drug."
+    }
+   ]
+  },
+  {
+   "id": "new-york-ai-toy-ban",
+   "title": "New York bans AI chatbot toys for five years",
+   "summary": "Gov. Kathy Hochul signed a bill banning the manufacture, distribution and sale of AI chatbot toys for five years, with fines of $15,000 a day. New York is the second state after California, and the ban takes effect 90 days after signing.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+    },
+    {
+     "outlet": "New York Governor's office"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "motson-ai-voice",
+   "title": "EA brings back the late John Motson's voice with AI in EA Sports FC",
+   "summary": "EA has added a digitally recreated voice of commentator John Motson, who died in 2023, to EA Sports FC from 26 November, with the consent of his son and wife.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo"
+    },
+    {
+     "outlet": "The Guardian"
+    },
+    {
+     "outlet": "The Independent"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "xpeng-iron",
+   "title": "XPeng shows its Iron humanoid, due to start work as a store assistant in 2027",
+   "summary": "At its AI Day in Guangzhou, XPeng showed Iron, with 76 degrees of freedom, over 1,500 tactile sensing points and three of its own Turing AI chips. Per XPeng, it trains as a store assistant from Q1 2027, with a public release targeted for Q2 2027.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "The AI Insider",
+     "url": "https://theaiinsider.tech/2026/11/25/xpeng-unveils-turing-physical-ai-architecture-iron-humanoid-and-robotaxi-plans/"
+    },
+    {
+     "outlet": "CnEVPost"
+    },
+    {
+     "outlet": "GlobeNewswire"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "figure-apple-table",
+   "title": "Figure 03 answers Musk's 'move the table' challenge and still finds the apple",
+   "summary": "After Musk said humanoid demos are staged and a robot would fail if someone moved the table, Figure CEO Brett Adcock shared a 41-second clip in which Figure 03 retrieves the apple after the table is moved, calling it 'zero shot and fully autonomous'.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Interesting Engineering",
+     "url": "https://interestingengineering.com/ai-robotics/figure-counters-musks-staged-robot-claim"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ntt-data-derry",
+   "title": "NTT DATA plans a new AI centre in Derry with 200 jobs",
+   "summary": "NTT DATA is investing about £23 million in a new AI centre in Derry, Northern Ireland, which will create 200 jobs, the BBC reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "BBC",
+     "url": "https://www.msn.com/en-xl/news/other/japanese-technology-company-to-create-200-new-jobs/ar-AA2ico6f"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "usyd-oral-thesis",
+   "title": "University of Sydney honours students must now defend their theses in conversation",
+   "summary": "Every honours student at the University of Sydney now has to defend their thesis in conversation, as AI makes written work harder to trust, The Guardian reports.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Singularity Daily, Thursday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in superintelligence, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Heads in the clouds? Try space."
+  },
+  {
+   "s": 17.32,
+   "t": "SpaceX just got the go-ahead for a million AI satellites."
+  },
+  {
+   "s": 22.03,
+   "t": "Rival Amazon had called it a lofty ambition rather than a real plan."
+  },
+  {
+   "s": 31.88,
+   "t": "Meanwhile, Anthropic's Dario Amodei says the claim he'd hand our free will to AI is absurd."
+  },
+  {
+   "s": 38.91,
+   "t": "His line in the sand? AI that improves itself."
+  },
+  {
+   "s": 42.06,
+   "t": "'We may want limits on this process.'"
+  },
+  {
+   "s": 45.94,
+   "t": "And Amazon, which has blocked Meta's shopping agent Muse, is reportedly talking about letting it in."
+  },
+  {
+   "s": 52.97,
+   "t": "Talking AI doom over Thanksgiving dinner?"
+  },
+  {
+   "s": 55.23,
+   "t": "The New York Times wrote a guide for that."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. AI stocks took a beating for a second day, and Anthropic dipped to $74."
+  },
+  {
+   "s": 67.5,
+   "t": "Still, JPMorgan expects the S&P 500 to hit 8,200 next year, thanks to AI."
+  },
+  {
+   "s": 74.06,
+   "t": "Anthropic's listing also made about 5,100 of its staff millionaires, at least on paper."
+  },
+  {
+   "s": 82.03,
+   "t": "And AI voice maker ElevenLabs is reported ly in early talks at a $33 billion value."
+  },
+  {
+   "s": 90.0,
+   "t": "A historian asked ChatGPT who drew a sketchbook from 1808."
+  },
+  {
+   "s": 94.7,
+   "t": "22 minutes later: a French nobleman."
+  },
+  {
+   "s": 97.97,
+   "t": "And OpenAI's model designed new proteins."
+  },
+  {
+   "s": 100.95,
+   "t": "In lab tests, 35 of them latched onto their targets."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? New York just banned AI chatbot toys for five years."
+  },
+  {
+   "s": 110.62,
+   "t": "And EA brought back the late John Motson's voice with AI, with his family's consent."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "In China, XPeng showed off Iron, a humanoid with over 1,500 touch sensors."
+  },
+  {
+   "s": 127.97,
+   "t": "Early next year it starts training as a shop assistant in XPeng's own stores."
+  },
+  {
+   "s": 134.06,
+   "t": "Musk says robot demos are often staged."
+  },
+  {
+   "s": 136.96,
+   "t": "So Figure moved the table. Its robot still found the apple."
+  },
+  {
+   "s": 141.56,
+   "t": "So keep your head in the clouds, by all means."
+  },
+  {
+   "s": 144.04,
+   "t": "Just keep your feet on the ground."
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Singularity Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more tomorrow night."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-26/Singularity-Daily_2026-11-26.mp4",
+  "mb": 70.4,
+  "bytes": 70430139,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

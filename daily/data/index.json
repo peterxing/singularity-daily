@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T18:12:56+00:00",
- "latest": "2026-11-25",
+ "updated": "2026-11-26T21:15:37+00:00",
+ "latest": "2026-11-26",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
@@ -18,8 +18,36 @@
   "price": "Free",
   "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2004177230046"
  },
- "data": "b4af67e4bc10",
+ "data": "ecade178e6bf",
  "episodes": [
+  {
+   "date": "2026-11-26",
+   "ep": 53,
+   "hook": "HEADS IN THE CLOUDS.",
+   "day": "Thursday 26 November 2026",
+   "stories": 16,
+   "forecasts": 3,
+   "links": {
+    "supports": 0,
+    "early": 3,
+    "challenges": 0
+   },
+   "titles": [
+    "FCC authorizes SpaceX's Starmind: up to 1 million AI data-center satellites",
+    "Dario Amodei calls claims he'd surrender human control to AI 'absurd'",
+    "Amazon and Meta reportedly in talks to lift Amazon's blockade of Meta's Muse shopping agent"
+   ],
+   "cover": "daily/media/2026-11-26/cover.webp",
+   "thumb": "daily/media/2026-11-26/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-26/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-26/Singularity-Daily_2026-11-26.mp4",
+    "mb": 70.4,
+    "bytes": 70430139,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-25",
    "ep": 52,
@@ -208,7 +236,7 @@
    "cover": "daily/media/2026-11-19/cover.webp",
    "thumb": "daily/media/2026-11-19/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-19/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-19/Singularity-Daily_2026-11-19.mp4",
     "mb": 72.6,
