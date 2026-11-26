@@ -1,0 +1,508 @@
+{
+ "date": "2026-11-27",
+ "ep": 54,
+ "hook": "A SEAT AT THE TABLE.",
+ "day": "Friday 27 November 2026",
+ "chapters": [
+  "THE TABLE",
+  "THE CHIPS",
+  "THE MONEY",
+  "THE LAB",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:40 AEDT, Fri 27 Nov 2026; Dell's results (Tue 24 Nov), OpenAI's matrix proof (24-25 Nov), the Swiss cyber advisory (24 Nov) and ROBOTERA's release (25 Nov) are from earlier in the week.",
+ "notes": [
+  "Nvidia's halt is as reported by the Financial Times (Reuters could not immediately verify it); the US licensing rule behind it took effect on 19 Nov.",
+  "Z.AI's delay and Moonshot's longer release gap are as reported by Reuters, citing sources.",
+  "Musk's pledge: one share from SpaceX to each active Trump Account in December, and one from Musk when his lockup ends in June 2027; about $18 billion at Wednesday's close (Reuters, The Indian Express).",
+  "Dell reported its third-quarter results (to 30 Oct) on Tue 24 Nov. OpenAI posted its matrix-multiplication proof on GitHub on 24 Nov; New Scientist reported it on 25 Nov.",
+  "The Swiss NCSC advisory is dated 24 Nov; Reuters reported the five attacks on 26 Nov. XPeng's EV-level price is the company's own claim, as reported by Bloomberg.",
+  "Screenshots are the publishers' public article pages as captured on 27 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "A SEAT AT THE TABLE. 🦃\n\nThe last 24h in superintelligence:\n- Nvidia reportedly halts AI servers to 4 nations\n- Musk: 2 SpaceX shares per US kid\n- Neuralink cleared for a pivotal ALS trial\n- Volvo trains robot apprentices\n\nWho'd you save a seat for?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (27 Nov 2026), hosted by Claudia: Nvidia's reported halt of AI server shipments to four Southeast Asian countries, Chinese labs slowed by US chip curbs, South Korea's rate rise on the AI chip boom, Denny's welcoming Jensen Huang back, Elon Musk's pledge of two SpaceX shares for every US child, Dell's record AI backlog, Neuralink's pivotal ALS trial, OpenAI's matrix-multiplication proof, hidden AI use in UK courts, AI-agent cyberattacks in Switzerland, Volvo's humanoid robot apprentices and XPeng's EV-priced humanoid, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "THE US LICENSING RULE BEHIND NVIDIA'S HALT TOOK EFFECT ON 19 NOV, AND ALSO COVERS BRAZIL",
+  "REUTERS: Z.AI'S NEXT FLAGSHIP MODEL HAS FALLEN BEHIND SCHEDULE, SOURCES SAY",
+  "BANK OF KOREA LIFTS ITS BENCHMARK RATE A QUARTER POINT, TO 3.25%",
+  "YONHAP: THE BANK OF KOREA RAISES ITS 2027 GROWTH FORECAST TO 4.1% ON THE AI CHIP BOOM",
+  "SPACEX PRESIDENT GWYNNE SHOTWELL AND HER HUSBAND PLEDGED SHARES FOR MORE THAN 2 MILLION CHILDREN",
+  "THE WHITE HOUSE SAID IN OCTOBER THAT NEARLY 70 MILLION TRUMP ACCOUNTS HAD BEEN OPENED",
+  "DELL BOOKED $60.2 BILLION OF NEW AI SERVER ORDERS IN ITS THIRD QUARTER",
+  "DELL RAISES ITS FULL-YEAR AI SERVER TARGET FROM $74 BILLION TO $78 BILLION",
+  "NEURALINK'S EARLY STUDIES IN THE US, CANADA AND THE UK HAVE OVER 30 IMPLANTED PARTICIPANTS",
+  "NEW SCIENTIST: NO KNOWN ALGORITHM YET REACHES OPENAI'S 2.25 LIMIT",
+  "THE GUARDIAN: A POLICE OFFICER USED AI TO WRITE A WITNESS STATEMENT TO 'MAKE A JUDGE ... WEEP'",
+  "LAW SOCIETY: 'THREE PAGES FROM A LAWYER' BECOME 'A RAMBLING 60 PAGES FROM A COMMERCIAL AI'",
+  "SWISS NCSC: AI AGENTS REACHABLE ONLINE HAVE NEARLY DOUBLED SINCE OCTOBER",
+  "SWISS NCSC: PATCH INTERNET-FACING SYSTEMS WITHIN 24 HOURS",
+  "VOLVO: AEON'S FIRST JOB IS PLACING PARTS INTO TWO FIXTURES WITH HIGH PRECISION",
+  "XPENG: IRON GOES ON PUBLIC SALE IN THE SECOND QUARTER OF 2027",
+  "ROBOTERA: 45 HUMANOIDS NOW SORT PARCELS AT CHINA POST'S HANGZHOU HUB",
+  "AGIBOT'S X2 HUMANOIDS DANCE AS ONE, DODGING OBSTACLES AND SWITCHING FORMATIONS"
+ ],
+ "sources": [
+  "Financial Times",
+  "TechRepublic",
+  "The Business Times",
+  "Reuters",
+  "Yonhap",
+  "CNBC",
+  "Newsweek",
+  "The Indian Express",
+  "Dell",
+  "The Verge",
+  "2 Minute Medicine",
+  "New Scientist",
+  "The Guardian",
+  "Bureau of Investigative Journalism",
+  "Swiss NCSC",
+  "Cyber Security News",
+  "Volvo Cars",
+  "Saffarazzi",
+  "Bloomberg",
+  "PR Newswire",
+  "Interesting Engineering"
+ ],
+ "scanned": 4920,
+ "stories": [
+  {
+   "id": "nvidia-sea-halt",
+   "title": "Nvidia reportedly halts AI server shipments to four Southeast Asian countries",
+   "summary": "Nvidia told manufacturing partners to stop shipping servers with its chips to Malaysia, Singapore, Thailand and Indonesia, the Financial Times reported; Dell and Supermicro reportedly told buyers their orders can't ship.",
+   "chapter": "THE TABLE",
+   "badge": "REPORTED",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-nvidia-ai-server-shipments-southeast-asia-apac/"
+    },
+    {
+     "outlet": "Financial Times",
+     "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370"
+    },
+    {
+     "outlet": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/international/global/nvidia-halts-chip-shipments-4-countries-south-east-asia-including-singapore-ft"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "china-labs-slowed",
+   "title": "US chip curbs reportedly slow China's AI labs, with Moonshot's release gap set to double",
+   "summary": "Z.AI's next flagship model has fallen behind schedule and Moonshot AI expects the gap between its major releases could double from six months to a year or more, Reuters reported, citing sources, as US chip curbs and a distillation crackdown bite.",
+   "chapter": "THE CHIPS",
+   "badge": "REPORTED",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.msn.com/en-us/news/other/exclusive-us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say/ar-AA2ih89Q"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bok-rate-hike",
+   "title": "Bank of Korea raises rates as the AI chip boom lifts growth",
+   "summary": "South Korea's central bank raised its benchmark rate by a quarter point to 3.25% amid higher-than-expected growth driven by the AI memory chip boom, and lifted its 2027 growth forecast to 4.1%.",
+   "chapter": "THE CHIPS",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Financial Times",
+     "url": "https://www.ft.com/content/823af978-e22b-49a4-a2a1-52867a6520fa"
+    },
+    {
+     "outlet": "Yonhap"
+    },
+    {
+     "outlet": "Al Jazeera"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dennys-huang-booth",
+   "title": "Denny's puts Jensen Huang's plaque back up after his return to Nvidia",
+   "summary": "After Jensen Huang's return as Nvidia CEO, Denny's said it had restored the plaque honouring him that came down when he resigned, telling him 'your booth is waiting'.",
+   "chapter": "THE CHIPS",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "url": "https://www.msn.com/en-us/money/general/your-booth-is-waiting-denny-s-welcomes-jensen-huang-back-as-nvidia-ceo/ar-AA2ieLiE"
+    },
+    {
+     "outlet": "Newsweek"
+    },
+    {
+     "outlet": "The Hill"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "musk-spacex-shares-kids",
+   "title": "Musk pledges two SpaceX shares for every child in America",
+   "summary": "Elon Musk says every US child will get two SpaceX shares through Trump Accounts, one from SpaceX in December and one from him when his lockup ends in June 2027, a pledge worth about $18 billion at Wednesday's close.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "The Indian Express",
+     "url": "https://indianexpress.com/article/world/us-news/elon-musk-2-spacex-shares-every-us-child-trump-account-dateline-10979085/"
+    },
+    {
+     "outlet": "Reuters"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2029-5",
+     "key": "f0996ac5cc",
+     "relation": "early",
+     "note": "A voluntary, single-company way to share AI-era gains: SpaceX and Musk put shares into every US child's Trump Account. Not yet an AI dividend policy."
+    }
+   ]
+  },
+  {
+   "id": "dell-ai-backlog",
+   "title": "Dell's AI server backlog hits a record $132.3 billion",
+   "summary": "Dell's AI server revenue rose 291% from a year earlier to $22 billion in its third quarter to 30 October, and it ended the quarter with a record $132.3 billion AI backlog.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-dell-ai-server-revenue-q3-fy27-backlog/"
+    },
+    {
+     "outlet": "Dell",
+     "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "neuralink-pivotal-als",
+   "title": "FDA approves Neuralink's pivotal brain-implant trial for people with ALS",
+   "summary": "The FDA approved Neuralink's Link Pivotal Study, the first pivotal trial of an implantable brain-computer interface in the US, in people with severe paralysis from ALS; its earlier studies have over 30 implanted participants.",
+   "chapter": "THE LAB",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1043118/neuralink-fda-approval-implantable-brain-computer-interface-amyotrophic-lateral-sclerosis"
+    },
+    {
+     "outlet": "2 Minute Medicine",
+     "url": "https://www.2minutemedicine.com/fda-approves-neuralinks-link-pivotal-study-the-first-us-pivotal-trial-of-an-implantable-brain-computer-interface/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A regulator-approved pivotal trial moves implantable BCIs toward approved use, still far from high-bandwidth, two-way symbiosis."
+    }
+   ]
+  },
+  {
+   "id": "openai-matrix-limit",
+   "title": "OpenAI says it has proved the speed limit for multiplying matrices",
+   "summary": "OpenAI posted a proof that the matrix multiplication exponent is 2.25, a limit on how efficient any algorithm for multiplying grids of numbers can be, New Scientist reported; no known algorithm reaches it yet.",
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "New Scientist",
+     "url": "https://www.newscientist.com/article/2600728-openai-discovers-efficiency-limit-for-multiplying-large-sets-of-numbers/"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "uk-courts-hidden-ai",
+   "title": "Hidden AI use hit at least 25 court cases in England and Wales this year",
+   "summary": "A Bureau of Investigative Journalism trawl shared with the Guardian found at least 25 cases in 2026 affected by undisclosed AI use, including AI-generated witness statements, fictitious case law and nonexistent statutes.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "swiss-ai-agent-attacks",
+   "title": "Swiss officials say hackers used AI agents in five cyberattacks",
+   "summary": "Switzerland's cyber agency said five recent attacks on companies and critical-infrastructure operators used AI agents, and that in every case it knows of, the agents led to a successful compromise.",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Cyber Security News",
+     "url": "https://cybersecuritynews.com/switzerland-ai-agent-cyberattacks/"
+    },
+    {
+     "outlet": "Reuters"
+    },
+    {
+     "outlet": "Swiss NCSC",
+     "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "volvo-aeon-humanoids",
+   "title": "Volvo trains Hexagon's AEON humanoid robots at its Ghent car plant",
+   "summary": "Volvo Cars is training Hexagon's wheeled AEON humanoids by imitation at its plant in Ghent, Belgium, ahead of a 2027 factory pilot, with real production use targeted from mid-2027.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Saffarazzi",
+     "url": "https://www.saffarazzi.com/motoring/volvo-brings-hexagon-humanoid-robots-ghent-car-plant/"
+    },
+    {
+     "outlet": "Automotive News"
+    },
+    {
+     "outlet": "The AI Insider"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "One carmaker training humanoids ahead of a 2027 pilot: a step toward robots on live factory lines, not thousands at work yet."
+    }
+   ]
+  },
+  {
+   "id": "xpeng-iron-ev-price",
+   "title": "XPeng says its Iron humanoid will cost about as much as an electric car",
+   "summary": "XPeng's humanoid robots will cost roughly the same as an electric vehicle when they go on public sale in the second quarter of 2027, according to Bloomberg.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/xpeng-says-its-humanoid-robot-will-cost-the-same-as-an-ev"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "robotera-china-post",
+   "title": "ROBOTERA puts 45 humanoid robots to work at China Post's Hangzhou hub",
+   "summary": "ROBOTERA says 45 of its humanoid robots are deployed at China Post's Hangzhou Postal District Center, picking, reorienting and identifying parcels, after testing began in April.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "PR Newswire",
+     "url": "https://www.aap.com.au/aapreleases/cision20261126ae06966/"
+    },
+    {
+     "outlet": "Unite.AI"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2026-3",
+     "key": "0bfb45572e",
+     "relation": "early",
+     "note": "Dozens of humanoids in live parcel operations at one postal hub: real work, but far short of thousands on factory lines."
+    }
+   ]
+  },
+  {
+   "id": "agibot-x2-dance",
+   "title": "AGIBOT's X2 humanoid robots dance together as one team",
+   "summary": "AGIBOT showed multiple X2 humanoid robots dancing together, avoiding obstacles and changing formations, Interesting Engineering reported.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Interesting Engineering",
+     "url": "https://www.msn.com/en-us/news/other/video-multiple-humanoid-robots-dance-together-avoid-obstacles-and-change-formations/ar-AA2ihn9F"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Friday, November 27, and this is the Singularity Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in superintelligence."
+  },
+  {
+   "s": 15.0,
+   "t": "Who gets a seat at the table?"
+  },
+  {
+   "s": 16.67,
+   "t": "Nvidia has reportedly stopped shipping AI servers to four Southeast Asian countries."
+  },
+  {
+   "s": 22.5,
+   "t": "Dell and Supermicro have reportedly told buyers their orders can't ship."
+  },
+  {
+   "s": 31.88,
+   "t": "Washington wants top chips kept away from China, and Chinese labs are feeling it."
+  },
+  {
+   "s": 38.44,
+   "t": "Z.ai's next big model is reportedly late."
+  },
+  {
+   "s": 41.21,
+   "t": "Moonshot's gap between big releases could double, to a year."
+  },
+  {
+   "s": 45.94,
+   "t": "In Korea, the AI memory chip boom has growth beating forecasts, so the central bank raised rates."
+  },
+  {
+   "s": 52.97,
+   "t": "Oh, and Nvidia's boss is back, so Denny's put his plaque back up. His booth is waiting."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money."
+  },
+  {
+   "s": 61.07,
+   "t": "Elon Musk says every child in America is getting two SpaceX shares."
+  },
+  {
+   "s": 67.03,
+   "t": "One from SpaceX next month, one from Musk in June. That's about $18 billion."
+  },
+  {
+   "s": 74.06,
+   "t": "Dell, meanwhile, has a record $132 billion of AI server orders still to fill."
+  },
+  {
+   "s": 82.03,
+   "t": "Its AI server sales nearly quadrupled in a year, to $22 billion in one quarter."
+  },
+  {
+   "s": 90.0,
+   "t": "Neuralink just got FDA approval for America's first pivotal trial of a brain implant, for people with ALS."
+  },
+  {
+   "s": 97.5,
+   "t": "And OpenAI says it's proved the speed limit for multiplying grids of numbers, the math inside almost every computer."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch?"
+  },
+  {
+   "s": 105.66,
+   "t": "Hidden AI use has hit at least 25 court cases in England and Wales this year."
+  },
+  {
+   "s": 111.56,
+   "t": "And Swiss officials say hackers used AI agents in five attacks."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "Volvo's training humanoid robots at its plant in Ghent."
+  },
+  {
+   "s": 125.34,
+   "t": "They learn the job by copying people."
+  },
+  {
+   "s": 128.44,
+   "t": "They roll on wheels, carry parts, and could join real production from the middle of next year."
+  },
+  {
+   "s": 135.0,
+   "t": "And XPeng says its humanoid will cost about the same as an electric car."
+  },
+  {
+   "s": 141.56,
+   "t": "This Thanksgiving, don't just ask what the machines can do."
+  },
+  {
+   "s": 145.05,
+   "t": "Ask who gets a seat at the table."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build something. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want the whole month? Hear more tonight."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-27/Singularity-Daily_2026-11-27.mp4",
+  "mb": 72.3,
+  "bytes": 72261820,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}
