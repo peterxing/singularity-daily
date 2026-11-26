@@ -1,8 +1,50 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-23T23:00:03+00:00",
- "episodes": 20,
+ "updated": "2026-11-26T21:23:02+00:00",
+ "episodes": 21,
  "links": [
+  {
+   "fid": "2027-2",
+   "key": "041b303e2d",
+   "relation": "early",
+   "note": "DeepMind says AI agents now run some experiments for its next Gemini models themselves, while full self-improvement remains far off: one lab's account.",
+   "ep": 25,
+   "on": "2026-11-26",
+   "date": "2026-11-25",
+   "story": "deepmind-agents",
+   "title": "DeepMind says AI agents now run some of their own experiments for the next Gemini",
+   "pillar": "intelligence",
+   "outlet": "The Decoder",
+   "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/"
+  },
+  {
+   "fid": "horizon-orbital-compute-to-proto-dyson",
+   "key": "f1cd4d6370",
+   "relation": "early",
+   "note": "The FCC licensed up to 1 million solar-powered AI computing satellites: an approval for orbital data centres at scale, with none launched yet.",
+   "ep": 25,
+   "on": "2026-11-26",
+   "date": "2026-11-25",
+   "story": "starmind",
+   "title": "The FCC lets SpaceX launch up to a million AI data-centre satellites",
+   "pillar": "frontier",
+   "outlet": "The Verge",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+  },
+  {
+   "fid": "2037-0",
+   "key": "7413d2bddc",
+   "relation": "early",
+   "note": "An unreleased OpenAI model produced 730 maths manuscripts from about 4,000 problems, including a claimed 9/4 matrix bound; preprints not yet checked.",
+   "ep": 25,
+   "on": "2026-11-26",
+   "date": "2026-11-24",
+   "story": "ninefourths",
+   "title": "An unreleased OpenAI model claims matrix multiplication's exponent is 9/4",
+   "pillar": "intelligence",
+   "outlet": "Unite.AI",
+   "url": "https://www.unite.ai/openai-preprint-reports-9-4-bound-for-matrix-multiplication/"
+  },
   {
    "fid": "2037-0",
    "key": "7413d2bddc",

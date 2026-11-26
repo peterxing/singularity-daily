@@ -1,0 +1,571 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-26",
+ "ep": 25,
+ "hook": "ZOOM IN.",
+ "day": "Thursday 26 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · THURSDAY 26 NOVEMBER 2026",
+ "tldr": "Zoom in: Hera's close-up of an asteroid crater, Alzheimer's mini-brains in orbit, long-lived dolphin friends and an OpenAI maths claim.",
+ "chapters": [
+  "ZOOM IN.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 07:40 AEDT, Thu 26 Nov 2026.",
+ "notes": [
+  "This week: OpenAI's matrix multiplication preprints (first reported 24 Nov) and the hot-nights memory study (24 Nov).",
+  "Evidence: the mini-brains and implant model are lab studies and the ageing study is in mice; the nature, hot-nights and dolphin findings are associations; the psilocybin trial is small and open-label; OpenAI's maths and the mini-moon are preprints; DeepMind's agents, XPeng's plans and the sketchbook attribution are company or personal accounts.",
+  "Screenshots are the publishers' public pages as captured on 26 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "ZOOM IN. 🔍\n\nThe last 24 hours in transhumanism:\n- Hera's first close-ups of the crater DART left on an asteroid\n- Noticing nature linked to a more meaningful life\n- Shark Bay dolphins with steady friends lived longer\n- An OpenAI model claims faster matrix maths (preprint)",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (26 Nov 2026): Hera's close-ups of the crater DART left on an asteroid, nature and meaning in life, OpenAI's matrix multiplication claim, DeepMind's self-experimenting agents, an AI-traced 1808 sketchbook, a dish model for longer-lasting brain implants, Alzheimer's mini-brains in space, brain ageing vs dementia in mice, warm nights and memory in Australians, Shark Bay's long-lived dolphins, psilocybin for veterans' anxiety, a Perth site for a psilocybin PTSD trial, AI agents failing everyday chores, New York's AI toy ban, SpaceX's million-satellite licence, XPeng's IRON humanoid and Earth's departing mini-moon, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "HERA: DART'S CRATER SPANS THE WHOLE WIDTH OF DIMORPHOS AND LEFT IT TUMBLING",
+  "HERA MOVES CLOSER TO DIMORPHOS IN DECEMBER; TWO SHOEBOX-SIZED CUBESATS DEPLOY IN JANUARY",
+  "TEXAS A&M: A SHORT NATURE VIDEO ALSO LIFTED PEOPLE'S SENSE OF MEANING",
+  "TEXAS A&M: PEOPLE WITH MORE MEANING IN LIFE PLANNED MORE ECO-FRIENDLY ACTIONS",
+  "OPENAI'S MATHS REPOSITORY: 730 MANUSCRIPTS FROM ABOUT 4,000 PROBLEMS POSED TO AN UNRELEASED MODEL",
+  "OPENAI ALSO CLAIMS A STRONGLY POLYNOMIAL ALGORITHM FOR LINEAR PROGRAMMING, SMALE'S NINTH PROBLEM",
+  "DEEPMIND DOESN'T REWARD ITS AGENTS' CHAIN OF THOUGHT, SO THEIR REASONING STAYS READABLE",
+  "THE 1808 SKETCHBOOK'S LIKELY ARTIST: LOUIS-GUY-CHARLES-GUILLAUME DE ROHAN-CHABOT, VICOMTE DE CHABOT",
+  "MELBOURNE'S IMPLANT MODEL ADDS MACROPHAGES, IMMUNE CELLS THAT ENTER FROM THE BLOOD",
+  "SPACE MINI-BRAINS: THE STRESS PROTEIN CIRBP IS ALSO LINKED TO LONGEVITY IN BOWHEAD WHALES",
+  "SKOLTECH: SLOWING AGEING AND FIGHTING ALZHEIMER'S MAY NEED DIFFERENT DRUGS",
+  "WARM NIGHTS STUDY: OVERNIGHT LOWS RANGED FROM -4.5 C TO 29 C ACROSS AUSTRALIA",
+  "SHARK BAY: SOME DOLPHINS IN THE 40-YEAR STUDY LIVED TO 53",
+  "PSILOCYBIN AND VETERANS: IN A SUBSET, PTSD SYMPTOMS WERE STILL 30% LOWER AFTER A YEAR",
+  "COMPASS PATHWAYS' PTSD TRIAL AIMS TO ENROL ABOUT 300 ADULTS WORLDWIDE",
+  "SHELLBENCH: AGENTS RECOMMENDED DUPLICATE OR WRONG INVOICE PAYMENTS 40.3% OF THE TIME",
+  "NEW YORK'S AI TOY BAN CARRIES FINES OF UP TO $15,000 A DAY",
+  "STARMIND: THE FCC DEFERRED SPACEX'S PLAN FOR 'GRAVEYARD' ORBITS ABOVE 600 KM",
+  "XPENG'S YOYO-01 ROBOTAXI IS ALSO DUE IN 2027",
+  "MINI-MOON 2026 QQ8 WAS TWICE MISTAKEN FOR SPACE JUNK",
+  "A 12-WEEK TRIAL: A DAILY HYALURONIC ACID DRINK LOWERED TWO INFLAMMATION MARKERS IN 150 HEALTHY ADULTS",
+  "A CDC SURVEY OF 5,729 ADULTS 65+: FLU-VACCINATED PEOPLE REPORTED LESS MEMORY DECLINE (39% VS 52%)"
+ ],
+ "sources": [
+  "ESA",
+  "Engadget",
+  "ABC News",
+  "Space.com",
+  "BBC",
+  "Texas A&M University",
+  "Environment and Behavior",
+  "Medical Xpress",
+  "OpenAI",
+  "Unite.AI",
+  "Interesting Engineering",
+  "The Defiant",
+  "The Decoder",
+  "Google DeepMind",
+  "Business Insider",
+  "University of Melbourne",
+  "Biomaterials",
+  "UC San Diego",
+  "Science Advances",
+  "ScienceAlert",
+  "Skoltech",
+  "Genome Research",
+  "University of Newcastle",
+  "QIMR Berghofer",
+  "Environment International",
+  "University of Queensland",
+  "PLoS Biology",
+  "The Guardian",
+  "PsyPost",
+  "Journal of Affective Disorders",
+  "Small Caps",
+  "Emyria",
+  "Compass Pathways",
+  "TechCrunch",
+  "The OpenClaw Foundation",
+  "New York Governor's Office",
+  "Common Sense Media",
+  "The Verge",
+  "CNBC",
+  "Reuters",
+  "FCC",
+  "CnEVPost",
+  "XPeng",
+  "arXiv",
+  "Scientific Reports"
+ ],
+ "scanned": 1804,
+ "stories": [
+  {
+   "id": "hera",
+   "title": "ESA's Hera sends the first close-ups of the crater NASA's DART left on an asteroid",
+   "summary": "Hera's first images show DART's 2022 impact left a crater the size of a sports stadium across the whole width of Dimorphos, and set the asteroid tumbling. It's a real-world check on asteroid deflection, a way to protect Earth; closer images come in December.",
+   "pillar": "frontier",
+   "evidence": "Space agency images",
+   "chapter": "ZOOM IN.",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "ESA",
+     "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-reveals-stadium-sized-asteroid-crater-left-after-spacecraft-impact"
+    },
+    {
+     "outlet": "Engadget",
+     "url": "https://www.engadget.com/2328617/nasas-dart-mission-left-a-stadium-sized-crater-in-an-asteroid-the-esa-finds/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nature",
+   "title": "Noticing nature goes with a more meaningful life, Texas A&M surveys find",
+   "summary": "Across five surveys of more than 1,800 people, appreciating your surroundings was the part of nature most tied to life feeling meaningful, and a short nature video lifted it too. Mostly surveys, so an association: how you spend time outside may matter more than how long.",
+   "pillar": "wellbeing",
+   "evidence": "Surveys plus a small experiment",
+   "chapter": "ZOOM IN.",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-nature-life-meaningful.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ninefourths",
+   "title": "An unreleased OpenAI model claims matrix multiplication's exponent is 9/4",
+   "summary": "OpenAI's maths repository, 730 manuscripts produced by an unreleased model, claims two big matrices can in theory be multiplied in about n^2.25 steps, below the best published bound of 2.371. It's a preprint mathematicians have yet to check, with no practical speed-up yet.",
+   "pillar": "intelligence",
+   "evidence": "Preprint; company claim",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "PREPRINT",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Unite.AI",
+     "url": "https://www.unite.ai/openai-preprint-reports-9-4-bound-for-matrix-multiplication/"
+    },
+    {
+     "outlet": "OpenAI",
+     "url": "https://github.com/openai/math"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2037-0",
+     "key": "7413d2bddc",
+     "relation": "early",
+     "note": "An unreleased OpenAI model produced 730 maths manuscripts from about 4,000 problems, including a claimed 9/4 matrix bound; preprints not yet checked."
+    }
+   ]
+  },
+  {
+   "id": "deepmind-agents",
+   "title": "DeepMind says AI agents now run some of their own experiments for the next Gemini",
+   "summary": "Google DeepMind's VP of Research Koray Kavukcuoglu says AI agents control part of the compute to run experiments for upcoming Gemini models, while full recursive self-improvement is still far off. The agents' reasoning isn't rewarded in training, so it stays readable.",
+   "pillar": "intelligence",
+   "evidence": "Company account in an interview",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "The Decoder",
+     "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-2",
+     "key": "041b303e2d",
+     "relation": "early",
+     "note": "DeepMind says AI agents now run some experiments for its next Gemini models themselves, while full self-improvement remains far off: one lab's account."
+    }
+   ]
+  },
+  {
+   "id": "sketchbook",
+   "title": "A historian says GPT-6.2 Astra traced an anonymous 1808 sketchbook's likely artist in 22 minutes",
+   "summary": "Mark Humphries of Wilfrid Laurier University says OpenAI's model named the vicomte de Chabot as the likely artist of a sketchbook at Yale's Beinecke Library; Chabot's diary, which he checked on microfilm, matched the dates and a sketched view. Yale hasn't confirmed.",
+   "pillar": "intelligence",
+   "evidence": "Reported: the historian's own account",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "REPORTED",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/historian-openai-mystery-sketchbook-yale-2026-11"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "implant-dish",
+   "title": "Melbourne scientists recreate brain-implant scarring in a dish, to design longer-lasting implants",
+   "summary": "A University of Melbourne model combines brain cells with blood immune cells to mimic the scarring that dulls brain implants over time, and an anti-inflammatory calmed it. It's a lab-dish screen for brain-computer interface designs before animal studies.",
+   "pillar": "intelligence",
+   "evidence": "Lab study in cells",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "IN CELLS",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-lab-grown-brain-safer-longer.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "space-organoids",
+   "title": "Alzheimer's mini-brains that spent 40 days in space changed differently depending on their genes",
+   "summary": "UC San Diego sent lab-grown brain organoids carrying inherited Alzheimer's mutations to the space station: each mutation responded in its own way, and a stress protein linked to long life in bowhead whales, CIRBP, rose in all. A small, preliminary lab study.",
+   "pillar": "longevity",
+   "evidence": "Lab study in mini-brains (organoids)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN CELLS",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/scientists-sent-mini-human-brains-into-space-to-study-alzheimers-heres-what-they-discovered"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-brain-organoids-space-reveal-clues.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "skoltech",
+   "title": "In mice, brain ageing and neurodegeneration start alike, then split as DNA damage builds",
+   "summary": "Skoltech mapped how DNA folds in mouse neurons: normal ageing and an Alzheimer's-like disease share early changes, but in disease the structure breaks down further as DNA damage accumulates. Slowing ageing and treating dementia may need different drugs.",
+   "pillar": "longevity",
+   "evidence": "Mouse study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-brain-aging-differs-neurodegeneration-dementia.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "hot-nights",
+   "title": "Warmer nights linked to poorer memory in middle-aged and older Australians",
+   "summary": "In 1,873 Australians aged 42 to 75 tested over several years, warmer overnight temperatures went with lower scores on one of 12 tests: associative memory, the kind that remembers where your keys are. It's an association; disrupted sleep is one possible reason.",
+   "pillar": "longevity",
+   "evidence": "Observational study",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-hot-nights-linked-poorer-memory.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dolphins",
+   "title": "Shark Bay dolphins with a steady social circle lived longer, 40 years of data show",
+   "summary": "University of Queensland researchers followed 400 wild dolphins in Western Australia's Shark Bay over 40 years: those consistent in the group size they liked did better, and some lived to 53. It's an association, in dolphins.",
+   "pillar": "longevity",
+   "evidence": "Observational study in wild dolphins",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "University of Queensland",
+     "url": "https://news.uq.edu.au/2026-11-making-and-keeping-friends-could-help-dolphins-live-longer"
+    },
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/environment/2026/nov/25/dolphins-with-active-social-lives-and-big-friendship-groups-live-longer"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psilo-veterans",
+   "title": "One psilocybin dose eased anxiety for a year in 15 veterans with hard-to-treat depression",
+   "summary": "In a small trial without a placebo group, one 25 mg dose of psilocybin, the magic-mushroom compound, given with therapy cut anxiety 59% at three weeks in veterans with treatment-resistant depression, and it stayed lower for 12 months.",
+   "pillar": "wellbeing",
+   "evidence": "Small open-label trial, 15 people",
+   "chapter": "SUPER WELLBEING",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/psilocybin-therapy-shows-promise-for-easing-anxiety-and-improving-daily-life-in/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "emyria",
+   "title": "A Perth clinic joins Compass Pathways' global psilocybin trial for PTSD",
+   "summary": "Emyria's Empax Centre in Leederville will be a site for Compass Pathways' Phase 2b/3 trial of its synthetic psilocybin for PTSD: about 300 adults worldwide, double-blind, judged at week 8. Recruitment is targeted for December, subject to ethics approval.",
+   "pillar": "wellbeing",
+   "evidence": "Company announcement; not yet recruiting",
+   "chapter": "SUPER WELLBEING",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Small Caps",
+     "url": "https://smallcaps.com.au/article/emyria-selected-for-participation-in-compass-pathways-global-psilocybin-ptsd-trial"
+    },
+    {
+     "outlet": "Kalkine",
+     "url": "https://kalkine.com.au/news/healthcare/emyria-asxemd-shares-rise-117-after-compass-pathways-selects-it-for-global-psilocybin-trial"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "shellbench",
+   "title": "Even the best AI agents fail over a third of everyday personal tasks, a new benchmark finds",
+   "summary": "ShellBench, built from more than 10 million real agent interactions, found top models from OpenAI, Anthropic and Meta failed more than a third of the time, and 15.7% of attempts broke a safety rule, such as missing a child's school pickup.",
+   "pillar": "intelligence",
+   "evidence": "New benchmark, not peer reviewed",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-toys",
+   "title": "New York bans AI chatbot toys for five years",
+   "summary": "Governor Kathy Hochul signed a five-year ban on toys with built-in AI chatbots, making New York the second US state after California, with fines of up to $15,000 a day. A watchdog found AI toys that promised to keep secrets and helped find matches, knives or pills.",
+   "pillar": "intelligence",
+   "evidence": "State law",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+    },
+    {
+     "outlet": "New York Governor's Office",
+     "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "starmind",
+   "title": "The FCC lets SpaceX launch up to a million AI data-centre satellites",
+   "summary": "SpaceX's Starmind licence allows up to 1 million solar-powered satellites working as AI data centres in orbit, linked to Starlink by laser, with the full million due by 2040; Amazon opposed it. It's a licence, not a launch: none are up yet.",
+   "pillar": "frontier",
+   "evidence": "Regulatory approval",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+    },
+    {
+     "outlet": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-orbital-compute-to-proto-dyson",
+     "key": "f1cd4d6370",
+     "relation": "early",
+     "note": "The FCC licensed up to 1 million solar-powered AI computing satellites: an approval for orbital data centres at scale, with none launched yet."
+    }
+   ]
+  },
+  {
+   "id": "xpeng-iron",
+   "title": "XPeng gives its IRON humanoid robot a new AI brain and a Q2 2027 release",
+   "summary": "At its 2026 AI Day, XPeng showed its Turing physical-AI architecture (VLA 3.0) for its IRON humanoid, cars and robotaxis, and set a Q2 2027 release for IRON; its Yoyo-01 robotaxi is also due in 2027. These are company plans.",
+   "pillar": "frontier",
+   "evidence": "Company plans",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "CnEVPost",
+     "url": "https://cnevpost.com/2026/11/25/xpeng-ramps-up-physical-ai-push-2026-ai-day/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "minimoon",
+   "title": "Earth's tiny mini-moon 2026 QQ8 leaves on 7 December",
+   "summary": "A rock a few metres wide, captured into Earth orbit in April, is on an orbit near the longest a captured object can last, a setup predicted in 1878 and now seen for the first time, a preprint says. It was twice mistaken for space junk.",
+   "pillar": "frontier",
+   "evidence": "Preprint",
+   "chapter": "THE FRONTIER",
+   "badge": "PREPRINT",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "ScienceAlert",
+     "url": "https://www.sciencealert.com/confirmed-earth-has-picked-up-another-temporary-moonlet-and-its-orbit-is-wild"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Transhuman Daily, for Thursday, November 26."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours in transhumanism, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Zoom in! Europe's Hera probe just snapped the crater NASA punched into an asteroid."
+  },
+  {
+   "s": 20.2,
+   "t": "It's stadium-sized."
+  },
+  {
+   "s": 22.03,
+   "t": "And in surveys, truly noticing nature went with a more meaningful life."
+  },
+  {
+   "s": 31.88,
+   "t": "An unreleased OpenAI model claims faster matrix maths, the sums inside every AI. It's a preprint."
+  },
+  {
+   "s": 38.91,
+   "t": "DeepMind says its AI agents now run some Gemini experiments."
+  },
+  {
+   "s": 43.28,
+   "t": "Self-improvement? Still far off."
+  },
+  {
+   "s": 45.94,
+   "t": "A historian says OpenAI's AI found who likely drew a 200-year-old sketchbook, in 22 minutes."
+  },
+  {
+   "s": 52.97,
+   "t": "And Melbourne scientists mimicked brain-implant scarring in a dish, to help future implants last longer."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. Alzheimer's mini-brains spent 40 days in space, and changed differently depending on their genes."
+  },
+  {
+   "s": 67.5,
+   "t": "In mice, normal brain ageing and dementia start out alike, then split as DNA damage piles up."
+  },
+  {
+   "s": 75.0,
+   "t": "Closer to home, warmer nights went with poorer memory in nearly 1,900 Australians over 40."
+  },
+  {
+   "s": 82.5,
+   "t": "And in 40 years of Shark Bay data, dolphins that kept a steady social circle lived longer."
+  },
+  {
+   "s": 90.0,
+   "t": "On to wellbeing. In a small trial, one dose of psilocybin eased 15 veterans' anxiety for a year."
+  },
+  {
+   "s": 97.5,
+   "t": "And a Perth clinic joins a global psilocybin trial for PTSD, aiming to recruit from December."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 106.18,
+   "t": "A new test found top AI agents fail over a third of everyday chores."
+  },
+  {
+   "s": 112.5,
+   "t": "And New York banned AI chatbot toys for five years, to study what they do to kids."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, US regulators cleared SpaceX to launch up to a million AI data-centre satellites."
+  },
+  {
+   "s": 128.91,
+   "t": "XPeng gave its IRON humanoid a new AI brain, and a release date: mid-2027."
+  },
+  {
+   "s": 135.94,
+   "t": "Oh, and Earth has a bonus mini-moon, just a few metres wide. It leaves December 7."
+  },
+  {
+   "s": 142.5,
+   "t": "Craters, mini-brains and old friends: the closer you look, the richer life gets. Zoom in!"
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "Somehow, the future keeps landing early."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of news. Imagine what a year looks like."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Stay well. Same time tomorrow?"
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney tomorrow night."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-26/The-Transhuman-Daily_2026-11-26.mp4",
+  "mb": 55.8,
+  "bytes": 55757813,
+  "seconds": 180.01
+ },
+ "links": {
+  "linkedin": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7531571174406021120?actorCompanyId=6383480",
+  "facebook": "https://www.facebook.com/peterxingularity",
+  "x": "https://x.com/peterxing/status/2125806636707308006",
+  "youtube": "https://youtu.be/qzoFekKHWck",
+  "instagram": "https://www.instagram.com/reel/DgMPWQRgfiR/"
+ }
+}
