@@ -650,7 +650,6 @@ html.reading { overflow: hidden; }
 .mstat { font: 700 11px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--faint); }
 a.mstat.ok, .mstat.ok { color: var(--green); }
 .mlogo { max-height: 64px; max-width: 240px; width: auto; object-fit: contain; background: rgba(245, 243, 239, 0.94); border-radius: 8px; padding: 6px; justify-self: start; }
-.mlive summary { cursor: pointer; color: var(--dim); font-size: 14px; margin-top: 8px; }
 .btn.primary { background: var(--green); color: var(--ink); border-color: var(--green); }
 .btn.primary:hover { color: var(--ink); filter: brightness(1.07); }
 .btn[disabled] { opacity: 0.6; cursor: progress; }

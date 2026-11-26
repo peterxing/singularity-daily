@@ -136,10 +136,12 @@ project `peterxing-members` (https://peterxing-members.vercel.app/api/members; s
 Members of Transhumanism Australia (its A$5-a-month Stripe Payment Link) sign in with a one-time link sent to the email on their
 membership, which the API checks with Stripe on every sign-in and post, and add their own dated predictions; once an admin
 approves one it shows on this timeline in green (`#/members/p/<id>`), under the member's chosen name, with "Transhumanism
-Australia members" in the Whose filter. Timeline sponsors (a higher Stripe tier the admin page creates) upload a logo, which
-shows in the strip at the top of Predictions vs reality once approved and comes down if their subscription lapses. Nothing
-shows until the API reports `live` (its Stripe key, email sender and admins set); the index's Content-Security-Policy allows
-the API's origin for `connect-src` and `img-src`. Members' predictions are theirs, not the Guide's, and aren't judged.
+Australia members" in the Whose filter. Admins can also edit or delete any member's prediction at `#/members/admin`; an edited
+one says so on its card, and a member whose prediction is already up is emailed how it now reads. Timeline sponsors (a
+higher Stripe tier the admin page creates) upload a logo, which shows in the strip at the top of Predictions vs reality once
+approved and comes down if their subscription lapses. Nothing shows until the API reports `live` (its Stripe key, email
+sender and admins set); the index's Content-Security-Policy allows the API's origin for `connect-src` and `img-src`.
+Members' predictions are theirs, not the Guide's, and aren't judged.
 
 ## Data
 

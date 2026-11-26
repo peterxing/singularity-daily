@@ -3,7 +3,8 @@
 // dated predictions, and timeline sponsors put their logo on the timeline. The members API (the Vercel project
 // peterxing-members) checks membership with Stripe on every sign-in and post, holds predictions and logos for
 // approval, and serves the public feed. app.js draws the approved predictions in "Predictions vs reality"; this file
-// draws the sponsors' strip, the members' section and the admins' queue. Nothing shows until the API says it's live.
+// draws the sponsors' strip, the members' section and the admins' page (approve, edit and delete predictions; approve and
+// take down logos). Nothing shows until the API says it's live.
 (() => {
   const local = ['localhost', '127.0.0.1'].includes(location.hostname);
   const API = local ? '/api/members' : 'https://peterxing-members.vercel.app/api/members';
@@ -38,7 +39,8 @@
   const S = window.SDM = { data: null, live: false, me: null, domains: {}, logoUrl: f => `${API}?a=logo&f=${encodeURIComponent(f)}` };
   let token = null;
   try { token = localStorage.getItem(KEY); } catch (e) { /* storage blocked: sign-in lasts for this page only */ }
-  let shown = false, link = null, welcome = false, wantAdmin = false, meLoaded = false, queue = null, notice = '', adminNote = '';
+  let shown = false, link = null, welcome = false, wantAdmin = false, meLoaded = false, queue = null, notice = '', adminNote = '', adminDone = '';
+  let editing = null; // the prediction an admin is editing: { key, draft }
   const setToken = t => { token = t; try { if (t) localStorage.setItem(KEY, t); else localStorage.removeItem(KEY); } catch (e) { /* see above */ } };
 
   async function call(a, body) {
@@ -275,7 +277,7 @@
     const lim = S.me.limits || {};
     return h('article', { class: 'mcard' }, h('h3', { text: 'Your predictions' }),
       list.length ? h('ul', { class: 'mlist' }, list.map(p => h('li', null,
-        h('div', { class: 'mono mmeta', text: `By ${ymLong(p.by)}${p.prob ? ` \u00b7 ${p.prob}%` : ''} \u00b7 sent ${dmy(p.posted)}` }),
+        h('div', { class: 'mono mmeta', text: `By ${ymLong(p.by)}${p.prob ? ` \u00b7 ${p.prob}%` : ''} \u00b7 sent ${dmy(p.posted)}${p.edited ? ` \u00b7 edited by an admin ${dmy(p.edited)}` : ''}` }),
         h('div', { class: 'mclaim', text: p.claim }),
         h('div', { class: 'mrow' },
           p.status === 'live' ? h('a', { class: 'mstat ok', href: `#/members/p/${p.id}`, text: 'On the timeline' }) : h('span', { class: 'mstat', text: 'Awaiting approval' }),
@@ -356,13 +358,14 @@
       form, note);
   }
 
-  // ------------------------------------------------------------------ admins: approve, reject, take down, set up the sponsor tier
+  // ------------------------------------------------------------------ admins: approve, edit, delete, take down, set up the sponsor tier
   function paintAdmin() {
     const el = $('membersAdmin');
     if (!el) return;
     if (!(S.me && S.me.admin) || ($('members') && $('members').hidden)) { el.replaceChildren(); return; }
     const kids = [h('h3', { text: 'Admin' })];
     if (adminNote) kids.push(h('p', { class: 'mwarn', role: 'status', text: adminNote }));
+    if (adminDone) kids.push(h('p', { class: 'mok', role: 'status', text: adminDone }));
     if (!queue) {
       kids.push(h('p', { class: 'msmall', text: 'Loading the queue\u2026' }));
       el.replaceChildren(h('article', { class: 'mcard admin', id: 'mAdmin' }, kids));
@@ -372,16 +375,11 @@
     const missing = Object.entries({ stripe: 'the Stripe key', member: 'the membership product (from the Payment Link)', email: 'email (Resend)', admins: 'admin emails' })
       .filter(([k]) => queue.ready && !queue.ready[k]).map(([, v]) => v);
     if (missing.length) kids.push(h('p', { class: 'mwarn', text: `Still to set up: ${missing.join(', ')}.` }));
-    kids.push(h('div', { class: 'mrow' }, h('button', { class: 'btn', type: 'button', text: 'Refresh', onclick: () => { queue = null; paintAdmin(); } }),
-      h('span', { class: 'msmall', text: queue.moderation === 'post' ? 'Members\u2019 predictions go up straight away; take down anything that shouldn\u2019t be there.' : 'Members\u2019 predictions wait here for approval.' })));
+    kids.push(h('div', { class: 'mrow' }, h('button', { class: 'btn', type: 'button', text: 'Refresh', onclick: () => { queue = null; adminDone = ''; paintAdmin(); } }),
+      h('span', { class: 'msmall', text: queue.moderation === 'post' ? 'Members\u2019 predictions go up straight away; edit or delete anything that shouldn\u2019t be there as it is.' : 'Members\u2019 predictions wait here for approval.' })));
     kids.push(tierBlock());
     kids.push(h('h4', { text: `Predictions awaiting approval (${queue.predictions.length})` }));
-    kids.push(queue.predictions.length ? h('ul', { class: 'mlist' }, queue.predictions.map(p => h('li', null,
-      h('div', { class: 'mono mmeta', text: `By ${ymLong(p.by)}${p.prob ? ` \u00b7 ${p.prob}%` : ''}${p.topic ? ` \u00b7 ${S.domains[p.topic] || p.topic}` : ''} \u00b7 sent ${dmy(p.posted)} \u00b7 ${p.tier}` }),
-      h('div', { class: 'mclaim', text: p.claim }),
-      p.why ? h('div', { class: 'msmall', text: `Why: ${p.why}` }) : null,
-      h('div', { class: 'msmall' }, `${p.name} \u00b7 ${p.email}`, p.link ? [' \u00b7 ', ext(p.link, p.link)] : null),
-      h('div', { class: 'mrow' }, act('prediction', p.key, 'approve', 'Approve'), act('prediction', p.key, 'reject', 'Reject'))))) : h('p', { class: 'msmall', text: 'Nothing waiting.' }));
+    kids.push(queue.predictions.length ? h('ul', { class: 'mlist' }, queue.predictions.map(p => predItem(p, false))) : h('p', { class: 'msmall', text: 'Nothing waiting.' }));
     kids.push(h('h4', { text: `Logos awaiting approval (${queue.sponsors.length})` }));
     kids.push(queue.sponsors.length ? h('ul', { class: 'mlist' }, queue.sponsors.map(s => h('li', null,
       s.preview ? h('img', { class: 'mlogo', src: s.preview, alt: `${s.name} logo` }) : null,
@@ -389,21 +387,112 @@
       h('div', { class: 'msmall' }, ext(s.url, s.url), ` \u00b7 ${s.email} \u00b7 sent ${dmy(s.submitted)}${s.replacing ? ` \u00b7 replaces the live logo for ${s.replacing}` : ''}`),
       h('div', { class: 'mrow' }, act('sponsor', s.key, 'approve', 'Approve'), act('sponsor', s.key, 'reject', 'Reject'))))) : h('p', { class: 'msmall', text: 'Nothing waiting.' }));
     const live = queue.live || { predictions: [], sponsors: [] };
-    kids.push(h('details', { class: 'mlive' }, h('summary', { text: `On the timeline now: ${live.predictions.length} predictions, ${live.sponsors.length} sponsors` }),
-      h('ul', { class: 'mlist' },
-        live.sponsors.map(s => h('li', null, h('div', { class: 'mclaim', text: `Sponsor: ${s.name}` }), h('div', { class: 'msmall' }, ext(s.url, s.url), ` \u00b7 since ${dmy(s.since)}`),
-          h('div', { class: 'mrow' }, act('sponsor', s.key, 'remove', 'Take it down')))),
-        live.predictions.map(p => h('li', null, h('div', { class: 'mono mmeta', text: `By ${ymLong(p.by)} \u00b7 ${p.name}` }), h('div', { class: 'mclaim', text: p.claim }),
-          h('div', { class: 'mrow' }, act('prediction', p.key, 'remove', 'Take it down')))))));
+    const up = live.predictions.slice().sort((a, b) => b.posted.localeCompare(a.posted) || a.by.localeCompare(b.by));
+    kids.push(h('h4', { text: `Predictions on the timeline (${up.length})` }));
+    kids.push(up.length ? h('ul', { class: 'mlist' }, up.map(p => predItem(p, true))) : h('p', { class: 'msmall', text: 'None yet.' }));
+    kids.push(h('h4', { text: `Logos on the timeline (${live.sponsors.length})` }));
+    kids.push(live.sponsors.length ? h('ul', { class: 'mlist' }, live.sponsors.map(s => h('li', null,
+      h('div', { class: 'mclaim', text: s.name }), h('div', { class: 'msmall' }, ext(s.url, s.url), ` \u00b7 since ${dmy(s.since)}`),
+      h('div', { class: 'mrow' }, act('sponsor', s.key, 'remove', 'Take it down'))))) : h('p', { class: 'msmall', text: 'None yet.' }));
     el.replaceChildren(h('article', { class: 'mcard admin', id: 'mAdmin' }, kids));
   }
 
+  // A member's prediction in the admin's lists (awaiting approval, or on the timeline), or the form editing it
+  function predItem(p, live) {
+    if (editing && editing.key === p.key) return editForm(p, live);
+    const meta = [`By ${ymLong(p.by)}`, p.prob ? `${p.prob}%` : '', p.topic ? S.domains[p.topic] || p.topic : '', `${live ? 'posted' : 'sent'} ${dmy(p.posted)}`,
+      p.edited ? `edited ${dmy(p.edited)}` : '', live ? '' : p.tier].filter(Boolean).join(' \u00b7 ');
+    return h('li', null,
+      h('div', { class: 'mono mmeta', text: meta }),
+      h('div', { class: 'mclaim', text: p.claim }),
+      p.why ? h('div', { class: 'msmall', text: `Why: ${p.why}` }) : null,
+      h('div', { class: 'msmall' }, p.name, p.email ? ` \u00b7 ${p.email}` : '', p.link ? [' \u00b7 ', ext(p.link, p.link)] : null),
+      h('div', { class: 'mrow' },
+        live ? h('a', { class: 'mstat ok', href: `#/members/p/${p.id}`, text: 'See it on the timeline' }) : act('prediction', p.key, 'approve', 'Approve'),
+        h('button', { class: 'btn', type: 'button', text: 'Edit', onclick: () => startEdit(p) }),
+        live ? act('prediction', p.key, 'remove', 'Delete') : act('prediction', p.key, 'reject', 'Reject')));
+  }
+
+  function startEdit(p) {
+    editing = { key: p.key, draft: { claim: p.claim, month: p.by.slice(5, 7), year: p.by.slice(0, 4), prob: p.prob == null ? '' : String(p.prob), topic: p.topic || '', why: p.why || '', name: p.name || '', link: p.link || '' } };
+    adminNote = '';
+    adminDone = '';
+    paintAdmin();
+    const t = $('eClaim');
+    if (t) { t.scrollIntoView({ block: 'center' }); t.focus(); }
+  }
+
+  // The draft lives in `editing`, so a repaint (the queue or the public feed reloading) keeps what's been typed.
+  function editForm(p, live) {
+    const d = editing.draft;
+    const bind = (el, k) => {
+      el.value = d[k];
+      const keep = () => { d[k] = el.value; };
+      el.addEventListener('input', keep);
+      el.addEventListener('change', keep);
+      return el;
+    };
+    const note = h('p', { class: 'mnote', role: 'status' });
+    const claim = bind(h('textarea', { id: 'eClaim', rows: '3', maxlength: '240', required: true }), 'claim');
+    const count = h('small', { class: 'mono cnt' });
+    const recount = () => { count.textContent = `${claim.value.length} / 240`; };
+    claim.addEventListener('input', recount);
+    recount();
+    const y0 = Math.min(new Date().getUTCFullYear(), Number(d.year));
+    const month = bind(h('select', { 'aria-label': 'Month' }, MONTHS.map((m, i) => h('option', { value: String(i + 1).padStart(2, '0'), text: m }))), 'month');
+    const year = bind(h('select', { 'aria-label': 'Year' }, Array.from({ length: 2100 - y0 + 1 }, (_, i) => h('option', { value: String(y0 + i), text: String(y0 + i) }))), 'year');
+    const prob = bind(h('input', { type: 'number', min: '1', max: '99', step: '1', inputmode: 'numeric', placeholder: 'none' }), 'prob');
+    const domains = { ...(S.domains || {}) };
+    if (d.topic && !domains[d.topic]) domains[d.topic] = d.topic;
+    const topic = bind(h('select', null, h('option', { value: '', text: 'None' }), Object.entries(domains).map(([k, v]) => h('option', { value: k, text: v }))), 'topic');
+    const why = bind(h('textarea', { rows: '2', maxlength: '500', placeholder: 'Optional' }), 'why');
+    const name = bind(h('input', { type: 'text', maxlength: '60', required: true }), 'name');
+    const url = bind(h('input', { type: 'url', maxlength: '200', placeholder: 'https:// (optional)' }), 'link');
+    const btn = h('button', { class: 'btn primary', type: 'submit', text: 'Save' });
+    const form = h('form', {
+      class: 'mform',
+      onsubmit: async e => {
+        e.preventDefault();
+        btn.disabled = true;
+        note.textContent = 'Saving\u2026';
+        try {
+          queue = await call('moderate', { kind: 'prediction', key: p.key, action: 'edit', edit: { claim: d.claim, by: `${d.year}-${d.month}`, prob: d.prob === '' ? null : Number(d.prob), why: d.why, topic: d.topic, name: d.name, link: d.link } });
+          editing = null;
+          adminNote = '';
+          adminDone = live ? 'Saved, and it\u2019s updated on the timeline.' : 'Saved. It\u2019s still awaiting approval.';
+          paintAdmin();
+          if (live) loadPublic(true);
+        } catch (err) {
+          note.textContent = err.message;
+          btn.disabled = false;
+        }
+      },
+    },
+    h('label', { class: 'field' }, h('span', { text: 'Prediction' }), claim, count),
+    h('div', { class: 'mrow' },
+      h('div', { class: 'field', role: 'group', 'aria-labelledby': 'eByL' }, h('span', { id: 'eByL', text: 'By the end of' }), h('span', { class: 'pair' }, month, year)),
+      h('label', { class: 'field narrow' }, h('span', { text: 'How sure (%)' }), prob),
+      h('label', { class: 'field' }, h('span', { text: 'Domain' }), topic)),
+    h('label', { class: 'field' }, h('span', { text: 'Why' }), why),
+    h('div', { class: 'mrow' },
+      h('label', { class: 'field' }, h('span', { text: 'Name, as shown' }), name),
+      h('label', { class: 'field' }, h('span', { text: 'Link' }), url)),
+    h('p', { class: 'msmall', text: `${live ? 'Saving updates it on the timeline and emails them how it now reads.' : 'It stays awaiting approval.'} If you change what it says, it\u2019s marked as edited. The name and link are theirs, so they change on all their predictions.` }),
+    h('div', { class: 'mrow' }, btn, h('button', { class: 'btn', type: 'button', text: 'Cancel', onclick: () => { editing = null; paintAdmin(); } })));
+    return h('li', { id: 'mEdit' }, h('div', { class: 'mono mmeta', text: `Editing ${p.name}\u2019s prediction${live ? ' on the timeline' : ''}` }), form, note);
+  }
+
   function act(kind, key, action, label) {
+    const ask = {
+      reject: 'Reject this? It will be deleted.',
+      remove: kind === 'prediction' ? 'Delete this prediction? It comes off the timeline for good.' : 'Take this off the timeline? It will be deleted.',
+    }[action];
     const b = h('button', {
       class: action === 'approve' ? 'btn primary' : 'btn', type: 'button', text: label,
       onclick: async () => {
-        if (action !== 'approve' && !window.confirm(action === 'reject' ? 'Reject this? It will be deleted.' : 'Take this off the timeline? It will be deleted.')) return;
+        if (ask && !window.confirm(ask)) return;
         b.disabled = true;
+        adminDone = '';
         try { queue = await call('moderate', { kind, key, action }); adminNote = ''; loadPublic(true); } catch (e) { adminNote = e.message; }
         paintAdmin();
       },

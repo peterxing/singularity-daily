@@ -203,11 +203,13 @@
     const link = x.link && safeHttps(x.link);
     return h('div', { class: 'fc-body' },
       fact('Their prediction', h('p', { text: x.claim }),
-        h('p', { class: 'note' }, `${x.name}, ${x.tier === 'sponsor' ? 'a timeline sponsor and Transhumanism Australia member' : 'a Transhumanism Australia member'}. Posted ${dayMonthYear(x.posted)}. `,
+        h('p', { class: 'note' }, `${x.name}, ${x.tier === 'sponsor' ? 'a timeline sponsor and Transhumanism Australia member' : 'a Transhumanism Australia member'}. Posted ${dayMonthYear(x.posted)}${x.edited ? `, edited by the site\u2019s admins ${dayMonthYear(x.edited)}` : ''}. `,
           link ? h('a', { href: link, target: '_blank', rel: 'nofollow ugc noopener', text: 'Their link \u2197' }) : null)),
       fact('When', h('p', { text: `By the end of ${longYm(x.by)}.${x.prob ? ` They put ${x.prob}% on it.` : ''}` })),
       x.why ? fact('Why', h('p', { text: x.why })) : null,
-      fact('Note', h('p', { class: 'note', text: 'A member\u2019s own prediction, shown as they posted it once it was checked for being on topic and civil. It isn\u2019t the Guide\u2019s, and it isn\u2019t judged here.' })),
+      fact('Note', h('p', { class: 'note', text: x.edited
+        ? 'A member\u2019s own prediction, checked for being on topic and civil and since edited by the site\u2019s admins. It isn\u2019t the Guide\u2019s, and it isn\u2019t judged here.'
+        : 'A member\u2019s own prediction, shown as they posted it once it was checked for being on topic and civil. It isn\u2019t the Guide\u2019s, and it isn\u2019t judged here.' })),
       h('div', { class: 'fc-foot' }, h('a', { href: `#/members/p/${x.id}`, text: 'Link to this prediction' }), h('a', { href: '#/members', text: 'Add your own' })));
   }
   async function openMember(id) {
