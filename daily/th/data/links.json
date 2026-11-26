@@ -1,8 +1,50 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-26T21:23:02+00:00",
- "episodes": 21,
+ "updated": "2026-11-26T21:32:48+00:00",
+ "episodes": 22,
  "links": [
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "Implants in 14 people recorded brain signals for up to 7.3 years: durability evidence for implantable interfaces, still far from two-way symbiosis.",
+   "ep": 26,
+   "on": "2026-11-27",
+   "date": "2026-11-26",
+   "story": "braingate",
+   "title": "Twenty years of BrainGate data: brain implants kept recording for up to 7.3 years",
+   "pillar": "intelligence",
+   "outlet": "Nature Medicine",
+   "url": "https://www.nature.com/articles/s41591-026-04530-3"
+  },
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A regulator-approved pivotal trial moves implantable BCIs toward approved use, still far from high-bandwidth, two-way symbiosis.",
+   "ep": 26,
+   "on": "2026-11-27",
+   "date": "2026-11-25",
+   "story": "neuralink-pivotal",
+   "title": "FDA approves Neuralink's pivotal brain-implant trial for people with ALS",
+   "pillar": "intelligence",
+   "outlet": "Neuralink",
+   "url": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study/"
+  },
+  {
+   "fid": "2030-4",
+   "key": "10d59da620",
+   "relation": "early",
+   "note": "GPT-6.2 helped design protein binders, 35 of 322 of which bound their targets in lab tests: early lab results, far from an approved drug.",
+   "ep": 26,
+   "on": "2026-11-27",
+   "date": "2026-11-24",
+   "story": "gpt-proteins",
+   "title": "OpenAI says proteins designed with GPT-6.2 bound their targets in lab tests",
+   "pillar": "intelligence",
+   "outlet": "OpenAI",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+  },
   {
    "fid": "2027-2",
    "key": "041b303e2d",

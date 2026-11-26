@@ -1,0 +1,582 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-27",
+ "ep": 26,
+ "hook": "GOING THE DISTANCE.",
+ "day": "Friday 27 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · FRIDAY 27 NOVEMBER 2026",
+ "tldr": "Going the distance: brain implants still working after years, Neuralink's pivotal trial, a protein glue for older eggs and AI-made proteins.",
+ "chapters": [
+  "GOING THE DISTANCE.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 07:07 AEDT, Fri 27 Nov 2026.",
+ "notes": [
+  "This week: Shane Legg's AGI estimate (25 Nov), OpenAI's protein-design preprint (24 Nov), the mindfulness review, the DNA cubes and the Kent body-image study (all 25 Nov).",
+  "Evidence: the egg glue and liver results are in mice; the quantum gravity paper and OpenAI's proteins are preprints; the dementia, mindfulness, body-image and survey findings are associations; the sleep-loss and bionic-hand work are small early studies; Neuralink's and Switzerland's accounts are their own.",
+  "Screenshots are the publishers' public pages as captured on 27 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "GOING THE DISTANCE. 🧠\n\nThe last 24 hours in transhumanism:\n- Brain implants kept working up to 7 years in 14 people\n- FDA approves Neuralink's pivotal ALS trial\n- A protein glue kept old eggs' chromosomes paired (mice)\n- A sleepless night left a mark in volunteers' blood",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (27 Nov 2026): 20 years of BrainGate brain-implant data, Neuralink's pivotal ALS trial, Shane Legg's AGI odds, an AI-assisted quantum gravity preprint, OpenAI's AI-designed proteins, people following AI advice they say they'd rather not take, a protein glue for older eggs in mice, senolytics and liver tumours in old mice, waist size and dementia risk, Denmark's no to Kisunla, a blood signature of sleep loss, mindfulness and social media, teen girls' body sense, AI-agent cyberattacks in Switzerland, Australians fooled by AI content, self-assembling DNA cubes, a bionic hand that feels and Singapore's robot district, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "BRAINGATE: ARRAYS PICKED UP BRAIN-CELL SPIKES ON 35.6% OF ELECTRODES ON AVERAGE, DOWN ONLY 7 POINTS OVER THE YEARS",
+  "BRAINGATE: 11 OF 14 ARRAYS KEPT DECODING MOVEMENT THROUGHOUT; 3 TOPPED 70% OF ABLE-BODIED MOUSE CONTROL",
+  "NEURALINK SAYS OVER 30 PEOPLE IN THE US, CANADA AND UK ALREADY HAVE ITS IMPLANT; PIVOTAL ENROLMENT IS OPEN",
+  "SHANE LEGG HELD A 50% CHANCE OF AGI BY 2028 FROM 2009 UNTIL THIS WEEK",
+  "STANFORD'S QUANTUM GRAVITY PAPER RAN ON ABOUT 400 MILLION TOKENS OF GPT-6 ASTRA",
+  "OPENAI: 179 OF 272 REDESIGNED ANTIBODY FRAGMENTS STILL BOUND THEIR TARGETS (PREPRINT)",
+  "CITY ST GEORGE'S: OVER 1,250 PEOPLE, THREE INVESTMENT EXPERIMENTS, REAL MONEY AT STAKE",
+  "TALHESINS: MAX PLANCK'S MELINA SCHUH SEES EARLY SIGNS IN HUMAN EGGS; OVO LABS HAS LICENSED THE IDEA",
+  "OLD-MOUSE LIVERS: THE SENOLYTIC PAIR WAS DASATINIB PLUS QUERCETIN",
+  "NEUROLOGY: OVER 80% OF PEOPLE BMI CALLED 'OVERWEIGHT' COUNTED AS OBESE ON THE NEW DEFINITION",
+  "DENMARK: ABOUT 650 PEOPLE WOULD HAVE QUALIFIED FOR KISUNLA",
+  "SLEEP-LOSS STUDY: 40 HEALTHY VOLUNTEERS AGED 20 TO 45, HALF KEPT AWAKE FOR A NIGHT",
+  "MINDFULNESS REVIEW: 28,701 PEOPLE, BUT 33 OF THE 43 STUDIES WERE ONE-OFF SNAPSHOTS",
+  "SWISS NCSC: AI AGENTS REACHABLE ONLINE HAVE NEARLY DOUBLED SINCE OCTOBER; PATCH WITHIN 24 HOURS",
+  "ONLY 17% OF AUSTRALIANS SAY THEY TRUST CLAUDE, 24% COPILOT AND GEMINI, 34% CHATGPT",
+  "ASU'S DNA CUBES COULD SCAFFOLD NANOROBOTS AND 3D ELECTRONICS",
+  "UTAH HAS TESTED NERVE-LINKED BIONIC ARMS SINCE 2013",
+  "SINGAPORE'S PUNGGOL DIGITAL DISTRICT SPANS 50 HECTARES AND OPENS OFFICIALLY NEXT MONTH",
+  "ANTHROPIC SAYS CLAUDE AGENTS HELPED MOVE ITS MESSAGES API TO RUST, CUTTING CPU USE ABOUT 70%",
+  "CLAUDE CAN NOW TURN ITS ARTIFACTS INTO MAC AND WINDOWS APPS",
+  "A RUFOUS HUMMINGBIRD FLEW A RECORD 6,526 KM, ALABAMA TO ALASKA, CARRYING A 0.06 G SOLAR TAG",
+  "UK'S RACER-KNEE TRIAL: ROBOT-ASSISTED KNEE REPLACEMENTS WERE NO BETTER FOR PATIENTS AT ONE YEAR"
+ ],
+ "sources": [
+  "Nature Medicine",
+  "BrainGate",
+  "Neuralink",
+  "The Verge",
+  "Gizmodo",
+  "OfficeChai",
+  "India Today",
+  "arXiv",
+  "OpenAI",
+  "R&D World",
+  "City St George's, University of London",
+  "Personality and Social Psychology Bulletin",
+  "Mirage News",
+  "Science",
+  "STAT",
+  "Max Planck Institute for Multidisciplinary Sciences",
+  "Nature Aging",
+  "University of Minnesota",
+  "Neurology",
+  "Medical Xpress",
+  "Danish Medicines Council",
+  "Life Science Focus",
+  "Politiken",
+  "Scientific Reports",
+  "Forschungszentrum Jülich",
+  "DLR",
+  "PLOS One",
+  "UCL",
+  "University of Kent",
+  "Philosophical Transactions B",
+  "Reuters",
+  "Swiss NCSC",
+  "Cyber Security News",
+  "The Conversation",
+  "Science Robotics",
+  "Arizona State University",
+  "Phys.org",
+  "MIT Technology Review",
+  "University of Utah",
+  "AFP",
+  "Tech Xplore",
+  "TechRepublic",
+  "Unite.AI",
+  "ScienceAlert",
+  "ScienceDaily"
+ ],
+ "scanned": 1783,
+ "stories": [
+  {
+   "id": "braingate",
+   "title": "Twenty years of BrainGate data: brain implants kept recording for up to 7.3 years",
+   "summary": "A Nature Medicine study of 20 'Utah array' implants in 14 people with paralysis found they picked up brain-cell signals for up to 7.3 years with only a modest decline, and 11 of 14 still decoded movement throughout. Strong evidence that brain-computer interfaces can last.",
+   "pillar": "intelligence",
+   "evidence": "Peer-reviewed study, 14 people",
+   "chapter": "GOING THE DISTANCE.",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Nature Medicine",
+     "url": "https://www.nature.com/articles/s41591-026-04530-3"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "Implants in 14 people recorded brain signals for up to 7.3 years: durability evidence for implantable interfaces, still far from two-way symbiosis."
+    }
+   ]
+  },
+  {
+   "id": "neuralink-pivotal",
+   "title": "FDA approves Neuralink's pivotal brain-implant trial for people with ALS",
+   "summary": "Neuralink says the FDA approved its LINK Pivotal Study, the first pivotal trial of an implanted brain-computer interface in the US, testing thought control of devices for people with severe paralysis from ALS. Over 30 people already have its implant in early studies.",
+   "pillar": "intelligence",
+   "evidence": "Company announcement of an FDA trial approval",
+   "chapter": "GOING THE DISTANCE.",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Neuralink",
+     "url": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study/"
+    },
+    {
+     "outlet": "The Verge",
+     "url": "https://www.theverge.com/tech/1043118/neuralink-fda-approval-implantable-brain-computer-interface-amyotrophic-lateral-sclerosis"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A regulator-approved pivotal trial moves implantable BCIs toward approved use, still far from high-bandwidth, two-way symbiosis."
+    }
+   ]
+  },
+  {
+   "id": "legg-agi-odds",
+   "title": "DeepMind co-founder Shane Legg now puts 'minimal AGI' before 2028 at about 65%",
+   "summary": "Shane Legg, who had held a 50% chance of AGI by 2028 since 2009, wrote on X that it's now over 50% likely, roughly 65% for now. By minimal AGI he means an AI that can do the everyday thinking tasks a typical person can.",
+   "pillar": "intelligence",
+   "evidence": "Personal forecast on X",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/around-65-likely-well-get-minimal-agi-before-2028-google-deepminds-shane-legg/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-quantum-gravity",
+   "title": "A Stanford physicist proposes a quantum gravity theory worked out with OpenAI's AI",
+   "summary": "Venkatesa Chandrasekaran's 83-page arXiv paper proposes a quantum theory of gravity built from light cones; several calculations and proofs came from months of back-and-forth with GPT-6 Astra. A preprint that physicists still have to check.",
+   "pillar": "intelligence",
+   "evidence": "Preprint, not peer reviewed",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "PREPRINT",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "arXiv",
+     "url": "https://arxiv.org/abs/2611.34924"
+    },
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/stanford-physicist-venkatesa-chandrasekaran-uses-gpt-6-astra-to-propose-a-full-quantum-theory-of-gravity/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "gpt-proteins",
+   "title": "OpenAI says proteins designed with GPT-6.2 bound their targets in lab tests",
+   "summary": "In a preprint with lab partner Onava, 35 of 322 small proteins (10.9%) designed with a prerelease GPT-6.2 bound their targets, at least one for each of five drug targets; a specialist model wrote the sequences. Binding is only a first step toward a medicine.",
+   "pillar": "intelligence",
+   "evidence": "Company preprint, lab tests",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "PREPRINT",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "OpenAI",
+     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+    },
+    {
+     "outlet": "R&D World",
+     "url": "https://www.rdworldonline.com/proteins-based-on-gpt-6-2-designs-bind-to-five-targets-in-lab-tests/"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "GPT-6.2 helped design protein binders, 35 of 322 of which bound their targets in lab tests: early lab results, far from an approved drug."
+    }
+   ]
+  },
+  {
+   "id": "dislike-ai-advice",
+   "title": "People who prefer human advisers still follow AI advice just as much",
+   "summary": "In three investment experiments with over 1,250 people and real money at stake, most said they preferred human advisers yet took AI advice to the same degree, City St George's researchers report. Disliking AI may not protect us from bad AI advice.",
+   "pillar": "intelligence",
+   "evidence": "Peer-reviewed experiments, 1,250+ people",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Mirage News",
+     "url": "https://www.miragenews.com/dislike-of-ai-doesnt-deter-its-influence-1784031/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "talhesins",
+   "title": "A designer protein glue keeps chromosomes paired in eggs from older mice",
+   "summary": "Max Planck scientists built 'TALhesins' to stand in for cohesin, the glue that fades as eggs age. In eggs from older mice, properly paired chromosomes rose from 47% to 74%, like young eggs. Chromosome errors drive many failed IVF cycles; human eggs aren't tested yet.",
+   "pillar": "longevity",
+   "evidence": "Mouse study (Science)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "STAT",
+     "url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/"
+    },
+    {
+     "outlet": "Science",
+     "url": "https://www.science.org/doi/10.1126/science.aei5852"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "liver-senolytics",
+   "title": "Old livers fail to clear pre-cancerous cells, and senolytics helped in old mice",
+   "summary": "In a University of Minnesota mouse study, old livers were slow to clear 'senescent' pre-cancerous cells and only old mice grew tumours. Senolytics, drugs that clear worn-out cells (dasatinib plus quercetin), partly restored clean-up and cut tumours in old mice.",
+   "pillar": "longevity",
+   "evidence": "Mouse study (Nature Aging)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Nature Aging",
+     "url": "https://www.nature.com/articles/s43587-026-01275-z"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "waist-dementia",
+   "title": "Counting waist size as well as weight flags more dementia risk than BMI alone",
+   "summary": "In British and Chinese cohorts of 18,944 people, a newer obesity definition that adds waist-to-height ratio and conditions like high blood pressure linked obesity to a 93% higher dementia risk than normal weight with no conditions. An association, not proof of cause.",
+   "pillar": "longevity",
+   "evidence": "Observational study, 18,944 people",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "OBSERVATIONAL",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-bmi-obesity-dementia.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "kisunla-denmark",
+   "title": "Denmark won't recommend Lilly's Alzheimer's drug Kisunla for routine use",
+   "summary": "The Danish Medicines Council won't recommend Kisunla (donanemab) as standard treatment for early Alzheimer's, citing uncertain benefit and side effects; about 650 people would have qualified. It's the council's second such no in under a year.",
+   "pillar": "longevity",
+   "evidence": "Health-system funding decision",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Life Science Focus",
+     "url": "https://www.lifesciencefocus.com/article/view/1258969/danish_medicines_council_turns_down_kisunla"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sleep-loss-blood",
+   "title": "A sleepless night leaves a telltale molecule in the blood, a small study finds",
+   "summary": "German researchers found that one night without sleep shifted small molecules in volunteers' blood, with TMAO, made with help from gut microbes, the most promising marker. A small, early step toward a blood test for sleep loss.",
+   "pillar": "wellbeing",
+   "evidence": "Small study, 40 volunteers",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Scientific Reports",
+     "url": "https://www.nature.com/articles/s41598-026-82067-8"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mindful-scrolling",
+   "title": "Mindful people use social media in healthier ways, a review of 43 studies finds",
+   "summary": "A UCL review of 43 studies and 28,701 people found 39 linked mindfulness with better wellbeing or healthier social media use: less comparing, less fear of missing out, less compulsive scrolling. Mostly one-off snapshots, so no proof of cause.",
+   "pillar": "wellbeing",
+   "evidence": "Review of mostly observational studies",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "PLOS One",
+     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337349"
+    },
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-mindfulness-linked-mental-health-beneficial.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "interoception-body-image",
+   "title": "Teen girls better at sensing their heartbeat were happier with their bodies",
+   "summary": "University of Kent researchers found girls aged 10 to 14 who counted their own heartbeats more accurately were less dissatisfied with their bodies, more so later in puberty. A link, not proof; next they want to test whether body-awareness training helps.",
+   "pillar": "wellbeing",
+   "evidence": "Observational study",
+   "chapter": "SUPER WELLBEING",
+   "badge": "THIS WEEK",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Medical Xpress",
+     "url": "https://medicalxpress.com/news/2026-11-teenage-girls-tune-bodies-tend.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "swiss-ai-agent-attacks",
+   "title": "Swiss officials say hackers used AI agents in five cyberattacks",
+   "summary": "Switzerland's cyber agency said five recent attacks on companies and critical-infrastructure operators used AI agents, and that in every case it knew of, the attackers got in. AI agents reachable online have nearly doubled since October, it says.",
+   "pillar": "intelligence",
+   "evidence": "Government account",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Swiss NCSC",
+     "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en"
+    },
+    {
+     "outlet": "Cyber Security News",
+     "url": "https://cybersecuritynews.com/switzerland-ai-agent-cyberattacks/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "aussies-ai-content",
+   "title": "76% of Australians recently mistook AI-made content for real",
+   "summary": "A representative survey of 2,000 Australian adults found 76% had recently believed something was real, then learned AI made it. Trust is low (ChatGPT 34%, Claude 17%), and the authors call for clearer AI labels and AI literacy for adults too.",
+   "pillar": "intelligence",
+   "evidence": "Survey of 2,000 adults",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "The Conversation",
+     "url": "https://theconversation.com/76-of-australians-are-struggling-to-tell-apart-real-and-ai-content-new-report-296952"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "dna-cubes",
+   "title": "DNA cubes build themselves into 3D shapes, like nano Minecraft",
+   "summary": "Arizona State University scientists designed a 'minimal kit' of DNA cube blocks that find each other in solution and lock into a chosen 3D shape. They hope the method can scaffold future nanorobots and 3D electronic circuits. A lab demonstration.",
+   "pillar": "frontier",
+   "evidence": "Lab study (Science Robotics)",
+   "chapter": "THE FRONTIER",
+   "badge": "THIS WEEK",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Phys.org",
+     "url": "https://phys.org/news/2026-11-minecraft-dna-cubes-complex-3d.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "bionic-hand",
+   "title": "In a Utah trial, a bionic hand linked to the nerves lets its user feel his grip",
+   "summary": "MIT Technology Review follows a man who lost his hand at 16 and now uses the LUKE bionic arm in a University of Utah trial that connects it to his nerves, letting him steer it and sense how hard he grips. One participant in an early trial.",
+   "pillar": "frontier",
+   "evidence": "Feature on one early-trial participant",
+   "chapter": "THE FRONTIER",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "singapore-robot-district",
+   "title": "Singapore turns a 50-hectare district into a live test bed for robots and AI",
+   "summary": "In Punggol Digital District, robots clean, patrol and deliver while one AI platform runs lifts, air-con and waste, part of easing an ageing city-state's worker shortage. The district opens officially next month.",
+   "pillar": "frontier",
+   "evidence": "News feature (AFP)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-robots-roam-singapore-urban-ai.html"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "Welcome to the Transhuman Daily, Friday edition."
+  },
+  {
+   "s": 6.56,
+   "t": "Let's catch you up on the last 24 hours in transhumanism."
+  },
+  {
+   "s": 15.0,
+   "t": "Going the distance!"
+  },
+  {
+   "s": 16.3,
+   "t": "Brain implants in 14 paralysed people kept working for up to 7 years."
+  },
+  {
+   "s": 22.03,
+   "t": "And Neuralink got FDA approval for its pivotal trial, in people with ALS."
+  },
+  {
+   "s": 31.88,
+   "t": "DeepMind co-founder Shane Legg now rates minimal AGI before 2028 at about 65%."
+  },
+  {
+   "s": 38.91,
+   "t": "A Stanford physicist built a quantum gravity theory with help from OpenAI's AI."
+  },
+  {
+   "s": 44.01,
+   "t": "It's a preprint."
+  },
+  {
+   "s": 45.94,
+   "t": "And in another preprint, OpenAI's AI helped design proteins; one in nine stuck in lab tests."
+  },
+  {
+   "s": 52.97,
+   "t": "In money experiments, people who preferred human advisers still followed AI advice just as much."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity. In eggs from older mice, a designer protein glue kept chromosomes paired, like young eggs."
+  },
+  {
+   "s": 67.5,
+   "t": "In old mice, senolytics, drugs that clear out worn-out cells, cut the liver tumours young mice never got."
+  },
+  {
+   "s": 75.0,
+   "t": "And judged by waist as well as weight, obesity went with 93% more dementia risk."
+  },
+  {
+   "s": 82.5,
+   "t": "Meanwhile, Denmark said no to Lilly's Alzheimer's drug Kisunla for routine use, citing unclear benefit."
+  },
+  {
+   "s": 90.0,
+   "t": "Wellbeing now. In a small study, a sleepless night left a telltale molecule in blood."
+  },
+  {
+   "s": 96.09,
+   "t": "Across 43 studies, mindful people used social media more healthily."
+  },
+  {
+   "s": 101.25,
+   "t": "And teen girls better at sensing their heartbeat liked their bodies more."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 105.96,
+   "t": "Swiss officials say hackers used AI agents in five recent attacks on companies and infrastructure."
+  },
+  {
+   "s": 112.5,
+   "t": "Closer to home, 76% of Australians say they've recently mistaken something AI-made for real."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, Arizona scientists made DNA cubes that build themselves into shapes, like nano Minecraft."
+  },
+  {
+   "s": 128.91,
+   "t": "In a Utah trial, a man who lost a hand at 16 can feel his bionic grip."
+  },
+  {
+   "s": 135.94,
+   "t": "And Singapore made a whole district a robot test bed, easing an ageing city's worker crunch."
+  },
+  {
+   "s": 142.5,
+   "t": "Implants that last, chromosomes that hold, AI that helps with physics. Here's to going the distance!"
+  },
+  {
+   "s": 150.0,
+   "t": "Every day, the curve gets a little steeper."
+  },
+  {
+   "s": 153.75,
+   "t": "Every day, the future shows up a little earlier."
+  },
+  {
+   "s": 157.5,
+   "t": "All of that, in one day. And the days keep getting bigger."
+  },
+  {
+   "s": 165.0,
+   "t": "That's the Transhuman Daily for today."
+  },
+  {
+   "s": 168.75,
+   "t": "Go build the future. See you tomorrow."
+  },
+  {
+   "s": 172.5,
+   "t": "Want more? Meet us in North Sydney tonight."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-27/The-Transhuman-Daily_2026-11-27.mp4",
+  "mb": 56.1,
+  "bytes": 56076236,
+  "seconds": 180.01
+ },
+ "links": {}
+}
