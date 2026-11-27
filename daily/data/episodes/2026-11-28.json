@@ -1,0 +1,491 @@
+{
+ "date": "2026-11-28",
+ "ep": 55,
+ "hook": "WHO'S COOKING?",
+ "day": "Saturday 28 November 2026",
+ "chapters": [
+  "THE KITCHEN",
+  "THE DELIVERY",
+  "THE MONEY",
+  "THE LAB",
+  "THE CATCH",
+  "THE MACHINES"
+ ],
+ "window": "Window: the 24 hours to 04:09 AEDT, Sat 28 Nov 2026; Tencent's Nature paper (25-26 Nov), SAP's reported job-cut plans (Thu 26 Nov) and Sber's GigaChat 4 (26 Nov) are from earlier in the week.",
+ "notes": [
+  "Nvidia's GB300 rack in Shanghai is as reported by Bloomberg from loan filings reviewed by it; how the rack got there is unclear.",
+  "SAP's plans are as reported by Bloomberg (people familiar with the matter); SAP says no decisions have been made. Yandex's humanoid delivery pilot is as reported by Kommersant (two sources), via Meduza.",
+  "South Korea's November export figure is a Reuters poll of economists (median of eight); official data is due on 1 Dec. Anthropic's 8% rise is from Friday morning's session in New York (Investopedia).",
+  "Tencent's results are in mice (Nature; the ORIDTP platform); the researchers say they are not evidence that the drug is clinically superior to semaglutide.",
+  "Screenshots are the publishers' public article pages as captured on 28 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "WHO'S COOKING? 🦃\n\nThe last 24h in superintelligence:\n- Zuckerberg's AI agent smoked his turkey\n- A UK AI agent bought 9 pizzas, no card\n- Bloomberg: Nvidia's top rack in Shanghai\n- A hunger strike outside Anthropic\n\nWhat would you let AI cook?",
+  "alt": "A 3-minute, fast-cut motion-graphics showreel of the last day in superintelligence (28 Nov 2026), hosted by Claudia: Mark Zuckerberg's AI-smoked turkey, the UK's first AI-agent pizza order paid without a card, an Nvidia GB300 rack found in Shanghai, Anthropic's share rebound, South Korea's chip-fuelled exports, SAP's reported job cuts, Tesla's bid for EMAG's gear machines, Tencent's AI-designed drugs in mice, a hunger strike outside Anthropic, LA schools switching off Google's AI answers, Yandex's humanoid couriers and light-based AI chips, with captions, sources and screenshots of the news articles."
+ },
+ "ticker": [
+  "ZUCKERBERG: 'TRIED A NEW STRATEGY AND GOT MUSE TO SMOKE MY TURKEY THIS YEAR'",
+  "META SAYS MORE THAN 10 MILLION PEOPLE HAVE USED MUSE; ITS MUSE CHARM GADGET ISN'T ON SALE YET",
+  "TRUELAYER: THE PIZZA AGENT HAD SPENDING LIMITS PER ORDER AND PER MONTH, AND NO BANK LOGIN",
+  "META'S MUSE LAUNCHED IN THE UK ON TUESDAY AND CAN ALSO SHOP ONLINE, BY CARD",
+  "BLOOMBERG: THE SHANGHAI SITE IS DESCRIBED AS DESIGNED FOR UP TO 800,000 SERVERS",
+  "BLOOMBERG: THE GB300 RACK WAS OFFERED AS COLLATERAL FOR A 96 MILLION YUAN LOAN",
+  "BLOOMBERG: SINGAPORE IS TALKING TO THE US TO KEEP ACCESS TO AI CHIPS, DEPUTY PM GAN KIM YONG SAYS",
+  "NVIDIA'S SHARES ARE ABOUT 40% BELOW THEIR EARLY-OCTOBER RECORD (INVESTOPEDIA)",
+  "ANTHROPIC HIT $115 ON ITS FIRST DAY OF TRADING; ITS IPO PRICE WAS $83",
+  "SOUTH KOREA'S CHIP SHIPMENTS ROSE 294% IN THE FIRST 20 DAYS OF NOVEMBER",
+  "FT: SAP CUT 10,000 JOBS IN 2024, AND ITS HEADCOUNT IS BACK TO ABOUT 113,000",
+  "GOLDMAN SACHS STARTS COVERING UNITREE AT SELL, WITH A 347.10 YUAN TARGET",
+  "TESLA FILED WITH GERMANY'S CARTEL OFFICE ON 23 NOV; THE NOTICE WENT PUBLIC ON 27 NOV",
+  "TENCENT HAS OPEN-SOURCED ORIDTP, THE AI PLATFORM BEHIND ITS NATURE PAPER",
+  "TENCENT'S AI DESIGNED 5,000 CANDIDATE PEPTIDES; 15 WERE TESTED IN THE LAB",
+  "TOM'S HARDWARE: THE ANTHROPIC HUNGER STRIKER THREATENS TO GO 40 DAYS, AND TO TARGET OPENAI NEXT",
+  "GOOGLE SAYS STUDENTS AT SCHOOLS THAT REJECT AI WILL LOSE ACCESS TO SEARCH",
+  "LAUSD: AI OVERVIEW IS SUSPENDED TO KEEP SEARCH 'AGE-APPROPRIATE AND SAFE'",
+  "KOMMERSANT: YANDEX RUNS ABOUT 1,000 DELIVERY ROVERS IN RUSSIA",
+  "Q.ANT: MORE THAN 30 ENGINEERING TEAMS ARE BUILDING AI MODELS FOR ITS LIGHT CHIPS",
+  "PETER GABRIEL: 'CHANGE IS COMING DEEP AND FAST AND WE NEED TO BE AWAKE'",
+  "SBER'S GIGACHAT 4 IS ON HUGGING FACE UNDER AN MIT LICENCE (OFFICECHAI)"
+ ],
+ "sources": [
+  "Business Insider",
+  "The Guardian",
+  "Tech.eu",
+  "BBC Radio 4",
+  "Bloomberg",
+  "Yahoo Finance",
+  "Investopedia",
+  "Reuters",
+  "CNA",
+  "Financial Times",
+  "Tesla North",
+  "Bundeskartellamt",
+  "Nature",
+  "Chosunbiz",
+  "South China Morning Post",
+  "Gizmodo",
+  "Tom's Hardware",
+  "AP",
+  "Los Angeles Times",
+  "Kommersant",
+  "Meduza",
+  "WIRED",
+  "The Sun",
+  "OfficeChai"
+ ],
+ "scanned": 4591,
+ "stories": [
+  {
+   "id": "zuckerberg-muse-turkey",
+   "title": "Mark Zuckerberg had Meta's Muse AI agent smoke his Thanksgiving turkey while he played GTA 6",
+   "summary": "In a video posted on Thanksgiving, Zuckerberg asked his Muse Charm gadget for updates on the smoker while gaming. He says Priscilla Chan conceded their annual turkey-smoking contest and asked Muse to smoke hers too.",
+   "chapter": "THE KITCHEN",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Business Insider",
+     "url": "https://www.businessinsider.com/mark-zuckerberg-plays-gta-6-muse-charm-tracks-thanksgiving-turkey-2026-11"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-agent-pizza-no-card",
+   "title": "An AI agent paid for nine Papa John's pizzas straight from a bank account, a UK first",
+   "summary": "The order ran in the FCA's regulated sandbox with Lloyds Bank and TrueLayer, with spending limits and no card or account details shared. TrueLayer's CEO Francesco Simoneschi: \"This is possibly the last Black Friday as we know it.\"",
+   "chapter": "THE DELIVERY",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer"
+    },
+    {
+     "outlet": "Tech.eu",
+     "url": "https://tech.eu/2026/11/27/papa-johns-pizza-order-first-uk-cardless-payment-by-ai-agent/"
+    },
+    {
+     "outlet": "BBC Radio 4"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nvidia-gb300-shanghai",
+   "title": "One of Nvidia's most powerful AI racks turned up in a Shanghai data centre, Bloomberg reports",
+   "summary": "According to Bloomberg, loan filings show a GB300 NVL72 rack, which can't be shipped to China without a US licence, installed at a Shanghai site. Jensen Huang once said such racks, which can weigh over 1,500 kg, were too big to smuggle.",
+   "chapter": "THE DELIVERY",
+   "badge": "REPORTED",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Bloomberg",
+     "url": "https://finance.yahoo.com/technology/articles/nvidia-blackwell-chips-turn-china-114546617.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "anthropic-shares-rebound",
+   "title": "Anthropic's shares jumped about 8% on Friday, back above their $83 IPO price",
+   "summary": "On Friday morning in New York the stock was up 8% at just under $90, after two closes below its IPO price. It had hit $115 on its first day of trading.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Investopedia",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11272026-12283022"
+    },
+    {
+     "outlet": "Bloomberg"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "korea-exports-chips",
+   "title": "Economists expect South Korea's November exports nearly doubled on AI memory chips",
+   "summary": "A Reuters poll of eight economists put November export growth at 96.8%, which would be the fastest since January 1974. In the month's first 20 days, chip shipments rose 294%.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "url": "https://www.reuters.com/world/asia-pacific/south-korea-november-exports-seen-posting-fastest-growth-over-50-years-ai-chip-2026-11-27/"
+    },
+    {
+     "outlet": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/south-korea-s-november-exports-projected-to-nearly-double-on-ai-chip-demand"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sap-job-cuts",
+   "title": "SAP is reportedly weighing at least 10,000 job cuts in an AI-driven restructuring",
+   "summary": "Bloomberg reported that the cuts would affect at least 9% of SAP's workforce. SAP says no decisions have been made on any further measures; it cut 10,000 jobs in 2024.",
+   "chapter": "THE MONEY",
+   "badge": "THIS WEEK",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "CNA",
+     "url": "https://www.channelnewsasia.com/business/sap-job-cuts-ai-restructuring-6585781"
+    },
+    {
+     "outlet": "Bloomberg"
+    },
+    {
+     "outlet": "Financial Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2027-3",
+     "key": "6933b6ff05",
+     "relation": "early",
+     "note": "SAP is reportedly weighing an AI-driven restructuring of at least 10,000 jobs: one company redesigning its workforce, not yet every industry."
+    }
+   ]
+  },
+  {
+   "id": "tesla-emag-assets",
+   "title": "Tesla filed to buy assets from EMAG, a German maker of machines for robot gears",
+   "summary": "Germany's competition watchdog published the filing on 27 Nov. EMAG builds equipment for making the gears inside humanoid robots; the notice covers systems for precision metal parts and gives no price.",
+   "chapter": "THE MONEY",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Tesla North",
+     "url": "https://teslanorth.com/2026/11/27/tesla-emag-acquisition-germany-optimus/"
+    },
+    {
+     "outlet": "Bundeskartellamt"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2032-3",
+     "key": "180e700c6a",
+     "relation": "early",
+     "note": "Tesla moved to buy machinery for robot gears as it scales Optimus: one company's capital going into robot-part production."
+    }
+   ]
+  },
+  {
+   "id": "tencent-ai-peptides",
+   "title": "Tencent's AI-designed peptides beat an obesity drug in mice and shrank tumours, a Nature paper says",
+   "summary": "In obese mice, one AI-designed candidate gave more weight loss than semaglutide at a tenth of the dose; another left tumours 94% smaller than in the control group. It is preclinical, and the team says it is no proof of beating semaglutide in people.",
+   "chapter": "THE LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Chosunbiz",
+     "url": "https://biz.chosun.com/en/en-science/2026/11/26/EXPCYYXICRHH7HEHTPTULTUQ6Y/"
+    },
+    {
+     "outlet": "Nature"
+    },
+    {
+     "outlet": "South China Morning Post"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "Tencent's AI-designed drug candidates worked in mice, a preclinical step that is years from any regulator's approval."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-hunger-strike",
+   "title": "A hunger strike against self-improving AI outside Anthropic's San Francisco office reached day five",
+   "summary": "Elliot Callender is demanding that Anthropic stop work on recursive self-improvement. On Thanksgiving, supporters joined the protest around a table of empty plates; Anthropic did not immediately comment.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/a-hunger-strike-against-self-improving-ai-is-happening-outside-of-anthropics-san-francisco-headquarters-2000846188"
+    },
+    {
+     "outlet": "Tom's Hardware"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "lausd-google-ai-off",
+   "title": "Los Angeles schools quietly switched off Google's AI summaries in search on student devices",
+   "summary": "LA Unified, with half a million students, is the largest district to sideline Google's AI Overview, which Google says it can't separate from search for schools. The district says the pause keeps search age-appropriate and safe.",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "AP",
+     "url": "https://apnews.com/article/google-artificial-intelligence-schools-search-engine-lausd-762a613b11bd316384430112cc223ed1"
+    },
+    {
+     "outlet": "Los Angeles Times"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2033-4",
+     "key": "444604f437",
+     "relation": "challenges",
+     "note": "The largest US school district switched off AI answers in Google search on its devices: a local backlash against AI in search."
+    }
+   ]
+  },
+  {
+   "id": "yandex-humanoid-couriers",
+   "title": "Yandex reportedly plans to pilot humanoid robot deliveries in Russia by the end of 2026",
+   "summary": "According to two of Kommersant's sources, a delivery rover would bring an order to a building's door and a humanoid would carry it inside. Yandex says only that it is testing robot deliveries to staff desks.",
+   "chapter": "THE MACHINES",
+   "badge": "REPORTED",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Meduza",
+     "url": "https://meduza.io/en/news/2026/11/27/russia-s-yandex-to-launch-delivery-using-humanoid-robots-kommersant-reports"
+    },
+    {
+     "outlet": "Kommersant"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "qant-light-chips",
+   "title": "German startup Q.ANT's chips do AI maths with light, in a pilot at cloud firm IONOS",
+   "summary": "Q.ANT's photonic processors work alongside GPUs, and more than 30 engineering teams are building models for them. Its CEO says they do complex maths in a single step where regular chips need thousands.",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "peter-gabriel-join-it",
+   "title": "Peter Gabriel says if we can't beat AI, we should join it by uploading superintelligence",
+   "summary": "The former Genesis frontman told The Sun that 'we may well have lost control' and that we need to look at 'uploading superintelligence into our brains or our future cyborg selves.'",
+   "chapter": "THE MACHINES",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Yahoo (BANG Showbiz)",
+     "url": "https://au.lifestyle.yahoo.com/peter-gabriel-calls-exploration-uploading-090000227.html"
+    },
+    {
+     "outlet": "The Sun"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "sber-gigachat-4",
+   "title": "Russia's Sber released GigaChat 4, a 708-billion-parameter open-weight AI model",
+   "summary": "Russia's biggest bank put GigaChat 4 on Hugging Face under an MIT licence. Its own benchmarks put it alongside leading Chinese open models on some tests; no independent evaluator has checked them yet.",
+   "chapter": "THE MACHINES",
+   "badge": "THIS WEEK",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "OfficeChai",
+     "url": "https://officechai.com/ai/russias-sber-releases-gigachat-4-matches-deepseek-v4-flash-glm-5-3-on-some-benchmarks/"
+    },
+    {
+     "outlet": "Tech Times"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "This is the Singularity Daily, for Saturday, November 28."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in superintelligence, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Who's cooking? Mark Zuckerberg had Meta's AI agent smoke his turkey, while he played GTA 6."
+  },
+  {
+   "s": 22.5,
+   "t": "His wife conceded their annual turkey contest, and asked Muse to do hers."
+  },
+  {
+   "s": 31.88,
+   "t": "In Britain, an AI agent paid for nine pizzas straight from a bank account. No card."
+  },
+  {
+   "s": 38.44,
+   "t": "The payments boss behind it says this is po ssibly the last Black Friday as we know it."
+  },
+  {
+   "s": 45.94,
+   "t": "Meanwhile, Bloomberg says one of Nvidia's most powerful AI racks turned up in a Shanghai data center."
+  },
+  {
+   "s": 52.97,
+   "t": "Jensen Huang once said they were too big to smuggle."
+  },
+  {
+   "s": 56.63,
+   "t": "They can weigh over 1,500 kilos."
+  },
+  {
+   "s": 60.0,
+   "t": "Now, the money. Anthropic's shares jumped 8% on Friday, back above their IPO price."
+  },
+  {
+   "s": 67.03,
+   "t": "Economists think South Korea's chip-fuelled exports nearly doubled in November."
+  },
+  {
+   "s": 72.12,
+   "t": "Fastest in over 50 years."
+  },
+  {
+   "s": 74.06,
+   "t": "Germany's SAP is reportedly weighing at least 10,000 job cuts, in an AI shake-up."
+  },
+  {
+   "s": 82.03,
+   "t": "Oh, and Tesla's filed to buy assets from EMAG, a German maker of machines for robot gears."
+  },
+  {
+   "s": 90.0,
+   "t": "In mice, Tencent's AI-designed drug beat Wegovy's ingredient for weight loss, at a tenth of the dose."
+  },
+  {
+   "s": 97.5,
+   "t": "Another of its designs left tumours 94% smaller."
+  },
+  {
+   "s": 101.14,
+   "t": "Still early days, and only in mice."
+  },
+  {
+   "s": 105.0,
+   "t": "The catch? Outside Anthropic's office, a hunger strike against self-improving AI just hit day five."
+  },
+  {
+   "s": 111.56,
+   "t": "And LA schools quietly switched off Google's AI answers."
+  },
+  {
+   "s": 116.72,
+   "t": "So... is it so over?"
+  },
+  {
+   "s": 119.06,
+   "t": "We're so back!"
+  },
+  {
+   "s": 121.88,
+   "t": "In Russia, Yandex reportedly plans to pilot humanoid robot deliveries before the year is out."
+  },
+  {
+   "s": 128.44,
+   "t": "A rover drives your parcel to the door, then a humanoid carries it inside."
+  },
+  {
+   "s": 135.0,
+   "t": "And a German startup's chips now do AI math with light, in a real data center."
+  },
+  {
+   "s": 141.56,
+   "t": "So, who's cooking? Let the machines do it, sure. Just make sure everyone gets a plate."
+  },
+  {
+   "s": 150.0,
+   "t": "Day after day, the curve keeps bending upward."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "This has been the Singularity Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-28/Singularity-Daily_2026-11-28.mp4",
+  "mb": 71.6,
+  "bytes": 71570490,
+  "seconds": 180.01
+ },
+ "host": "Claudia, an open character by anabology (claudia.gallery)"
+}

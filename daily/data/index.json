@@ -1,25 +1,41 @@
 {
- "updated": "2026-11-26T21:21:39+00:00",
- "latest": "2026-11-27",
+ "updated": "2026-11-27T18:03:27+00:00",
+ "latest": "2026-11-28",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
  "videosOnPages": 7,
- "promo": {
-  "name": "AI Singularity Syndicate",
-  "kind": "Monthly meetup",
-  "talk": "All things AI, and where we are on the singularity",
-  "speaker": "",
-  "start": "2026-11-27T18:00:00+11:00",
-  "end": "2026-11-27T20:30:00+11:00",
-  "venue": "Australian Catholic University",
-  "suburb": "North Sydney",
-  "city": "Sydney",
-  "price": "Free",
-  "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2004177230046"
- },
- "data": "ecade178e6bf",
+ "promo": null,
+ "data": "3982d24a3555",
  "episodes": [
+  {
+   "date": "2026-11-28",
+   "ep": 55,
+   "hook": "WHO'S COOKING?",
+   "day": "Saturday 28 November 2026",
+   "stories": 14,
+   "forecasts": 4,
+   "links": {
+    "supports": 0,
+    "early": 3,
+    "challenges": 1
+   },
+   "titles": [
+    "Mark Zuckerberg had Meta's Muse AI agent smoke his Thanksgiving turkey while he played GTA 6",
+    "An AI agent paid for nine Papa John's pizzas straight from a bank account, a UK first",
+    "One of Nvidia's most powerful AI racks turned up in a Shanghai data centre, Bloomberg reports"
+   ],
+   "cover": "daily/media/2026-11-28/cover.webp",
+   "thumb": "daily/media/2026-11-28/thumb.webp",
+   "video": {
+    "pages": true,
+    "file": "daily/media/2026-11-28/video.mp4",
+    "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-28/Singularity-Daily_2026-11-28.mp4",
+    "mb": 71.6,
+    "bytes": 71570490,
+    "seconds": 180.01
+   }
+  },
   {
    "date": "2026-11-27",
    "ep": 54,
@@ -208,7 +224,7 @@
    "cover": "daily/media/2026-11-21/cover.webp",
    "thumb": "daily/media/2026-11-21/thumb.webp",
    "video": {
-    "pages": true,
+    "pages": false,
     "file": "daily/media/2026-11-21/video.mp4",
     "release": "https://github.com/peterxing/singularity-daily/releases/download/ep-2026-11-21/Singularity-Daily_2026-11-21.mp4",
     "mb": 70.2,
