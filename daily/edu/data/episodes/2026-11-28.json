@@ -1,0 +1,408 @@
+{
+ "show": "Microsoft for Education Daily",
+ "name": "Microsoft for Education Daily",
+ "date": "2026-11-28",
+ "ep": 33,
+ "hook": "HEADS UP.",
+ "day": "Saturday 28 November 2026",
+ "note": "FOR EDUCATION · SATURDAY 28 NOVEMBER 2026",
+ "tldr": "A heads-up for campus IT: the next Windows Server drops WSUS and MultiPoint, Visual Studio's Copilot Chat is on by default, and Xbox has a kind little mouse for the holidays.",
+ "chapters": [
+  "HEADS UP",
+  "THE COMPUTER LAB",
+  "CAMPUS IT",
+  "THE DESKTOP",
+  "THE FINE PRINT",
+  "AFTER HOURS"
+ ],
+ "window": "Window: the 24 hours to 05:00 AEDT, Sat 28 Nov 2026 (Thursday 26 to Friday 27 Nov in the US, Black Friday).",
+ "notes": [
+  "A quiet US Black Friday: no new Microsoft Education posts or [Education] roadmap items in the window, and the week's education news was covered 23-25 Nov, so today's stories are campus-wide updates framed for schools and universities. This week: Visual Studio's November update and Azure AI Search's storage permissions (both 24 Nov).",
+  "Status: Windows Server 2028 is in preview and its removal and deprecation plans can change; WSUS stays supported on Windows Server 2025 and earlier. The Store malware report is third-party research (eSentire, via The Hacker News). Edge's Copilot menu options were a planned feature, now cancelled.",
+  "Screenshots are the publishers' public pages as captured on 28 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "HEADS UP. 📣\n\nThe last 24h at Microsoft for education:\n- The next Windows Server drops WSUS (in preview)\n- Visual Studio: new Copilot Chat on by default\n- Azure AI Search follows file permissions\n- Calendar, People and Files companions retire 16 Dec",
+  "alt": "A 3-minute motion-graphics showreel of Microsoft updates for education (28 Nov 2026): the WSUS, MultiPoint Services and Windows Deployment Services changes in the Windows Server 2028 preview, Visual Studio's November update, permission-aware results in Azure AI Search and Foundry IQ, an out-of-band hotpatch for Windows Server 2025, the retirement of the Microsoft 365 companion apps, a malicious Microsoft Store app reported by researchers, Edge's cancelled Copilot menu options and next week's Xbox games Hela: of Mice & Magic and Rayman Legends Retold, with captions, sources and article screenshots."
+ },
+ "ticker": [
+  "WINDOWS SERVER 2028 (PREVIEW) REMOVES THE WSUS SERVER ROLE; PLANS CAN CHANGE BEFORE RELEASE",
+  "WSUS STAYS SUPPORTED ON WINDOWS SERVER 2025 AND EARLIER FOR EACH RELEASE'S LIFECYCLE",
+  "WINDOWS SERVER 2028 ALSO REMOVES SMBV1: UPDATE OLDER DEVICES TO SMB 2 OR SMB 3",
+  "WINDOWS SERVER 2028 REMOVES VBSCRIPT AND THE WMIC TOOL; MICROSOFT SAYS MOVE SCRIPTS TO POWERSHELL",
+  "WINDOWS SERVER 2028 NEEDS UEFI: LEGACY BIOS BOOT IS REMOVED",
+  "WINDOWS SERVER 2028 DEPRECATES WINDOWS POWERSHELL 5.1; TEST YOUR SCRIPTS WITH POWERSHELL 7",
+  "WINDOWS SERVER 2028 REMOVES DIRECTACCESS; MICROSOFT POINTS TO ALWAYS ON VPN",
+  "WINDOWS SERVER 2028 DROPS PPTP AND L2TP REMOTE ACCESS; USE IKEV2 OR SSTP",
+  "MULTIPOINT CONNECTOR: A FEATURE ON DEMAND IN WINDOWS 11 26H2, NOT IN LATER RELEASES",
+  "WDS WITH CONFIGURATION MANAGER? MOVE TO ITS PXE RESPONDER WITHOUT WDS",
+  "VISUAL STUDIO: CHANGE GROUPS SORTS BIG PULL REQUESTS INTO FOCUSED REVIEWS",
+  "VISUAL STUDIO: COLOUR SWATCHES NOW SHOW BESIDE CSS, SCSS AND LESS COLOURS",
+  "AZURE AI SEARCH: DOCUMENT-LEVEL ACCESS WORKS WITH ADLS GEN2 ACLS AND CONTAINER RBAC",
+  "KB5138318 NEEDS BASELINE UPDATE KB5126646 INSTALLED FIRST",
+  "COMPANION APPS: ADMINS MUST REMOVE THEM FROM MANAGED DEVICES BEFORE 16 DECEMBER",
+  "COMPANION APPS ON A PERSONAL PC? UNINSTALL THEM IN SETTINGS, APPS, INSTALLED APPS",
+  "MICROSOFT STORE: THE SETUP ASSISTANT APP IS NO LONGER AVAILABLE, THE HACKER NEWS REPORTS",
+  "RESEARCHERS SAY THE SAME DOMAIN ALSO SPOOFED TEAMS AND ROBLOX DOWNLOAD PAGES",
+  "XBOX: FREESTYLE FOOTBALL 2 JOINS GAME PASS ON 3 DECEMBER",
+  "XBOX: RAYMAN ORIGINS: ENHANCED EDITION ALSO ARRIVES ON 3 DECEMBER",
+  "XBOX: LUMA ISLAND ARRIVES ON 2 DECEMBER; THE AMAZEING LABYRINTH ON 30 NOVEMBER"
+ ],
+ "sources": [
+  "Microsoft Learn",
+  "BleepingComputer",
+  "Microsoft Support",
+  "Visual Studio Blog",
+  "Azure Updates",
+  "XDA Developers",
+  "The Hacker News",
+  "eSentire",
+  "Microsoft 365 Roadmap",
+  "Windows Report",
+  "Xbox Wire"
+ ],
+ "scanned": 1710,
+ "stories": [
+  {
+   "id": "ws2028-wsus",
+   "title": "The next Windows Server, 2028, removes the WSUS update server role",
+   "summary": "Microsoft's list of removed features says Windows Server 2028, now in preview, removes the WSUS server role. WSUS stays available and supported on Windows Server 2025 and earlier for each release's support lifecycle, and the plans can change before release.",
+   "for": "School and university IT",
+   "status": "Windows Server 2028 preview",
+   "edu": false,
+   "chapter": "HEADS UP",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-server/get-started/removed-deprecated-features-windows-server?tabs=ws28-preview"
+    },
+    {
+     "outlet": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/"
+    }
+   ]
+  },
+  {
+   "id": "ws2028-multipoint",
+   "title": "Windows Server 2028 also removes MultiPoint Services",
+   "summary": "MultiPoint Services, no longer developed since Windows Server 2019, is removed from Windows Server 2028; Microsoft points to Remote Desktop Services, in particular Remote Desktop Session Host, for shared desktop and app sessions. Shared PCs in a computer lab are our example.",
+   "for": "School IT running shared lab PCs",
+   "status": "Windows Server 2028 preview",
+   "edu": false,
+   "chapter": "THE COMPUTER LAB",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-server/get-started/removed-deprecated-features-windows-server?tabs=ws28-preview"
+    }
+   ]
+  },
+  {
+   "id": "ws2028-wds",
+   "title": "Windows Deployment Services is deprecated beginning with Windows Server 2028",
+   "summary": "The WDS server role, including its WDS-provided PXE boot, is deprecated beginning with Windows Server 2028: it still ships and is supported, but Microsoft says to inventory what depends on it and plan a migration. Imaging lab PCs over the network is our example.",
+   "for": "School IT imaging lab and classroom PCs",
+   "status": "Deprecated (Windows Server 2028)",
+   "edu": false,
+   "chapter": "THE COMPUTER LAB",
+   "badge": null,
+   "date": "2026-11-20",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/servicing/os/windows/docs/2026/09/windows-deployment-services-deprecation-in-the-next-windows-server-release"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/windows-server/get-started/removed-deprecated-features-windows-server?tabs=ws28-preview"
+    }
+   ]
+  },
+  {
+   "id": "vs-november",
+   "title": "Visual Studio's November update turns on the new Copilot Chat by default",
+   "summary": "In Visual Studio 2026 version 18.12, the new Copilot Chat is on by default for eligible accounts: you can drag files straight into a prompt and steer Copilot mid-task. Change Groups also sorts big pull requests into focused reviews. Coding classes are our example.",
+   "for": "Coding classes and student developers",
+   "status": "Generally available (Stable Channel)",
+   "edu": false,
+   "chapter": "THE COMPUTER LAB",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Visual Studio Blog",
+     "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/"
+    }
+   ]
+  },
+  {
+   "id": "azure-search-perms",
+   "title": "Azure AI Search and Foundry IQ can now follow your Azure Storage permissions",
+   "summary": "Once configured, search apps and AI agents built on Azure AI Search or Foundry IQ return only content each person can already access, using ADLS Gen2 ACLs or container-level RBAC, with fewer separate security filters to maintain. A campus search or chatbot is our example.",
+   "for": "University data and IT teams",
+   "status": "Generally available",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": "THIS WEEK",
+   "date": "2026-11-24",
+   "sources": [
+    {
+     "outlet": "Azure Updates",
+     "url": "https://azure.microsoft.com/updates?id=581303"
+    },
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/azure/search/search-document-level-access-overview"
+    }
+   ]
+  },
+  {
+   "id": "ws2025-hotpatch",
+   "title": "An out-of-band hotpatch fixes a crash some Windows Server 2025 machines hit after November's update",
+   "summary": "KB5138318 fixes stop error 0x139 on some Windows Server 2025 devices with Router Advertisement enabled and time-bound IPv6 routes after November's hotpatch (KB5131077). It installs without a restart and needs baseline KB5126646 first.",
+   "for": "Campus server admins",
+   "status": "Out now (out-of-band hotpatch)",
+   "edu": false,
+   "chapter": "CAMPUS IT",
+   "badge": null,
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Microsoft Support",
+     "url": "https://support.microsoft.com/help/5138318"
+    }
+   ]
+  },
+  {
+   "id": "m365-companions",
+   "title": "Microsoft 365's Calendar, People and Files companion apps retire on 16 December",
+   "summary": "The three Windows companion apps stop working by 16 December 2026, and admins must remove them from managed devices. Nothing is deleted: files, events and contacts stay in Microsoft 365, and Outlook, Teams and File Explorer do the same jobs.",
+   "for": "School staff and IT",
+   "status": "Retires 16 December 2026",
+   "edu": false,
+   "chapter": "THE DESKTOP",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/microsoft-365-apps/companions/companion-app-retirement"
+    },
+    {
+     "outlet": "XDA Developers",
+     "url": "https://www.xda-developers.com/microsoft-365-companion-apps-are-going-away-because-they-were-taking-up-too-much-memory/"
+    }
+   ]
+  },
+  {
+   "id": "store-vinci-rat",
+   "title": "Researchers say a fake Snipping Tool download installed a malicious Microsoft Store app",
+   "summary": "eSentire reports that a fake Snipping Tool site installed Setup Assistant, a Microsoft Store app that delivered the Vinci remote access trojan; the same domain reportedly spoofed Teams and Roblox download pages. The app is no longer available.",
+   "for": "Students, staff and school IT",
+   "status": "Security research (reported)",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": "REPORTED",
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html"
+    },
+    {
+     "outlet": "eSentire",
+     "url": "https://www.esentire.com/blog/vinci-rat-lives-in-the-microsoft-store"
+    }
+   ]
+  },
+  {
+   "id": "edge-copilot-cancelled",
+   "title": "Edge's planned Copilot options to summarise, translate and cite highlighted text are cancelled",
+   "summary": "Microsoft has cancelled a planned Edge release that would have let Copilot and Microsoft 365 Copilot Chat summarise, translate and cite highlighted text from Edge's menus. It never shipped. Students citing sources are our example.",
+   "for": "Students and staff using Edge",
+   "status": "Cancelled",
+   "edu": false,
+   "chapter": "THE FINE PRINT",
+   "badge": null,
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Microsoft 365 Roadmap",
+     "url": "https://www.microsoft.com/microsoft-365/roadmap?id=497135"
+    }
+   ]
+  },
+  {
+   "id": "xbox-hela",
+   "title": "Hela: of Mice & Magic joins Game Pass on 1 December",
+   "summary": "You play a brave little mouse who helps others one act of kindness at a time, alone or with friends in local split-screen and online co-op. It arrives on Game Pass and Xbox Play Anywhere on 1 December; release dates can change.",
+   "for": "Students and families, after hours",
+   "status": "Out 1 December",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/27/next-week-on-xbox-new-games-for-november-30-to-december-4/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-rayman",
+   "title": "Rayman Legends Retold arrives on 3 December with four-player couch co-op",
+   "summary": "A reimagining of the platformer, playable solo or with up to four players on one couch, arrives on 3 December, alongside Rayman Origins: Enhanced Edition. Release dates can change.",
+   "for": "Students and friends, after hours",
+   "status": "Out 3 December",
+   "edu": false,
+   "chapter": "AFTER HOURS",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/27/next-week-on-xbox-new-games-for-november-30-to-december-4/"
+    }
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Saturday, and this is the Microsoft for Education Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here are the last 24 hours at Microsoft, in 3 minutes."
+  },
+  {
+   "s": 15.0,
+   "t": "Heads up, school IT: the next Windows Server drops WSUS, the role that pushes out updates."
+  },
+  {
+   "s": 22.5,
+   "t": "Server 2025 and earlier keep it, supported for their whole lifecycle."
+  },
+  {
+   "s": 31.88,
+   "t": "Shared PCs in the lab? Windows Server 2028, now in preview, also removes MultiPoint Services."
+  },
+  {
+   "s": 39.38,
+   "t": "Imaging PCs over the network?"
+  },
+  {
+   "s": 41.2,
+   "t": "Windows Deployment Services is deprecated there; plan your move."
+  },
+  {
+   "s": 45.94,
+   "t": "For coding classes, Visual Studio's November update turns on the new Copilot Chat by default."
+  },
+  {
+   "s": 52.5,
+   "t": "Drag files straight into a prompt, and steer Copilot mid-task without waiting for it to finish."
+  },
+  {
+   "s": 60.0,
+   "t": "Building a campus search or chatbot?"
+  },
+  {
+   "s": 62.2,
+   "t": "Azure AI Search can now follow your storage permissions."
+  },
+  {
+   "s": 67.5,
+   "t": "So people only see results from files they can already open."
+  },
+  {
+   "s": 71.12,
+   "t": "It's generally available."
+  },
+  {
+   "s": 75.0,
+   "t": "Campus servers on Windows Server 2025?"
+  },
+  {
+   "s": 77.71,
+   "t": "An extra hotpatch fixes a crash after November's update."
+  },
+  {
+   "s": 82.5,
+   "t": "It hits some servers using IPv6 router advertisements, and the fix needs no restart."
+  },
+  {
+   "s": 90.0,
+   "t": "Something calmer: Microsoft 365's Calendar, People and Files companion apps retire on December 16."
+  },
+  {
+   "s": 97.5,
+   "t": "Nothing's lost: your files, meetings and contacts stay put."
+  },
+  {
+   "s": 101.82,
+   "t": "Use Outlook, Teams or File Explorer."
+  },
+  {
+   "s": 105.0,
+   "t": "The fine print?"
+  },
+  {
+   "s": 105.89,
+   "t": "Researchers say a fake Snipping Tool download installed a malicious Microsoft Store app."
+  },
+  {
+   "s": 112.5,
+   "t": "And Edge's planned Copilot options to summarise, translate and cite highlighted text are cancelled."
+  },
+  {
+   "s": 121.88,
+   "t": "After hours, Hela: of Mice & Magic lands on Game Pass on December 1."
+  },
+  {
+   "s": 129.38,
+   "t": "You're a brave little mouse, helping others one kind act at a time, in split-screen co-op too."
+  },
+  {
+   "s": 136.88,
+   "t": "And Rayman Legends Retold, out December 3, brings four-player couch co-op."
+  },
+  {
+   "s": 143.91,
+   "t": "Plan the server move, check your downloads, then go play: that's your heads up."
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and it never stops shipping."
+  },
+  {
+   "s": 153.75,
+   "t": "Today's board: shipped. Tomorrow's: already building."
+  },
+  {
+   "s": 157.5,
+   "t": "That's one day of updates. Imagine a whole year."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Microsoft for Education Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Same time tomorrow?"
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/edu-ep-2026-11-28/Microsoft-for-Education-Daily_2026-11-28.mp4",
+  "mb": 53.0,
+  "bytes": 53012485,
+  "seconds": 180.01
+ },
+ "links": {}
+}

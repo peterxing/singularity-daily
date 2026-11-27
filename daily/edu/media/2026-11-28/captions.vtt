@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00:01.880 --> 00:00:05.610
+It's Saturday, and this is the Microsoft for Education Daily.
+
+00:00:06.560 --> 00:00:10.270
+Here are the last 24 hours at Microsoft, in 3 minutes.
+
+00:00:15.000 --> 00:00:19.090
+Heads up, school IT: the next Windows Server drops WSUS,
+
+00:00:19.090 --> 00:00:21.580
+the role that pushes out updates.
+
+00:00:22.500 --> 00:00:27.180
+Server 2025 and earlier keep it, supported for their whole lifecycle.
+
+00:00:31.880 --> 00:00:35.270
+Shared PCs in the lab? Windows Server 2028,
+
+00:00:35.270 --> 00:00:39.210
+now in preview, also removes MultiPoint Services.
+
+00:00:39.380 --> 00:00:41.200
+Imaging PCs over the network?
+
+00:00:41.200 --> 00:00:45.300
+Windows Deployment Services is deprecated there; plan your move.
+
+00:00:45.940 --> 00:00:47.140
+For coding classes,
+
+00:00:47.140 --> 00:00:51.830
+Visual Studio's November update turns on the new Copilot Chat by default.
+
+00:00:52.500 --> 00:00:54.430
+Drag files straight into a prompt,
+
+00:00:54.430 --> 00:00:57.880
+and steer Copilot mid-task without waiting for it to finish.
+
+00:01:00.000 --> 00:01:02.200
+Building a campus search or chatbot?
+
+00:01:02.200 --> 00:01:05.690
+Azure AI Search can now follow your storage permissions.
+
+00:01:07.500 --> 00:01:11.120
+So people only see results from files they can already open.
+
+00:01:11.120 --> 00:01:12.700
+It's generally available.
+
+00:01:15.000 --> 00:01:17.710
+Campus servers on Windows Server 2025?
+
+00:01:17.710 --> 00:01:21.780
+An extra hotpatch fixes a crash after November's update.
+
+00:01:22.500 --> 00:01:26.360
+It hits some servers using IPv6 router advertisements,
+
+00:01:26.360 --> 00:01:28.500
+and the fix needs no restart.
+
+00:01:30.000 --> 00:01:33.190
+Something calmer: Microsoft 365's Calendar,
+
+00:01:33.190 --> 00:01:37.270
+People and Files companion apps retire on December 16.
+
+00:01:37.500 --> 00:01:41.820
+Nothing's lost: your files, meetings and contacts stay put.
+
+00:01:41.820 --> 00:01:44.530
+Use Outlook, Teams or File Explorer.
+
+00:01:45.000 --> 00:01:45.890
+The fine print?
+
+00:01:45.890 --> 00:01:51.160
+Researchers say a fake Snipping Tool download installed a malicious Microsoft Store app.
+
+00:01:52.500 --> 00:01:55.390
+And Edge's planned Copilot options to summarise,
+
+00:01:55.390 --> 00:01:58.460
+translate and cite highlighted text are cancelled.
+
+00:02:01.880 --> 00:02:07.420
+After hours, Hela: of Mice & Magic lands on Game Pass on December 1.
+
+00:02:09.380 --> 00:02:11.120
+You're a brave little mouse,
+
+00:02:11.120 --> 00:02:15.230
+helping others one kind act at a time, in split-screen co-op too.
+
+00:02:16.880 --> 00:02:22.020
+And Rayman Legends Retold, out December 3, brings four-player couch co-op.
+
+00:02:23.910 --> 00:02:28.590
+Plan the server move, check your downloads, then go play: that's your heads up.
+
+00:02:30.000 --> 00:02:32.350
+Zoom out, and it never stops shipping.
+
+00:02:33.750 --> 00:02:37.340
+Today's board: shipped. Tomorrow's: already building.
+
+00:02:37.500 --> 00:02:40.970
+That's one day of updates. Imagine a whole year.
+
+00:02:45.000 --> 00:02:47.870
+You've been watching the Microsoft for Education Daily.
+
+00:02:48.750 --> 00:02:50.120
+Same time tomorrow?
