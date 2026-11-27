@@ -1,0 +1,587 @@
+{
+ "show": "The Transhuman Daily",
+ "date": "2026-11-28",
+ "ep": 27,
+ "hook": "MIND READERS.",
+ "day": "Saturday 28 November 2026",
+ "note": "LONGEVITY · WELLBEING · INTELLIGENCE · SATURDAY 28 NOVEMBER 2026",
+ "tldr": "Mind readers: a Mandarin speech implant gave a woman with ALS her voice back, a ring sensed stress, a quick test plus a blood test flagged Alzheimer's, and AI designed a drug that worked in mice.",
+ "chapters": [
+  "MIND READERS.",
+  "SUPER INTELLIGENCE",
+  "SUPER LONGEVITY",
+  "SUPER WELLBEING",
+  "THE CATCH",
+  "THE FRONTIER"
+ ],
+ "window": "Window: the 24 hours to 06:20 AEDT, Sat 28 Nov 2026.",
+ "notes": [
+  "This week: Tencent and Monash's Nature paper (25 Nov), the 'AI stroke' study (26 Nov) and the fingerprint blood-type papers (Retraction Watch, 23 Nov).",
+  "Evidence: the speech implant is one patient in an early trial, reported by the hospital; the ring is a six-person test; the drug, NAD+ and killifish results are in mice and fish; the psilocybin figures pool six small trials; the aged-care and Alzheimer's-screening studies are observational analyses; Peter Gabriel's is an opinion and Q.ANT's a company account.",
+  "Screenshots are the publishers' public pages as captured on 28 Nov 2026; copyright remains with the publishers."
+ ],
+ "post": {
+  "text": "MIND READERS. 🧠\n\nToday in transhumanism:\n- A brain implant gave a woman with ALS her voice back (early trial)\n- AI designed a drug that beat Wegovy's ingredient in mice\n- Psilocybin trials: ~3x the odds of staying off alcohol\n- A ring sensed stress from fingertip sweat 💍",
+  "alt": "A 3-minute video recap of the last 24 hours in transhumanism (28 Nov 2026): a Mandarin speech brain implant for a woman with ALS, a stress-sensing smart ring, Tencent and Monash's AI-designed obesity drug in mice, an AI language model given a mock stroke, a UK AI agent paying for pizzas, Peter Gabriel on merging with AI, a quick digital test plus a blood test for Alzheimer's, fertile killifish that live longer, NAD+ and bone loss in old mice, older Australians changing doctors in aged care, psilocybin for alcohol use disorder, a possible REM sleep switch, flawed AI fingerprint blood-type studies, Australia's Digital Duty of Care, Mylar insulation for moon bases, a blueberry-picking robot and AI chips that compute with light, with captions, sources and screenshots of the articles."
+ },
+ "ticker": [
+  "FUDAN'S SPEECH IMPLANT USES TWO 256-CHANNEL ARRAYS: ONE FOR SPEECH SOUNDS, ONE FOR MANDARIN'S TONES",
+  "IMAGINED SPEECH: OVER 90% ACCURACY AT ABOUT 110 CHARACTERS A MINUTE",
+  "HUASHAN HOSPITAL AIMS TO REACH MORE PATIENTS WITHIN TWO TO THREE YEARS",
+  "USC'S RING USES TWO INFRARED LEDS TO SPOT SWEAT BEFORE IT BEADS",
+  "TENCENT HAS MADE ITS ORIDTP DRUG-DESIGN PLATFORM OPEN SOURCE",
+  "TENCENT'S AI-DESIGNED CANCER PEPTIDE SHRANK TUMOURS 94% IN MICE",
+  "THE 'STROKE' TEST USED LLAVA-1.6, AN OPEN VISION-LANGUAGE MODEL",
+  "TRUELAYER: 'POSSIBLY THE LAST BLACK FRIDAY AS WE KNOW IT'",
+  "PETER GABRIEL, 76: 'I WANT TO BE A REALISTIC OPTIMIST'",
+  "BIO-HERMES: OVER 60% SKIPPED FORMAL MEMORY TESTING",
+  "TURQUOISE KILLIFISH LIVE ONLY MONTHS, SO AGEING CAN BE STUDIED FAST",
+  "NAD+ RAISED ANOTHER WAY (NAMPT) LEFT OLD MICE'S BONE MARKERS MORE YOUTHFUL",
+  "ROSA: ABOUT 1.5 MILLION AUSTRALIANS USE GOVERNMENT-SUBSIDISED AGED CARE",
+  "PSILOCYBIN REVIEW: NONE OF THE SERIOUS EVENTS WAS PUT DOWN TO THE DRUG",
+  "KYOTO'S CANDIDATE REM CENTRE IS RICH IN CRHBP NEURONS, WHICH RUN REM SLEEP IN MICE",
+  "ELSEVIER AND IEEE ARE INVESTIGATING THE FINGERPRINT BLOOD-TYPE PAPERS",
+  "DIGITAL DUTY OF CARE: RULES CAN MAKE PLATFORMS OFFER A FOLLOWING-ONLY FEED",
+  "PENN'S MYLAR STACKS ARE STILL BUILT BY HAND, WITH TWEEZERS",
+  "Q.ANT SAYS 30+ ENGINEERING TEAMS ARE BUILDING MODELS FOR ITS PHOTONIC CHIPS",
+  "ROBOTERA SAYS 45 OF ITS HUMANOIDS ARE HANDLING PARCELS AT A CHINA POST CENTRE IN HANGZHOU",
+  "ACTIVISTS ARE ON HUNGER STRIKE OUTSIDE ANTHROPIC'S SAN FRANCISCO HQ OVER SELF-IMPROVING AI",
+  "SONY'S ADOPTED AIBO ROBOT DOGS ARE CHEERING PATIENTS IN JAPANESE HOSPITALS"
+ ],
+ "sources": [
+  "China Daily",
+  "Huashan Hospital",
+  "Fudan University",
+  "StairMed",
+  "USC Viterbi",
+  "Science Advances",
+  "New Atlas",
+  "Nature",
+  "Tencent",
+  "Monash University",
+  "Chosunbiz",
+  "South China Morning Post",
+  "University of South Carolina",
+  "Patterns",
+  "Singularity Hub",
+  "EurekAlert",
+  "The Guardian",
+  "Tech.eu",
+  "TechRadar",
+  "The Sun",
+  "Yahoo Lifestyle Australia",
+  "The Independent",
+  "Nature Aging",
+  "Bioengineer.org",
+  "Leibniz Institute on Aging (FLI)",
+  "Philosophical Transactions B",
+  "IDW",
+  "Phys.org",
+  "Aging Cell",
+  "Lifespan.io",
+  "Registry of Senior Australians",
+  "Flinders University",
+  "Family Practice",
+  "Medical Xpress",
+  "Journal of Psychopharmacology",
+  "PsyPost",
+  "Kyoto University",
+  "Brain Communications",
+  "Retraction Watch",
+  "Gizmodo",
+  "Department of Infrastructure",
+  "Mirage News",
+  "University of Pennsylvania",
+  "ACS Applied Materials & Interfaces",
+  "Georgia Tech",
+  "Tech Xplore",
+  "WIRED",
+  "Interesting Engineering",
+  "TechSpot",
+  "AP"
+ ],
+ "scanned": 1668,
+ "stories": [
+  {
+   "id": "mandarin-speech-bci",
+   "title": "A wireless Mandarin speech implant gave a woman with ALS her voice back, in an early trial",
+   "summary": "At Huashan Hospital in Shanghai, two 256-channel electrode arrays turn a woman's attempted speech into Chinese characters at about 80 a minute, over 95% right, voiced in a clone of her own voice; imagined speech topped 90% at about 110 a minute. One participant so far, reported by the hospital and team.",
+   "pillar": "intelligence",
+   "evidence": "Early trial, one patient (hospital account)",
+   "chapter": "MIND READERS.",
+   "badge": "EARLY TRIAL",
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "China Daily",
+     "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b0974e4e4b03ebf8519f18f.html"
+    },
+    {
+     "outlet": "China Daily",
+     "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b0968fbe4b03ebf8519f150.html"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "horizon-implantable-neural-symbiosis",
+     "key": "227786f395",
+     "relation": "early",
+     "note": "A wireless implant restored speech for one woman with ALS in an early trial: a step for implantable interfaces, far from two-way symbiosis."
+    }
+   ]
+  },
+  {
+   "id": "stress-ring",
+   "title": "A USC smart ring sensed stress from fingertip sweat about 92% of the time, in a tiny test",
+   "summary": "Two infrared LEDs spot sweat before it beads, and with pulse, temperature and an on-board AI the ring told rest from ice-water stress about 92% of the time in six volunteers, against 78% for a gel sensor. Next up: 40 office workers over a year, a step toward wearables that notice stress early.",
+   "pillar": "wellbeing",
+   "evidence": "Lab study, six volunteers (Science Advances)",
+   "chapter": "MIND READERS.",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "USC Viterbi",
+     "url": "https://viterbischool.usc.edu/news/2026/11/usc-engineers-develop-ai-powered-ring-that-detects-stress-with-light/"
+    },
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/technology/ring-sense-stress-before-you/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "tencent-ai-peptides",
+   "title": "Tencent and Monash's AI designed a drug that beat Wegovy's ingredient in mice at a tenth the dose",
+   "summary": "A Nature paper from Tencent, China's SIAT and Australia's Monash University: its open-source AI, ORIDTP, designed peptides that hit two targets at once, and one gave obese mice more weight loss than semaglutide at a tenth of the dose over 21 days. It is preclinical, and the authors say it is not evidence it is clinically superior.",
+   "pillar": "intelligence",
+   "evidence": "Mouse study (Nature)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "IN MICE",
+   "date": "2026-11-25",
+   "sources": [
+    {
+     "outlet": "Chosunbiz",
+     "url": "https://biz.chosun.com/en/en-science/2026/11/26/EXPCYYXICRHH7HEHTPTULTUQ6Y/"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "url": "https://www.msn.com/en-xl/news/other/china-s-tencent-makes-ai-drug-discovery-breakthrough-with-nature-paper/ar-AA2imtnc"
+    }
+   ],
+   "predictions": [
+    {
+     "id": "2030-4",
+     "key": "10d59da620",
+     "relation": "early",
+     "note": "Tencent's AI-designed drug candidates worked in mice, a preclinical step that is years from any regulator's approval."
+    }
+   ]
+  },
+  {
+   "id": "ai-mock-stroke",
+   "title": "Scientists gave an AI a mock stroke, and its word slips echoed stroke survivors'",
+   "summary": "A University of South Carolina team damaged layers of an open vision-language model and gave it the language tests used with stroke patients; sorting its errors predicted the brain damage behind similar slips in people. Neurology's toolkit may help explain why AIs fail.",
+   "pillar": "intelligence",
+   "evidence": "Model study (Patterns)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": "THIS WEEK",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Singularity Hub",
+     "url": "https://singularityhub.com/2026/11/26/scientists-gave-ai-a-stroke-to-map-its-language-circuits/"
+    },
+    {
+     "outlet": "EurekAlert",
+     "url": "https://www.eurekalert.org/news-releases/1151164"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "ai-agent-pizza",
+   "title": "In a UK first, an AI agent paid for nine pizzas straight from a bank account",
+   "summary": "In the Financial Conduct Authority's sandbox, Papa John's AI agent ordered nine mini pizzas and paid bank to bank through Lloyds and TrueLayer, with spending capped per order and per month and no card or account details shared. A glimpse of agents running errands for us.",
+   "pillar": "intelligence",
+   "evidence": "Regulatory sandbox trial (TrueLayer's 'first')",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer"
+    },
+    {
+     "outlet": "Tech.eu",
+     "url": "https://tech.eu/2026/11/27/papa-johns-pizza-order-first-uk-cardless-payment-by-ai-agent/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "peter-gabriel-join-it",
+   "title": "Peter Gabriel: if we can't beat AI, join it, by uploading superintelligence into our brains",
+   "summary": "The former Genesis frontman, 76, told The Sun he is very concerned about AI's military uses but excited by its promise for medicine and abundance, and that we need to look at 'uploading superintelligence into our brains or our future cyborg selves.' An opinion, not a plan.",
+   "pillar": "intelligence",
+   "evidence": "Opinion (interview with The Sun)",
+   "chapter": "SUPER INTELLIGENCE",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Yahoo Lifestyle Australia",
+     "url": "https://au.lifestyle.yahoo.com/peter-gabriel-calls-exploration-uploading-090000227.html"
+    },
+    {
+     "outlet": "Far Out Magazine",
+     "url": "https://faroutmagazine.co.uk/peter-gabriel-consider-uploading-superintelligence-into-our-brains/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "alzheimers-two-step-test",
+   "title": "A quick tablet test plus a blood test could spare most memory patients a brain scan",
+   "summary": "In 1,001 US adults aged 60-85, a 3-minute iPad clock-and-recall test or a 10-minute computer test, followed by a blood test for amyloid, detected Alzheimer's while letting over 60% skip formal memory testing and up to 85% of people with memory problems skip a PET scan. Easier, earlier checks for dementia.",
+   "pillar": "longevity",
+   "evidence": "Analysis of 1,001 people (Nature Aging)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Nature Aging",
+     "url": "https://www.nature.com/articles/s43587-026-01290-0"
+    },
+    {
+     "outlet": "Bioengineer.org",
+     "url": "https://bioengineer.org/staged-digital-screening-and-blood-tests-reduce-invasive-alzheimers-diagnostic-procedures/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "killifish-fertile-fathers",
+   "title": "Live fast, live long: fertile male killifish outlived their peers",
+   "summary": "At Germany's Leibniz Institute on Aging, male turquoise killifish that fathered more when young lived longer on average, against the idea that early reproduction costs lifespan. One shared biological 'quality' may drive both, so health and fertility may share roots. Untested in females, other species or people.",
+   "pillar": "longevity",
+   "evidence": "Fish study (Philosophical Transactions B)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "IDW (Leibniz FLI)",
+     "url": "https://idw-online.de/de/news881678"
+    },
+    {
+     "outlet": "Phys.org",
+     "url": "https://phys.org/news/2026-11-fertile-male-killifish-outlive-peers.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "nad-cd38-bone",
+   "title": "One way of boosting NAD+, a molecule longevity pills chase, thinned old mice's bones",
+   "summary": "Mice lacking CD38, an enzyme that uses up NAD+, had about five times the bone NAD+ in old age, yet thinner spine and leg bones as bone breakdown sped up. Raising NAD+ another way left bone markers more youthful: a reminder to target the right tissue. A gene knockout in mice, not a supplement.",
+   "pillar": "longevity",
+   "evidence": "Mouse study (Aging Cell)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": "IN MICE",
+   "date": "2026-11-26",
+   "sources": [
+    {
+     "outlet": "Lifespan.io",
+     "url": "https://lifespan.io/one-method-of-increasing-nad-harms-bone-in-mice/"
+    },
+    {
+     "outlet": "Aging Cell",
+     "url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.70825"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "aged-care-gp-change",
+   "title": "72% of older Australians changed doctors on moving into a nursing home",
+   "summary": "The Registry of Senior Australians found that of about 41,000 people entering residential aged care, 72% changed their usual primary care provider, against about 10% of those starting care at home. Continuity came back after the move; better handovers would help keep care joined up as Australia ages.",
+   "pillar": "longevity",
+   "evidence": "National registry study (Family Practice)",
+   "chapter": "SUPER LONGEVITY",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Flinders University)",
+     "url": "https://medicalxpress.com/news/2026-11-aged-disrupts-regular-health.html"
+    },
+    {
+     "outlet": "Family Practice",
+     "url": "https://doi.org/10.1093/fampra/cmag065"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "psilocybin-alcohol",
+   "title": "Pooling six small trials, psilocybin therapy nearly tripled the odds of staying off alcohol",
+   "summary": "A review of six modern trials with 202 adults with alcohol use disorder found moderate short-term drops in drinking with psilocybin plus therapy, and in the three randomised trials nearly three times the odds of abstinence 4 to 28 weeks on (definitions varied). Side effects were mostly mild; the authors call the evidence early and mixed.",
+   "pillar": "wellbeing",
+   "evidence": "Meta-analysis of six small trials",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "PsyPost",
+     "url": "https://www.psypost.org/psilocybin-assisted-therapy-linked-to-reduced-drinking-and-higher-odds-of-abstinence/"
+    },
+    {
+     "outlet": "Journal of Psychopharmacology",
+     "url": "https://doi.org/10.1177/02698811261490221"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "rem-sleep-switch",
+   "title": "Kyoto scientists may have found the brain's dream-sleep switch",
+   "summary": "An MRI atlas built from 10 donated brainstems, then scans of 98 people with REM sleep behaviour disorder and 114 healthy adults, pointed to a small nucleus that may be the human REM sleep centre. It shrinks in people who act out their dreams, a disorder that often comes before Parkinson's, so it could become an early warning.",
+   "pillar": "wellbeing",
+   "evidence": "Imaging and postmortem study",
+   "chapter": "SUPER WELLBEING",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Medical Xpress (Kyoto University)",
+     "url": "https://medicalxpress.com/news/2026-11-brainstem-atlas-reveals-rem-center.html"
+    },
+    {
+     "outlet": "Brain Communications",
+     "url": "https://doi.org/10.1093/braincomms/fcag379"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "fingerprint-blood-type",
+   "title": "AI studies claiming fingerprints reveal blood type used mislabelled data, Australian researchers say",
+   "summary": "Lars Kooijman (Monash) and Stephanie Summersby (UNSW) traced several of over a dozen such papers to 6,000 fingerprints from 600 people that never came with blood types, and want them retracted. Elsevier and IEEE are investigating: a hype check for AI health claims.",
+   "pillar": "intelligence",
+   "evidence": "Researchers' critique; publishers investigating",
+   "chapter": "THE CATCH",
+   "badge": "THIS WEEK",
+   "date": "2026-11-23",
+   "sources": [
+    {
+     "outlet": "Gizmodo",
+     "url": "https://gizmodo.com/over-a-dozen-studies-said-ai-can-read-your-blood-type-from-a-fingerprint-then-someone-checked-the-data-2000845667"
+    },
+    {
+     "outlet": "Retraction Watch",
+     "url": "https://retractionwatch.com/2026/11/23/two-publishers-investigating-studies-claiming-to-predict-blood-type-from-fingerprints/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "digital-duty-of-care",
+   "title": "Australia passed a law making apps and AI chatbots protect users from serious harm",
+   "summary": "The Digital Duty of Care covers games, apps, social media and AI chatbots, with extra protections for under-18s, fines of up to 5% of global revenue or $109.2 million, and the right for people to take legal action. It takes effect 12 months after Royal Assent.",
+   "pillar": "wellbeing",
+   "evidence": "Law passed by Parliament (government announcement)",
+   "chapter": "THE CATCH",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Department of Infrastructure",
+     "url": "https://www.infrastructure.gov.au/department/media/news/digital-duty-care-law-passed"
+    },
+    {
+     "outlet": "Mirage News",
+     "url": "https://www.miragenews.com/digital-duty-of-care-law-passed-1784608/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "mylar-moon-insulation",
+   "title": "The plastic in comic-book bags, stacked hundreds deep, could insulate moon bases",
+   "summary": "University of Pennsylvania engineers stacked hundreds of aluminium-coated Mylar films into flexible insulation that matched top vacuum insulators and kept working after 10 squeezes of about 91 kg on a fingertip's area, for a Moon that swings from 121°C to -133°C. Lab tests so far.",
+   "pillar": "frontier",
+   "evidence": "Lab tests (ACS Applied Materials & Interfaces)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "New Atlas",
+     "url": "https://newatlas.com/space-systems/mylar-hylifs-moon-habitat-material/"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "blueberry-robot",
+   "title": "A Georgia Tech robot with soft silicone thumbs grasped 23 of 25 blueberry clusters",
+   "summary": "Georgia Tech's CLASP harvester, from start-up Fructus Robotics, uses two cameras and a gripper whose silicone bands roll ripe berries off like a thumb, leaving unripe ones on the bush; in field trials on South Georgia farms it grasped 23 of 25 clusters on its own. Help for farms short of pickers.",
+   "pillar": "frontier",
+   "evidence": "Early field trials (university report)",
+   "chapter": "THE FRONTIER",
+   "badge": null,
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-lab-blueberry-field-robot-soft.html"
+    }
+   ],
+   "predictions": []
+  },
+  {
+   "id": "qant-light-chips",
+   "title": "German start-up Q.ANT is piloting chips that run AI maths on light, to save power",
+   "summary": "Q.ANT's photonic co-processors work beside GPUs and are in a pilot at cloud firm IONOS, with more than 30 engineering teams building models for them, the company says. Light makes little heat, so the aim is to cut AI's energy and cooling bills.",
+   "pillar": "frontier",
+   "evidence": "Company account (WIRED interview)",
+   "chapter": "THE FRONTIER",
+   "badge": "COMPANY CLAIM",
+   "date": "2026-11-27",
+   "sources": [
+    {
+     "outlet": "WIRED",
+     "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/"
+    }
+   ],
+   "predictions": []
+  }
+ ],
+ "transcript": [
+  {
+   "s": 1.88,
+   "t": "It's Saturday, November 28, and this is the Transhuman Daily."
+  },
+  {
+   "s": 6.56,
+   "t": "Here's your day in transhumanism, in 3 minutes flat."
+  },
+  {
+   "s": 15.0,
+   "t": "Mind readers! In an early trial, a Shanghai brain implant gave a woman with ALS her voice back."
+  },
+  {
+   "s": 22.03,
+   "t": "And a smart ring sensed stress from fingertip sweat, 92% right, in a tiny test."
+  },
+  {
+   "s": 31.88,
+   "t": "Tencent's AI designed a drug that beat Wegovy's ingredient in mice, at a tenth the dose."
+  },
+  {
+   "s": 38.91,
+   "t": "South Carolina scientists gave an AI a mock stroke."
+  },
+  {
+   "s": 42.29,
+   "t": "Its word mix-ups echoed real stroke survivors'."
+  },
+  {
+   "s": 45.94,
+   "t": "And in a UK first, an AI agent paid for nine pizzas straight from a bank account."
+  },
+  {
+   "s": 52.97,
+   "t": "Peter Gabriel's idea: if we can't beat AI, join it, by uploading superintelligence into our brains."
+  },
+  {
+   "s": 60.0,
+   "t": "On to longevity."
+  },
+  {
+   "s": 61.01,
+   "t": "A quick tablet test plus a blood test could spare most memory patients a brain scan."
+  },
+  {
+   "s": 67.5,
+   "t": "In killifish, males that fathered most when young lived longest, upending 'live fast, die young'."
+  },
+  {
+   "s": 75.0,
+   "t": "Meanwhile, in old mice, one way of boosting NAD+, a molecule longevity pills chase, thinned their bones."
+  },
+  {
+   "s": 82.5,
+   "t": "Closer to home, 72% of older Australians changed doctors when they moved into nursing homes."
+  },
+  {
+   "s": 90.0,
+   "t": "Wellbeing now. Pooling six small trials, psilocybin therapy nearly tripled the odds of staying off alcohol."
+  },
+  {
+   "s": 97.5,
+   "t": "And Kyoto scientists may have found the brain's dream-sleep switch, a clue to spotting Parkinson's early."
+  },
+  {
+   "s": 105.0,
+   "t": "Now, the catch."
+  },
+  {
+   "s": 105.99,
+   "t": "Australian researchers say AI studies linking fingerprints to blood type used mislabelled data."
+  },
+  {
+   "s": 112.5,
+   "t": "And Australia passed a law making apps and AI chatbots protect users from serious harm."
+  },
+  {
+   "s": 121.88,
+   "t": "On the frontier, the plastic in comic-book bags, stacked hundreds deep, could insulate moon bases."
+  },
+  {
+   "s": 128.91,
+   "t": "A Georgia Tech robot with soft silicone t humbs grasped 23 of 25 blueberry clusters."
+  },
+  {
+   "s": 135.94,
+   "t": "And a German start-up is piloting chips that run AI maths on light, to save power."
+  },
+  {
+   "s": 142.5,
+   "t": "Implants that speak for us, rings that feel our stress. Here's to the mind readers!"
+  },
+  {
+   "s": 150.0,
+   "t": "Zoom out, and the line only goes up."
+  },
+  {
+   "s": 153.75,
+   "t": "And the future keeps arriving ahead of schedule."
+  },
+  {
+   "s": 157.5,
+   "t": "One day, all of this. Tomorrow, probably more."
+  },
+  {
+   "s": 165.0,
+   "t": "You've been watching the Transhuman Daily."
+  },
+  {
+   "s": 168.75,
+   "t": "Live long. See you tomorrow."
+  }
+ ],
+ "captions": true,
+ "video": {
+  "release": "https://github.com/peterxing/singularity-daily/releases/download/th-ep-2026-11-28/The-Transhuman-Daily_2026-11-28.mp4",
+  "mb": 56.7,
+  "bytes": 56684596,
+  "seconds": 180.01
+ },
+ "links": {}
+}

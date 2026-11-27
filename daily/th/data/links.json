@@ -1,8 +1,36 @@
 {
  "show": "The Transhuman Daily",
- "updated": "2026-11-26T21:32:48+00:00",
- "episodes": 22,
+ "updated": "2026-11-27T20:18:08+00:00",
+ "episodes": 23,
  "links": [
+  {
+   "fid": "horizon-implantable-neural-symbiosis",
+   "key": "227786f395",
+   "relation": "early",
+   "note": "A wireless implant restored speech for one woman with ALS in an early trial: a step for implantable interfaces, far from two-way symbiosis.",
+   "ep": 27,
+   "on": "2026-11-28",
+   "date": "2026-11-27",
+   "story": "mandarin-speech-bci",
+   "title": "A wireless Mandarin speech implant gave a woman with ALS her voice back, in an early trial",
+   "pillar": "intelligence",
+   "outlet": "China Daily",
+   "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b0974e4e4b03ebf8519f18f.html"
+  },
+  {
+   "fid": "2030-4",
+   "key": "10d59da620",
+   "relation": "early",
+   "note": "Tencent's AI-designed drug candidates worked in mice, a preclinical step that is years from any regulator's approval.",
+   "ep": 27,
+   "on": "2026-11-28",
+   "date": "2026-11-25",
+   "story": "tencent-ai-peptides",
+   "title": "Tencent and Monash's AI designed a drug that beat Wegovy's ingredient in mice at a tenth the dose",
+   "pillar": "intelligence",
+   "outlet": "Chosunbiz",
+   "url": "https://biz.chosun.com/en/en-science/2026/11/26/EXPCYYXICRHH7HEHTPTULTUQ6Y/"
+  },
   {
    "fid": "horizon-implantable-neural-symbiosis",
    "key": "227786f395",
