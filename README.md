@@ -62,6 +62,14 @@ A link to any section (`#/education`, `#/scorecard`, `#/episodes` …) lands on 
 the page, and then holds it in place for a few seconds while the page above it fills in (the Guide's chapters load as they
 come near), until the reader scrolls, taps or presses a key.
 
+Every forecast also has a **share link** of its own, **peterxing.com/daily/forecast/&lt;id&gt;** (`daily/forecast/<id>.html`,
+since 28 November 2026): a page carrying that forecast's own preview card for X, LinkedIn and Facebook, an image of the
+forecast (`daily/forecast/<id>.png`, 1200×630: its words, best-guess month, window and odds, or a horizon's conditional ones,
+its domain and, once it's due, its verdict), which then opens the forecast on peterxing.com (`#/forecasts/<id>`; a due one
+opens on its verdict; add `?stay` to see the page itself). The shows' posts link these in their comments, one comment per
+forecast the day's stories touched, so each link shows its forecast's card. Crawlers don't run scripts, so they stay on the
+card; the page has no meta refresh, which Facebook's crawler would follow to the home page's card instead.
+
 It tracks the news, not the odds: the Guide's probabilities are Peter's own and change only when he revises them. A story
 that is "evidence for" a forecast shows part of its claim happening; only the test, once the forecast is due, says whether
 it came true.
@@ -75,8 +83,9 @@ production project:
 2. writes the episode (`daily/data/episodes/<date>.json`), cover, thumbnail and captions (`daily/media/<date>/`);
 3. regenerates `daily/data/index.json`, the forecast snapshot (`daily/data/predictions.json`, fetched from the Guide's live
    `predictions.json`), the tracker (`daily/data/tracker.json`), the revision log,    the scorecard, the weekly digest, the
-   leading forecasters' predictions and the path map (`daily/data/forecasters.json`, `daily/data/paths.json`) and the feeds
-   (`daily/feed.xml`, `daily/weekly.xml`);
+   leading forecasters' predictions and the path map (`daily/data/forecasters.json`, `daily/data/paths.json`), every
+   forecast's share page and card (`daily/forecast/`, drawn by `engine/build/sharepages.py` with the site's own fonts, and
+   redrawn only when a forecast's words, date, odds or verdict change) and the feeds (`daily/feed.xml`, `daily/weekly.xml`);
 4. commits and pushes; [`.github/workflows/pages.yml`](.github/workflows/pages.yml) then builds GitHub Pages with
    [`tools/assemble_pages.py`](tools/assemble_pages.py).
 
@@ -161,6 +170,9 @@ Members' predictions are theirs, not the Guide's, and aren't judged.
 | `daily/th/data/index.json` | The Transhuman Daily: every episode (newest first), hook, counts by pillar, forecasts touched, cover, video location |
 | `daily/th/data/episodes/<date>.json` | one of its episodes: stories (title, summary, pillar, evidence, chapter, badge, date, sources, forecast links), TL;DR, transcript, ticker, notes, post links |
 | `daily/th/data/links.json` | every forecast link in its episodes, newest first (forecast id and key, relation, note, episode, story, source), merged into the tracker by `app.js` |
+| `daily/forecast/<id>.html` | a forecast's share link (peterxing.com/daily/forecast/&lt;id&gt;): its title, description and preview card (`og:*`, `twitter:*`), then the forecast on the site |
+| `daily/forecast/<id>.png` | its 1200×630 preview card |
+| `daily/forecast/index.json` | every share page: the forecast's words, best guess, window, odds, domain, state and verdict, the card's version (`v`) and the page's address; the shows' `social.js` read it from the live site to write their forecast comments |
 
 Story links store the forecast's `id` and `key`, so if the Guide reorders or rewords its forecasts the tracker still
 resolves them (and flags wording that changed after the link was made).
