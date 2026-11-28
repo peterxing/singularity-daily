@@ -35,6 +35,16 @@ forwarded to peterxing.com (add `?stay` to the URL to view the copy itself).
   odds and their history, the test it will be judged against, why the Guide expects it then, and every story that is
   **evidence for** it, an **early sign**, or **evidence against** it. Filters by domain and signal, a "moving now" view, and
   "latest news" and "most news" orderings.
+- **Benchmarks** (`#/benchmarks`, one model's row at `#/benchmarks/<model id>`; since 28 November 2026, Peter's request) —
+  after Predictions vs reality and the members' block: the frontier models on the tests that matter most. First the state
+  of the art on each benchmark (its leader and, for Epoch AI's long-running benchmarks, its climb since 2024 and the best a
+  year ago), then a sortable table of 10–16 frontier models with each one's best score on every benchmark (across its
+  reasoning-effort settings), its parameters (the lab's own figure, else the
+  [LifeArchitect.ai Models Table](https://lifearchitect.ai/models-table/)'s, "est." where it's an estimate), context window,
+  price and a link to its system card or model card. Scores come from [Artificial Analysis](https://artificialanalysis.ai/)
+  (its Intelligence Index, HLE-Diamond, Terminal-Bench 4.1, FrontierCode 2.0, GDPval-AA) and
+  [Epoch AI](https://epoch.ai/benchmarks) (the Epoch Capabilities Index, GPQA Diamond, ARC-AGI-2, SimpleQA Verified,
+  FrontierMath Tiers 1–3 and 4, FrontierSWE; data under CC BY 4.0), refreshed every day by the site sync.
 - **The Guide** — *The Hitchhiker's Guide to the Singularity* on the same page (`#/guide`): its chapters, read in place
   (`#/guide/chapter-N`), and the author. The chapters and author notes are read live from the Guide's published page and
   data on the same origin (`/guide` and `/author.json`), so they never go stale. The site no longer links to the legacy
@@ -165,6 +175,7 @@ Members' predictions are theirs, not the Guide's, and aren't judged.
 | `daily/data/weekly.json` | every Friday digest, newest first |
 | `daily/data/forecasters.json` | the tracked people (name, role, group) and their predictions: who, claim, their words, when and where they said it, the source, the date they gave (`by`, and `until` when they gave an outer limit), any probability they put on it, the Guide forecast it compares with, its test, its state (`live` or `due`) and, once due, its verdict, finding and sources |
 | `daily/data/paths.json` | "Which path are we on?": the four dimensions with each state's forecasters' odds and evidence-weighted odds, the voices on each state and today's reading with its sources; the eight paths with their shares, matched readings, holders and signposts; every voice's positions with their basis; the method; a daily history |
+| `daily/data/benchmarks.json` | the Benchmarks section: each benchmark (name, group, what it measures, source, its state of the art with model and date, the best a year ago and its history where long-running) and each frontier model on the board (lab, release date, open weights, context window, price, parameters with where they come from, system card, and its best score on each benchmark with the reasoning-effort setting), from the production project's `benchmarks.json` and what `engine/build/benchmarks.py refresh` pulled |
 | `daily/edu/data/index.json` | Microsoft for Education Daily: every episode (newest first), hook, counts, cover, video location |
 | `daily/edu/data/episodes/<date>.json` | one of its episodes: updates (title, summary, who it's for, status, education-specific or not, chapter, date, sources), TL;DR, transcript, ticker, notes, post links |
 | `daily/th/data/index.json` | The Transhuman Daily: every episode (newest first), hook, counts by pillar, forecasts touched, cover, video location |

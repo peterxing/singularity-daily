@@ -30,7 +30,7 @@
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html { scroll-behavior: smooth; scroll-padding-top: 76px; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--top-h, 64px) + 12px); -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
   background: var(--ink);
@@ -54,13 +54,14 @@ a:hover { color: var(--orange); }
 
 /* ---------- header */
 .top { position: sticky; top: 0; z-index: 20; background: rgba(11, 11, 12, 0.96); backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid var(--line); }
-.top-in { max-width: var(--max); margin: 0 auto; padding: 12px clamp(16px, 4vw, 40px); display: flex; align-items: center; gap: 24px; }
+/* the bar is a little wider than the page so every tab fits on one line on a desktop; narrower, the tabs wrap onto a second
+   line beside the name instead of scrolling out of sight (app.js keeps --top-h, which section links land below, in step) */
+.top-in { max-width: calc(var(--max) + 180px); margin: 0 auto; padding: 12px clamp(16px, 4vw, 40px); display: flex; align-items: center; gap: 8px 20px; }
 .brand { font: 400 22px/1 var(--display); text-transform: uppercase; letter-spacing: 0.02em; text-decoration: none; white-space: nowrap; display: inline-flex; align-items: baseline; gap: 6px; }
 .brand-the { color: var(--faint); }
 .brand-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 14px var(--orange); align-self: center; margin-left: 2px; }
-.nav { margin-left: auto; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
-.nav::-webkit-scrollbar { display: none; }
-.nav a { font: 600 14px/1 var(--sans); text-decoration: none; color: var(--dim); padding: 10px 12px; border-radius: 999px; white-space: nowrap; }
+.nav { margin-left: auto; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 1px; min-width: 0; }
+.nav a { font: 600 13.5px/1 var(--sans); text-decoration: none; color: var(--dim); padding: 9px 8px; border-radius: 999px; white-space: nowrap; }
 .nav a:hover, .nav a[aria-current="true"] { color: var(--white); background: rgba(245, 243, 239, 0.07); }
 .nav .nav-guide { color: var(--white); border: 1px solid var(--line-2); }
 
@@ -550,7 +551,58 @@ html.reading { overflow: hidden; }
 .reader-nav .btn { max-width: 48%; line-height: 1.25; }
 .reader-nav #readerNext { margin-left: auto; }
 
+/* ---------- benchmarks */
+.sota { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; margin: 12px 0 34px; }
+.sota-card { background: var(--ink-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px 12px; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+.sota-card .k { font: 400 11px/1.3 var(--mono); color: var(--orange); text-transform: uppercase; letter-spacing: 0.08em; }
+.sota-card h4 { margin: 0; font: 700 15px/1.3 var(--sans); }
+.sota-card .v { font: 400 42px/1 var(--display); letter-spacing: 0.01em; color: var(--white); display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; }
+.sota-card .v .ceil { font: 700 10px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink); background: var(--bone); padding: 4px 7px; border-radius: 999px; }
+.sota-card .who { margin: 0; font-size: 13.5px; color: var(--bone); line-height: 1.35; }
+.sota-card .who a { color: var(--bone); }
+.sota-card .spark { width: 100%; height: 34px; display: block; overflow: visible; }
+.sota-card .spark .ln { fill: none; stroke: var(--orange); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.sota-card .spark .ar { fill: rgba(255, 90, 31, 0.12); stroke: none; }
+.sota-card .ago { margin: 0; font: 400 11.5px/1.35 var(--mono); color: var(--faint); }
+.sota-card .desc { margin: 0; font-size: 13px; color: var(--dim); line-height: 1.45; }
+.sota-card .src { margin-top: auto; padding-top: 4px; font: 400 11.5px/1.3 var(--mono); color: var(--faint); }
+.sota-card .src a { color: var(--bone); }
+.btable-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--ink-2); margin-top: 6px; }
+.btable { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1060px; font-size: 13px; }
+.btable th, .btable td { padding: 9px 7px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; vertical-align: top; }
+.btable tbody tr:last-child td, .btable tbody tr:last-child .m { border-bottom: 0; }
+.btable thead th { background: var(--ink-3); font: 600 11.5px/1.2 var(--sans); color: var(--dim); vertical-align: bottom; white-space: normal; min-width: 44px; max-width: 78px; }
+.btable thead tr.grp th { font: 400 10px/1.25 var(--mono); text-transform: uppercase; letter-spacing: 0.07em; color: var(--orange); text-align: center; border-bottom: 1px solid var(--line-2); padding-top: 12px; max-width: none; }
+.btable thead tr.grp th + th { border-left: 1px solid var(--line); }
+.btable th button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-align: inherit; line-height: inherit; }
+.btable th button:hover, .btable th button[aria-pressed="true"] { color: var(--white); }
+.btable th button[aria-pressed="true"]::after { content: " \2193"; color: var(--orange); }
+.btable th button[aria-pressed="true"].asc::after { content: " \2191"; }
+.btable .m { text-align: left; position: sticky; left: 0; z-index: 1; background: var(--ink-2); min-width: 184px; max-width: 220px; white-space: normal; border-right: 1px solid var(--line); }
+.btable thead .m { background: var(--ink-3); max-width: none; }
+.btable tbody tr:hover td, .btable tbody tr:hover .m { background: #17181b; }
+.btable tbody tr.flash td, .btable tbody tr.flash .m { background: #2a1910; transition: background 0.6s; }
+.sota-card.flash { border-color: var(--orange); }
+.btable .mname { font-weight: 700; color: var(--white); }
+.btable .chip { font: 700 10px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; padding: 3px 6px; border-radius: 999px; margin-left: 6px; color: var(--green); box-shadow: inset 0 0 0 1px rgba(127, 216, 166, 0.6); vertical-align: 2px; white-space: nowrap; }
+.btable .mmeta { display: block; font: 400 11.5px/1.45 var(--mono); color: var(--faint); margin-top: 4px; }
+.btable .mmeta a { color: var(--bone); white-space: nowrap; }
+.btable .mnote { display: block; font-size: 12px; color: var(--dim); margin-top: 3px; line-height: 1.35; }
+.btable .num { font-family: var(--mono); font-size: 13px; color: var(--bone); }
+.btable td.best .num { color: var(--orange); font-weight: 700; }
+.btable td.na .num { color: var(--faint); }
+.btable .sub { display: block; font: 400 10.5px/1.3 var(--mono); color: var(--faint); margin-top: 3px; }
+.btable .by { font: 400 10.5px/1 var(--mono); color: var(--faint); margin-left: 4px; }
+.btable .by a { color: var(--faint); }
+.btable .grp-start { border-left: 1px solid var(--line); }
+
 /* ---------- responsive */
+@media (max-width: 1240px) {
+  /* the tabs no longer fit beside the name: they take a row of their own under it */
+  .top-in { flex-wrap: wrap; }
+  .nav { margin-left: 0; width: 100%; justify-content: flex-start; }
+  .nav a { padding: 9px 7px; font-size: 13px; }
+}
 @media (max-width: 1000px) {
   .hero { grid-template-columns: 1fr; }
   .scoreboard { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -560,11 +612,12 @@ html.reading { overflow: hidden; }
 }
 @media (max-width: 640px) {
   body { font-size: 15px; }
-  .top-in { gap: 10px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 6px; }
+  .top-in { gap: 8px 10px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 8px; }
   .brand { font-size: 19px; }
-  .nav { margin-left: 0; width: 100%; margin-right: -16px; padding-right: 16px; }
-  .nav a { padding: 8px 10px; font-size: 13.5px; }
-  html { scroll-padding-top: 104px; }
+  /* every tab shows, over three short lines, so on a phone the bar scrolls away with the page instead of covering a fifth of it */
+  .top { position: static; }
+  .nav { margin-left: 0; width: 100%; justify-content: flex-start; }
+  .nav a { padding: 7px 9px; font-size: 13px; }
   .sing-in { grid-template-columns: minmax(0, 1fr); grid-template-areas: "k" "clock" "text"; padding-top: 12px; padding-bottom: 14px; }
   .sing-clock { gap: 14px; }
   .sing-u b { font-size: 46px; }

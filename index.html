@@ -23,12 +23,12 @@
 <link rel="icon" href="daily/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="daily/fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="daily/fonts/Inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="daily/app.css?v=20261124a">
+<link rel="stylesheet" href="daily/app.css?v=20261128a">
 <link rel="stylesheet" href="daily/edu.css?v=20261101c">
 <link rel="stylesheet" href="daily/th.css?v=20261103a">
 <script src="daily/route.js?v=20261101a"></script>
 <script src="daily/members.js?v=20261125a" defer></script>
-<script src="daily/app.js?v=20261125a" defer></script>
+<script src="daily/app.js?v=20261128a" defer></script>
 <script src="daily/th.js?v=20261122a" defer></script>
 <script src="daily/edu.js?v=20261101d" defer></script>
 </head>
@@ -41,12 +41,13 @@
       <a href="#/">Today</a>
       <a href="#/stories">Stories</a>
       <a href="#/scorecard">Right or wrong</a>
-      <a href="#/forecasts">Predictions vs reality</a>
       <a href="#/paths">Which path?</a>
+      <a href="#/forecasts">Predictions vs reality</a>
+      <a href="#/benchmarks">Benchmarks</a>
+      <a class="nav-guide" href="#/guide">The Guide</a>
       <a href="#/episodes">Episodes</a>
       <a href="#/transhuman" title="The Transhuman Daily">Transhuman</a>
       <a href="#/education" title="Microsoft for Education Daily">Microsoft Edu</a>
-      <a class="nav-guide" href="#/guide">The Guide</a>
     </nav>
   </div>
 </header>
@@ -231,6 +232,20 @@
     <div id="membersMain"></div>
     <div id="membersAdmin"></div>
     <p class="fineprint">Members' predictions are their own, shown under the name they choose once they've been checked for being on topic and civil. They aren't the Guide's, aren't endorsed by it, and aren't judged here, though the site's admins can edit or delete one (an edited one says so). You sign in with a one-time link sent to the email on your Transhumanism Australia membership, which is checked with Stripe each time you sign in or post. We keep your email, the name and link you give and your predictions, and you can withdraw your predictions at any time. Sponsors' logos link to their own sites and are checked before they go up.</p>
+  </section>
+
+  <section id="benchmarks" class="wrap section bench" aria-labelledby="benchTitle" hidden>
+    <div class="section-head">
+      <p class="mono eyebrow">The frontier, measured</p>
+      <h2 id="benchTitle">Benchmarks</h2>
+      <p class="section-sub" id="benchIntro">The leading AI models on the tests that matter most, side by side, from independent evaluators, with each model's size, price and system card. Updated every day.</p>
+    </div>
+    <h3 class="sub-h">State of the art</h3>
+    <div class="sota" id="benchSota"></div>
+    <h3 class="sub-h">The frontier models, side by side</h3>
+    <p class="mono count" id="benchCount"></p>
+    <div class="btable-wrap" id="benchWrap"><table class="btable" id="benchTable"></table></div>
+    <p class="fineprint" id="benchNotes"></p>
   </section>
 
   <section id="guide" class="wrap section guide" aria-labelledby="guideTitle">

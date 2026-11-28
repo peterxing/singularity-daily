@@ -28,7 +28,7 @@
     index: null, preds: null, tracker: null, byId: new Map(), byKey: new Map(), order: new Map(), episodes: new Map(),
     score: { tests: {}, due: [], soon: [] }, dueIds: new Set(), revs: { items: [] }, weekly: { items: [] },
     current: null, lastSync: 0, filters: { q: '', domain: 'all', rel: 'all', view: 'year', who: 'all' },
-    sdTracker: null, th: null, fc: null, fcById: new Map(), people: new Map(), paths: null,
+    sdTracker: null, th: null, fc: null, fcById: new Map(), people: new Map(), paths: null, bench: null,
   };
 
   const $ = id => document.getElementById(id);
@@ -139,6 +139,7 @@
     state.paths = paths && Array.isArray(paths.paths) && paths.paths.length ? paths : null;
   }
   const fcItems = () => (state.fc ? state.fc.items : []);
+  const setBench = b => { state.bench = b && Array.isArray(b.models) && b.models.length && Array.isArray(b.benchmarks) ? b : null; };
   const fcJudged = x => Boolean(x.verdict); // its date has passed (judged or awaiting a verdict), or it came true early
   const fcLive = () => fcItems().filter(x => !fcJudged(x));
   const fcDue = () => fcItems().filter(fcJudged);
@@ -598,6 +599,146 @@
           h('ul', null, p.signposts.map(s => h('li', null,
             h('a', { href: s.kind === 'item' ? `#/predictions/${s.id}` : `#/forecasts/${s.id}`, text: s.kind === 'item' ? `${personName(s.who)}: ${s.label}` : `The Guide: ${s.label}` }),
             h('small', { class: 'mono', text: ` · ${s.kind === 'item' ? ymLabel(s.by) : s.when}${s.verdict && VERDICT[s.verdict] ? ` · ${VERDICT[s.verdict].label.toLowerCase()}` : ''}` }))))) : null));
+  }
+
+  // ------------------------------------------------------------------ benchmarks
+  // daily/data/benchmarks.json (engine\build\benchmarks.py, refreshed every day by the site sync): the frontier models on the
+  // benchmarks that matter most, from Artificial Analysis and Epoch AI, each score the model's best across its reasoning-effort
+  // settings; each model's parameters (the lab's own figure, else LifeArchitect.ai's, "est." when estimated), context window,
+  // price and system card; and each benchmark's state of the art over time, across every model the sources score.
+  const bench = { col: 'aa-index', dir: -1 };
+  const SRC_NAME = { aa: 'Artificial Analysis', epoch: 'Epoch AI' };
+  const EFFORT = { max: 'max', xhigh: 'extra-high', high: 'high', medium: 'medium', low: 'low', minimal: 'minimal' };
+  function bfmt(b, v) {
+    if (v == null) return '\u2014';
+    if (b.fmt === 'pct') return `${(v * 100).toFixed(1)}%`;
+    if (b.fmt === 'elo') return String(Math.round(v));
+    return v.toFixed(1);
+  }
+  const bsize = x => (x >= 1000 ? `${(x / 1000).toFixed(x % 1000 ? 1 : 0)}T` : `${Math.round(x)}B`);
+  const bctx = x => (x >= 1e6 ? `${(x / 1e6).toFixed(x % 1e6 ? 1 : 0)}M` : `${Math.round(x / 1000)}K`);
+  const bmonth = iso => (iso ? `${MONTHS[Number(iso.slice(5, 7)) - 1]} ${iso.slice(0, 4)}` : '');
+  const bprice = p => (p && p[0] != null ? `$${+p[0]}/$${+p[1]}` : '\u2014');
+  // the state of the art as a step line, from 2024 (or its first score) to today
+  function spark(b) {
+    const pts = (b.history || []).filter(p => p[0]);
+    if (pts.length < 2) return null;
+    const t = s => Date.parse(`${s}T00:00:00Z`);
+    const x0 = t(pts[0][0]), x1 = Math.max(Date.now(), t(pts[pts.length - 1][0]) + 1);
+    const vals = pts.map(p => p[1]);
+    const lo = b.fmt === 'pct' ? 0 : Math.min(...vals), hi = b.fmt === 'pct' ? 1 : Math.max(...vals);
+    const X = s => ((t(s) - x0) / (x1 - x0)) * 100, Y = v => 30 - ((v - lo) / ((hi - lo) || 1)) * 28;
+    const xy = [];
+    pts.forEach((p, i) => {
+      if (i) xy.push(`${X(p[0]).toFixed(2)},${Y(pts[i - 1][1]).toFixed(2)}`);
+      xy.push(`${X(p[0]).toFixed(2)},${Y(p[1]).toFixed(2)}`);
+    });
+    xy.push(`100,${Y(pts[pts.length - 1][1]).toFixed(2)}`);
+    const NS = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('class', 'spark'); svg.setAttribute('viewBox', '0 0 100 31'); svg.setAttribute('preserveAspectRatio', 'none');
+    svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', `State of the art since ${bmonth(pts[0][0])}: from ${bfmt(b, pts[0][1])} to ${bfmt(b, pts[pts.length - 1][1])}`);
+    const area = document.createElementNS(NS, 'polygon');
+    area.setAttribute('class', 'ar'); area.setAttribute('points', `0,31 ${xy.join(' ')} 100,31`);
+    const line = document.createElementNS(NS, 'polyline');
+    line.setAttribute('class', 'ln'); line.setAttribute('points', xy.join(' '));
+    svg.append(area, line);
+    return svg;
+  }
+  function sotaCard(b, onBoard) {
+    const s = b.sota, ceil = b.fmt === 'pct' && s.value >= 0.9;
+    const leader = onBoard.get(s.model);
+    return h('div', { class: 'sota-card', id: `bb-${b.id}` },
+      h('span', { class: 'k', text: b.group }),
+      h('h4', { text: b.name }),
+      h('div', { class: 'v' }, bfmt(b, s.value), ceil ? h('span', { class: 'ceil', text: s.value >= 0.995 ? 'At its ceiling' : 'Near its ceiling' }) : null),
+      h('p', { class: 'who' }, leader ? h('a', { href: `#/benchmarks/${leader.id}`, text: s.model }) : s.model, s.date ? ` \u00b7 ${bmonth(s.date)}` : ''),
+      spark(b),
+      b.year_ago != null ? h('p', { class: 'ago', text: `A year ago the best was ${bfmt(b, b.year_ago)}` }) : h('p', { class: 'ago', text: `Scored on ${b.scored} models by ${SRC_NAME[b.src]} so far` }),
+      h('p', { class: 'desc', text: b.desc }),
+      h('p', { class: 'src' }, `${SRC_NAME[b.src]} \u00b7 `, outLink(b.url, 'About it \u2197')));
+  }
+  function benchCol(b) {
+    // a header may break between the words run together in a benchmark's name ("Frontier|Math 1-3", "Simple|QA")
+    return { id: b.id, label: b.short.replace(/^(Frontier|Simple)(?=[A-Z])/, '$1\u200b'), title: b.name, val: m => (m.scores[b.id] || {}).v, b };
+  }
+  function renderBenchmarks() {
+    const sec = $('benchmarks'), B = state.bench;
+    if (!sec) return;
+    sec.hidden = !B;
+    if (!B) return;
+    const onBoard = new Map(B.models.map(m => [m.name, m]));
+    $('benchSota').replaceChildren(...B.benchmarks.map(b => sotaCard(b, onBoard)));
+    const groups = [];
+    B.benchmarks.forEach(b => { const g = groups[groups.length - 1]; if (g && g.name === b.group) g.n += 1; else groups.push({ name: b.group, n: 1 }); });
+    const cols = [
+      { id: 'params', label: 'Parameters', title: 'Total parameters (and active per token)', val: m => (m.params ? m.params.total : null), plain: true },
+      { id: 'ctx', label: 'Context', title: 'Context window, tokens', val: m => m.context, plain: true },
+      { id: 'price', label: 'Price', title: 'US dollars per million input / output tokens', val: m => (m.price && m.price[1] != null ? m.price[1] : null), low: true },
+      ...B.benchmarks.map(benchCol)];
+    const col = cols.find(c => c.id === bench.col) || cols[3];
+    const models = B.models.slice().sort((a, b) => {
+      const va = col.val(a), vb = col.val(b);
+      if (va == null && vb == null) return 0;
+      if (va == null) return 1;
+      if (vb == null) return -1;
+      return (va - vb) * bench.dir;
+    });
+    const best = new Map(cols.map(c => {
+      const vs = B.models.map(c.val).filter(v => v != null);
+      return [c.id, vs.length ? (c.low ? Math.min(...vs) : Math.max(...vs)) : null];
+    }));
+    const sortBtn = c => h('button', {
+      type: 'button', class: bench.col === c.id && bench.dir === 1 ? 'asc' : '', 'aria-pressed': String(bench.col === c.id), title: `${c.title}: sort`,
+      onclick: () => { if (bench.col === c.id) bench.dir = -bench.dir; else { bench.col = c.id; bench.dir = c.low ? 1 : -1; } renderBenchmarks(); },
+    }, c.label);
+    const grpStart = new Set();
+    let at = 0;
+    groups.forEach(g => { grpStart.add(B.benchmarks[at].id); at += g.n; });
+    const head = h('thead', null,
+      h('tr', { class: 'grp' }, h('th', { class: 'm', rowspan: '2', scope: 'col' }, h('span', { text: 'Model' })),
+        h('th', { colspan: '3', scope: 'colgroup', text: 'Size and cost' }),
+        groups.map(g => h('th', { colspan: String(g.n), scope: 'colgroup', text: g.name }))),
+      h('tr', null, cols.map(c => h('th', { scope: 'col', class: grpStart.has(c.id) || c.id === 'params' ? 'grp-start' : '' }, sortBtn(c)))));
+    const cell = (c, m) => {
+      const v = c.val(m), top = !c.plain && v != null && v === best.get(c.id) && B.models.filter(x => c.val(x) != null).length > 1;
+      const cls = [v == null ? 'na' : '', top ? 'best' : '', grpStart.has(c.id) || c.id === 'params' ? 'grp-start' : ''].filter(Boolean).join(' ');
+      if (c.id === 'params') {
+        const p = m.params;
+        if (!p) return h('td', { class: cls, title: 'Not disclosed by the lab, and no published estimate' }, h('span', { class: 'num', text: '\u2014' }), h('span', { class: 'sub', text: 'undisclosed' }));
+        return h('td', { class: cls, title: p.by === 'lab' ? `Stated by the lab${p.title ? `: ${p.title}` : ''}` : `LifeArchitect.ai Models Table${p.est ? ': an estimate' : ''}` },
+          h('span', { class: 'num', text: bsize(p.total) }),
+          h('span', { class: 'by' }, outLink(p.url, p.by === 'lab' ? 'lab' : p.est ? 'est.' : 'LA')),
+          p.active ? h('span', { class: 'sub', text: `${bsize(p.active)} active` }) : null);
+      }
+      if (c.id === 'ctx') return h('td', { class: cls }, h('span', { class: 'num', text: v ? bctx(v) : '\u2014' }));
+      if (c.id === 'price') return h('td', { class: cls, title: 'US dollars per million input / output tokens (Artificial Analysis)' }, h('span', { class: 'num', text: bprice(m.price) }));
+      const s = m.scores[c.id], b = c.b;
+      if (!s) return h('td', { class: cls, title: `Not yet scored by ${SRC_NAME[b.src]}` }, h('span', { class: 'num', text: '\u2014' }));
+      const tip = [`${m.name}: ${bfmt(b, s.v)} on ${b.name}`, s.set ? `at ${EFFORT[s.set] || s.set} reasoning effort` : '', SRC_NAME[b.src],
+        s.ci ? `90% interval ${s.ci[0].toFixed(1)}\u2013${s.ci[1].toFixed(1)}` : ''].filter(Boolean).join(' \u00b7 ');
+      return h('td', { class: cls, title: tip }, h('span', { class: 'num', text: bfmt(b, s.v) }));
+    };
+    const rows = models.map(m => h('tr', { id: `bm-${m.id}` },
+      h('th', { class: 'm', scope: 'row' },
+        h('span', { class: 'mname', text: m.name }), m.open ? h('span', { class: 'chip', text: 'Open weights' }) : null,
+        h('span', { class: 'mmeta' }, [m.lab, bmonth(m.released)].filter(Boolean).join(' \u00b7 '), m.card ? ' \u00b7 ' : '',
+          m.card ? h('a', { href: m.card.url, target: '_blank', rel: 'noopener', title: m.card.title, text: /model card/i.test(m.card.title) ? 'Model card \u2197' : /system card/i.test(m.card.title) ? 'System card \u2197' : 'Announcement \u2197' }) : null),
+        m.note ? h('span', { class: 'mnote', text: m.note }) : null),
+      cols.map(c => cell(c, m))));
+    $('benchTable').replaceChildren(head, h('tbody', null, rows));
+    const f = B.fetched || {};
+    const pulled = ['aa', 'epoch', 'la'].map(k => (f[k] ? `${B.sources[k].name} ${dayMonthYear(f[k].slice(0, 10))}` : null)).filter(Boolean).join(' \u00b7 ');
+    $('benchCount').textContent = `${B.models.length} models \u00b7 ${B.benchmarks.length} benchmarks \u00b7 sorted by ${col.title}${bench.dir === 1 ? ' (lowest first)' : ''} \u00b7 tap a heading to sort`;
+    $('benchNotes').replaceChildren(
+      'Each score is the model\u2019s best across its reasoning-effort settings; hover over it for which one and where it\u2019s from. ',
+      outLink(B.sources.aa.url, 'Artificial Analysis'), ' runs its evaluations the same way on every model, and ',
+      outLink(B.sources.epoch.url, 'Epoch AI'), ' runs or compiles the rest (its data is shared under CC BY 4.0); a dash means that source hasn\u2019t scored the model yet. ',
+      'Parameters are the lab\u2019s own figure where it gives one (\u201clab\u201d); otherwise they come from the ', outLink(B.sources.la.url, 'LifeArchitect.ai Models Table'),
+      ' (\u201cLA\u201d), marked \u201cest.\u201d where they\u2019re its estimate: most labs don\u2019t disclose their models\u2019 size. Prices are from Artificial Analysis. ',
+      'The state of the art is the best score any model has posted, on this board or not; for Epoch AI\u2019s long-running benchmarks its line shows the climb since early 2024. ',
+      'Every model links to its system card or model card. Pulled fresh every day: ', pulled, '.');
   }
 
   function verdictCard(d) {
@@ -1389,7 +1530,7 @@
     } else if (parts[0] === 'today') {
       date = state.index.latest;
       target = 'now';
-    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'transhuman', 'education', 'musk', 'forecasters', 'people', 'predictions', 'paths', 'members'].includes(parts[0])) {
+    } else if (['stories', 'forecasts', 'episodes', 'about', 'guide', 'scorecard', 'weekly', 'transhuman', 'education', 'musk', 'forecasters', 'people', 'predictions', 'paths', 'members', 'benchmarks'].includes(parts[0])) {
       target = parts[0];
     } else {
       date = state.index.latest;
@@ -1406,6 +1547,7 @@
     else if (parts[0] === 'forecasters') el = showWho(parts[1] ? `group:${parts[1]}` : 'others');
     else if (parts[0] === 'people') el = showWho(parts[1] ? `person:${parts[1]}` : 'others');
     else if (parts[0] === 'paths' && parts[1]) { el = $(`path-${parts[1]}`) || $(`dim-${parts[1]}`) || $('paths'); if (el !== $('paths')) flash(el); }
+    else if (parts[0] === 'benchmarks' && parts[1]) { el = $(`bm-${parts[1]}`) || $(`bb-${parts[1]}`) || $('benchmarks'); if (el !== $('benchmarks')) flash(el); }
     else if (parts[0] === 'members' && parts[1] === 'p' && parts[2]) el = await openMember(parts[2]);
     else if (parts[0] === 'members') el = window.SDM ? await SDM.route(parts.slice(1)) : null;
     else if (parts[0] === 'scorecard' && parts[1]) el = parts[1] === 'changes' ? $('changes') : openVerdict(parts[1]);
@@ -1425,7 +1567,7 @@
 
   // ------------------------------------------------------------------ sync: new episodes land every morning
   function renderAll() {
-    renderPromo(); renderSingularity(); renderStart(); renderEpisodes(); renderWeekly(); renderScorecard(); renderPaths(); renderScoreboard(); renderMoving(); renderForecasts(); footer();
+    renderPromo(); renderSingularity(); renderStart(); renderEpisodes(); renderWeekly(); renderScorecard(); renderPaths(); renderScoreboard(); renderMoving(); renderForecasts(); renderBenchmarks(); footer();
   }
   async function sync(manual) {
     state.lastSync = Date.now();
@@ -1440,11 +1582,11 @@
         }
         return;
       }
-      const [preds, tracker, score, revs, weekly, th, fcData, pathsData] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json'),
+      const [preds, tracker, score, revs, weekly, th, fcData, pathsData, benchData] = await Promise.all([getJSON('daily/data/predictions.json'), getJSON('daily/data/tracker.json'),
         getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'), getOptional('daily/th/data/links.json'),
-        getOptional('daily/data/forecasters.json'), getOptional('daily/data/paths.json')]);
+        getOptional('daily/data/forecasters.json'), getOptional('daily/data/paths.json'), getOptional('daily/data/benchmarks.json')]);
       const fresh = index.latest !== state.index.latest;
-      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setForecasters(fcData, pathsData);
+      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setForecasters(fcData, pathsData); setBench(benchData);
       if (window.SDM) SDM.setDomains(state.preds.domains);
       fillWho();
       state.episodes.clear();
@@ -1494,6 +1636,17 @@
     $('footUpdated').textContent = u ? `Last published ${new Intl.DateTimeFormat('en-AU', { timeZone: 'Australia/Sydney', dateStyle: 'medium', timeStyle: 'short' }).format(new Date(u))} Sydney time · forecasts from the Guide, updated ${state.preds.updated ? fmt(state.preds.updated.slice(0, 10), { day: 'numeric', month: 'short', year: 'numeric' }) : 'n/a'}` : '';
   }
 
+  // The header's height, which section links land below (html's scroll-padding-top): it wraps its tabs onto more lines as the
+  // window narrows, and on a phone it scrolls away with the page (not sticky), so nothing needs clearing there
+  function keepTopHeight() {
+    const top = document.querySelector('.top');
+    if (!top) return;
+    const set = () => document.documentElement.style.setProperty('--top-h', `${getComputedStyle(top).position === 'sticky' ? top.offsetHeight : 0}px`);
+    set();
+    if (typeof ResizeObserver === 'function') new ResizeObserver(set).observe(top);
+    addEventListener('resize', set);
+  }
+
   function wireStatic() {
     $('btnPlay').addEventListener('click', () => {
       const v = $('video');
@@ -1523,14 +1676,15 @@
 
   async function init() {
     wireStatic();
+    keepTopHeight();
     // members' predictions arrive from the members API on their own time (members.js): fold them into the timeline
     document.addEventListener('sdm:data', () => { if (state.preds) { fillWho(); renderForecasts(); } });
     try {
-      const [index, preds, tracker, score, revs, weekly, th, fcData, pathsData] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
+      const [index, preds, tracker, score, revs, weekly, th, fcData, pathsData, benchData] = await Promise.all([getJSON('daily/data/index.json'), getJSON('daily/data/predictions.json'),
         getJSON('daily/data/tracker.json'), getOptional('daily/data/scorecard.json'), getOptional('daily/data/revisions.json'), getOptional('daily/data/weekly.json'),
-        getOptional('daily/th/data/links.json'), getOptional('daily/data/forecasters.json'), getOptional('daily/data/paths.json')]);
+        getOptional('daily/th/data/links.json'), getOptional('daily/data/forecasters.json'), getOptional('daily/data/paths.json'), getOptional('daily/data/benchmarks.json')]);
       if (!index.episodes || !index.episodes.length) throw new Error('no episodes yet');
-      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setForecasters(fcData, pathsData);
+      state.index = index; setPreds(preds); setTracker(tracker, th); setExtras(score, revs, weekly); setForecasters(fcData, pathsData); setBench(benchData);
       if (window.SDM) SDM.setDomains(state.preds.domains);
     } catch (e) {
       showLoadError(e);
