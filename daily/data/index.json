@@ -1,11 +1,23 @@
 {
- "updated": "2026-11-28T04:59:54+00:00",
+ "updated": "2026-11-28T09:46:34+00:00",
  "latest": "2026-11-28",
  "site": "https://peterxing.com/",
  "pages": "https://peterxing.github.io/singularity-daily/",
  "repo": "https://github.com/peterxing/singularity-daily",
  "videosOnPages": 7,
- "promo": null,
+ "promo": {
+  "name": "AI Singularity Syndicate",
+  "kind": "Monthly meetup",
+  "talk": "All things AI, and where we are on the singularity",
+  "speaker": "",
+  "start": "2027-01-29T18:00:00+11:00",
+  "end": "2027-01-29T20:30:00+11:00",
+  "venue": "Australian Catholic University",
+  "suburb": "North Sydney",
+  "city": "Sydney",
+  "price": "Free",
+  "url": "https://www.eventbrite.com.au/e/ai-singularity-syndicate-monthly-meetup-tickets-2004177233055"
+ },
  "data": "ffc0af604868",
  "episodes": [
   {
